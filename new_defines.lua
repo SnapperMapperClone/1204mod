@@ -1,0 +1,3 @@
+
+NDefines.NGame.START_DATE = "1204.5.16" --1271.12.18
+NDefines.NGame.END_DATE = "9999.12.31" --"2050.12.31"

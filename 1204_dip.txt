@@ -1,0 +1,100 @@
+# France
+
+royal_marriage = {
+	first = FRA
+	second = DAN
+	start_date = 1204.1.1
+	end_date = 1789.7.14
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = CHP
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = TOU
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = BUR
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = BOL
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = BLS
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = RET
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = NEV
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = BOU
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+#Eng
+
+dependency = {
+	subject_type = personal_union
+	first = ENG
+	second = GUY
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = personal_union
+	first = ENG
+	second = ANJ
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+#Iberia
+
+dependency = {
+	subject_type = personal_union
+	first = LON
+	second = GAL
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}

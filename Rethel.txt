@@ -1,0 +1,17 @@
+graphical_culture = westerngfx
+color = { 
+	182 16 16 
+}
+monarch_names = { 
+	Manasses = 80
+	Gervais = 40
+}
+leader_names = { 
+}
+ship_names = { 
+}
+fleet_names = { 
+}
+army_names = { 
+	"Armée de $PROVINCE$" 
+}

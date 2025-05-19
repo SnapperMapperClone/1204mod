@@ -1,0 +1,16 @@
+graphical_culture = westerngfx
+color = { 
+	52 188 120 
+}
+monarch_names = { 
+	Louis = 20
+	François = 10
+}
+leader_names = { 
+}
+ship_names = { 
+}
+fleet_names = { 
+}
+army_names = { 
+}
