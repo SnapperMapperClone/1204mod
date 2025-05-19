@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 3
+technology_group = muslim
+religion = sunni
+capital = 2362
+primary_culture = turkmeni

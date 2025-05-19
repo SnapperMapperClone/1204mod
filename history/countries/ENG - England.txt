@@ -1,0 +1,41 @@
+government = monarchy
+add_government_reform = english_monarchy
+mercantilism = 25
+technology_group = western
+primary_culture = english
+add_accepted_culture = gascon
+add_accepted_culture = normand
+religion = catholic
+capital = 236 # London
+
+change_estate_land_share = {
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -10
+}
+
+1199.1.1 = { #Coronation
+	monarch = {
+		name = "John I"
+		dynasty = "Plantagenêt"
+		birth_date = 1166.12.24
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+	
+	heir = {
+		name = "Henry"
+		monarch_name = "Henry III"
+		dynasty = "Plantagenêt"
+		birth_date = 1207.10.1
+		death_date = 9999.12.31
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

@@ -1,0 +1,65 @@
+government = monarchy
+add_government_reform = feudal_france_reform
+primary_culture = cosmopolitan_french
+add_accepted_culture = gascon
+add_accepted_culture = occitain
+religion = catholic
+technology_group = western
+capital = 183 # Paris
+national_focus = DIP
+historical_rival = HAB
+
+change_estate_land_share = {
+	estate = estate_nobles
+	share = 10
+}
+change_estate_land_share = {
+	estate = estate_church
+	share = -5
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -5
+}
+
+
+1179.11.1 = {
+	monarch = {
+		name = "Philippe II"
+		dynasty = "Capet"
+		birth_date = 1165.8.21
+		adm = 6
+		dip = 4
+		mil = 6
+	}
+}
+
+1810.4.1 = {
+    queen = {
+        country_of_origin = DAN
+        name = "Ingeburge"
+        dynasty = "Estridsen"
+        birth_date = 1174.1.1
+        death_date = 9999.12.31
+		culture = danish
+        female = yes
+        adm = 2
+        dip = 3
+        mil = 2
+    }
+    #add_queen_personality = careful_personality
+}
+
+1187.9.5 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis VIII"
+		dynasty = "de Valois"
+		birth_date = 1187.9.5
+		death_date = 9999.12.31
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 5
+	}
+}

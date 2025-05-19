@@ -1,0 +1,45 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = leonese
+religion = catholic
+technology_group = western
+capital = 208 #Leon
+
+1188.1.22 = {
+	monarch = {
+		name = "Alfonso IX"
+		dynasty = "d'Ivrée"
+		birth_date = 1171.8.15
+		adm = 3
+		dip = 2
+		mil = 2
+	}
+}
+
+1191.7.1 = {
+	heir = {
+		name = "Sancha" #Ferdinand III took over de facto but Alfonso appointed Sancha & Dulce as his heirs with an amendment to succession laws
+		monarch_name = "Sancha I"
+		dynasty = "d'Ivrée"
+		birth_date = 1191.7.1
+		death_date = 9999.1.1
+		female = yes
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+1197.1.1 = {
+	queen = {
+		country_of_origin = CAS
+		name = "Berenguela"
+		dynasty = "d'Ivrée"
+		birth_date = 1179.7.1
+		death_date = 9999.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,47 @@
+government = monarchy
+add_government_reform = burgundian_state_reform
+government_rank = 1
+primary_culture = burgundian
+add_accepted_culture = wallonian
+religion = catholic
+technology_group = western
+capital = 192	# Dijon
+
+1192.1.1 = {
+	monarch = {
+		name = "Eudes III"
+		dynasty = "de Bourgogne"
+		birth_date = 1166.1.1
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1199.1.1 = {
+	queen = {
+		name = "Alix"
+		dynasty = "de Vergy"
+		birth_date = 1182.1.1
+		death_date = 9999.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1213.3.9 = {
+	heir = {
+		name = "Hugues"
+		monarch_name = "Hugues IV"
+		dynasty = "de Bourgogne"
+		birth_date = 1204.4.14
+		death_date = 9999.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
