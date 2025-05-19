@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = greek
+religion = orthodox
+capital = 4701
+
+1204.5.16 = {
+	monarch = {
+		name = "Leo"
+		dynasty = "Sgouros"
+		dip = 2
+		adm = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = lombard
+add_accepted_culture = greek
+religion = catholic
+technology_group = western
+capital = 148 #Thessalonica
+fixed_capital = 148 
+
+1204.5.16 = {
+	monarch = {
+		name = "Boniface I"
+		dynasty = "Aleramici"
+		birth_date = 1150.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

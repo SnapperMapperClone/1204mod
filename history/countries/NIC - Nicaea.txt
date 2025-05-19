@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = greek
+religion = orthodox
+technology_group = eastern
+historical_rival = LAT
+capital = 4942 # Nicaea
+fixed_capital = 4942 
+
+1204.5.16 = {
+	monarch = {
+		name = "Theodoros I"
+		dynasty = "Laskaris"
+		birth_date = 1171.1.1		
+		adm = 1
+		dip = 2
+		mil = 1
+	}
+}

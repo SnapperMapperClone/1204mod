@@ -1625,6 +1625,9 @@ french	= {
 		
 		primary = QUE
 	}
+	outremer = {
+	
+	}
 	anglois = {
 		primary = AVE
 		dynasty_names = { 

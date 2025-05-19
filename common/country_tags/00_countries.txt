@@ -1102,3 +1102,24 @@ ISR = "countries/Israel.txt"
 #HAH = countries/Hashshashin.txt
 #TEM = countries/KnightsTemplar.txt
 #TRL = countries/Trapalanda.txt
+
+
+
+
+#NEW TAGS FOR 1204
+
+#BALKANS
+
+LAT = "countries/LatinEmpire.txt"
+TES = "countries/Thessalonica.txt"
+PHL = "countries/Philippopolis.txt"
+NIC = "countries/Nicaea.txt"
+COT = "countries/Corinth.txt"
+
+#ANATOLIA
+
+CLC = "countries/Cilicia.txt"
+
+#MIDDLE EAST
+
+AYB = "countries/AyyubidSultanate.txt"
