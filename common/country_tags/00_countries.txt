@@ -1123,3 +1123,14 @@ CLC = "countries/Cilicia.txt"
 #MIDDLE EAST
 
 AYB = "countries/AyyubidSultanate.txt"
+
+#zyp tags, 1204
+
+RET = "countries/Rethel.txt"
+ANJ = "countries/Anjou.txt"
+BOL = "countries/Boulogne.txt"
+BLS = "countries/Blois.txt"
+CJN = "countries/JinDynasty.txt"
+SNG = "countries/SongDynasty.txt"
+XIX = "countries/XiXia.txt"
+KHW = "countries/Khwarezm.txt"

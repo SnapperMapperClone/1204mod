@@ -1,0 +1,23 @@
+# 2113 - Gaizhou
+owner = CJN
+controller = CJN
+culture = shandong_culture
+religion = confucianism
+capital = "Gaizhou"
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+1519.1.1 = { discovered_by = POR }
+1620.1.1 = { 
+	controller = MCH
+	add_core = MCH
+}
+1636.5.15 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = CJN

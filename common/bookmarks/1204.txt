@@ -1,0 +1,11 @@
+bookmark =
+{
+	name = "1204_NAME"
+	desc = "1204_DESC"
+	date = 1204.5.16
+	
+	country = FRA
+	country = ENG
+	country = HUN
+	country = HAB
+}

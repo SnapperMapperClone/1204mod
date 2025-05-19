@@ -1,0 +1,27 @@
+#Jixi
+latent_trade_goods = { 
+	coal 
+}
+owner = CJN
+controller = CJN
+culture = manchu
+religion = tengri_pagan_reformed
+capital = "Jixi"
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+1616.1.1 = { 
+	controller = MCH
+	add_core = MCH
+	culture = manchu_new
+}
+1636.5.15 = { 
+	controller = QNG
+	add_core = QNG
+}
+1709.1.1 = { discovered_by = SPA }
+add_core = CJN

@@ -1,0 +1,24 @@
+# 2112 - Andong
+owner = CJN
+controller = CJN
+culture = manchu
+religion = confucianism
+capital = "Andong"
+trade_goods = grain
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+1519.1.1 = { discovered_by = POR }
+1619.4.18 = { 
+	controller = MCH
+	add_core = MCH
+	culture = manchu_new
+}
+1636.5.15 = { 
+	controller = QNG
+	add_core = QNG
+}
+add_core = CJN
