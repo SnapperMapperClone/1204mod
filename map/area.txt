@@ -1057,11 +1057,11 @@ macedonia_area = { #5 (Macedonia)
 }
 
 morea_area = { #4 Central Greece & Crete
-	145 146 163 1773 4701
+	145 146 163 1773 4701 4945
 }
 
 northern_greece_area = { #3 #Northern Greece
-	142 144 147 4699 4698
+	142 144 147 4699 4698 4944
 }
 
 thrace_area = { #5
@@ -1069,7 +1069,7 @@ thrace_area = { #5
 }
 
 bulgaria_area = { #5
-	150 1765 2746 2750 4703
+	150 1765 2746 2750 4703 4943
 }
 
 silistria_area = {
@@ -1181,7 +1181,7 @@ erzurum_area = { #3	Erzurum and Trebizond
 }
 
 hudavendigar_area = { #3
-	316 317 2296
+	316 317 2296 4942
 }
 
 germiyan_area = { #4
