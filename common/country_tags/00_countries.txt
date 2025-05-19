@@ -1108,6 +1108,13 @@ ISR = "countries/Israel.txt"
 
 #NEW TAGS FOR 1204
 
+#FRANCE
+
+RET = "countries/Rethel.txt"
+ANJ = "countries/Anjou.txt"
+BOL = "countries/Boulogne.txt"
+BLS = "countries/Blois.txt"
+
 #BALKANS
 
 LAT = "countries/LatinEmpire.txt"
@@ -1124,13 +1131,12 @@ CLC = "countries/Cilicia.txt"
 
 AYB = "countries/AyyubidSultanate.txt"
 
-#zyp tags, 1204
+#IRAN
 
-RET = "countries/Rethel.txt"
-ANJ = "countries/Anjou.txt"
-BOL = "countries/Boulogne.txt"
-BLS = "countries/Blois.txt"
+KHW = "countries/Khwarezm.txt"
+
+#CHINA
+
 CJN = "countries/JinDynasty.txt"
 SNG = "countries/SongDynasty.txt"
 XIX = "countries/XiXia.txt"
-KHW = "countries/Khwarezm.txt"
