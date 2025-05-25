@@ -15,23 +15,8 @@ national_focus = DIP
 		name = "Sancho I"
 		dynasty = "de Bourgogne"
 		birth_date = 1158.1.1
-		death_date = 9999.1.1
 		adm = 2
 		dip = 2
-		mil = 2
-	}
-}
-
-1185.4.23 = {
-	heir = {
-		name = "Afonso"
-		monarch_name = "Afonso II"
-		dynasty = "de Bourgogne"
-		birth_date = 1204.4.14
-		death_date = 9999.1.1
-		claim = 95
-		adm = 1
-		dip = 1
 		mil = 2
 	}
 }

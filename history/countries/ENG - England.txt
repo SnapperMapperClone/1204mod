@@ -26,16 +26,4 @@ change_estate_land_share = {
 		dip = 3
 		mil = 2
 	}
-	
-	heir = {
-		name = "Henry"
-		monarch_name = "Henry III"
-		dynasty = "Plantagenêt"
-		birth_date = 1207.10.1
-		death_date = 9999.12.31
-		claim = 95
-		adm = 3
-		dip = 3
-		mil = 3
-	}
 }
