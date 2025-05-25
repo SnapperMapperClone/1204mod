@@ -1,0 +1,27 @@
+#291 - Kharkov
+
+latent_trade_goods = {
+	coal
+}
+
+owner = CKC
+controller = CKC
+culture = crimean
+religion = tengri_pagan_reformed
+hre = no
+base_tax = 2
+base_production = 2
+trade_goods = iron 
+base_manpower = 1
+capital = "Belgorod"
+is_city = yes
+add_core = CKC
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+
+

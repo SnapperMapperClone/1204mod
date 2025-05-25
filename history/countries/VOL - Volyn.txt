@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = eastern
+religion = orthodox
+primary_culture = ruthenian
+capital = 279	# Volhynia
+
+1170.1.1 = {
+	monarch = {
+		name = "Roman I"
+		dynasty = "Rurikovich"
+		birth_date = 1152.4.4
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

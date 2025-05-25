@@ -1123,6 +1123,12 @@ PHL = "countries/Philippopolis.txt"
 NIC = "countries/Nicaea.txt"
 COT = "countries/Corinth.txt"
 
+#RUSSIA
+
+TUV = "countries/Turov.txt"
+VLD = "countries/Vladimir.txt"
+VLG = "countries/VolgaBulgaria.txt"
+
 #ANATOLIA
 
 CLC = "countries/Cilicia.txt"
@@ -1134,6 +1140,10 @@ AYB = "countries/AyyubidSultanate.txt"
 #IRAN
 
 KHW = "countries/Khwarezm.txt"
+
+#CENTRAL ASIA
+
+CKC = "countries/Cumania.txt"
 
 #CHINA
 

@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_federation
+technology_group = muslim
+primary_culture = bulgar
+religion = sunni
+capital = 4267 #Bulgar
+
+1178.1.1 = {
+	monarch = {
+		name = "Ghabdula Chelbir"
+		dynasty = "Dulo"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
