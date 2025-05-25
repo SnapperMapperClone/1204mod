@@ -1,7 +1,7 @@
-# 1879 - Alenï¿½on
-owner = ANJ
-controller = ANJ
-capital = "Alenï¿½on"
+# 1879 - Alençon
+owner = FRA
+controller = FRA
+capital = "Alençon"
 is_city = yes
 culture = cosmopolitan_french
 religion = catholic
@@ -19,6 +19,6 @@ discovered_by = ottoman
 1449.3.24 = { 
 	controller = FRA
 }
-1686.1.17 = { religion = catholic }
+1686.1.17 = { religion = Catholic }
 1786.1.1 = { base_tax = 6 base_production = 6 }
 add_core = ANJ

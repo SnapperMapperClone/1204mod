@@ -1,0 +1,25 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+primary_culture = burgundian
+capital = 191	# Nevers
+fixed_capital = 191 # Cannot move capital away from this province & no power cost to move to it
+
+1158.8.31 = {
+	monarch = {
+		name = "Mathilde I"
+		dynasty = "de Courtenay"
+		birth_date = 1188.1.1
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1659.7.11 = { set_legacy_government = administrative_monarchy } # Mazarin
+
+1661.3.9 = { government = monarchy
+add_government_reform = autocracy_reform }

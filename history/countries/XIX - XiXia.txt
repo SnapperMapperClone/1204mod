@@ -5,3 +5,28 @@ technology_group = chinese
 religion = confucianism
 capital = 698
 primary_culture = tibetan
+
+1193.10.16 = {
+	monarch = {
+		name = "Chunyou"
+		dynasty = "Li"
+		birth_date = 1177.1.1
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1193.10.16 = {
+	heir = {
+		name = "Anquan"
+		dynasty = "Li"
+		birth_date = 1170.4.14
+		death_date = 9999.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

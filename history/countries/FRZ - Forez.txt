@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = appanage_reform
+government_rank = 1
+technology_group = western
+religion = catholic
+capital = 4777
+primary_culture = occitain
+
+1158.8.31 = {
+	monarch = {
+		name = "Guiges IV"
+		dynasty = "d'Albon"
+		birth_date = 1155.11.11
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

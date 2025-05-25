@@ -5,3 +5,15 @@ technology_group = western
 religion = catholic
 capital = 181
 primary_culture = wallonian
+
+1199.1.1 = {
+	monarch = {
+		name = "Hugues II"
+		dynasty = "de Vitre"
+		birth_date = 1160.1.1
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

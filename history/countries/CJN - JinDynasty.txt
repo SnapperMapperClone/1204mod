@@ -5,3 +5,28 @@ technology_group = chinese
 religion = confucianism
 capital = 1816
 primary_culture = manchu
+
+1189.1.20 = {
+	monarch = {
+		name = "Jing"
+		dynasty = "Wanyan"
+		birth_date = 1168.8.31
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1204.4.14 = {
+	heir = {
+		name = "Yongji"
+		dynasty = "Wanyan"
+		birth_date = 1170.1.1
+		death_date = 9999.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

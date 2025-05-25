@@ -1,0 +1,45 @@
+government = monarchy
+add_government_reform = appanage_reform
+government_rank = 1
+primary_culture = occitain
+add_accepted_culture = occitain
+religion = catholic
+technology_group = western
+capital = 196	# Toulouse
+fixed_capital = 196 # Cannot move capital away from this province & no power cost to move to it
+
+1158.8.31 = {
+	monarch = {
+		name = "Raymond VI"
+		dynasty = "de Toulouse"
+		birth_date = 1155.11.11
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1197.7.1 = {
+	heir = {
+		name = "Raymond"
+		monarch_name = "Raymond VII"
+		dynasty = "de Toulouse"
+		birth_date = 1197.7.1
+		death_date = 9999.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
+
+1515.1.1 = { government = monarchy
+add_government_reform = autocracy_reform }
+
+1560.1.1 = { religion = reformed }
+
+1589.8.3 = { set_legacy_government = administrative_monarchy }
+
+1661.3.9 = { government = monarchy
+add_government_reform = autocracy_reform }

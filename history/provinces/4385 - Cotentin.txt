@@ -1,6 +1,6 @@
 # 4385 Cotentin Peninsula - Principal cities: Cherbourg, Avranches
-owner = ANJ
-controller = ANJ
+owner = FRA
+controller = FRA
 capital = "Cherbourg"
 is_city = yes
 culture = normand
@@ -21,4 +21,5 @@ center_of_trade = 1
 1465.8.15 = { controller = NRM }
 1466.3.6 = { controller = FRA }
 1786.1.1 = { base_tax = 5 base_production = 5 }
+add_core = FRA
 add_core = ANJ

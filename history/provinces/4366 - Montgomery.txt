@@ -25,5 +25,5 @@ discovered_by = eastern
 	controller = GBR
 	add_core = GBR
 }
-1750.1.1 = { religion = reformed }
+1750.1.1 = { religion = Reformed }
 fort_15th = yes

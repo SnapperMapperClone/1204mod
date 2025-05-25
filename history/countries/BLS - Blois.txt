@@ -5,3 +5,43 @@ technology_group = western
 capital = 4776
 religion = catholic
 primary_culture = cosmopolitan_french
+
+1191.1.1 = {
+	monarch = {
+		name = "Louis I"
+		dynasty = "de Blois"
+		birth_date = 1172.1.1
+		death_date = 9999.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1170.1.1 = {
+	queen = {
+		country_of_origin = ENG
+		name = "Eleanor"
+		dynasty = "Plantagenêt"
+		birth_date = 1161.1.1
+		death_date = 9999.1.1
+		female = yes
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+
+1204.4.14 = {
+	heir = {
+		name = "Enrique"
+		monarch_name = "Enrique I"
+		dynasty = "d'Ivrée"
+		birth_date = 1204.4.14
+		death_date = 9999.1.1
+		claim = 95
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}
