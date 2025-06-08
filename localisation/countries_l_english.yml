@@ -1399,16 +1399,3 @@
  TOR_ADJ:0 "Tortugan"
  MRK:0 "Marrakesh"
  MRK_ADJ:0 "Marrakesh"
-
-#NEW TAGS
-
- NIC: "Nicaea"
- NIC_ADJ: "Nicaean"
- LAT: "Latin Empire"
- LAT_ADJ: "Latin"
- TES: "Thessalonica"
- TES_ADJ: "Thessalinocan"
- PHL: "Philippopolis"
- PHL_ADJ: "Philippopolian"
- COT: "Corinth"
- COT_ADJ: "Corinthian"

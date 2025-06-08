@@ -1129,21 +1129,30 @@ TUV = "countries/Turov.txt"
 VLD = "countries/Vladimir.txt"
 VLG = "countries/VolgaBulgaria.txt"
 
+CKC = "countries/Cumania.txt"
+
 #ANATOLIA
 
 CLC = "countries/Cilicia.txt"
+AHL = "countries/Ahlat.txt"
 
 #MIDDLE EAST
 
 AYB = "countries/AyyubidSultanate.txt"
+ABA = "countries/Abbasids.txt"
 
 #IRAN
 
 KHW = "countries/Khwarezm.txt"
+SLG = "countries/Salghurids.txt"
+ELD = "countries/Eldiguzids.txt"
 
 #CENTRAL ASIA
 
-CKC = "countries/Cumania.txt"
+GHU = "countries/Ghurid.txt"
+QKT = "countries/QaraKhitai.txt"
+
+#INDIA
 
 #CHINA
 
