@@ -20,6 +20,8 @@ country_event = {
 
 	trigger = {
 		owns = 151
+		exists = TRE
+		exists = EPI
 	}
 
 	mean_time_to_happen = {
