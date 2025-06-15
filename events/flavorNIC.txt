@@ -1,6 +1,6 @@
 namespace = flavor_nic
 
-#Conquest of Constantinople
+#Conquest of Constantinople - Trebizond and Epirus still exist
 country_event = {
 	id = flavor_nic.1
 	title = flavor_nic.1.t
@@ -19,9 +19,12 @@ country_event = {
 	}
 
 	trigger = {
+		tag = NIC
 		owns = 151
-		exists = TRE
-		exists = EPI
+		AND = {
+			exists = TRE
+			exists = EPI
+		}
 	}
 
 	mean_time_to_happen = {
@@ -29,7 +32,7 @@ country_event = {
 	}
 
 	option = {
-	name = flavor_nic.1.a
+		name = flavor_nic.1.a
 		if = {
 			limit = {
 				exists = TRE
@@ -58,5 +61,143 @@ country_event = {
 				  target = EPI
 			}
 		}
+	}
+}
+
+#Conquest of Constantinople - Only Trebizond exists
+country_event = {
+	id = flavor_nic.2
+	title = flavor_nic.1.t
+	desc = flavor_nic.2.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		tag = NIC
+		owns = 151
+		exists = TRE
+		NOT = {
+			exists = EPI
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_nic.1.a
+		if = {
+			limit = {
+				exists = TRE
+				valid_for_personal_unions_trigger = yes
+				TRE = {
+		  			valid_for_personal_unions_trigger = yes
+			  	}
+			  }
+			  add_casus_belli = {
+				  type = cb_restore_personal_union
+				  months = 300
+				  target = TRE
+			  }
+		  }
+	}
+}
+
+#Conquest of Constantinople - Only Epirus exists
+country_event = {
+	id = flavor_nic.2
+	title = flavor_nic.1.t
+	desc = flavor_nic.3.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		tag = NIC
+		owns = 151
+		exists = EPI
+		NOT = {
+			exists = TRE
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_nic.1.a
+		if = {
+			limit = {
+				exists = EPI
+				valid_for_personal_unions_trigger = yes
+				EPI = {
+		  			valid_for_personal_unions_trigger = yes
+			  	}
+			  }
+			  add_casus_belli = {
+				  type = cb_restore_personal_union
+				  months = 300
+				  target = EPI
+			  }
+		  }
+	}
+}
+
+#Conquest of Constantinople - Trebizond and Epirus no longer exist
+country_event = {
+	id = flavor_nic.4
+	title = flavor_nic.1.t
+	desc = flavor_nic.4.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		tag = NIC
+		owns = 151
+		NOT = {
+			AND = {
+				exists = TRE
+				exists = EPI
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_nic.4.a
 	}
 }
