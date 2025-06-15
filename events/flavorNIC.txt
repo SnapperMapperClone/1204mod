@@ -1,1 +1,59 @@
 namespace = flavor_nic
+
+#Conquest of Constantinople
+country_event = {
+	id = flavor_nic.1
+	title = flavor_nic.1.t
+	desc = flavor_nic.1.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+  trigger = {
+    owns = 151
+  }
+
+	mean_time_to_happen = {
+		months = 12
+  }
+
+  option = {
+    name = flavor_nic.1.a
+		  if = {
+			  limit = {
+				  exists = TRE
+				  valid_for_personal_unions_trigger = yes
+	  			TRE = {
+		  			valid_for_personal_unions_trigger = yes
+			  	}
+			  }
+			  add_casus_belli = {
+				  type = cb_restore_personal_union
+				  months = 300
+				  target = TRE
+			  }
+		  }
+		  if = {
+			  limit = {
+				  exists = EPI
+				  valid_for_personal_unions_trigger = yes
+	  			EPI = {
+		  			valid_for_personal_unions_trigger = yes
+			  	}
+			  }
+			  add_casus_belli = {
+				  type = cb_restore_personal_union
+				  months = 300
+				  target = EPI
+			  }
+		  }
+}
