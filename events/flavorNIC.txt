@@ -199,5 +199,23 @@ country_event = {
 
 	option = {
 		name = flavor_nic.4.a
+		change_tag = BYZ
+		hidden = {
+			every_province = {
+				limit = {
+					culture_group = byzantine
+				}
+				add_core = BYZ
+			}
+			every_province = {
+				limit = {
+					OR = {
+						region = balkan_region
+						region = anatolia_region
+					}
+				}
+				add_permanent_claim = BYZ
+			}
+		}
 	}
 }
