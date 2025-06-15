@@ -202,6 +202,7 @@ country_event = {
 		change_tag = BYZ
 		swap_non_generic_missions = yes
 		on_change_tag_effect = yes
+		set_government_rank = 3
 		hidden = {
 			every_province = {
 				limit = {
