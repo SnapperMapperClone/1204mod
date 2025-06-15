@@ -1,0 +1,19 @@
+government = monarchy
+primary_culture = Norwegian
+unit_type = western
+add_government_reform = feudalism_reform
+religion = catholic
+technology_group = western
+capital = 369 #Orkney
+
+1139.1.1 = {
+	monarch = {
+		name = "Haraldr"
+		dynasty = "Dunkeld"
+		culture = icelandic
+		birth_date = 1134.1.1
+		adm = 3
+		dip = 5
+		mil = 4
+	}
+}
