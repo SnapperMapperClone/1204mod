@@ -116,7 +116,7 @@ country_event = {
 
 #Conquest of Constantinople - Only Epirus exists
 country_event = {
-	id = flavor_nic.2
+	id = flavor_nic.3
 	title = flavor_nic.1.t
 	desc = flavor_nic.3.d
 	picture = {
