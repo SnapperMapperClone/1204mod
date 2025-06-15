@@ -1154,6 +1154,8 @@ QKT = "countries/QaraKhitai.txt"
 
 #INDIA
 
+CLS = "countries/Chola.txt"
+
 #CHINA
 
 CJN = "countries/JinDynasty.txt"
