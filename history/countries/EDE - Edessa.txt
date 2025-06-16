@@ -1,0 +1,50 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = outremer
+add_accepted_culture = seleucid
+religion = catholic
+technology_group = western
+capital = 2308 # Edessa
+
+
+1358.1.1 = {
+	monarch = {
+		name = "Baldwin I"
+		dynasty = "de Boulogne"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1392.7.18 = {
+	monarch = {
+		name = "Baldwin II"
+		dynasty = "de Boulogne"
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1418.4.2 = {
+	monarch = {
+		name = "Joscelin I"
+		dynasty = "de Courtenay"
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+}
+
+1437.1.1 = {
+	monarch = {
+		name = "Joscelin II"
+		dynasty = "de Courtenay"
+		adm = 1
+		dip = 3
+		mil = 3
+	}
+}
+
