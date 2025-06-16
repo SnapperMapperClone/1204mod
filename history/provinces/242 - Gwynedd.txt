@@ -1,6 +1,6 @@
 #242 - Gwynedd
-owner = WLS
-controller = WLS
+owner = GWY
+controller = GWY
 culture = welsh
 religion = catholic
 base_tax = 2
