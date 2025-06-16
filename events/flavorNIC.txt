@@ -222,3 +222,82 @@ country_event = {
 		}
 	}
 }
+
+#Reunite the empire
+country_event = {
+	id = flavor_nic.5
+	title = flavor_nic.1.t
+	desc = flavor_nic.5.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		tag = NIC
+		owns = 151
+		OR = {
+			NOT = { exists = TRE }
+			AND = {
+				exists = TRE
+				TRE = { is_subject_of = ROOT }
+			}
+		}
+		OR = {
+			NOT = { exists = EPI }
+			AND = {
+				exists = EPI
+				EPI = { is_subject_of = ROOT }
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_nic.4.a
+		if = {
+			limit = {
+				exists = TRE
+			}
+			inherit = TRE
+		}
+		if = {
+			limit = {
+				exists = EPI
+			}
+			inherit = EPI
+		}
+		change_tag = BYZ
+		swap_non_generic_missions = yes
+		on_change_tag_effect = yes
+		set_government_rank = 3
+		hidden_effect = {
+			every_province = {
+				limit = {
+					culture_group = byzantine
+				}
+				add_core = BYZ
+			}
+			every_province = {
+				limit = {
+					OR = {
+						region = balkan_region
+						region = anatolia_region
+					}
+				}
+				add_permanent_claim = BYZ
+			}
+		}
+	}
+}
