@@ -21,6 +21,7 @@ country_event = {
 	trigger = {
 		tag = NIC
 		owns = 151
+		NOT = { exists = BYZ }
 		AND = {
 			exists = TRE
 			exists = EPI
@@ -85,6 +86,7 @@ country_event = {
 	trigger = {
 		tag = NIC
 		owns = 151
+		NOT = { exists = BYZ }
 		exists = TRE
 		NOT = {
 			exists = EPI
@@ -135,6 +137,7 @@ country_event = {
 	trigger = {
 		tag = NIC
 		owns = 151
+		NOT = { exists = BYZ }
 		exists = EPI
 		NOT = {
 			exists = TRE
@@ -185,6 +188,7 @@ country_event = {
 	trigger = {
 		tag = NIC
 		owns = 151
+		NOT = { exists = BYZ }
 		NOT = {
 			AND = {
 				exists = TRE
@@ -244,6 +248,7 @@ country_event = {
 	trigger = {
 		tag = NIC
 		owns = 151
+		NOT = { exists = BYZ }
 		OR = {
 			NOT = { exists = TRE }
 			AND = {
