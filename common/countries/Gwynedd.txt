@@ -1,5 +1,6 @@
 #Gwynedd
 
+religion = catholic
 graphical_culture = westerngfx
 color = { 135, 28, 20 }
 historical_idea_groups = {
