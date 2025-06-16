@@ -8,8 +8,12 @@ historical_idea_groups = {
   quality_ideas
   diplomatic_ideas
   expantion_ideas
-  religious_ideas}
-
+  religious_ideas
+}
+monarch_names = {
+"Llywelyn #2" = 20
+"Cadwaladr#1" = 5
+}
 
 
 
