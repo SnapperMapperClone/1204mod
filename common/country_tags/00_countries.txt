@@ -1142,6 +1142,12 @@ AHL = "countries/Ahlat.txt"
 AYB = "countries/AyyubidSultanate.txt"
 ABA = "countries/Abbasids.txt"
 
+#CRUSADER STATES
+
+ANC	= "countries/Antioch.txt"
+EDE	= "countries/Edessa.txt"
+TPL	= "countries/CountyOfTripoli.txt"
+
 #IRAN
 
 KHW = "countries/Khwarezm.txt"
