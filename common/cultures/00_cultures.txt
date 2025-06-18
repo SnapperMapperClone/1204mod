@@ -3570,6 +3570,24 @@ caucasian = {
 			Tamari Tamar Taplo Tinatini Tsiala Vardo
 		}
 	}
+	avar = {
+		primary = AVR
+		dynasty_names = {
+			Shamkhal Kumukh
+		}
+		male_names = {
+			Almish Alp Alzek Anzi Apskhih Araslan Asparukh Bagha Baghatur Balamb r Barjik Bars Barsbek Bashtwa Bastu Bataul Batbayan Batoya Batulia Bayan Belkermak Bezmer Bihor Boyan Bugha Bughra Bulan Bulger Bul an Busir Buzan Buzer 
+			Chepa Chinialush Dengizikh Dizeng Dometa Dristar Drong Dukum Elemag Ellak Ernakh Eskhakh Goleda Gostun Guar Hudbad Iani Ilik Ilt b r Irnek Isbul Islivan Isperikh Ispor Itakh Kamaj Kano Karadakh Karan Karaton Kardam Kayghalagh Kharaton Khatir Khinialon 
+			Khudbard Khuterkin Kibar Kisa Kordil Kormesiy Kormisosh Kotrag Krovat Krum Kuber Kubrat Kunda  Kunda iq Kurt Kutrigur K la  Labertam Magotin Malamir Mugel M n r M n s M n mar t Odolgan Okhsi Okhsun Okors Omurtag Onegavon Organ Organa Ornag 
+			Oshi Ostro Pagan Pakhtiyar Papa yz Pav l Praksa Rassate Rugila Sabin Samsam Sandil Sandilkh Sarkhan Sart   Savin Sevar Shilki Simsam Sondoke Tabgha  Tarasiy Taridin Tarkhan Tarma  Tatra Telec Telerig Tervel
+			Tingiz Tiradin Toghan Toghr l Tokhtaman Toktu Tsog Tsul Tuk Tuzniq T b r T htaman Umor Uturgur Vakrim Venda Vetam Vinekh Yabghu Yani Yavantey Yen epi Yerneslu Ye tirek Yilig Zabergan Zenti
+
+		}
+		female_names = {
+			Akgul Asli Ayasun Ayten Boz in Dilek Esin Gulay Gundes Gunduz Gunes Ikalay Ilkay Ipek Ipekel Irge Karacik Khatun K tyarikka K lnissa K lyamal Lyukha Mala Maturkka Mutlu Na a Parsbit Patiyer Payk lti Peksen 
+			Puyantay Samur Sarantay Sarica Sarikel Sar  Sati Sava ka Savilay Savintik Savk lti Savtilek Shurkka Sibel Sirin Sirma Songul Tek e Tura Tehtani Umay Usunbike Yartilek Yasar Yeldem Yildiz
+		}
+	}
 	circassian = {
 		primary = CIR
 		male_names = {
@@ -3863,7 +3881,7 @@ turko_semitic = { #Levantine
 		}
 	}
 	yemeni_culture = {
-		primary = ADE
+		primary = YEM
 		dynasty_names = {
 			"Rasulid" "Tahiride" "Jabrid" "al-Qasimi"
 			"Nabhani" "Yaruba" "Usfurid" "Jarwanid"
@@ -9689,12 +9707,23 @@ cushitic = {
 
 sudanese = {
 	graphical_culture = africangfx
-	
+
+	old_egyptian = {
+		dynasty_names = {
+			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
+		}
+		male_names = {
+			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai" Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep "Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
+		}
+		female_names = {
+			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
+		}
+	}
 	acholi = {
 		
 	}
 	nubian = {
-		primary = NUB
+		primary = NBI
 	}
 	beja = {
 		primary = BEJ
@@ -10098,17 +10127,6 @@ lost_cultures_group = {
 			Adelpha Agape Airlea Akantha Alexis Alkyone Antigone Apollonia Aristomache Artemisia Aspacia Athenais Berenice Charis Cleopatra Cynna Demetria Diantha Dionysia 
 			Elpis Eirene Eudocia Eunice Euphemia Eurydice Euthalia Evgenia Helen Hypatia Kandake Kassandra Megaira Melaina Narkissa Nysa Olympia Phila Phile 
 			Ptolema Sofia Sostrate Stratonice Thais Theophila Thetima Thessaloniki Thorakis Timo Xanthe Xene Xenia Zoe Zona
-		}
-	}
-	old_egyptian = {
-		dynasty_names = {
-			Thinis Memphis Abydos Herakleopolis Thebes Itjtawy Avaris Bubastis Sais
-		}
-		male_names = {
-			Seka Khayu Tiu Thesh Neheb Wazner Mekh "Iry-Hor" Sekhen Serqer Narmer "Hor-Aha" Djer Djet Den Semerkhet "Qa'a" Sneferka Raneb Nynetjer Senedj Neferkara Hudjefa Djoser Sekhemkhet Sanakht Khaba Huni Sneferu Khufu Khafre Djdefre Menkaure Thamphtis Userkaf Sahure Neferefre Shepseskare Nyuserre Unas Teti "Dejkadre Shemai" Neferkare Merenhor Nikare Intef "Sankhkare Mentuhotep" Menkare Segerseni Senusret Nerikare Sonbef Sebkay Sobekhotep Dedumose Sheeshi Nehesy Sheneh Semenre Rahotep "Nebpehtire Ahmose" Amenhotep Thutmose  "Awybre Hor" Akhenaten Tutankhamun Ramesses Herihor Piankh Pinedjem Masaharta Menkheperre Smendes Pinedjem
-		}
-		female_names = {
-			"Sobekkare Sobekneferu" Hatshepsut Tentamun Nitocris Neit Cleopatra Neferneferuaten Nefertiti 
 		}
 	}
 	roman = { #EU Rome
