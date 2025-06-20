@@ -1,11 +1,11 @@
 government = monarchy
-add_government_reform = autocracy_reform
+add_government_reform = feudalism_reform
+government_rank = 1
 primary_culture = outremer
 add_accepted_cutlture = assyrian
 religion = catholic
-technology_group = muslim
-government_rank = 1
-capital = 5194
+technology_group = western
+capital = 411
 
 
 1442.1.1 = {
