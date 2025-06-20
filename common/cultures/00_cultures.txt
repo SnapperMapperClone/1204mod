@@ -505,6 +505,41 @@ scandinavian = { #Nordic
 			"Gylta" "Lillie" "Puke" "Slatte"  "Stiernkors" "Fincke" "Dufva" "Cronstedt"
 		}
 	}
+	scanian = {
+		male_names = {
+			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard 
+			Einar Fredrik Gorm Grim Hårik 
+			Halfdan Halvor Harold Helge Hemming Hjalmar Ingolf Jørn Jacob Jens Joakim Johann
+			John Knut Kristian Lennart Ludvig Louis Malthe Mads Mikkel Michael 
+			Mogens Nicholas Odd Olav Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin 
+			Sigfred Sigtryg Sigurd Sivard Steen Sven Sämund Thorolf Thorvald Torben Torbjørn Glitterhov
+			Torbjörn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
+			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm 
+			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans Henrik 
+			Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
+			Frans Gnupa
+		}
+		female_names = {
+			Sophie Dorothe Margrete Sigrun
+			Agnethe Anna Asta Benedikte Benedicta Birgitta Brigid Bodil Cecilie Cecilia Christina Dagmar 
+			Dorothea Dorothy Elisabeth Ellinor Eleanor Emilie Emily Erika Ester Estrid Astrid Frederikke 
+			Frederique Freja Grethe Gudrun Gunhild Gyda Gytha Helena Helen Ida Ingeborg Ingegerd Ingrid 
+			Johanne Jutta Karin Karoline Katarina Katrine Catherine Kirsten Klara Lise Luitgard Lykke
+			Magdalene Magdalena Maren Margrethe Margaret Maria Martha Ragnfrid Ragnhild Rikissa Runa 
+			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Åse Åsa
+		}
+		dynasty_names = {
+			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
+			"Friis" "Gyllenstierna" "Bille" "Adeler" "Arenstorff" "Brockenhuus"
+			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
+			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
+			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
+			# CKII
+			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
+			"Reventlow" "Juul" "Ulfeldt" "Bang" 
+			Alfredsson Andersson Assarsson Batra Billgren Broman Ekberg Glans Gjedde Glenmark Hansson Jansson Ibrahimovic Järegård Kulle Larsson Lohmander Lundberg Malmkvist Malmsjö Melander Möller Nordqvist Nordström Ohlmarks Persson Poppe Ranelid Sundström Troell Wester Olsson
+		}
+	}
 	danish = {
 		primary = DAN
 		male_names = {
@@ -4319,6 +4354,21 @@ iranian	= {
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya 
 		}
 	}
+	parthian = { #EU Rome
+		dynasty_names = {
+			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid
+		}
+		male_names = {
+			Abdagas Ara Aram Aramu Arbaces Ardashir Argishti Ariovast Arkha Armin Arsaces Arsames Artabanus Artabazus Artasyras Artavazd 
+			Artaxias Aryanes Asheri Asina Ashina Astashpa Astyages Atamaita Aturpat Bagayash Bayad Chosroes Cyaxares Cyrus Darius Deioces 
+			Evagoras Fravarti Gaumata Gobryas Gotarzes Haldita Hidarnes Hydarnes Manchihr Mardonius Martiya Mazaces Megabyzus Menua Nambed 
+			Napad Orodes Orxines Osroes Oxydates Pacorus Peucestas Phraates Phraortes Rusa 	Sames Sarduri Sarsamas Savaces Shapur Sinatruces 
+			Tigraios Tigranes Tiridates Umamaita Upadarma Vahbarz Vardanes Vologases Vonones Xerxes
+		}
+		female_names = {
+			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
+		}
+	}
 	baluchi = {
 		primary = BAL
 		dynasty_names = {
@@ -4382,7 +4432,63 @@ iranian	= {
 			êlaz îlan înî îwen
 		}
 	}
-	afghani= {
+	tajik = {
+		primary = AFG
+		male_names = {
+			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
+			Behrad Behram Bahram Behrouz Bextîyar Bakhtiar Bozorg Cehandar Jahandar Cehangir Jahangir
+			Cehanah Jahanshah Cemîd Jamshid Cevid Javeed Danû Danush Darab Daryû Darius Davud David 
+			Ebrahim Abraham Efrasiyab Afrasiyab Efer Afshar Ehmed Ahmad Ehsan Zaman
+			Ekber Akbar Elî Ali Enûirwan Anushirvan Erdehan Ardahan Erdewan Ardavan Erdeîr Ardeshir 
+			Esfendiyar Esfandiar Mir Ways Humayun Ahmad Timur Shoja al-Mulk Muhammad Shoja Fath Jang Shahpur 
+			Eskander Alexander Eot Ashot Eyyub Ayyub Feramez Faramarz Feraz Faraz Fath Ferhad Farhad 
+			Ferhan Farhan Ferheng Farhang Feriburz Fariborz Ferîd Farid
+			Ferîdun Feridun Ferux Farroukh Feruxzad Farrukhzad Ferzad Farzad Fezl Fadl Fezlun Fadlun 
+			Firdews Ferdows Ghobad Gholam Godarz Gotasp Goshtasb Hezarhesp Hazarasp Hafez Hedayat
+			Hesen Hasan Hisên Hussein Hormoz Hosen Hossein Humayun Hurmiz Hormazd Îsmaîl Ismail Kambiz 
+			Kamran Keyghobad Keyxusrew Keykhosrau Kâvus Kavoos
+			Kûruê Cyrus Mamlan Muhammad Mashad Mehmûd Mahmud Mehrab Mehrzad Mensûr Mansur Menûçihr 
+			Manuchihr Menûihr Manushihr Merwan Marwan Merzuban Marzuban Mesûd Masud
+			Mihemed Muhammad Mîrza Mirza Mistefa Mustafa Murad Morad Morteza Mozaffar Nard Naveed Nawid 
+			Nesir Nazir Mahmud Ayub
+			Nesr Nasr Nezam Noîrwan Nawshirwan Nêçîrvan Nechirwan Parviz Pujman Pêeng Pashang Pîroz Peroz 
+			Revend Rawwad Reza Ruhollah Rustam Rostam Sadri Salman Sina Surxap Surkhab Tahmasp Tahmasb
+			Vahhab Vahid Vahusdan Wahustan Vali Varasp Varshasb Vîtap Vishtasb Xarmandar Kharmandar 
+			Xaayar Khashayar 
+			Xurîd Khurshid Xusrew Khosrau Xuyar Hooshyar Xwedadad Khodadad Xwedayar Khudayar Yezîd Yazid 
+			Yousef Zahak Zakaria Zand Zerdet Zartosht Zia
+			adî Shadhi ahab Shahab ahbaz Shahbaz ahenah Shahanshah ahin Shahin ahram Shahram ahryar 
+			Shahryar ahrux Shahrokh ahruz Shahruz apur Shapur arvin Sharwin awur Shavur ayan Shayan 
+			îrkûh Shirkuh
+		}
+		female_names = {
+			Adan Adar Ara Ardil Arezo Arezu Ariyan Arêz Arîman Arîn Asan Asteng Asê Avan Azadî Azrîn Atî 
+			Badil Bahar Balnexîn Banê Barîn Bawan Baziyan Bazê Befraw Befrîn Begîxan Belalûk Belqis
+			Belîcan Benav Benaz Berbijîn Berdar Berdil Bersîn Berîcan Bexîn Beyan Beybîn Beybûn Bezîn 
+			Bihar Bijîn Bilêse Binar Binav Binef Binev Biyan Bikoj Bikurîn Bohar Bênaz Bêrîcan Bêrîvan 
+			Burandoxt Pourandokht
+			Dengîn Derav Derzîn Desmal Devken Dilar Dilaram Dilare Dilawaz Dilber Dilcan Dildar Dilgerm 
+			Dilistan Dilkanî Dilnaz Dilvîn Dilxo Dilxwe Diyarî Doman Dêrsim Dîlan Dîristan Esmercan 
+			Esmerxan Nawal
+			Estêre Evîn Ewrîn Eyan Ezcan Felek Fener Feraîn Firmêsk Fîdan Gazî Gelavêj Gerdengaz Gozel 
+			Gozê Grîvan Guhtem Gulbehar Golbahar Gulen Gulnar Gulnaz Golnaz Gêlas Helez Heliz Helvîn 
+			Hemayîl 
+			Kejê Keser Kevok Kevî Kewser Kezîzer Koçer Leylê Leymîn Lezîn Lolav Lorkê Lorî Lorîcan Lorîn 
+			Lêlav Lêvken Lîlyan Lîza Maa Mebest Mehrîban Mehrîcan Mehrîvan
+			Mejbîr Mendal Mercam Merîvan Mirarîxan Miryem Mariam Mizgîn Muhabad Mêmê Mêrdîn Mêxek Mîdya 
+			Mîran Narîman Narîncan Navbihar Nawxo Naz Nazdar Nazenîn Nazgul Nazgol Nazik Naznaz Nazê Nermê 
+			Nermîn Nesrîn Newbohar Nexîn
+			Nemîl Nemîn Norcan Nêrgiz Nêrîn Nêzîk Nîdar Nîgar Nîroj Nîan Nîtîman Perjîn Pervîn Perwane 
+			Parvaneh Perwîn Perçem Perî Perîgul Perînaz Perîxan Perîan Pexan Peyman Pirjîn Pireng 
+			Piring Pore Poreng Pêlîn Pîroz Pîeng 
+			Rana Rengîn Rewa Rewen Rihan Rindê Rojhelat Rojê Ronahî Ronak Rondik Rêjîn Rêzan Rîhan Rîken 
+			Rûciwan Rûge Rûken Rûzerîn Sarê Serbar Sercan Serferaz Serfiraz Sergul Serçinar Seyran Xatûn 
+			Xêlîcan Xonçe Ghoncheh Zernîan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn 
+			Zîlan Zînet Zînê ana anaz ayan ehrîban elal emam engê epal epirze ermîn evba evîn 
+			êlaz îlan înî îwen
+		}
+	}
+	afghani = {
 		primary = AFG
 		male_names = {
 			Abbas Abolhassan Alah-Verdi Allahyar Amin Aram Assad Aurang Ayeshah Azad Babek Babak Bahman 
@@ -10371,41 +10477,6 @@ lost_cultures_group = {
 			"Ridala" "Saaremaa" "Vaiga" "Turaida"
 		}
 	}
-	scanian = {
-		male_names = {
-			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard 
-			Einar Fredrik Gorm Grim Hårik 
-			Halfdan Halvor Harold Helge Hemming Hjalmar Ingolf Jørn Jacob Jens Joakim Johann
-			John Knut Kristian Lennart Ludvig Louis Malthe Mads Mikkel Michael 
-			Mogens Nicholas Odd Olav Peder Pridbjørn Ragnar Ragnvald Rolf Rune Rørik Rurik Severin 
-			Sigfred Sigtryg Sigurd Sivard Steen Sven Sämund Thorolf Thorvald Torben Torbjørn Glitterhov
-			Torbjörn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
-			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm 
-			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans Henrik 
-			Holger Jørgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
-			Frans Gnupa
-		}
-		female_names = {
-			Sophie Dorothe Margrete Sigrun
-			Agnethe Anna Asta Benedikte Benedicta Birgitta Brigid Bodil Cecilie Cecilia Christina Dagmar 
-			Dorothea Dorothy Elisabeth Ellinor Eleanor Emilie Emily Erika Ester Estrid Astrid Frederikke 
-			Frederique Freja Grethe Gudrun Gunhild Gyda Gytha Helena Helen Ida Ingeborg Ingegerd Ingrid 
-			Johanne Jutta Karin Karoline Katarina Katrine Catherine Kirsten Klara Lise Luitgard Lykke
-			Magdalene Magdalena Maren Margrethe Margaret Maria Martha Ragnfrid Ragnhild Rikissa Runa 
-			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis Åse Åsa
-		}
-		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "Gøye" "Trolle" "Rantzau"
-			"Friis" "Gyllenstierna" "Bille" "Adeler" "Arenstorff" "Brockenhuus"
-			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
-			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
-			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Grøn" "Daa"
-			"Reventlow" "Juul" "Ulfeldt" "Bang" 
-			Alfredsson Andersson Assarsson Batra Billgren Broman Ekberg Glans Gjedde Glenmark Hansson Jansson Ibrahimovic Järegård Kulle Larsson Lohmander Lundberg Malmkvist Malmsjö Melander Möller Nordqvist Nordström Ohlmarks Persson Poppe Ranelid Sundström Troell Wester Olsson
-		}
-	}
 	anglosaxon = { #CK2
 		dynasty_names = {
 			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
@@ -10462,21 +10533,6 @@ lost_cultures_group = {
 		}
 		female_names = {
 			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
-		}
-	}
-	parthian = { #EU Rome
-		dynasty_names = {
-			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid
-		}
-		male_names = {
-			Abdagas Ara Aram Aramu Arbaces Ardashir Argishti Ariovast Arkha Armin Arsaces Arsames Artabanus Artabazus Artasyras Artavazd 
-			Artaxias Aryanes Asheri Asina Ashina Astashpa Astyages Atamaita Aturpat Bagayash Bayad Chosroes Cyaxares Cyrus Darius Deioces 
-			Evagoras Fravarti Gaumata Gobryas Gotarzes Haldita Hidarnes Hydarnes Manchihr Mardonius Martiya Mazaces Megabyzus Menua Nambed 
-			Napad Orodes Orxines Osroes Oxydates Pacorus Peucestas Phraates Phraortes Rusa 	Sames Sarduri Sarsamas Savaces Shapur Sinatruces 
-			Tigraios Tigranes Tiridates Umamaita Upadarma Vahbarz Vardanes Vologases Vonones Xerxes
-		}
-		female_names = {
-			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
 		}
 	}
 	scythian = { #EU Rome
