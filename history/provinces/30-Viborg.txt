@@ -1,8 +1,8 @@
 #Viborgs län, incl. Viborg, Villmansstrand, and Kivinäbb.
 
-owner = FIN
-controller = FIN
-add_core = FIN
+owner = KRL
+controller = KRL	
+add_core = KRL
 culture = finnish
 religion = catholic
 hre = no

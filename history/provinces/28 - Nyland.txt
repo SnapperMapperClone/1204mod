@@ -1,8 +1,8 @@
 #Nyland, incl. Raseborg, Borgå, Helsingfors.
 
-owner = FIN
-controller = FIN
-add_core = FIN
+owner = SWE
+controller = SWE
+add_core = SWE
 culture = finnish
 religion = catholic
 hre = no

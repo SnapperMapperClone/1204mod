@@ -1,8 +1,8 @@
 #Finnish Lappland - Rovaniemi
 
-owner = FIN
-controller = FIN
-add_core = FIN
+owner = OST
+controller = OST
+add_core = OST
 culture = finnish #Probably also a large Sami population.
 religion = catholic
 hre = no

@@ -1,11 +1,12 @@
 #East Karelia
 
-owner = KRL
-controller = KRL
+owner = NOV
+controller = NOV
 capital = "Kem"
 culture = karelian
 religion = orthodox
 add_core = KRL
+add_core = NOV
 hre = no
 is_city = yes
 base_tax = 1 
