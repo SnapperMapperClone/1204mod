@@ -2,7 +2,7 @@
 
 owner = TPL
 controller = TPL
-culture = aramaic
+culture = maronite
 religion = catholic
 capital = "Tripoli" #Tripoli in the East.
 trade_goods = grain
