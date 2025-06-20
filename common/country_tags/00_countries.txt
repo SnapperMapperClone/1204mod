@@ -1148,6 +1148,8 @@ ABA = "countries/Abbasids.txt"
 ANC	= "countries/Antioch.txt"
 EDE	= "countries/Edessa.txt"
 TPL	= "countries/CountyOfTripoli.txt"
+NNV	= "countries/Nineveh.txt"
+
 
 #IRAN
 
