@@ -3,6 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = outremer
 add_accepted_culture = greek
+add_accepetd_culture = armenian
 religion = catholic
 technology_group = western
 capital = 2308 # Edessa
