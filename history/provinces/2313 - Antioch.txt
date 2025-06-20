@@ -1,16 +1,17 @@
 #2313 - Antioch
 
-owner = SYR
-controller = SYR
-culture = al_suryah_arabic
-religion = sunni
-capital = "Antakya"
+owner = ANC
+controller = ANC
+culture = greek
+religion = orthodox
+capital = "Antiocheia"
 trade_goods = cloth
 hre = no
 base_tax = 4
 base_production = 4
 base_manpower = 3
 is_city = yes
+add_core = ANC
 add_core = SYR
 discovered_by = muslim
 discovered_by = ottoman
