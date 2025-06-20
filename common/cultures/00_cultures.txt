@@ -3534,6 +3534,184 @@ byzantine = {
 	}
 }
 
+levantine_group = {
+	graphical_culture = muslimgfx
+	
+	sumerian = {
+		male_names = {
+			Alulim Alalngar En-men-lu-ana En-men-gal-ana Durmuzid En-sipad-zid-ana Ubara-tutu Jushur Etana Kullassina-bel
+			Nangishlishma En-tarah-ana Babum Puannum Kalibum Kalumum Zuqaqip Atab A-ba Mashda Arwium Etana Balih En-men-nuna
+			Melem-Kish Barsal-nuna Zamug Tizqar Ilku Iltasadum En-me-barage-si Aga Utu Mesh-ki-ang-gasher Enmerkar Lugalbanda
+			Duzumi Gilgamesh Ur-Nungal Udul-kalama La-ba'shum En-nun-tarah-ana Mesh-he Melem-ana Lugal-kitum Mesh-Ane-pada
+			Mesh-ki-ang-Nuna Elulu Balulu Susuda Dagasig Mamagal Kalbum Tuge Men-nuna Enbi-Ishtar Lugalngu Hadanish 
+			En-shag-kush-ana Lugal-ure Entemena Argandea Nanni Mesh-ki-ang-Nanna Lugal-Ane-mundu Anbu Anba Bazi Zizi Limer
+			Sharrum-iter Kug-Bau Unzi Undalulu Urur Puzur-Nirah Ishu Shu-Suen Puzur-Suen Ur-Zababa Zimudar Usi-watar Eshtar-muti
+			Ishme-Shamash Shu-ilishu Nanniya Lugal-zagesi Ur-ningin Ur-gigir Kuda Puzur-ili Ur-Utu Utu-hengal Ur-Nammu Shulgi
+			Amar-Suena Ibbi-Suen Ishbi-Erra Iddin-Dagan Ishme-Dagan Lipit-Eshtar Ur-Ninurta Bur-Suen Lipit-Enlil Erra-imitti 
+			Enlil-bani Zambiya Iter-pisha Ur-dur-kuga Suen-magir Damiq-ilishu An Enki Elil Marduk Erra Asarluhhi Utu
+		}
+		female_names = {
+			Innana Lahmat Tiamat Ninsun Ishtar Ninshubur Ereshkigal Ninsar Nammu Sirtur Ki Utta Geshtinanna Ninlil Ningal
+			Ningikuga Ninkurra
+		}
+		dynasty_names = {
+			"of Uruk" "of Lagash" "of Ur" "of Mari" "of Eridu" "of Kish" "of Awam" "of Hamazi" "of Adab" "of Akshak" "of Isin"
+		}
+	}
+	akkadian = {
+		dynasty_names = {
+			"Sargonid" "Ephremid" "Isin" "Mardukid" "Abidaoud" "Abgarid" "Erishumid" 
+			"Sharishkun" "Adad" "Nirari" Amorite Sealand Larsa Kassite 
+		}
+		male_names = {
+			Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel "Nur-Adad" "Sin-Iddinam" "Sin-Eribam" "Sin-Iqisham" 
+			"Silli-Adad" "Warad-Sin" "Rim-Sin" Hammurabi "Samsu-iluna" "Su-abu" "Sumu-la-El" "Sabum" "Apil-Sin" "Sin-muballit" 
+			Abieshu "Ammi-ditana" "Samsu-Ditana" Ammisaduqa Gandas Agum Kastiliasu "Abi-Rattas" Hurbazum Ulamburiash Karaindash "Enlil-nadin-ahi" Gulkishar
+			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
+			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
+			Essarhaddon Sennacherib Ashurbanipal Tiglath-Pileser Tukulti-Ninurta Shalmaneser Adad-Nirari Shu-Ninua
+			Hormuzd Ashuri Asmar Aziz Amir Asur Behnam Issavi Albazi Shahbaz Mourad
+			Mirza Shahen Tamraz Yadgar Nabo Esho Bailshar Paseena Hale Arseen Awiqam
+			Abdu Aryu Bakru Abgar "Ma'nu" Sanatruk Yalur Adam Ammanuel Bartulme Binyamin 
+			Daniyel Dawid Eesho Eliyah Eshai Gabriel Haron Ishaia Iskhaq Israel Lazar 
+			Luqa Matti Mikhael Moushe Natan Nukh Oraham Pithyou Polous Pteros Ruel Schlemun
+			Shalimoon Shimun Shmuel Toma Yaqu Yosep Youel Younadam Younan Yukkhannan
+		}
+		female_names = {
+			Alala Allat Allatu Amuhia Anat Anatu Anunit Aralu Aruru Astarte Atheh Belit Dadu Dadu-Ghipa Gula Ishtar Li-Lit
+			Mylitta Nairi Ninharrissi Ninkigal Ninkummu Nukimmut Nuri Pihirim Pirisati Rabbituri Ri Rubati Sammuramat Sar-Rat
+			Seruya Seruya-Edirat Shala Tabuya Tap-Nakhti Tasmit Tihamtu Ukubutu Urmitu Zirratbanit
+			Batishwa Dwura Elishva Istir Khannah Khawa Maryam Nami Rebqah Sara Shooshan
+		}
+	}
+	babylonian = {
+		dynasty_names = {
+			"Sargonid" "Ephremid" "Isin" "Mardukid" "Abidaoud" "Abgarid" "Erishumid" 
+			"Sharishkun" "Adad" "Nirari" Amorite Sealand Larsa Kassite 
+		}
+		male_names = {
+			Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel "Nur-Adad" "Sin-Iddinam" "Sin-Eribam" "Sin-Iqisham" 
+			"Silli-Adad" "Warad-Sin" "Rim-Sin" Hammurabi "Samsu-iluna" "Su-abu" "Sumu-la-El" "Sabum" "Apil-Sin" "Sin-muballit" 
+			Abieshu "Ammi-ditana" "Samsu-Ditana" Ammisaduqa Gandas Agum Kastiliasu "Abi-Rattas" Hurbazum Ulamburiash Karaindash "Enlil-nadin-ahi" Gulkishar
+			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
+			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
+			Essarhaddon Sennacherib Ashurbanipal Tiglath-Pileser Tukulti-Ninurta Shalmaneser Adad-Nirari Shu-Ninua
+			Hormuzd Ashuri Asmar Aziz Amir Asur Behnam Issavi Albazi Shahbaz Mourad
+			Mirza Shahen Tamraz Yadgar Nabo Esho Bailshar Paseena Hale Arseen Awiqam
+			Abdu Aryu Bakru Abgar "Ma'nu" Sanatruk Yalur Adam Ammanuel Bartulme Binyamin 
+			Daniyel Dawid Eesho Eliyah Eshai Gabriel Haron Ishaia Iskhaq Israel Lazar 
+			Luqa Matti Mikhael Moushe Natan Nukh Oraham Pithyou Polous Pteros Ruel Schlemun
+			Shalimoon Shimun Shmuel Toma Yaqu Yosep Youel Younadam Younan Yukkhannan
+		}
+		female_names = {
+			Alala Allat Allatu Amuhia Anat Anatu Anunit Aralu Aruru Astarte Atheh Belit Dadu Dadu-Ghipa Gula Ishtar Li-Lit
+			Mylitta Nairi Ninharrissi Ninkigal Ninkummu Nukimmut Nuri Pihirim Pirisati Rabbituri Ri Rubati Sammuramat Sar-Rat
+			Seruya Seruya-Edirat Shala Tabuya Tap-Nakhti Tasmit Tihamtu Ukubutu Urmitu Zirratbanit
+			Batishwa Dwura Elishva Istir Khannah Khawa Maryam Nami Rebqah Sara Shooshan
+		}
+	}
+	phoenician = { #EU Rome
+		primary = LEB
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+		Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+	punic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
+		Milkiramid Philosirid
+		}
+		male_names = {
+			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
+			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
+			Paltibaal Philosir
+		}
+		female_names = {
+			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
+		}
+	}
+	hebrew = { #EU Rome
+		primary = ISR
+		dynasty_names = {
+			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid 
+			Nogahid Oferid Omrid Pinchasid Raananid Shemidid Shemidid Yairid
+		}
+		male_names = {
+			Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak Baruch Belshazar Costobarus Deror Dori 
+			Eiran Eleazar Erotimus Ezra Hadasa Herod Hillel Hyrkanus Jannaeus Joazar Yosef Josiada Kahana Hillel Hodaviah Honio Meir Nahum 
+			Nathan Nehemiah Nikanor Nir Obadiah  Ofer Omri Pinchas Phannias Phasael Raanan Malichus Manasseh Nahum Nogah Shamgar Shammai 
+			Shaul Shemaiah Shemida Silas Simeon Sosa Talmon Tarfon Tovia Yair Yochanan Zadok
+		}
+		female_names = {
+			Adena Adi Adva Ahuva Alexandra Aliza Alte Arieh Asher Basia Boaz Chanah Cypros Danya Dara Dina Doris Dov Dvora Elisheva Esther 
+			Galia Galit Leah Liat Liora Machla Mariamne Marni Maya Meital Menahem Milka Naamah Nahal Nava Nissa Orah Orit Osher Rachel 
+			Raisa Rivka Salampsio Sarah Shayna Tamar Tirtza Yael Yocheved
+		}
+	}
+	assyrian = { #EU Rome
+		dynasty_names = {
+			"Sargonid" "Ephremid" "Isin" "Mardukid" "Abidaoud" "Abgarid" "Erishumid" 
+			"Sharishkun" "Adad" "Nirari" Abbarid Adonibaalid Ahiromid Baalhannid Baalid
+			Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid 
+			Metallid Milkiramid Philosirid
+		}
+		male_names = {
+			Izates Bazeus Monobaz Meharaspes Narsai Shahrat Aphraates Sargon Ashur Aphrahat Pkidha Ninos Noh Habel 
+			Abedhmiha Hiran Saloupha Ahadabuhi Soubaliso Rhima Abbousta Erishum Ikunum Asinum Lullaya Bazaya Adad-Nirari
+			Essarhaddon Sennacherib Ashurbanipal Tiglath-Pileser Tukulti-Ninurta Shalmaneser Adad-Nirari Shu-Ninua
+			Adam Ammanuel Bartulme Binyamin Daniyel Dawid Eesho Eliyah Eshai Gabriel Haron Ishaia Iskhaq Israel Lazar 
+			Luqa Matti Mikhael Moushe Natan Nukh Oraham Pithyou Polous Pteros Ruel Schlemun Shalimoon Shimun Shmuel Toma
+			Yaqu Yosep Youel Younadam Younan Yukkhannan
+		}
+		female_names = {
+			Alala Allat Allatu Amuhia Anat Anatu Anunit Aralu Aruru Astarte Atheh Belit Dadu Dadu-Ghipa Gula Ishtar Li-Lit
+			Mylitta Nairi Ninharrissi Ninkigal Ninkummu Nukimmut Nuri Pihirim Pirisati Rabbituri Ri Rubati Sammuramat Sar-Rat
+			Seruya Seruya-Edirat Shala Tabuya Tap-Nakhti Tasmit Tihamtu Ukubutu Urmitu Zirratbanit
+			Batishwa Dwura Elishva Istir Khannah Khawa Maryam Nami Rebqah Sara Shooshan
+		}
+	}
+	maronite = { #EU Rome
+		primary = TPL
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid 
+			Metallid Milkiramid Philosirid
+		}
+		male_names = {
+			Ma'nu Abgar Bakru Sanatruk Parthamaspates Paqor Aryu Abdu Fradhasht Wa'il Ezad Sumaqa Saphul Piqa Gebar'u Maz'ur
+			Adam Ammanuel Bartulme Binyamin Daniyel Dawid Eesho Eliyah Eshai Gabriel Haron Ishaia Iskhaq Israel Lazar 
+			Luqa Matti Mikhael Moushe Natan Nukh Oraham Pithyou Polous Pteros Ruel Schlemun Shalimoon Shimun Shmuel Toma
+			Yaqu Yosep Youel Younadam Younan Yukkhannan
+		}
+		female_names = {
+			Anna Batishwa Dwura Elishva Istir Khannah Khawa Maryam Nami Rebqah Sara Shooshan Zenobia
+		}
+	}
+	aramaic = { #EU Rome
+		dynasty_names = {
+			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid 
+			Metallid Milkiramid Philosirid
+		}
+		male_names = {
+			Ma'nu Abgar Bakru Sanatruk Parthamaspates Paqor Aryu Abdu Fradhasht Wa'il Ezad Sumaqa Saphul Piqa Gebar'u Maz'ur
+			Adam Ammanuel Bartulme Binyamin Daniyel Dawid Eesho Eliyah Eshai Gabriel Haron Ishaia Iskhaq Israel Lazar 
+			Luqa Matti Mikhael Moushe Natan Nukh Oraham Pithyou Polous Pteros Ruel Schlemun Shalimoon Shimun Shmuel Toma
+			Yaqu Yosep Youel Younadam Younan Yukkhannan
+		}
+		female_names = {
+			Anna Batishwa Dwura Elishva Istir Khannah Khawa Maryam Nami Rebqah Sara Shooshan Zenobia
+		}
+	}
+}
+
 caucasian = {
 	graphical_culture = easterngfx
 	georgian = {
@@ -10193,21 +10371,6 @@ lost_cultures_group = {
 			"Ridala" "Saaremaa" "Vaiga" "Turaida"
 		}
 	}
-	phoenician = { #EU Rome
-		primary = LEB
-		dynasty_names = {
-			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
-		Milkiramid Philosirid
-		}
-		male_names = {
-			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
-			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
-			Paltibaal Philosir
-		}
-		female_names = {
-			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
-		}
-	}
 	scanian = {
 		male_names = {
 			Anders Anund Asger Benedikt Bjørn Bo Christopher Daniel Edvard 
@@ -10275,17 +10438,6 @@ lost_cultures_group = {
 			Æthelburh Seaxburh Wihtburh
 		}
 	}
-	babylonian = {
-		dynasty_names = {
-			Amorite Sealand Larsa Kassite 
-		}
-		male_names = {
-			Naplanum Emisum Samium Zabaia Gungunum Abisare Sumuel "Nur-Adad" "Sin-Iddinam" "Sin-Eribam" "Sin-Iqisham" "Silli-Adad" "Warad-Sin" "Rim-Sin" Hammurabi "Samsu-iluna" "Su-abu" "Sumu-la-El" "Sabum" "Apil-Sin" "Sin-muballit" Abieshu "Ammi-ditana" "Samsu-Ditana" Ammisaduqa Gandas Agum Kastiliasu "Abi-Rattas" Hurbazum Ulamburiash Karaindash "Enlil-nadin-ahi" Gulkishar
-		}
-		female_names = {
-			Nana Allatu Belit Zirrabanit Tiamat
-		}
-	}
 	etrurian = { #EU Rome
 		primary = ETR
 		dynasty_names = {
@@ -10325,37 +10477,6 @@ lost_cultures_group = {
 		}
 		female_names = {
 			Amestris Amytis Anzaza Artazostre Artystone Atossa Barsine Damaspia Mandane Parmys Parysatis Phaedymia Rinu Stateira Vashti
-		}
-	}
-	aramaic = { #EU Rome
-		dynasty_names = {
-			Abbarid Adonibaalid Ahiromid Baalhannid Baalid Barcid Bostarid Chelbesid Eshbaalid Eugorid Hannid Hiramid Magoid Mattanid Metallid 
-			Milkiramid Philosirid
-		}
-		male_names = {
-			Abbar Abdmelqart Adonibaal Agbal Ahirom Azimilik Baal Baalhanno Bodashtart Bodmelqart Bomilcar Bostar Boulomenus Carthalo Chelbes 
-			Eshbaal Eugoras Germelqart Hamilcar Hannibal Hanno Hasdrubal Himilco Hiram Mago Maharbal Mattan Metallo Milkherem Milkiram 
-			Paltibaal Philosir
-		}
-		female_names = {
-			Abdosir Arishat Astarte Batnoam Dido Shayna Sophonisba Tamar
-		}
-	}
-	hebrew = { #EU Rome
-		dynasty_names = {
-			Abiatarid Akabonid Amitid Amramid Boazid Dorid Dovid Eiranid Eleazid Heroid Honioid Hillelid Joazid Kahanid Nahumid Nirid Nogahid 
-			Oferid Omrid Pinchasid Raananid Shemidid Yairid
-		}
-		male_names = {
-			Abiatar Ahijah Akabon Alon Amit Amram Ananelus Ananias Aretas Aristobulus Azrikam Barak Baruch Belshazar Costobarus Deror Dori 
-			Eiran Eleazar Erotimus Ezra Hadasa Herod Hillel Hyrkanus Jannaeus Joazar Yosef Josiada Kahana Hodaviah Honio Meir Nahum 
-			Nathan Nehemiah Nikanor Nir Obadiah  Ofer Omri Pinchas Phannias Phasael Raanan Malichus Manasseh Nogah Shamgar Shammai 
-			Shaul Shemaiah Shemida Silas Simeon Sosa Talmon Tarfon Tovia Yair Yochanan Zadok
-		}
-		female_names = {
-			Adena Adi Adva Ahuva Alexandra Aliza Alte Arieh Asher Basia Boaz Chanah Cypros Danya Dara Dina Doris Dov Dvora Elisheva Esther 
-			Galia Galit Leah Liat Liora Machla Mariamne Marni Maya Meital Menahem Milka Naamah Nahal Nava Nissa Orah Orit Osher Rachel Raisa 
-			Rivka Salampsio Sarah Shayna Tamar Tirtza Yael Yocheved
 		}
 	}
 	scythian = { #EU Rome
