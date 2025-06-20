@@ -1,8 +1,9 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = assyrian
-religion = nestorian
-technology_group = iranian
+primary_culture = outremer
+add_accepted_cutlture
+religion = catholic
+technology_group = muslim
 government_rank = 1
 capital = 5194
 
