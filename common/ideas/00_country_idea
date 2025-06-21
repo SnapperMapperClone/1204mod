@@ -18386,7 +18386,7 @@ voc_ideas = {
 		land_forcelimit_modifier = 0.1
 	}
 }
-gwy_ideas = {
+GWY_ideas = {
   start = {
   land_morale = 0.10
   land_attrition = -0.15
