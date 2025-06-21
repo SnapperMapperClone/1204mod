@@ -13,6 +13,6 @@ capital = 242 #Gwynedd
     dip = 4
     mil = 5
 
-leader = { name = "Llywelyn Fawr" type = fire = 4 shock = 5 manuever = 4 siege = 1}
+leader = { name = "Llywelyn Fawr" type = general fire = 4 shock = 5 manuever = 4 siege = 1}
 }
 }
