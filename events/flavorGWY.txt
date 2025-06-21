@@ -1,1 +1,49 @@
+#Joan of Wales
+country_event = {
+  id = flavor_gwy.1
+  title = flavor_gwy.EVTNAME1
+  desc = flavor_gwy.EVTDESC1
+  picture = DIPLOMACY_eventPicture
+  fire_only_once = yes
+  major = yes
+  
+  trigger = {
+  tag = GWY
+  is_year = 1204
+  }
 
+  mean_time_to_happen = {
+  months = 24
+  }
+
+  option = {
+  name = "flavor_gwy.EVTOPTA1"
+  if = {
+  ruler = "Llywelyn fawr"
+  NOT = {has_consort = yes }
+  define_consort = {
+  name = "Joan"
+  country_of_origin = ENG
+  culture = french
+  age = 17
+  relgion = catholic
+  female = yes
+  adm = 3
+  dip = 5
+  mil = 3}
+  add_prestige = 20
+  }
+  else = {
+  add_prestige = 20
+  }
+}
+
+option = {
+  name = "flavor_gwy.EVTOPTB1
+  add_prestige = 10
+  add_power_projection = {
+  type = 5_permanent_power_projection
+  amount = 5
+  }
+  add_stability = 1
+  }
