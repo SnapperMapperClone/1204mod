@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-government_rank = 1
+government_rank = 2
 technology_group = western
 primary_culture = welsh
 religion = catholic
@@ -12,5 +12,7 @@ capital = 242 #Gwynedd
     adm = 2
     dip = 4
     mil = 5
+
+leader = { name = "Llywelyn Fawr" type = fire = 4 shock = 5 manuever = 4 siege = 1}
 }
 }
