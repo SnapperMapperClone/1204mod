@@ -18398,7 +18398,7 @@ trigger = {
   tag = GWY
 }
 free = yes
-  gwy_historia_britonnum = {
+  gwy_historia_brittonum = {
   legitimacy = 1
   prestige = 1
   }
