@@ -31,6 +31,7 @@ change_estate_land_share = {
 		adm = 6
 		dip = 4
 		mil = 6
+		leader = { name = "Philippe II" type = general fire = 5 shock = 5 manuever = 5 siege = 1
 	}
 }
 
