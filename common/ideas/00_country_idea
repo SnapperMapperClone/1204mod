@@ -18418,8 +18418,9 @@ free = yes
   gwy_eryri = {
   defensiveness = 0.2
   }
-  gwy_cat_laws = {
-  stability_cost_modifier = 0.1
+  gwy_defend_our_homeland = {
+  core_creation = -0.15
+  infantry_power = 0.10
   }
 }
   
