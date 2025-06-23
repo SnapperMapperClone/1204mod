@@ -70,3 +70,38 @@ country_event = {
 		}
 	}
 }
+
+#Conquest of Berroea
+country_event = {
+	id = flavor_crusaders.3
+	title = flavor_crusaders.3.t
+	desc = flavor_crusaders.3.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 377
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.3.a
+		377 = {
+			change_religion = catholic
+		}
+	}
+}
