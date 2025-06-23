@@ -1,0 +1,99 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = outremer
+add_accepted_culture = al_suryah_arabic
+religion = catholic
+technology_group = western
+capital = 382	# Damascus
+
+
+1359.1.1 = {
+	monarch = {
+		name = "Antonio I"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		adm = 4
+		dip = 5
+		mil = 2
+	}
+}
+
+1359.1.1 = {
+	heir = {
+		name = "Andrew"
+		monarch_name = "Andrew I"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		birth_date = 1359.1.1
+		death_date = 1418.4.2
+		claim = 95
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1389.7.18 = {
+	monarch = {
+		name = "Andrew I"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+}
+
+1389.7.18 = {
+	heir = {
+		name = "Louis"
+		monarch_name = "Louis I"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		birth_date = 1381.1.1
+		death_date = 1431.8.21
+		claim = 95
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1418.4.2 = {
+	monarch = {
+		name = "Louis I"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		adm = 4
+		dip = 3
+		mil = 4
+	}
+}
+
+1418.4.2 = {
+	heir = {
+		name = "Maria I"
+		monarch_name = "Maria I"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		birth_date = 1405.1.1
+		death_date = 1461.9.11
+		claim = 95
+		adm = 4
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
+
+1431.8.21 = {
+	monarch = {
+		name = "Maria"
+		dynasty = "Gattilusio"
+		culture = ligurian
+		adm = 4
+		dip = 5
+		mil = 5
+		female = yes
+	}
+}
