@@ -21,17 +21,17 @@ country_event = {
 	trigger = {
 		primary_culture = outremer
 		owns = 379
-}
+	}
 
 	mean_time_to_happen = {
 		months = 12
 	}
 
 	option = {
-		name = flavor_nic.1.a
+		name = flavor_crusaders.1.a
 		379 = {
-      change_culture = outremer
-      change_religion = catholic
-    }
+			change_culture = outremer
+			change_religion = catholic
+		}
 	}
 }
