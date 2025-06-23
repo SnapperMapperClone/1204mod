@@ -3,6 +3,7 @@ add_government_reform = feudalism_reform
 government_rank = 1
 primary_culture = outremer
 add_accepted_culture = al_suryah_arabic
+add_accepted_culture = maronite
 religion = catholic
 technology_group = western
 capital = 378 # Tripoli
