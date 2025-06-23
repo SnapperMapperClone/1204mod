@@ -35,3 +35,38 @@ country_event = {
 		}
 	}
 }
+
+#Conquest of Damascus
+country_event = {
+	id = flavor_crusaders.2
+	title = flavor_crusaders.2.t
+	desc = flavor_crusaders.2.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 382
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.2.a
+		382 = {
+			change_religion = catholic
+		}
+	}
+}
