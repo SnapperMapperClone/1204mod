@@ -1,1 +1,37 @@
 namespace = flavor_crusaders
+
+#Jerusalem reclaimed
+country_event = {
+	id = flavor_crusaders.1
+	title = flavor_crusaders.1.t
+	desc = flavor_crusaders.1.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 379
+}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_nic.1.a
+		379 = {
+      change_culture = outremer
+      change_religion = catholic
+    }
+	}
+}
