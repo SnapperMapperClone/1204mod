@@ -1162,6 +1162,8 @@ ANC	= "countries/Antioch.txt"
 EDE	= "countries/Edessa.txt"
 TPL	= "countries/CountyOfTripoli.txt"
 NNV	= "countries/Nineveh.txt"
+DMC	= "countries/Damascus.txt"
+BRO	= "countries/Berroea.txt"
 
 
 #IRAN
