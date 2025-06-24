@@ -30,7 +30,9 @@ country_event = {
   female = yes
   adm = 3
   dip = 5
-  mil = 3}
+  mil = 3
+
+}
   create_marriage = ENG
   add_prestige = 20
   }
