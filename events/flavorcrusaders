@@ -66,6 +66,9 @@ country_event = {
 		primary_culture = outremer
 		owns = 382
 		owns = 4297
+		NOT = {
+			exists = DMC
+		}
 	}
 
 	mean_time_to_happen = {
@@ -123,6 +126,7 @@ country_event = {
 		primary_culture = outremer
 		owns = 377
 		owns = 1849
+		NOT = { exists = DMC }
 	}
 
 	mean_time_to_happen = {
