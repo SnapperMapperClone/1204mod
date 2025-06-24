@@ -31,6 +31,7 @@ country_event = {
   adm = 3
   dip = 5
   mil = 3}
+  create_marriage = ENG
   add_prestige = 20
   }
   else = {
@@ -39,11 +40,8 @@ country_event = {
 }
 
 option = {
-  name = "flavor_gwy.EVTOPTB1
+  name = "flavor_gwy.EVTOPTB1"
   add_prestige = 10
-  add_power_projection = {
-  type = 5_permanent_power_projection
-  amount = 5
-  }
   add_stability = 1
+  add_legitimacy = 20
   }
