@@ -18386,6 +18386,9 @@ voc_ideas = {
 		land_forcelimit_modifier = 0.1
 	}
 }
+
+#1204 Countries
+
 GWY_ideas = {
   start = {
   land_morale = 0.10
@@ -18410,10 +18413,10 @@ free = yes
   land_forcelimit_modifier = 0.2
   }
   gwy_ore_mines = {
-  mil_tech_cost = -0.05
+  mil_tech_cost_modifier = -0.1
   }
   gwy_llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch = {
-  improve_relation_speed = 0.2
+  improve_relation_modifier = 0.2
   }
   gwy_eryri = {
   defensiveness = 0.2
