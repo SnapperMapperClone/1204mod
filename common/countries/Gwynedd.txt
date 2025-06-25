@@ -2,7 +2,7 @@
 
 religion = catholic
 graphical_culture = westerngfx
-color = { 135, 28, 20 }
+color = { 135 28 20 }
 historical_idea_groups = {
   defensive_ideas
   court_ideas
