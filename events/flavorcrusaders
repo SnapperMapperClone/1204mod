@@ -204,5 +204,52 @@ country_event = {
 			change_province_name = "Edessa"
 			rename_capital = "Edessa"
 		}
+		4298 = {
+			change_province_name = "Turbessel"
+			rename_capital = "Turbessel"
+		}
+	}
+}
+
+#Greek catholic refugees
+country_event = {
+	id = flavor_crusaders.5
+	title = flavor_crusaders.5.t
+	desc = flavor_crusaders.5.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	fire_only_once = yes
+
+	trigger = {
+		primary_culture = outremer
+		owns = 2308
+		NOT = { exists = LAT }
+		NOT = { 2308 = { culture = greek } }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.5.a
+		
+		2308 = {
+			change_culture = greek
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 1
+		}
 	}
 }
