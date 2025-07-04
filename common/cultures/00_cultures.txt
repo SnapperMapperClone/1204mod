@@ -10392,6 +10392,22 @@ tartar	= {
 			"Aibanoo" "Aininoor" "Alfia" "Janan" "Alfira" "Alfiya" "Alia" "Amenya" "Asia" "Assel" "Dinara"
 		}
 	}
+	bulgar = {
+		primary = VLG
+		dynasty_names = {
+			Cälil Göbäydullina Nasiri Näcmetdin Nigmät Nurgäli Isxaqi Märcani Qamay "Qol-Gäli" Qursawi Tuqay Yusupow
+		}
+		male_names = {
+			"Ulugh Muhammad" "Muhammad" "Mahmudak" "Khalil" "Ibrahim" "Ilham" "Muhammad Amin" "Abdul-Latif" "Shah Ali" 
+			"Sahib" "Safa" "Jan Ali" "Otemesh" "Shah Ali" "Yadigar Muhammad" "Ahmyetgali" "Airat" "Akhmed" "Alikber" 
+			"Amazat" "Amerhan" "Ansar" "Anvar" "Ahmat" "Aydar" "Ayrat" "Azgar" "Cingi" "Farit" "Ildus" "Ilgiz" "Ilsat" 
+			"Irek" "Nariman" "Radiq" "Gabdulla" "Ramil" "Rasit" "Rawil" "Risat" "Rusan" "Timer" "Toktamish" "Yasher" 
+			"Zagip" "Zamanbyek" "Zaribzyan" "Gabdulla" "Zofar"
+		}
+		female_names = {
+			"Aibanoo" "Aininoor" "Alfia" "Janan" "Alfira" "Alfiya" "Alia" "Amenya" "Asia" "Assel" "Dinara"
+		}
+	}
 	mishary = {
 		primary = GOL
 		dynasty_names = {
