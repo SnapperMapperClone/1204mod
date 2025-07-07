@@ -1,3 +1,7 @@
 latin_rulers_of_greece = {
 	years_of_nationalism = 5
 }
+
+greeks_under_francocracy = {
+	local_unrest = 10
+}
