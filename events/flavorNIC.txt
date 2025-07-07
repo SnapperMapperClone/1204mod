@@ -286,6 +286,15 @@ country_event = {
 			}
 			inherit = EPI
 		}
+		if = {
+			limit = {
+				AND = {
+					exists = MOE
+					MOE = { is_subject_of = ROOT }
+				}
+			}
+			inherit = MOE
+		}
 		change_tag = BYZ
 		swap_non_generic_missions = yes
 		on_change_tag_effect = yes
