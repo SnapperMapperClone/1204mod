@@ -69,6 +69,9 @@ country_event = {
 	option = {
 		name = flavor_epi.2.a
 		set_government_rank = 3
+		148 = {
+			move_capital_effect = yes
+		}
 		override_country_name = "THESSALONICA"
 	}
 }
