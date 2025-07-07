@@ -3032,7 +3032,7 @@ baltic	= {
 byzantine = {
 	graphical_culture = easterngfx
 	greek = {
-		primary = GRE
+		primary = BYZ
 		male_names = {
 			Adrianos Akakios Alexandros Alexios Anastasios Anatolios 
 			Andreas Andronikos Anthemios Anthimos Antiokhos Antonios Apollonios 
