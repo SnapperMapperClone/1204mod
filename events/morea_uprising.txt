@@ -1,1 +1,267 @@
 namespace = morea_uprising
+
+# Griko Confederation rises up
+country_event = {
+	id = flavor_mgc.1
+	title = "flavor_mgc.EVTNAME1"
+	desc = "flavor_mgc.EVTDESC1"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		is_year = 1450
+		NOT = { is_year = 1500 }
+		tag = ARA
+		ai = yes
+		NOT = { has_country_flag = mgc_confederation_curtailed }
+		is_subject = no
+		exists = BYZ
+		NOT = { war_with = BYZ }
+		NOT = { alliance_with = BYZ }
+		CAS = { ai = yes }
+		BYZ = { is_subject = no }
+		BYZ = { num_of_cities = 10 }
+		BYZ = { ai = no }
+		NAP = { 
+			is_subject_of = ROOT
+			owns_core_province = 123 # calabria
+			owns_core_province = 122 # apulia
+			owns_core_province = 2984 # costenza
+			owns_core_province = 1933 # bari
+			owns_core_province = 1934 # lukania
+		}
+		num_of_cities = 5
+		OR = {
+			NOT = { exists = MGC }
+			MGC = {
+				is_subject_of = ROOT
+			}
+		}
+		OR = {
+			any_subject_country = {
+				any_owned_province = {
+					culture = griko
+				}
+			}
+			any_owned_province = {
+				culture = griko
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+		modifier = {
+			factor = 0.5
+			is_year = 1454
+		}
+		modifier = {
+			factor = 0.1
+			is_year = 1466
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = mgc_confederation_happened
+			every_owned_province = {
+				limit = {
+					culture = griko
+					NOT = { 
+						OR = {
+							province_id = 121
+							province_id = 5018
+						}
+					}
+				}
+				add_core = MGC
+			}
+			if = {
+				limit = {
+					NOT = {
+						exists = MGC
+					}
+				}
+				release = MGC
+				NAP = {
+					every_owned_province = {
+					limit = {
+						culture = griko
+						NOT = { 
+							OR = {
+								province_id = 121
+								province_id = 5018
+							}
+						}
+					}
+					cede_province = MGC
+					}
+					123 = { 
+						cede_province = MGC
+					}
+					1934 = { 
+						cede_province = MGC
+					}
+				}
+				MGC = {
+					change_government = monarchy
+					adopt_reform_progress = ROOT
+				}
+				MGC = {
+					capital_scope = {
+						build_to_forcelimit = {
+							infantry = 0.6
+							cavalry = 0.3
+						}
+					}
+					random_owned_province = {
+						limit = {
+							has_port = yes
+						}
+						build_to_forcelimit = {
+							galley = 0.3
+							light_ship = 0.3
+							transport = 0.2
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	option = { # Go to war
+		name = "flavor_mgc.1.a"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = yes
+					war_exhaustion = 10
+				}
+			}
+			 
+		}
+		declare_war_with_cb = {
+			who = MGC
+			casus_belli = cb_core
+			war_goal_province = 2982
+		}
+		custom_tooltip = flavor_mgc.1.tooltip
+		hidden_effect = {
+			BYZ = {
+				country_event = { id = flavor_mgc.2 }
+			}
+			BYZ = {
+				create_guarantee = MGC
+			}
+		}
+	}
+	option = { # Let them go
+		name = "flavor_mgc.1.b"
+		ai_chance = { 
+			factor = 100 
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = no
+					NOT = { war_exhaustion = 10 }
+				}
+			}
+		}
+		add_stability = -1
+		add_prestige = -20
+	}
+}
+
+# Griko Confederation seeks Byzantine support
+country_event = {
+	id = flavor_mgc.2
+	title = "flavor_mgc.EVTNAME2"
+	desc = "flavor_mgc.EVTDESC2"
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = "flavor_mgc.2.a"
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = yes
+					war_exhaustion = 10
+				}
+			}
+		}
+		set_country_flag = supported_griko_confederation_flag
+		add_opinion = {
+			who = MGC
+			modifier = supported_griko_confederation
+		}
+		MGC = {
+			add_opinion = {
+				who = ROOT
+				modifier = supported_griko_confederation
+			}
+		}
+		create_alliance = MGC
+	}
+	option = { # stay out of this
+		name = "flavor_mgc.2.b"
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = no
+					NOT = { war_exhaustion = 10 }
+				}
+			}
+		}
+		add_prestige = -10
+	}
+}
+
+# Griko Confederation accepts Byzantine rule
+country_event = {
+	id = flavor_mgc.3
+	title = "flavor_mgc.EVTNAME3"
+	desc = "flavor_mgc.EVTDESC3"
+	picture = BYZANTINE_EAGLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BYZ
+		has_country_flag = supported_griko_confederation_flag
+		exists = MGC
+		MGC = { 
+			is_at_war = no
+		}
+		MGC = { 
+			ai = yes
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = "flavor_mgc.3.a"
+		create_subject = {
+			subject_type = pronoia_subject_type
+			subject = MGC
+		}
+	}
+	option = {
+		name = "flavor_mgc.3.b"
+		custom_tooltip = flavor_mgc.3.b.tooltip
+		switch_tag = MGC
+	}
+}
