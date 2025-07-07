@@ -70,8 +70,13 @@ province_event = {
 
 	trigger = {
 		owner = {
-			primary_culture = romanien
-			primary_culture = tessalonican
+			AND = {
+				OR = {
+					primary_culture = romanien
+					primary_culture = tessalonican
+				}
+				has_country_modifier = { latin_rulers_of_greece }
+			}
 		}
 		culture = greek
 		NOT = {
