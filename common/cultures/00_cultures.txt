@@ -1758,6 +1758,9 @@ french	= {
 	outremer = {
 		primary = KOJ
 	}
+	romanien = {
+		primary = LAT
+	}
 	anglois = {
 		primary = AVE
 		dynasty_names = { 
