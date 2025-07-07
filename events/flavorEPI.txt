@@ -38,3 +38,37 @@ country_event = {
 		4750 = { add_core = EPI }
 	}
 }
+
+#Conquest of Thessalonica
+country_event = {
+	id = flavor_epi.2
+	title = flavor_epi.2.t
+	desc = flavor_epi.2.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		tag = EPI
+		owns = 148
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_epi.2.a
+		set_government_rank = 3
+		override_country_name = "THESSALONICA"
+	}
+}
