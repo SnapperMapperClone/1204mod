@@ -1232,6 +1232,9 @@ latin = {
 	lombard = {
 		primary = MLO
 	}
+	tessalonican = {
+		primary = TES
+	}
 	tuscan = {
 		primary = TUS
 	}
