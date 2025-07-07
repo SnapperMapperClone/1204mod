@@ -1,129 +1,73 @@
 namespace = morea_uprising
 
-# Griko Confederation rises up
+# Greeks of Morea declare independence
 country_event = {
-	id = flavor_mgc.1
-	title = "flavor_mgc.EVTNAME1"
-	desc = "flavor_mgc.EVTDESC1"
+	id = morea_uprising.1
+	title = morea_uprising.1.t
+	desc = morea_uprising.1.d
 	picture = BATTLE_eventPicture
 	
 	fire_only_once = yes
 	
 	trigger = {
-		is_year = 1450
-		NOT = { is_year = 1500 }
-		tag = ARA
-		ai = yes
-		NOT = { has_country_flag = mgc_confederation_curtailed }
-		is_subject = no
-		exists = BYZ
-		NOT = { war_with = BYZ }
-		NOT = { alliance_with = BYZ }
-		CAS = { ai = yes }
-		BYZ = { is_subject = no }
-		BYZ = { num_of_cities = 10 }
-		BYZ = { ai = no }
-		NAP = { 
-			is_subject_of = ROOT
-			owns_core_province = 123 # calabria
-			owns_core_province = 122 # apulia
-			owns_core_province = 2984 # costenza
-			owns_core_province = 1933 # bari
-			owns_core_province = 1934 # lukania
+		tag = ACH
+		NOT = { primary_culture = gasmouloi }
+		NOT = { has_country_flag = morea_uprising_happened }
+		owns = 145
+		145 = { controlled_by = ACH }
+		151 = {
+			OR = {
+				owned_by = BYZ
+				owned_by = NIC
+				owned_by = EPI
+				owned_by = TRE
+			}
 		}
-		num_of_cities = 5
 		OR = {
-			NOT = { exists = MGC }
-			MGC = {
+			NOT = { exists = MOE }
+			MOE = {
 				is_subject_of = ROOT
-			}
-		}
-		OR = {
-			any_subject_country = {
-				any_owned_province = {
-					culture = griko
-				}
-			}
-			any_owned_province = {
-				culture = griko
 			}
 		}
 	}
 	
 	mean_time_to_happen = {
 		months = 6
-		modifier = {
-			factor = 0.5
-			is_year = 1454
-		}
-		modifier = {
-			factor = 0.1
-			is_year = 1466
-		}
 	}
 	
 	immediate = {
 		hidden_effect = {
-			set_country_flag = mgc_confederation_happened
-			every_owned_province = {
-				limit = {
-					culture = griko
-					NOT = { 
-						OR = {
-							province_id = 121
-							province_id = 5018
-						}
-					}
-				}
-				add_core = MGC
+			set_country_flag = morea_uprising_happened
+			145 = {
+				add_core = MOE
 			}
 			if = {
 				limit = {
 					NOT = {
-						exists = MGC
+						exists = MOE
 					}
 				}
-				release = MGC
-				NAP = {
-					every_owned_province = {
+				release = MOE
+			}
+			MGC = {
+				change_government = monarchy
+				adopt_reform_progress = ROOT
+			}
+			MOE = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+					}
+				}
+				random_owned_province = {
 					limit = {
-						culture = griko
-						NOT = { 
-							OR = {
-								province_id = 121
-								province_id = 5018
-							}
-						}
+						has_port = yes
 					}
-					cede_province = MGC
-					}
-					123 = { 
-						cede_province = MGC
-					}
-					1934 = { 
-						cede_province = MGC
-					}
-				}
-				MGC = {
-					change_government = monarchy
-					adopt_reform_progress = ROOT
-				}
-				MGC = {
-					capital_scope = {
-						build_to_forcelimit = {
-							infantry = 0.6
-							cavalry = 0.3
-						}
-					}
-					random_owned_province = {
-						limit = {
-							has_port = yes
-						}
-						build_to_forcelimit = {
-							galley = 0.3
-							light_ship = 0.3
-							transport = 0.2
-						}
+					build_to_forcelimit = {
+						galley = 0.3
+						light_ship = 0.3
+						transport = 0.2
 					}
 				}
 			}
@@ -131,7 +75,7 @@ country_event = {
 	}
 	
 	option = { # Go to war
-		name = "flavor_mgc.1.a"
+		name = morea_uprising.1.a
 		ai_chance = {
 			factor = 100
 			modifier = {
@@ -144,22 +88,76 @@ country_event = {
 			 
 		}
 		declare_war_with_cb = {
-			who = MGC
+			who = MOE
 			casus_belli = cb_core
-			war_goal_province = 2982
+			war_goal_province = 1773
 		}
 		custom_tooltip = flavor_mgc.1.tooltip
 		hidden_effect = {
-			BYZ = {
-				country_event = { id = flavor_mgc.2 }
+			1773 = { add_core = MOE }
+			4701 = { add_core = MOE }
+			if = { 
+				limit = {
+					151 = { owned_by = NIC }
+				}
+				NIC = {
+					country_event = { id = morea_uprising.2 }
+				}
 			}
-			BYZ = {
-				create_guarantee = MGC
+			else_if = { 
+				limit = {
+					151 = { owned_by = EPI }
+				}
+				EPI = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = TRE }
+				}
+				TRE = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			else = {
+				BYZ = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			if = { 
+				limit = {
+					151 = { owned_by = NIC }
+				}
+				NIC = {
+					create_guarantee = MOE
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = EPI }
+				}
+				EPI = {
+					create_guarantee = MOE
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = TRE }
+				}
+				TRE = {
+					create_guarantee = MOE
+				}
+			}
+			else = {
+				BYZ = {
+					create_guarantee = MOE	
+				}
 			}
 		}
 	}
 	option = { # Let them go
-		name = "flavor_mgc.1.b"
+		name = morea_uprising.1.b
 		ai_chance = { 
 			factor = 100 
 			modifier = {
@@ -170,16 +168,20 @@ country_event = {
 				}
 			}
 		}
+		hidden_effect = {
+			1773 = { add_core = MOE }
+			4701 = { add_core = MOE }
+		}
 		add_stability = -1
 		add_prestige = -20
 	}
 }
 
-# Griko Confederation seeks Byzantine support
+# Morea revolt seeks assistance
 country_event = {
-	id = flavor_mgc.2
-	title = "flavor_mgc.EVTNAME2"
-	desc = "flavor_mgc.EVTDESC2"
+	id = morea_uprising.2
+	title = morea_uprising.2.t
+	desc = morea_uprising.2.d
 	picture = BATTLE_eventPicture
 	
 	fire_only_once = yes
@@ -189,7 +191,7 @@ country_event = {
 	major = yes
 	
 	option = {
-		name = "flavor_mgc.2.a"
+		name = morea_uprising.2.a
 		ai_chance = {
 			factor = 100
 			modifier = {
@@ -200,21 +202,21 @@ country_event = {
 				}
 			}
 		}
-		set_country_flag = supported_griko_confederation_flag
+		set_country_flag = supported_morean_uprising_flag
 		add_opinion = {
-			who = MGC
+			who = MOE
 			modifier = supported_griko_confederation
 		}
-		MGC = {
+		MOE = {
 			add_opinion = {
 				who = ROOT
 				modifier = supported_griko_confederation
 			}
 		}
-		create_alliance = MGC
+		create_alliance = MOE
 	}
 	option = { # stay out of this
-		name = "flavor_mgc.2.b"
+		name = morea_uprising.2.b
 		ai_chance = { 
 			factor = 100
 			modifier = {
@@ -229,39 +231,37 @@ country_event = {
 	}
 }
 
-# Griko Confederation accepts Byzantine rule
+# Despotate of Mystras accepts Roman rule
 country_event = {
-	id = flavor_mgc.3
-	title = "flavor_mgc.EVTNAME3"
-	desc = "flavor_mgc.EVTDESC3"
+	id = morea_uprising.3
+	title = morea_uprising.3.t
+	desc = morea_uprising.3.d
 	picture = BYZANTINE_EAGLE_eventPicture
 	
 	fire_only_once = yes
 	
 	trigger = {
-		tag = BYZ
-		has_country_flag = supported_griko_confederation_flag
-		exists = MGC
-		MGC = { 
+		OR = {
+			tag = BYZ
+			tag = NIC
+			tag = TRE
+			tag = EPI
+		}
+		has_country_flag = supported_morean_uprising_flag
+		exists = MOE
+		MOE = { 
 			is_at_war = no
 		}
-		MGC = { 
-			ai = yes
-		}
+
 	}
 	mean_time_to_happen = {
 		months = 1
 	}
 	option = {
-		name = "flavor_mgc.3.a"
+		name = morea_uprising.3.a
 		create_subject = {
 			subject_type = pronoia_subject_type
-			subject = MGC
+			subject = MOE
 		}
-	}
-	option = {
-		name = "flavor_mgc.3.b"
-		custom_tooltip = flavor_mgc.3.b.tooltip
-		switch_tag = MGC
 	}
 }
