@@ -103,21 +103,21 @@ dependency = {
 
 #Latin Empire
 
-dependency = {
-	subject_type = personal_union
-	first = LAT
-	second = HAI
-	start_date = 1204.1.1
-	end_date = 9999.1.1
-}
+#dependency = {
+#	subject_type = personal_union
+#	first = LAT
+#	second = HAI
+#	start_date = 1204.1.1
+#	end_date = 9999.1.1
+#}
 
-dependency = {
-	subject_type = personal_union
-	first = LAT
-	second = FLA
-	start_date = 1204.1.1
-	end_date = 9999.1.1
-}
+#dependency = {
+#	subject_type = personal_union
+#	first = LAT
+#	second = FLA
+#	start_date = 1204.1.1
+#	end_date = 9999.1.1
+#}
 
 vassal = {
 	first = LAT
