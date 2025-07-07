@@ -119,6 +119,13 @@ dependency = {
 	end_date = 9999.1.1
 }
 
+vassal = {
+	first = LAT
+	second = PHL
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
 #Scandinavia
 vassal = {
 	first = NOR
