@@ -306,3 +306,43 @@ country_event = {
 		}
 	}
 }
+
+#Cores on anatolian provinces with greek culture
+country_event = {
+	id = flavor_nic.6
+	title = flavor_nic.6.t
+	desc = flavor_nic.6.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	fire_only_once = yes
+	
+	hidden = yes
+
+	trigger = {
+		tag = NIC
+		is_year = 1204
+	}
+
+	mean_time_to_happen = {
+		months = 2
+	}
+
+	option = {
+		name = flavor_nic.6.a
+		4312 = { add_core = NIC }
+		4311 = { add_core = NIC }
+		1848 = { add_core = NIC }
+		2298 = { add_core = NIC }
+	}
+}
