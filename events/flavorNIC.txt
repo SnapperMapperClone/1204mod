@@ -207,6 +207,9 @@ country_event = {
 		swap_non_generic_missions = yes
 		on_change_tag_effect = yes
 		set_government_rank = 3
+		151 = {
+			move_capital_effect = yes
+		}
 		hidden_effect = {
 			every_province = {
 				limit = {
@@ -286,6 +289,9 @@ country_event = {
 		change_tag = BYZ
 		swap_non_generic_missions = yes
 		on_change_tag_effect = yes
+		151 = {
+			move_capital_effect = yes
+		}
 		set_government_rank = 3
 		hidden_effect = {
 			every_province = {
