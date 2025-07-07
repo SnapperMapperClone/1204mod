@@ -2,7 +2,7 @@ namespace = flavor_epi
 
 #Cores on albania
 country_event = {
-id = flavor_epi.1
+	id = flavor_epi.1
 	title = flavor_epi.1.t
 	desc = flavor_epi.1.d
 	picture = {
