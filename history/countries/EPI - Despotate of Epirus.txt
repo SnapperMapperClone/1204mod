@@ -9,9 +9,10 @@ fixed_capital = 4699 # Cannot move capital away from this province & no power co
 
 1204.5.16 = {
 	monarch = {
-		dip = 0
-		adm = 0
-		mil = 0
-		regent = yes
+		name = "Michael I"
+		dynasty = "Komnenodoukas"
+		dip = 2
+		adm = 3
+		mil = 5
 	}
 }
