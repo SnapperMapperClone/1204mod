@@ -1,14 +1,14 @@
-#220 - València
+#220 - ValÃ¨ncia
 owner = MOR#Alfons V of Aragon
 controller = MOR
 add_core = VAL
-culture = catalan
+culture = catalan_sep
 religion = catholic
 base_tax = 6
 base_production = 5
 trade_goods = cloth
 base_manpower = 4
-capital = "València"
+capital = "ValÃ¨ncia"
 is_city = yes
 discovered_by = western
 discovered_by = eastern
