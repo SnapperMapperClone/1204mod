@@ -1,6 +1,6 @@
 namespace = serbian_byz
 
-#Hellenization of Armenia
+#Romej culture in greece
 province_event = {
 	id = serbian_byz.1
 	title = serbian_byz.1.t
@@ -51,3 +51,53 @@ province_event = {
 	}
 }
 
+#Melingoi culture in pelopponese
+country_event = {
+	id = serbian_byz.2
+	title = serbian_byz.2.t
+	desc = serbian_byz.2.d
+	picture = STREET_SPEACH_eventPicture
+
+	trigger = {
+		has_country_flag = formed_serbian_byzantium_flag
+		owns = 145
+		owns = 1773
+		owns = 4701
+		owns = 163
+		owns = 164
+	}
+
+	mean_time_to_happen = {
+		years = 10
+	}
+
+	option = {
+		name = serbian_byz.2.a
+		145 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
+		1773 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
+		4701 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
+		163 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
+		164 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
+		hidden_effect = {
+			MOE = {
+				change_primary_culture = melingoi
+				override_country_name = "MELINGIA"
+			}
+		}
+	}
+}
