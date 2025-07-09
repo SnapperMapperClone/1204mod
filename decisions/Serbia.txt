@@ -45,14 +45,12 @@ country_decisions = {
 		major = yes
 		potential = {
 			NOT = { has_country_flag = formed_byzantium_flag }
-			OR = {
-				is_free_or_tributary_trigger = yes
-			}
+			is_free_or_tributary_trigger = yes
 			NOT = { exists = BYZ }
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = TUR }
-			culture = serbian
+			primary_culture = serbian
 			religion = orthodox
 		}
 		provinces_to_highlight = {
@@ -115,6 +113,8 @@ country_decisions = {
 			give_province_claims = { id = 2410 tag = BYZ }
 			give_province_claims = { id = 285 tag = BYZ }
 			add_prestige = 10
+			override_country_name = "SERBIAN_BYZANTIUM"
+			change_primary_culture = romeji
 			SER = {
 				add_core = 151 # Constantinople
 			}
