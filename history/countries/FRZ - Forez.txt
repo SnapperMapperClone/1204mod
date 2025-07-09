@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = western
 religion = catholic
 capital = 4777
-primary_culture = occitain
+primary_culture = occitain_sep
 
 1158.8.31 = {
 	monarch = {
