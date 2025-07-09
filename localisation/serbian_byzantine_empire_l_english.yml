@@ -2,4 +2,11 @@
  serbian_byzantine_empire_title:0 "Claim the Roman throne"
  serbian_byzantine_empire_desc:0 "The weakness of the Romans has proven to be a blessing for our kingdom. We can claim the lands of the Romans and the city of world's desire for ourselves and become the roman empire"
  SERBIAN_BYZANTIUM:0 "Serbo-Roman Empire"
+ serbian_byz.1.t:0 "Romej culture in $PROVINCENAME$"
+ serbian_byz.1.d:0 "Due to our assimilation efftorts, the romej language has become more prominent in $PROVINCENAME$, as people are using it more in everyday communication"
+ serbian_byz.1.a:0 "Excellent work"
+ serbian_byz.2.t:0 "The Melingoi of Pelopponese"
+ serbian_byz.2.d:0 "During our conquest of the Pelopponese, we have come in contact with the descendents of our fellow slavic brothers who settled there hundreads of years ago. The Romans have been calling them the Melingoi. They promise that they will be loyal to us if we allow them conrol over the peninsula and some of the surrounding areas"
+ serbian_byz.2.a:0 "We will allow them to settle all over south Greece"
+ MELINGIA:0 "Melingia"
 
