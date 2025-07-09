@@ -2,14 +2,14 @@ namespace = serbian_byz
 
 #Hellenization of Armenia
 province_event = {
-	id = greek_culture.1
-	title = greek_culture.1.t
-	desc = greek_culture.1.d
+	id = serbian_byz.1
+	title = serbian_byz.1.t
+	desc = serbian_byz.1.d
 	picture = STREET_SPEACH_eventPicture
 
 	trigger = {
 		OR = {
-			culture = armenian
+			culture = greek
 			province_id = 424
 		}
 		owner = {
@@ -34,13 +34,8 @@ province_event = {
 	}
 
 	option = {
-		name = greek_culture.1.a
-		change_culture = armenian_new
+		name = serbian_byz.1.a
+		change_culture = romeji
 	}
 }
 
-	option = {
-		name = greek_culture.1.a
-		change_culture = armenian_new
-	}
-}
