@@ -1,8 +1,8 @@
 #229 - Baixo Alentejo
 owner = MOR
 controller = MOR
-culture = portugese
-religion = catholic
+culture = al_andalus_arabic
+religion = sunni
 capital = "Beja"
 trade_goods = livestock
 base_tax = 3
