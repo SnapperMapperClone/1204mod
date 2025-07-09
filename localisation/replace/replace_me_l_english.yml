@@ -1,7 +1,10 @@
 ﻿l_english:
  georgian_new:0 "Romano-Georgian"
  old_egyptian:0 "Egyptian"
- al_misr_arabic:0 "Arab Egyptian"
+ al_misr_arabic:0 "Masri"
+ al_suryah_arabic:0 "Shami"
+ al_iraqiya_arabic:0 "Iraqui"
+ bedouin_arabic:0 "Badawi"
  griko:0 "Italiote"
  turko_semitic:0 "Arabian"
  sudanese:0 "Nilotic"
