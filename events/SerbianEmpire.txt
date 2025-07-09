@@ -1,0 +1,46 @@
+namespace = serbian_byz
+
+#Hellenization of Armenia
+province_event = {
+	id = greek_culture.1
+	title = greek_culture.1.t
+	desc = greek_culture.1.d
+	picture = STREET_SPEACH_eventPicture
+
+	trigger = {
+		OR = {
+			culture = armenian
+			province_id = 424
+		}
+		owner = {
+			OR = { 
+				tag = BYZ 
+				tag = ROM
+				culture_group = byzantine 
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture_group = byzantine }
+		}
+		modifier = {
+			factor = 0.25
+			religion = elysian_orthodoxy
+		}	
+	}
+
+	option = {
+		name = greek_culture.1.a
+		change_culture = armenian_new
+	}
+}
+
+	option = {
+		name = greek_culture.1.a
+		change_culture = armenian_new
+	}
+}
