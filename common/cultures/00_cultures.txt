@@ -1239,9 +1239,6 @@ latin = {
 	tuscan = {
 		primary = TUS
 	}
-	sardinian = {
-		primary = SAR
-	}
 	corsican = {
 		primary = COR
 	}
@@ -3893,6 +3890,9 @@ byzantine = {
 african_latin = {
 	graphical_culture = westerngfx
 
+	sardinian = {
+		primary = SAR
+	}
 	mauretanian = {
 		primary = MOR
 	}
