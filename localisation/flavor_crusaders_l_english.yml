@@ -16,4 +16,9 @@
  flavor_crusaders.5.t:0 "Greek catholic refugees"
  flavor_crusaders.5.d:0 "After the fall of the Latin Empire of Constantinople and the reconquest of Greece by the Romans, many Greek catholics feared they will be persecuted by the Eastern Orthodox church, and so they left their homelands. The proximity of the crusader states provides a possible sanctuary, plus the lack of Christians in our border areas is a perfect opportunity to give us more strength to control the area better"
  flavor_crusaders.5.a:0 "Let them settle in our northern border"
+ 
+#LATINOCRACY EVENTS 
+ latin_greece.1.t:0 "The effects of latinocracy"
+ latin_greece.1.d:0 "As the crusader states took over parts of Greece, the locals have been not favorable of our control. As such, it's going to be harder to conrtol them and this will afect the prosperity of our country"
+ latin_greece.1.a:0 "I hope we can change this"
 
