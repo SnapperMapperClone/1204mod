@@ -3934,6 +3934,9 @@ african_latin = {
 	lybian = {
 		primary = FEZ
 	}
+	cyrenaican_latin = {
+		primary = TRI
+	}
 	male_names = {
 		Abbondanzio Abbondio Abelardo Abelino Achille Adalberto Adelfo Adelmio Adelmo Adone 
 		Agapito Agostino Aimone Alamanno Alarico Adriano
