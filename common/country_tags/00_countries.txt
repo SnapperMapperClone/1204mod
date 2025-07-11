@@ -1166,6 +1166,11 @@ DMC	= "countries/Damascus.txt"
 BRO	= "countries/Berroea.txt"
 
 
+#NORTH AFRICA
+CTH = "countries/Carthage.txt"
+MUR = "countries/Mauretania.txt"
+NUD = "countries/Numidia.txt"
+
 #IRAN
 
 KHW = "countries/Khwarezm.txt"
