@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = numidian
+add_accepted_culture = berber
+religion = catholic
+technology_group = western
+capital = 338	# Algiers
+
+
