@@ -41,55 +41,55 @@ country_event = {
 			name = latin_rulers_of_greece
 			duration = -1
 		}
-		every_owned_province = {
-			limit = { culture = greek }
-			add_permanent_province_modifier = {
-				name = greeks_under_francocracy
-				duration = -1
-			}
-		}
+		#every_owned_province = {
+		#	limit = { culture = greek }
+		#	add_permanent_province_modifier = {
+		#		name = greeks_under_francocracy
+		#		duration = -1
+		#	}
+		#}
 	}
 }
 
-province_event = {
-	id = latin_greece.2
-	title = latin_greece.2.t
-	desc = latin_greece.2.d
-	picture = {
-		picture = CONSTANTINOPLE_eventPicture
-		trigger = {
-			has_dlc = "King of Kings"
-		}
-	}
-	picture = {
-		picture = CITY_VIEW_eventPicture
-		trigger = {
-			not = { has_dlc = "King of Kings" }
-		}
-	}
-
-	trigger = {
-		owner = {
-			AND = {
-				OR = {
-					primary_culture = romanien
-					primary_culture = tessalonican
-				}
-				has_country_modifier = { latin_rulers_of_greece }
-			}
-		}
-		culture = greek
-		NOT = {
-			has_province_modifier = {
-				greeks_under_francocracy
-			}
-		}
-	}
-	option = {
-		name = latin_greece.1.a
-		add_permanent_province_modifier = {
-			name = greeks_under_francocracy
-			duration = -1
-		}
-	}
-}
+#province_event = {
+#	id = latin_greece.2
+#	title = latin_greece.2.t
+#	desc = latin_greece.2.d
+#	picture = {
+#		picture = CONSTANTINOPLE_eventPicture
+#		trigger = {
+#			has_dlc = "King of Kings"
+#		}
+#	}
+#	picture = {
+#		picture = CITY_VIEW_eventPicture
+#		trigger = {
+#			not = { has_dlc = "King of Kings" }
+#		}
+#	}
+#
+#	trigger = {
+#		owner = {
+#			AND = {
+#				OR = {
+#					primary_culture = romanien
+#					primary_culture = tessalonican
+#				}
+#				has_country_modifier = { latin_rulers_of_greece }
+#			}
+#		}
+#		culture = greek
+#		NOT = {
+#			has_province_modifier = {
+#				greeks_under_francocracy
+#			}
+#		}
+#	}
+#	option = {
+#		name = latin_greece.1.a
+#		add_permanent_province_modifier = {
+#			name = greeks_under_francocracy
+#			duration = -1
+#		}
+#	}
+#}
