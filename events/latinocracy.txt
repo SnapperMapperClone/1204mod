@@ -41,13 +41,13 @@ country_event = {
 			name = latin_rulers_of_greece
 			duration = -1
 		}
-		#every_owned_province = {
-		#	limit = { culture = greek }
-		#	add_permanent_province_modifier = {
-		#		name = greeks_under_francocracy
-		#		duration = -1
-		#	}
-		#}
+#		every_owned_province = {
+#			limit = { culture = greek }
+#			add_permanent_province_modifier = {
+#				name = greeks_under_francocracy
+#				duration = -1
+#			}
+#		}
 	}
 }
 
