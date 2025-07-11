@@ -1,11 +1,9 @@
 government = monarchy
-add_government_reform = autocracy_reform
-primary_culture = punic
-historical_friend = LEB
-historical_rival = ROM
-historical_rival = BYZ
-religion = orthodox
-technology_group = eastern
-capital = 341	# Qart-Hadasht
+add_government_reform = feudalism_reform
+primary_culture = carthagenian
+add_accepted_culture = tunisian
+religion = catholic
+technology_group = western
+capital = 341	# Tunis
 fixed_capital = 341 # Cannot move capital away from this province & no power cost to move to it
 
