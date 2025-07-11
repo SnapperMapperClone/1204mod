@@ -3923,13 +3923,13 @@ african_latin = {
 		primary = SAR
 	}
 	mauretanian = {
-		primary = MOR
+		primary = MUR
 	}
 	numidian = {
-		primary = ALG
+		primary = NUD
 	}
 	carthagenian = {
-		primary = TUN
+		primary = CTH
 	}
 	lybian = {
 		primary = FEZ
