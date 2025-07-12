@@ -28,13 +28,6 @@ province_event = {
 			province_id = 142
 		}
 		NOT = { culture = romeji }
-		owner = {
-			OR = { 
-				tag = BYZ 
-				tag = ROM
-				culture_group = byzantine 
-			}
-		}
 	}
 
 	mean_time_to_happen = {
