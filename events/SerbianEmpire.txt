@@ -8,7 +8,7 @@ province_event = {
 	picture = STREET_SPEACH_eventPicture
 
 	trigger = {
-		has_country_flag = formed_serbian_byzantium_flag
+		owner = { primary_culture = romeji }
 		OR = {
 			province_id = 4705
 			province_id = 4702
@@ -52,7 +52,7 @@ country_event = {
 	picture = STREET_SPEACH_eventPicture
 
 	trigger = {
-		has_country_flag = formed_serbian_byzantium_flag
+		primary_culture = romeji
 		owns = 145
 		owns = 1773
 		owns = 4701
