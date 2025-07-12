@@ -104,16 +104,16 @@ country_decisions = {
 			1764 = {
 				change_culture = romeji
 			}
-			give_area_claims = { group = anatolia_region tag = BYZ }
-			give_area_claims = { group = bulgaria_area tag = BYZ }
-			give_area_claims = { group = silistria_area tag = BYZ }
-			give_area_claims = { group = albania_area tag = BYZ }
-			give_area_claims = { group = thrace_area tag = BYZ }
-			give_area_claims = { group = macedonia_area tag = BYZ }
-			give_area_claims = { group = northern_greece_area tag = BYZ }
-			give_area_claims = { group = morea_area tag = BYZ }
-			give_province_claims = { id = 2410 tag = BYZ }
-			give_province_claims = { id = 285 tag = BYZ }
+			give_area_claims = { group = anatolia_region tag = SER }
+			give_area_claims = { group = bulgaria_area tag = SER }
+			give_area_claims = { group = silistria_area tag = SER }
+			give_area_claims = { group = albania_area tag = SER }
+			give_area_claims = { group = thrace_area tag = SER }
+			give_area_claims = { group = macedonia_area tag = SER }
+			give_area_claims = { group = northern_greece_area tag = SER }
+			give_area_claims = { group = morea_area tag = SER }
+			give_province_claims = { id = 2410 tag = SER }
+			give_province_claims = { id = 285 tag = SER }
 			add_prestige = 10
 			override_country_name = "SERBIAN_BYZANTIUM"
 			change_primary_culture = romeji
