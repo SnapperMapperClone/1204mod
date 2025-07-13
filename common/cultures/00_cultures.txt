@@ -1918,6 +1918,9 @@ french	= {
 	outremer = {
 		primary = KOJ
 	}
+	mesopotamien = {
+		primary = MSP
+	}
 	romanien = {
 		primary = LAT
 	}
