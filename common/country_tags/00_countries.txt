@@ -1164,7 +1164,7 @@ TPL	= "countries/CountyOfTripoli.txt"
 NNV	= "countries/Nineveh.txt"
 DMC	= "countries/Damascus.txt"
 BRO	= "countries/Berroea.txt"
-
+MSP	= "countries/Mesopotamia.txt"
 
 #NORTH AFRICA
 CTH = "countries/Carthage.txt"
