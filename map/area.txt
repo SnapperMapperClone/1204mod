@@ -1177,7 +1177,7 @@ rum_area = { #5
 }
 
 erzurum_area = { #3	Erzurum and Trebizond
-	330 331 2305
+	330 331 2305 4178
 }
 
 hudavendigar_area = { #3
