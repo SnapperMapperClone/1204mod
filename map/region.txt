@@ -275,6 +275,7 @@ balkan_region = {
 		macedonia_area
 		northern_greece_area
 		morea_area
+		aegean_archipelago_area
 		thrace_area
 		albania_area
 		silistria_area
@@ -355,7 +356,6 @@ anatolia_region = {
 		dulkadir_area
 		cukurova_area
 		ankara_area
-		aegean_archipelago_area
 		germiyan_area
 	}
 }
