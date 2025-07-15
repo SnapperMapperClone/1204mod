@@ -1057,11 +1057,15 @@ macedonia_area = { #5 (Macedonia)
 }
 
 morea_area = { #4 Central Greece & Crete
-	145 146 163 1773 4701 4945
+	145 163 1773 4701
+}
+
+hellas_area = {
+	146 147 4944 4945
 }
 
 northern_greece_area = { #3 #Northern Greece
-	142 144 147 4699 4698 4944
+	142 144 4699 4698
 }
 
 thrace_area = { #5
