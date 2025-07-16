@@ -4,3 +4,12 @@ primary_culture = al_misr_arabic
 religion = sunni
 technology_group = muslim
 capital = 382 # Damascus
+1200.1.1 = {
+  monarch ={
+  name = "Al-Adil"
+  dynasty = "Ayyubid"
+  adm = 3
+  dip = 3
+  mil = 4
+  }
+}
