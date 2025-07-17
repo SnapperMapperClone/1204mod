@@ -1,5 +1,9 @@
 namespace = prince_no_more
 
+country_event = {
+  id = prince.1
+  title = prince.1.t
+  desc = prince.1.d
 
 
 
