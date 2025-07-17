@@ -1,4 +1,4 @@
-namespace = prince_no_more
+namespace = prince
 
 country_event = {
   id = prince.1
