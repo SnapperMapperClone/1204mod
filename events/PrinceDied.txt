@@ -1,1 +1,1 @@
-
+namespace = death_of_the_prince
