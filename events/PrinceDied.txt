@@ -1,3 +1,0 @@
-namespace = death_prince
-
-
