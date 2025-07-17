@@ -33,13 +33,7 @@ country_decisions = {
       }
     }
     effect = {
-      add_country_modifier = {
-        name = prince_of_wales
-        duration = 14600
-      }
-      country_event = {
-        id = prince.1
-        days = 14601
+      country_event = prince.1
       if = { 
         limit = { tag = GWY }
         if = { 
