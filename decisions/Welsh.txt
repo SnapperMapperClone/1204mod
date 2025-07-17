@@ -1,1 +1,79 @@
+country_decisions = {
+  become_prince_of_wales = {
+    potential = {
+      primary_culuture = welsh
+      NOT = { 
+        is_subject = yes
+        has_active_triggered_province_modifier = capital_of_wales
+      }
 
+    allow = {
+      prestige = 30
+      OR = {
+        has_won_war_against = {
+          who = ENG
+          max_years_since = 20
+        }
+        AND = {
+        if = {
+          limit = { tag = GWY }
+          
+        total_development = DEU
+        total_development = PWS
+        }
+        if = { 
+          limit = { tag = DEU }
+        total_development = GWY
+        total_development = PWS
+      }
+        if = { 
+          limit = { tag = PWS }
+        total_development = GWY
+        total_development = DEU
+      }
+    }
+    effect = {
+      add_country_modifier = {
+        name = prince_of_wales
+      }
+      if = { 
+        limit = { tag = GWY }
+        if = { 
+          limit = { exists = DEU 
+          DEU = { is_subject = no}
+            }
+          }
+          vassalize = DEU }
+        if = {
+            limit = { exists = PWS 
+        PWS = { is_subject = no}
+        }
+            vassalize = PWS }
+      }
+      if = { 
+        limit = { tag = DEU }
+        if = { 
+          limit = { exists = GWY 
+        GWY = { is_subject = no}
+        }
+          vassalize = GWY }
+        if = {
+            limit = { exists = PWS 
+        PWS = { is_subject = no}
+        }
+            vassalize = PWS }
+      }
+      if = { 
+        limit = { tag = PWS }
+        if = { 
+          limit = { exists = DEU 
+          DEU = { is_subject = no}
+            }
+          vassalize = DEU }
+        if = {
+            limit = { exists = GWY 
+          GWY = { is_subject = no}
+        }
+            vassalize = GWY }
+      }
+      
