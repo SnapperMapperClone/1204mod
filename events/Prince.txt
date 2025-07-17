@@ -1,9 +1,33 @@
 namespace = prince
 
 country_event = {
+  id = prince.0
+  title = prince.0.t
+  desc = prince.0.d
+
+  
+
+  option = {
+    name = prince.0.a
+    add_country_modifier = {
+      name = prince_of_wales
+      duration = 14600
+    }
+    country_event = {
+      id = prince.1
+      days = 14601
+    }
+  }
+}
+
+country_event = {
   id = prince.1
   title = prince.1.t
   desc = prince.1.d
 
-
-
+ 
+  option = {
+    name = prince.1.a
+    release_all_subjects = yes	
+  }
+}
