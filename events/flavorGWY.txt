@@ -21,8 +21,8 @@ country_event = {
   option = {
   name = "flavor_gwy.1.a"
   if = {
-  ruler = "Llywelyn fawr"
-  NOT = {has_consort = yes }
+  potential = { ruler = "Llywelyn fawr" }
+  NOT = { has_consort = yes }
   define_consort = {
   name = "Joan"
   country_of_origin = ENG
