@@ -1,1 +1,7 @@
-prince_of_wales = 
+prince_of_wales = {
+diplomatic_reputation = 1	
+diplomatic_upkeep = 1	
+liberty_desire = -10	
+land_morale = 0.10	
+global_manpower_modifier = 0.10	
+}
