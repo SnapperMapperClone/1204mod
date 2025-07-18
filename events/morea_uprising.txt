@@ -171,6 +171,7 @@ country_event = {
 		hidden_effect = {
 			1773 = { add_core = MOE }
 			4701 = { add_core = MOE }
+			4946 = { add_core = MOE }
 		}
 		add_stability = -1
 		add_prestige = -20
