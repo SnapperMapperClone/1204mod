@@ -2657,7 +2657,7 @@ province;red;green;blue;x;x
 2656;108;31;196;Camaguey;x
 2657;234;31;145;Colima;x
 2658;6;15;95;Maguana;x
-2659;132;16;46;Magua;"x 	"
+"2659;132;16;46;Magua;""x 	"""
 2660;69;31;246;Managua;x
 2661;195;31;196;Uluas;x
 2662;27;141;145;Olancho;x
@@ -4944,8 +4944,8 @@ province;red;green;blue;x;x
 4943;234;78;255;Negotin;x
 4944;128;203;106;Larissa;x
 4945;84;153;159;Thebes;x
-4946;100;200;199;Towarnehiooks;x
-4947;100;200;74;Aqkoktlaqatl;x
+4946;100;200;199;Messenia;x
+4947;100;200;74;Chania;x
 4948;100;200;149;Qlispel;x
 4949;100;200;224;Nlakapamux;x
 4950;200;100;24;Choinumni;x
@@ -4960,8 +4960,8 @@ province;red;green;blue;x;x
 4959;200;100;224;Niineniiniiciihehe;x
 4960;100;200;23;Nmesuletkw;x
 4961;100;200;98;PalusII;x
-4962;100;200;173;"Yapudttka";x
-4963;100;200;248;"Taveewach	";x
+"4962;100;200;173;""Yapudttka"";x"
+"4963;100;200;248;""Taveewach	"";x"
 4964;100;200;48;Comcaac;x
 4965;100;200;123;Toompahnahwach;x
 4966;100;200;198;Kaibab;x
