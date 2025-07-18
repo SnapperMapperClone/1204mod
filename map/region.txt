@@ -277,6 +277,7 @@ balkan_region = {
 		hellas_area
 		morea_area
 		aegean_archipelago_area
+		crete_area
 		thrace_area
 		albania_area
 		silistria_area
