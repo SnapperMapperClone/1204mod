@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = portuguese_monarchy_reform
-primary_culture = portugese
+primary_culture = galician_portugese
 religion = catholic
 technology_group = western
 historical_friend = SPA
