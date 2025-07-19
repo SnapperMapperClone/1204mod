@@ -2,7 +2,7 @@
 owner = MOR#Juan II of Castille
 controller = MOR
 culture = al_andalus_arabic
-religion = catholic
+religion = sunni
 base_tax = 6
 base_production = 6
 trade_goods = wine
