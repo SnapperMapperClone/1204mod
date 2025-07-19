@@ -1053,7 +1053,11 @@ mecklenburg_area = { #5
 ########################################
 
 macedonia_area = { #5 (Macedonia)
-	148 1853 3001 4702 4780
+	148 1853 4702 4948 4949
+}
+
+vardarska_area = {
+	3001 4780
 }
 
 morea_area = { #4 Pelopponese
@@ -1117,7 +1121,7 @@ rascia_area = { #4
 }
 
 albania_area = { #4
-	143 4174 4175 4750
+	143 4174 4175 4750 4950
 }
 
 bosnia_area = { #5
