@@ -2,51 +2,51 @@ namespace = flavor_gwy
 
 #Joan of Wales
 country_event = {
-  id = flavor_gwy.1
-  title = flavor_gwy.1.t
-  desc = flavor_gwy.1.d
-  picture = DIPLOMACY_eventPicture
-  fire_only_once = yes
-  major = yes
+	id = flavor_gwy.1
+	title = flavor_gwy.1.t
+	desc = flavor_gwy.1.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	major = yes
   
-  trigger = {
-  tag = GWY
-  is_year = 1204
-  }
+	trigger = {
+		tag = GWY
+		is_year = 1204
+	}
 
-  mean_time_to_happen = {
-  months = 24
-  }
+	mean_time_to_happen = {
+		months = 24
+	}
 
-  option = {
-  name = "flavor_gwy.1.a"
-  if = {
-  potential = { ruler = "Llywelyn fawr" }
-  NOT = { has_consort = yes }
-  define_consort = {
-  name = "Joan"
-  country_of_origin = ENG
-  culture = french
-  age = 17
-  relgion = catholic
-  female = yes
-  adm = 3
-  dip = 5
-  mil = 3
+  	option = {
+		name = "flavor_gwy.1.a"
+		if = {
+			potential = { ruler = "Llywelyn fawr" }
+			NOT = { has_consort = yes }
+			define_consort = {
+				name = "Joan"
+				country_of_origin = ENG
+				culture = french
+				age = 17
+				relgion = catholic
+				female = yes
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+			create_marriage = ENG
+			add_prestige = 20
+		}
+		else = {
+			add_prestige = 20
+		}
+	}
 
-}
-  create_marriage = ENG
-  add_prestige = 20
-  }
-  else = {
-  add_prestige = 20
-  }
-}
-
-option = {
-  name = "flavor_gwy.1.b"
-  add_prestige = 10
-  add_stability = 1
-  add_legitimacy = 20
-  }
+	option = {
+		name = "flavor_gwy.1.b"
+		add_prestige = 10
+		add_stability = 1
+		add_legitimacy = 20
+	}
 }
