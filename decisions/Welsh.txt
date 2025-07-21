@@ -1,7 +1,8 @@
 country_decisions = {
+
 	become_prince_of_wales = {
 		potential = {
-			primary_culuture = welsh
+			primary_culture = welsh
 			NOT = { 
 				is_subject = yes
 				has_country_flag = prince_of_wales
