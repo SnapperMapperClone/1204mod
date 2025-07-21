@@ -4,6 +4,7 @@ country_decisions = {
 			primary_culuture = welsh
 			NOT = { 
 				is_subject = yes
+				has_country_flag = prince_of_wales
 			}
 			
 		}
@@ -37,6 +38,7 @@ country_decisions = {
 
 		effect = {
 			country_event = { id = prince_of_wales.1 }
+			set_country_flag = prince_of_wales
 			if = { 
 				limit = { tag = GWY }
 				if = { 
