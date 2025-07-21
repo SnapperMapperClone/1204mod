@@ -97,6 +97,9 @@ country_decisions = {
 		
 		potential = {
 			primary_culture = welsh
+			NOT = {
+				exists = WLS
+			}
 		}
 
 		allow = {
