@@ -92,4 +92,38 @@ country_decisions = {
 			}
 		}
 	}
+	unite_wales = {
+		
+		potential = {
+			primary_culture = welsh
+		}
+
+		allow = {
+			owns_or_subject_of = 4366
+			owns_or_subject_of = 4369
+			owns_or_subject_of = 242
+			owns_or_subject_of = 241
+		prestige = 40
+		average_unrest = 0
+		stability = 2
+		total_development = 30
+		NOT = {	
+			truce_with = ENG }
+		}
+
+		effect = {
+			change_tag = WLS
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+					}
+					set_government_rank = 2
+				}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+				}
+			}
+		}
 }
