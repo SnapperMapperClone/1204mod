@@ -5,7 +5,7 @@ country_decisions = {
 			NOT = { 
 				is_subject = yes
 			}
-			has_active_triggered_province_modifier = capital_of_wales
+			
 		}
 
 		allow = {
