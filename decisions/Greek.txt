@@ -1,3 +1,61 @@
 country_decisions = {
-  
+	cyrenaica_greek = {
+		major = yes
+		potential = {
+			culture_group = byzantine
+			OR = {
+				owns = 356
+				owns = 357
+				owns = 2325
+				owns = 2326
+			}
+			NOT = {
+				356 = { culture = greek }
+				357 = { culture = greek }
+				2325 = { culture = greek }
+				2326 = { culture = greek }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 356
+				province_id = 357
+				province_id = 2325
+				province_id = 2326
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			dip_power = 100
+			owns = 357
+			owns = 356
+			owns = 2325
+			owns = 2326
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			add_dip_power = -100
+			356 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			357 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			2325 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			2326 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

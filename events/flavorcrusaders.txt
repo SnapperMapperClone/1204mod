@@ -198,7 +198,7 @@ country_event = {
 			EDE = { change_religion = catholic }
 		}
 		release = EDE
-		create_vassal = EDE
+		vassalize = EDE
 		2308 = {
 			change_religion = catholic
 			change_province_name = "Edessa"
