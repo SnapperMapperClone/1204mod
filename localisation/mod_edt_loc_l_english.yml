@@ -62,4 +62,6 @@
  DEU: "Deheubarth"
  DEU_ADJ: "Deheubarthian"
  PWS: "Powys"
- PWS: "Powysian"
+ PWS_ADJ: "Powysian"
+ LGR: "Logres"
+ LGR_ADJ: "Logrian"
