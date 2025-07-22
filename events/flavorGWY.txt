@@ -11,8 +11,12 @@ country_event = {
 	major = yes
   
 	trigger = {
-		tag = GWY
+		OR = { 
+			tag = GWY
+			tag = WLS
+			}
 		is_year = 1204
+		government = monarchy
 	}
 
 	mean_time_to_happen = {
@@ -40,6 +44,7 @@ country_event = {
 		}
 		else = {
 			add_prestige = 20
+			add_stability = 2
 		}
 	}
 
