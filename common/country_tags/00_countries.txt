@@ -1131,7 +1131,7 @@ FRZ = "countries/Forez.txt"
 GWY = "countries/Gwynedd.txt"
 DEU = "countries/Deheubarth.txt"
 PWS = "countries/Powys.txt"
-
+LGR = "countries/Logres.txt"
 
 #BALKANS
 
