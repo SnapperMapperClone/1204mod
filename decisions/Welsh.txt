@@ -107,12 +107,13 @@ country_decisions = {
 			owns_or_subject_of = 4369
 			owns_or_subject_of = 242
 			owns_or_subject_of = 241
-		prestige = 40
-		average_unrest = 0
-		stability = 2
-		total_development = 30
-		NOT = {	
-			truce_with = ENG }
+			prestige = 40
+			average_unrest = 0
+			stability = 2
+			total_development = 30
+			NOT = {	
+				truce_with = ENG
+			}
 		}
 
 		effect = {
@@ -120,16 +121,15 @@ country_decisions = {
 			if = {
 				limit = {
 					NOT = { government_rank = 2 }
-					}
-					set_government_rank = 2
 				}
+				set_government_rank = 2
+			}
 			add_prestige = 25
 			add_country_modifier = {
 				name = centralization_modifier
 				duration = 3650
-				}
-			
-			country_event = { id = ideagroups.1 } 
 			}
+			country_event = { id = ideagroups.1 } 
 		}
+	}
 }
