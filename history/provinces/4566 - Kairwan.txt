@@ -1,7 +1,7 @@
 # - Kairwan
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = african_roman
 religion = sunni
 capital = "Kairwan"
 trade_goods = grain

@@ -2,8 +2,8 @@
 owner = MOR#Martí I of Aragon
 controller = MOR
 add_core = VAL
-culture = catalan_sep
-religion = catholic
+culture = al_andalus_arabic
+religion = sunni
 base_tax = 3
 base_production = 3
 trade_goods = salt
