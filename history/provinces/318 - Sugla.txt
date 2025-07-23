@@ -2,7 +2,7 @@
 
 owner = NIC
 controller = NIC
-culture = greek
+culture = asia_minior_greek
 religion = orthodox
 capital = "Smyrna"
 trade_goods = cotton #Major producer and exporter of Cotton

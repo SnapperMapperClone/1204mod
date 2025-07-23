@@ -2,7 +2,7 @@
 
 owner = RUM
 controller = RUM
-culture = greek
+culture = asia_minor_greek
 religion = orthodox
 capital = "Burdur"
 trade_goods = grain
