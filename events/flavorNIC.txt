@@ -211,6 +211,7 @@ country_event = {
 			move_capital_effect = yes
 		}
 		hidden_effect = {
+			change_primary_culture = greek
 			every_province = {
 				limit = {
 					culture_group = byzantine
@@ -303,6 +304,7 @@ country_event = {
 		}
 		set_government_rank = 3
 		hidden_effect = {
+			change_primary_culture = greek
 			every_province = {
 				limit = {
 					culture_group = byzantine

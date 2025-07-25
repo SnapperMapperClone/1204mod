@@ -1,0 +1,26 @@
+name = "The Fourth crusade"
+war_goal = {
+	type = superiority_crusade
+	casus_belli = cb_crusade
+}
+
+1203.1.1 = {
+	add_attacker = LAT
+	add_attacker = TES
+	add_attacker = PHL
+	add_defender = BUL
+	add_defender = EPI
+	add_defender = TRE
+	add_defender = NIC
+}
+
+
+1204.5.16 = {
+	rem_attacker = LAT
+	rem_attacker = TES
+	rem_attacker = PHL
+	rem_defender = BUL
+	rem_defender = TRE
+	rem_defender = EPI
+	rem_defender = NIC
+}

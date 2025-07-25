@@ -9,3 +9,7 @@ latin_rulers_of_greece = {
 greeks_under_francocracy = {
 	local_unrest = 10
 }
+
+latins_control_constantinople = {
+	land_morale = -0.2
+}

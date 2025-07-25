@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "THE_FOURTH_CRUSADE"
+	desc = "THE_FOURTH_CRUSADE_DESC"
+	date = 1204.5.16
+	
+	center = 151
+	default = yes
+
+	country = LAT
+	country = TES
+	country = NIC
+	country = TRE
+	country = EPI
+	country = BUL
+	country = SER
+	country = RUM
+}
