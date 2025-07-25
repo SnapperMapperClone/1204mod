@@ -1,16 +1,17 @@
 ﻿l_english:
  corsican:0 "Corsican"
+
  avar:0 "Avar"
+
  levantine_group:0 "Levantine"
  sumerian:0 "Sumerian"
  akkadian:0 "Akkadian"
  assyrian:0 "Assyrian"
  punic:0 "Punic"
  maronite:0 "Maronite"
- tajik:0 "Tajik"
  outremer:0 "Outremer"
  mesopotamien:0 "Mesopotamien"
- melkite:0 "Melkite"
+
  african_latin:0 "African Latin"
  mauretanian:0 "Mauretanian"
  numidian:0 "Numidian"
@@ -18,36 +19,49 @@
  lybian:0 "Lybian"
  cyrenaican_latin:0 "Cyrenaican"
  african_roman:0 "African"
+
  roman_group:0 "Roman"
  gallo_roman:0 "Gallo-Roman"
  hispano_roman:0 "Hispano-Roman"
  bretano_roman:0 "Bretano-Roman"
  afro_roman:0 "Afro-Roman"
  helleno_roman:0 "Helleno-Roman"
+
+ tajik:0 "Tajik"
+
  bulgar:0 "Volga Bulgarian"
+
  gasmouloi:0 "Gasmouloi"
  asia_minor_greek:0 "Micrassiatic"
  armenian_new:0 "Armenian"
+
  romanien:0 "Romanien"
  tessalonican:0 "Tessalonican"
+
  romeji:0 "Romej"
  melingoi:0 "Milinzi"
+
  al_andalus_arabic:0 "Andalusi"
  najdi_arabic:0 "Najdi"
  sicelian_arabic:0 "Siquli"
  sudanese_arabic:0 "Sudaniya"
  maghrebi_arabic:0 "Darija"
  african_bedouin_arabic:0 "Hilalian"
+ melkite:0 "Melkite"
+
  mozarabic:0 "Mozarabic"
  galician_portugese:0 "Galician-Portuguese"
+
  septimanian:0 "Septimanian"
  occitain_sep:0 "Occitan"
  gascon_sep:0 "Gascon"
  aragonese_sep:0 "Navarroragonese"
  catalan_sep:0 "Catalan"
+
  wallachian:0 "Wallachian"
  moldovan:0 "Moldovan"
  thracian:0 "Thracian"
  daco_pannonian:0 "Pannonian"
  aromanian:0 "Aromanian"
+
  brittonic:0 "Brittonic"
