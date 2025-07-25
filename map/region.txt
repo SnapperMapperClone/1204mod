@@ -118,7 +118,6 @@ south_german_region = {
 		tirol_area
 		austria_proper_area
 		inner_austria_area
-		carinthia_area
 		switzerland_area
 		lower_bavaria_area
 		upper_bavaria_area
@@ -266,11 +265,6 @@ crimea_region = {
 
 balkan_region = {
 	areas = {
-		croatia_area
-		east_adriatic_coast_area
-		bosnia_area
-		serbia_area
-		rascia_area
 		bulgaria_area
 		macedonia_area
 		vardarska_area
@@ -282,7 +276,18 @@ balkan_region = {
 		thrace_area
 		albania_area
 		silistria_area
+	}
+}
+
+illyria_region = {
+	areas = {
+		croatia_area
+		east_adriatic_coast_area
+		bosnia_area
+		serbia_area
+		rascia_area
 		slavonia_area
+		carinthia_area
 	}
 }
 
