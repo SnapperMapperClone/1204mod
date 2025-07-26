@@ -4849,7 +4849,7 @@ caucasian = {
 			Sirvart Srpouhi Shoushanig Takouhi Tamar Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Elizabeth 
 		}
 	}
-	ciician_armenian = {
+	cilician_armenian = {
 		primary = CLC
 		dynasty_names = { 
 			Bagratuni Rubenid Pahlavuni
