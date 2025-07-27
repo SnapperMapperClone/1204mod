@@ -26,6 +26,9 @@ province_event = {
 			province_id = 3001
 			province_id = 3003
 			province_id = 142
+			province_id = 4948
+			province_id = 4949
+			province_id = 4950
 		}
 		NOT = { culture = romeji }
 	}
@@ -56,8 +59,10 @@ country_event = {
 		owns = 145
 		owns = 1773
 		owns = 4701
+		owns = 4946
 		owns = 163
 		owns = 164
+		owns = 4947
 	}
 
 	mean_time_to_happen = {
@@ -78,11 +83,19 @@ country_event = {
 			change_culture = melingoi
 			add_core = MOE
 		}
+		4946 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
 		163 = {
 			change_culture = melingoi
 			add_core = MOE
 		}
 		164 = {
+			change_culture = melingoi
+			add_core = MOE
+		}
+		4947 = {
 			change_culture = melingoi
 			add_core = MOE
 		}
