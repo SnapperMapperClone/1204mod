@@ -1,7 +1,7 @@
 #354 - Tripoli
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = african_bedouin_arabic
 religion = sunni
 capital = "Tripoli"#Tripoli in the West.
 trade_goods = cloth

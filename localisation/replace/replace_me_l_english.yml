@@ -1,21 +1,34 @@
 ﻿l_english:
  georgian_new:0 "Georgian"
  old_egyptian:0 "Egyptian"
+
  al_misr_arabic:0 "Masri"
  al_suryah_arabic:0 "Shami"
  al_iraqiya_arabic:0 "Iraqui"
  bedouin_arabic:0 "Badawi"
+
+ maghrebi:0 "Amazigh"
+ tunisian:0 "Lybian"
+ berber:0 "Iznaghen"
+ moroccan:0 "Guanche"
+ algerian:0 "Tamazight"
+ tuareg:0 "Imashighan"
+
  griko:0 "Italiote"
  turko_semitic:0 "Arabian"
  sudanese:0 "Nilotic"
+
  PROV4178:0 "Argyroupolis"
  PROV_ADJ4178:0 "Argyroupolitan"
  PROV163:0 "Chandax"
  PROV_ADJ163:0 "Chandakian"
+
  northern_greece_area:0 "Epirus"
  northern_greece_area_name:0 "Epirus"
  northern_greece_area_adj:0 "Epirote"
+
  carpathian:0 "Daco-Roman"
+
  balkan_region:0 "Rumelia"
  balkan_region_name:0 "Rumelia"
  balkan_region_adj:0 "Rumelian"

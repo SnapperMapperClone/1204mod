@@ -1,7 +1,7 @@
 #339 - Bejaia
 owner = MOR
 controller = MOR
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Bejaia"
 trade_goods = iron

@@ -1,7 +1,7 @@
 # - Susa
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = maghrebi_arabic
 religion = sunni
 capital = "Susa"
 trade_goods = sugar

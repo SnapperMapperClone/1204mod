@@ -1,7 +1,7 @@
 # - Sfax
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = maghrebi_arabic
 religion = sunni
 capital = "Sfax"
 trade_goods = sugar

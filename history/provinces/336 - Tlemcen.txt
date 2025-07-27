@@ -1,7 +1,7 @@
 #336 - Tlemcen
 owner = MOR
 controller = MOR
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Tlemcen"
 trade_goods = cloth

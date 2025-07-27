@@ -2,7 +2,7 @@
 
 owner = AYB
 controller = AYB
-culture = bedouin_arabic
+culture = najdi_arabic
 religion = sunni
 capital = "Maan"
 trade_goods = livestock

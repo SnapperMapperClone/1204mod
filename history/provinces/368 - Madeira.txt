@@ -1,6 +1,6 @@
 #368 - Madeira
 
-culture = berber
+culture = moroccan
 religion = animism
 capital = "Funchal"
 trade_goods = unknown
