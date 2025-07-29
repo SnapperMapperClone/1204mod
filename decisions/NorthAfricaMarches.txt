@@ -103,6 +103,7 @@ country_decisions = {
 					area = tafilalt_area
 				}
        			}
+			owns = 1751
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
@@ -122,6 +123,49 @@ country_decisions = {
 					}
 					add_core = MUR	
 				}	
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = northern_morocco_area
+							area = marrekesh_area
+							area = southern_morocco_area
+							area = western_morocco_area
+							area = sus_area
+							area = tafilalt_area
+						}
+						culture = african_roman
+					}
+					change_culture = mauretanian
+					change_religion = catholic	
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							area = northern_morocco_area
+							area = marrekesh_area
+							area = western_morocco_area
+						}
+						NOT = { province_id = 1751 }
+					}
+					change_culture = mauretanian
+					change_religion = catholic	
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							area = northern_morocco_area
+							area = marrekesh_area
+							area = western_morocco_area
+						}
+						NOT = { province_id = 1751 }
+					}
+					change_culture = mauretanian
+					change_religion = catholic	
+				}
+				1751 = {
+					change_culture = mauretanian
+					change_religion = catholic	
+				}
 			}
 			release = MUR
 			create_march = MUR
@@ -194,6 +238,7 @@ country_decisions = {
 				NOT = { province_id = 352 }
 				NOT = { province_id = 2450 }
        			}
+			owns = 338
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
@@ -214,6 +259,63 @@ country_decisions = {
 						NOT = { province_id = 2450 }
 					}
 					add_core = NUD	
+				}	
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = north_saharan_area
+							area = ouled_nail_area
+							area = hautes_plaines_area
+							area = kabylia_area
+							area = barbary_coast_area
+							area = algiers_area
+						}
+						NOT = { province_id = 352 }
+						NOT = { province_id = 2450 }
+						culture = african_roman
+					}
+					change_culture = numidian
+					change_religion = catholic	
+				}
+				random_owned_province = {
+					limit = {
+						OR = {
+							area = north_saharan_area
+							area = ouled_nail_area
+							area = hautes_plaines_area
+							area = kabylia_area
+							area = barbary_coast_area
+							area = algiers_area
+						}
+						NOT = { province_id = 352 }
+						NOT = { province_id = 2450 }
+						NOT = { province_id = 338 }
+						has_port = yes
+					}
+					change_culture = numidian
+					change_religion = catholic
+				}	
+				random_owned_province = {
+					limit = {
+						OR = {
+							area = north_saharan_area
+							area = ouled_nail_area
+							area = hautes_plaines_area
+							area = kabylia_area
+							area = barbary_coast_area
+							area = algiers_area
+						}
+						NOT = { province_id = 352 }
+						NOT = { province_id = 2450 }
+						NOT = { province_id = 338 }
+						has_port = yes
+					}
+					change_culture = numidian
+					change_religion = catholic
+				}
+				338 = {
+					change_culture = numidian
+					change_religion = catholic
 				}	
 			}
 			release = NUD
@@ -285,6 +387,7 @@ country_decisions = {
 					province_id = 2450
 				}
        			}
+			owns = 341
 			is_at_war = no
 			is_free_or_tributary_trigger = yes
 			is_nomad = no
@@ -304,6 +407,25 @@ country_decisions = {
 					}
 					add_core = CTH	
 				}	
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = tripolitania_area
+							area = fezzan_area
+							area = tunisia_area
+							area = djerba_area
+							province_id = 352
+							province_id = 2450
+						}
+						culture = african_roman
+					}
+					change_culture = carthagenian
+					change_religion = catholic	
+				}	
+				341 = {
+					change_culture = carthagenian
+					change_religion = catholic
+				}
 			}
 			release = CTH
 			create_march = CTH
