@@ -1,0 +1,37 @@
+namespace = flavor_sic
+
+
+#Latinization of Sicily
+province_event = {
+	id = flavor_sic.1
+	title = flavor_sic.1.t
+	desc = flavor_sic.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = sicelian_arabic
+		owner = {
+			OR = {
+				culture_group = latin
+				culture_group = french
+				culture_group = iberian
+				culture_group = septimanian
+				culture_group = african_latin
+				culture_group = germanic
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 40
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = { culture_group = latin }
+		}		
+	}
+
+	option = {
+		name = flavor_sic.1.a
+		change_culture = sicilian
+	}
+}

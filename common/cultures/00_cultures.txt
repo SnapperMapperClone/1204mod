@@ -1072,7 +1072,7 @@ brittonic = {
 			Trifine Tristana Uriell Seva Perenn Meonre Ilcum Guigoëdon Drichglur Berthildis Argantmoet
 		}
 	}
-	}
+}
 	
 gaelic	= {
 	graphical_culture = westerngfx
