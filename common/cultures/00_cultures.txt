@@ -1519,6 +1519,37 @@ iberian	= {
 			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
 	}
+	asturian_leonese = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = LON
+		dynasty_names = {
+			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
+			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
+			#CK2
+			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
+			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
+			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+		}
+		male_names = {
+			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
+			Bernardo Bertrán Hernando
+			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
+			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
+			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
+			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
+			Egidius Guillén Guillermo Juan 
+			Lupo Luis Manrique Martín Martin Munio Ordoño 
+			Obeko Pelayo Pelagius Roderick Salvador 
+			Tello Vela Suero Oveco
+		}
+		female_names = {
+			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
+			Elvira Estefanía Fronilda Gontroda Gotruda Inés Agnes 
+			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Marina Marine 
+			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
+		}
+	}
 	mozarabic = {
 		country = { } 
 		province = { local_has_caravel = yes local_has_galleon = yes }
