@@ -136,7 +136,7 @@ country_decisions = {
 						culture = african_roman
 					}
 					change_culture = mauretanian
-					change_religion = catholic	
+					change_religion = ROOT	
 				}
 				random_owned_province = {
 					limit = {
@@ -148,7 +148,7 @@ country_decisions = {
 						NOT = { province_id = 1751 }
 					}
 					change_culture = mauretanian
-					change_religion = catholic	
+					change_religion = ROOT	
 				}
 				random_owned_province = {
 					limit = {
@@ -160,16 +160,19 @@ country_decisions = {
 						NOT = { province_id = 1751 }
 					}
 					change_culture = mauretanian
-					change_religion = catholic	
+					change_religion = ROOT	
 				}
 				1751 = {
 					change_culture = mauretanian
-					change_religion = catholic	
+					change_religion = ROOT	
 				}
 			}
 			release = MUR
 			create_march = MUR
 			hidden_effect = {
+				MR = {
+					change_religion = ROOT
+				}
 				every_province = {
 					limit = {
 						OR = {
@@ -275,7 +278,7 @@ country_decisions = {
 						culture = african_roman
 					}
 					change_culture = numidian
-					change_religion = catholic	
+					change_religion = ROOT	
 				}
 				random_owned_province = {
 					limit = {
@@ -293,7 +296,7 @@ country_decisions = {
 						has_port = yes
 					}
 					change_culture = numidian
-					change_religion = catholic
+					change_religion = ROOT
 				}	
 				random_owned_province = {
 					limit = {
@@ -311,16 +314,19 @@ country_decisions = {
 						has_port = yes
 					}
 					change_culture = numidian
-					change_religion = catholic
+					change_religion = ROOT
 				}
 				338 = {
 					change_culture = numidian
-					change_religion = catholic
+					change_religion = ROOT
 				}	
 			}
 			release = NUD
 			create_march = NUD
 			hidden_effect = {
+				NUD = {
+					change_religion = ROOT
+				}
 				every_province = {
 					limit = {
 						OR = {
@@ -420,16 +426,19 @@ country_decisions = {
 						culture = african_roman
 					}
 					change_culture = carthagenian
-					change_religion = catholic	
+					change_religion = ROOT	
 				}	
 				341 = {
 					change_culture = carthagenian
-					change_religion = catholic
+					change_religion = ROOT
 				}
 			}
 			release = CTH
 			create_march = CTH
 			hidden_effect = {
+				CTH = {
+					change_religion = ROOT
+				}
 				every_province = {
 					limit = {
 						OR = {
