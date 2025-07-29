@@ -61,8 +61,8 @@ province_event = {
 		else_if = {
 			limit = {
 				OR = {
-					area = upper_andalusia_area
-					area = lower_andalusia_area
+					area = upper_andalucia_area
+					area = lower_andalucia_area
 				}
 			}
 			change_culture = andalucian
@@ -94,7 +94,7 @@ province_event = {
 					area = toledo_area
 				}
 			}
-			change_culture = castilian
+			change_culture = castillian
 		}
 		else = {
 		}
