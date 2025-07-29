@@ -1,0 +1,175 @@
+namespace = african_latin
+
+#Carthagenian
+province_event = {
+	id = african_latin.1
+	title = african_latin.1.t
+	desc = african_latin.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = {
+			culture = carthagenian
+		}
+		OR = {
+			province_id = 352
+			area = tunisia_area
+			area = djerba_area
+		}
+		owner = {
+			religion_group = christian
+		}
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture_group = african_latin }
+		}
+		modifier = {
+			factor = 0.01
+			culture = african_roman
+		}		
+	}
+
+	option = {
+		name = african_latin.1.a
+		change_culture = carthagenian
+	}
+}
+
+#Libyan
+province_event = {
+	id = african_latin.2
+	title = african_latin.2.t
+	desc = african_latin.2.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = {
+			culture = libyan
+		}
+		OR = {
+			province_id = 2450
+			area = tripolitania_area
+			area = fezzan_area
+		}
+		owner = {
+			religion_group = christian
+		}
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture_group = african_latin }
+		}
+		modifier = {
+			factor = 0.01
+			culture = african_roman
+		}		
+	}
+
+	option = {
+		name = african_latin.2.a
+		change_culture = libyan
+	}
+}
+
+#Numidian
+province_event = {
+	id = african_latin.3
+	title = african_latin.3.t
+	desc = african_latin.3.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = {
+			culture = numidian
+		}
+		OR = {
+			area = north_saharan_area
+			area = ouled_nail_area
+			area = hautes_plaines_area
+			area = kabylia_area
+			area = barbary_coast_area
+			area = algiers_area
+			province_id = 349
+		}
+		NOT = {
+			OR = {
+				province_id = 352
+				province_id = 2450
+			}
+		}
+		owner = {
+			religion_group = christian
+		}
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture_group = african_latin }
+		}
+		modifier = {
+			factor = 0.01
+			culture = african_roman
+		}		
+	}
+
+	option = {
+		name = african_latin.3.a
+		change_culture = numidian
+	}
+}
+
+#Mauretanian
+province_event = {
+	id = african_latin.4
+	title = african_latin.4.t
+	desc = african_latin.4.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = {
+			culture = mauretanian
+		}
+		OR = {
+			area = northern_morocco_area
+			area = marrekesh_area
+			area = southern_morocco_area
+			area = western_morocco_area
+			area = sus_area
+			area = tafilalt_area
+		}
+		NOT = { province_id = 349 } 
+		owner = {
+			religion_group = christian
+		}
+		religion_group = christian
+	}
+
+	mean_time_to_happen = {
+		years = 50
+		modifier = {
+			factor = 0.5
+			any_neighbor_province = { culture_group = african_latin }
+		}
+		modifier = {
+			factor = 0.01
+			culture = african_roman
+		}		
+	}
+
+	option = {
+		name = african_latin.4.a
+		change_culture = mauretanian
+	}
+}

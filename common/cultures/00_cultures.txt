@@ -4254,7 +4254,7 @@ african_latin = {
 	carthagenian = {
 		primary = CTH
 	}
-	lybian = {
+	libyan = {
 		primary = FEZ
 	}
 	cyrenaican_latin = {

@@ -89,6 +89,7 @@ country_decisions = {
 				area = sus_area
 				area = tafilalt_area
 			}
+			NOT = { province_id = 349 }
 			NOT = { owned_by = ROOT }
 		}
 		allow = {
@@ -102,6 +103,7 @@ country_decisions = {
 					area = sus_area
 					area = tafilalt_area
 				}
+				NOT = { province_id = 349 }
        			}
 			owns = 1751
 			is_at_war = no
@@ -120,6 +122,7 @@ country_decisions = {
 							area = sus_area
 							area = tafilalt_area
 						}
+						NOT = { province_id = 349 }
 					}
 					add_core = MUR	
 				}	
@@ -133,6 +136,7 @@ country_decisions = {
 							area = sus_area
 							area = tafilalt_area
 						}
+						NOT = { province_id = 349 }
 						culture = african_roman
 					}
 					change_culture = mauretanian
@@ -170,7 +174,7 @@ country_decisions = {
 			release = MUR
 			create_march = MUR
 			hidden_effect = {
-				MR = {
+				MUR = {
 					change_religion = ROOT
 				}
 				every_province = {
@@ -183,6 +187,7 @@ country_decisions = {
 							area = sus_area
 							area = tafilalt_area
 						}
+						NOT = { province_id = 349 }
 						NOT = { owned_by = MUR }
 					}
 					add_permanent_claim = MUR	
@@ -208,6 +213,7 @@ country_decisions = {
 					area = kabylia_area
 					area = barbary_coast_area
 					area = algiers_area
+					province_id = 349
 				}
 			}
 			NOT = {
@@ -222,6 +228,7 @@ country_decisions = {
 				area = kabylia_area
 				area = barbary_coast_area
 				area = algiers_area
+				province_id = 349
 			}
 			NOT = { province_id = 352 }
 			NOT = { province_id = 2450 }
@@ -237,6 +244,7 @@ country_decisions = {
 					area = kabylia_area
 					area = barbary_coast_area
 					area = algiers_area
+					province_id = 349
 				}
 				NOT = { province_id = 352 }
 				NOT = { province_id = 2450 }
@@ -257,6 +265,7 @@ country_decisions = {
 							area = kabylia_area
 							area = barbary_coast_area
 							area = algiers_area
+							province_id = 349
 						}
 						NOT = { province_id = 352 }
 						NOT = { province_id = 2450 }
@@ -272,6 +281,7 @@ country_decisions = {
 							area = kabylia_area
 							area = barbary_coast_area
 							area = algiers_area
+							province_id = 349
 						}
 						NOT = { province_id = 352 }
 						NOT = { province_id = 2450 }
@@ -289,6 +299,7 @@ country_decisions = {
 							area = kabylia_area
 							area = barbary_coast_area
 							area = algiers_area
+							province_id = 349
 						}
 						NOT = { province_id = 352 }
 						NOT = { province_id = 2450 }
@@ -307,6 +318,7 @@ country_decisions = {
 							area = kabylia_area
 							area = barbary_coast_area
 							area = algiers_area
+							province_id = 349
 						}
 						NOT = { province_id = 352 }
 						NOT = { province_id = 2450 }
@@ -336,6 +348,7 @@ country_decisions = {
 							area = kabylia_area
 							area = barbary_coast_area
 							area = algiers_area
+							province_id = 349
 						}
 						NOT = { province_id = 352 }
 						NOT = { province_id = 2450 }
