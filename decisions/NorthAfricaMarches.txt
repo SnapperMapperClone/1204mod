@@ -1,0 +1,332 @@
+country_decisions = {
+	cyrenaica_latin = {
+		major = yes
+		potential = {
+			NOT = { culture_group = byzantine }
+			religion = catholic
+			OR = {
+				owns = 356
+				owns = 357
+				owns = 2325
+				owns = 2326
+			}
+			NOT = {
+				356 = { culture = cyrenaican_latin }
+				357 = { culture = cyrenaican_latin }
+				2325 = { culture = cyrenaican_latin }
+				2326 = { culture = cyrenaican_latin }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 356
+				province_id = 357
+				province_id = 2325
+				province_id = 2326
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			dip_power = 100
+			owns = 357
+			owns = 356
+			owns = 2325
+			owns = 2326
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			add_dip_power = -100
+			356 = {
+				change_culture = cyrenaican_latin
+				change_religion = ROOT
+			}
+			357 = {
+				change_culture = cyrenaican_latin
+				change_religion = ROOT
+			}
+			2325 = {
+				change_culture = cyrenaican_latin
+				change_religion = ROOT
+			}
+			2326 = {
+				change_culture = cyrenaican_latin
+				change_religion = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	march_of_mauretania = {
+		major = yes
+		potential = {
+			OR = {
+				religion = catholic
+				religion = orthodox
+			}
+			any_owned_province = {
+				OR = {
+					area = northern_morocco_area
+					area = marrekesh_area
+					area = southern_morocco_area
+					area = western_morocco_area
+					area = sus_area
+					area = tafilalt_area
+				}
+			}
+			NOT = {
+				exists = MUR
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = northern_morocco_area
+				area = marrekesh_area
+				area = southern_morocco_area
+				area = western_morocco_area
+				area = sus_area
+				area = tafilalt_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			num_of_owned_provinces_with = {
+           			value = 5
+				OR = {
+					area = northern_morocco_area
+					area = marrekesh_area
+					area = southern_morocco_area
+					area = western_morocco_area
+					area = sus_area
+					area = tafilalt_area
+				}
+       			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = northern_morocco_area
+							area = marrekesh_area
+							area = southern_morocco_area
+							area = western_morocco_area
+							area = sus_area
+							area = tafilalt_area
+						}
+					}
+					add_core = MUR	
+				}	
+			}
+			release = MUR
+			create_march = MUR
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							area = northern_morocco_area
+							area = marrekesh_area
+							area = southern_morocco_area
+							area = western_morocco_area
+							area = sus_area
+							area = tafilalt_area
+						}
+						NOT = { owned_by = MUR }
+					}
+					add_permanent_claim = MUR	
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	march_of_numidia = {
+		major = yes
+		potential = {
+			OR = {
+				religion = catholic
+				religion = orthodox
+			}
+			any_owned_province = {
+				OR = {
+					area = north_saharan_area
+					area = ouled_nail_area
+					area = hautes_plaines_area
+					area = kabylia_area
+					area = barbary_coast_area
+					area = algiers_area
+				}
+			}
+			NOT = {
+				exists = NUD
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = north_saharan_area
+				area = ouled_nail_area
+				area = hautes_plaines_area
+				area = kabylia_area
+				area = barbary_coast_area
+				area = algiers_area
+			}
+			NOT = { province_id = 352 }
+			NOT = { province_id = 2450 }
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			num_of_owned_provinces_with = {
+           			value = 5
+				OR = {
+					area = north_saharan_area
+					area = ouled_nail_area
+					area = hautes_plaines_area
+					area = kabylia_area
+					area = barbary_coast_area
+					area = algiers_area
+				}
+				NOT = { province_id = 352 }
+				NOT = { province_id = 2450 }
+       			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = north_saharan_area
+							area = ouled_nail_area
+							area = hautes_plaines_area
+							area = kabylia_area
+							area = barbary_coast_area
+							area = algiers_area
+						}
+						NOT = { province_id = 352 }
+						NOT = { province_id = 2450 }
+					}
+					add_core = NUD	
+				}	
+			}
+			release = NUD
+			create_march = NUD
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							area = north_saharan_area
+							area = ouled_nail_area
+							area = hautes_plaines_area
+							area = kabylia_area
+							area = barbary_coast_area
+							area = algiers_area
+						}
+						NOT = { province_id = 352 }
+						NOT = { province_id = 2450 }
+						NOT = { owned_by = NUD }
+					}
+					add_permanent_claim = NUD	
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	march_of_carthage = {
+		major = yes
+		potential = {
+			OR = {
+				religion = catholic
+				religion = orthodox
+			}
+			any_owned_province = {
+				OR = {
+					area = tripolitania_area
+					area = fezzan_area
+					area = tunisia_area
+					area = djerba_area
+					province_id = 352
+					province_id = 2450
+				}
+			}
+			NOT = {
+				exists = CTH
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = tripolitania_area
+				area = fezzan_area
+				area = tunisia_area
+				area = djerba_area
+				province_id = 352
+				province_id = 2450
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			num_of_owned_provinces_with = {
+           			value = 5
+				OR = {
+					area = tripolitania_area
+					area = fezzan_area
+					area = tunisia_area
+					area = djerba_area
+					province_id = 352
+					province_id = 2450
+				}
+       			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			hidden_effect = {
+				every_owned_province = {
+					limit = {
+						OR = {
+							area = tripolitania_area
+							area = fezzan_area
+							area = tunisia_area
+							area = djerba_area
+							province_id = 352
+							province_id = 2450
+						}
+					}
+					add_core = CTH	
+				}	
+			}
+			release = CTH
+			create_march = CTH
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							area = tripoltania_area
+							area = fezzan_area
+							area = tunisia_area
+							area = djerba_area
+							province_id = 352
+							province_id = 2450
+						}
+						NOT = { owned_by = CTH }
+					}
+					add_permanent_claim = CTH	
+				}	
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
