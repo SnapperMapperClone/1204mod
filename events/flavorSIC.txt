@@ -32,6 +32,15 @@ province_event = {
 
 	option = {
 		name = flavor_sic.1.a
-		change_culture = sicilian
+		if = {
+			limit = {
+				province_id = 126
+			}
+			change_culture = maltese
+			add_core = JAI	
+		}
+		else = {
+			change_culture = sicilian
+		}
 	}
 }
