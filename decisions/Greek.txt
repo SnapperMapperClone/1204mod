@@ -58,4 +58,67 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	unite_the_romans = {
+		major = yes
+		potential = {
+			culture_group = byzantine
+			NOT = { has_global_flag = romans_united }
+		}
+		provinces_to_highlight = {
+			culture_group = byzantine
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			is_nomad = no
+			is_at_war = no
+			NOT = {
+				any_province = {
+					AND = {
+						culture_group = byzantine
+						NOT = { owned_by = ROOT }					
+					}
+				}
+			}
+		}
+		effect = {
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = byzantine
+					}
+					change_culture = romaic
+				}
+				change_primary_culture = romaic
+				set_ruler_culture = romaic
+				set_global_flag = romans_united
+				if = {
+					limit = {
+						has_heir = yes
+					}
+					set_heir_culture = romaic
+				}
+				if = {
+					limit = {
+						has_consort = yes
+							OR = {
+								consort_culture = pontic_greek
+								consort_culture = cappadocian_greek
+								consort_culture = asia_minor_greek
+								consort_culture = griko
+								consort_culture = greek
+								consort_culture = athenian
+								consort_culture = spartan
+								consort_culture = gasmouloi
+								consort_culture = goths
+							}
+						}
+					set_consort_culture = romaic
+				}
+			}
+			add_prestige = 50
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
 }
