@@ -115,6 +115,81 @@ country_decisions = {
 					}
 					change_culture = afro_roman
 				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						region = crimea_region
+					}
+					change_culture = cimmero_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						OR = {
+							area = transdanubia_area
+							area = alfold_area
+							area = slovakia_area
+						}
+					}
+					change_culture = pannono_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						OR = {
+							area = wallachia_area
+							area = moldova_area
+							area = transylvania_area
+							area = southern_transylvania_area
+						}
+					}
+					change_culture = daco_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						OR = {
+							area = syria_area
+							area = palestine_area
+							area = aleppo_area
+							area = syrian_desert_area
+							area = trans_jordan_area
+						}
+					}
+					change_culture = syro_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						OR = {
+							area = al_jazira_area
+							area = iraq_arabi_area
+							area = basra_area
+							province_id = 415
+							province_id = 4293
+							province_id = 4294
+						}
+					}
+					change_culture = mesopotamian_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						region = arabia_region
+					}
+					change_culture = arabo_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						OR = {
+							region = north_german_region
+							region = south_german_region
+							region = low_countries_region
+						}
+					}
+					change_culture = germano_roman
+				}
 				if = {
 					limit = {
 						AND = {

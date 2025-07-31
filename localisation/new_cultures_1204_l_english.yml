@@ -29,6 +29,13 @@
  helleno_roman:0 "Helleno-Roman"
  illyro_roman:0 "Illyro-Roman"
  aegypto_roman:0 "Aegypto-Roman"
+ pannono_roman:0 "Pannono-Roman"
+ daco_roman:0 "Daco-Roman"
+ germano_roman:0 "Germano-Roman"
+ cimmero_roman:0 "Cimmero-Roman"
+ syro_roman:0 "Syro-Roman"
+ mesopotamian_roman:0 "Assyro-Roman"
+ arabo_roman:0 "Arabo-Roman"
 
  basque_group:0 "Basque"
  aquitainian:0 "Aquitainian"
