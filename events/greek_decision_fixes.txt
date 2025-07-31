@@ -1,0 +1,60 @@
+namespace = greek_dec_fixes
+
+#Cyrenaica
+country_event = {
+	id = greek_dec_fixes.1
+	title = greek_dec_fixes.1.t
+	desc = greek_dec_fixes.1.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = greek_dec_fixes.1.a
+		356 = { change_culture = romaic }
+		357 = { change_culture = romaic }
+		2325 = { change_culture = romaic }
+		2326 = { change_culture = romaic }
+	}
+}
+
+#Characene
+country_event = {
+	id = greek_dec_fixes.2
+	title = greek_dec_fixes.2.t
+	desc = greek_dec_fixes.2.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = greek_dec_fixes.2.a
+		408 = { change_culture = romaic }
+		4288 = { change_culture = romaic }
+		2311 = { change_culture = romaic }
+		2312 = { change_culture = romaic }
+		2340 = { change_culture = romaic }
+	}
+}

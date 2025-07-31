@@ -53,6 +53,85 @@ country_decisions = {
 				change_culture = greek
 				change_religion = ROOT
 			}
+			if = {
+				limit = {
+					primary_culture = romaic
+				}
+				country_event = { id = greek_dec_fixes.1 } 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	characene_greek = {
+		major = yes
+		potential = {
+			culture_group = byzantine
+			OR = {
+				owns = 408
+				owns = 4288
+				owns = 2311
+				owns = 2312
+				owns = 2340
+			}
+			NOT = {
+				408 = { culture_group = byzantine }
+				4288 = { culture_group = byzantine }
+				2311 = { culture_group = byzantine }
+				2312 = { culture_group = byzantine }
+				2340 = { culture_group = byzantine }
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 408
+				province_id = 4288
+				province_id = 2311
+				province_id = 2312
+				province_id = 2340
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			dip_power = 150
+			owns = 408
+			owns = 4288
+			owns = 2311
+			owns = 2312
+			owns = 2340
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			add_dip_power = -150
+			408 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			4288 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			2311 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			2312 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			2340 = {
+				change_culture = greek
+				change_religion = ROOT
+			}
+			if = {
+				limit = {
+					primary_culture = romaic
+				}
+				country_event = { id = greek_dec_fixes.2 } 
+			}
 		}
 		ai_will_do = {
 			factor = 1
