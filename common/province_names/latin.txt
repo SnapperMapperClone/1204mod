@@ -158,7 +158,7 @@
 148 = "Tessalonica"
 149 = "Adrianopoli"
 151 = "Constantinopoli"
-163 = "Creta"
+163 = "Candia"
 164 = "Nasso"
 318 = "Smirne"
 320 = "Rodi"
@@ -183,7 +183,8 @@
 4754 = "Cattaro"
 4779 = "Gallipoli"
 4780 = "Locrida"
-
+4945 = "Tebe"
+4947 = "Canea"
 
 # Levant
 379 = "Gerusalemme"

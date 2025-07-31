@@ -60,12 +60,11 @@
 1765 = { "Sardike" "Sardike" }
 4703 = { "Pautalia" "Pautalia" }
 3001 = { "Skoupoi" "Skoupoi" }
-143 = { "Aulonas" "Aulonas" }
+143 = { "Aulon" "Aulon" }
 4780 = { "Lychnidos" "Lychnidos" }
-4750 = "Kroai"
-4175 = "Lissos"
-4174 = "Dyrrhachion"
-4780 = "Lychnidos"
+4750 = { "Kroai" "Kroai" }
+4175 = { "Lissos" "Lissos" }
+4174 = { "Dyrrhachion" "Dyrrhachion" }
 1766 = "Dardania"
 1827 = "Ras"
 159 = "Dorostolon"
