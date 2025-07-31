@@ -126,6 +126,28 @@ country_decisions = {
 				change_culture = greek
 				change_religion = ROOT
 			}
+			hidden_effect = {
+				408 = {
+					change_province_name = Apologos
+					rename_capital = Apologos
+				}
+				4288 = {
+					change_province_name = "Charax Spasinou"
+					rename_capital = "Charax Spasinou"
+				}
+				2311 = {
+					change_province_name = Orygeia
+					rename_capital = Orygeia
+				}
+				2312 = {
+					change_province_name = Apameia
+					rename_capital = Apameia
+				}
+				2340 = {
+					change_province_name = Teredon
+					rename_capital = Teredon
+				}
+			}
 			if = {
 				limit = {
 					primary_culture = romaic
