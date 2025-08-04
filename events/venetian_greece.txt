@@ -14,7 +14,7 @@ country_event = {
  		name = ven_greece.1.a
 		if = {
 			limit = {
-				3003 = { is_owned_by = TES }
+				3003 = { owned_by = TES }
 			}
 			TES = {
 				country_event = {
@@ -25,7 +25,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				3003 = { is_owned_by = ACH }
+				3003 = { owned_by = ACH }
 			}
 			ACH = {
 				country_event = {
@@ -36,7 +36,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				3003 = { is_owned_by = LAT }
+				3003 = { owned_by = LAT }
 			}
 			LAT = {
 				country_event = {
@@ -47,7 +47,7 @@ country_event = {
 		}
 		else_if = {
 			limit = {
-				3003 = { is_owned_by = ATH }
+				3003 = { owned_by = ATH }
 			}
 			ATH = {
 				country_event = {
