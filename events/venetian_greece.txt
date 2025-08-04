@@ -1,0 +1,130 @@
+namespace = ven_greece
+
+
+#Purchase of Negroponte
+country_event = {
+	id = ven_greece.1
+	title = ven_greece.1.t
+	desc = ven_greece.1.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+  
+ 	option = {
+ 		name = ven_greece.1.a
+		if = {
+			limit = {
+				3003 = { is_owned_by = TES }
+			}
+			TES = {
+				country_event = {
+					id = ven_greece.2
+					days = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				3003 = { is_owned_by = ACH }
+			}
+			ACH = {
+				country_event = {
+					id = ven_greece.2
+					days = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				3003 = { is_owned_by = LAT }
+			}
+			LAT = {
+				country_event = {
+					id = ven_greece.2
+					days = 10
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				3003 = { is_owned_by = ATH }
+			}
+			ATH = {
+				country_event = {
+					id = ven_greece.2
+					days = 10
+				}
+			}
+		}
+		else = {  }
+	}
+}
+
+#Deal received
+country_event = {
+	id = ven_greece.2
+	title = ven_greece.2.t
+	desc = ven_greece.2.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ven_greece.2.a
+		ai_chance = { factor = 80 }
+		3003 = {
+			cede_province = VEN
+			add_core = VEN
+			remove_core = ROOT
+		}
+		add_treasury = 100
+		VEN = { add_treasury = -100 }
+		VEN = {
+			country_event = {
+				id = ven_greece.3
+				days = 10
+			}
+		}
+	}
+	option = {
+		name = ven_greece.2.b
+		ai_chance = { factor = 20 }
+		VEN = {
+			country_event = {
+				id = ven_greece.4
+				days = 10
+			}
+		}
+	}
+}
+
+#Deal accepted
+country_event = {
+	id = ven_greece.3
+	title = ven_greece.3.t
+	desc = ven_greece.3.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ven_greece.3.a
+	}
+}
+
+#Deal rejected
+country_event = {
+	id = ven_greece.4
+	title = ven_greece.4.t
+	desc = ven_greece.4.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = ven_greece.4.a
+	}
+}
