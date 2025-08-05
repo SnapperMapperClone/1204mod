@@ -21,6 +21,11 @@
  cyrenaican_latin:0 "Cyrenaican"
  african_roman:0 "African"
 
+ british_roman:0 "Britanian"
+ cambrian:0 "Cambrian"
+ hibernian:0 "Hibernian"
+ caledonian:0 "Caledonian"
+
  roman_group:0 "Roman"
  gallo_roman:0 "Gallo-Roman"
  hispano_roman:0 "Hispano-Roman"
