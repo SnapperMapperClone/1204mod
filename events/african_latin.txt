@@ -43,8 +43,8 @@ province_event = {
 #Libyan
 province_event = {
 	id = african_latin.2
-	title = african_latin.2.t
-	desc = african_latin.2.d
+	title = african_latin.1.t
+	desc = african_latin.1.d
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -75,7 +75,7 @@ province_event = {
 	}
 
 	option = {
-		name = african_latin.2.a
+		name = african_latin.1.a
 		change_culture = libyan
 	}
 }
@@ -83,8 +83,8 @@ province_event = {
 #Numidian
 province_event = {
 	id = african_latin.3
-	title = african_latin.3.t
-	desc = african_latin.3.d
+	title = african_latin.1.t
+	desc = african_latin.1.d
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -125,7 +125,7 @@ province_event = {
 	}
 
 	option = {
-		name = african_latin.3.a
+		name = african_latin.1.a
 		change_culture = numidian
 	}
 }
@@ -133,8 +133,8 @@ province_event = {
 #Mauretanian
 province_event = {
 	id = african_latin.4
-	title = african_latin.4.t
-	desc = african_latin.4.d
+	title = african_latin.1.t
+	desc = african_latin.1.d
 	picture = RELIGIOUS_CONVERSION_eventPicture
 
 	trigger = {
@@ -169,7 +169,7 @@ province_event = {
 	}
 
 	option = {
-		name = african_latin.4.a
+		name = african_latin.1.a
 		change_culture = mauretanian
 	}
 }
