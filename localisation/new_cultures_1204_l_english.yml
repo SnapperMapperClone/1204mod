@@ -25,6 +25,10 @@
  cambrian:0 "Cambrian"
  hibernian:0 "Hibernian"
  caledonian:0 "Caledonian"
+ dumnonian:0 "Dumnonian"
+ anglian_roman:0 "Anglian"
+ northumbrian_roman:0 "Northumbrian"
+ armorican:0 "Armorican"
 
  roman_group:0 "Roman"
  gallo_roman:0 "Gallo-Roman"
