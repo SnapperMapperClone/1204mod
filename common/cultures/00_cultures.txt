@@ -3655,6 +3655,9 @@ byzantine = {
 			"Apsimaros" "Artemios"
 		}
 	}
+	rumelian = {
+		
+	}
 	gasmouloi = {
 		primary = LAT
 		male_names = {

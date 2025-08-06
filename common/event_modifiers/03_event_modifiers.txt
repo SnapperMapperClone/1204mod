@@ -13,3 +13,15 @@ greeks_under_francocracy = {
 latins_control_constantinople = {
 	land_morale = -0.2
 }
+
+roman_settlers = {
+	local_unrest = 1
+}
+
+latin_settlers = {
+	local_unrest = -1
+}
+
+turkish_settlers = {
+	local_unrest = 1
+}
