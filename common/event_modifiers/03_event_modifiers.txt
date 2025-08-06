@@ -25,3 +25,8 @@ latin_settlers = {
 turkish_settlers = {
 	local_unrest = 1
 }
+
+fall_of_rum = {
+	prestige = 1
+	global_missionary_strength = 0.015
+}

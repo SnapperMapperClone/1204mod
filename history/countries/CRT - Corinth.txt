@@ -8,8 +8,8 @@ capital = 163
 
 1204.5.16 = {
 	monarch = {
-		name = "Leo"
-		dynasty = "Sgouros"
+		name = "Sifis"
+		dynasty = "Manousakis"
 		dip = 2
 		adm = 2
 		mil = 2
