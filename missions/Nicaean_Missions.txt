@@ -1,0 +1,57 @@
+nicaean_wars_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { tag = NIC }
+	has_country_shield = yes
+
+	NIC_force_limit = {
+		icon = the_latin_empire
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { }
+		trigger = {
+			army_size_percentage = 1.0
+		}
+		effect = {
+			add_permanent_claim = 2348
+			add_permanent_claim = 4700
+			add_permanent_claim = 316
+			add_permanent_claim = 326
+			add_core = 4312
+			add_core = 4311
+			add_core = 2298
+			add_core = 1848
+			
+		}
+	}
+
+	NIC_eastern_border = {
+		icon = mission_the_roman_sultan
+		position = 2
+		required_missions = { NIC_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 4312
+				province_id = 4311
+				province_id = 2298
+				province_id = 1848
+				province_id = 326
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns = 4312
+			owns = 4311
+			owns = 2298
+			owns = 1848
+			owns = 326
+		}
+		effect = {
+			add_permanent_claim = 4313
+			give_claims = { area = karaman_area }
+			give_claims = { area = rum_area }
+			give_claims = { area = cukurova_area }
+		}
+	}
+}
