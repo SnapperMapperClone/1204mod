@@ -18,15 +18,6 @@ SMI = "countries/Sami.txt"
 KRL = "countries/Karelia.txt"
 ICE = "countries/Iceland.txt"
 ORK = "countries/Orkney.txt"
-TAV = "countries/Tavastia.txt"
-SVO = "countries/Savonia.txt"
-OST = "countries/Ostrobothnia.txt"
-OES = "countries/Oeselians.txt"
-REV = "countries/Revalians.txt"
-VIR = "countries/Vironians.txt"
-UNG = "countries/Ungannians.txt"
-SEM = "countries/Semigallians.txt"
-SKL = "countries/Sakalans.txt"
 
 #Balkans
 ACH	= "countries/PrincipalityOfAchaia.txt"
@@ -1141,6 +1132,10 @@ PHL = "countries/Philippopolis.txt"
 NIC = "countries/Nicaea.txt"
 COT = "countries/Corinth.txt"
 
+#ITALY
+
+ANK = "Countries/Ancona.txt"
+
 #RUSSIA
 
 TUV = "countries/Turov.txt"
@@ -1148,6 +1143,18 @@ VLD = "countries/Vladimir.txt"
 VLG = "countries/VolgaBulgaria.txt"
 
 CKC = "countries/Cumania.txt"
+
+#BALTICS
+
+TAV = "countries/Tavastia.txt"
+SVO = "countries/Savonia.txt"
+OST = "countries/Ostrobothnia.txt"
+OES = "countries/Oeselians.txt"
+REV = "countries/Revalians.txt"
+VIR = "countries/Vironians.txt"
+UNG = "countries/Ungannians.txt"
+SEM = "countries/Semigallians.txt"
+SKL = "countries/Sakalans.txt"
 
 #ANATOLIA
 
