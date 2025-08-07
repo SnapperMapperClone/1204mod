@@ -1,0 +1,52 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = outremer
+add_accepted_culture = greek
+add_accepted_culture = al_suryah_arabic
+religion = catholic
+technology_group = western
+capital = 2313 # Antioch
+
+
+1368.6.1 = {
+	monarch = {
+		name = "Bohemond I"
+		dynasty = "d'Hauteville"
+		adm = 4
+		dip = 2
+		mil = 2
+	}
+}	
+
+1391.3.3 = {
+	monarch = {
+		name = "Bohemond II"
+		dynasty = "d'Hauteville"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}
+
+1410.6.1 = {
+	monarch = {
+		name = "Constance"
+		dynasty = "d'Hauteville"
+		adm = 2
+		dip = 4
+		mil = 3
+		female = yes
+	}
+}
+
+1439.6.1 = {
+	monarch = {
+		name = "Bohemond III"
+		dynasty = "d'Hauteville"
+		adm = 3
+		dip = 3
+		mil = 2
+	}
+}
+

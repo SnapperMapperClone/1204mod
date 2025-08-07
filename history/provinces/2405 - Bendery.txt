@@ -2,7 +2,7 @@
 
 owner = CKC
 controller = CKC
-culture = romanian
+culture = moldovan
 religion = orthodox
 capital = "Bender"
 trade_goods = wine

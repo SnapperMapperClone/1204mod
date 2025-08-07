@@ -1,0 +1,25 @@
+#Gwynedd
+
+religion = catholic
+graphical_culture = westerngfx
+color = { 135 28 20 }
+historical_idea_groups = {
+  defensive_ideas
+  court_ideas
+  maritime_ideas
+  exploration_ideas
+  quality_ideas
+  diplomatic_ideas
+  expantion_ideas
+  religious_ideas
+}
+monarch_names = {
+"Llywelyn #2" = 20
+"Cadwaladr#1" = 5
+}
+
+
+
+
+ 
+			

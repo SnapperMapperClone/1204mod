@@ -1,14 +1,14 @@
-#222 - Almería
+#222 - AlmerÃ­a
 owner = MOR#Mustapha Sa'd King of Granada
 controller = MOR
 add_core = GRA
-culture = andalucian
+culture = al_andalus_arabic
 religion = sunni
 base_tax = 2
 base_production = 2
 trade_goods = grain
 base_manpower = 2
-capital = "Almería"
+capital = "AlmerÃ­a"
 is_city = yes
 discovered_by = western
 discovered_by = eastern

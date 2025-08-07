@@ -1,5 +1,5 @@
 # - Mzab
-culture = berber
+culture = algerian
 religion = ibadi
 capital = "Ghardaia"
 trade_goods = livestock

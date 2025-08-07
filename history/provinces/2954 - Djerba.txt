@@ -1,7 +1,7 @@
 #2954 - Djerba
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = algerian
 religion = ibadi
 capital = "Djerba"
 trade_goods = grain

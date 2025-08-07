@@ -3,7 +3,7 @@
 owner = AYB
 controller = AYB
 culture = al_suryah_arabic
-religion = sunni
+religion = catholic
 capital = "Al Quds"
 trade_goods = grain
 hre = no
@@ -11,8 +11,8 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
+add_core = KOJ
 add_core = AYB
-
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern

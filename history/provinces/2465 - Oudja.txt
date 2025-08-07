@@ -1,7 +1,7 @@
 # - Oujda
 owner = MOR
 controller = MOR
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Oujda"
 trade_goods = wool

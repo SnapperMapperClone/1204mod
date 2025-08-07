@@ -1,0 +1,153 @@
+country_decisions = {
+
+	capital_in_belgrade = {
+		potential = {
+			tag = SER
+			NOT = { capital = 4239 }
+			NOT = { has_country_flag = moved_capital_to_belgrade }
+		}
+		allow = {
+			owns_core_province = 4239
+			4239 = {
+				is_state = yes
+				religion = orthodox
+				if = {
+					limit = { has_updated_culture = { culture = slavic } }
+					culture = serbian_new
+				}
+				else = {
+					culture = serbian
+				}
+			}
+			stability = 1
+			adm_power = 50
+		}
+		effect = {
+			4239 = {
+				move_capital_effect = yes
+			}
+			add_adm_power = -50
+			set_country_flag = moved_capital_to_belgrade
+			4239 = {
+				add_base_tax = 1
+				add_base_production = 1
+				rename_capital = "Beograd" 
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+
+
+	serbian_byzantine_empire = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = formed_byzantium_flag }
+			is_free_or_tributary_trigger = yes
+			NOT = { exists = BYZ }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = TUR }
+			primary_culture = serbian
+			religion = orthodox
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 151	# Constantinople
+				province_id = 149	# Edirne
+				province_id = 144 	# Epiros
+				province_id = 147	# Salonica
+				province_id = 148	# Macedonia
+				province_id = 1764	# Burgas
+				province_id = 4702	# Serres
+				province_id = 4705	# Komotini
+				province_id = 1853	# Kozani
+				province_id = 4779	# Gallipoli
+				province_id = 2750	# Plovdiv
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			owns = 149	# Edirne
+			owns = 144  	# Epiros
+			owns = 147	# Salonica
+			owns = 148	# Macedonia
+			owns = 1764	# Burgas
+			owns = 4702	# Serres
+			owns = 4705	# Komotini
+			owns = 1853	# Kozani
+			owns = 4779	# Gallipoli
+			owns = 2750	# Plovdiv
+			owns = 151  	# Constantinople
+			151 = {		# Constantinople
+				is_state = yes
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			151 = {
+				move_capital_effect = yes
+				change_province_name = "Tsarigrad"
+				rename_capital = "Tsarigrad"
+				change_culture = romeji
+			}
+			149 = {
+				change_culture = romeji
+			}
+			4779 = {
+				change_culture = romeji
+			}
+			1764 = {
+				change_culture = romeji
+			}
+			give_area_claims = { group = anatolia_region tag = SER }
+			give_area_claims = { group = bulgaria_area tag = SER }
+			give_area_claims = { group = silistria_area tag = SER }
+			give_area_claims = { group = albania_area tag = SER }
+			give_area_claims = { group = thrace_area tag = SER }
+			give_area_claims = { group = macedonia_area tag = SER }
+			give_area_claims = { group = northern_greece_area tag = SER }
+			give_area_claims = { group = morea_area tag = SER }
+			give_province_claims = { id = 2410 tag = SER }
+			give_province_claims = { id = 285 tag = SER }
+			add_prestige = 10
+			override_country_name = "SERBIAN_BYZANTIUM"
+			change_primary_culture = romeji
+			SER = {
+				add_core = 151 # Constantinople
+			}
+			if = {
+				limit = {
+					is_part_of_hre = yes
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { has_global_flag = hagia_sophia_now_mosque }
+				clr_global_flag = hagia_sophia_now_mosque
+				show_ambient_object = hagia_sophia
+				hide_ambient_object = hagia_sophia_minarets
+			}
+			if = {
+				limit = { NOT = { government = monarchy } }
+				change_government = monarchy
+			}
+			set_government_rank = 3
+			set_country_flag = formed_serbian_byzantium_flag
+
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+}

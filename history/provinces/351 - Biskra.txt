@@ -1,7 +1,7 @@
 #351 - Biskra
 owner = MOR
 controller = MOR
-culture = berber
+culture = african_roman
 religion = sunni
 capital = "Biskra"
 trade_goods = wool

@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = nayankara_reform
+technology_group = indian
+religion = hinduism
+primary_culture = tamil
+capital = 4416
+
+1178.7.7 = {
+	monarch = {
+		name = "Kulothunga III"
+		dynasty = "Chola"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+

@@ -1,0 +1,98 @@
+namespace = flavor_romanian
+
+#Romanians in Thracia
+province_event = {
+	id = flavor_romanian.1
+	title = flavor_romanian.1.t
+	desc = flavor_romanian.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = { culture = thracian }
+		OR = {
+			area = bulgaria_area
+			area = silistria_area
+		}
+		owner = { culture_group = carpathian }
+	}
+
+	mean_time_to_happen = {
+		years = 40
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = { culture_group = carpathian }
+		}		
+	}
+
+	option = {
+		name = flavor_romanian.1.a
+		change_culture = thracian
+	}
+}
+
+#Romanians in Pannonia
+province_event = {
+	id = flavor_romanian.2
+	title = flavor_romanian.2.t
+	desc = flavor_romanian.2.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = { culture = daco_pannonian }
+		OR = {
+			area = transdanubia_area
+			area = alfold_area
+		}
+		owner = { culture_group = carpathian }
+	}
+
+	mean_time_to_happen = {
+		years = 40
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = { culture_group = carpathian }
+		}		
+	}
+
+	option = {
+		name = flavor_romanian.2.a
+		change_culture = daco_pannonian
+	}
+}
+
+#Aromanians
+province_event = {
+	id = flavor_romanian.3
+	title = flavor_romanian.3.t
+	desc = flavor_romanian.3.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = { culture = aromanian }
+		OR = {
+			area = macedonia_area
+			area = albania_area
+			area = northern_greece_area
+			area = hellas_area
+			area = morea_area
+			area = crete_area
+			area = aegean_archipelago_area
+			area = vardarska_area
+
+		}
+		owner = { culture_group = carpathian }
+	}
+
+	mean_time_to_happen = {
+		years = 40
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = { culture_group = carpathian }
+		}		
+	}
+
+	option = {
+		name = flavor_romanian.3.a
+		change_culture = aromanian
+	}
+}

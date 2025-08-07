@@ -1,8 +1,8 @@
 #230 - Algarve
 owner = MOR
 controller = MOR
-culture = portugese
-religion = catholic
+culture = al_andalus_arabic
+religion = sunni
 capital = "Faro"
 trade_goods = salt
 base_tax = 3

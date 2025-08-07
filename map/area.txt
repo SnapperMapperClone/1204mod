@@ -1053,15 +1053,31 @@ mecklenburg_area = { #5
 ########################################
 
 macedonia_area = { #5 (Macedonia)
-	148 1853 3001 4702 4780
+	148 1853 4702 4948 4949
 }
 
-morea_area = { #4 Central Greece & Crete
-	145 146 163 1773 4701 4945
+vardarska_area = {
+	3001 4780
+}
+
+morea_area = { #4 Pelopponese
+	145 1773 4701 4946
+}
+
+hellas_area = {
+	146 147 3003 4944 4945
+}
+
+aegean_archipelago_area = { #4
+	164 320 2348 4700
+}
+
+crete_area = {
+	163 4947
 }
 
 northern_greece_area = { #3 #Northern Greece
-	142 144 147 4699 4698 4944
+	142 144 4699 4698
 }
 
 thrace_area = { #5
@@ -1105,7 +1121,7 @@ rascia_area = { #4
 }
 
 albania_area = { #4
-	143 4174 4175 4750
+	143 4174 4175 4750 4950
 }
 
 bosnia_area = { #5
@@ -1177,7 +1193,7 @@ rum_area = { #5
 }
 
 erzurum_area = { #3	Erzurum and Trebizond
-	330 331 2305
+	330 331 2305 4178
 }
 
 hudavendigar_area = { #3
@@ -1197,10 +1213,6 @@ aydin_area = { #5
 ankara_area = { #3
 	color = { 57 154 172 }
 	326 4312 4313
-}
-
-aegean_archipelago_area = { #4
-	164 320 2348 3003 4700
 }
 
 kastamonu_area = { #4

@@ -2,8 +2,8 @@
 
 owner = AYB
 controller = AYB
-culture = kurdish
-religion = sunni
+culture = assyrian
+religion = coptic
 capital = "Al Mawsil"
 trade_goods = cloth
 hre = no

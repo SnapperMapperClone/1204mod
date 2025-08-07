@@ -1,14 +1,13 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = catalan
-add_accepted_culture = aragonese
+add_accepted_culture = aragonese_sep
 add_accepted_culture = sicilian
 religion = catholic
 technology_group = western
-capital = 213 # Tinto HQ
-
-1196.4.25 = {
-	monarch = {
+capital = 214# Tinto HQ
+1196.4.25 = { 
+	monarch = { 
 		name = "Pere"
 		dynasty = "de Barcelona"
 		birth_date = 1178.7.1
@@ -18,3 +17,4 @@ capital = 213 # Tinto HQ
 		mil = 2
 	}
 }
+government_rank = 1

@@ -1,6 +1,6 @@
 #366 - The Canarias
 
-culture = berber
+culture = moroccan
 religion = animism
 capital = "Las Palmas"
 trade_goods = unknown

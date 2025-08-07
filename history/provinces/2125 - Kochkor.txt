@@ -1,0 +1,19 @@
+# 2125 - Kochkor
+
+owner = QKT
+controller = QKT
+add_core = QKT
+culture = khitan
+religion = tengri_pagan_reformed
+capital = "Balasagun"
+trade_goods = wool
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = muslim
+

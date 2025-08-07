@@ -1,7 +1,7 @@
 #2751 - Cuenca
 owner = MOR#Juan II of Castille
 controller = MOR
-culture = castillian
+culture = mozarabic
 religion = catholic
 base_tax = 4
 base_production = 4

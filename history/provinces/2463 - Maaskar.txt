@@ -1,7 +1,7 @@
 # - Kasdir
 owner = MOR
 controller = MOR
-culture = berber
+culture = african_bedouin_arabic
 religion = sunni
 capital = "Kasdir"
 trade_goods = livestock

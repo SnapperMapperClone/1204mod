@@ -1,17 +1,15 @@
 #Västerbotten-Ångermanland, from Sundsvall/Härnösand over Umeå to Torneå
 
-owner = SMI
-controller = SMI
-add_core = SMI
-culture = finnish
-religion = catholic
+culture = sapmi
+religion = shamanism
+
 hre = no
 base_tax = 1 
 base_production = 1
-trade_goods = fur
 base_manpower = 1
-capital = "Umeå"
-is_city = yes
+native_size = 20
+native_ferocity = 2
+native_hostileness = 3
 
 
 

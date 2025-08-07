@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = oirat
+technology_group = nomad_group
+religion = tengri_pagan_reformed
+capital = 2125
+

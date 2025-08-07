@@ -1,0 +1,21 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = mesopotamien
+add_accepted_cutlture = assyrian
+religion = catholic
+technology_group = western
+capital = 411
+
+
+1442.1.1 = {
+	monarch = {
+		name = "Daniyel IV"
+		dynasty = "Elqosh"
+		birth_date = 1411.11.9
+		adm = 3
+		dip = 4
+		mil = 3
+	}
+	add_ruler_personality = strict_personality
+}

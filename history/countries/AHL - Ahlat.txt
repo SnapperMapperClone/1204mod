@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+capital = 2306
+primary_culture = turkish
+
+1198.1.1 = {
+	monarch = {
+		name = "Melikülmansur Muhammed"
+		dynasty = "Begtimurid"
+		adm = 2	
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,22 @@
+technology_group = muslim
+primary_culture = afghani
+add_accepted_culture = khorasani
+add_accepted_culture = persian
+religion = sunni
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+capital = 448 # Gazni
+religious_school = hanafi_school
+
+
+1173.1.1 = {
+	monarch = {
+		name = "Muhammad ibn Sam"
+		dynasty = "Ghori"
+		birth_date = 1144.1.1
+		adm = 2	
+		dip = 2
+		mil = 2
+	}
+}

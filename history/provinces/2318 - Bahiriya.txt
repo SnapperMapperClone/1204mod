@@ -3,7 +3,7 @@
 owner = AYB
 controller = AYB #Local Badawin in control
 add_core = AYB
-culture = al_misr_arabic
+culture = tunisian
 religion = sunni
 capital = "el Qasr"
 is_city = yes

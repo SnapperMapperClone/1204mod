@@ -1,9 +1,9 @@
 #1750 - Xativa
-owner = MOR#Martí I of Aragon
+owner = MOR#MartÃ­ I of Aragon
 controller = MOR
 add_core = VAL
-culture = catalan
-religion = catholic
+culture = al_andalus_arabic
+religion = sunni
 base_tax = 4
 base_production = 4
 trade_goods = paper

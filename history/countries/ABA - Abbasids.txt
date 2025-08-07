@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 2
+technology_group = muslim
+religion = sunni
+capital = 410
+primary_culture = al_iraqiya_arabic
+
+1180.3.28 = {
+	monarch = {
+		name = "al-Nāṣir li-Dīn Allāh"
+		dynasty = "Abbasid"
+		birth_date = 1158.8.6
+		adm = 2	
+		dip = 2
+		mil = 2
+	}
+}

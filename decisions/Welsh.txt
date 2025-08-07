@@ -1,0 +1,135 @@
+country_decisions = {
+
+	become_prince_of_wales = {
+		potential = {
+			primary_culture = welsh
+			NOT = { 
+				is_subject = yes
+				has_country_flag = prince_of_wales
+			}
+			
+		}
+
+		allow = {
+			prestige = 30
+			OR = {
+				has_won_war_against = {
+					who = ENG
+					max_years_since = 20
+				}
+				AND = {
+					if = {
+						limit = { tag = GWY }
+						total_development = DEU
+						total_development = PWS
+					}
+					if = { 
+						limit = { tag = DEU }
+						total_development = GWY
+						total_development = PWS
+					}
+					if = { 
+						limit = { tag = PWS }
+						total_development = GWY
+						total_development = DEU
+					}
+				}
+			}
+		}
+
+		effect = {
+			country_event = { id = prince_of_wales.1 }
+			set_country_flag = prince_of_wales
+			if = { 
+				limit = { tag = GWY }
+				if = { 
+					limit = {
+						exists = DEU
+						DEU = { is_subject = no }
+					}
+					vassalize = DEU
+				}
+				if = {
+					limit = {
+						exists = PWS 
+						PWS = { is_subject = no }
+					}
+					vassalize = PWS
+				}
+			}
+			if = { 
+				limit = { tag = DEU }
+				if = { 
+					limit = {
+						exists = GWY 
+						GWY = { is_subject = no }
+					}
+					vassalize = GWY
+				}
+				if = {
+					limit = {
+						exists = PWS 
+						PWS = { is_subject = no }
+					}
+					vassalize = PWS
+				}
+			}
+			if = { 
+				limit = { tag = PWS }
+				if = { 
+					limit = {
+						exists = DEU 
+						DEU = { is_subject = no }
+					}
+					vassalize = DEU
+				}
+				if = {
+					limit = {
+						exists = GWY 
+						GWY = { is_subject = no }
+					}
+					vassalize = GWY
+				}
+			}
+		}
+	}
+	unite_wales = {
+		
+		potential = {
+			primary_culture = welsh
+			NOT = {
+				exists = WLS
+			}
+		}
+
+		allow = {
+			owns_or_subject_of = 4366
+			owns_or_subject_of = 4369
+			owns_or_subject_of = 242
+			owns_or_subject_of = 241
+			prestige = 40
+			average_unrest = 0
+			stability = 2
+			total_development = 30
+			NOT = {	
+				truce_with = ENG
+			}
+		}
+
+		effect = {
+			change_tag = WLS
+			if = {
+				limit = {
+					NOT = { government_rank = 2 }
+				}
+				set_government_rank = 2
+			}
+			add_prestige = 25
+			add_country_modifier = {
+				name = centralization_modifier
+				duration = 3650
+			}
+			country_event = { id = ideagroups.1 } 
+		}
+	}
+}

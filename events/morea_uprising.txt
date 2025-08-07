@@ -1,0 +1,268 @@
+namespace = morea_uprising
+
+# Greeks of Morea declare independence
+country_event = {
+	id = morea_uprising.1
+	title = morea_uprising.1.t
+	desc = morea_uprising.1.d
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ACH
+		NOT = { primary_culture = gasmouloi }
+		NOT = { has_country_flag = morea_uprising_happened }
+		owns = 145
+		145 = { controlled_by = ACH }
+		151 = {
+			OR = {
+				owned_by = BYZ
+				owned_by = NIC
+				owned_by = EPI
+				owned_by = TRE
+			}
+		}
+		OR = {
+			NOT = { exists = MOE }
+			MOE = {
+				is_subject_of = ROOT
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = morea_uprising_happened
+			145 = {
+				add_core = MOE
+			}
+			if = {
+				limit = {
+					NOT = {
+						exists = MOE
+					}
+				}
+				release = MOE
+			}
+			MGC = {
+				change_government = monarchy
+				adopt_reform_progress = ROOT
+			}
+			MOE = {
+				capital_scope = {
+					build_to_forcelimit = {
+						infantry = 0.6
+						cavalry = 0.3
+					}
+				}
+				random_owned_province = {
+					limit = {
+						has_port = yes
+					}
+					build_to_forcelimit = {
+						galley = 0.3
+						light_ship = 0.3
+						transport = 0.2
+					}
+				}
+			}
+		}
+	}
+	
+	option = { # Go to war
+		name = morea_uprising.1.a
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = yes
+					war_exhaustion = 10
+				}
+			}
+			 
+		}
+		declare_war_with_cb = {
+			who = MOE
+			casus_belli = cb_core
+			war_goal_province = 1773
+		}
+		custom_tooltip = flavor_mgc.1.tooltip
+		hidden_effect = {
+			1773 = { add_core = MOE }
+			4701 = { add_core = MOE }
+			if = { 
+				limit = {
+					151 = { owned_by = NIC }
+				}
+				NIC = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = EPI }
+				}
+				EPI = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = TRE }
+				}
+				TRE = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			else = {
+				BYZ = {
+					country_event = { id = morea_uprising.2 }
+				}
+			}
+			if = { 
+				limit = {
+					151 = { owned_by = NIC }
+				}
+				NIC = {
+					create_guarantee = MOE
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = EPI }
+				}
+				EPI = {
+					create_guarantee = MOE
+				}
+			}
+			else_if = { 
+				limit = {
+					151 = { owned_by = TRE }
+				}
+				TRE = {
+					create_guarantee = MOE
+				}
+			}
+			else = {
+				BYZ = {
+					create_guarantee = MOE	
+				}
+			}
+		}
+	}
+	option = { # Let them go
+		name = morea_uprising.1.b
+		ai_chance = { 
+			factor = 100 
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = no
+					NOT = { war_exhaustion = 10 }
+				}
+			}
+		}
+		hidden_effect = {
+			1773 = { add_core = MOE }
+			4701 = { add_core = MOE }
+			4946 = { add_core = MOE }
+		}
+		add_stability = -1
+		add_prestige = -20
+	}
+}
+
+# Morea revolt seeks assistance
+country_event = {
+	id = morea_uprising.2
+	title = morea_uprising.2.t
+	desc = morea_uprising.2.d
+	picture = BATTLE_eventPicture
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = morea_uprising.2.a
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = yes
+					war_exhaustion = 10
+				}
+			}
+		}
+		set_country_flag = supported_morean_uprising_flag
+		add_opinion = {
+			who = MOE
+			modifier = supported_griko_confederation
+		}
+		MOE = {
+			add_opinion = {
+				who = ROOT
+				modifier = supported_griko_confederation
+			}
+		}
+		create_alliance = MOE
+	}
+	option = { # stay out of this
+		name = morea_uprising.2.b
+		ai_chance = { 
+			factor = 100
+			modifier = {
+				factor = 0
+				OR = {
+					is_bankrupt = no
+					NOT = { war_exhaustion = 10 }
+				}
+			}
+		}
+		add_prestige = -10
+	}
+}
+
+# Despotate of Mystras accepts Roman rule
+country_event = {
+	id = morea_uprising.3
+	title = morea_uprising.3.t
+	desc = morea_uprising.3.d
+	picture = BYZANTINE_EAGLE_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = BYZ
+			tag = NIC
+			tag = TRE
+			tag = EPI
+		}
+		has_country_flag = supported_morean_uprising_flag
+		exists = MOE
+		MOE = { 
+			is_at_war = no
+		}
+
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = morea_uprising.3.a
+		create_subject = {
+			subject_type = pronoia_subject_type
+			subject = MOE
+		}
+	}
+}

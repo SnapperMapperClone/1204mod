@@ -1,0 +1,17 @@
+government = republic
+primary_culture = icelandic
+religion = catholic
+technology_group = western
+capital = 370 #Rejkyavik
+
+1203.1.1 = {
+	monarch = {
+		name = "Hallur"
+		dynasty = "af Haukdælir"
+		culture = icelandic
+		birth_date = 1170.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

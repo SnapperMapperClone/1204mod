@@ -1,8 +1,8 @@
 #1749 - Cadiz
 owner = MOR#Enrique III of Castille
 controller = MOR
-culture = andalucian
-religion = catholic
+culture = al_andalus_arabic
+religion = sunni
 base_tax = 5
 base_production = 4
 trade_goods = naval_supplies

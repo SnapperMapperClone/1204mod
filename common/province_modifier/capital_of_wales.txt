@@ -1,0 +1,8 @@
+capital_of_wales = {
+  icon = 1
+  modifier = {
+    tax = 0,10
+    manpower = 0,15
+    development_cost = -0.1	
+      }
+  duration = -1

@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = peasants_republic
+government_rank = 1
+technology_group = western
+religion = catholic
+capital = 107
+primary_culture = lombard

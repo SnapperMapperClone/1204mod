@@ -2,7 +2,7 @@
 
 owner = SHM
 controller = SHM
-culture = bedouin_arabic
+culture = najdi_arabic
 religion = sunni
 capital = "Ha'il"
 trade_goods = grain

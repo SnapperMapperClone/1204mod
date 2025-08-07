@@ -1,7 +1,7 @@
 #214 - Teruel
 owner = MOR# Alfons V of Aragon
 controller = MOR
-culture = aragonese
+culture = aragonese_sep
 religion = catholic
 base_tax = 3
 base_production = 3

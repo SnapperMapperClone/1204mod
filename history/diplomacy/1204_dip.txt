@@ -1,11 +1,5 @@
-# France
 
-royal_marriage = {
-	first = FRA
-	second = DAN
-	start_date = 1204.1.1
-	end_date = 1789.7.14
-}
+# France
 
 dependency = {
 	subject_type = appanage
@@ -80,7 +74,7 @@ dependency = {
 }
 
 
-#Eng
+#Great Britain
 
 dependency = {
 	subject_type = personal_union
@@ -98,6 +92,22 @@ dependency = {
 	end_date = 9999.1.1
 }
 
+dependency = {
+	subject_type = vassal
+	first = GWY
+	second = DEU
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = vassal
+	first = GWY
+	second = PWS
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
 #Iberia
 
 dependency = {
@@ -110,18 +120,47 @@ dependency = {
 
 #Latin Empire
 
-dependency = {
-	subject_type = personal_union
+#dependency = {
+#	subject_type = personal_union
+#	first = LAT
+#	second = HAI
+#	start_date = 1204.1.1
+#	end_date = 9999.1.1
+#}
+
+#dependency = {
+#	subject_type = personal_union
+#	first = LAT
+#	second = FLA
+#	start_date = 1204.1.1
+#	end_date = 9999.1.1
+#}
+
+vassal = {
 	first = LAT
-	second = HAI
+	second = PHL
 	start_date = 1204.1.1
 	end_date = 9999.1.1
 }
 
-dependency = {
-	subject_type = personal_union
-	first = LAT
-	second = FLA
+#Scandinavia
+vassal = {
+	first = NOR
+	second = LOI
+	start_date = 1200.1.1
+	end_date = 1260.1.1
+}
+
+vassal = {
+	first = NOR
+	second = ORK
+	start_date = 1200.1.1
+	end_date = 1260.1.1
+}
+
+royal_marriage = { #valdemar - dagmar
+	first = BOH
+	second = DAN
 	start_date = 1204.1.1
-	end_date = 9999.1.1
+	end_date = 1789.7.14
 }

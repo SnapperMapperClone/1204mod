@@ -1,7 +1,7 @@
 #341 - Tunis
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = maghrebi_arabic
 religion = sunni
 capital = "Tunis"
 trade_goods = cloth

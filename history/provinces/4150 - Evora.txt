@@ -1,7 +1,7 @@
 #4150 - Alto Alentejo
 owner = MOR
 controller = MOR
-culture = portugese
+culture = mozarabic
 religion = catholic
 capital = "Évora"
 trade_goods = wine

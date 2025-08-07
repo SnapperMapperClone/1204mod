@@ -2,7 +2,7 @@
 
 owner = CLC
 controller = CLC
-culture = armenian
+culture = cilician_armenian
 religion = coptic
 capital = "Seguk"
 trade_goods = naval_supplies

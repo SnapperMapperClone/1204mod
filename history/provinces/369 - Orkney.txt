@@ -1,7 +1,7 @@
 #369 - Orkney
 
-owner = NOR
-controller = NOR
+owner = ORK
+controller = ORK
 culture = norwegian
 religion = catholic
 hre = no

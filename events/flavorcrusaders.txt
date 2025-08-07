@@ -1,0 +1,255 @@
+namespace = flavor_crusaders
+
+#Jerusalem reclaimed
+country_event = {
+	id = flavor_crusaders.1
+	title = flavor_crusaders.1.t
+	desc = flavor_crusaders.1.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 379
+		NOT = {
+			379 = {
+				AND = {
+					culture = outremer
+					religion = catholic
+				}
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.1.a
+		379 = {
+			change_culture = outremer
+			change_religion = catholic
+		}
+	}
+}
+
+#Conquest of Damascus
+country_event = {
+	id = flavor_crusaders.2
+	title = flavor_crusaders.2.t
+	desc = flavor_crusaders.2.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 382
+		owns = 4297
+		NOT = {
+			exists = DMC
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.2.a
+		hidden_effect = {
+			382 = { add_core = DMC }
+			4297 = { add_core = DMC }
+			DMC = { change_religion = catholic }
+		}
+		release = DMC
+		vassalize = DMC
+		382 = {
+			change_religion = catholic
+			change_province_name = "Damascus"
+			rename_capital = "Damascus"
+		}
+	}
+	option = {
+		name = flavor_crusaders.2.b
+		hidden_effect = {
+			382 = { add_core = DMC }
+			4297 = { add_core = DMC }
+			DMC = { change_religion = catholic }
+		}
+		382 = {
+			change_province_name = "Damascus"
+			rename_capital = "Damascus"
+		}
+	}
+}
+
+#Conquest of Berroea
+country_event = {
+	id = flavor_crusaders.3
+	title = flavor_crusaders.3.t
+	desc = flavor_crusaders.3.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 377
+		owns = 1849
+		NOT = { exists = DMC }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.3.a
+		hidden_effect = {
+			377 = { add_core = BRO }
+			1849 = { add_core = BRO }
+			BRO = { change_religion = catholic }
+		}
+		release = BRO
+		vassalize = BRO
+		377 = {
+			change_religion = catholic
+			change_province_name = "Berroea"
+			rename_capital = "Berroea"
+		}
+	}
+	option = {
+		name = flavor_crusaders.3.b
+		hidden_effect = {
+			377 = { add_core = BRO }
+			1849 = { add_core = BRO }
+			BRO = { change_religion = catholic }
+		}
+		377 = {
+			change_province_name = "Berroea"
+			rename_capital = "Berroea"
+		}
+	}
+}
+
+#Edessa reclaimed
+country_event = {
+	id = flavor_crusaders.4
+	title = flavor_crusaders.4.t
+	desc = flavor_crusaders.4.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	trigger = {
+		primary_culture = outremer
+		owns = 2308
+		owns = 4298
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.4.a
+		hidden_effect = {
+			2308 = { add_core = EDE }
+			4298 = { add_core = EDE }
+			EDE = { change_religion = catholic }
+		}
+		release = EDE
+		vassalize = EDE
+		2308 = {
+			change_religion = catholic
+			change_province_name = "Edessa"
+			rename_capital = "Edessa"
+		}
+		4298 = {
+			change_province_name = "Turbessel"
+			rename_capital = "Turbessel"
+		}
+	}
+}
+
+#Greek catholic refugees
+country_event = {
+	id = flavor_crusaders.5
+	title = flavor_crusaders.5.t
+	desc = flavor_crusaders.5.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	fire_only_once = yes
+
+	trigger = {
+		primary_culture = outremer
+		owns = 2308
+		NOT = { exists = LAT }
+		NOT = { 2308 = { culture = greek } }
+	}
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = flavor_crusaders.5.a
+		
+		2308 = {
+			change_culture = greek
+			add_base_tax = 2
+			add_base_production = 2
+			add_base_manpower = 1
+		}
+	}
+}

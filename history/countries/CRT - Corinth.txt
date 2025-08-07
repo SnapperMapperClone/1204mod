@@ -4,7 +4,7 @@ government_rank = 1
 technology_group = eastern
 primary_culture = greek
 religion = orthodox
-capital = 4701
+capital = 163
 
 1204.5.16 = {
 	monarch = {

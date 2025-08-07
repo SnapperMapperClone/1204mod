@@ -2,7 +2,7 @@
 owner = MOR# Mustapha Sa'd King of Granada
 controller = MOR
 add_core = GRA
-culture = andalucian
+culture = al_andalus_arabic
 religion = sunni
 base_tax = 6
 base_production = 4

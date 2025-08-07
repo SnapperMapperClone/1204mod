@@ -1,5 +1,5 @@
 # - Ouargla
-culture = berber
+culture = algerian
 religion = ibadi
 capital = "Ouargla"
 trade_goods = slaves

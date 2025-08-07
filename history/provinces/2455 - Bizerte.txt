@@ -1,7 +1,7 @@
 # - Bizerte
 owner = MOR
 controller = MOR
-culture = tunisian
+culture = african_roman
 religion = sunni
 capital = "Bizerte"
 trade_goods = grain

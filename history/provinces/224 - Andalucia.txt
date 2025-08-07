@@ -1,8 +1,8 @@
-#224 - Andalucía
+#224 - AndalucÃ­a
 owner = MOR#Juan II of Castille
 controller = MOR
-culture = andalucian
-religion = catholic
+culture = al_andalus_arabic
+religion = sunni
 base_tax = 6
 base_production = 6
 trade_goods = wine

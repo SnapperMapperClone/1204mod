@@ -2,7 +2,7 @@
 
 owner = LAT
 controller = LAT
-culture = greek
+culture = asia_minor_greek
 religion = orthodox
 capital = "Nicomedia"
 trade_goods = grain

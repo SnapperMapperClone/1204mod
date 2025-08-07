@@ -1,0 +1,36 @@
+namespace = prince_of_wales
+
+country_event = {
+	id = prince_of_wales.1
+	title = prince.1.t
+	desc = prince.1.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+  
+ 	option = {
+ 		name = prince.1.a
+		add_country_modifier = {
+			name = prince_of_wales
+			duration = 14600
+	   	}
+		country_event = {
+			id = prince_of_wales.2
+			days = 14601
+		}
+	}
+}
+
+country_event = {
+	id = prince_of_wales.2
+	title = prince.2.t
+	desc = prince.2.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+ 
+	option = {
+		name = prince.2.a
+		release_all_subjects = yes	
+	}
+}

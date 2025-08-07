@@ -3,7 +3,7 @@
 owner = AYB
 controller = AYB
 add_core = AYB
-culture = beja
+culture = sudanese_arabic
 religion = sunni
 capital = "Halaib"
 is_city = yes

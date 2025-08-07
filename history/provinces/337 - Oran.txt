@@ -1,7 +1,7 @@
 #337 - Oran
 owner = MOR
 controller = MOR
-culture = algerian
+culture = maghrebi_arabic
 religion = sunni
 capital = "Oran"
 trade_goods = cloth

@@ -1,7 +1,8 @@
 #370 - Reykjavik
 
-owner = NOR
-controller = NOR 
+owner = ICE
+controller = ICE 
+add_core = ICE
 culture = icelandic
 religion = catholic
 hre = no
@@ -11,9 +12,7 @@ trade_goods = fish
 base_manpower = 1
 add_local_autonomy = 25
 capital = "Reykjavik"
-is_city = yes 	
-add_core = NOR
-add_core = ICE
+is_city = yes
 discovered_by = western
 add_permanent_province_modifier = {
 	name = icelanding_fisher_sea

@@ -1,9 +1,9 @@
-# 194 Périgord - Principal cities: Bergerac
+# 194 PÃ©rigord - Principal cities: Bergerac
 owner = GUY
 controller = GUY
 capital = "Bergerac"
 is_city = yes
-culture = gascon
+culture = gascon_sep
 religion = catholic
 base_tax = 3
 base_production = 3

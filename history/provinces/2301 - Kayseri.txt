@@ -2,8 +2,8 @@
 
 owner = RUM
 controller = RUM
-culture = turkish
-religion = sunni
+culture = cappadocian_greek
+religion = orthodox
 capital = "Kayseri"
 trade_goods = iron
 hre = no

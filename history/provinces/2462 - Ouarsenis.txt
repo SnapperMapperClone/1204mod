@@ -1,7 +1,7 @@
 # - Ouarsenis
 owner = MOR
 controller = MOR
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Ouarsenis"
 trade_goods = livestock
