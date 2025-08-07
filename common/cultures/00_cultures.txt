@@ -1401,31 +1401,18 @@ iberian	= {
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = CAS
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			Martinez "de Lara" Diaz "de Haro" "de Velasco" "de Ayala" "de Manrique" Morato "de Sandoval" Enriquez
+			"de Toledo" Pedrez "de Borgonna" "de Avellaneda" "del Zunniga" Alonso "de Guzman" "de Guardiola" Fánnez
+			"de Carrioon" "de Vivar" Velasco Ansurez "de Castilla" "de Atoja" "de Aguirre" "de Cisneros" "de Villena"
+			"de Balboa" "de Nebrija" "de Ojeda" "de Rojas" "de la Vega" "de Giroon" Fonseca Mudarra "de Marciena"
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
-			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
-			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
-			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
-			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
-			Suero Tello Vela Vela Suero Oveco John Enrique
+			Gartsia Sancho Alffonso Vermundo Ffernando Enrique Ordonno Ramiro Fruela Bernaldo Pedro Pelayo Juan Fernaan Paulo Matheo
+			Andrees Lope Gomez Vela Antsur Carlos Miguel Diego Jimeno Albaro Blas Cristobal Felipe Victor Tomaas Inacio Jacobo Antonio
+			Jorge Rodrigo Alonso Fadrique
 		}
 		female_names = {
-			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
-			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
-			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-			Isabel
+			Blanca Jimena Aldonza Sancia Teresa Berenguela Elvira Urraca Leonor Mayor Velasquita Beatriz
 		}
 	}
 	mexican = {
@@ -1524,61 +1511,32 @@ iberian	= {
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = LON
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			Martiiniz "de Nava" Diaz "de Quiroos" Froylez Pelaz "de Laria" "de Asturies" "de Llyon" Morate "de Cardielles" Domenguez
+			"de Mataxana" Pedrez "de Oumanna" "de Carvayar" "della Tenda" Alonsu "de Qualla" "de Olloniego" "del Dado" "de Aller"
+			"de Mieres" "de Premanna" Nicolas Rodriguiz "del Castiello" "de Quinnones" "de Abilles" "de Ovieu"  
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
-			Henry Fadrique Frederick Felipe Fruela Froila  Gil 
-			Egidius Guillén Guillermo Juan 
-			Lupo Luis Manrique Martín Martin Munio Ordoño 
-			Obeko Pelayo Pelagius Roderick Salvador 
-			Tello Vela Suero Oveco
+			Garsea Alfonsu Vermundu Fernandu Ordonnu Ramiru Fruela Bernaldo Peru Froylan Payu Johan Fernan Ruy Paulos Matheus 
+			Andres Pelay Muniu Fraumundu Sueru Nicolau Godoon Miguel
 		}
 		female_names = {
-			Aldonza Anderquina Beatriz Berenguela Berengaria Blanca Constanza 
-			Elvira Estefanía Fronilda Gontroda Gotruda Inés Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Marina Marine 
-			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
+			Maria Alexania Sancia Taresa Ros Elvira Orraca Aldonçe
 		}
 	}
 	mozarabic = {
 		country = { } 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			"eben Qasi" "al-Katib" Halevi Almorati "Xabe–Havivi" Mutarra Gudesteoz "eben Bacri" Morate Davidi Aurovelido
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
-			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
-			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
-			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
-			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
-			Suero Tello Vela Vela Suero Oveco John Enrique
+			Jakub Ibrahim Elogio Paulo Sancio Alvaro Argimilo Acisclo Ichidor Batrich Belay Felich Yosef Yehuda Paulos Matheus 
+			Zulayman Teudrico Vestrerario Veremundo Cita Velita Scabe Mikhael Isa Tabit Hakam Musa Mauru Maurelus Mutarra Ablauel
+			Zahbascorta Abolhauz Zacbascorta Froilano Frorito Leodrico Sizibuto Theodosio Ataulfo Alarico Theodorico Sisnando David
+			Iohanes Malchitano
 		}
 		female_names = {
-			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
-			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
-			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-			Isabel
+			Eulalia Rufina Sancia Olalla Luchiana Elvira Abdela Maria Guntina Loba Susana Aurovelida Leocadia
 		}
 	}
 	aragonese = {
@@ -1683,28 +1641,28 @@ iberian	= {
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = POR
 		dynasty_names = {
-			"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
-			"de Moura" "de Nápoles" "de Menezes" "de Saldanha" 
-			#CK2
-			"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
+			"de Maia" Pereira "de Sousa" Meneses "de Bragança" Coutinho "de Lima" Teive Peres
+			"de Andeyro" "de Cela" "de Castro" "de Andrade" "de Lemos" "de Figueiroa" Vimaraes
+			"de Ulhoa" "de Deza" Esquío "de Osorio" "de Novoa" Churrichao Colombo Portocarreiro Noronha
+			"de Soutomaior" "de Moscoso" "de Araujo" "de Lima" Fonseca Coutinho Penela
+			Ruis Eanes "de Meira" "Pardo de Cela" Louçao "da Ponte" Correia "de Cerveira" Freitas
+			"de Lobeira" "Castro de Lemos" "de Trava" Menor "de Probem" Sampaio "da Costa" "de Ataiide"
+			"de Saavedra" "de Soutelo" "da Ponte" "de Altamira" Baltar Azambuja Lopes "de Mascarenhas"
+			Aalvares "de Sonnar" "Nuñez de Balboa" "de Abella" Nunes Osorio "de Sequeira"
+			Pimentel Bolanhos Galhinato "de Castro e Osorio" Portocarreyro Pacheco "do Pombal"
+			"de Aldao" "Charinho-Maldonado" "de Monterrei" "de Borgonha" "de Melo" Magalhaes Veloso
 		}
 		male_names = {
-			João Filipe Afonso Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Dinis 
-			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
-			Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
-			Paulo Rafael Rogério Rui Simão Uriel Vicente Octávio
-			Afonso Alphonse Aires Álvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão 
-			Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre 
-			Walter Henrique Henry Hermígio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo 
-			Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio 
-			Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente 
-			Vincent Pons
+			Garsea Vermudo Ordonno Afonso Froila Ramiro Fernando Sancio Paio Galez Lançarote 
+			Andree Alvaro Pero Rui Aleixo Alvaro Anjo Bento Bernaldo Brais Carlos Cristovo 
+			Domingos Estevo Filipo Fernaam Frederico Gonçalvo Guilherme Gumersindo Henrique 
+			Hermenegildo Higinio Hugo Jacobe Joham Leandro Lupo Lopo Miguel Nuno Paulo Pedro 
+			Roi Rui Tomee Vitor Ignacio Martinho Martim 
 		}
 		female_names = {
-			Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca Blanche
-			Constance Dórdia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda 
-			Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
-			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
+			Maria Aldonça Sancia Mor Tareyja Berenguela Tareisa Marinna Branca Lupa Urraca Iohana
+			Leda Icia Irimia Minia Aldonçe Eynees Maior Johana Mencía Iria Sabela Isabella Ougia
+
 		}
 	}
 	portugese = {
