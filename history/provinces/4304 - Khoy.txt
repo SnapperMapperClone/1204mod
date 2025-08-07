@@ -2,8 +2,8 @@
 
 owner = ELD
 controller = ELD
-culture = azerbaijani
-religion = sunni
+culture = armenian
+religion = coptic
 capital = "Khoy"
 trade_goods = wool
 hre = no

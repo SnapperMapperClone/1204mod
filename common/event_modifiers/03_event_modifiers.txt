@@ -14,16 +14,28 @@ latins_control_constantinople = {
 	land_morale = -0.2
 }
 
-roman_settlers = {
+roman_settlers_1 = {
 	local_unrest = 1
 }
 
-latin_settlers = {
+roman_settlers_2 = {
 	local_unrest = -1
 }
 
-turkish_settlers = {
+latin_settlers_1 = {
+	local_unrest = -1
+}
+
+latin_settlers_2 = {
+	local_unrest = -2
+}
+
+turkish_settlers_1 = {
 	local_unrest = 1
+}
+
+turkish_settlers_2 = {
+	local_unrest = -2
 }
 
 fall_of_rum = {

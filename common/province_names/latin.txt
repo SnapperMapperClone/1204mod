@@ -154,7 +154,6 @@
 143 = "Valona"
 144 = "Epiro"
 146 = "Atene"
-147 = "Tessaglia"
 148 = "Tessalonica"
 149 = "Adrianopoli"
 151 = "Constantinopoli"

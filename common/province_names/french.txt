@@ -319,7 +319,6 @@
 129 = "Carniole"
 137 = "Raguse"
 146 = "Athènes"
-147 = "Thessalie"
 148 = "Thessalonique"
 149 = "Adrianople"
 151 = "Constantinople"

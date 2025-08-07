@@ -2,8 +2,8 @@
 
 owner = RUM
 controller = RUM
-culture = turkish
-religion = shiite
+culture = armenian
+religion = coptic
 capital = "Malatiya"
 trade_goods = cloth
 hre = no

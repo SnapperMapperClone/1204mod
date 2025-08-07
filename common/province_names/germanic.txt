@@ -38,7 +38,6 @@
 142 = "Korfu"
 143 = "Albanien"
 146 = "Athen"
-147 = "Thessalien"
 151 = "Konstantinopel"
 154 = "Neuhäusel"
 156 = "Temesch"
