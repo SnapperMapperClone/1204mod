@@ -4,4 +4,4 @@ government_rank = 2
 technology_group = muslim
 religion = sunni
 capital = 2362
-primary_culture = turkmeni
+primary_culture = khwarezmian

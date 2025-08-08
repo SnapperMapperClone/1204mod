@@ -3,7 +3,6 @@
 143 = "Vlorë"
 144 = "Janinë"
 146 = "Athina"
-147 = "Thesalia"
 148 = "Selaniku"
 151 = "Kostandinopoja"
 1766 = "Kosovë"

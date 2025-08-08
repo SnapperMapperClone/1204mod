@@ -5,12 +5,13 @@ technology_group = western
 primary_culture = welsh
 religion = catholic
 capital = 4369 #Deheubarth
+
 1199.1.1 = {
-monarch = {
-  name = "Maelgwn ap Rhys"
-  dynasty = "Deheubarth"
-  adm = 2
-  dip = 3
-  mil = 3
-}
+	monarch = {
+		name = "Maelgwn ap Rhys"
+		dynasty = "Deheubarth"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
 }

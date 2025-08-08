@@ -1,0 +1,64 @@
+country_decisions = {
+	purchase_negroponte = {
+		potential = {
+			tag = VEN
+			is_year = 1210
+			OR = {
+				3003 = { owned_by = TES }
+				3003 = { owned_by = ACH }
+				3003 = { owned_by = ATH }
+				3003 = { owned_by = LAT }
+			}
+			NOT = { 3003 = { owned_by = ROOT } }
+		}
+		provinces_to_highlight = {
+			province_id = 3003
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			treasury = 150
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			if = {
+				limit = {
+					3003 = { owned_by = TES }
+				}
+				TES = {
+					is_at_war = no
+				}
+			}
+			else_if = {
+				limit = {
+					3003 = { owned_by = ACH }
+				}
+				ACH = {
+					is_at_war = no
+				}
+			}
+			else_if = {
+				limit = {
+					3003 = { owned_by = LAT }
+				}
+				LAT = {
+					is_at_war = no
+				}
+			}
+			else_if = {
+				limit = {
+					3003 = { owned_by = ATH }
+				}
+				ATH = {
+					is_at_war = no
+				}
+			}
+		}
+		effect = {
+			country_event = { id = ven_greece.1 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

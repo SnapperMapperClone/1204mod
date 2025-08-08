@@ -5,9 +5,9 @@ primary_culture = greek
 religion = orthodox
 technology_group = eastern
 capital = 4701
-fixed_capital = 146 # Cannot move capital away from this province & no power cost to move to it
+fixed_capital = 4701 # Cannot move capital away from this province & no power cost to move to it
 
-1402.1.1 = {
+1204.1.1 = {
 	monarch = {
 		name = "Leo"
 		dynasty = "Sgouros"

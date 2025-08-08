@@ -324,8 +324,8 @@ country_event = {
 	}
 }
 
-#Cores on anatolian provinces with greek culture
-country_event = {
+#Converting provinces in anatolia
+province_event = {
 	id = flavor_nic.6
 	title = flavor_nic.6.t
 	desc = flavor_nic.6.d
@@ -342,13 +342,14 @@ country_event = {
 		}
 	}
 
-	fire_only_once = yes
-	
-	hidden = yes
-
 	trigger = {
-		tag = NIC
-		is_year = 1204
+		culture = turkish
+		religion = orthodox
+		OR = {
+			area = rum_area
+			area = karaman_area
+		}
+		owner = {	has_country_modifier = fall_of_rum }
 	}
 
 	mean_time_to_happen = {
@@ -357,9 +358,6 @@ country_event = {
 
 	option = {
 		name = flavor_nic.6.a
-		4312 = { add_core = NIC }
-		4311 = { add_core = NIC }
-		1848 = { add_core = NIC }
-		2298 = { add_core = NIC }
+		change_culture = cappadocian_greek
 	}
 }

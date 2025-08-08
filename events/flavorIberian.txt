@@ -1,0 +1,102 @@
+namespace = flavor_iberian
+
+#Expulsion of the Arabs
+province_event = {
+	id = flavor_iberian.1
+	title = flavor_iberian.1.t
+	desc = flavor_iberian.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = al_andalus_arabic
+		religion_group = christian
+		owner = { religion_group = christian }
+	}
+
+	mean_time_to_happen = {
+		days = 5
+	}
+
+	option = {
+		name = flavor_iberian.1.a
+		change_culture = mozarabic
+	}
+}
+
+#Localisation of the Mozarabs
+province_event = {
+	id = flavor_iberian.2
+	title = flavor_iberian.2.t
+	desc = flavor_iberian.2.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		culture = mozarabic
+		religion_group = christian
+		owner = { religion_group = christian }
+	}
+
+	mean_time_to_happen = {
+		years = 10
+	}
+
+	option = {
+		name = flavor_iberian.2.a
+		if = {
+			limit = {
+				area = aragon_area
+			}
+			change_culture = aragonese_sep
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = catlonia_area
+					area = valencia_area
+					area = baleares_area
+				}
+			}
+			change_culture = catalan_sep
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = upper_andalucia_area
+					area = lower_andalucia_area
+				}
+			}
+			change_culture = andalucian
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = extremadura_area
+					area = leon_area
+					area = asturias_area
+				}
+			}
+			change_culture = asturian_leonese
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = beieras_area
+					area = alentejo_area
+					area = galicia_area
+				}
+			}
+			change_culture = galician_portugese
+		}
+		else_if = {
+			limit = {
+				OR = {
+					area = castille_area
+					area = toledo_area
+				}
+			}
+			change_culture = castillian
+		}
+		else = {
+		}
+	}
+}

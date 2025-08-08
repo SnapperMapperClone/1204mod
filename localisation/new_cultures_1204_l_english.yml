@@ -17,9 +17,18 @@
  mauretanian:0 "Mauretanian"
  numidian:0 "Numidian"
  carthagenian:0 "Carthagenian"
- lybian:0 "Lybian"
+ libyan:0 "Libyan"
  cyrenaican_latin:0 "Cyrenaican"
  african_roman:0 "African"
+
+ british_roman:0 "Britanian"
+ cambrian:0 "Cambrian"
+ hibernian:0 "Hibernian"
+ caledonian:0 "Caledonian"
+ dumnonian:0 "Dumnonian"
+ anglian_roman:0 "Anglian"
+ northumbrian_roman:0 "Northumbrian"
+ armorican:0 "Armorican"
 
  roman_group:0 "Roman"
  gallo_roman:0 "Gallo-Roman"
@@ -29,12 +38,29 @@
  helleno_roman:0 "Helleno-Roman"
  illyro_roman:0 "Illyro-Roman"
  aegypto_roman:0 "Aegypto-Roman"
+ pannono_roman:0 "Pannono-Roman"
+ daco_roman:0 "Daco-Roman"
+ germano_roman:0 "Germano-Roman"
+ cimmero_roman:0 "Cimmero-Roman"
+ syro_roman:0 "Syro-Roman"
+ mesopotamian_roman:0 "Assyro-Roman"
+ arabo_roman:0 "Arabo-Roman"
+ non_imperial_roma:0 "Non-Imperial Roman"
+
+ basque_group:0 "Basque"
+ aquitainian:0 "Aquitainian"
 
  tajik:0 "Tajik"
+ talysh:0 "Talysh"
+ khwarezmian:0 "Khwarezmian"
 
  bulgar:0 "Volga Bulgarian"
+ cuman:0 "Cuman"
+ pecheneg:0 "Pecheneg"
 
+ romaic:0 "Romaic"
  gasmouloi:0 "Gasmouloi"
+ rumelian:0 "Rumelian"
  asia_minor_greek:0 "Micrassiatic"
  armenian_new:0 "Armenian"
 
@@ -54,6 +80,7 @@
 
  mozarabic:0 "Mozarabic"
  galician_portugese:0 "Galician-Portuguese"
+ asturian_leonese:0 "Asturian-Leonese"
 
  septimanian:0 "Septimanian"
  occitain_sep:0 "Occitan"

@@ -6,7 +6,6 @@
 144 = "Epir"
 145 = "Moreja"
 146 = "Atina"
-147 = "Tesalija"
 148 = "Solun"
 149 = "Jedrinje"
 150 = "Nikopolj"

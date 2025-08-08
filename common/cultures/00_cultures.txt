@@ -1072,7 +1072,7 @@ brittonic = {
 			Trifine Tristana Uriell Seva Perenn Meonre Ilcum Guigoëdon Drichglur Berthildis Argantmoet
 		}
 	}
-	}
+}
 	
 gaelic	= {
 	graphical_culture = westerngfx
@@ -1401,31 +1401,18 @@ iberian	= {
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = CAS
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			Martinez "de Lara" Diaz "de Haro" "de Velasco" "de Ayala" "de Manrique" Morato "de Sandoval" Enriquez
+			"de Toledo" Pedrez "de Borgonna" "de Avellaneda" "del Zunniga" Alonso "de Guzman" "de Guardiola" Fánnez
+			"de Carrioon" "de Vivar" Velasco Ansurez "de Castilla" "de Atoja" "de Aguirre" "de Cisneros" "de Villena"
+			"de Balboa" "de Nebrija" "de Ojeda" "de Rojas" "de la Vega" "de Giroon" Fonseca Mudarra "de Marciena"
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
-			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
-			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
-			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
-			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
-			Suero Tello Vela Vela Suero Oveco John Enrique
+			Gartsia Sancho Alffonso Vermundo Ffernando Enrique Ordonno Ramiro Fruela Bernaldo Pedro Pelayo Juan Fernaan Paulo Matheo
+			Andrees Lope Gomez Vela Antsur Carlos Miguel Diego Jimeno Albaro Blas Cristobal Felipe Victor Tomaas Inacio Jacobo Antonio
+			Jorge Rodrigo Alonso Fadrique
 		}
 		female_names = {
-			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
-			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
-			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-			Isabel
+			Blanca Jimena Aldonza Sancia Teresa Berenguela Elvira Urraca Leonor Mayor Velasquita Beatriz
 		}
 	}
 	mexican = {
@@ -1519,35 +1506,37 @@ iberian	= {
 			Mayor Mencía Milia Emily Sancha Teresa Toda Urraca Isabela
 		}
 	}
+	asturian_leonese = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = LON
+		dynasty_names = {
+			Martiiniz "de Nava" Diaz "de Quiroos" Froylez Pelaz "de Laria" "de Asturies" "de Llyon" Morate "de Cardielles" Domenguez
+			"de Mataxana" Pedrez "de Oumanna" "de Carvayar" "della Tenda" Alonsu "de Qualla" "de Olloniego" "del Dado" "de Aller"
+			"de Mieres" "de Premanna" Nicolas Rodriguiz "del Castiello" "de Quinnones" "de Abilles" "de Ovieu"  
+		}
+		male_names = {
+			Garsea Alfonsu Vermundu Fernandu Ordonnu Ramiru Fruela Bernaldo Peru Froylan Payu Johan Fernan Ruy Paulos Matheus 
+			Andres Pelay Muniu Fraumundu Sueru Nicolau Godoon Miguel
+		}
+		female_names = {
+			Maria Alexania Sancia Taresa Ros Elvira Orraca Aldonçe
+		}
+	}
 	mozarabic = {
 		country = { } 
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		dynasty_names = {
-			"de Trastámara" "de Guzmán" "Álvarez de Toledo" "de la Cerda" "de Castilla" "de Valencia"
-			Téllez-Girón "Manrique de Lara" "de Ávalos" Enríquez "Osuna" "Argavieso" Ruspoli "Lasso de la Vega" "de Hoyos" Zayas "de Alcalá"
-			#CK2
-			"de Menezes" "de Mendoza" "de Niebla" "de Silva" "de Alba" "de Borja"  
-			"de Medinaceli" "de Castro" "de Haro" "Santcliment" "de Altamira" Osorio
-			Zúñiga "de Villahermosa" Vilafermosa Garmendia "de Rocamora" "de Goyeneche"
+			"eben Qasi" "al-Katib" Halevi Almorati "Xabe–Havivi" Mutarra Gudesteoz "eben Bacri" Morate Davidi Aurovelido
 		}
 		male_names = {
-			Enrique Fernando Juan Felipe Alfonso Carlos Sancho Ramiro Pedro Alonso Álvaro Baltasar 
-			Bernardo Bertrán Hernando
-			Cristobal Diego Domingo Esteban Fadrique Francisco García Gómez Gonzalo Gutierre Hermenegildo 
-			Ignacio Laín Lope Miguel Nuño Odón Ramón Rodrigo Tomás Valeriano
-			Alfonso Alphonse Alonso Alphonse Álvar Oliver Álvaro Oliver Bermudo Vermudo Diego Diaco 
-			Henry Fadrique Frederick Felipe Philip Fernando Ferdinand Fruela Froila García Garcia Gil 
-			Egidius Gómez Gomez Gonzalo Gonzalo Guillén William Guillermo William Gutierre Walter Juan 
-			Lope Lupo Luis Louis Manrique Amalric Martín Martin Munio Munio Nuño Nuno Ordoño Ordono 
-			Obeko Pedro Peter Pelayo Pelagius Ramiro Ramiro Rodrigo Roderick Salvador Sancho Sancho 
-			Suero Tello Vela Vela Suero Oveco John Enrique
+			Jakub Ibrahim Elogio Paulo Sancio Alvaro Argimilo Acisclo Ichidor Batrich Belay Felich Yosef Yehuda Paulos Matheus 
+			Zulayman Teudrico Vestrerario Veremundo Cita Velita Scabe Mikhael Isa Tabit Hakam Musa Mauru Maurelus Mutarra Ablauel
+			Zahbascorta Abolhauz Zacbascorta Froilano Frorito Leodrico Sizibuto Theodosio Ataulfo Alarico Theodorico Sisnando David
+			Iohanes Malchitano
 		}
 		female_names = {
-			Aldonza Aldonza Anderquina Beatriz Beatrice Berenguela Berengaria Blanca Blanche Constanza 
-			Constance Elvira Elvira Estefanía Stephania Fronilda Fronilde Gontroda Gotruda Inés Agnes 
-			Elisabeth Jimena Ximena Juana Joan Leonor Eleanor Mafalda Matilda María Maria Marina Marine 
-			Mayor Mayor Mencía Mencia Milia Emily Sancha Sancha Teresa Teresa Toda Toda Urraca Urraca
-			Isabel
+			Eulalia Rufina Sancia Olalla Luchiana Elvira Abdela Maria Guntina Loba Susana Aurovelida Leocadia
 		}
 	}
 	aragonese = {
@@ -1652,28 +1641,28 @@ iberian	= {
 		province = { local_has_caravel = yes local_has_galleon = yes }
 		primary = POR
 		dynasty_names = {
-			"de Aviz" "de Bragança" "de Crato" "d'Alburquerque" "de Portugal" "de Lencastre" "de Melo" 
-			"de Moura" "de Nápoles" "de Menezes" "de Saldanha" 
-			#CK2
-			"da Câmara" "da Maia" "de Abrantes" "de Moura Barreto" "de Sousa"
+			"de Maia" Pereira "de Sousa" Meneses "de Bragança" Coutinho "de Lima" Teive Peres
+			"de Andeyro" "de Cela" "de Castro" "de Andrade" "de Lemos" "de Figueiroa" Vimaraes
+			"de Ulhoa" "de Deza" Esquío "de Osorio" "de Novoa" Churrichao Colombo Portocarreiro Noronha
+			"de Soutomaior" "de Moscoso" "de Araujo" "de Lima" Fonseca Coutinho Penela
+			Ruis Eanes "de Meira" "Pardo de Cela" Louçao "da Ponte" Correia "de Cerveira" Freitas
+			"de Lobeira" "Castro de Lemos" "de Trava" Menor "de Probem" Sampaio "da Costa" "de Ataiide"
+			"de Saavedra" "de Soutelo" "da Ponte" "de Altamira" Baltar Azambuja Lopes "de Mascarenhas"
+			Aalvares "de Sonnar" "Nuñez de Balboa" "de Abella" Nunes Osorio "de Sequeira"
+			Pimentel Bolanhos Galhinato "de Castro e Osorio" Portocarreyro Pacheco "do Pombal"
+			"de Aldao" "Charinho-Maldonado" "de Monterrei" "de Borgonha" "de Melo" Magalhaes Veloso
 		}
 		male_names = {
-			João Filipe Afonso Pedro António Duarte Henrique José Manuel Sebastião Miguel Teodósio Dinis 
-			Alexandre Carlos Diego Jaime Luís Álvaro André Bartolomeu Caetano Damião Estevão Francisco 
-			Xavier Gabriel Garcia Gaspar Gil Gonçalo Guilherme Inácio Joaquim Jorge Lourenço Marco Nicolau 
-			Paulo Rafael Rogério Rui Simão Uriel Vicente Octávio
-			Afonso Alphonse Aires Álvaro Oliver Bermudo Vermudo Diogo Diaco Egas Estêvão Stephen Fernão 
-			Ferdinand Fernando Ferdinand Garcia Garcia Gil Egidius Gomes Gomez Gonçalo Gonzalo Guterre 
-			Walter Henrique Henry Hermígio João John Lopo Lupo Lourenço Laurence Martim Martin Mem Mendo 
-			Mendo Mendo Monio Munio Muno Munio Nuno Nuno Paio Pelagius Pedro Peter Pero Peter Pôncio 
-			Rodrigo Roderick Rui Roderick Sancho Soeiro Suero Raimundo Raymond Vasco Vasco Vicente 
-			Vincent Pons
+			Garsea Vermudo Ordonno Afonso Froila Ramiro Fernando Sancio Paio Galez Lançarote 
+			Andree Alvaro Pero Rui Aleixo Alvaro Anjo Bento Bernaldo Brais Carlos Cristovo 
+			Domingos Estevo Filipo Fernaam Frederico Gonçalvo Guilherme Gumersindo Henrique 
+			Hermenegildo Higinio Hugo Jacobe Joham Leandro Lupo Lopo Miguel Nuno Paulo Pedro 
+			Roi Rui Tomee Vitor Ignacio Martinho Martim 
 		}
 		female_names = {
-			Aldara Alduara Aldonça Aldonza Beatriz Beatrice Berengária Berengaria Branca Blanche
-			Constance Dórdia Elvira Elvira Estevainha Stephania Fruilhe Fronilde Gontinha Gontroda 
-			Guiomar Inês Agnes Joana Joan Leonor Eleanor Mafalda Matilda Margarida Margaret Maria 
-			Marinha Marine Mor Mayor Ouroana Sancha Sancha Teresa Teresa Urraca Urraca Gotruda Constança
+			Maria Aldonça Sancia Mor Tareyja Berenguela Tareisa Marinna Branca Lupa Urraca Iohana
+			Leda Icia Irimia Minia Aldonçe Eynees Maior Johana Mencía Iria Sabela Isabella Ougia
+
 		}
 	}
 	portugese = {
@@ -1741,34 +1730,6 @@ iberian	= {
 			
 			Maiara Janaína Iara Tainara Iracema Mariana Bárbara Josefina Ana "Ana Paula" Aurélia
 			Adelaide Firmina Emília Cecília Lauriana Isabel
-		}
-	}
-	basque = {
-		country = { } 
-		province = { local_has_caravel = yes local_has_galleon = yes }
-		primary = NAV
-		dynasty_names = {
-			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
-			# CKII
-			"de Haro"
-		}
-		male_names = {
-			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
-			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
-			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
-			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
-			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
-			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
-			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
-			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
-			Zentulo Centule Ladron Ferdinand Bernart
-		}
-		female_names = {
-			Juana Catalina Leonor Blanca
-			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
-			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
-			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
-			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
 		}
 	}
 }
@@ -3534,6 +3495,127 @@ byzantine = {
 			"Apsimaros" "Artemios"
 		}
 	}
+	romaic = {
+		primary = BYZ
+		male_names = {
+			Adrianos Akakios Alexandros Alexios Anastasios Anatolios 
+			Andreas Andronikos Anthemios Anthimos Antiokhos Antonios Apollonios 
+			Arsenios Artemios Athanasios Bardas
+			Bartholomaios Basileios Belisarios Boethios Bosporios 
+			Khristophoros Khrysanthos Khrysogonos Damianos Daniel David Demetrios 
+			Diogenes Dionysios Dorotheos Eirenaios Eudoxios Eustratios
+			Eugenios Euphemios Eusebios Eustathios Evangelos Gabriel Gennadios Georgios 
+			Gerasimos Germanos Gregoras Gregorios Hektorios Helias 
+			Herakleios Hierotheos Himerios
+			Konstantinos Pavlos Nikolaos Aineias Alexeios Ambrosios
+			Dionysos Elpidios Hektor 
+			Kastor Manouel Matthaios Nestor Nikomedes Orestes Palaimon Pelagios Petros Philemon Philippos 
+			Skantarios Stefanos Theodoros Thomas Prokopios Ioannes Iason
+		}
+		female_names = {
+			Alexandra Adriane Agathe Agne Agnes Aikaterine Alexeia Anastasia 
+			Anna Anthe Anthousa Antipatra Antonia Apollonia Athanasia Barbara Basillike
+			Chrysogone Damiane Demetra Dionysia Dorothea Aigidia Eirene Elaiodora Epiphania 
+			Eudokia Eudoxia Eugenia Eulalia Eunike Euphemia Euphrasia Euphrosyne
+			Eupraxia Eusebia Eustathia Evanthia Gabrielia Garyphallia Georgia Gregoria Helene 
+			Ioanna Ioulia Iouliana Ioustina Kale Konstantia 
+			Konstantine Kyra Kyriake Hypatia Zoe
+		}
+		dynasty_names = {
+			Kantakouzenos Doukas Komnenos Palaiologos Laskaris Angelos Phokas
+			# CKII
+			"Kameniatis" "Chameas" "Demetrianos" "Laloudios" "Stamopatas" "Peloponnesites" "Klados" "Avastaktos" 
+			"Lardotyros" "Kyritzios" "Kolovos" "Podopagouros" "Touvakes" "Peteinakes" "Ooryphas" "Myxares" "Toxias" 
+			"Bardouchos" "Boilas" "Skepides" "Mamoulianos" "Katakylas" "Drakokephalos" "Rentakes" "Exarchos" "Skepastos" 
+			"Kyminas" "Krasas" "Konstantinakes" "Mouzelis" "Souanites" "Karteroukas" "Machairas" "Koutzodaktylos" 
+			"Kanakaris" "Vamvaloudes" "Leontares" "Klokas" "Axiotes" "Chrysouchos" "Pyrrogenes" "Kophinas" "Makroleon" 
+			"Kalopragmon" "Karphitzes" "Trichares" "Kokkalos" "Kritharatos" "Kretikos" "Tourkos" "Symvatikes" 
+			"Glykomachaires" "Chrysochoos" "Vonos" "Mystakon" "Pterotos" "Monotes" "Manginos" 
+			"Kalavros" "Sikelos" "Kilikos" "Macrodoukas" "Aineidas" 
+			"Pegonitissos" "Kastriotis" "Kamateros" "Skleros"
+			"Makrembolites" "Botaneiates" "Diogenes" "Stratiotikos" "Monomachos" "Kalaphates" 
+			"Paphlagon" "Argyros" "Kourkouas" "Lekapenos" "Karbonopsis" "Makedon" "Stryphnos" "Euforbenos" 
+			"Gabras" "Aaron" "Lampinos" "Tzimiskes" "Kurtikainos" "Murzuphlos" "Balatios" "Ouranos" "Amorios" "Armenios" 
+			"Rangabes" "Logothetes" "Isauros" "Polites" "Studites" "Skamandrenos" "Synkellos" "Kauleas" "Monocharzanios" 
+			"Kassymatas" "Nesteutes" "Scholastikos" "Chrisostomos" "Nazianzen" "Nikomedianos" "Protokletos" "Garidas" 
+			"Grammatikos" "Zeno" "Gavalas" "Axuchos" "Kamonas" "Asidenos" "Hephaistos" "Karatzas" 
+			"Amiroutzes" "Bessarion" "Callistus" "Chalkokondyles" "Gazis" "Kourtesios" "Kallistos" "Kladas" "de Patras" 
+			"Gemistus" "Allatios" "Chalcocondyles" "Korniaktos" "Damaskenos" "Eparchos" "Flanginis" "Fokás" "Heraclides" 
+			"Kallokratos" "Kottounios" "Leontaritis" "Loukanis" "Margunios" "Musurus" "Nafpliotis" "Hatzidákis" 
+			"Aprenos"  "Chortatzis" "Gabrielopoulos" "Gounaropoulos" "Belissariotis" "Konstantopoulos" "Kavallarios" 
+			"Maniakis" "Notaras" "Sgouromallis" "Epiphanis" "Logaras" "Eudaimon" "Sakellarios" "Maurozoumis" "Stylaios" 
+			"Maleinos" "Basilakios" "Mamonas" "Kekaumenos" "Metaxas" "Kanavos" "Koukouzelis" "Koresis" "Makrinos" 
+			"Lambardas" "Adrianos" "Agallon" "Akropolites" "Aoinos" "Apokaukos" "Aprenos" "Arbantenos" "Argyros" 
+			"Arianites" "Atrapes" "Balsamon" "Batatzes" "Botaneiates" "Boumbalis" "Bourtzes" "Branas" "Bryennios" 
+			"Chandrenos" "Choniates" "Choumnos" "Chrysaphes" "Chrysoloras" "Dalassenos" "Dermokaïtes" "Diasorenos" 
+			"Dokeianos" "Eirenikos" "Exazenos" "Gavras" "Glabas" "Iagaris" "Kabakes" "Kabasilas" "Kalamanos" "Kaloethes" 
+			"Kalothetos" "Kamateros" "Katrares" "Kaukadenos" "Kontostephanos" "Koresses" "Kourkouas" 
+			"Kourtikes" "Limpidares" "Machoneos" "Makrembolites" "Malakes" "Maliasenos" "Mamalis" 
+			"Mandromenos" "Manouelites" "Melachroinos" "Mourtzouphlos" "Mouzakios" "Mouzalon" "Neokaisareites" 
+			"Nestongos" "Pantechnes" "Paraspondylos" "Petraliphas" "Petzikopoulos" "Philanthropenos" "Pleustes" 
+			"Prasomales" "Prinkips" "Psellos" "Radenos" "Rossatas" "Sarantapechos" "Sebastopoulos" "Segouropoulos" 
+			"Sgouros" "Spartenos" "Sphrantzes" "Strabomytes" "Synadenos" "Syraneres" "Syropoulos" "Tagares" 
+			"Tarchaneiotes" "Tornikes" "Trichas" "Tsaphas" "Tzamplakon" "Tzykandeles" "Zaridas" "Akunin" "Abalantes" 
+			"Aboudimos" "Adralestos" "Agallianos" "Agrites" "Akapnes" "Alopos" "Alousianos" "Alyattes" "Amaseianos" 
+			"Amiropoulos" "Anatolikos" "Andreiomenos" "Androsalites" "Anemas" "Angoures" "Anthemiotes" "Antiochites" 
+			"Antiochos" "Antipapas" "Arbintenos" "Areobindenos" "Areobindos" "Argyropoulos" "Aristenos" "Artoukomites" 
+			"Arvantenos" "Attaleiates" "Aulenos" "Aulepates" "Axinites" "Axiomatikos" "Balantes" "Barbaros" "Bardales" 
+			"Barenos" "Barsakes" "Barys" "Belissariotes" "Bempetziotes" "Beriboes" "Beriotes" "Blachernites" "Blangas" 
+			"Boïlas" "Bouches" "Boutzares" "Bouzenos" "Brachamios" "Bringas" "Chaldos" "Chalkites" "Chalkoutzes" 
+			"Chamaretos" "Charsianites" "Chasanes" "Chazanes" "Choinides" "Choirosphaktes" "Chomatenos" "Chordolibas" 
+			"Choriates" "Chrouselios" "Chrousos" "Chrysanthos" "Chryselios" "Chrysobalantites" "Chrysoberges" "Chytes" 
+			"Daimones" "Dalessenos" "Dalassenos Doukas" "Dekanos" "Diabatenos" "Dikaios" "Diogenes" "Domestikopouolos" 
+			"Doxapatres" "Drakontopoulos" "Drosinos" "Drosos" "Droulenos" 
+			"Elegmites" "Enochos" "Epanokomites" "Ergodotes" "Erotikos" "Eugenianos" "Eugenios" "Eulogios" "Exotrochos" 
+			"Gabalas" "Galaton" "Gelotes" "Gidos" "Glykys" "Goudeles" "Gourzoubathenos" "Granatos" "Gribas" "Grispos" 
+			"Gymnos" "Hagiochrisophorites" "Hagioprokopites" "Hagiotheodorites" "Hagiozacharites" "Hamartolos" 
+			"Haplorabdes" "Haploucheir" "Hexakionites" "Hexaklinites" "Hexamilites" "Hierakes" "Hikanatos" "Iasites" 
+			"Iberopoulos" "Isakiotes" "Italikos" "Kaballarios" "Kabasilas" "Kaisar" "Kalameteros" "Kalamaras" 
+			"Kalampakes" "Kalognomos" "Kamytzes Komnenodoukas" "Kappadokes" "Kappadox Kalampakes" "Karabitenos" 
+			"Karabitziotes" "Karaïonatan" "Karamallos" "Karandenos" "Karantes" "Kardamopoulos" "Karenos" "Karianites" 
+			"Karkaronymos" "Karmalikes" "Karouzeiates" "Kaspax" "Kastamonites" "Katakalon" "Katakalos" "Kataphloros" 
+			"Katas" "Katharos" "Katotikos" "Katzamoundes" "Kegenes" "Kekaleimenos" "Keklymmenos" "Kemineianos" "Kenchres" 
+			"Kentenares" "Kephalas" "Keroularios" "Kibyrraiotes" "Kinnamos" "Kokkinos" "Komnenodoukas" "Konops" 
+			"Kopsenos" "Kostomyres" "Kotertzes" "Kouloukes" "Kouneres" "Krateros" "Krinites" 
+			"Kritharas" "Kritopolos" "Kyminianos" "Kynochorites" "Kyriotes" "Kyritzes" "Labouzenos" "Laktentitzes" 
+			"Lalakon" "Lampsiotes" "Lapardas" "Leichoudes" "Lependrenos" "Leukedonites" "Libadares" "Libadas" 
+			"Libellisios" "Limas" "Liparites" "Lithokastrites" "Logariastes" "Loules" "Louloukes" "Lykaon" "Machetarios" 
+			"Madrites" "Madytenos" "Makropoderes" "Maleïnos" "Maleses" "Mamalos" "Manganes" "Marachas" "Marapas" 
+			"Marchapsabos" "Marianites" "Marzapoulos" "Matzaris" "Matzas" "Matzoukes" "Maurex" "Maurokatakalos" "Mauros" 
+			"Maurozomes" "Mechos" "Megalommates" "Megenos" "Meginos" "Melias" "Melissenos" "Mermentoulos" "Mesarites" 
+			"Meschos" "Mesopotamites" "Metochites" "Metropoulos" "Mitylenaios" "Monachites" "Monokarites" "Monomachatos" 
+			"Moroiannes" "Mosaraph" "Moschos" "Mosele" "Moungos" "Mourmoures" "Moustakes" "Mozaes" "Myralides" 
+			"Myredeïtes" "Myrelaetes" "Myron" "Nabatenos" "Narbiotes" "Narsites" "Neophytos" "Neustongios" "Nikerites" 
+			"Nikoulitzes" "Noe" "Oinaiotes" "Olyntenos" "Opos" "Pagomenos" "Pakourianos" "Paktiares" 
+			"Doukas Mourtzouphlos" "Palaiotes" "Palatinos" "Pamphilos" "Panaretos" "Pankalos" 
+			"Panokomites" "Parsakoutenos" "Parthenios" "Paxenos" "Pediasimos" "Peganites" "Pegonites" "Pekoules" 
+			"Pelamedes" "Pentarkles" "Pepagomenos" "Pepanos" "Perenos" "Peribleptenos" "Phalkon" "Phialites" "Philaretos" 
+			"Philinos" "Philokales" "Phrangopolos" "Pistophilos" "Pleures" "Politopolos" "Pothos" "Probatas" 
+			"Promountenos" "Proteuon" "Ptochos" "Rentakenos" "Rizenos" "Rodios" "Rogerios" "Romaios" "Rousopoulos" 
+			"Sagopoulos" "Sarakenopoulos" "Saronites" "Sauloioannes" "Semnos" "Serblias" "Sikoundenos" "Sinopites" 
+			"Skandales" "Skanranos" "Skeblenos" "Skoutariotes" "Skribas" "Smyrnaios" "Solomon" "Sortes" 
+			"Soumenos" "Spanogregores" "Spanopoulos""Stachytzes" "Stemnitziotes"
+			"Strephnes" "Stypeiotes" "Styppes" "Synacheris" "Syros" "Taronites" "Tatikes" "Tetragonites" "Theodorokanos" 
+			"Theodosiopolites" "Thrakesios" "Thylakas" "Tilapos" "Timonites" "Tourmarchopoulos" "Traphines" "Trellos" 
+			"Triakontaphyllos" "Triblattites" "Trichinopodes" "Triphyllios" "Tzanzes" "Tzefres" "Tzetas" "Tzipoureles" 
+			"Tzirithon" "Tzoulas" "Tzoumenes" "Tzouroulles" "Tzympenos" "Vatatzes" "Xanthos" "Xenos" "Xeros" "Xiphias" 
+			"Xiphilinos" "Xylinites" "Zabareiotes" "Zagarommates" "Zerbos" "Zomes" "Zonaras" "Kalomalas" "Kaloudes" 
+			"Kampanarios" "Kamytzes" "Kallierges" "Loukites" "Kometopoulos" "Basiliakos" 
+			"Pateranos" "von Winterthur" "Paleologo" "Gregoras" "Sanudo" "Komytzes" "Lascaris" "Kyrdiniatis" "Agapetos" 
+			"Attikos" "Anastasiotis" "Evergetidiotis" "Chliarinos" "Chysovergis" "Eugeniotis" "Vorradiotis" "Mountanis" 
+			"Theotokitis" "Viticlenou" "Autoreianos" "Akoimitos" "Charitopoulos" "Panemorphiotis" "Hyakinthiotis" 
+			"Galesiotis" "Bekkos" "Kyprios" "Gonitis" "Pammakaristiotis" "Perivleptiotis" "Manganiotis" "Kalekas" 
+			"Herakleidon" "Xylaloes" "Syrikos" "Tatikios" "Aspietes" "Kastenianos" "Leovachos" "Maniatis" "Vaklikas" 
+			"Maurikios" "Skrinarios" "Mesanaktis" "Lachanodrakon" "Kalokyris" "Lykodontis" "Skyllaris" "Ampelas" 
+			"Gerontas" "Apokapis" "Pallikarios" "Orphanotrophos" "Chlorokokis" "Hexavoulis" "Martinakios" "Agelastos" 
+			"Kotzes" "Toxaras" "Aplakes" "Gomostos" "Koupharas" "Tyropoulis" "Kontomytes" "Chenopoulos" "Sellokalas" 
+			"Kentrokoukouros" "Antigonos" "Pastillas" "Katakalitzes" "Manikophagos" "Kolokynthis" "Rachites" "Bua Spatas" 
+			"Apsimaros" "Artemios"
+		}
+	}
+	rumelian = {
+		
+	}
 	gasmouloi = {
 		primary = LAT
 		male_names = {
@@ -4254,7 +4336,7 @@ african_latin = {
 	carthagenian = {
 		primary = CTH
 	}
-	lybian = {
+	libyan = {
 		primary = FEZ
 	}
 	cyrenaican_latin = {
@@ -4334,6 +4416,473 @@ african_latin = {
 		"Sommaripa" "Borgia" "Orseolo" "Antelminelli" "Beccaria" "de Bonacolsi"
 		"Loredano" "di Malaspina" "Malipiero" "Maggi" "Mocenigo" "Pico di Mirandola" "della Rocca" "Rossi"
 		"di San Bonifazio" "de Sanseverino" "Zoagli" "Egidio"
+	}
+}
+
+british_roman = {
+	graphical_culture = westerngfx
+
+	cambrian = {
+		primary = WLS
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
+	}
+	hibernian = {
+		primary = IRE
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
+	}
+	caledonian = {
+		primary = HSC
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
+	}
+	dumnonian = {
+		primary = CRN
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
+	}
+	anglian_roman = {
+		primary = ENG
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
+	}
+	northumbrian_roman = {
+		primary = NOL
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
+	}
+	armorican = {
+		primary = BRI
+		dynasty_names = { 
+			Aberffraw Dinefwr Mathrafal Gwynedd Tudor Kernew "of Cornwall" Glyndwr "Ternyllwg" 
+			#CK2
+			"Morgannwg" "Caradoc" "Mostyn" "Gorfynydd" Denbigh "Gwynn" "Gwarthaf" "Môn" "Penfro"
+			"Aberteifi" "Gethin" "Gruffudd" "Carmarthen" "Mynyw" "Anwyl of Tywyn" "Fane"
+			"of Bristol" "Evans" "Owen" "Lloyd" 
+		}
+		male_names = {
+			Owain Dafydd Gruffydd Llewelyn Rhodri Maredudd Cynan Cadwaladr Iago Idwal Maelgwyn Einion Iorwerth Trahaearn 
+			Aeron Aled Aneirin Arvel Berwyn Brynmor Cadfael Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain 
+			Glynn Gwyn Heddwyn Heilyn Hywel Rhian Tristan Tudor Urien Vaughan
+			Adda Adgar Edgar Adran Adrian Aeddan Alan Aldwr Aldroenus Algwyn Alisander Alexander Alured 
+			Alfred Alwyn Anarawd Andreas Andrew Aneurin Anlaff Olaf Anllech Annwn Antoninus Argad Arcadius 
+			Arod Arthen Artemius Arthfael Arthfoddw Arthbodus Arthwr Arthur Arthws Arthwys Artorius Asa 
+			Asaph Awst August Bangar Bedwyr Beli Berthgwyn Berhtwine Berthwallt Berthoald Bleddyn Bledrig 
+			Bleiddud Branwaladr Bride Briog Brochfael Brogmaglus Brwt Brutus Brwyn Brychan Brân Bran Cadell 
+			Cadeyrn Cadfael Cadfan Cadog Cadw Cadwal Cadwaladr Cadwallon Cadwared Cadwared Cadwgan Cadwr 
+			Cadwr Cai Gaius Caid Cain Caradog Caradog Casnar Caswallon Cawdaf Cedig Caedicius Cedwyn Ceneu 
+			Ceredig Caratacus Clydog Louis Coel Corentin Cuhelyn Custennin Constantine Cwlfyn Culmin Cwrig 
+			Cyriacus Cydifor Cydrych Cynan Conan Cynddelw Cyndyddan Cynddylan Cyndeyrn Kentigern Cynfael 
+			Cynfarch Cynfawr Cynfeddw Cynfelyn Cynfran Cynfyn Cyngar Cyngen Cynwallon Cynwared Cynwrig 
+			Cynwyd Cynyr Cysteint Constans Dafydd Deheuwant Deiniol Daniel Dewi David Dogfael Drystan 
+			Tristan Dumnagual Dwyfan Damian Dyfnarth Donyarth Dyfnwal Donald Dyfnwallon Dynod Donatus Dywel 
+			Edern Eternus Ednyfed Ednywain Edryd Ailred Edwyn Edwin Edylfred Aethelfred Einion Elfin Alwin 
+			Elidyr Elis Elisedd Elud Elystan Alstan Emrys Ambrosius Enfidaig Erb Urban Erclwf Heracles Eudaf 
+			Octavius Ewyas Ffernfael Ffilip Philip Ffriog Friog Ffwdwr Fragan Ffransis Fransis Fychan Fyrsil 
+			Gamon Garmon German Geraint Gerontius Gerallt Gerald Glwyddien Glywys Claudius Godwyn Godwin 
+			Goronwy Gronw Gruffydd Ruffinus Grygor Gregory Guret Gwalchmai Gavin Gwen Gwenwynwyn Gwerstan 
+			Werestan Gwerthefyr Vortimer Gwerthern Vortigern Gwydol Vitalis Gwydolin Vitalinus Gwyn Finn 
+			Gwidyr Gwilym William Gwrfawr Gwrfoddw Gwrgant Fergus Gwrgeneu Gwrgi Gwriad Viriathius Harri 
+			Henry Herewallt Hereweald Huw Hugh Hywel Iago Jacob Ivor Idnerth Idwal Idwallon Iestyn Justin 
+			Ieuan John Ifor Ivar Io Ioan Iolo Iorwerth Ithel Lles Lucius Llew Leon Llyr Llywarch Llywelyn 
+			Macsen Maximos Madog Matad Mael Maelcwn Malcolm Maelgwn Melgwn Maenyrch March Marcus Maredudd 
+			Murdoch Math Matthew Mawgan Meilyr Meirchion Marcianus Meiriadog Meriadoc Meirion Marianus 
+			Merfyn Meurig Maurice Mihangel Michael Morfarch Morgan Morien Morgen Morydd Mwyn Mungo Myrddin 
+			Martin Neithon Nathan Nowy Nynniaw Oswallt Oswald Owain Eugene Oucydd Eochaid Padern Padrig 
+			Patrick Pandoff Pasgen Pascentius Padarn Paternus Pawl Paul Pedr Peter Peredyr Publig Pyr 
+			Rheinallt Reginald Rhicert Richard Rhigeneu Ricenus Rhirid Rhiwal Riwal Rhiwallon Rhobert Robert 
+			Rhodri Rhufon Roman Rhun Rucenus Rhydderch Roderick Rhydog Rhys Riaged Riacet Richwin Sandde 
+			Sanctus Sawyl Samuel Seferus Severin Seisyll Cecil Selyf Solomon Senyllt Serigi Sergius Sieffre 
+			Godfrey Sion Sior George Siwauna Steffen Stephen Stinian Justinanius Sulien Julian Taliesin 
+			Telesinus Tegonwy Tegwyd Tadg Teilo Teithfalch Teudebur Tewdos Theodosius Tewdrig Theodoric 
+			Tewdwr Theodore Tomos Thomas Trahaearn Tudur Tudwal Tuathal Tudwallon Tydy Tyfoedd Tysilio Urien 
+			Urbgenius Uthyr Victor Ynyr Honorius Ysfael Llewelyn Maelgwyn Aeron Aled Aneirin Arvel Berwyn 
+			Brynmor Cadoc Cadwgawn Celyn Cledwyn Colwyn Dai Dilwyn Emyr Gawain Glynn Heddwyn Heilyn Rhian 
+			Tudor Vaughan 
+		}
+		female_names = {
+			Elain 
+			Addiena Aelwyd Aeronwen Aeronwy Afrella Abrelda Alys Alice Angharad Annes Anna Annest Annwyl 
+			Anowed Arddyn Arianrhod Blodwen Bronwen Catrin Catherine Ceindrych Cagintria Ceridwen Cerie 
+			Cerys Cicely Cecilia Clarisant Creirwy Cristin Christina Danhadlwen Delyth Denis Denise Dwynwen 
+			Dwywai Dyddgu Efa Eva Effros Euphrasia Efrddyl Efyrddyl Aurelia Eiliwedd Elaine Elen Helen Eleri 
+			Hilaria Elinion Elinor Eleanor Ellyn Enid Essyllt Hersilia Euronwy Ffelis Ffion Fflur Flora 
+			Ffraid Brigit Glynys Gwen Gwenasedd Gwenfrewi Winifred Gwenhwyfach Gwenhwyfar Gwenllian Gwenwyn 
+			Gwerfyl Gwladys Claudia Haer Hawys Hawise Heledd Hellawes Heulwen Hunydd Hywela Ilud Isabel 
+			Elizabeth Llear Clara Llecci Lleigy Lleuca Lucia Lowry Mabyn Maches Madrun Matrona Maelrys Mair 
+			Maria Mali Mallt Marared Marchell Marcella Margred Margaret Marwenna Mawd Matilda Melisant 
+			Melisende Morganna Morien Murron Myfanwy Nest Nesta Agnes Newlyna Neulenna Non Nonna Olwen 
+			Onbrawst Owena Eugenia Prawst Ragnell Ragnhild Rhiaindrech Rioantdrec Rhiainfelt Regina Rhiannon 
+			Rhonwen Sannant Sara Sarah Senena Sibyl Sibylla Sioned Siwan Siân Joan Susanna Susana Tangwystl 
+			Tancostyla Tegla Thecla Ysbail Ystradwel
+		}
 	}
 }
 
@@ -4524,6 +5073,214 @@ roman_group = {
 	}
 	aegypto_roman = { #EU Rome
 		primary = EGY
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	daco_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	pannono_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	germano_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	cimmero_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	syro_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	mesopotamian_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	arabo_roman = { #EU Rome
+		primary = ROM
+		dynasty_names = {
+			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
+			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
+			Junia Licinia Livia Lucia Mamilia Manlia Maria Memmia Nigidia Octavia Papiria Plinia 
+			Postumia Pompeia Rabiria Quinctia Salvia Scribonia Sempronia Sertoria Silia Titia
+			Tullia Ulpia Valeria Vesuvia Vinicia Viridia Vitellia
+		}
+		male_names = {
+			Appius Aulus Caelus Decimus Decius Drusus Faustus Gaius Gnaeus Lucius Mamercus Manius Marcus Mettius Numerius Publius Quintus Secundus Septimus Servius Sextus Spurius Tertius Titus Tiberius Titus
+			Albinus Albus Agricola Agrippa Aratus Asina Auspex Balbus Barbatus Bibulus Brutus Bubo Buteo 
+			Caesar Calvus Calvinus Cato Catulus Cethegus Cicero Cinna Cotta Crispian Curio Dama Damasus Dentatus Dives Dolabella Donatus Draco
+			Emeritus Eugenius Euphemius Falco Falx Felix Fimbria Flaccus Florus Fronto 
+			Gala Galerus Gemellus Gorgonius Gracchus Gracilis Habitus Herma Hilarius Horatius
+			Ignatius Iuba Labeo Laenas Lepidus Leptis Lentulus Libo Longinus Longus Lucan Lucullus Lupius
+			Macro Martialis Marullus Maximus Memmius Mercator Messalla Montanus Murena Mus Nasica Oceanus Octavianus Opis
+			Optatus Otho Paenula Pantera Pavo Peregrinus Pertinax Petronax Pictor Pilatus Polus Prisca Primus Procyon Pulcher 
+			Quarto Quiricus Regillus Remus Romanus Romulus Rufus Ruso Sabinus Salinator Scaevola Scipio Scrofa Seneca Senna 
+			Severus Sorex Statius Strabo Super Superbus Tacitus Tertulus Trebonius Tibullus Tullius Ursinus Ursus Valens Varro Varus 
+			Vergilius Viator Victor Vindex Virilis Vitalis Vitus Zeno Zoilus Zosimus
+		}
+		female_names = {
+			Prima Secunda Tertia Quarta Quinta Septa Septima Octava Nona Decima Undecima Duodecima
+		}
+	}
+	non_imperial_roman = { #EU Rome
+		primary = ROM
 		dynasty_names = {
 			Aemilia Antonia Atilia Atia Aufidia Aurelia Caecilia Calpurnia Cassia Claudia
 			Clodia Cornelia Domitia Fabia Flavia Fulvia Furia Gabinia Galeria Horatia Julia
@@ -5538,6 +6295,20 @@ iranian	= {
 			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya 
 		}
 	}
+	khwarezmian = {
+		primary = KHW
+		male_names = {
+			Abû Sa'îd Bâbur Badî al-Zamân Husayn Bâyqarâ Abu al-Qasim Mahmûd Shâh Rukh Ulugh Beg 'Abbas 'Abd 
+			'Abd al-Rahman 'Alî 'Abdallâh Anwar Bakr Fahd Faruq Fouad Hakim Harun Hisham Husayn Isma'il Jafar 
+			Karim Khalil Malîk Mirza Muhammad Qasim Rashîd Sulayman Tarîq 'Umar Usama Yasir Yusuf Zaid Zîyad 
+			Zulqifar al-Karim Jamaal
+		}
+		female_names = {
+			Abda Ahu Aiza Aliyah Butayna Daniyah Dima Fahra Fahriya Fatima Gamila Ghada Habiba Huda Ibtisam 
+			Isra Karima Kera Khadija Layla Maha Malika Mariam Maria Munya Munia Nadia Naila Nur Rafiqa Rahat 
+			Raisa Randa Safiya Salma Shakira Suraya Tahira Tarifa Thashim Umm Wahida Yasmin Zahida Zahra Haniyya 
+		}
+	}
 	parthian = { #EU Rome
 		dynasty_names = {
 			Aramid Arid Arkhid Asinid Arsacid Deiocid Menid Pacorid Savacid Vardanid
@@ -5779,6 +6550,19 @@ iranian	= {
 			Ghoncheh Zernîan Zerya Zerê Zerî Zerîxan Zeytîn Zeytûn Zilfê Zoya Zozan Zêrîn Zîlan Zînet Zînê 
 			ana anaz ayan ehrîban elal emam engê epal epirze ermîn evba evîn êlaz îlan înî 
 			îwen Atiya
+		}
+	}
+	talysh = {
+		primary = BPI
+		male_names = {
+			Bisutun "Adud ud-Dawlah" Kayumarth "Bakir Almaluf" "Kai-Ka'us" Jahangir Aziz "Sa'ad ud-Dawlah" Bahman
+		}
+		female_names = {
+			Manli Mitchka Mila Vanoosheh Marjam Marzhan Milaana Nurbiika Nurishat Nuura Peet'mat Qoqa  
+		}
+		dynasty_names = {
+			Afrasiyab Paduspanid Alid "Banu Kawus" "Banu Iskandar" Marashi Kiya
+			Bavandid Eshaqvand
 		}
 	}
 	mazandarani = {
@@ -11428,6 +12212,39 @@ tartar	= {
 			Sakina Sharifa Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
 		}
 	}
+	cuman = {
+		primary = CKC
+		dynasty_names = {
+			Altan Asanin Bekmambet Ziyaeddin Sarigöl Bektöre Celebicihan  Cobanzade Dägci Gaspirali Giraybay Hablemitoglu Hilmi 
+			Inalcik Ipci Kirimal Seydahmet Ihsan Kubay Qirimoglu Mamut Mansiz Mehdi Neyazi Ortayli Semizade Soysal Zihni Tarhan 
+			Fazil Uralgiray Kosay Agah Mangitli Tögay Kemal
+		}
+		male_names = {
+			Alp Arslan Adil Amin Bahadir Devlet Fetih Ghazi Haji Halim Haspulad Hayder Inayet Islam Janay Janibek 
+			Maqsud Mehmed Mengli Mubarek Murad Nur Devlet Otemesh Qaplan Qirim Saadet Safa Sahib Satilghan Shahin 
+			Shardan Selamet Selim Toqtamish
+		}
+		female_names = {
+			Khalida Mariam Sabah "Fatima" "Ibtisam" "Jalila" "Janan" "Layla" "Sakina" "Sharifa" Ibtisam Jalila Janan Layla 
+			Sakina Sharifa Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+		}
+	}
+	pecheneg = {
+		dynasty_names = {
+			Altan Asanin Bekmambet Ziyaeddin Sarigöl Bektöre Celebicihan  Cobanzade Dägci Gaspirali Giraybay Hablemitoglu Hilmi 
+			Inalcik Ipci Kirimal Seydahmet Ihsan Kubay Qirimoglu Mamut Mansiz Mehdi Neyazi Ortayli Semizade Soysal Zihni Tarhan 
+			Fazil Uralgiray Kosay Agah Mangitli Tögay Kemal
+		}
+		male_names = {
+			Alp Arslan Adil Amin Bahadir Devlet Fetih Ghazi Haji Halim Haspulad Hayder Inayet Islam Janay Janibek 
+			Maqsud Mehmed Mengli Mubarek Murad Nur Devlet Otemesh Qaplan Qirim Saadet Safa Sahib Satilghan Shahin 
+			Shardan Selamet Selim Toqtamish
+		}
+		female_names = {
+			Khalida Mariam Sabah "Fatima" "Ibtisam" "Jalila" "Janan" "Layla" "Sakina" "Sharifa" Ibtisam Jalila Janan Layla 
+			Sakina Sharifa Acenith Alia Amunet Andali Asanet Asenath Asenet Azenet Badiat Cena Fatima Halima
+		}
+	}
 	kazani = {
 		primary = KAZ
 		dynasty_names = {
@@ -11522,6 +12339,66 @@ tartar	= {
 	}
 	dynasty_names = {
 		"Chagatay" "Edigüid" "Giray" "Borjigin" "Shaybanid" "Janid" "Mangit"
+	}
+}
+
+basque_group = {
+	graphical_culture = westerngfx
+
+	aquitainian = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		dynasty_names = {
+			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
+			# CKII
+			"de Haro"
+		}
+		male_names = {
+			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
+			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
+			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
+			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
+			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
+			Zentulo Centule Ladron Ferdinand Bernart
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
+			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
+		}
+	}
+	basque = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = NAV
+		dynasty_names = {
+			"de Navarra" "de Beaumont" "de Lerín" "de Monteagudo" Escors 
+			# CKII
+			"de Haro"
+		}
+		male_names = {
+			Enrique Carlos Francisco Juan Luis Gastón Pedro Buenaventura Francisco Godofredo Jaime Lanzarote 
+			Martín Sancho García Felipe Teobaldo Alfonso Agustín Alejandro Álvaro Andrés Antonio Bernardo César 
+			Cristóbal Diego Esteban Fernando Gaspar José Melchor Nicolás Simón Leonel
+			Alfontso Alphonse Alvar Oliver Antso Sancho Aznar Aznar Belasko Vasco Bermudo Vermudo 
+			Bernard Diego Diaco Donato Donatus Egidio Egidius Eneko Inigo Erramun Raymond Fernando 
+			Fortun Galindo Galindo Gartzia Garcia Gilen William Gontzal Gonzalo Herramel Joanes John 
+			Lope Lupo Luis Louis Manrike Amalric Martín Martin Munio Munio Nuño Nuno Obeko Obeko Ordoño 
+			Ordono Pelaio Pelagius Piarres Peter Ramiro Ramiro Rodrigo Roderick Vela Vela Ximeno Simon 
+			Zentulo Centule Ladron Ferdinand Bernart
+		}
+		female_names = {
+			Juana Catalina Leonor Blanca
+			Aines Agnes Aldontza Aldonza Andregoto Antsa Sancha Belaskita Berengaria Berengaria Blanka 
+			Blanche Elbira Elvira Eliza Emili Emily Estefania Stephania Joana Joan Konstantzia Constance 
+			Maior Mayor Maria Maria Mentzia Mencia Munia Munia Nuña Oneka Oneka Oria Plazentzia 
+			Teresa Teresa Toda Toda Urraka Urraca Ximena Ximena Plaisance
+		}
 	}
 }
 

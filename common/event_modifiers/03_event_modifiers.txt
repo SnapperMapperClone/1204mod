@@ -13,3 +13,32 @@ greeks_under_francocracy = {
 latins_control_constantinople = {
 	land_morale = -0.2
 }
+
+roman_settlers_1 = {
+	local_unrest = 1
+}
+
+roman_settlers_2 = {
+	local_unrest = -1
+}
+
+latin_settlers_1 = {
+	local_unrest = -1
+}
+
+latin_settlers_2 = {
+	local_unrest = -2
+}
+
+turkish_settlers_1 = {
+	local_unrest = 1
+}
+
+turkish_settlers_2 = {
+	local_unrest = -2
+}
+
+fall_of_rum = {
+	prestige = 1
+	global_missionary_strength = 0.015
+}

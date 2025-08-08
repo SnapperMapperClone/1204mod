@@ -1,0 +1,13 @@
+﻿l_english:
+ cyrenaica_latin_title:0 "Settle Latins in Cyrenaica"
+ cyrenaica_latin_desc:0 "Cyrenaica was once a rich Greek and then Roman province. Now that it's under our control, we can bring back its greatness. Some of our latin mercenaries show interest in the area, so we can use that to control it better"
+ march_of_mauretania_title:0 "Establish the march of Mauritania"
+ march_of_mauretania_desc:0 "With our recent conquests in Africa, we have taken parts of the ancient roman province of Mauritania. While it's not going to be easy for us to control the area directly, our latin merecenaries are willing to control the area for us, with some addeed autonomy. It would be wise to grant them that control"
+ march_of_numidia_title:0 "Establish the march of Numidia"
+ march_of_numidia_desc:0 "With our recent conquests in Africa, we have taken parts of the ancient roman province of Numidia. While it's not going to be easy for us to control the area directly, our latin merecenaries are willing to control the area for us, with some added autonomy. It would be wise to grant them that control"
+ march_of_carthage_title:0 "Establish the march of Carthage"
+ march_of_carthage_desc:0 "With our recent conquests in Africa, we have taken parts of the area around Carthage and Libya. While it's not going to be easy for us to control the area directly, our latin merecenaries are willing to control the area for us, with some added autonomy. It would be wise to grant them that control"
+
+ african_latin.1.t:0 "African Latin in $PROVINCENAME$"
+ african_latin.1.d:0 "A localised variant of latin has become the common language in $PROVINCENAME$. This will increase our control in the area"
+ african_latin.1.a:0 "Excellent"
