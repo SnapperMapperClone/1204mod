@@ -1,7 +1,7 @@
 #340 - Constantine
 owner = MOR
 controller = MOR
-culture = berber
+culture = algerian
 religion = sunni
 capital = "Annaba"
 trade_goods = naval_supplies
