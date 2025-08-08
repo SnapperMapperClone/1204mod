@@ -1,5 +1,13 @@
 Castilla
 
+graphical_culture = westerngfx
+
+historical_council = harsh
+
+color = { 193  171  8 }
+
+revolutionary_colors = { 5  8  5 }
+
 monarch_names = {
 	"Gartsia #0" = 10
 	"Sancho #2" = 20
@@ -25,12 +33,13 @@ monarch_names = {
 	"Carlos #0" = 0
 	"Miguel #0" = 0
 	"Diego #0" = 0
-	"Jimeno #0" = 0
+	"Ximeno #0" = 0
+	"Fadrique #0" = 0
 
 
 	
 	"Blanca #0" = -1
-	"Jimena #0" = -1
+	"Ximena #0" = -1
 	"Aldonza #0" = -1
 	"Sancia #0" = -1
 	"Teresa #0" = -1
@@ -46,8 +55,14 @@ monarch_names = {
 }
 
 leader_names = {
-	Gartsia Sancho Alffonso Vermundo Ffernando Enrique Ordonno Ramiro Fruela Bernaldo Pedro Pelayo Juan Fernaan Paulo Matheo
-	Andrees Lope Gomez Vela Antsur Carlos Miguel Diego Jimeno
+	Martinez "de Lara" Diaz "de Haro" "de Velasco" "de Ayala" "de Manrique" Morato "de Sandoval" Enriquez
+	"de Toledo" Pedrez "de Borgonna" "de Avellaneda" "del Zunniga" Alonso "de Guzman" "de Guardiola" Fánnez
+	"de Carrioon" "de Vivar" Velasco Ansurez "de Castilla" "de Atoja" "de Aguirre" "de Cisneros" "de Villena"
+	"de Balboa" "de Nebrixa" "de Ojeda" "de Rojas" "de la Vega" "de Giroon" Fonseca Mudarra "de Marciena"
+	"de Menezes" Ximenez "de Rada" "de Buendía" "de Arxona" "de Alba" "de Villena" "de Molina" "de Plasencia"
+	"de Medinacelli" "de Medina Sidonia" "de Cifuentes" "de los Molares" "de Urenna" "de Burgos" Fadrique
+	"de Castilla" "del Águila" "de Clavixo" "de Inestrosa" "de Ponce de León" Texeda Manuel "de la Cerda"
+	Dávila Guzman "de Cardona" Atrosillo "de Texeda"
 	
 }
 

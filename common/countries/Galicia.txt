@@ -1,4 +1,10 @@
-Galiza
+#Country Name: Galiza
+
+graphical_culture = westerngfx
+
+color = { 240  167  130 }
+
+revolutionary_colors = { 0 14 0 }
 
 monarch_names = {
 	"Garsea #2" = 30
@@ -78,11 +84,23 @@ monarch_names = {
 }
 
 leader_names = {
-	Garsea Vermudo Ordonno Afonso Froila Ramiro Fernando Sancio Paio Galez Lançarote 
-	Andree Alvaro Pero Rui Aleixo Alvaro Anjo Bento Bernaldo Brais Carlos Cristovo 
-	Domingos Estevo Filipo Fernaam Frederico Gonçalvo Guilherme Gumersindo Henrique 
-	Hermenegildo Higinio Hugo Iacobe Ioham Leandro Lupo Lopo Miguel Nuno Paulo Pedro 
-	Roi Rui Tomee Vitor Ignacio
+	"de Maia" Pereira "de Sousa" Meneses "de Bragança" Coutinho "de Lima" Teive Peres
+	"de Andeyro" "de Cela" "de Castro" "de Andrade" "de Lemos" "de Figueiroa" Vimaraes
+	"de Ulhoa" "de Deza" Esquío "de Osorio" "de Novoa" Churrichao Colombo Portocarreiro Noronha
+	"de Soutomaior" "de Moscoso" "de Araujo" "de Lima" Fonseca Coutinho Penela
+	Ruis Eanes "de Meira" "Pardo de Cela" Louçao "da Ponte" Correia "de Cerveira" Freitas
+	"de Lobeira" "Castro de Lemos" "de Trava" Menor "de Probem" Sampaio "da Costa" "de Ataiide"
+	"de Saavedra" "de Soutelo" "da Ponte" "de Altamira" Baltar Azambuja Lopes "de Mascarenhas"
+	Aalvares "de Sonnar" "Nuñez de Balboa" "de Abella" Nunes Osorio "de Sequeira"
+	Pimentel Bolanhos Galhinato "de Castro e Osorio" Portocarreyro Pacheco "do Pombal"
+	"de Aldao" "Charinho-Maldonado" "de Monterrei" "de Borgonha" "de Melo" Magalhaes Veloso
+	"de Troncoso" Charinho Lançós Parada "de Lira" "de Távora" Marinho "de Prego" Gres "de Gres"
+	Valadares "de Saraça" "da Cunha" Vasconcelos "de Silva" "de Almeida" "d'Albuquerque" "de Baióm"
+	"d'Almada" "d'Azevedo" Resende "d'Abreu" Brites "de Brito" Moniz "de Moura" "de Cerveira" Cabral
+	"da Silveira" "de Ribeiro" "de Gois" "de Falcóm" Costa Sampaio Sequeuira Tavares "de Boim" "do Lago"
+	"de Mascarenhas" Pedrouzo "d'Aguiar" PAcheco "de Faria" "de Serpa" Barreto Nogueira Coelho Pintos
+	"de Queirós" "de Gama" Fogaça Barbudo "de Barbosa" Jácome Peixoto Barroso Pessanha Pinheiro "de Unha"
+	Morais Moreira Figueirido Correia Lobia Azeredo Bulhóm Lançoes "de Meigía" "Telles-Meneses"
 }
 
 ship_names = {
