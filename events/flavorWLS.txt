@@ -1,0 +1,95 @@
+namespace = flavor_gwy
+
+#Joan of Wales
+country_event = {
+	id = flavor_gwy.1
+	title = flavor_gwy.1.t
+	desc = flavor_gwy.1.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	major = no
+  
+	trigger = {
+		OR = { 
+			tag = GWY
+			tag = WLS
+			}
+		is_year = 1204
+		government = monarchy
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+  	option = {
+		name = "flavor_gwy.1.a"
+		if = {
+			potential = { ruler = "Llywelyn fawr" }
+			NOT = { has_consort = yes }
+			define_consort = {
+				name = "Joan"
+				country_of_origin = ENG
+				culture = french
+				age = 17
+				relgion = catholic
+				female = yes
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+			create_marriage = ENG
+			add_prestige = 20
+		}
+		else = {
+			add_prestige = 20
+			add_stability = 2
+		}
+	}
+
+	option = {
+		name = "flavor_gwy.1.b"
+		add_prestige = 10
+		add_stability = 1
+		add_legitimacy = 20
+	}
+}
+
+#Prydain or Britannia
+country_event = {
+	id = prydain_or_britannia
+	title = prydain_or_britannia.t
+	desc = prydain_or_britannia.d
+	picture = 
+
+	fire_only_once = yes
+	major = no
+
+	trigger = { mission_completed = wls_reclaim_pengwern }
+
+	option = { 
+		name = "prydain_or_britannia.a"
+		239 = { change_culture = welsh }
+		240 = { change_culture = welsh }
+		4372 = { change_culture = welsh }
+		244 = { change_culture = briton }
+		246 = { change_culture = briton }
+		247 = { change_culture = briton }
+		4375 = { change_culture = briton }
+		245 = { change_culture = briton }
+		4785 = { change_culture = briton }
+	}
+
+	option = {
+		name = "prydain_or_britannia.b"
+		241 = { change_culture = cambrian }
+		242 = { change_culture = cambrian }
+		4366 = { change_culture = cambrian }
+		4369 = { change_culture = cambrian }
+		239 = { change_culture = anglo-roman }
+		240 = { change_culture = anglo-roman }
+		4372 = { change_culture = anglo-roman }
+		WLS = { change_primary_culture = cambrian }
+	}
+}
