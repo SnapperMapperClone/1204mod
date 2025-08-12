@@ -11,7 +11,7 @@ welsh_reconquista = {
   	}
   	has_country_shield = yes
   	
-	unite_wales = {
+	wls_unite_wales = {
     	icon = mission_unite_home_region
     	position = 1
     	required_missions = { }
@@ -38,10 +38,10 @@ welsh_reconquista = {
     	}
   	}
 
-	reclaim_pengwern = {
+	wls_reclaim_pengwern = {
 		icon = mission_monarch_in_throne_room
 		position = 2
-		required_missions = {unite_wales}
+		required_missions = { wls_unite_wales }
 		province_to_highlight = {
 			OR = {
 				province_id = 239
@@ -63,4 +63,5 @@ welsh_reconquista = {
 }
 
 	
+
 
