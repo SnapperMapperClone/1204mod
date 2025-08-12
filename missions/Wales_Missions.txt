@@ -1,0 +1,39 @@
+welsh_reconquista = {
+  slot = 1
+  generic = no
+  ai = yes
+  potential = {
+    OR = {
+      tag = GWY
+      tag = DEU
+      tag = PWS
+    }
+  }
+  has_country_shield = yes
+  unite_wales = {
+    icon = unite_home_region
+    position = 1
+    required_missions = { }
+    province_to_highlight = {
+      OR = {
+        province_id = 4369
+				province_id = 4366
+				province_id = 242
+				province_id = 241
+      }
+      NOT = { owned_by = ROOT }
+    }
+    trigger = {
+      owns = 4369
+			owns = 4366
+			owns = 242
+			owns = 241
+    }
+    effect = {
+    prestige = 25
+    add_permanent_claim = 239
+    add_permanent_claim = 240
+    add_permanent_claim = 4372
+    }
+  }
+}
