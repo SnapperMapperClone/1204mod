@@ -87,9 +87,9 @@ country_event = {
 		242 = { change_culture = cambrian }
 		4366 = { change_culture = cambrian }
 		4369 = { change_culture = cambrian }
-		239 = { change_culture = anglo-roman }
-		240 = { change_culture = anglo-roman }
-		4372 = { change_culture = anglo-roman }
+		239 = { change_culture = anglian }
+		240 = { change_culture = anglian }
+		4372 = { change_culture = anglian }
 		WLS = { change_primary_culture = cambrian }
 	}
 }
