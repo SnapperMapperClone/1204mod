@@ -7,6 +7,7 @@ welsh_reconquista = {
       		tag = GWY
       		tag = DEU
       		tag = PWS
+			tag = WLS
     	}
   	}
   	has_country_shield = yes
@@ -16,7 +17,7 @@ welsh_reconquista = {
     	position = 1
     	required_missions = { }
     	province_to_highlight = {
-      		OR = {
+      		AND = {
         		province_id = 4369
 				province_id = 4366
 				province_id = 242
@@ -72,7 +73,7 @@ welsh_reconquista = {
 	wls_secure_dumnonia = {
 		icon = mission_landsknecht_soldier
 		position = 3
-		required_mission = { wls_reclaim_pengwern }
+		required_missions = { wls_reclaim_pengwern }
 		province_to_highlight = {
 			OR = {	
 				province_id = 233
@@ -115,6 +116,7 @@ welsh_reconquista = {
 }
 
 	
+
 
 
 
