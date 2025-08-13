@@ -48,3 +48,9 @@ georgios_gemistos_plethon = {
 	idea_cost = -0.15
 	development_cost = -0.2
 }
+
+wls_march_of_glory = {
+	core_creation = -0.2
+	stability_cost_modifier = -0.1
+	movement_speed = 0.10
+}
