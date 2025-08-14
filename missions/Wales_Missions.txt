@@ -16,8 +16,8 @@ welsh_reconquista = {
     	icon = mission_unite_home_region
     	position = 1
     	required_missions = { }
-    	province_to_highlight = {
-      		AND = {
+    	provinces_to_highlight = {
+      		OR = {
         		province_id = 4369
 				province_id = 4366
 				province_id = 242
@@ -26,10 +26,10 @@ welsh_reconquista = {
       		NOT = { owned_by = ROOT }
     	}
     	trigger = {
-      		owns = 4369
-			owns = 4366
-			owns = 242
-			owns = 241
+      		owns_or_non_sovereign_subject_of  = 4369
+			owns_or_non_sovereign_subject_of  = 4366
+			owns_or_non_sovereign_subject_of  = 242
+			owns_or_non_sovereign_subject_of  = 241
     	}
     	effect = {
     		prestige = 25
@@ -43,7 +43,7 @@ welsh_reconquista = {
 		icon = mission_monarch_in_throne_room
 		position = 2
 		required_missions = { wls_unite_wales }
-		province_to_highlight = {
+		provinces_to_highlight = {
 			OR = {
 				province_id = 239
 				province_id = 240
@@ -52,9 +52,9 @@ welsh_reconquista = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			owns = 239
-			owns = 240
-			owns = 4372
+			owns_or_non_sovereign_subject_of  = 239
+			owns_or_non_sovereign_subject_of  = 240
+			owns_or_non_sovereign_subject_of  = 4372
 		}
 		effect = {
 			prestige = 10
@@ -74,7 +74,7 @@ welsh_reconquista = {
 		icon = mission_landsknecht_soldier
 		position = 3
 		required_missions = { wls_reclaim_pengwern }
-		province_to_highlight = {
+		provinces_to_highlight = {
 			OR = {	
 				province_id = 233
 				province_id = 234
@@ -85,11 +85,11 @@ welsh_reconquista = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			owns = 234
-			owns = 233
-			owns = 4373
-			owns = 4130
-			owns = 4374
+			owns_or_non_sovereign_subject_of  = 234
+			owns_or_non_sovereign_subject_of  = 233
+			owns_or_non_sovereign_subject_of  = 4373
+			owns_or_non_sovereign_subject_of  = 4130
+			owns_or_non_sovereign_subject_of  = 4374
 		}
 		effect = {
 			add_country_modifier = {
@@ -116,6 +116,7 @@ welsh_reconquista = {
 }
 
 	
+
 
 
 
