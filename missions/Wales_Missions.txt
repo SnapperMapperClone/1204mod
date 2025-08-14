@@ -32,7 +32,7 @@ welsh_reconquista = {
 			owns_or_non_sovereign_subject_of  = 241
     	}
     	effect = {
-    		prestige = 25
+    		add_prestige = 25
     		add_permanent_claim = 239
     		add_permanent_claim = 240
     		add_permanent_claim = 4372
@@ -57,7 +57,7 @@ welsh_reconquista = {
 			owns_or_non_sovereign_subject_of  = 4372
 		}
 		effect = {
-			prestige = 10
+			add_prestige = 10
 			add_permanent_claim = 233
     		add_permanent_claim = 234
     		add_permanent_claim = 4130
@@ -156,6 +156,7 @@ celtic_union = {
 	}
 }
 	
+
 
 
 
