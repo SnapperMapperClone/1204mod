@@ -107,7 +107,7 @@ country_event = {
     option = {
         name = "coucou nathan c'est papa"
         add_historical_friend = SCO
-        prestige = 20
+        add_prestige = 20
         set_country_flag = befriending_the_scots
     }
 
