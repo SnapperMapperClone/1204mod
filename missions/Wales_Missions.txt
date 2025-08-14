@@ -149,13 +149,14 @@ celtic_union = {
 			owns_or_non_sovereign_subject_of  = 4375
 		}
 		effect = {
-			country_event = { id = wls_hadrian's_wall }
+			country_event = { id = wls_hadrian_wall }
 			add_mil_power = 100
 			add_dip_power = 100
 		}
 	}
 }
 	
+
 
 
 
