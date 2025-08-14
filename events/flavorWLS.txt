@@ -96,26 +96,25 @@ country_event = {
 }
 
 country_event = {
-	id = wls_hadrian's_wall
-	title = wls_hadrian's_wall.t
-	desc = wls_hadrian's_wall.d
-	picture = SCOTTISH_MERCENARIES_eventPicture
-	is_trigger_only = yes
-	fire_only_once = yes
-	major = no
-	trigger = { mission_completed = wls_northumbrian_campaign }
+    id = wls_hadrian_wall
+    title = wls_hadrian_wall.t
+    desc = wls_hadrian_wall.d
+    picture = SCOTTISH_MERCENARIES_eventPicture
+    is_triggered_only = yes
+    fire_only_once = yes
+    major = no
 
-	option = {
-		name = "coucou nathan c'est papa"
-		add_historical_friend = SCO
-		prestige = 20
-		set_country_flag = befriending_the_scots
-	}
+    option = {
+        name = "coucou nathan c'est papa"
+        add_historical_friend = SCO
+        prestige = 20
+        set_country_flag = befriending_the_scots
+    }
 
-	option = {
-		name = "huit mort six blesse"
-		add_historical_rival = SCO
-		set_country_flag = hating_the_scots
-	}
+    option = {
+        name = "huit mort six blesse"
+        add_historical_rival = SCO
+        set_country_flag = hating_the_scots
+    }
 }
 	
