@@ -115,7 +115,48 @@ welsh_reconquista = {
 	}
 }
 
+celtic_union = {
+	slot = 2
+	generic = no
+	ai = yes 
+	potential = {
+    		OR = {
+      			tag = GWY
+      			tag = DEU
+      			tag = PWS
+			tag = WLS
+    		}
+  	}
+  	has_country_shield = yes
+
+	wls_northumbrian_campaign = {
+		icon = mission_build_up_to_force_limit
+		slot = 3
+		required_missions = { wls_reclaim_pengwern }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 244
+  				province_id = 246
+  				province_id = 247
+  				province_id = 4375
+			}
+			NOT = { owned_by = ROOT }
+  		}
+		trigger = { 
+			owns_or_non_sovereign_subject_of  = 244
+			owns_or_non_sovereign_subject_of  = 246
+			owns_or_non_sovereign_subject_of  = 247
+			owns_or_non_sovereign_subject_of  = 4375
+		}
+		effect = {
+			country_event = { id = wls_hadrian's_wall }
+			add_mil_power = 100
+			add_dip_power = 100
+		}
+	}
+}
 	
+
 
 
 
