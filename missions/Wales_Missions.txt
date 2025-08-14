@@ -131,7 +131,7 @@ celtic_union = {
 
 	wls_northumbrian_campaign = {
 		icon = mission_build_up_to_force_limit
-		slot = 3
+		position = 3
 		required_missions = { wls_reclaim_pengwern }
 		provinces_to_highlight = {
 			OR = {
@@ -156,6 +156,7 @@ celtic_union = {
 	}
 }
 	
+
 
 
 
