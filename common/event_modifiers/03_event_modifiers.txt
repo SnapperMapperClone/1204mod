@@ -54,3 +54,9 @@ wls_march_of_glory = {
 	stability_cost_modifier = -0.1
 	movement_speed = 0.10
 }
+
+eng_force_into_a_conflict = {
+	land_morale = -0.1
+	recover_army_morale_speed = -0.10
+	reinforce_speed = -0.10	
+}
