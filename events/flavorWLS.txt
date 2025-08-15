@@ -96,9 +96,9 @@ country_event = {
 }
 
 country_event = {
-    id = wls_hadrian_wall.1
-    title = wls_hadrian_wall.1.t
-    desc = wls_hadrian_wall.1.d
+    id = hadrian_wall.1
+    title = hadrian_wall.1.t
+    desc = hadrian_wall.1.d
     picture = SCOTTISH_MERCENARIES_eventPicture
     is_triggered_only = yes
     fire_only_once = yes
