@@ -58,9 +58,9 @@ country_event = {
 
 #Prydain or Britannia
 country_event = {
-	id = prydain_or_britannia
-	title = prydain_or_britannia.t
-	desc = prydain_or_britannia.d
+	id = prydain_or_britannia.1
+	title = prydain_or_britannia.1.t
+	desc = prydain_or_britannia.1.d
 	picture = BIG_BOOK_eventPicture
 	is_triggered_only = yes
 	
@@ -70,7 +70,7 @@ country_event = {
 	trigger = { }
 	
 	option = { 
-		name = "prydain_or_britannia.a"
+		name = "prydain_or_britannia.1.a"
 		239 = { change_culture = welsh }
 		240 = { change_culture = welsh }
 		4372 = { change_culture = welsh }
@@ -83,7 +83,7 @@ country_event = {
 	}
 
 	option = {
-		name = "prydain_or_britannia.b"
+		name = "prydain_or_britannia.1.b"
 		241 = { change_culture = cambrian }
 		242 = { change_culture = cambrian }
 		4366 = { change_culture = cambrian }
