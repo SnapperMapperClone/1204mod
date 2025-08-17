@@ -1,14 +1,14 @@
 country_event = {
-	id = the_welsh_united.1
-	title = the_welsh_united.1.t
-	desc = the_welsh_united.1.d
+	id = eng_flavor.1
+	title = eng_flavor.1.t
+	desc = eng_flavor.1.d
 	picture = BATLLE_eventPicture
 	is_triggered_only = yes
 	fire_only_once = yes
 	major = no
 
 	option = {
-		name = the_welsh_united.1.a
+		name = eng_flavor.1.a
 		declare_war_with_cb = {
 			who = WLS
 			casus_belli = subjugation
@@ -22,7 +22,7 @@ country_event = {
 	}
 
 	option = {
-		name = the_welsh_united.1.a
+		name = eng_flavor.1.b
 		239 = { 
 			add_core = LGR 
 			change_culture = briton 
