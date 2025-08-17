@@ -2,9 +2,9 @@ namespace = flavor_gwy
 
 #Joan of Wales
 country_event = {
-	id = flavor_gwy.1
-	title = flavor_gwy.1.t
-	desc = flavor_gwy.1.d
+	id = flavor_wls.1
+	title = flavor_wls.1.t
+	desc = flavor_wls.1.d
 	picture = DIPLOMACY_eventPicture
 
 	fire_only_once = yes
@@ -24,7 +24,7 @@ country_event = {
 	}
 
   	option = {
-		name = "flavor_gwy.1.a"
+		name = "flavor_wls.1.a"
 		if = {
 			potential = { ruler = "Llywelyn fawr" }
 			NOT = { has_consort = yes }
@@ -49,7 +49,7 @@ country_event = {
 	}
 
 	option = {
-		name = "flavor_gwy.1.b"
+		name = "flavor_wls.1.b"
 		add_prestige = 10
 		add_stability = 1
 		add_legitimacy = 20
@@ -58,9 +58,9 @@ country_event = {
 
 #Prydain or Britannia
 country_event = {
-	id = prydain_or_britannia.1
-	title = prydain_or_britannia.1.t
-	desc = prydain_or_britannia.1.d
+	id = flavor_wls.2
+	title = flavor_wls.2.t
+	desc = flavor_wls.2.t
 	picture = BIG_BOOK_eventPicture
 	is_triggered_only = yes
 	
@@ -70,7 +70,7 @@ country_event = {
 
 	
 	option = { 
-		name = "prydain_or_britannia.1.a"
+		name = "flavor_wls.2.a"
 		239 = { change_culture = welsh }
 		240 = { change_culture = welsh }
 		4372 = { change_culture = welsh }
@@ -83,7 +83,7 @@ country_event = {
 	}
 
 	option = {
-		name = "prydain_or_britannia.1.b"
+		name = "flavor_wls.2.b"
 		241 = { change_culture = cambrian }
 		242 = { change_culture = cambrian }
 		4366 = { change_culture = cambrian }
@@ -96,86 +96,26 @@ country_event = {
 }
 
 country_event = {
-    id = hadrian_wall.1
-    title = hadrian_wall.1.t
-    desc = hadrian_wall.1.d
+    id = flavor_wls.3
+    title = flavor_wls.3.t
+    desc = flavor_wls.3.d
     picture = SCOTTISH_MERCENARIES_eventPicture
     is_triggered_only = yes
     fire_only_once = yes
     major = no
 
     option = {
-        name = "hadrian_wall.1.a"
+        name = "flavor_wls.3.a"
         add_historical_friend = SCO
         add_prestige = 20
         set_country_flag = befriending_the_scots
     }
 
     option = {
-        name = "hadrian_wall.1.b"
+        name = "flavor_wls.3.b"
         add_historical_rival = SCO
         set_country_flag = hating_the_scots
     }
 }
 
-country_event = {
-	id = the_welsh_united.1
-	title = the_welsh_united.1.t
-	desc = the_welsh_united.1.d
-	picture = BATLLE_eventPicture
-	is_triggered_only = yes
-	fire_only_once = yes
-	major = no
-
-	option = {
-		name = the_welsh_united.1.a
-		declare_war_with_cb = {
-			who = WLS
-			casus_belli = subjugation
-		}
-		add_country_modifier = {
-			name = forced_into_a_conflict
-			duration = 3650
-		}
-		add_legitimacy = 10
-		add_prestige = 10
-	}
-
-	option = {
-		name = the_welsh_united.1.a
-		239 = { 
-			add_core = LGR 
-			change_culture = briton 
-			add_unrest = 10 }
-		240 = { 
-			add_core = LGR 
-			change_culture = briton 
-			add_unrest = 10 }
-		4372 = { 
-			add_core = LGR 
-			change_culture = briton 
-			add_unrest = 10 }
-		234 = { 
-			add_core = LGR 
-			change_culture = briton 
-			add_unrest = 10 }
-		4130 = { 
-			add_core = LGR 
-			change_culture = briton 
-			add_unrest = 10 }
-		4373 = { 
-			add_core = LGR
-			change_culture = cornish 
-			add_unrest = 10 }
-		4374 = { 
-			add_core = LGR 
-			change_culture = briton 
-			add_unrest = 10 }
-		233 = { 
-			add_core = LGR 
-			change_culture = cornish 
-			add_unrest = 10 }
-		add_stability = -1
-	}
-}
-		
+	
