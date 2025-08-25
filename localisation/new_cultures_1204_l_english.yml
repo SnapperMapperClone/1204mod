@@ -45,7 +45,12 @@
  syro_roman:0 "Syro-Roman"
  mesopotamian_roman:0 "Assyro-Roman"
  arabo_roman:0 "Arabo-Roman"
- non_imperial_roma:0 "Non-Imperial Roman"
+ caucaso_roman:0 "Caucaso-Roman"
+ perso_roman:0 "Perso-Roman"
+ scytho_roman:0 "Scytho-Roman"
+ indo_roman:0 "Indo-Roman"
+ skanzo_roman:0 "Skanzo-Roman"
+ non_imperial_roman:0 "Non-Imperial Roman"
 
  basque_group:0 "Basque"
  aquitainian:0 "Aquitainian"
