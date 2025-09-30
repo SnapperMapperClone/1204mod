@@ -51,7 +51,7 @@ province_event = {
 		else_if = {
 			limit = {
 				OR = {
-					area = catlonia_area
+					area = catalonia_area
 					area = valencia_area
 					area = baleares_area
 				}

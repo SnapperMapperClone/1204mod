@@ -1,0 +1,330 @@
+crusaders_wars_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { primary_culture = outremer }
+	has_country_shield = yes
+
+	KOJ_jerusalem = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { KOJ_force_limit }
+		provinces_to_highlight = {
+			area = palestine_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			palestine_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			country_event = { id = flavor_crusaders.1 }
+			give_claims = { area = trans_jordan_area }
+			give_claims = { area = tabuk_area }
+		}
+	}
+}
+
+crusader_wars_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { primary_culture = outremer }
+	has_country_shield = yes
+
+	KOJ_force_limit = {
+		icon = the_latin_empire
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { }
+		trigger = { army_size_percentage = 1.0 }
+		effect = {
+			give_claims = { area = palestine_area }
+			give_claims = { area = syria_area }
+			give_claims = { area = aleppo_area }
+		}
+	}
+
+	KOJ_edessa = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { KOJ_syrian_coast }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2308
+				province_id = 4298
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			OR = {
+				owns = 2308
+				any_subject_country = { owns = 2308 }
+			}
+			OR = {
+				owns = 4298
+				any_subject_country = { owns = 4298 }
+			}
+		}
+		effect = {
+			country_event = { id = flavor_crusaders.4 }
+			give_claims = { area = erzurum_area }
+			give_claims = { area = dulkadir_area }
+			give_claims = { area = north_kurdistan_area }
+		}
+	}
+	
+	KOJ_western_armenia = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { KOJ_edessa KOJ_inner_syria }
+		provinces_to_highlight = {
+			OR = {
+				area = erzurum_area
+				area = dulkadir_area
+				area = north_kurdistan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			erzurum_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			dulkadir_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			north_kurdistan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = rum_area }
+			give_claims = { area = kastamonu_area }
+		}
+	}
+
+	KOJ_pontic_coast = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { KOJ_western_armenia KOJ_inner_anatolia }
+		provinces_to_highlight = {
+			area = kastamonu_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			kastamonu_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = hudavendigar_area }
+			give_claims = { area = aydin_area }
+			give_claims = { area = crimea_area }
+		}
+	}
+}
+
+crusader_wars_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { primary_culture = outremer }
+	has_country_shield = yes
+
+	KOJ_syrian_coast = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { KOJ_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2313
+				province_id = 378
+				province_id = 1855
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			OR = {
+				owns = 2313
+				any_subject_country = { owns = 2313 }
+			}
+			OR = {
+				owns = 378
+				any_subject_country = { owns = 378 }
+			}
+			OR = {
+				owns = 1855
+				any_subject_country = { owns = 1855 }
+			}
+		}
+		effect = {
+			give_claims = { area = syrian_desert_area }
+			give_claims = { area = cukurova_area }
+			add_permanent_claim = 2308
+		}
+	}
+
+	KOJ_inner_syria = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { KOJ_syrian_coast }
+		provinces_to_highlight = {
+			OR = {
+				area = syria_area
+				area = aleppo_area
+				area = syrian_desert_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			syria_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			aleppo_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			syrian_desert_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = al_jazira_area }
+			give_claims = { area = shahrizor_area }
+		}
+	}
+}
+
+crusader_wars_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { primary_culture = outremer }
+	has_country_shield = yes
+
+	KOJ_cilicia = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { KOJ_syrian_coast }
+		provinces_to_highlight = {
+			area = cukurova_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			cukurova_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = rum_area }
+			give_claims = { area = karaman_area }
+			give_claims = { area = germiyan_area }
+			give_claims = { area = ankara_area }
+		}
+	}
+
+	KOJ_inner_anatolia = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { KOJ_cilicia }
+		provinces_to_highlight = {
+			OR = {
+				area = rum_area
+				area = karaman_area
+				area = ankara_area
+				area = germiyan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = rum_area
+					area = karaman_area
+					area = ankara_area
+					area = germiyan_area
+				}
+				value = 15
+			}
+		}
+		effect = {
+			give_claims = { area = aydin_area }
+			give_claims = { area = hudavendigar_area }
+		}
+	}
+	
+	KOJ_asia_minor = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { KOJ_inner_anatolia }
+		provinces_to_highlight = {
+			OR = {
+				area = aydin_area
+				area = hudavendigar_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			aydin_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			hudavendigar_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = thrace_area }
+			give_claims = { area = aegean_archipelago_area }
+		}
+	}
+
+	KOJ_constantinople = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { KOJ_asia_minor }
+		provinces_to_highlight = {
+			area = thrace_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			thrace_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			151 = { owned_by = ROOT }
+		}
+		effect = {
+			give_claims = { region = balkan_region }
+		}
+	}
+
+	KOJ_rumelia = {
+		icon = the_latin_empire
+		position = 7
+		required_missions = { KOJ_constantinople }
+		provinces_to_highlight = {
+			region = balkan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			balkan_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 25
+		}
+	}
+}

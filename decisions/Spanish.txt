@@ -1,0 +1,106 @@
+country_decisions = {
+	assimilate_the_catalans = {
+		major = yes
+		potential = {
+			culture_group = iberian
+			any_owned_province = {
+				OR = {
+					area = catalonia_area
+					area = valencia_area
+					area = baleares_area
+					area = aragon_area
+				}
+			}
+			NOT = {
+				AND = {
+					333 = { culture = catalan }
+					4559 = { culture = catalan }
+					4560 = { culture = catalan }
+					197 = { culture = catalan }
+ 					212 = { culture = catalan } 
+					213 = { culture = catalan }
+ 					2987 = { culture = catalan }
+ 					2988 = { culture = catalan }
+ 					220 = { culture = catalan }
+ 					1750 = { culture = catalan }
+ 					4549 = { culture = catalan }
+ 					4560 = { culture = catalan }
+ 					211 = { culture = aragonese }
+ 					214 = { culture = aragonese }
+ 					2990 = { culture = aragonese }
+ 					4557 = { culture = aragonese }
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 333
+ 				province_id = 4559
+ 				province_id = 4560
+ 				province_id = 197
+ 				province_id = 212
+ 				province_id = 213
+ 				province_id = 2987
+ 				province_id = 2988
+ 				province_id = 220
+ 				province_id = 1750
+ 				province_id = 4549
+ 				province_id = 4550
+ 				province_id = 211
+				province_id = 214
+				province_id = 2990
+				province_id = 4557
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		allow = {
+			dip_power = 500
+			baleares_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				culture = catalan_sep
+				type = all
+			}
+			catalonia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				culture = catalan_sep
+				type = all
+			}
+			valencia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				culture = catalan_sep
+				type = all
+			}
+			aragon_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				culture = aragonese_sep
+				type = all
+			}
+			is_at_war = no
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+		}
+		effect = {
+			add_dip_power = -500
+			every_province = {
+				limit = {
+					OR = {
+						area = baleares_area
+						area = catalonia_area
+						area = valencia_area
+					}
+				}
+				change_culture = catalan
+			}
+			every_province = {
+				limit = {
+					area = aragon_area
+				}
+				change_culture = aragonese
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}
