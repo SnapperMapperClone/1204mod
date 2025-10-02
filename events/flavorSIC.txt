@@ -18,6 +18,7 @@ province_event = {
 				culture_group = septimanian
 				culture_group = african_latin
 				culture_group = germanic
+				culture_group = byzantine
 			}
 		}
 	}
@@ -33,6 +34,12 @@ province_event = {
 	option = {
 		name = flavor_sic.1.a
 		if = {
+			limit = {
+				owner = { culture_group = byzantine }
+			}
+			change_culture = griko
+		}
+		else_if = {
 			limit = {
 				province_id = 126
 			}
