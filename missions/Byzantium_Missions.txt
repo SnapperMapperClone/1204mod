@@ -1,0 +1,467 @@
+new_byzantium_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { tag = BYZ }
+	has_country_shield = yes
+
+	BYZ_magna_graecia_new = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { BYZ_recover_borders }
+		provinces_to_highlight = {
+			OR = {
+				area = apulia_area
+				area = calabria_area
+				area = naples_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			apulia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			calabria_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			naples_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+
+		}
+		effect = {
+			add_prestige = 15
+			give_claims = { area = sicily_area }
+			give_claims = { area = western_sicily_area }
+			give_claims = { area = corsica_sardinia_area }
+			give_claims = { area = lazio_area }
+			give_claims = { area = central_italy_area }
+		}
+	}
+
+	BYZ_trinacria = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { BYZ_magna_graecia_new }
+		provinces_to_highlight = {
+			OR = {
+				area = sicily_area
+				area = western_sicily_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			sicily_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			western_sicily_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { area = djerba_area }
+			give_claims = { area = kabylia_area }
+			give_claims = { area = tripolitania_area }
+			give_claims = { area = tunisia_area }
+			give_claims = { area = baleares_area }
+		}
+	}
+	BYZ_libya_and_carthage = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { BYZ_trinacria BYZ_aegyptus }
+		provinces_to_highlight = {
+			OR = {
+				area = tunisia_area
+				area = fezzan_area
+				area = tripolitania_area
+				area = djerba_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = tunisia_area
+					area = fezzan_area
+					area = tripolitania_area
+					area = djerba_area
+				}
+				value = 18
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = maghreb_region }
+		}
+	}
+	BYZ_north_africa_new = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { BYZ_libya_and_carthage }
+		provinces_to_highlight = {
+			region = maghreb_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = maghreb_region
+				value = 35
+			}
+		}
+		effect = {
+			add_prestige = 15
+			give_claims = { region = iberia_region }
+		}
+	}
+}
+
+new_byzantium_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { tag = BYZ }
+	has_country_shield = yes
+
+	BYZ_recover_borders = {
+		icon = the_latin_empire
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				region = balkan_region
+				region = anatolia_region
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = anatolia_region
+				value = 30
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = balkan_region
+				value = 35
+			}
+		}
+		effect = {
+			add_prestige = 50
+			give_claims = { area = apulia_area }
+			give_claims = { area = calabria_area }
+			give_claims = { area = naples_area }
+			give_claims = { area = rascia_area }
+			give_claims = { area = serbia_area }
+			give_claims = { area = wallachia_area }
+			give_claims = { area = moldavia_area }
+			give_claims = { region = mashriq_region }
+		}
+	}
+	BYZ_aramea = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { BYZ_recover_borders }
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = syria_area
+				area = syrian_desert_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			aleppo_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			syria_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			syrian_desert_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = egypt_region }
+		}
+	}
+	BYZ_judea = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { BYZ_aramea }
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+				area = trans_jordan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			palestine_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			trans_jordan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { area = tabuk_area }
+			give_claims = { area = medina_area }
+			give_claims = { area = mecca_area }
+		}
+	}
+	BYZ_aegyptus = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { BYZ_judea }
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 358
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = egypt_region
+				value = 25
+			}
+		}
+		effect = {
+			add_prestige = 15
+			give_claims = { area = fezzan_area }
+			give_claims = { area = tripolitania_area }
+			give_claims = { area = tunisia_area }
+			give_claims = { area = djerba_area }
+			give_claims = { area = red_sea_coast_area }
+			give_claims = { area = dongola_area }
+			give_claims = { area = upper_nubia_area }
+		}
+	}
+
+}
+
+new_byzantium_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { tag = BYZ }
+	has_country_shield = yes
+
+	BYZ_conquer_serbia = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { BYZ_recover_borders }
+		provinces_to_highlight = {
+			OR = {
+				area = sebia_area
+				area = rascia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			serbia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			rascia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = illyria_region }
+		}
+	}
+	BYZ_recover_illyria = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { BYZ_conquer_serbia }
+		provinces_to_highlight = {
+			region = illyria_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = illyria_region
+				value = 30
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = carpathia_region }
+		}
+	}
+
+}
+
+new_byzantium_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { tag = BYZ }
+	has_country_shield = yes
+
+	BYZ_moldavia_wallachia = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { BYZ_recover_borders }
+		provinces_to_highlight = {
+			OR = {
+				area = wallachia_area
+				area = moldavia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			wallachia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			moldavia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { area = transylvania_area }
+			give_claims = { area = sothern_transylvania_area }
+		}
+	}
+	BYZ_dacia = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { BYZ_moldavia_wallachia }
+		provinces_to_highlight = {
+			OR = {
+				area = transylvania_area
+				area = southern_transylvania_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			transylvania_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			southern_transylvania_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = carpathia_region }
+		}
+	}
+	BYZ_pannonia = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { BYZ_dacia }
+		provinces_to_highlight = {
+			region = carpathia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = carpathia_region
+				value = 30
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = south_germany_region }
+		}
+	}
+	BYZ_raetia_et_noricum = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { BYZ_pannonia BYZ_illyria }
+		provinces_to_highlight = {
+			region = south_germany_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = south_germany_region
+				value = 30
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+
+}
+
+newer_byzantium_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { tag = BYZ }
+	has_country_shield = yes
+
+	BYZ_path_of_alexander = {
+		icon = the_latin_empire
+		position = 15
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				area = al_jazira_area
+				area = basra_area
+				area = iraq_arabi_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			al_jazira_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			basra_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			iraq_arabi_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = persia_region }
+			give_claims = { region = caucasia_region }
+		}
+	}
+	BYZ_conqest_of_persia = {
+		icon = the_latin_empire
+		position = 16
+		required_missions = { BYZ_path_of_alexander }
+		provinces_to_highlight = {
+			region = persia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			persia_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+			give_claims = { region = khorasan_region }
+			give_claims = { region = central_asia_region }
+		}
+	}
+}

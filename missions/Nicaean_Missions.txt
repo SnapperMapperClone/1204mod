@@ -1,5 +1,81 @@
-nicaean_wars_1 = {
-	slot = 1
+nicaean_wars_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { tag = NIC }
+	has_country_shield = yes
+
+	NIC_asia_minor = {
+		icon = mission_the_roman_sultan
+		position = 2
+		required_missions = { NIC_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 2348
+				province_id = 4700
+				province_id = 316
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns = 2348
+			owns = 4700
+			owns = 316
+		}
+		effect = {
+			add_core = 2348
+			add_core = 4700
+			add_core = 316
+			give_claims = { area = thrace_area }
+			give_claims = { area = macedonia_area }
+			give_claims = { area = northern_greece_area }
+			give_claims = { area = hellas_area }
+			give_claims = { area = morea_area }
+			give_claims = { area = aegean_archipelago_area }
+			give_claims = { area = crete_area }
+		}
+	}
+	NIC_constantinople = {
+		icon = mission_the_roman_sultan
+		position = 2
+		required_missions = { NIC_asia_minor }
+		provinces_to_highlight = {
+			OR = {
+				area = thrace_area
+				area = macedonia_area
+				area = northern_greece_area
+				area = hellas_area
+				area = morea_area
+				area = aegean_archipelago_area
+				area = crete_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				OR = {
+					area = thrace_area
+					area = macedonia_area
+					area = northern_greece_area
+					area = hellas_area
+					area = morea_area
+					area = aegean_archipelago_area
+					area = crete_area
+				}
+				value = 20
+			}
+			owns = 151
+		}
+		effect = {
+			add_core = 151
+			add_prestige = 50
+			give_claims = { region = balkan_region }
+		}
+	}
+}
+
+nicaean_wars_3 = {
+	slot = 3
 	generic = no
 	ai = yes
 	potential = { tag = NIC }
@@ -25,6 +101,14 @@ nicaean_wars_1 = {
 			
 		}
 	}
+}
+
+nicaean_wars_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { tag = NIC }
+	has_country_shield = yes
 
 	NIC_eastern_border = {
 		icon = mission_the_roman_sultan
@@ -108,8 +192,8 @@ nicaean_wars_1 = {
 	}
 }
 
-nicaean_wars_2 = {
-	slot = 2
+nicaean_wars_5 = {
+	slot = 5
 	generic = no
 	ai = yes
 	potential = { tag = NIC }

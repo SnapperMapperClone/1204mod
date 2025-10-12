@@ -1422,6 +1422,25 @@ iberian	= {
 	
 	country = { }
 	province = { local_has_tercio = yes }
+	byz_hispanian = {
+		country = { } 
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		primary = BYZ
+		dynasty_names = {
+			Martinez "de Lara" Diaz "de Haro" "de Velasco" "de Ayala" "de Manrique" Morato "de Sandoval" Enriquez
+			"de Toledo" Pedrez "de Borgonna" "de Avellaneda" "del Zunniga" Alonso "de Guzman" "de Guardiola" Fánnez
+			"de Carrioon" "de Vivar" Velasco Ansurez "de Castilla" "de Atoja" "de Aguirre" "de Cisneros" "de Villena"
+			"de Balboa" "de Nebrija" "de Ojeda" "de Rojas" "de la Vega" "de Giroon" Fonseca Mudarra "de Marciena"
+		}
+		male_names = {
+			Gartsia Sancho Alffonso Vermundo Ffernando Enrique Ordonno Ramiro Fruela Bernaldo Pedro Pelayo Juan Fernaan Paulo Matheo
+			Andrees Lope Gomez Vela Antsur Carlos Miguel Diego Jimeno Albaro Blas Cristobal Felipe Victor Tomaas Inacio Jacobo Antonio
+			Jorge Rodrigo Alonso Fadrique
+		}
+		female_names = {
+			Blanca Jimena Aldonza Sancia Teresa Berenguela Elvira Urraca Leonor Mayor Velasquita Beatriz
+		}
+	}
 	castillian = {
 		country = { } 
 		province = { local_has_caravel = yes local_has_galleon = yes }

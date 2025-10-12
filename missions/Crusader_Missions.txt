@@ -5,6 +5,67 @@ crusaders_wars_1 = {
 	potential = { primary_culture = outremer }
 	has_country_shield = yes
 
+	KOJ_into_egypt = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { KOJ_jerusalem }
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			palestine_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = egypt_region }
+		}
+	}
+	KOJ_alexandria = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { KOJ_into_egypt }
+		provinces_to_highlight = {
+			province_id = 358
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 358
+			358 = { religion_group = christian }
+		}
+		effect = {
+			add_prestige = 25
+		}
+	}
+	KOJ_conquer_egypt = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { KOJ_alexandria }
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			egypt_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 10
+		}
+	}
+}
+
+crusaders_wars_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { primary_culture = outremer }
+	has_country_shield = yes
+
 	KOJ_jerusalem = {
 		icon = the_latin_empire
 		position = 2
@@ -23,6 +84,134 @@ crusaders_wars_1 = {
 			country_event = { id = flavor_crusaders.1 }
 			give_claims = { area = trans_jordan_area }
 			give_claims = { area = tabuk_area }
+			add_permanent_claim = 365
+			add_permanent_claim = 2315
+			add_permanent_claim = 358
+		}
+	}
+	KOJ_into_arabia = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { KOJ_jerusalem }
+		provinces_to_highlight = {
+			OR = {
+				area = tabuk_area
+				area = trans_jordan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			trans_jordan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			tabuk_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = medina_area }
+			give_claims = { area = mecca_area }
+		}
+	}
+	KOJ_mecca = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { KOJ_into_arabia }
+		provinces_to_highlight = {
+			OR = {
+				area = mecca_area
+				area = medina_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 385
+			385 = { religion_group = christian }
+			medina_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			mecca_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			
+		}
+		effect = {
+			add_prestige = 25
+			give_claims = { region = arabia_region }
+		}
+	}
+	KOJ_cyrenaica = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { KOJ_alexandria }
+		provinces_to_highlight = {
+			area = cyrenaica_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			cyrenaica_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = tripolitania_area }
+			give_claims = { area = fezzan_area }
+		}
+	}
+	KOJ_libya = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { KOJ_cyrenaica }
+		provinces_to_highlight = {
+			OR = {
+				area = fezzan_area
+				area = tripolitania_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			fezzan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			tripolitania_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = tunisia_area }
+			give_claims = { area = djerba_area }
+		}
+	}
+	KOJ_tunisia = {
+		icon = the_latin_empire
+		position = 7
+		required_missions = { KOJ_libya }
+		provinces_to_highlight = {
+			OR = {
+				area = tunisia_area
+				area = djerba_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			tunisia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			djerba_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = maghreb_region }
 		}
 	}
 }
@@ -199,6 +388,58 @@ crusader_wars_4 = {
 		effect = {
 			give_claims = { area = al_jazira_area }
 			give_claims = { area = shahrizor_area }
+		}
+	}
+	KOJ_assyria = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { KOJ_inner_syria }
+		provinces_to_highlight = {
+			OR = {
+				area = al_jazira_area
+				area = shahrizor_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			al_jazira_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			shahrizor_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = iraq_arabi_area }
+			give_claims = { area = basra_area }
+		}
+	}
+	KOJ_babylonia = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { KOJ_assyria }
+		provinces_to_highlight = {
+			OR = {
+				area = iraq_arabi_area
+				area = basra_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			iraq_arabi_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			basra_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 15
+			give_claims = { area = bahrain_area }
 		}
 	}
 }

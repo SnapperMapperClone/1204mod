@@ -159,6 +159,52 @@ country_decisions = {
 			factor = 1
 		}
 	}
+	assimlate_the_georgians = {
+		major = yes
+		potential = {
+			culture_group = byzantine
+			NOT = { 422 = { culture = georgian_new } }
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = imereti_area
+				area = samtskhe_area
+				area = kartli_kakheti_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		allow = {
+			dip_power = 200
+			imereti_area = {
+				owned_by = ROOT
+				type = all
+			}
+			samtskhe_area = {
+				owned_by = ROOT
+				type = all
+			}
+			kartli_kakheti_area = {
+				owned_by = ROOT
+				type = all
+			}
+		}
+		effect = {
+			hidden_effect = {
+				every_province = {
+					limit = {
+						OR = {
+							area = imereti_area
+							area = samtskhe_area
+							area = kartli_kakheti_area
+						}
+					}
+					add_core = GEO
+					change_culture = georgian_new
+				}
+				GEO = { change_primary_culture = georgian_new }
+			}
+		}
+	}
 	unite_the_romans = {
 		major = yes
 		potential = {
