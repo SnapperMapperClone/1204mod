@@ -15,4 +15,35 @@ country_decisions = {
         }
       }
 
-    allow 
+    allow = {
+        stability = 2
+        OR = {
+            AND = {
+                techonolgy_group = andean
+                has_country_flag = inti_reform_1
+                has_country_flag = inti_reform_2
+                has_country_flag = inti_reform_3
+                has_country_flag = inti_reform_4
+                has_country_flag = inti_reform_5
+            }
+             AND = {
+                techonolgy_group = mesoamerican
+                OR = {
+                    AND = {
+                        has_country_flag = nahuatl_reform_1
+                        has_country_flag = nahuatl_reform_2
+                        has_country_flag = nahuatl_reform_3
+                        has_country_flag = nahuatl_reform_4
+                        has_country_flag = nahuatl_reform_5
+                    }
+                    AND = {
+                        has_country_flag = mesoamerican_reform_1
+                        has_country_flag = mesoamerican_reform_2
+                        has_country_flag = mesoamerican_reform_3
+                        has_country_flag = mesoamerican_reform_4
+                        has_country_flag = mesoamerican_reform_5
+                    }
+                }
+            }
+        }
+    }
