@@ -1,0 +1,541 @@
+seljuk_wars_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { tag = RUM }
+	has_country_shield = yes
+
+	RUM_moldo_wallachia = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { RUM_rumelia }
+		provinces_to_highlight = {
+			OR = {
+				area = moldavia_area
+				area = wallachia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			moldavia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			wallachia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = carpathia_region }
+		}
+	}
+	RUM_carpathia = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { RUM_illyria RUM_moldo_wallachia }
+		provinces_to_highlight = {
+			region = carpathia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = carpathia_region
+				value = 20
+			}
+		}
+		effect = {
+			add_permanent_claim = 134
+		}
+	}
+	RUM_vienna = {
+		icon = the_latin_empire
+		position = 7
+		required_missions = { RUM_fall_of_nicaea }
+		provinces_to_highlight = {
+			province_id = 134
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 134
+		}
+		effect = {
+			add_prestige = 40
+		}
+	}
+
+}
+
+seljuk_wars_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { tag = RUM }
+	has_country_shield = yes
+
+	RUM_fall_of_nicaea = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { RUM_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				area = germiyan_area
+				area = aydin_area
+				area = hudavendigar_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			aydin_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			hudavendigar_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			germyan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = thrace_area }
+			give_claims = { area = aegean_archipelago_area }
+			give_claims = { area = macedonia_area }
+		}
+	}
+	RUM_constantinople = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { RUM_fall_of_nicaea }
+		provinces_to_highlight = {
+			area = thrace_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 151
+			thrace_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = balkan_region }
+		}
+	}
+	RUM_rumelia = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { RUM_constantinople }
+		provinces_to_highlight = {
+			region = balkan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			balkan_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = illyria_region }
+			give_claims = { area = wallachia_area }
+			give_claims = { area = moldavia_area }
+		}
+	}
+	RUM_illyria = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { RUM_rumelia }
+		provinces_to_highlight = {
+			area = thrace_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = illyria_region
+				value = 25
+			}
+		}
+		effect = {
+			give_claims = { region = carpathia_region }
+		}
+	}
+	RUM_arabia = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { RUM_palestine }
+		provinces_to_highlight = {
+			OR = {
+				area = tabuk_area
+				area = medina_area
+				area = mecca_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 385
+			tabuk_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			medina_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			mecca_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 25
+			give_claims = { region = arabia_region }
+		}
+	}
+
+}
+
+seljuk_wars_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { tag = RUM }
+	has_country_shield = yes
+
+	RUM_force_limit = {
+		icon = the_latin_empire
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { }
+		trigger = {
+			army_size_percentage = 1.0
+		}
+		effect = {
+			give_claims = { area = germiyan_area }
+			give_claims = { area = hudavendigar_area }
+			give_claims = { area = aydin_area }
+			give_claims = { area = kastamonu_area }
+			give_claims = { area = erzurum_area }
+			give_claims = { area = cukurova_area }
+		}
+	}
+	RUM_cilicia = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { RUM_force_limit }
+		provinces_to_highlight = {
+			area = cukurova_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			cukurova_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = aleppo_area }
+			give_claims = { area = syria_area }
+			give_claims = { area = syrian_desert_area }
+			give_claims = { area = al_jazira_area }
+			give_claims = { area = dulkadir_area }
+		}
+	}
+	RUM_syria = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { RUM_cilicia }
+		provinces_to_highlight = {
+			OR = {
+				area = aleppo_area
+				area = syria_area
+				area = syrian_desert_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			aleppo_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			syria_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			syrian_desert_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = palestine_area }
+			give_claims = { area = trans_jordan_area }
+		}
+	}
+	RUM_palestine = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { RUM_syria }
+		provinces_to_highlight = {
+			OR = {
+				area = palestine_area
+				area = trans_jordan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			palestine_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			trans_jordan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = tabuk_area }
+			give_claims = { area = medina_area }
+			give_claims = { area = mecca_area }
+			give_claims = { region = egypt_region }
+		}
+	}
+	RUM_egypt = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { RUM_palestine }
+		provinces_to_highlight = {
+			region = egypt_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				region = egypt_region
+				value = 25
+			}
+		}
+		effect = {
+			give_claims = { region = maghreb_region }
+		}
+	}
+}
+
+seljuk_wars_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { tag = RUM }
+	has_country_shield = yes
+
+	RUM_fall_of_trebizond = {
+		icon = the_latin_empire
+		position = 2
+		required_missions = { RUM_force_limit }
+		provinces_to_highlight = {
+			OR = {
+				area = kastamonu_area
+				area = erzurum_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			kastamonu_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			erzurum_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = anatolia_region }
+			give_claims = { area = imereti_area }
+			give_claims = { area = kartli_kakheti_area }
+			give_claims = { area = samtskhe_area }
+			give_claims = { area = armenia_area }
+		}		
+	}
+	RUM_conquer_armenia = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { RUM_fall_of_trebizond RUM_cilicia }
+		provinces_to_highlight = {
+			OR = {
+				area = noth_kurdistan_area
+				area = armenia_area
+				area = dulkadir_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			north_kurdistan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			armenia_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = caucasia_region }
+			give_claims = { area = iraq_arabi_area }
+			give_claims = { area = basra_area }
+			give_claims = { area = shahrizor_area }
+		}		
+	}
+	RUM_conquer_mesopoamia = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { RUM_conquer_armenia }
+		provinces_to_highlight = {
+			OR = {
+				area = iraq_arabi_area
+				area = al_jazira_area
+				area = basra_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			iraq_arabi_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			al_jazira_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			basra_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = persia_region }
+		}		
+	}
+	RUM_conquer_persia = {
+		icon = the_latin_empire
+		position = 5
+		required_missions = { RUM_conquer_mesopotamia }
+		provinces_to_highlight = {
+			region = persia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			persia_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = khorasan_region }
+			give_claims = { area = transcaspia_area }
+		}	
+	}
+}
+
+seljuk_wars_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { tag = RUM }
+	has_country_shield = yes
+
+	RUM_conquer_georgia = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { RUM_fall_of_trebizond }
+		provinces_to_highlight = {
+			OR = {
+				area = kartli_kakheti_area
+				area = imereti_area
+				area = samtskhe_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			kartli_kakheti_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			imereti_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			samtskhe_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = caucasia_region }
+		}		
+	}
+	RUM_conquer_caucasus = {
+		icon = the_latin_empire
+		position = 4
+		required_missions = { RUM_conquer_armenia RUM_conquer_georgia }
+		provinces_to_highlight = {
+			region = caucasia_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			caucasia_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			add_prestige = 25
+			give_claims = { area = crimea_area }
+		}		
+	}
+	RUM_conquer_khorasan = {
+		icon = the_latin_empire
+		position = 6
+		required_missions = { RUM_conquer_persia }
+		provinces_to_highlight = {
+			region = khorasan_region
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			khorasan_region = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { area = lahore_area }
+			give_claims = { area = multan_area }
+		}	
+	}
+	RUM_into_india = {
+		icon = the_latin_empire
+		position = 7
+		required_missions = { RUM_conquer_khorasan }
+		provinces_to_highlight = {
+			OR = {
+				area = lahore_area
+				area = multan_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			lahore_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+			multan_area = {
+				country_or_non_sovereign_subject_holds = ROOT
+				type = all
+			}
+		}
+		effect = {
+			give_claims = { region = hindusthan_region }
+		}	
+	}
+}

@@ -1,0 +1,34 @@
+namespace = flavor_greek
+
+#Magna Graecia Restored
+province_event = {
+	id = flavor_greek.1
+	title = flavor_greek.1.t
+	desc = flavor_greek.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+
+	trigger = {
+		NOT = { culture = griko }
+		OR = {
+			area = apulia_area
+			area = calabria_area
+			area = naples_area
+			area = sicily_area
+			area = western_sicily_area
+		}
+		owner = { culture_group = byzantine }
+	}
+
+	mean_time_to_happen = {
+		years = 40
+		modifier = {
+			factor = 0.75
+			any_neighbor_province = { culture_group = byzantine }
+		}		
+	}
+
+	option = {
+		name = flavor_greek.1.a
+		change_culture = griko
+	}
+}
