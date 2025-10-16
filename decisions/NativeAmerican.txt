@@ -1,0 +1,18 @@
+country_decisions = {
+
+  organise_the_kingdom = {
+    potential = {
+      OR = {
+        AND = {
+          technology_group = andean
+          religion = inti
+        }
+      AND = {
+        technology_group = mesoamerican
+        OR = {
+          religion = maya
+          religion = nahuatl
+        }
+      }
+
+    allow 
