@@ -1085,7 +1085,7 @@ thrace_area = { #5
 }
 
 eastern_rumelia_area = {
-	1764 2750
+	1764 2750 4958 4959 4960
 }
 
 bulgaria_area = { #5

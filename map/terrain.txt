@@ -227,7 +227,7 @@ categories =  {
 			1106 1108 2738 4939 # NZ
 			4840 # Mandala
 			
-			4856
+			4856 4958
 		}
 	}
 
@@ -442,7 +442,7 @@ categories =  {
 			
 			4858 4857 2735 1090
 			
-			4948 4949 4955 4956 # new mod provinces
+			4948 4949 4955 4956 4959 # new mod provinces
 		}
 	}
 
@@ -713,7 +713,7 @@ categories =  {
 			4422 4436 4464 #Central India
 			4561 4566 4553 # new provinces 1.28
 			4669 4701 4699 4780 # 1.30 Greece and Bulgaria
-			4946 4947 4951 4954 # new mod provinces
+			4946 4947 4951 4954 4960 # new mod provinces
 		}
 	}
 

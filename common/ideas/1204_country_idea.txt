@@ -1,0 +1,41 @@
+#1204 Countries
+
+GWY_ideas = {
+	start = {
+		land_morale = 0.10
+		land_attrition = -0.15
+	}
+	bonus = {
+		global_unrest = -1
+	}
+	trigger = {
+		tag = GWY
+	}
+	free = yes
+	gwy_historia_brittonum = {
+		legitimacy = 1
+		prestige = 1
+	}
+	gwy_first_princes_of_cymru = {
+		diplomatic_reputation = 2
+	}
+	gwy_last_realm_standing = {
+		global_manpower_modifier = 0.3
+		land_forcelimit_modifier = 0.2
+	}
+	gwy_ore_mines = {
+		mil_tech_cost_modifier = -0.1
+	}
+	gwy_llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch = {
+		improve_relation_modifier = 0.2
+	}
+	gwy_eryri = {
+		defensiveness = 0.2
+	}
+	gwy_defend_our_homeland = {
+		core_creation = -0.15
+		infantry_power = 0.10
+	}
+}
+  
+  
