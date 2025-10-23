@@ -1057,7 +1057,7 @@ macedonia_area = { #5 (Macedonia)
 }
 
 vardarska_area = {
-	3001 4780
+	3001 4780 4954
 }
 
 morea_area = { #4 Pelopponese
@@ -1065,31 +1065,35 @@ morea_area = { #4 Pelopponese
 }
 
 hellas_area = {
-	146 147 3003 4944 4945
+	146 3003 4944 4945 4951
 }
 
 aegean_archipelago_area = { #4
-	164 320 2348 4700
+	2348 4700 4952 4953
 }
 
 crete_area = {
-	163 4947
+	163 164 4947 320
 }
 
 northern_greece_area = { #3 #Northern Greece
-	142 144 4699 4698
+	142 144 147 4699 4698
 }
 
 thrace_area = { #5
-	149 151 1764 4779 4705
+	149 151 4779 4705 4955
+}
+
+eastern_rumelia_area = {
+	1764 2750
 }
 
 bulgaria_area = { #5
-	150 1765 2746 2750 4703 4943
+	150 1765 2746 4703 4943
 }
 
 silistria_area = {
-	4704 4706 159
+	4704 4706 159 4956 4957
 }
 
 wallachia_area = { #5

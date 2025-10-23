@@ -11,15 +11,16 @@ nicaean_wars_2 = {
 		required_missions = { NIC_force_limit }
 		provinces_to_highlight = {
 			OR = {
-				province_id = 2348
-				province_id = 4700
+				area = aegean_archipelago_area
 				province_id = 316
 			}
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			owns = 2348
-			owns = 4700
+			aegean_archipelago_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			owns = 316
 		}
 		effect = {
@@ -31,7 +32,6 @@ nicaean_wars_2 = {
 			give_claims = { area = northern_greece_area }
 			give_claims = { area = hellas_area }
 			give_claims = { area = morea_area }
-			give_claims = { area = aegean_archipelago_area }
 			give_claims = { area = crete_area }
 		}
 	}
@@ -46,7 +46,6 @@ nicaean_wars_2 = {
 				area = northern_greece_area
 				area = hellas_area
 				area = morea_area
-				area = aegean_archipelago_area
 				area = crete_area
 			}
 			NOT = { owned_by = ROOT }
@@ -59,7 +58,6 @@ nicaean_wars_2 = {
 					area = northern_greece_area
 					area = hellas_area
 					area = morea_area
-					area = aegean_archipelago_area
 					area = crete_area
 				}
 				value = 20
@@ -90,8 +88,7 @@ nicaean_wars_3 = {
 			army_size_percentage = 1.0
 		}
 		effect = {
-			add_permanent_claim = 2348
-			add_permanent_claim = 4700
+			give_claims = { area = aegean_archipelago_area }
 			add_permanent_claim = 316
 			add_permanent_claim = 326
 			add_core = 4312

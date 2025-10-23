@@ -274,6 +274,7 @@ balkan_region = {
 		aegean_archipelago_area
 		crete_area
 		thrace_area
+		eastern_rumelia_area
 		albania_area
 		silistria_area
 	}
