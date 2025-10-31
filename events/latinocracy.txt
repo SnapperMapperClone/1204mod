@@ -93,3 +93,195 @@ country_event = {
 #		}
 #	}
 #}
+
+#Latin empire Claims on Greece
+country_event = {
+	id = latin_greece.3
+	title = latin_greece.3.t
+	desc = latin_greece.3.d
+	picture = {
+		picture = CONSTANTINOPLE_eventPicture
+		trigger = {
+			has_dlc = "King of Kings"
+		}
+	}
+	picture = {
+		picture = CITY_VIEW_eventPicture
+		trigger = {
+			not = { has_dlc = "King of Kings" }
+		}
+	}
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = LAT
+		is_year = 1206
+		OR = {
+			NOT = { TES = { is_subject_of = ROOT } }
+			NOT = { ACH = { is_subject_of = ROOT } }
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 4
+	}
+
+	option = {
+		name = latin_greece.3.a
+		if = {
+			limit = { NOT = { TES = { is_subject_of = ROOT } } }
+			TES = {
+				country_event = {
+					id = latin_greece.4
+					days = 10
+				}
+			}
+		}
+		if = {
+			limit = { NOT = { ACH = { is_subject_of = ROOT } } }
+			ACH = {
+				country_event = {
+					id = latin_greece.7
+					days = 10
+				}
+			}
+		}
+	}
+}
+
+#Deal received
+country_event = {
+	id = latin_greece.4
+	title = latin_greece.4.t
+	desc = latin_greece.4.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = latin_greece.4.a
+		ai_chance = { factor = 60 }
+		LAT = {
+			country_event = {
+				id = latin_greece.5
+				days = 10
+			}
+		}
+	}
+	option = {
+		name = latin_greece.4.b
+		ai_chance = { factor = 40 }
+		LAT = {
+			country_event = {
+				id = latin_greece.6
+				days = 10
+			}
+		}
+	}
+}
+
+#Deal accepted
+country_event = {
+	id = latin_greece.5
+	title = latin_greece.5.t
+	desc = latin_greece.5.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = latin_greece.5.a
+		vassalize = TES
+	}
+}
+
+#Deal rejected
+country_event = {
+	id = latin_greece.6
+	title = latin_greece.6.t
+	desc = latin_greece.6.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = latin_greece.6.a
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			months = 300
+			target = TES
+		}
+	}
+}
+
+#Deal received
+country_event = {
+	id = latin_greece.7
+	title = latin_greece.7.t
+	desc = latin_greece.7.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = latin_greece.7.a
+		ai_chance = { factor = 60 }
+		LAT = {
+			country_event = {
+				id = latin_greece.8
+				days = 10
+			}
+		}
+	}
+	option = {
+		name = latin_greece.7.b
+		ai_chance = { factor = 40 }
+		LAT = {
+			country_event = {
+				id = latin_greece.9
+				days = 10
+			}
+		}
+	}
+}
+
+#Deal accepted
+country_event = {
+	id = latin_greece.8
+	title = latin_greece.8.t
+	desc = latin_greece.8.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = latin_greece.8.a
+		vassalize = ACH
+	}
+}
+
+#Deal rejected
+country_event = {
+	id = latin_greece.9
+	title = latin_greece.9.t
+	desc = latin_greece.9.d
+	picture = BATTLE_eventPicture
+
+	is_triggered_only = yes
+
+
+	option = {
+		name = latin_greece.9.a
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			months = 300
+			target = ACH
+		}
+	}
+}

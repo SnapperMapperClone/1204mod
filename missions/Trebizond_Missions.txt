@@ -31,6 +31,42 @@ trebizond_wars_2 = {
 			give_claims = { area = cukurova_area }
 		}
 	}
+	TRE_cilicia_and_cappadocia = {
+		icon = the_latin_empire
+		position = 3
+		required_missions = { TRE_southern_border }
+		provinces_to_highlight = {
+			OR = {
+				area = cukurova_area
+				area = rum_area
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			rum_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			cukurova_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			2301 = { change_culture = cappadocian_greek change_religion = orthodox }
+			2302 = { change_culture = armenian_new change_religion = orthodox }
+			327 = { change_culture = armenian_new change_religion = orthodox }
+			hidden_effect = {
+				CLC = { change_primary_culture = armenian_new change_religion = orthodox }
+			}
+			add_country_modifier = {
+				name = fall_of_rum
+				duration = -1
+			}
+			give_claims = { area = dulkadir_area }
+			give_claims = { area = north_kurdistan_area }
+		}
+	}
 }
 
 trebizond_wars_3 = {

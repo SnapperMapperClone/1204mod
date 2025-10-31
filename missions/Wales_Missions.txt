@@ -3,40 +3,40 @@ welsh_reconquista = {
 	generic = no
 	ai = yes
 	potential = {
-    	OR = {
-      		tag = GWY
-      		tag = DEU
-      		tag = PWS
+    		OR = {
+      			tag = GWY
+      			tag = DEU
+      			tag = PWS
 			tag = WLS
-    	}
+    		}
   	}
   	has_country_shield = yes
   	
 	wls_unite_wales = {
-    	icon = mission_unite_home_region
-    	position = 1
-    	required_missions = { }
-    	provinces_to_highlight = {
-      		OR = {
-        		province_id = 4369
+    		icon = mission_unite_home_region
+    		position = 1
+    		required_missions = { }
+    		provinces_to_highlight = {
+      			OR = {
+        			province_id = 4369
 				province_id = 4366
 				province_id = 242
 				province_id = 241
-      		}
-      		NOT = { owned_by = ROOT }
-    	}
-    	trigger = {
-      		owns_or_non_sovereign_subject_of  = 4369
+      			}
+      			NOT = { owned_by = ROOT }
+    		}
+    		trigger = {
+      			owns_or_non_sovereign_subject_of  = 4369
 			owns_or_non_sovereign_subject_of  = 4366
 			owns_or_non_sovereign_subject_of  = 242
 			owns_or_non_sovereign_subject_of  = 241
-    	}
-    	effect = {
-    		add_prestige = 25
-    		add_permanent_claim = 239
-    		add_permanent_claim = 240
-    		add_permanent_claim = 4372
-    	}
+    		}
+    		effect = {
+    			add_prestige = 25
+    			add_permanent_claim = 239
+    			add_permanent_claim = 240
+    			add_permanent_claim = 4372
+    		}
   	}
 
 	wls_reclaim_pengwern = {
@@ -59,8 +59,8 @@ welsh_reconquista = {
 		effect = {
 			add_prestige = 10
 			add_permanent_claim = 233
-    		add_permanent_claim = 234
-    		add_permanent_claim = 4130
+    			add_permanent_claim = 234
+    			add_permanent_claim = 4130
 			add_permanent_claim = 4373
 			add_permanent_claim = 4374
 			add_permanent_claim = 244
@@ -97,8 +97,8 @@ welsh_reconquista = {
 				duration = 7300
 			}
 			add_permanent_claim = 235
-    		add_permanent_claim = 236
-    		add_permanent_claim = 237
+    			add_permanent_claim = 236
+    			add_permanent_claim = 237
 			add_permanent_claim = 4371
 			add_permanent_claim = 243
 			add_permanent_claim = 1861
@@ -106,8 +106,8 @@ welsh_reconquista = {
 			add_permanent_claim = 238
 			add_permanent_claim = 1860
 			add_permanent_claim = 4370
-    		add_permanent_claim = 234
-    		add_permanent_claim = 245
+    			add_permanent_claim = 234
+    			add_permanent_claim = 245
 			add_permanent_claim = 4367
 			add_permanent_claim = 4368
 			add_permanent_claim = 4785

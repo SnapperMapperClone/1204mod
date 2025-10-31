@@ -1,19 +1,16 @@
-latin_empire_wars_1 = {
-	slot = 1
+epirote_wars_2 = {
+	slot = 2
 	generic = no
 	ai = yes
-	potential = { tag = LAT }
+	potential = { tag = EPI }
 	has_country_shield = yes
 
-	LAT_albania_and_paeonia = {
+	EPI_albania = {
 		icon = mission_non-western_cavalry_raid
-		position = 4
-		required_missions = { LAT_north_greece }
+		position = 2
+		required_missions = { EPI_force_limit }
 		provinces_to_highlight = {
-			OR = {
-				area = albania_area
-				area = vardarska_area
-			}
+			area = albania_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -21,21 +18,17 @@ latin_empire_wars_1 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			vardarska_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
 		}
 		effect = {
 			give_claims = { area = apulia_area }
 			give_claims = { area = calabria_area }
-			give_claims = { area = rascia_area }
+			give_claims = { area = vardarska_area }
 		}
 	}
-	LAT_magna_graecia = {
+	EPI_magna_graecia = {
 		icon = mission_non-western_cavalry_raid
-		position = 5
-		required_missions = { LAT_albania_and_paeonia }
+		position = 3
+		required_missions = { EPI_albania }
 		provinces_to_highlight = {
 			OR = {
 				area = apulia_area
@@ -54,102 +47,47 @@ latin_empire_wars_1 = {
 			}
 		}
 		effect = {
-			give_claims = { area = naples_area }
 			give_claims = { area = sicily_area }
 			give_claims = { area = western_sicily_area }
+			give_claims = { area = naples_area }
 		}
 	}
-}
-
-latin_empire_wars_2 = {
-	slot = 2
-	generic = no
-	ai = yes
-	potential = { tag = LAT }
-	has_country_shield = yes
-
-	LAT_macedonia = {
-		icon = mission_non-western_cavalry_raid
-		position = 2
-		required_missions = { LAT_force_limit }
-		provinces_to_highlight = {
-			area = macedonia_area
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			macedonia_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			give_claims = { area = hellas_area }
-			give_claims = { area = northern_greece_area }
-			give_claims = { area = vardarska_area }
-		}
-	}
-	LAT_north_greece = {
-		icon = mission_non-western_cavalry_raid
-		position = 3
-		required_missions = { LAT_macedonia }
-		provinces_to_highlight = {
-			OR = {
-				area = northern_greece_area
-				area = hellas_area
-			}
-			NOT = { country_or_non_sovereign_subject_holds = ROOT }
-		}
-		trigger = {
-			northern_greece_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			hellas_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-		}
-		effect = {
-			give_claims = { area = morea_area }
-			give_claims = { area = crete_area }
-			give_claims = { area = albania_area }
-		}
-	}
-	LAT_south_greece = {
+	EPI_sikelia = {
 		icon = mission_non-western_cavalry_raid
 		position = 4
-		required_missions = { LAT_north_greece }
+		required_missions = { EPI_magna_graecia }
 		provinces_to_highlight = {
 			OR = {
-				area = morea_area
-				area = crete_area
+				area = sicily_area
+				area = western_sicily_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			morea_area = {
+			sicily_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			crete_area = {
+			western_sicily_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			add_prestige = 15
+			give_claims = { area = lazio_area }
+			give_claims = { area = central_italy_area }
 		}
 	}
 }
 
-latin_empire_wars_3 = {
+epirote_wars_3 = {
 	slot = 3
 	generic = no
 	ai = yes
-	potential = { tag = LAT }
+	potential = { tag = EPI }
 	has_country_shield = yes
 
-	LAT_force_limit = {
+	EPI_force_limit = {
 		icon = the_latin_empire
 		position = 1
 		required_missions = { }
@@ -158,59 +96,109 @@ latin_empire_wars_3 = {
 			army_size_percentage = 1.0
 		}
 		effect = {
-			give_claims = { area = aegean_archipelago_area }
-			give_claims = { area = hudavendigar_area }
-			give_claims = { area = aydin_area }
-			give_claims = { area = eastern_rumelia_area }
-			give_claims = { area = silistria_area }
-			give_claims = { area = bulgaria_area }
+			give_claims = { area = hellas_area }
+			give_claims = { area = macedonia_area }
+			add_core = 4175
+			add_core = 4174
+			add_core = 2750
+			add_core = 1853
+			
 		}
 	}
-	LAT_bulgaria = {
+	EPI_hellas = {
 		icon = mission_non-western_cavalry_raid
 		position = 2
-		required_missions = { LAT_force_limit }
+		required_missions = { EPI_force_limit }
 		provinces_to_highlight = {
-			OR = {
-				area = bulgaria_area
-				area = silistria_area
-				area = eastern_rumelia
-			}
+			area = hellas_area
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			bulgaria_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			silistria_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			eastern_rumelia_area = {
+			hellas_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			give_claims = { area = wallachia_area }
-			give_claims = { area = serbia_area }
-			give_claims = { area = moldavia_area }
+			give_claims = { area = morea_area }
+			give_claims = { area = crete_area }
+		}
+	}
+	EPI_morea = {
+		icon = mission_non-western_cavalry_raid
+		position = 3
+		required_missions = { EPI_hellas }
+		provinces_to_highlight = {
+			area = morea_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			morea_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			give_claims = { area = aegean_archipelago_area }
 		}
 	}
 }
 
-latin_empire_wars_4 = {
+epirote_wars_4 = {
 	slot = 4
 	generic = no
 	ai = yes
-	potential = { tag = LAT }
+	potential = { tag = EPI }
 	has_country_shield = yes
 
-	LAT_nicaea = {
+	EPI_macedonia = {
 		icon = mission_non-western_cavalry_raid
 		position = 2
-		required_missions = { LAT_force_limit }
+		required_missions = { EPI_force_limit }
+		provinces_to_highlight = {
+			area = macedonia_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 148
+			macedonia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			give_claims = { area = vardarska_area }
+			give_claims = { area = thrace_area }
+		}
+	}
+	EPI_thracia = {
+		icon = mission_non-western_cavalry_raid
+		position = 3
+		required_missions = { EPI_macedonia }
+		provinces_to_highlight = {
+			area = thrace_area
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = {
+			owns = 151
+			thrace_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_prestige = 25
+			give_claims = { region = balkan_region }
+			give_claims = { area = aydin_area }
+			give_claims = { area = hudavendigar_area }
+			give_claims = { area = kastamonu_area }
+			add_permanent_claim = 330
+		}
+	}
+	EPI_nicaea = {
+		icon = mission_non-western_cavalry_raid
+		position = 4
+		required_missions = { EPI_thracia }
 		provinces_to_highlight = {
 			OR = {
 				area = aydin_area
@@ -219,6 +207,7 @@ latin_empire_wars_4 = {
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
+			owns = 4942
 			aydin_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -229,49 +218,56 @@ latin_empire_wars_4 = {
 			}
 		}
 		effect = {
-			add_prestige = 10
-			give_claims = { area = kastamonu_area }
+			add_prestige = 15
 			give_claims = { area = ankara_area }
 			give_claims = { area = germiyan_area }
 			give_claims = { area = cukurova_area }
 		}
 	}
-	LAT_asia_minor = {
+}
+
+epirote_wars_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { tag = EPI }
+	has_country_shield = yes
+
+	EPI_trapezous = {
 		icon = mission_non-western_cavalry_raid
-		position = 3
-		required_missions = { LAT_nicaea }
+		position = 4
+		required_missions = { EPI_thracia }
 		provinces_to_highlight = {
 			OR = {
-				area = ankara_area
-				area = germiyan_area
+				area = kastamonu_area
+				province_id = 330
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
-			ankara_area = {
-				type = all
-				country_or_non_sovereign_subject_holds = ROOT
-			}
-			germiyan_area = {
+			owns = 330
+			kastamonu_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
 		}
 		effect = {
-			give_claims = { area = karaman_area }
+			add_prestige = 25
 			give_claims = { area = rum_area }
+			give_claims = { area = karaman_area }
 			give_claims = { area = erzurum_area }
 		}
 	}
-	LAT_anatolia = {
+	EPI_anatolia = {
 		icon = the_latin_empire
-		position = 4
-		required_missions = { LAT_asia_minor }
+		position = 5
+		required_missions = { EPI_nicaea EPI_trapezous }
 		provinces_to_highlight = {
 			OR = {
-				area = kastamonu_area
+				area = germiyan_area
 				area = rum_area
 				area = karaman_area
+				area = ankara_area
 				area = erzurum_area
 				area = cukurova_area
 			}
@@ -280,9 +276,10 @@ latin_empire_wars_4 = {
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {
+					area = germiyan_area
 					area = rum_area
 					area = karaman_area
-					area = kastamonu_area
+					area = ankara_area
 					area = erzurum_area
 					area = cukurova_area
 				}

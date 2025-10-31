@@ -49,7 +49,7 @@ country_event = {
 				}
 				release = MOE
 			}
-			MGC = {
+			MOE = {
 				change_government = monarchy
 				adopt_reform_progress = ROOT
 			}
@@ -96,6 +96,7 @@ country_event = {
 		hidden_effect = {
 			1773 = { add_core = MOE }
 			4701 = { add_core = MOE }
+			4946 = { add_core = MOE }
 			if = { 
 				limit = {
 					151 = { owned_by = NIC }
