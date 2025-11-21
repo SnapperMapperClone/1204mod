@@ -1,0 +1,22 @@
+country_decisions = {
+  start_conquest = {
+    major = yes
+    potential = {
+      tag = MGE
+      NOT = {
+        is_subject = yes
+        has_country_flag = mongol_conquest
+        }
+    }
+
+    allow = {
+       stability = 1
+    }
+
+    effect = {
+      country_event = { id = mongol_conquest.1 }
+      set_country_flag = mongol_conquest
+      add_manpower = 30
+      add_prestige = 50
+      add_army_tradition = 100
+    }
