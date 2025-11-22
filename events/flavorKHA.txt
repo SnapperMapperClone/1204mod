@@ -4,7 +4,7 @@ country_event = {
   id = mongol_conquest.1
   title = mongol_conquest.1.t
   desc = mongol_conquest.1.d
-  picture = 
+  picture = HORDE_ON_HORSEBACK_eventPicture
   is_triggered_only = yes
 
   option = {
