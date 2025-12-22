@@ -14,7 +14,10 @@ country_decisions = {
     }
 
     effect = {
-      country_event = { id = mongol_conquest.1 }
+      add_country_modifier = {
+      name = mongol_buff
+      duration = -1
+    }
       set_country_flag = mongol_conquest
       add_manpower = 30
       add_prestige = 50
