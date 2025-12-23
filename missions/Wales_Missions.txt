@@ -154,8 +154,85 @@ celtic_union = {
 			add_dip_power = 100
 		}
 	}
+	
+	wls_securing_scotland = {
+		position = 4
+		required_missions = { wls_northumbrian_campaign }
+		provinces_to_highlight = {
+			OR = {
+					area = highlands_area
+					area = lowlands_area
+					area = the_isles_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = highlands_area
+					area = lowlands_area
+					area = the_isles_area
+					}
+			}
+		}
+		effect = {
+		add_adm_power = 100
+		add_dip_power = 100
+		add_prestige = 35
+			every_province = {
+    			limit = {
+        			OR = {
+           				area = connacht_area
+            			area = munster_area
+            			area = leinster_area
+						area = ulster_area
+       				}
+    			}
+    		add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	wls_the_emerald_isle = {
+		icon = mission_galleys_in_port
+		position = 5
+		required_missions = { wls_securing_scotland }
+		provinces_to_highlight = {
+			OR = {
+           		area = connacht_area
+            	area = munster_area
+            	area = leinster_area
+				area = ulster_area
+       		}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+	           		area = connacht_area
+	            	area = munster_area
+	            	area = leinster_area
+					area = ulster_area
+	       		}
+			}
+		}
+		effect = { 
+			every_province = {
+    			limit = {
+        			OR = {
+           				area = brittany_area
+            			area = galicia_area
+            			area = asturias_area
+						area = ulster_area
+       				}
+    			}
+    		add_permanent_claim = ROOT
+			}
+		}
+	}
+			
+	
 }
 	
+
 
 
 
