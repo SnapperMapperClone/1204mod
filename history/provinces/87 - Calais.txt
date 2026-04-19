@@ -2,7 +2,7 @@
 owner = BOL
 controller = BOL
 capital = "Calais"
-culture = wallonian
+culture = picard
 religion = catholic
 base_tax = 5
 base_production = 5

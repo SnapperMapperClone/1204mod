@@ -1,0 +1,13 @@
+add_core = AMO
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = AMO
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = mozarabic
+religion = catholic
+controller = AMO
+is_city = yes

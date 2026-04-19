@@ -1,16 +1,15 @@
 # Forcalquier
-owner = PRO
-controller = PRO
+owner = FCQ
+controller = FCQ
 capital = "Forcalquier"
 is_city = yes
-culture = occitain_sep
+culture = occitain
 religion = catholic
 hre = yes
 base_tax = 3
 base_production = 3
 trade_goods = wool
 base_manpower = 2
-add_core = PRO
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -23,3 +22,4 @@ discovered_by = ottoman
 1590.6.1 = { controller = SAV }
 1591.4.5 = { controller = FRA }
 1806.7.12 = { hre = no }
+add_core = FCQ

@@ -1,0 +1,135 @@
+country_decisions = {
+	take_culture_leader_slot_one = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			culture_leader_assessment_trigger = yes
+			custom_trigger_tooltip = {
+				tooltip = someone_claimed_slot_tt
+				NOT = { has_global_flag = someone_claimed_culture_leader_one }
+			}
+		}
+		effect = {
+			set_global_flag = someone_claimed_culture_leader_one
+			hidden_effect = {
+				save_global_event_target_as = culture_leader_one
+			}
+			culture_leader_qualification_assessment = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	take_culture_leader_slot_two = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			culture_leader_assessment_trigger = yes
+			custom_trigger_tooltip = {
+				tooltip = someone_claimed_slot_tt
+				NOT = { has_global_flag = someone_claimed_culture_leader_two }
+			}
+		}
+		effect = {
+			set_global_flag = someone_claimed_culture_leader_two
+			hidden_effect = {
+				save_global_event_target_as = culture_leader_two
+			}
+			culture_leader_qualification_assessment = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	take_culture_leader_slot_three = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			culture_leader_assessment_trigger = yes
+			custom_trigger_tooltip = {
+				tooltip = someone_claimed_slot_tt
+				NOT = { has_global_flag = someone_claimed_culture_leader_three }
+			}
+		}
+		effect = {
+			set_global_flag = someone_claimed_culture_leader_three
+			hidden_effect = {
+				save_global_event_target_as = culture_leader_three
+			}
+			culture_leader_qualification_assessment = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	take_culture_leader_slot_four = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			culture_leader_assessment_trigger = yes
+			custom_trigger_tooltip = {
+				tooltip = someone_claimed_slot_tt
+				NOT = { has_global_flag = someone_claimed_culture_leader_four }
+			}
+		}
+		effect = {
+			set_global_flag = someone_claimed_culture_leader_four
+			hidden_effect = {
+				save_global_event_target_as = culture_leader_four
+			}
+			culture_leader_qualification_assessment = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	take_culture_leader_slot_five = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			culture_leader_assessment_trigger = yes
+			custom_trigger_tooltip = {
+				tooltip = someone_claimed_slot_tt
+				NOT = { has_global_flag = someone_claimed_culture_leader_five }
+			}
+		}
+		effect = {
+			set_global_flag = someone_claimed_culture_leader_five
+			hidden_effect = {
+				save_global_event_target_as = culture_leader_five
+			}
+			culture_leader_qualification_assessment = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	take_culture_leader_slot_six = {
+		potential = {
+			ai = yes
+		}
+		allow = {
+			culture_leader_assessment_trigger = yes
+			custom_trigger_tooltip = {
+				tooltip = someone_claimed_slot_tt
+				NOT = { has_global_flag = someone_claimed_culture_leader_six }
+			}
+		}
+		effect = {
+			set_global_flag = someone_claimed_culture_leader_six
+			hidden_effect = {
+				save_global_event_target_as = culture_leader_six
+			}
+			culture_leader_qualification_assessment = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

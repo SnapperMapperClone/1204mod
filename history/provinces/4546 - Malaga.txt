@@ -1,6 +1,6 @@
 #223 - Granada
-owner = MOR# Mustapha Sa'd King of Granada
-controller = MOR
+owner = AMO# Mustapha Sa'd King of Granada
+controller = AMO
 add_core = GRA
 culture = al_andalus_arabic
 religion = sunni
@@ -29,5 +29,5 @@ discovered_by = eastern
 1811.1.1 = { controller = SPA revolt = { size = 1 } }
 1812.10.1 = { controller = REB revolt = { type = pretender_rebels size = 1 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

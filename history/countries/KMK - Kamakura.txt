@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = shogunate
+government_rank = 3
+technology_group = chinese
+religion = shinto
+capital = 1020
+primary_culture = japanese
+
+1203.1.1 = {
+	monarch = {
+		name = "Tokimasa"
+		dynasty = "Hojo"
+		birth_date = 1138.1.1
+		death_date = 9999.1.1
+		adm = 4
+		dip = 6
+		mil = 4
+		regent = yes
+	}
+	
+	heir = {
+		name = "Sanetomo"
+		dynasty = "Minamoto"
+		birth_date = 1192.1.1
+		death_date = 9999.1.1
+		adm = 1
+		dip = 1
+		mil = 1
+	}
+}

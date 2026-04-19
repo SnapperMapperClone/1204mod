@@ -1,0 +1,10 @@
+can_make_state = {
+	condition = {
+		potential = {
+			owner = { has_country_flag = restricted_from_making_states }
+		}
+		allow = {
+			owner = { has_country_flag = can_now_make_states }
+		}
+	}
+}

@@ -1,0 +1,79 @@
+culture_leader_assessment_trigger = {
+    NOT = {
+        num_of_loans = 1
+    }
+    treasury = 2000
+    prestige = 50
+	OR = {
+        AND = {
+            NOT = {
+                average_home_autonomy = 5
+            }
+            stability = 2
+        }
+        AND = {
+            trade_income_percentage = 0.33
+            current_income_balance = 2.5
+            monthly_income = 50
+        }
+        AND = {
+            has_global_modifier_value = {
+                which = improve_relation_modifier
+                value = 0.5
+            }
+            diplomatic_reputation = 5
+            custom_trigger_tooltip = {
+                tooltip = have_6_subjects_and_allies
+                    variable_arithmetic_trigger = {
+                    export_to_variable = {
+                        variable_name = num_allies
+                        value = trigger_value:num_of_allies
+                        who = ROOT
+                    }
+                    export_to_variable = {
+                        variable_name = num_subjects
+                        value = trigger_value:num_of_subjects
+                        who = ROOT
+                    }
+                    change_variable = {
+                        which = num_allies
+                        which = num_subjects
+                    }
+                    check_variable = {
+                        which = num_allies
+                        value = 12
+                    }
+                }
+            }
+        }
+        AND = {
+            power_projection = 75
+            OR = {
+                has_global_modifier_value = {
+                    which = land_morale
+                    value = 0.25
+                }
+                has_global_modifier_value = {
+                    which = discipline
+                    value = 0.15
+                }
+            }
+        }
+    }
+    hidden_trigger = {
+        NOT = {
+            check_if_tag_is_culture_leader = yes
+        }
+    }
+}
+
+check_if_tag_is_culture_leader = {
+    OR = {
+		event_target:culture_leader_one = { tag = ROOT }
+		event_target:culture_leader_two = { tag = ROOT }
+		event_target:culture_leader_three = { tag = ROOT }
+		event_target:culture_leader_four = { tag = ROOT }
+		event_target:culture_leader_five = { tag = ROOT }
+		event_target:culture_leader_six = { tag = ROOT }
+	}
+}

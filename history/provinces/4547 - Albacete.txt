@@ -1,6 +1,6 @@
 #221 - Murcia
-owner = MOR# Juan II of Castille
-controller = MOR
+owner = AMO# Juan II of Castille
+controller = AMO
 culture = al_andalus_arabic
 religion = sunni
 base_tax = 2
@@ -22,4 +22,4 @@ discovered_by = ottoman
 1811.1.1 = { controller = SPA revolt = { size = 1 } }
 1812.10.1 = { controller = REB revolt = { type = pretender_rebels size = 1 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

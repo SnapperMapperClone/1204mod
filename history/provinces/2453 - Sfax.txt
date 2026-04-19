@@ -1,6 +1,6 @@
 # - Sfax
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = maghrebi_arabic
 religion = sunni
 capital = "Sfax"
@@ -24,4 +24,4 @@ discovered_by = ottoman
 1593.1.1 = { 
 	controller = TUN
 }
-add_core = MOR
+add_core = AMO

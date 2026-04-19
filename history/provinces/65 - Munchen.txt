@@ -3,10 +3,10 @@ owner = BAV
 controller = BAV
 culture = bavarian
 religion = catholic
-base_tax = 6
-base_production = 5
+base_tax = 5
+base_production = 4
 trade_goods = grain
-base_manpower = 4
+base_manpower = 3
 capital = "München"
 is_city = yes
 hre = yes
@@ -17,7 +17,6 @@ discovered_by = ottoman
 #Last of the Landshuter Wittelsbachs dies
 1503.12.1 = { 
 	controller = BAV
-	add_core = BAV
 }
 1632.1.1 = { base_tax = 5 base_production = 5 }
 1700.1.1 = { 

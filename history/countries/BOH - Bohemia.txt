@@ -12,6 +12,17 @@ change_estate_land_share = {
 	share = -5
 }
 
+1192.1.1 = {
+	monarch = {
+		name = "Ottokar I"
+		dynasty = "Premyslovci"
+		birth_date = 1361.2.26
+		adm = 2
+		dip = 2
+		mil = 0
+	}
+}
+
 1378.11.29 = {
 	monarch = {
 		name = "Václav IV"

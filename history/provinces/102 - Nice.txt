@@ -1,7 +1,7 @@
 #102 - Nice
 owner = PRO
 controller = PRO
-culture = occitain_sep
+culture = occitain
 religion = catholic
 hre = yes
 base_tax = 4

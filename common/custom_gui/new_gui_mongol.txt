@@ -1,0 +1,1311 @@
+custom_button = {
+    name = mongol_open_panel_button
+    potential = {
+        FROM = {
+			ai = no
+		}
+        has_global_flag = mongol_empire_proclaimed
+    }
+    trigger = {
+		always = yes
+	}
+    effect = { 
+		if = {
+            limit = {
+                has_country_flag = opened_mongol_panel
+            }
+            clr_country_flag = opened_mongol_panel
+        }
+        else = {
+            set_country_flag = opened_mongol_panel
+        }
+	}
+    tooltip = open_mongol_panel_tt
+}
+
+custom_button = {
+    name = mongol_empire_close_interface
+    potential = {
+        FROM = {
+			ai = no
+            has_country_flag = opened_mongol_panel
+		}
+    }
+    trigger = {
+		always = yes
+	}
+    effect = { 
+		if = {
+            limit = {
+                has_country_flag = opened_mongol_panel
+            }
+            clr_country_flag = opened_mongol_panel
+        }
+        else = {
+            set_country_flag = opened_mongol_panel
+        }
+	}
+    tooltip = close_mongol_panel_tt
+}
+
+custom_shield = {
+    name = mongol_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { ai = no has_country_flag = opened_mongol_panel }
+    trigger = { hidden_trigger = { always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = kha_mongol_empire # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+custom_icon = {
+    name = mongol_empire_bg
+    potential = { FROM = { ai = no has_country_flag = opened_mongol_panel } }
+}
+
+custom_icon = {
+    name = mongol_icon_in_frame
+    potential = { FROM = { ai = no has_country_flag = opened_mongol_panel } }
+}
+
+custom_text_box = {
+	name = mongol_imperial_reform
+	potential = { FROM = { ai = no has_country_flag = opened_mongol_panel } }
+}
+
+custom_text_box = {
+	name = mongol_empire_loc
+	potential = { FROM = { ai = no has_country_flag = opened_mongol_panel } }
+}
+
+
+
+custom_button = {
+    name = mongol_interaction_discipline_curricula
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		NOT = {
+            has_country_modifier = kha_discipline_curricula
+        }
+	}
+    effect = { 
+		add_mil_power = -100
+        add_country_modifier = {
+            name = kha_discipline_curricula
+            duration = 3650
+        }
+	}
+    tooltip = mongol_interaction_discipline_curricula_tt
+}
+custom_button = {
+    name = mongol_interaction_enforce_compliance
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		NOT = {
+            has_country_modifier = kha_enforced_compliance
+        }
+        any_owned_province = {
+            NOT = { has_owner_accepted_culture = yes }
+            base_manpower = 2
+            base_production = 2
+            base_tax = 2
+        }
+
+	}
+    effect = {
+        if = {
+            limit = {
+                calc_true_if = {
+                    amount = 10
+                    all_owned_province = {
+                        NOT = { has_owner_accepted_culture = yes }
+                        base_manpower = 2
+                        base_production = 2
+                        base_tax = 2
+                    }
+                }
+                NOT = {
+                    calc_true_if = {
+                        amount = 20
+                        all_owned_province = {
+                            NOT = { has_owner_accepted_culture = yes }
+                            base_manpower = 2
+                            base_production = 2
+                            base_tax = 2
+                        }
+                    }
+                }
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+        }
+        else_if = {
+            limit = {
+                calc_true_if = {
+                    amount = 20
+                    all_owned_province = {
+                        NOT = { has_owner_accepted_culture = yes }
+                        base_manpower = 2
+                        base_production = 2
+                        base_tax = 2
+                    }
+                }
+                NOT = {
+                    calc_true_if = {
+                        amount = 50
+                        all_owned_province = {
+                            NOT = { has_owner_accepted_culture = yes }
+                            base_manpower = 2
+                            base_production = 2
+                            base_tax = 2
+                        }
+                    }
+                }
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+        }
+		add_mil_power = -100
+        add_country_modifier = {
+            name = kha_enforced_compliance
+            duration = 3650
+        }
+        else = {
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+            random_owned_province = {
+                limit = {
+                    NOT = { has_owner_accepted_culture = yes }
+                    base_manpower = 2
+                    base_production = 2
+                    base_tax = 2
+                }
+                add_base_manpower = -1
+                add_base_production = -1
+                add_base_tax = -1
+            }
+        }
+	}
+    tooltip = mongol_interaction_enforce_compliance_tt
+}
+custom_button = {
+    name = mongol_interaction_locate_military_talent
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		NOT = {
+            has_country_modifier = kha_locating_military_talent
+        }
+	}
+    effect = { 
+		add_mil_power = -100
+        add_country_modifier = {
+            name = kha_locating_military_talent
+            duration = 3650
+        }
+	}
+    tooltip = mongol_interaction_locate_military_talent_tt
+}
+custom_button = {
+    name = mongol_interaction_requisition_manpower
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		NOT = {
+            has_country_modifier = kha_requisitioned_manpower
+        }
+	}
+    effect = { 
+		add_mil_power = -100
+        add_yearly_manpower = 2
+        add_country_modifier = {
+            name = kha_requisitioned_manpower
+            duration = 1825
+        }
+	}
+    tooltip = mongol_interaction_requisition_manpower_tt
+}
+custom_button = {
+    name = mongol_interaction_search_for_advisors
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		NOT = {
+            has_country_modifier = kha_requisitioned_manpower
+        }
+	}
+    effect = { 
+		add_adm_power = -100
+        random_list = {
+            10 = {
+                define_advisor = {
+                    type = treasurer
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            20 = {
+                define_advisor = {
+                    type = natural_scientist
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            10 = {
+                define_advisor = {
+                    type = master_of_mint
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            10 = {
+                define_advisor = {
+                    type = statesman
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            20 = {
+                define_advisor = {
+                    type = trader
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            10 = {
+                define_advisor = {
+                    type = diplomat
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            10 = {
+                define_advisor = {
+                    type = grand_captain
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            20 = {
+                define_advisor = {
+                    type = recruitmaster
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+            10 = {
+                define_advisor = {
+                    type = commandant
+                    skill = 2
+                    cost_multiplier = 0.5
+                }
+            }
+        }
+	}
+    tooltip = mongol_interaction_search_for_advisors_tt
+}
+
+custom_button = {
+    name = mongol_interaction_expand_administration
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 200
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        custom_trigger_tooltip = {
+            tooltip = can_do_this_once_every_10_years
+            OR = {
+                NOT = { has_country_flag = just_expanded_mongol_administration }
+                had_country_flag = {
+                    flag = just_expanded_mongol_administration
+                    days = 3650
+                }
+            }
+        }
+		NOT = {
+            has_country_modifier = kha_expand_adm_x
+        }
+	}
+    effect = { 
+		add_adm_power = -200
+        clr_country_flag = just_expanded_mongol_administration
+        set_country_flag = just_expanded_mongol_administration
+        if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_i
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_i
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_ii
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_ii
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_iii
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_iii
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_iv
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_iv
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_v
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_v
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_vi
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_vi
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_vii
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_vii
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_viii
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_viii
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = {
+                    has_country_modifier = kha_expand_adm_ix
+                }
+            }
+            add_country_modifier = {
+                name = kha_expand_adm_ix
+                duration = -1
+            }
+        }
+        else = {
+            add_country_modifier = {
+                name = kha_expand_adm_ix
+                duration = -1
+            }
+        }
+	}
+    tooltip = mongol_interaction_expand_administration_tt
+}
+
+custom_button = {
+    name = mongol_reform_yam_system
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		NOT = {
+            has_country_modifier = kha_yam_system
+        }
+	}
+    effect = { 
+		add_adm_power = -100
+        add_stability = -1
+        add_country_modifier = {
+            name = kha_yam_system
+            duration = -1
+        }
+	}
+    tooltip = mongol_reform_yam_system_tt
+}
+custom_button = {
+    name = mongol_reform_familial_partitions
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 100
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        has_country_modifier = kha_yam_system
+		NOT = {
+            has_country_modifier = kha_familial_partition
+        }
+	}
+    effect = { 
+		add_adm_power = -100
+        add_stability = -1
+        add_country_modifier = {
+            name = kha_familial_partition
+            duration = -1
+        }
+	}
+    tooltip = mongol_reform_familial_partitions_tt
+}
+custom_button = {
+    name = mongol_reform_education_of_bureaucrats
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 200
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        has_country_modifier = kha_familial_partition
+		NOT = {
+            has_country_modifier = kha_education_of_bureaucrats
+        }
+	}
+    effect = { 
+		add_adm_power = -200
+        add_stability = -2
+        add_country_modifier = {
+            name = kha_education_of_bureaucrats
+            duration = -1
+        }
+	}
+    tooltip = mongol_reform_education_of_bureaucrats_tt
+}
+custom_button = {
+    name = mongol_reform_administrative_integration
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 200
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        has_country_modifier = kha_education_of_bureaucrats
+		NOT = {
+            has_country_modifier = kha_administrative_integration
+        }
+	}
+    effect = { 
+		add_adm_power = -200
+        add_stability = -2
+        add_country_modifier = {
+            name = kha_administrative_integration
+            duration = -1
+        }
+	}
+    tooltip = mongol_reform_administrative_integration_tt
+}
+custom_button = {
+    name = mongol_reform_formalize_religious_tolerance
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 300
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        has_country_modifier = kha_administrative_integration
+		NOT = {
+            has_country_modifier = kha_formalized_religious_tolerance
+        }
+	}
+    effect = { 
+		add_adm_power = -300
+        add_stability = -3
+        add_country_modifier = {
+            name = kha_formalized_religious_tolerance
+            duration = -1
+        }
+	}
+    tooltip = mongol_reform_formalize_religious_tolerance_tt
+}
+custom_button = {
+    name = mongol_reform_standardized_administration
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 300
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        has_country_modifier = kha_formalized_religious_tolerance
+		NOT = {
+            has_country_modifier = kha_formalized_religious_tolerance
+        }
+	}
+    effect = { 
+		add_adm_power = -300
+        add_stability = -3
+        custom_tooltip = can_now_make_states_tt
+        set_country_flag = can_now_make_states
+	}
+    tooltip = mongol_reform_standardized_administration_tt
+}
+
+custom_button = {
+    name = mongol_reform_assertive_diplomacy
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        dip_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = assertive_diplomacy_flag
+            }
+        }
+	}
+    effect = { 
+		add_dip_power = -100
+        add_stability = -1
+        custom_tooltip = can_use_mongol_cb
+        set_country_flag = assertive_diplomacy_flag
+	}
+    tooltip = mongol_reform_assertive_diplomacy_tt
+}
+custom_button = {
+    name = mongol_reform_enfeoffment_negotiation
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        dip_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = assertive_diplomacy_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = enfeoffment_negotiation_flag
+            }
+        }
+	}
+    effect = { 
+		add_dip_power = -100
+        add_stability = -1
+        custom_tooltip = can_negotiate_subordination
+        set_country_flag = enfeoffment_negotiation_flag
+	}
+    tooltip = mongol_reform_enfeoffment_negotiation_tt
+}
+custom_button = {
+    name = mongol_reform_convert_subject_types
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        dip_power = 200
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = enfeoffment_negotiation_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = convert_subject_types_flag
+            }
+        }
+	}
+    effect = { 
+		add_dip_power = -200
+        add_stability = -2
+        custom_tooltip = can_convert_subject_types_to_integrated_administrations_tt
+        set_country_flag = convert_subject_types_flag
+	}
+    tooltip = mongol_reform_convert_subject_types_tt
+}
+custom_button = {
+    name = mongol_reform_foreign_tolerance
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        dip_power = 200
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        has_country_flag = convert_subject_types_flag
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_foreign_tolerance_flag
+            }
+        }
+	}
+    effect = { 
+		add_dip_power = -200
+        add_stability = -2
+        set_country_flag = mongol_foreign_tolerance_flag
+        add_country_modifier = {
+            name = kha_foreign_tolerance
+            duration = -1
+        }
+	}
+    tooltip = mongol_reform_foreign_tolerance_tt
+}
+custom_button = {
+    name = mongol_reform_cultural_hybridization
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        dip_power = 300
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = convert_subject_types_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_cultural_hybridization_flag
+            }
+        }
+	}
+    effect = {
+		add_dip_power = -300
+        add_stability = -3
+        custom_tooltip = will_merge_cultures_into_main
+        hidden_effect = {
+            every_owned_province = {
+                limit = {
+                    culture_group = altaic
+                }
+                change_culture = ROOT
+            }
+        }
+        custom_tooltip = can_merge_cultures_tt
+        set_country_flag = mongol_cultural_hybridization_flag
+	}
+    tooltip = mongol_reform_cultural_hybridization_tt
+}
+custom_button = {
+    name = mongol_reform_first_among_equals
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        dip_power = 300
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_cultural_hybridization_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_first_among_equals_flag
+            }
+        }
+	}
+    effect = {
+		add_dip_power = -300
+        add_stability = -3
+        add_country_modifier = {
+            name = kha_first_among_equals
+            duration = -1
+        }
+        set_country_flag = mongol_first_among_equals_flag
+	}
+    tooltip = mongol_reform_first_among_equals_tt
+}
+
+custom_button = {
+    name = mongol_reform_decimal_organization
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_decimal_organization_flag
+            }
+        }
+	}
+    effect = {
+		add_mil_power = -100
+        add_stability = -1
+        add_country_modifier = {
+            name = kha_decimal_organization
+            duration = -1
+        }
+        set_country_flag = mongol_decimal_organization_flag
+	}
+    tooltip = mongol_reform_decimal_organization_tt
+}
+custom_button = {
+    name = mongol_reform_extensive_conscription
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_decimal_organization_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_extensive_conscription_flag
+            }
+        }
+	}
+    effect = {
+		add_mil_power = -100
+        add_stability = -1
+        add_country_modifier = {
+            name = kha_extensive_conscription
+            duration = -1
+        }
+        set_country_flag = mongol_extensive_conscription_flag
+	}
+    tooltip = mongol_reform_extensive_conscription_tt
+}
+custom_button = {
+    name = mongol_reform_general_couriers
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 200
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_extensive_conscription_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_general_couriers_flag
+            }
+        }
+	}
+    effect = {
+		add_mil_power = -200
+        add_stability = -2
+        add_country_modifier = {
+            name = kha_general_couriers
+            duration = -1
+        }
+        set_country_flag = mongol_general_couriers_flag
+	}
+    tooltip = mongol_reform_general_couriers_tt
+}
+custom_button = {
+    name = mongol_reform_infantry_reform
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 200
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_infantry_reform_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_infantry_reform_flag
+            }
+        }
+	}
+    effect = {
+		add_mil_power = -200
+        add_stability = -2
+        add_country_modifier = {
+            name = kha_infantry_reform
+            duration = -1
+        }
+        set_country_flag = mongol_infantry_reform_flag
+	}
+    tooltip = mongol_reform_infantry_reform_tt
+}
+custom_button = {
+    name = mongol_reform_formalized_navy
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 300
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_infantry_reform_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_formal_navy_flag
+            }
+        }
+	}
+    effect = {
+		add_mil_power = -300
+        add_stability = -3
+        add_country_modifier = {
+            name = kha_formal_navy
+            duration = -1
+        }
+        set_country_flag = mongol_formal_navy_flag
+	}
+    tooltip = mongol_reform_formalized_navy_tt
+}
+custom_button = {
+    name = mongol_reform_eastward_exploration
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        mil_power = 300
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_formal_navy_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_eastward_expansion_flag
+            }
+        }
+	}
+    effect = {
+		add_mil_power = -300
+        add_stability = -3
+        add_country_modifier = {
+            name = kha_formal_navy
+            duration = -1
+        }
+        set_country_flag = mongol_eastward_expansion_flag
+	}
+    tooltip = mongol_reform_eastward_exploration_tt
+}
+
+
+custom_button = {
+    name = mongol_reform_silk_road_legislation
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 100
+        dip_power = 100
+        mil_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_silk_road_flag
+            }
+        }
+        OR = {
+            owns_core_province = 1816
+            owns_core_province = 1821
+        }
+        owns_core_province = 707
+        owns_core_province = 739
+        owns_core_province = 454
+        owns_core_province = 428
+	}
+    effect = {
+        add_adm_power = -100
+        add_dip_power = -100
+		add_mil_power = -100
+        add_stability = -3
+        add_country_modifier = {
+            name = kha_silk_road_legislation
+            duration = -1
+        }
+        set_country_flag = mongol_silk_road_flag
+	}
+    tooltip = mongol_reform_silk_road_legislation_tt
+}
+custom_button = {
+    name = mongol_reform_imperial_trade_policies
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 100
+        dip_power = 100
+        mil_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_silk_road_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_three_times_tt
+            NOT = {
+                has_country_modifier = kha_trade_policy_iii
+            }
+        }
+        num_of_cities = 200
+	}
+    effect = {
+        add_adm_power = -200
+        add_dip_power = -200
+		add_mil_power = -200
+        add_stability = -2
+        if = {
+            limit = {
+                NOT = { has_country_modifier = kha_trade_policy_i }
+            }
+            add_country_modifier = {
+                name = kha_trade_policy_i
+                duration = -1
+            }
+        }
+        else_if = {
+            limit = {
+                NOT = { has_country_modifier = kha_trade_policy_ii }
+            }
+            add_country_modifier = {
+                name = kha_trade_policy_ii
+                duration = -1
+            }
+        }
+        else = {
+            add_country_modifier = {
+                name = kha_trade_policy_iii
+                duration = -1
+            }
+        }
+        set_country_flag = mongol_trade_policies_flag
+	}
+    tooltip = mongol_reform_imperial_trade_policies_tt
+}
+custom_button = {
+    name = mongol_reform_mongol_peace
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 300
+        dip_power = 300
+        mil_power = 300
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_trade_policies_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_peace_flag
+            }
+        }
+        NOT = {
+            great_power_rank = 2
+        }
+	}
+    effect = {
+        add_adm_power = -300
+        add_dip_power = -300
+		add_mil_power = -300
+        add_stability = -1
+        add_country_modifier = {
+            name = kha_mongol_peace
+            duration = -1
+        }
+        set_country_flag = mongol_peace_flag
+	}
+    tooltip = mongol_reform_mongol_peace_tt
+}
+custom_button = {
+    name = mongol_reform_permanent_kurultai
+    potential = {
+        FROM = { ai = no has_country_flag = opened_mongol_panel }
+    }
+    trigger = {
+        adm_power = 100
+        dip_power = 100
+        mil_power = 100
+        stability = 0
+        custom_trigger_tooltip = {
+            tooltip = proclaimed_mongol_empire_tt
+            has_country_flag = proclaimed_mongol_empire
+        }
+        hidden_trigger = {
+            has_country_flag = mongol_peace_flag
+        }
+		custom_trigger_tooltip = {
+            tooltip = cannot_use_this_interaction_more_than_once_tt
+            NOT = {
+                has_country_flag = mongol_permanent_kurultai_flag
+            }
+        }
+	}
+    effect = {
+        add_adm_power = -100
+        add_dip_power = -100
+		add_mil_power = -100
+        add_stability = -3
+        country_event = {
+            id = mongol_empire.1
+        }
+        set_country_flag = mongol_permanent_kurultai_flag
+	}
+    tooltip = mongol_reform_permanent_kurultai_tt
+}

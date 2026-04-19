@@ -1,0 +1,15 @@
+add_core = BUR
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = BUR
+base_tax = 4
+base_manpower = 3
+base_production = 4
+culture = burgundian
+trade_goods = wine
+religion = catholic
+controller = BUR
+is_city = yes
+capital = "Mâcon"

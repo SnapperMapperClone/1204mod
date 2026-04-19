@@ -46,9 +46,10 @@ categories =  {
 		sound_type = desert
 
 		defence = 1
-		movement_cost = 1.25
+		movement_cost = 2.0
 		supply_limit = 2		
-		local_development_cost = 0.5
+		local_development_cost = 1
+		local_governing_cost = 1
 		nation_designer_cost_multiplier = 0.75		
 		
 		terrain_override = {		
@@ -62,22 +63,23 @@ categories =  {
 		type = plains
 		sound_type = plains
 
-		movement_cost = 1.10
-		local_development_cost = -0.05
+		movement_cost = 1
+		local_development_cost = -0.1
 		supply_limit = 10
+		local_governing_cost = -0.1
 		allowed_num_of_buildings = 1
 		nation_designer_cost_multiplier = 1.05
 		
 		terrain_override = {
-			104 109 108 1744 1865
+			104 109 1744 1865
 			
 			45 44 1874 113 172 
 			
-			161 2998 160 125
+			161 2998 160
 			
 			506 507 510 522 523 524 532 540 555 556 558 561 563 2026 2044 2045 2047 2060 2063 2075 2095
 			
-			115 117 118 121 1862
+			115 118 1862
 			
 			
 			916 917 920 925 930 2532
@@ -88,28 +90,28 @@ categories =  {
 			
 			613 2380
 			
-			169 177 180 1879 167 183 192 191 1877 200 2753 
+			169 177 180 1879 167 183 191 200 2753 
 			
-			1868 68 77 70 65 78 1841 266 
+			1868 68 77 65 78 1841 266 
 			255 254 258 259 260 134 151 152 1767 1954 150 268 280 1876
 			
-			 243 245 248 
+			243 245 248 
 			410 415 2310
 			
-			186 90 92 88 182 12 14 6 289 2407 290 279 4538
+			90 92 88 182 12 14 6 289 2407 290 279 4538
 			
 			695 696 1816 2137 690 691 2138 2139 2140 685 1821 1822 2141 2142 2145 1838 2143 2144  
 			684 2148 2149 2150 687 688 692 1836 2175 2176 671 672 682 683 2151 2172 679
 			665 667 2156 2157 2159 2163 700
 			
-			 2312 257 2033 148
-			64 2955 2957 267 2979 2980 2981
+			2312 257 2033 148
+			64 2955 2957 2979 2981
 			
 			#Sorted from here:
 			
-			4384 4388 4390 4392 #France
+			4384 4388 4390 #France
 			
-			43 97 98 100 4382 4383 #Netherlands
+			43 98 #Netherlands
 			
 			234 235 236 238 4367 4368 4371 4375 #British isles
 			
@@ -131,7 +133,10 @@ categories =  {
 			4831 4832 # Mandala
 
 			2774 2775 2794 2796 #South Somalia
-		}		
+
+			#new
+			5006 5008 5009 178 4389 5011 186 192 5028 114 4730 85 69 86 75 4728 1933 4729
+		}		 
 	}
 	
 	forest = {
@@ -140,10 +145,11 @@ categories =  {
 		type = forest
 		sound_type = forest
 		
-		movement_cost = 1.25
+		movement_cost = 2
 		defence = 1
 		supply_limit = 4
-		local_development_cost = 0.2
+		local_development_cost = 0.33
+		local_governing_cost = 0.5
 		nation_designer_cost_multiplier = 0.9
 		
 		terrain_override = { 
@@ -167,18 +173,19 @@ categories =  {
 		type = hills
 		sound_type = mountains
 
-		movement_cost = 1.40
-		defence = 1
-		local_defensiveness = 0.1
+		movement_cost = 1.5
+		defence = 2
+		local_defensiveness = 0.25
 		local_development_cost = 0.25
+		local_governing_cost = 0.33
 		nation_designer_cost_multiplier = 0.85
-		supply_limit = 5
+		supply_limit = 4
 		
 		terrain_override = {
 			508 509 511 515 525 527 530 545 550 554 557 1947 2036 
 			2037 2040 2043 2056 2058 2069 2070 2071 2080 2090 2092 2097
 			
-			105 106 107 111 1774 1844 1746 4739
+			105 106 107 1844 4739
 			
 			1827 63
 			
@@ -192,16 +199,16 @@ categories =  {
 			2299 318
 			2606 2658
 			
-			193 201 102 198 176 196 203 325
+			193 176 325
 			101
 			140 1828
-			123 1934 116 119 1848
+			1934 1848
 			
 			669 670 681 686 1824 1829 1833 1840
 			2146 2147 2152 2153 2158 2171 2173 2174 
 			652 657 658 2697 2698 2701 
 			
-			2965 2976 2977 2978 2983 2984 2991 3002
+			2965 2976 3002
 			242 4366 #British Isles
 			250 251 4361 4362 4363 #Scotland
 			1792 4023 #Madagascar
@@ -216,18 +223,20 @@ categories =  {
 			4449 4483 4484 4485 4491 4492 4493 4511 #North India
 			521 548 559 740 4430 4434 4453 4459 4462 4465 4466 4467 4480 4500 #Central India
 			518 529 531 533 538 1949 2027 2030 2032 2083 2089 4414 4420 4425 4426 4427 4429 #South India
-			4552 # new for 1.28
 			2479 # Changed for 1.28
-			2992 4694 4695 4696 4777 # France and Italy 1.30
+			4696 4777 # France and Italy 1.30
 			4307 4702 4705 4779 # 1.30 Greece and Bulgaria
-			2956 4707 4715 4744 #Germany
-			4761 1770 #Austria
+			2956 4707 4744 #Germany
+			4761 #Austria
 			137 4753 # Balkans
 			4764 # Salins
 			1106 1108 2738 4939 # NZ
 			4840 # Mandala
 			
-			4856
+			4856 4958
+			
+			#new
+			94 5015 181 80 4767 93 1866 5017 199 5025 4391 209 4554 231 4558 4555 4719 108 2980 4734 4774 4718 74 4714 121 4732 125 4721 5029
 		}
 	}
 
@@ -238,14 +247,15 @@ categories =  {
 		type = forest
 		sound_type = forest
 
-		movement_cost = 1.10
+		movement_cost = 1.25
 		defence = 1
 		local_development_cost = 0.15
+		local_governing_cost = 0.1
 		nation_designer_cost_multiplier = 0.9
 		supply_limit = 6
 		
 		terrain_override = {
-			206 1851 # Spain
+			1851 # Spain
 			374 375 376 4118 4119 4120 4121 #Ireland
 			129 4755 4757 4703 # Balkans
 			968 970
@@ -267,8 +277,8 @@ categories =  {
 			99 95
 			1834 37 273 271 272 770 275 771 311 1960 274 34 310 1752 1959 
 			
-			40 41 1938 256 261 2424 316 317 175 173 174 194 195 190 178 184 187 
-			181 1866 94 93 188 189 1880 72 69 1761 66 63 80 1760 83 81 1762 1742 1878 85 84 86
+			40 41 1938 256 261 2424 316 317 175 173 174 194 195 190 184 187 
+			188 1880 72 66 63 1760 83 81 1762 1742 1878 84
 			56 1758 82 
 			53 1857 46 52 51 50 1759 47 48 49 1763 60 61 59 
 			57 38 296 297 1945 298 239 372 247 1863 3 2 1985 2749 1753 307 1956 1754 
@@ -287,35 +297,38 @@ categories =  {
 			1014 1027 1819 1835 4181 4182 4184 4186 4189 #Japan
 			4127 4241 4242 4243 4251 4252 4253 4254 4260 4266 #Eastern Europe
 			240 244 4372 4377 4378 4379 4380 #Britain
-			4381 4387 4389 #France & Low Countries
+			4381 4387 #France & Low Countries
 			4541 4537 4535 2963 4544 4543 4524 # New PLC provinces
-			4555 4558 # new iberia provinces 1.28
 			# 1.29 Manchu
 			4658 4659 4660 4654 4663
 			4697 # France 1.30
-			4713 4716 4717 4747 4749 4748 4741 4742 4743 4772 4773 4774 4775 4746 #Germany
+			4713 4716 4717 4747 4749 4748 4741 4742 4743 4772 4773 4775 4746 #Germany
 			128 1769 4751 #Austria
-			4766 4767 4768 4770
+			4766 4768 4770
 			
 			4853 4852 4864
+
+			#new
+			5001 5002 5010 5014 5016 4695 5019 5022 5023 203 196 4556 2982 119 116 117 127 2986 1770 1771 4726 4237 263 154 4709 267 2985 4736 4737 70 4720
 		}
 	}
 	
 	mountain = {
-		color = { 105 24 4 }
+		color = { 35 35 35 }
 
 		type = mountains
 		sound_type = mountains
 
-		movement_cost = 1.5
-		defence = 2
-		local_defensiveness = 0.25
-		local_development_cost = 0.35
+		movement_cost = 3.0
+		defence = 3
+		local_defensiveness = 0.5
+		local_development_cost = 0.5
 		nation_designer_cost_multiplier = 0.75
-		supply_limit = 4
+		local_governing_cost = 0.5
+		supply_limit = 2
 		
 		terrain_override = {
-			210	226 # Spain
+			226 # Spain
 			139 1831 143 138 4175  #Balkans
 			158 1952 #Hungary
 			4236 #Slovakia
@@ -336,7 +349,7 @@ categories =  {
 			2371 2381 330 4178
 			785 
 			2564
-			204 199 
+			204
 			1853 144
 			124
 			2305 331 2306 
@@ -370,6 +383,10 @@ categories =  {
 			
 			#1.37
 			2838 #tarija
+			4694
+
+			#new
+			5024 5027 198 2991 102 2992 4551 1745 4731 2983 2984 123 2977 2978 1318 2755 4789 4778 228 207
 		}
 	}
 
@@ -396,7 +413,7 @@ categories =  {
 		
 		terrain_override = {
 			2666 # North America
-			213 218 219 #Spain
+			213 #Spain
 			526 #India
 			417 4341 #Iran
 			593 2376 2391 2394  #Sout East Asia
@@ -405,7 +422,7 @@ categories =  {
 
 			373 # Ireland			
 					
-			149 1747 229
+			149 1747
 			1943 1942 131
 			
 			516 517 539 543 552 549 562 572 1948 2046 2055 2057 2059 2061 2062 2081 
@@ -423,7 +440,7 @@ categories =  {
 			890 891 901 903 2016 2511 2598 2602 
 			1177 2850
 			
-			71 79 96
+			71 79
 			1086
 			1859
 			1967
@@ -442,7 +459,10 @@ categories =  {
 			
 			4858 4857 2735 1090
 			
-			4948 4949 # new mod provinces
+			4948 4949 4955 4956 4959 # new mod provinces
+
+			#zyp
+			5020 189 192 4392 1877 206 201 1774 111 1875 1761 4715 208 4553 216
 		}
 	}
 
@@ -452,9 +472,10 @@ categories =  {
 		type = jungle
 		sound_type = jungle
 
-		movement_cost = 1.5
+		movement_cost = 3
 		defence = 1
-		local_development_cost = 0.35
+		local_development_cost = 0.5
+		local_governing_cost = 1
 		nation_designer_cost_multiplier = 0.8
 		supply_limit = 5
 		
@@ -498,6 +519,7 @@ categories =  {
 		defence = 1
 		local_development_cost = 0.25
 		nation_designer_cost_multiplier = 0.85
+		local_governing_cost = 0.25
 		supply_limit = 5
 
 		terrain_override = {
@@ -517,7 +539,10 @@ categories =  {
 			462 #Caucasus
 			362 #Egypt
 			2702 #Philippines
-			4706 # 1.30 Greece and Bulgaria
+			4706 4957 # 1.30 Greece and Bulgaria
+
+			#new
+			5021 97 96 100 4382 4383
 		}
 	}
 	
@@ -528,8 +553,9 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.05
-		supply_limit = 4
-		local_development_cost = 0.50
+		supply_limit = 2
+		local_development_cost = 1
+		local_governing_cost = 1
 		nation_designer_cost_multiplier = 0.8
 		
 		terrain_override = {
@@ -557,8 +583,9 @@ categories =  {
 		sound_type = desert
 
 		movement_cost = 1.0
-		local_development_cost = 0.35
-		nation_designer_cost_multiplier = 0.9		
+		local_development_cost = 0.5
+		nation_designer_cost_multiplier = 0.9
+		local_governing_cost = -0.1
 		supply_limit = 4
 
 		terrain_override = {
@@ -585,9 +612,10 @@ categories =  {
 		sound_type = sea
 
 		movement_cost = 1.0
-		local_development_cost = 0.15
+		local_development_cost = 0.3
 		nation_designer_cost_multiplier = 0.85		
-		supply_limit = 6 
+		local_governing_cost = -0.1
+		supply_limit = 6
 		
 		terrain_override = {
 			957 962 2554 2561 2578 #n am
@@ -612,6 +640,8 @@ categories =  {
 			4815 # Mandala
 			
 			2728
+			
+			4952 4953 # New mod provinces
 		}
 	}	
 	
@@ -624,13 +654,14 @@ categories =  {
 		movement_cost = 1.00
 		local_development_cost = 0.05
 		nation_designer_cost_multiplier = 0.95
+		local_governing_cost = 0.15
 		supply_limit = 7
 		allowed_num_of_buildings = 1
 
 		terrain_override = {
 			1749 224
-			221 1750 220 214 
-			1748 2754
+			221 220 214 
+			2754
 			225
 			2297 327 2313 411 2199 2208 464 4314 2300 4308 4309 #Turkey and Caucasus
 			420 421 425 2203 2307 4307 #Caucasus
@@ -656,10 +687,13 @@ categories =  {
 			379 381 382 406 412 430 431 1854 1855 2219 2314 4292 4297 4298 #Levant
 			1222 4040 #Central Africa
 			4411 4421 4435 4437 4454 4455 4456 4463 4503 4504 4505 4509 #India
-			4549 4562 4563 4564 4547 4557# new provinces 1.28
+			4562 4563 4564 4557# new provinces 1.28
 			4628 4630 # new provinces Mesoamerica 1.28
 			
 			2736 4863 4861 4855 1094 2733
+
+			#new
+			215 2751 219 218 2755 2988 2989 4552 5031 1746 229
 		}
 	}
 
@@ -671,9 +705,10 @@ categories =  {
 		
 		supply_limit = 6
 		movement_cost = 1.40
-		defence = 1
-		local_defensiveness = 0.1
-		local_development_cost = 0.2
+		defence = 2
+		local_defensiveness = 0.25
+		local_development_cost = 0.33
+		local_governing_cost = 0.33
 		nation_designer_cost_multiplier = 0.9	
 
 		terrain_override = {
@@ -687,7 +722,7 @@ categories =  {
 			2303
 			2478 2489 2504 	 
 			252 784 2946 823
-			1773 127 1247
+			1773 1247
 			1766
 			319 2298 
 			371 163 321
@@ -702,16 +737,17 @@ categories =  {
 			798 4053 4055 4056 4057 4059 4067 4073 4077 4084 4100 4101 4103 #Africa
 			4110 #Scotland
 			23 24 370 2752 #Norway
-			154 162 263 1318 2960 2968 2970 4238 #Central Europe
-			216 228 2755 2989 #Iberia
+			162 2960 2968 2970 4238 #Central Europe
 			323 2202 4299 4305 #Anatolia and Caucasus
 			736 1047 4228  #Korea & Manchuria
-			2986 4391 #Italy & France
 			4406 4398 # Burma
 			4422 4436 4464 #Central India
-			4561 4566 4553 # new provinces 1.28
+			4561 4566 # new provinces 1.28
 			4669 4701 4699 4780 # 1.30 Greece and Bulgaria
-			4946 4947 # new mod provinces
+			4946 4947 4951 4954 4960 # new mod provinces
+
+			#new
+			1748 4547 217 2990 4549 4788 5032 4550 1750 210
 		}
 	}
 

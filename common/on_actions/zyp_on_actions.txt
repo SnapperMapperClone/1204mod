@@ -1,0 +1,68 @@
+on_startup = {
+	if = {
+		limit = {
+			NOT = { has_global_flag = game_started }
+		}
+		set_global_flag = game_started
+
+		every_province = {
+			limit = {
+				superregion = china_superregion
+				culture_group = east_asian
+				OR = {
+					has_terrain = farmlands
+					has_terrain = mountain
+					has_terrain = hills
+					has_terrain = jungle
+				}
+				NOT = {
+					area = taiwan_area
+				}
+			}
+
+			add_province_triggered_modifier = chi_reduced_cost_imperial_modifier
+		}
+		KHA = {
+			save_global_event_target_as = kha_mongol_empire
+		}
+	}
+}
+
+on_main_war_lost = {
+	if = {
+		limit = {
+			NOT = { prestige = 0 }
+			check_if_tag_is_culture_leader = yes
+		}
+		remove_culture_leader = yes
+	}
+}
+
+
+on_monarch_death = {
+	if = {
+		limit = {
+			has_country_flag = baldwin_of_flanders
+		}
+		every_country = {
+			limit = {
+				has_country_flag = baldwin_of_flanders
+			}
+			clr_country_flag = baldwin_of_flanders
+			kill_ruler = yes
+		}
+	}
+
+	if = {
+		limit = {
+			has_country_flag = innocent_iii
+		}
+		every_country = {
+			limit = {
+				has_country_flag = innocent_iii
+			}
+			clr_country_flag = innocent_iii
+			kill_ruler = yes
+		}
+	}
+}

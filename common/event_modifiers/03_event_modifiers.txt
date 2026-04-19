@@ -42,3 +42,21 @@ fall_of_rum = {
 	prestige = 1
 	global_missionary_strength = 0.015
 }
+
+georgios_gemistos_plethon = {
+	technology_cost = -0.1
+	idea_cost = -0.15
+	development_cost = -0.2
+}
+
+wls_march_of_glory = {
+	core_creation = -0.2
+	stability_cost_modifier = -0.1
+	movement_speed = 0.10
+}
+
+eng_force_into_a_conflict = {
+	land_morale = -0.1
+	recover_army_morale_speed = -0.10
+	reinforce_speed = -0.10	
+}

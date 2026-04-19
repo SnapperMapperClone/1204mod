@@ -182,6 +182,51 @@ country_decisions = {
 				every_owned_province = {
 					limit = {
 						culture_group = ROOT
+						region = caucasia_region
+					}
+					change_culture = caucaso_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						OR = {
+							region = persia_region
+							region = khorasan_region
+						}
+						NOT = {
+							OR = {
+								province_id = 415
+								province_id = 4293
+								province_id = 4294
+							}
+						}
+					}
+					change_culture = perso_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						superregion = india_superregion
+					}
+					change_culture = indo_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						region = scandinavia_region
+					}
+					change_culture = skanzo_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
+						region = central_asia_region
+					}
+					change_culture = scytho_roman
+				}
+				every_owned_province = {
+					limit = {
+						culture_group = ROOT
 						OR = {
 							region = north_german_region
 							region = south_german_region
@@ -211,9 +256,12 @@ country_decisions = {
 								region = maghreb_region
 								region = mashriq_region
 								region = anatolia_region
-								province_id = 415
-								province_id = 4293
-								province_id = 4294
+								region = caucasia_region
+								region = persia_region
+								region = khorasan_region
+								region = scandinavia_region
+								region = central_asia_region
+								superregion = india_superregion
 							}
 						}
 					}

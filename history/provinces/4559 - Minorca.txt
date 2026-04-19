@@ -1,6 +1,6 @@
 #Minorca
-owner = MOR# Alfons V of Aragon
-controller = MOR
+owner = AMO# Alfons V of Aragon
+controller = AMO
 add_core = MJO
 culture = al_andalus_arabic
 religion = sunni
@@ -22,4 +22,4 @@ discovered_by = ottoman
 1523.3.8 = { controller = SPA revolt = { size = 1 } }
 1713.1.1 = { controller = GBR add_core = GBR }
 1782.1.1 = { controller = SPA }
-add_core = MOR
+add_core = AMO

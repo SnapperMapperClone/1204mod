@@ -12,12 +12,8 @@ country_event = {
  		name = prince.1.a
 		add_country_modifier = {
 			name = prince_of_wales
-			duration = 14600
+			duration = -1
 	   	}
-		country_event = {
-			id = prince_of_wales.2
-			days = 14601
-		}
 	}
 }
 

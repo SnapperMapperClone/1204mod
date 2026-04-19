@@ -1,12 +1,10 @@
 #Narva
-
 owner = VIR
 controller = VIR
 add_core = VIR
 culture = estonian
-religion = catholic
-hre = no
-base_tax = 2 
+religion = finnish_pagan_reformed
+base_tax = 2
 base_production = 2
 trade_goods = grain
 base_manpower = 1
@@ -19,24 +17,13 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-
-
-1542.1.1 = { religion = protestant} # Unknown date
-1558.5.11 = {
-	owner = RUS
+1542.1.1 = { religion = protestant }
+1558.5.11 = { 
 	controller = RUS
 	add_core = RUS
-	remove_core = LIV
-} # Russian conquest
-1581.1.1 = {
-	owner = SWE
+}
+1581.1.1 = { 
 	controller = SWE
 	add_core = SWE
-	remove_core = RUS
-} # Swedish conquest
-1704.8.9 = { controller = RUS } # Second Battle of Narva
-1721.8.30 = {
-	owner = RUS
-	add_core = RUS
-	remove_core = SWE
-} # The Peace of Nystad
+}
+1704.8.9 = { controller = RUS }

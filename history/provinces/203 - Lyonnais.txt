@@ -1,10 +1,10 @@
 # 203 Lyonnais - Principal cities: Lyon
-owner = DAU
-controller = DAU
+owner = LYN
+controller = LYN
 capital = "Lyon"
 is_city = yes
-culture = occitain_sep
-religion = catholic
+culture = arpitan
+religion = waldensian
 base_tax = 6
 base_production = 6
 trade_goods = paper#Great printing industry form the 15th century and french center of paperproduction in Ambert close by (even though not the main trade good for that province).
@@ -29,6 +29,6 @@ center_of_trade = 2
 	fort_17th = no
 	fort_18th = yes
 }
-add_core = DAU
-fort_15th = yes
 hre = yes
+add_core = LYN
+fort_15th = yes

@@ -1,0 +1,579 @@
+custom_button = {
+    name = open_culture_leader_opener_button
+    potential = {
+        FROM = {
+			ai = no
+		}
+    }
+    trigger = {
+		always = yes
+	}
+    effect = { 
+		if = {
+            limit = {
+                has_country_flag = opened_culture_leaders_panel
+            }
+            clr_country_flag = opened_culture_leaders_panel
+        }
+        else = {
+            set_country_flag = opened_culture_leaders_panel
+        }
+	}
+    tooltip = open_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_leader_slot_one
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_text_box = {
+	name = culture_leader_slot_one_name
+	potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_shield = {
+    name = culture_leader_slot_one_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = { hidden_trigger = {  always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = culture_leader_one # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+custom_button = {
+    name = claim_culture_slot_one
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = {
+        culture_leader_assessment_trigger = yes
+        custom_trigger_tooltip = {
+            tooltip = someone_claimed_slot_tt
+            NOT = { has_global_flag = someone_claimed_culture_leader_one }
+        }
+	}
+    effect = {
+        set_global_flag = someone_claimed_culture_leader_one
+		FROM = { 
+            hidden_effect = {
+                save_global_event_target_as = culture_leader_one
+            }
+            culture_leader_qualification_assessment = yes
+        }
+	}
+    tooltip = claim_culture_leader_slot_tt
+}
+
+custom_button = {
+    name = claim_culture_slot_two
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = {
+		culture_leader_assessment_trigger = yes
+        custom_trigger_tooltip = {
+            tooltip = someone_claimed_slot_tt
+            NOT = { has_global_flag = someone_claimed_culture_leader_two }
+        }
+	}
+    effect = {
+        set_global_flag = someone_claimed_culture_leader_two
+		FROM = { 
+            hidden_effect = {
+                save_global_event_target_as = culture_leader_two
+            }
+            culture_leader_qualification_assessment = yes
+        }
+	}
+    tooltip = claim_culture_leader_slot_tt
+}
+
+custom_button = {
+    name = claim_culture_slot_three
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = {
+		culture_leader_assessment_trigger = yes
+        custom_trigger_tooltip = {
+            tooltip = someone_claimed_slot_tt
+            NOT = { has_global_flag = someone_claimed_culture_leader_three }
+        }
+	}
+    effect = {
+        set_global_flag = someone_claimed_culture_leader_three
+		FROM = { 
+            hidden_effect = {
+                save_global_event_target_as = culture_leader_three
+            }
+            culture_leader_qualification_assessment = yes
+        }
+	}
+    tooltip = claim_culture_leader_slot_tt
+}
+
+custom_button = {
+    name = claim_culture_slot_four
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = {
+		culture_leader_assessment_trigger = yes
+        custom_trigger_tooltip = {
+            tooltip = someone_claimed_slot_tt
+            NOT = { has_global_flag = someone_claimed_culture_leader_four }
+        }
+	}
+    effect = {
+        set_global_flag = someone_claimed_culture_leader_four
+		FROM = { 
+            hidden_effect = {
+                save_global_event_target_as = culture_leader_four
+            }
+            culture_leader_qualification_assessment = yes
+        }
+	}
+    tooltip = claim_culture_leader_slot_tt
+}
+
+custom_button = {
+    name = claim_culture_slot_five
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = {
+		culture_leader_assessment_trigger = yes
+        custom_trigger_tooltip = {
+            tooltip = someone_claimed_slot_tt
+            NOT = { has_global_flag = someone_claimed_culture_leader_five }
+        }
+	}
+    effect = {
+        set_global_flag = someone_claimed_culture_leader_five
+		FROM = { 
+            hidden_effect = {
+                save_global_event_target_as = culture_leader_five
+            }
+            culture_leader_qualification_assessment = yes
+        }
+	}
+    tooltip = claim_culture_leader_slot_tt
+}
+
+custom_button = {
+    name = claim_culture_slot_six
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = {
+		culture_leader_assessment_trigger = yes
+        custom_trigger_tooltip = {
+            tooltip = someone_claimed_slot_tt
+            NOT = { has_global_flag = someone_claimed_culture_leader_six }
+        }
+	}
+    effect = {
+        set_global_flag = someone_claimed_culture_leader_six
+		FROM = { 
+            hidden_effect = {
+                save_global_event_target_as = culture_leader_six
+            }
+            culture_leader_qualification_assessment = yes
+        }
+	}
+    tooltip = claim_culture_leader_slot_tt
+}
+
+
+custom_icon = {
+    name = culture_leader_slot_two
+    potential = { 
+		FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+	}
+}
+
+custom_text_box = {
+	name = culture_leader_slot_two_name
+	potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_shield = {
+    name = culture_leader_slot_two_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = { hidden_trigger = {  always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = culture_leader_two # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+custom_icon = {
+    name = culture_leader_slot_three
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_text_box = {
+	name = culture_leader_slot_three_name
+	potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+custom_shield = {
+    name = culture_leader_slot_three_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = { hidden_trigger = {  always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = culture_leader_three # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+custom_icon = {
+    name = culture_leader_slot_four
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_text_box = {
+	name = culture_leader_slot_four_name
+	potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_shield = {
+    name = culture_leader_slot_four_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = { hidden_trigger = {  always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = culture_leader_four # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+custom_icon = {
+    name = culture_leader_slot_five
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_text_box = {
+	name = culture_leader_slot_five_name
+	potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_shield = {
+    name = culture_leader_slot_five_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = { hidden_trigger = {  always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = culture_leader_five # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+custom_icon = {
+    name = culture_leader_slot_six
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_text_box = {
+	name = culture_leader_slot_six_name
+	potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+}
+
+custom_shield = {
+    name = culture_leader_slot_six_shield #Must match a scripted guiButtonType in a .gui file
+    potential = { FROM = { ai = no has_country_flag = opened_culture_leaders_panel } }
+    trigger = { hidden_trigger = {  always = yes } } #Determines when the shield is clickable
+    effect = { } #Effect for clicking
+    tooltip = no_tt
+    global_event_target = culture_leader_six # Global event target name
+    open_country = yes #If clicking opens the country view
+}
+
+
+#tedious ahead
+
+custom_icon = {
+    name = culture_one_modifier_empty
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        NOT = { has_global_flag = someone_claimed_culture_leader_one }
+    }
+    tooltip = empty_culture_leader_modifier_tt
+}
+
+custom_icon = {
+    name = culture_one_modifier_economic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_one
+        event_target:culture_leader_one = { has_country_modifier = economic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_one_modifier_commercial
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_one
+        event_target:culture_leader_one = {  has_country_modifier = commercial_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_one_modifier_diplomatic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_one
+        event_target:culture_leader_one = { has_country_modifier = diplomatic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_one_modifier_military
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_one
+        event_target:culture_leader_one = { has_country_modifier = military_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+
+custom_icon = {
+    name = culture_two_modifier_empty
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        NOT = { has_global_flag = someone_claimed_culture_leader_two }
+    }
+    tooltip = empty_culture_leader_modifier_tt
+}
+
+custom_icon = {
+    name = culture_two_modifier_economic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_two
+        event_target:culture_leader_two = { has_country_modifier = economic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_two_modifier_commercial
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_two
+        event_target:culture_leader_two = {  has_country_modifier = commercial_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_two_modifier_diplomatic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_two
+        event_target:culture_leader_two = { has_country_modifier = diplomatic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_two_modifier_military
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_two
+        event_target:culture_leader_two = { has_country_modifier = military_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+
+custom_icon = {
+    name = culture_three_modifier_empty
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        NOT = { has_global_flag = someone_claimed_culture_leader_three }
+    }
+    tooltip = empty_culture_leader_modifier_tt
+}
+
+custom_icon = {
+    name = culture_three_modifier_economic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_three
+        event_target:culture_leader_three = { has_country_modifier = economic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_three_modifier_commercial
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_three
+        event_target:culture_leader_three = {  has_country_modifier = commercial_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_three_modifier_diplomatic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_three
+        event_target:culture_leader_three = { has_country_modifier = diplomatic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_three_modifier_military
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_three
+        event_target:culture_leader_three= { has_country_modifier = military_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+
+custom_icon = {
+    name = culture_four_modifier_empty
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        NOT = { has_global_flag = someone_claimed_culture_leader_four }
+    }
+    tooltip = empty_culture_leader_modifier_tt
+}
+
+custom_icon = {
+    name = culture_four_modifier_economic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_four
+        event_target:culture_leader_four = { has_country_modifier = economic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_four_modifier_commercial
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_four
+        event_target:culture_leader_four = {  has_country_modifier = commercial_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_four_modifier_diplomatic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_four
+        event_target:culture_leader_four = { has_country_modifier = diplomatic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_four_modifier_military
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_four
+        event_target:culture_leader_four = { has_country_modifier = military_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+
+custom_icon = {
+    name = culture_five_modifier_empty
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        NOT = { has_global_flag = someone_claimed_culture_leader_five }
+    }
+    tooltip = empty_culture_leader_modifier_tt
+}
+
+custom_icon = {
+    name = culture_five_modifier_economic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_five
+        event_target:culture_leader_five = { has_country_modifier = economic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_five_modifier_commercial
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_five
+        event_target:culture_leader_five = {  has_country_modifier = commercial_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_five_modifier_diplomatic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_five
+        event_target:culture_leader_five = { has_country_modifier = diplomatic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_five_modifier_military
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_five
+        event_target:culture_leader_five = { has_country_modifier = military_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+
+custom_icon = {
+    name = culture_six_modifier_empty
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        NOT = { has_global_flag = someone_claimed_culture_leader_six }
+    }
+    tooltip = empty_culture_leader_modifier_tt
+}
+
+custom_icon = {
+    name = culture_six_modifier_economic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_six
+        event_target:culture_leader_six = { has_country_modifier = economic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_six_modifier_commercial
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_six
+        event_target:culture_leader_six = {  has_country_modifier = commercial_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_six_modifier_diplomatic
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_six
+        event_target:culture_leader_six = { has_country_modifier = diplomatic_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}
+
+custom_icon = {
+    name = culture_six_modifier_military
+    potential = {
+        FROM = { ai = no has_country_flag = opened_culture_leaders_panel }
+        has_global_flag = someone_claimed_culture_leader_six
+        event_target:culture_leader_six = { has_country_modifier = military_culture_leader_modifier }
+    }
+    tooltip = country_has_culture_leader_tt
+}

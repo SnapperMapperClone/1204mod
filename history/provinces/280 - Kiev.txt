@@ -1,14 +1,12 @@
 #280 - Kiev
-
 owner = KIE
-controller = KIE 
+controller = KIE
 culture = ruthenian
 religion = orthodox
-hre = no
-base_tax = 4
-base_production = 4
-trade_goods = grain 
-base_manpower = 2
+base_tax = 7
+base_production = 7
+trade_goods = grain
+base_manpower = 6
 capital = "Kiev"
 is_city = yes
 add_core = KIE
@@ -19,6 +17,4 @@ discovered_by = ottoman
 discovered_by = nomad_group
 extra_cost = 16
 center_of_trade = 2
-
 1550.1.1 = { fort_15th = yes }
-

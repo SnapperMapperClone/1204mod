@@ -1,13 +1,11 @@
 #Dorpat
-
 owner = UNG
 controller = UNG
 add_core = UNG
 add_core = LTG
 culture = estonian
-religion = catholic
-hre = no
-base_tax = 3 
+religion = finnish_pagan_reformed
+base_tax = 3
 base_production = 3
 trade_goods = naval_supplies
 base_manpower = 2
@@ -20,25 +18,20 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
-
-
-1542.1.1 = { religion = protestant} # Unknown date
-1558.7.18 = { controller = RUS } # Russian conquest
-1561.1.1 = {
-	owner = LIT
+1542.1.1 = { religion = protestant }
+1558.7.18 = { controller = RUS }
+1561.1.1 = { 
 	add_core = LIT
-	remove_core = LIV
-} # Livonia ceases to exist
-1569.7.1 = {
-	owner = PLC
+}
+1569.7.1 = { 
 	add_core = PLC
-} # Union of Lublin
-1582.1.15 = { controller = PLC } # Peace of Jam-Zapolski
-1600.12.31 = { controller = SWE } # 2nd Polish War-Captured by Duke Karl
-1603.4.5 = { controller = PLC } # 2nd Polish War-Captured by Chodkiewicz
-1625.8.21 = { controller = SWE } # 2nd Polish War-Captured by Jakob de la Gardie
-1629.9.16 = { owner = SWE add_core = SWE remove_core = PLC } # The Armistice of Altmark
-1656.11.3 = { controller = RUS } # Karl X Gustavs Russian War-Captured by Russians
-1661.6.21 = { controller = SWE } # The Peace of Kardis
-1704.7.14 = { controller = RUS } # The Great Nordic War-Captured Dorpat
-1721.8.30 = { owner = RUS add_core = RUS remove_core = SWE } # The Peace of Nystad
+}
+1582.1.15 = { controller = PLC }
+1600.12.31 = { controller = SWE }
+1603.4.5 = { controller = PLC }
+1625.8.21 = { controller = SWE }
+1629.9.16 = { add_core = SWE }
+1656.11.3 = { controller = RUS }
+1661.6.21 = { controller = SWE }
+1704.7.14 = { controller = RUS }
+1721.8.30 = { add_core = RUS }

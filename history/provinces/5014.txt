@@ -1,0 +1,16 @@
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = muslim
+is_city = yes
+add_core = GEL
+owner = GEL
+base_tax = 5
+base_manpower = 2
+base_production = 5
+culture = flemish
+trade_goods = livestock
+religion = catholic
+hre = yes
+controller = GEL
+center_of_trade = 1

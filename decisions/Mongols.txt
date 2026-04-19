@@ -1,0 +1,27 @@
+country_decisions = {
+  start_conquest = {
+    major = yes
+    potential = {
+      tag = MGE
+      NOT = {
+        is_subject = yes
+        has_country_flag = mongol_conquest
+        }
+    }
+
+    allow = {
+       stability = 1
+    }
+
+    effect = {
+      add_country_modifier = {
+      name = mongol_buff
+      duration = -1
+    }
+      set_country_flag = mongol_conquest
+      add_manpower = 30
+      add_prestige = 50
+      add_army_tradition = 100
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # - Oujda
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Oujda"
@@ -15,7 +15,6 @@ discovered_by = western
 discovered_by = eastern
 1549.1.1 = { 
 	controller = MOR
-	add_core = MOR
 }
 1638.1.1 = { 
 	controller = ALG
@@ -23,4 +22,4 @@ discovered_by = eastern
 1692.1.1 = { 
 	controller = MOR
 }
-add_core = MOR
+add_core = AMO

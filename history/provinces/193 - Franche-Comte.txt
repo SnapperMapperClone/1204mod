@@ -6,10 +6,10 @@ is_city = yes
 culture = burgundian
 religion = catholic
 hre = yes
-base_tax = 3
-base_production = 4
+base_tax = 5
+base_production = 5
 trade_goods = salt
-base_manpower = 3
+base_manpower = 4
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -23,4 +23,5 @@ discovered_by = ottoman
 1674.9.1 = { controller = FRA }
 1806.7.12 = { hre = no }
 add_core = FRC
+center_of_trade = 1
 fort_15th = yes

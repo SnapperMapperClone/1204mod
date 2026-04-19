@@ -1,0 +1,29 @@
+chi_reduced_cost_imperial_modifier = {
+	potential = {
+		superregion = china_superregion
+	}
+
+	trigger = {
+		owner = {
+			OR = {
+				is_emperor_of_china = yes
+				has_reform = chinese_warlord
+				culture_group = east_asian
+			}
+		}
+		is_state_core = owner
+	}
+
+	local_governing_cost = -0.9
+	local_tax_modifier = 1
+	local_manpower_modifier = 1
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+}

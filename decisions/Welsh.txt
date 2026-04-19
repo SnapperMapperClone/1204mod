@@ -130,6 +130,12 @@ country_decisions = {
 				duration = 3650
 			}
 			country_event = { id = ideagroups.1 } 
+			ENG = {
+				country_event = { 
+					id = wales_is_united.1 
+					days = 10
+				}
+			}
 		}
 	}
 }

@@ -1,6 +1,6 @@
 #226 - Gibraltar
-owner = MOR# Mustapha Sa'd King of Granada
-controller = MOR
+owner = AMO# Mustapha Sa'd King of Granada
+controller = AMO
 add_core = GRA
 culture = al_andalus_arabic
 religion = sunni
@@ -27,4 +27,4 @@ discovered_by = eastern
 	add_core = GBR
 }
 1720.1.1 = { fort_18th = yes }
-add_core = MOR
+add_core = AMO

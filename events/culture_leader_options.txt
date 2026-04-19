@@ -1,0 +1,93 @@
+namespace = culture_leader_options
+
+country_event = {
+	id = culture_leader_options.1
+	title = culture_leader_options.1.t
+	desc = culture_leader_options.1.d
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = culture_leader_options.1.a
+		trigger = {
+			NOT = {
+                average_home_autonomy = 5
+            }
+            stability = 2
+		}
+		add_country_modifier = {
+			name = economic_culture_leader_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = culture_leader_options.1.b
+		trigger = {
+			trade_income_percentage = 0.33
+            current_income_balance = 2.5
+            monthly_income = 50
+		}
+		add_country_modifier = {
+			name = commercial_culture_leader_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = culture_leader_options.1.c
+		trigger = {
+			has_global_modifier_value = {
+                which = improve_relation_modifier
+                value = 0.5
+            }
+            diplomatic_reputation = 5
+            custom_trigger_tooltip = {
+                tooltip = have_6_subjects_and_allies
+                    variable_arithmetic_trigger = {
+                    export_to_variable = {
+                        variable_name = num_allies
+                        value = trigger_value:num_of_allies
+                        who = ROOT
+                    }
+                        export_to_variable = {
+                        variable_name = num_subjects
+                        value = trigger_value:num_of_subjects
+                        who = ROOT
+                    }
+                    change_variable = {
+                        which = num_allies
+                        which = num_subjects
+                    }
+                    check_variable = {
+                        which = num_allies
+                        value = 12
+                    }
+                }
+            }
+		}
+		add_country_modifier = {
+			name = diplomatic_culture_leader_modifier
+			duration = -1
+		}
+	}
+	option = {
+		name = culture_leader_options.1.d
+		trigger = {
+			power_projection = 75
+            OR = {
+                has_global_modifier_value = {
+                    which = land_morale
+                    value = 0.25
+                }
+                has_global_modifier_value = {
+                    which = discipline
+                    value = 0.15
+                }
+            }
+		}
+		add_country_modifier = {
+			name = military_culture_leader_modifier
+			duration = -1
+		}
+	}
+}

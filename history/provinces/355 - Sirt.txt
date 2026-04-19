@@ -1,6 +1,6 @@
 #355 - Sirt
-owner = MAM
-controller = MAM
+owner = AYB
+controller = AYB
 culture = african_bedouin_arabic
 religion = sunni
 capital = "Ben Jawad"
@@ -18,4 +18,4 @@ discovered_by = eastern
 1558.1.1 = { 
 	controller = TRP
 }
-add_core = MAM
+add_core = AYB

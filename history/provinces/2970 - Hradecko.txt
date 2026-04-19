@@ -7,9 +7,9 @@ culture = czech
 religion = catholic
 trade_goods = grain
 hre = yes
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 3
 is_city = yes
 discovered_by = KAZ
 discovered_by = CRI
@@ -26,12 +26,12 @@ discovered_by = ottoman
 	controller = HAB
 	add_core = HAB
 }
-1576.1.1 = { religion = Protestant }
+1576.1.1 = { religion = protestant }
 1618.5.23 = { 
 	controller = BOH
 }
 1620.11.8 = { 
 	controller = HAB
 }
-1627.1.1 = { religion = Catholic }
+1627.1.1 = { religion = catholic }
 1806.7.12 = { hre = no }

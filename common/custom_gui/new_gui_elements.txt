@@ -1,0 +1,112 @@
+custom_button = {
+    name = duke_upgrade_button
+    potential = {
+		always = no
+        ai = no
+		#NOT = {
+		#	government_rank = 2
+		#}
+    }
+    trigger = {
+		OR = {
+			AND = {
+				prestige = 50
+				total_development = 100
+			}
+			num_of_cities = 15
+		}
+	}
+    effect = { 
+		play_sound = new_raise_goverment_rank
+		set_government_rank = 2
+		add_legitimacy = 25
+		add_power_projection = {
+			type = upgraded_gov_rank_to_kingdom
+			amount = 25
+		}
+	}
+    tooltip = duke_upgrade_tt
+}
+
+custom_button = {
+    name = king_upgrade_button
+    potential = {
+        ai = no
+		government_rank = 1
+		NOT = {
+			government_rank = 2
+		}
+    }
+    trigger = {
+		OR = {
+			AND = {
+				prestige = 50
+				total_development = 100
+			}
+			num_of_cities = 15
+		}
+	}
+    effect = { 
+		play_sound = new_raise_goverment_rank
+		set_government_rank = 2
+		add_legitimacy = 25
+		add_power_projection = {
+			type = upgraded_gov_rank_to_kingdom
+			amount = 25
+		}
+	}
+    tooltip = king_upgrade_tt
+}
+
+custom_button = {
+    name = emperor_upgrade_button
+    potential = {
+        ai = no
+
+		OR = {
+			AND = {
+				government_rank = 2
+				NOT = {
+					government_rank = 3
+				}
+			}
+			tag = BYZ
+			tag = JAP
+		}
+
+		#government_rank = 3
+    }
+    trigger = {
+		NOT = { has_reform = feudal_france_reform }
+		OR = {
+			AND = {
+				religion = catholic
+				NOT = {
+					num_of_electors = 1
+				}
+			}
+			NOT = {
+				religion = catholic
+			}
+		}
+	}
+    effect = { 
+		play_sound = new_raise_goverment_rank
+		set_government_rank = 3
+		add_legitimacy = 50
+		add_power_projection = {
+			type = upgraded_gov_rank_to_empire
+			amount = 50
+		}
+	}
+    tooltip = emperor_upgrade_tt
+}
+
+
+custom_icon = {
+    name = dip_marriage_indicator
+    potential = { 
+		ROOT = { has_consort = yes }
+	}
+	tooltip = other_is_married_tooltip
+}

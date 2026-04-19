@@ -2,7 +2,7 @@
 owner = CJN
 controller = CJN
 culture = manchu
-religion = confucianism
+religion = tengri_pagan_reformed
 capital = "Gyeongseong"
 trade_goods = fur
 base_tax = 1

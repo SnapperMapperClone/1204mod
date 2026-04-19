@@ -11,3 +11,7 @@
  african_latin.1.t:0 "African Latin in $PROVINCENAME$"
  african_latin.1.d:0 "A localised variant of latin has become the common language in $PROVINCENAME$. This will increase our control in the area"
  african_latin.1.a:0 "Excellent"
+
+ flavor_sic.1.t:0 "Latin spreads in $PROVINCENAME$"
+ flavor_sic.1.d:0 "After years of our control, latin has been slowly replacing arabic in $PROVINCENAME$, now beoming the most used language there"
+ flavor_sic.1.a:0 "Excellent"

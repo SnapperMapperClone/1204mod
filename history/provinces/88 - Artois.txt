@@ -3,7 +3,7 @@ owner = FRA
 controller = FRA
 capital = "Arras"
 is_city = yes
-culture = wallonian
+culture = picard
 religion = catholic
 base_tax = 6
 base_production = 6
@@ -14,7 +14,7 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-1477.1.5 = { controller = FRA add_core = FRA }
+1477.1.5 = { controller = FRA }
 1493.8.19 = { controller = HAB add_core = HAB }
 1519.1.12 = { controller = SPA add_core = SPA }
 1548.6.26 = { hre = yes }

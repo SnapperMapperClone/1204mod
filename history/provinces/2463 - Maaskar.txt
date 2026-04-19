@@ -1,6 +1,6 @@
 # - Kasdir
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = african_bedouin_arabic
 religion = sunni
 capital = "Kasdir"
@@ -14,10 +14,9 @@ discovered_by = ottoman
 discovered_by = western
 1549.1.1 = { 
 	controller = MOR
-	add_core = MOR
 }
 1554.1.1 = { 
 	controller = ALG
 	add_core = ALG
 }
-add_core = MOR
+add_core = AMO

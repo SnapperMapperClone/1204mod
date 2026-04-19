@@ -1,6 +1,6 @@
 #2751 - Cuenca
-owner = MOR#Juan II of Castille
-controller = MOR
+owner = AMO#Juan II of Castille
+controller = AMO
 culture = mozarabic
 religion = catholic
 base_tax = 4
@@ -27,4 +27,4 @@ discovered_by = ottoman
 1809.1.1 = { controller = SPA revolt = { size = 1 } }
 1812.10.1 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

@@ -1,0 +1,123 @@
+namespace = flavor_gwy
+
+#Joan of Wales
+country_event = {
+	id = flavor_wls.1
+	title = flavor_wls.1.t
+	desc = flavor_wls.1.d
+	picture = DIPLOMACY_eventPicture
+
+	fire_only_once = yes
+	major = no
+  
+	trigger = {
+		OR = { 
+			tag = GWY
+			tag = WLS
+			}
+		is_year = 1204
+		government = monarchy
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+  	option = {
+		name = "flavor_wls.1.a"
+		if = {
+			potential = { ruler = "Llywelyn fawr" }
+			NOT = { has_consort = yes }
+			define_consort = {
+				name = "Joan"
+				country_of_origin = ENG
+				culture = french
+				age = 17
+				religion = catholic
+				female = yes
+				adm = 3
+				dip = 5
+				mil = 3
+			}
+			create_marriage = ENG
+			add_prestige = 20
+		}
+		else = {
+			add_prestige = 20
+			add_stability = 2
+		}
+	}
+
+	option = {
+		name = "flavor_wls.1.b"
+		add_prestige = 10
+		add_stability = 1
+		add_legitimacy = 20
+	}
+}
+
+#Prydain or Britannia
+country_event = {
+	id = flavor_wls.2
+	title = flavor_wls.2.t
+	desc = flavor_wls.2.t
+	picture = BIG_BOOK_eventPicture
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+	major = no
+	
+
+	
+	option = { 
+		name = "flavor_wls.2.a"
+		239 = { change_culture = welsh }
+		240 = { change_culture = welsh }
+		4372 = { change_culture = welsh }
+		244 = { change_culture = briton }
+		246 = { change_culture = briton }
+		247 = { change_culture = briton }
+		4375 = { change_culture = briton }
+		245 = { change_culture = briton }
+		4785 = { change_culture = briton }
+	}
+
+	option = {
+		name = "flavor_wls.2.b"
+		241 = { change_culture = cambrian }
+		242 = { change_culture = cambrian }
+		4366 = { change_culture = cambrian }
+		4369 = { change_culture = cambrian }
+		239 = { change_culture = anglian_roman }
+		240 = { change_culture = anglian_roman }
+		4372 = { change_culture = anglian_roman }
+		WLS = { change_primary_culture = cambrian }
+	}
+}
+
+country_event = {
+	id = flavor_wls.3
+	title = flavor_wls.3.t
+	desc = flavor_wls.3.d
+	picture = SCOTTISH_MERCENARIES_eventPicture
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	major = no
+
+	option = {
+		name = "flavor_wls.3.a"
+		add_historical_friend = SCO
+		add_prestige = 20
+		set_country_flag = befriending_the_scots
+	}
+	option = {
+		name = "flavor_wls.3.b"
+		add_historical_rival = SCO
+		set_country_flag = hating_the_scots
+	}
+}
+
+	

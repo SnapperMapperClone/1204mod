@@ -28,7 +28,7 @@ discovered_by = nomad_group
 	controller = PER
 	add_core = PER
 }
-1516.1.1 = { religion = Shiite }
+1516.1.1 = { religion = shiite }
 1597.12.1 = { 
 	base_tax = 2
 	base_production = 2

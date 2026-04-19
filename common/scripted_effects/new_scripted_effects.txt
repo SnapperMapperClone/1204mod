@@ -1,0 +1,209 @@
+culture_leader_qualification_assessment = {
+    add_country_modifier = {
+        name = default_culture_leader_modifier
+        duration = -1
+    }
+    custom_tooltip = culture_leader_rewards_vary
+    add_treasury = -2000
+	if = {
+		limit = {
+			calc_true_if = {
+				amount = 2
+				AND = {
+					NOT = {
+						average_home_autonomy = 5
+					}
+					stability = 2
+				}
+				AND = {
+					trade_income_percentage = 0.33
+          		  	current_income_balance = 2.5
+          		  	monthly_income = 50
+				}
+				AND = {
+					has_global_modifier_value = {
+						which = improve_relation_modifier
+						value = 0.5
+					}
+					diplomatic_reputation = 5
+					variable_arithmetic_trigger = {
+						export_to_variable = {
+							variable_name = num_allies
+							value = trigger_value:num_of_allies
+							who = ROOT
+						}
+						export_to_variable = {
+							variable_name = num_subjects
+							value = trigger_value:num_of_subjects
+							who = ROOT
+						}
+						change_variable = {
+							which = num_allies
+							which = num_subjects
+						}
+						check_variable = {
+							which = num_allies
+							value = 12
+						}
+					}
+				}
+				AND = {
+					power_projection = 75
+					OR = {
+						has_global_modifier_value = {
+							which = land_morale
+							value = 0.25
+						}
+						has_global_modifier_value = {
+							which = discipline
+							value = 0.15
+						}
+					}
+				}
+			}
+		}
+		country_event = {
+			id = culture_leader_options.1
+		}
+	}
+    else_if = {
+        limit = {
+            NOT = {
+                average_home_autonomy = 5
+            }
+            stability = 2
+        }
+        add_country_modifier = {
+            name = economic_culture_leader_modifier
+            duration = -1
+        }
+    }
+	else_if = {
+        limit = {
+            trade_income_percentage = 0.33
+            current_income_balance = 2.5
+            monthly_income = 50
+        }
+        add_country_modifier = {
+            name = commercial_culture_leader_modifier
+            duration = -1
+        }
+    }
+	else_if = {
+        limit = {
+            has_global_modifier_value = {
+                which = improve_relation_modifier
+                value = 0.5
+            }
+            diplomatic_reputation = 5
+            variable_arithmetic_trigger = {
+                export_to_variable = {
+                    variable_name = num_allies
+                    value = trigger_value:num_of_allies
+                    who = ROOT
+                }
+                export_to_variable = {
+                    variable_name = num_subjects
+                    value = trigger_value:num_of_subjects
+                    who = ROOT
+                }
+                change_variable = {
+               		which = num_allies
+                    which = num_subjects
+                }
+                check_variable = {
+                	which = num_allies
+                    value = 12
+                }
+            }
+        }
+        add_country_modifier = {
+            name = diplomatic_culture_leader_modifier
+            duration = -1
+        }
+    }
+	else_if = {
+        limit = {
+            power_projection = 75
+            OR = {
+                has_global_modifier_value = {
+                    which = land_morale
+                    value = 0.25
+                }
+                has_global_modifier_value = {
+                    which = discipline
+                    value = 0.15
+                }
+            }
+        }
+        add_country_modifier = {
+            name = military_culture_leader_modifier
+            duration = -1
+        }
+    }
+}
+
+remove_culture_leader = {
+    remove_country_modifier = default_culture_leader_modifier
+	remove_country_modifier = economic_culture_leader_modifier
+	remove_country_modifier = commercial_culture_leader_modifier
+	remove_country_modifier = diplomatic_culture_leader_modifier
+	remove_country_modifier = military_culture_leader_modifier
+	if = {
+		limit = { event_target:culture_leader_one = { tag = ROOT } }
+		clear_global_event_target = culture_leader_one
+        clr_global_flag = someone_claimed_culture_leader_one
+	}
+	if = {
+		limit = { event_target:culture_leader_two = { tag = ROOT } }
+		clear_global_event_target = culture_leader_two
+        clr_global_flag = someone_claimed_culture_leader_two
+	}
+	if = {
+		limit = { event_target:culture_leader_three = { tag = ROOT } }
+		clear_global_event_target = culture_leader_three
+        clr_global_flag = someone_claimed_culture_leader_three
+	}
+	if = {
+		limit = { event_target:culture_leader_four = { tag = ROOT } }
+			clear_global_event_target = culture_leader_four
+            clr_global_flag = someone_claimed_culture_leader_four
+	}
+	if = {
+		limit = { event_target:culture_leader_five = { tag = ROOT } }
+		clear_global_event_target = culture_leader_five
+        clr_global_flag = someone_claimed_culture_leader_five
+	}
+	if = {
+		limit = { event_target:culture_leader_six = { tag = ROOT } }
+		clear_global_event_target = culture_leader_six
+        clr_global_flag = someone_claimed_culture_leader_six
+	}
+}
+
+check_vacant_slots_and_place_in_one = {
+    if = {
+        limit = { NOT = { has_global_flag = someone_claimed_culture_leader_one } }
+        save_global_event_target_as = culture_leader_one
+    }
+    if = {
+        limit = { NOT = { has_global_flag = someone_claimed_culture_leader_two } }
+        save_global_event_target_as = culture_leader_two
+    }
+    if = {
+        limit = { NOT = { has_global_flag = someone_claimed_culture_leader_three } }
+        save_global_event_target_as = culture_leader_three
+    }
+    if = {
+        limit = { NOT = { has_global_flag = someone_claimed_culture_leader_four } }
+        save_global_event_target_as = culture_leader_four
+    }
+    if = {
+        limit = { NOT = { has_global_flag = someone_claimed_culture_leader_five } }
+        save_global_event_target_as = culture_leader_five
+    }
+    if = {
+        limit = { NOT = { has_global_flag = someone_claimed_culture_leader_six } }
+        save_global_event_target_as = culture_leader_six
+    }
+}

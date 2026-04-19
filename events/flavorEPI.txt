@@ -37,6 +37,7 @@ country_event = {
 		4175 = { add_core = EPI }
 		4750 = { add_core = EPI }
 		1853 = { add_core = EPI }
+		4950 = { add_core = EPI }
 	}
 }
 

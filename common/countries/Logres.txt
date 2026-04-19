@@ -1,6 +1,6 @@
 #Logres
 
-graphical_culutre = westerngfx
+graphical_culture = westerngfx
 religion = catholic
 color = { 60 175 75 }
 historical_idea_groups = {
@@ -10,6 +10,6 @@ historical_idea_groups = {
   exploration_ideas
   quality_ideas
   diplomatic_ideas
-  expantion_ideas
+  expansion_ideas
   religious_ideas
 }

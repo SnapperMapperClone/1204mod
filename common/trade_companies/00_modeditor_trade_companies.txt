@@ -1,0 +1,103 @@
+trade_company_english_channel = { 
+	color = { 
+		220 138 57 
+	}
+	provinces = { 
+		168 1879 4385 87 88 89 1743 241 242 4366
+		4369 245 4367 4368 4785 239 240 4372 243 1860
+		1861 4370 4376 233 234 4130 4373 4374 235 236
+		237 238 4371 92 95 98 99 2974 96 97
+		4383 100 1931 4381 4382 90 1744 1865 4769 4770
+		1742 167 5001 5007 5011 5012 5013 5014 
+	}
+	names = { 
+		name = TRADE_COMPANY_ENGLISH_CHANNEL_Root_Culture_GetName
+	}
+	names = { 
+		name = TRADE_COMPANY_ENGLISH_CHANNEL_European_Trade_Company
+	}
+}
+trade_company_bordeaux = { 
+	color = { 
+		36 132 247 
+	}
+	provinces = { 
+		190 195 199 169 170 171 172 4384 194 198
+		4112 180 4111 4386 4387 173 209 210 174 175
+		176 177 4389 2989 4694 4697 4777 178 5002 5010
+		5009 
+	}
+	names = { 
+		name = TRADE_COMPANY_BORDEAUX_Root_Culture_GetName
+	}
+	names = { 
+		name = TRADE_COMPANY_BORDEAUX_European_Trade_Company
+	}
+}
+trade_company_valencia = { 
+	color = { 
+		87 70 168 
+	}
+	provinces = { 
+		197 212 213 2987 2988 220 1750 4549 4550 211
+		214 2990 4557 333 4559 4560 196 200 4391 4695
+		2753 5008 
+	}
+	names = { 
+		name = TRADE_COMPANY_VALENCIA_Root_Culture_GetName
+	}
+	names = { 
+		name = TRADE_COMPANY_VALENCIA_European_Trade_Company
+	}
+}
+trade_company_champagne = { 
+	color = { 
+		193 26 14 
+	}
+	provinces = { 
+		182 183 185 4388 179 184 4776 181 4390 187
+		188 189 165 1867 1871 91 93 94 1866 191
+		192 193 1877 4392 203 204 205 4719 4720 4721
+		4764 4766 186 5003 5015 5005 
+	}
+	names = { 
+		name = TRADE_COMPANY_CHAMPAGNE_Root_Culture_GetName
+	}
+	names = { 
+		name = TRADE_COMPANY_CHAMPAGNE_European_Trade_Company
+	}
+}
+trade_company_genua = { 
+	color = { 
+		218 215 56 
+	}
+	provinces = { 
+		124 125 126 2982 115 116 117 2978 2980 123
+		1934 2984 101 102 2992 103 1875 2981 127 1247
+		2986 202 2991 4696 4727 4735 4736 4737 118 2976
+		4731 4732 121 2983 4734 104 1862 2979 4728 4740
+		201 5006 
+	}
+	names = { 
+		name = TRADE_COMPANY_GENUA_Root_Culture_GetName
+	}
+	names = { 
+		name = TRADE_COMPANY_GENUA_European_Trade_Company
+	}
+}
+trade_company_venice = { 
+	color = { 
+		54 167 156 
+	}
+	provinces = { 
+		105 106 107 108 109 111 112 113 114 119
+		120 122 129 130 1769 1774 2977 2985 4729 4730
+		4733 4738 4739 4751 1933 5004 
+	}
+	names = { 
+		name = TRADE_COMPANY_VENICE_Root_Culture_GetName
+	}
+	names = { 
+		name = TRADE_COMPANY_VENICE_European_Trade_Company
+	}
+}

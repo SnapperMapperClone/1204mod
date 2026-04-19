@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = feudal_france_reform
 primary_culture = cosmopolitan_french
-add_accepted_culture = gascon_sep
-add_accepted_culture = occitain_sep
+add_accepted_culture = normand
+add_accepted_culture = wallonian
 religion = catholic
 technology_group = western
 capital = 183 # Paris
@@ -22,6 +22,8 @@ change_estate_land_share = {
 	share = -5
 }
 
+add_truce_with = ENG
+
 
 1179.11.1 = {
 	monarch = {
@@ -29,13 +31,13 @@ change_estate_land_share = {
 		dynasty = "Capet"
 		birth_date = 1165.8.21
 		adm = 6
-		dip = 4
-		mil = 6
-		leader = { name = "Philippe II" type = general fire = 5 shock = 5 manuever = 5 siege = 1
+		dip = 6
+		mil = 3
+		leader = { name = "Philippe II" type = general fire = 5 shock = 5 manuever = 5 siege = 1 }
 	}
 }
 
-1810.4.1 = {
+1180.4.1 = {
     queen = {
         country_of_origin = DAN
         name = "Ingeburge"

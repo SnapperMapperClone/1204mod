@@ -3,16 +3,17 @@ owner = TOU
 controller = TOU
 capital = "Montpellier"
 is_city = yes
-culture = occitain_sep
+culture = occitain
 religion = catholic
-base_tax = 6
-base_production = 5
+base_tax = 8
+base_production = 8
 trade_goods = cloth
-base_manpower = 5
+base_manpower = 6
 add_core = TOU
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-1560.1.1 = { religion = Reformed }
-1686.1.17 = { religion = Catholic }
+1560.1.1 = { religion = reformed }
+1686.1.17 = { religion = catholic }
+center_of_trade = 1

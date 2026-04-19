@@ -4,6 +4,7 @@ government_rank = 3
 primary_culture = asia_minor_greek
 religion = orthodox
 technology_group = eastern
+historical_friend = TRE
 historical_rival = LAT
 capital = 4942 # Nicaea
 fixed_capital = 4942 

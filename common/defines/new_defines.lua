@@ -1,3 +1,40 @@
 
-NDefines.NGame.START_DATE = "1204.5.16" --1271.12.18
-NDefines.NGame.END_DATE = "9999.12.31" --"2050.12.31"
+NDefines.NGame.START_DATE = "1204.5.16"
+NDefines.NGame.END_DATE = "9999.12.31"
+
+NDefines.NCountry.CULTURAL_UNION_MIN_DEV = 999999 --NDefines.NCountry.
+NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 4
+NDefines.NCountry.MONTHS_TO_CORE = 72
+NDefines.NCountry.MONTHS_TO_CHANGE_CULTURE = 30
+NDefines.NCountry.YEARS_UNTIL_BROKEN = 0
+
+NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_2 = 101
+NDefines.NCountry.MIN_PRESTIGE_FOR_GOV_RANK_3 = 101
+
+NDefines.NMilitary.INF_REGIMENT_MANPOWER_COST = 0.1
+NDefines.NMilitary.CAV_REGIMENT_MANPOWER_COST = 0.1
+NDefines.NMilitary.ART_REGIMENT_MANPOWER_COST = 0.1
+NDefines.NMilitary.GARRISON_SIZE = 50
+NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.15
+NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0
+NDefines.NMilitary.LAND_MAINTENANCE_FACTOR = 100
+
+NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 1.5
+
+NDefines.NDiplomacy.PO_REVOKE_CORES_PRESTIGE = 0.2
+NDefines.NDiplomacy.PO_RETURN_CORES_PRESTIGE = 0.35
+
+NDefines.NDiplomacy.PEACE_COST_DEMAND_PROVINCE = 2.0
+NDefines.NDiplomacy.PEACE_COST_RETURN_CORE = 0.65
+
+NDefines.NDiplomacy.PEACE_COST_GIVE_UP_CLAIM = 25
+NDefines.NDiplomacy.PEACE_COST_UNION = 100
+NDefines.NDiplomacy.MAX_PEACE_TREATY_PRESTIGE = 200
+
+NDefines.NDiplomacy.AE_SAME_CULTURE = 0.3
+NDefines.NDiplomacy.AE_SAME_CULTURE_GROUP = 0.15
+NDefines.NDiplomacy.AE_INFIDEL_CONQUEST = 0.5
+NDefines.NDiplomacy.AE_DIFFERENT_RELIGION = -0.65
+
+NDefines.NDiplomacy.ALLY_AE_MULT = 2
+--NDefines.NEconomy.MISSIONARY_TIME_BASE = 1

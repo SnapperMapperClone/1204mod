@@ -1,0 +1,245 @@
+welsh_reconquista = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = {
+    		OR = {
+      			tag = GWY
+      			tag = DEU
+      			tag = PWS
+			tag = WLS
+    		}
+  	}
+  	has_country_shield = yes
+  	
+	wls_unite_wales = {
+    		icon = mission_unite_home_region
+    		position = 1
+    		required_missions = { }
+    		provinces_to_highlight = {
+      			OR = {
+        			province_id = 4369
+				province_id = 4366
+				province_id = 242
+				province_id = 241
+      			}
+      			NOT = { owned_by = ROOT }
+    		}
+    		trigger = {
+      			owns_or_non_sovereign_subject_of  = 4369
+			owns_or_non_sovereign_subject_of  = 4366
+			owns_or_non_sovereign_subject_of  = 242
+			owns_or_non_sovereign_subject_of  = 241
+    		}
+    		effect = {
+    			add_prestige = 25
+    			add_permanent_claim = 239
+    			add_permanent_claim = 240
+    			add_permanent_claim = 4372
+    		}
+  	}
+
+	wls_reclaim_pengwern = {
+		icon = mission_monarch_in_throne_room
+		position = 2
+		required_missions = { wls_unite_wales }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 239
+				province_id = 240
+				province_id = 4372
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of  = 239
+			owns_or_non_sovereign_subject_of  = 240
+			owns_or_non_sovereign_subject_of  = 4372
+		}
+		effect = {
+			add_prestige = 10
+			add_permanent_claim = 233
+    			add_permanent_claim = 234
+    			add_permanent_claim = 4130
+			add_permanent_claim = 4373
+			add_permanent_claim = 4374
+			add_permanent_claim = 244
+			add_permanent_claim = 246
+			add_permanent_claim = 247
+			add_permanent_claim = 4375
+		}
+	}
+	
+	wls_secure_dumnonia = {
+		icon = mission_landsknecht_soldier
+		position = 3
+		required_missions = { wls_reclaim_pengwern }
+		provinces_to_highlight = {
+			OR = {	
+				province_id = 233
+				province_id = 234
+				province_id = 4130
+				province_id = 4373
+				province_id = 4374
+			}
+			NOT = { owned_by = ROOT }
+		}
+		trigger = {
+			owns_or_non_sovereign_subject_of  = 234
+			owns_or_non_sovereign_subject_of  = 233
+			owns_or_non_sovereign_subject_of  = 4373
+			owns_or_non_sovereign_subject_of  = 4130
+			owns_or_non_sovereign_subject_of  = 4374
+		}
+		effect = {
+			add_country_modifier = {
+				name = wls_march_of_glory
+				duration = 7300
+			}
+			add_permanent_claim = 235
+    			add_permanent_claim = 236
+    			add_permanent_claim = 237
+			add_permanent_claim = 4371
+			add_permanent_claim = 243
+			add_permanent_claim = 1861
+			add_permanent_claim = 4376
+			add_permanent_claim = 238
+			add_permanent_claim = 1860
+			add_permanent_claim = 4370
+    			add_permanent_claim = 234
+    			add_permanent_claim = 245
+			add_permanent_claim = 4367
+			add_permanent_claim = 4368
+			add_permanent_claim = 4785
+		}
+	}
+}
+
+celtic_union = {
+	slot = 2
+	generic = no
+	ai = yes 
+	potential = {
+    		OR = {
+      			tag = GWY
+      			tag = DEU
+      			tag = PWS
+			tag = WLS
+    		}
+  	}
+  	has_country_shield = yes
+
+	wls_northumbrian_campaign = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = { wls_reclaim_pengwern }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 244
+  				province_id = 246
+  				province_id = 247
+  				province_id = 4375
+			}
+			NOT = { owned_by = ROOT }
+  		}
+		trigger = { 
+			owns_or_non_sovereign_subject_of  = 244
+			owns_or_non_sovereign_subject_of  = 246
+			owns_or_non_sovereign_subject_of  = 247
+			owns_or_non_sovereign_subject_of  = 4375
+		}
+		effect = {
+			country_event = { id = hadrian_wall.1 }
+			add_mil_power = 100
+			add_dip_power = 100
+		}
+	}
+	
+	wls_securing_scotland = {
+		position = 4
+		required_missions = { wls_northumbrian_campaign }
+		provinces_to_highlight = {
+			OR = {
+					area = highlands_area
+					area = lowlands_area
+					area = the_isles_area
+			}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+					area = highlands_area
+					area = lowlands_area
+					area = the_isles_area
+					}
+			}
+		}
+		effect = {
+		add_adm_power = 100
+		add_dip_power = 100
+		add_prestige = 35
+			every_province = {
+    			limit = {
+        			OR = {
+           				area = connacht_area
+            			area = munster_area
+            			area = leinster_area
+						area = ulster_area
+       				}
+    			}
+    		add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	wls_the_emerald_isle = {
+		icon = mission_galleys_in_port
+		position = 5
+		required_missions = { wls_securing_scotland }
+		provinces_to_highlight = {
+			OR = {
+           		area = connacht_area
+            	area = munster_area
+            	area = leinster_area
+				area = ulster_area
+       		}
+		}
+		trigger = {
+			owns_all_provinces = {
+				OR = {
+	           		area = connacht_area
+	            	area = munster_area
+	            	area = leinster_area
+					area = ulster_area
+	       		}
+			}
+		}
+		effect = { 
+			every_province = {
+    			limit = {
+        			OR = {
+           				area = brittany_area
+            			area = galicia_area
+            			area = asturias_area
+						area = ulster_area
+       				}
+    			}
+    		add_permanent_claim = ROOT
+			}
+		}
+	}
+			
+	
+}
+	
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,6 @@
 #229 - Baixo Alentejo
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = al_andalus_arabic
 religion = sunni
 capital = "Beja"
@@ -19,4 +19,4 @@ discovered_by = eastern
 1801.6.6 = { controller = POR }
 1810.9.15 = { controller = FRA }
 1811.4.5 = { controller = POR }
-add_core = MOR
+add_core = AMO

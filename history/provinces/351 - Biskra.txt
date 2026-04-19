@@ -1,6 +1,6 @@
 #351 - Biskra
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = african_roman
 religion = sunni
 capital = "Biskra"
@@ -18,4 +18,4 @@ discovered_by = TUR
 	controller = ALG
 	add_core = ALG
 }
-add_core = MOR
+add_core = AMO

@@ -3,10 +3,10 @@ owner = BAV
 controller = BAV
 culture = bavarian
 religion = catholic
-base_tax = 5
-base_production = 5
+base_tax = 4
+base_production = 4
 trade_goods = salt
-base_manpower = 2
+base_manpower = 1
 capital = "Landshut"
 is_city = yes
 hre = yes
@@ -17,7 +17,6 @@ discovered_by = ottoman
 #Last of the Landshuter Wittelsbachs dies, Bavaria reunited
 1503.12.1 = { 
 	controller = BAV
-	add_core = BAV
 }
 1704.8.13 = { 
 	controller = HAB

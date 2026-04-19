@@ -1,6 +1,6 @@
 #338 - Al-Djazair
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Al-Djazair"
@@ -23,4 +23,4 @@ center_of_trade = 1
 1525.1.1 = { controller = ALG }
 1530.1.1 = { fort_15th = yes }
 1581.1.1 = { fort_15th = no fort_16th = yes }
-add_core = MOR
+add_core = AMO

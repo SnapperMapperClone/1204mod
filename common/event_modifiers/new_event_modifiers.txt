@@ -1,0 +1,27 @@
+default_culture_leader_modifier = {
+	prestige_decay = -0.01
+	legitimacy = 0.5
+	devotion = 0.5
+	horde_unity = 0.5
+	republican_tradition = 0.3
+}
+
+economic_culture_leader_modifier = {
+	development_cost = -0.1
+	global_prosperity_growth = 0.1 
+}
+
+commercial_culture_leader_modifier = {
+	global_own_trade_power = 0.25
+	trade_steering = 0.25
+}
+
+diplomatic_culture_leader_modifier = {
+	diplomatic_reputation = 1
+	improve_relation_modifier = 0.2
+}
+
+military_culture_leader_modifier = {
+	land_morale = 0.15
+	prestige_from_land = 1
+}

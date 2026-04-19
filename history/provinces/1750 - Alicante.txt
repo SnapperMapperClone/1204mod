@@ -1,6 +1,6 @@
 #1750 - Alàcant
-owner = MOR#Martí I of Aragon
-controller = MOR
+owner = AMO#Martí I of Aragon
+controller = AMO
 add_core = VAL
 culture = al_andalus_arabic
 religion = sunni
@@ -24,4 +24,4 @@ discovered_by = ottoman
 1812.1.1 = { controller = SPA revolt = { size = 1 } }
 1813.3.19 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

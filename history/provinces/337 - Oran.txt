@@ -1,6 +1,6 @@
 #337 - Oran
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = maghrebi_arabic
 religion = sunni
 capital = "Oran"
@@ -31,4 +31,4 @@ discovered_by = eastern
 1792.1.1 = { 
 	controller = ALG
 }
-add_core = MOR
+add_core = AMO

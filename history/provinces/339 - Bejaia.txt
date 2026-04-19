@@ -1,6 +1,6 @@
 #339 - Bejaia
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Bejaia"
@@ -19,4 +19,4 @@ discovered_by = ottoman
 	capital = "Kalâa"
 }
 1600.1.1 = { capital = "Medjana" }
-add_core = MOR
+add_core = AMO

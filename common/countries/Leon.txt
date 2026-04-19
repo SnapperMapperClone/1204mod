@@ -1,4 +1,9 @@
-Llion
+#Country Name: Llion.
+
+graphical_culture = westerngfx
+
+color = { 99  14  87 }
+revolutionary_colors = { 0 2 0 }
 
 monarch_names = {
 	"Garsea #1" = 20
@@ -43,7 +48,8 @@ monarch_names = {
 leader_names = {
 	Martiiniz "de Nava" Diaz "de Quiroos" Froylez Pelaz "de Laria" "de Asturies" "de Llyon" Morate "de Cardielles" Domenguez
 	"de Mataxana" Pedrez "de Oumanna" "de Carvayar" "della Tenda" Alonsu "de Qualla" "de Olloniego" "del Dado" "de Aller"
-	"de Mieres" "de Premanna" Nicolas Rodriguiz "del Castiello" "de Quinnones" "de Abilles" "de Ovieu"
+	"de Mieres" "de Premanna" Nicolas Rodriguiz "del Castiello" "de Quinnones" "de Abilles" "de Ovieu" "de Llamuno"
+	"de Ponce de Llion" "de Biedma" "d'Osorio"
 }
 
 ship_names = {

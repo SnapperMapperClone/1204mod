@@ -1,6 +1,6 @@
 #230 - Algarve
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = al_andalus_arabic
 religion = sunni
 capital = "Faro"
@@ -15,4 +15,4 @@ discovered_by = ottoman
 discovered_by = eastern
 1807.11.30 = { controller = FRA }
 1808.6.18 = { controller = POR }
-add_core = MOR
+add_core = AMO
