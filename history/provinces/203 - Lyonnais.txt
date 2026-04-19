@@ -1,6 +1,6 @@
 # 203 Lyonnais - Principal cities: Lyon
-owner = LYN
-controller = LYN
+owner = DAU
+controller = DAU
 capital = "Lyon"
 is_city = yes
 culture = occitain_sep
@@ -29,6 +29,6 @@ center_of_trade = 2
 	fort_17th = no
 	fort_18th = yes
 }
-hre = yes
-add_core = LYN
+add_core = DAU
 fort_15th = yes
+hre = yes
