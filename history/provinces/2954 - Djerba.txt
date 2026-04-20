@@ -1,6 +1,6 @@
 #2954 - Djerba
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = ibadi
 capital = "Djerba"
@@ -35,5 +35,5 @@ center_of_trade = 1
 1593.1.1 = { 
 	controller = TUN
 }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

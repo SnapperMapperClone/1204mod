@@ -1,0 +1,15 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+hre = yes
+is_city = yes
+add_core = SWA
+owner = SWA
+culture = swabian
+trade_goods = wine
+controller = SWA
+base_tax = 4
+base_manpower = 3
+base_production = 4

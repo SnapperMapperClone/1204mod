@@ -4329,7 +4329,7 @@ urbanization = {
 	}
 }
 
-nationalism = {
+nationalism_institution = {
 	
 	trade_company_efficiency = 2.0
 

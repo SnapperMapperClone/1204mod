@@ -1,6 +1,6 @@
 # - Touggourt
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Touggourt"
@@ -12,4 +12,4 @@ is_city = yes
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western
-add_core = MOR
+add_core = AMO

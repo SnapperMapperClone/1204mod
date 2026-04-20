@@ -1,6 +1,6 @@
 # - Kairwan
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = african_roman
 religion = sunni
 capital = "Kairwan"
@@ -30,4 +30,4 @@ discovered_by = ottoman
 1593.1.1 = { 
 	controller = TUN
 }
-add_core = MOR
+add_core = AMO

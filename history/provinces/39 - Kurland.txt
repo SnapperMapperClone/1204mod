@@ -17,7 +17,7 @@ discovered_by = ottoman
 #1561.11.28
 1561.1.1 = { 
 	controller = KUR
-	religion = Protestant
+	religion = protestant
 }
 1621.10.3 = { controller = SWE }
 1622.6.25 = { controller = KUR }

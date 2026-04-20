@@ -37,7 +37,7 @@ center_of_trade = 2
 	add_core = PER
 }
 1532.1.1 = { 
-	religion = Shiite
+	religion = shiite
 }
 1580.1.1 = { fort_15th = yes }
 1650.1.1 = { trade_goods = Spices }

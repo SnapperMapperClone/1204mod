@@ -10,11 +10,12 @@ fixed_capital = 151
 
 1204.5.16 = {
 	monarch = {
-		name = "Baldwin I"
-		dynasty = Balduini
+		name = "Baudouin I"
+		dynasty = "de Flandre"
 		birth_date = 1172.7.1
 		adm = 2
 		dip = 2
 		mil = 2
 	}
+	set_country_flag = baldwin_of_flanders
 }

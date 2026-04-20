@@ -1,7 +1,7 @@
 #214 - Teruel
-owner = MOR# Alfons V of Aragon
-controller = MOR
-culture = aragonese_sep
+owner = AMO# Alfons V of Aragon
+controller = AMO
+culture = aragonese
 religion = catholic
 base_tax = 3
 base_production = 3
@@ -27,4 +27,4 @@ discovered_by = ottoman
 1810.1.1 = { controller = SPA revolt = { size = 1 } }
 1812.7.26 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

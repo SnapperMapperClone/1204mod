@@ -19,7 +19,7 @@ discovered_by = ottoman
 	controller = POL
 	add_core = PRU
 }
-1542.1.1 = { religion = Protestant }
+1542.1.1 = { religion = protestant }
 1569.7.1 = { 
 	controller = PLC
 	add_core = PLC

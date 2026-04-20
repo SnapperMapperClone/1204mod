@@ -1,6 +1,6 @@
 #352 - Gafsa
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Gafsa"
@@ -22,4 +22,4 @@ discovered_by = TUR
 	add_core = TUN
 }
 1702.1.1 = { add_core = ALG }
-add_core = MOR
+add_core = AMO

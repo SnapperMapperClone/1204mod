@@ -1,6 +1,6 @@
 #354 - Tripoli
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = african_bedouin_arabic
 religion = sunni
 capital = "Tripoli"#Tripoli in the West.
@@ -30,4 +30,4 @@ center_of_trade = 2
 }
 1609.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 2 } }
 1610.1.1 = { controller = TRP revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

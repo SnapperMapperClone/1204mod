@@ -73,6 +73,14 @@ dependency = {
 	end_date = 9999.1.1
 }
 
+dependency = {
+	subject_type = appanage
+	first = FRA
+	second = FLA
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
 
 #Great Britain
 
@@ -163,4 +171,19 @@ royal_marriage = { #valdemar - dagmar
 	second = DAN
 	start_date = 1204.1.1
 	end_date = 1789.7.14
+}
+
+royal_marriage = {
+	first = HAB
+	second = NIC
+	start_date = 1204.1.1
+	end_date = 1789.7.14
+}
+
+dependency = {
+	subject_type = personal_union
+	first = HAB
+	second = STY
+	start_date = 1204.1.1
+	end_date = 9999.1.1
 }

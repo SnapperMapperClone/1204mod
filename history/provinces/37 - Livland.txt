@@ -12,7 +12,7 @@ base_manpower = 2
 is_city = yes
 discovered_by = western
 discovered_by = eastern
-1542.1.1 = { religion = Protestant }
+1542.1.1 = { religion = protestant }
 1561.1.1 = { 
 	controller = LIT
 	add_core = LIT

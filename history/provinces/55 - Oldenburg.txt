@@ -1,0 +1,34 @@
+#55 - Oldenburg
+owner = OLD
+controller = OLD
+culture = hannoverian
+religion = catholic
+capital = "Oldenburg"
+trade_goods = salt
+hre = yes
+base_tax = 2
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = OLD
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+1448.9.1 = { controller = DAN add_core = DAN }
+1454.1.1 = { controller = OLD }
+1531.1.1 = { religion = protestant }
+1667.1.1 = { 
+	controller = DAN
+}
+1773.1.1 = { 
+	controller = OLD
+}
+1806.7.12 = { hre = no }
+1810.1.1 = { 
+	controller = FRA
+	add_core = FRA
+}
+1813.1.1 = { 
+	controller = SHL
+}

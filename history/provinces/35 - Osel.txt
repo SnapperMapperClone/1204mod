@@ -12,7 +12,7 @@ capital = "Arensburg"
 is_city = yes
 discovered_by = western
 discovered_by = eastern
-1542.1.1 = { religion = Protestant }
+1542.1.1 = { religion = protestant }
 1559.1.1 = { 
 	controller = DAN
 	add_core = DAN

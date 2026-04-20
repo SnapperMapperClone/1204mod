@@ -1,6 +1,6 @@
 owner = BSS
 controller = BSS
-culture = occitain_sep
+culture = arpitan
 religion = catholic
 hre = yes
 base_tax = 3

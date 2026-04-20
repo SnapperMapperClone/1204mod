@@ -1,6 +1,6 @@
 #333 - The Baleares
-owner = MOR# Alfons V of Aragon
-controller = MOR
+owner = AMO# Alfons V of Aragon
+controller = AMO
 add_core = MJO
 culture = al_andalus_arabic
 religion = sunni
@@ -24,4 +24,4 @@ discovered_by = ottoman
 1713.4.11 = { controller = REB revolt = { type = revolutionary_rebels size = 1 } }
 1713.7.13 = { revolt = { size = 1 } }
 1714.9.14 = { controller = SPA }
-add_core = MOR
+add_core = AMO

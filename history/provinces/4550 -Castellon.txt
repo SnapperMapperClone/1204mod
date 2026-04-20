@@ -1,8 +1,8 @@
 #1750 - Castellon
-owner = MOR#Martí I of Aragon
-controller = MOR
+owner = AMO#Martí I of Aragon
+controller = AMO
 add_core = VAL
-culture = catalan_sep
+culture = catalan
 religion = catholic
 base_tax = 4
 base_production = 4
@@ -24,4 +24,4 @@ discovered_by = ottoman
 1812.1.1 = { controller = SPA revolt = { size = 1 } }
 1813.3.19 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

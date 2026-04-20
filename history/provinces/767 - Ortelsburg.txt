@@ -18,7 +18,7 @@ discovered_by = ottoman
 1466.10.19 = { controller = TEU add_core = PRU revolt = { size = 1 } }
 1525.2.10 = { 
 	controller = PRU
-	religion = Protestant
+	religion = protestant
 }
 1618.8.28 = { 
 	controller = BRA

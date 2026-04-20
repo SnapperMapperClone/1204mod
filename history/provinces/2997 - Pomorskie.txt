@@ -23,7 +23,7 @@ discovered_by = ottoman
 	add_core = PRU
 	revolt = { size = 1 }
 }
-1550.1.1 = { religion = Protestant }
+1550.1.1 = { religion = protestant }
 1569.7.1 = { 
 	controller = PLC
 	add_core = PLC

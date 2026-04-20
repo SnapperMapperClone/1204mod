@@ -18,7 +18,7 @@ discovered_by = nomad_group
 	controller = CZH
 	add_core = CZH
 }
-1680.1.1 = { trade_goods = Iron }
+1680.1.1 = { trade_goods = iron }
 1681.10.1 = { 
 	controller = QNG
 	add_core = QNG

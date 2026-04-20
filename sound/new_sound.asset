@@ -1,0 +1,4 @@
+sound = {
+	name = new_raise_goverment_rank
+	file = "raise_goverment_rank.wav"
+}

@@ -1,6 +1,6 @@
 # - El Kef
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "El Kef"
@@ -26,5 +26,5 @@ discovered_by = ottoman
 1593.1.1 = { 
 	controller = TUN
 }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

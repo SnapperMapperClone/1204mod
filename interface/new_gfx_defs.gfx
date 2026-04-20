@@ -1,0 +1,209 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_duke_upgrade"
+		texturefile = "gfx//interface//duke_upgrade.dds"
+	}
+	spriteType = {
+		name = "GFX_king_upgrade"
+		texturefile = "gfx//interface//king_upgrade.dds"
+	}
+	spriteType = {
+		name = "GFX_emperor_upgrade"
+		texturefile = "gfx//interface//emperor_upgrade.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_new_marriage_icon"
+		texturefile = "gfx//interface//countrydipview_marriage_indicator.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader"
+		texturefile = "gfx//interface//culture_leader.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_leader_inverted"
+		texturefile = "gfx//interface//culture_leader_inverted.dds"
+	}
+	spriteType = {
+		name = "GFX_culture_leader_symmetrical"
+		texturefile = "gfx//interface//culture_leader_symmetrical.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_symmetrical_2"
+		texturefile = "gfx//interface//culture_leader_symmetrical_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_opener_button"
+		texturefile = "gfx//interface//culture_leader_opener_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_acquire_culture_leadership"
+		texturefile = "gfx//interface//acquire_culture_leadership.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_empty_modifier"
+		texturefile = "gfx//interface//culture_leader_empty_modifier.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_economic"
+		texturefile = "gfx//interface//culture_leader_economic.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_commerce"
+		texturefile = "gfx//interface//culture_leader_commerce.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_diplomatic"
+		texturefile = "gfx//interface//culture_leader_diplomacy.dds"
+	}
+
+	spriteType = {
+		name = "GFX_culture_leader_military"
+		texturefile = "gfx//interface//culture_leader_military.dds"
+	}
+
+
+
+
+	spriteType = {
+		name = "GFX_marriage_indicator"
+		texturefile = "gfx//interface//countrydipview_marriage_indicator.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_mongol_empire_bg"
+		texturefile = "gfx//interface//mongol_empire_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_icon_in_frame"
+		texturefile = "gfx//interface//mongol_icon_in_frame.dds"
+	}
+	spriteType = {
+		name = "GFX_open_mongol_interface_button"
+		texturefile = "gfx//interface//open_mongol_interface_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mongol_interaction_discipline_curricula"
+		texturefile = "gfx//interface//mongol_interaction_discipline_curricula.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_interaction_enforce_compliance"
+		texturefile = "gfx//interface//mongol_interaction_enforce_compliance.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_interaction_locate_military_talent"
+		texturefile = "gfx//interface//mongol_interaction_locate_military_talent.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_interaction_requisition_manpower"
+		texturefile = "gfx//interface//mongol_interaction_requisition_manpower.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_interaction_search_for_advisors"
+		texturefile = "gfx//interface//mongol_interaction_search_for_advisors.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_interaction_expand_administration"
+		texturefile = "gfx//interface//mongol_interaction_expand_administration.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_administrative_integration"
+		texturefile = "gfx//interface//mongol_reform_administrative_integration.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_assertive_diplomacy"
+		texturefile = "gfx//interface//mongol_reform_assertive_diplomacy.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_convert_subject_types"
+		texturefile = "gfx//interface//mongol_reform_convert_subject_types.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_decimal_organization"
+		texturefile = "gfx//interface//mongol_reform_decimal_organization.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_education_of_bureaucrats"
+		texturefile = "gfx//interface//mongol_reform_education_of_bureaucrats.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_enfeoffment_negotiation"
+		texturefile = "gfx//interface//mongol_reform_enfeoffment_negotiation.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_extensive_conscription"
+		texturefile = "gfx//interface//mongol_reform_extensive_conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_familial_partitions"
+		texturefile = "gfx//interface//mongol_reform_familial_partitions.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_foreign_tolerance"
+		texturefile = "gfx//interface//mongol_reform_foreign_tolerance.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_formalize_religious_tolerance"
+		texturefile = "gfx//interface//mongol_reform_formalize_religious_tolerance.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_general_couriers"
+		texturefile = "gfx//interface//mongol_reform_general_couriers.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_imperial_trade_policies"
+		texturefile = "gfx//interface//mongol_reform_imperial_trade_policies.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_mongol_peace"
+		texturefile = "gfx//interface//mongol_reform_mongol_peace.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_permanent_kurultai"
+		texturefile = "gfx//interface//mongol_reform_permanent_kurultai.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_silk_road_legislation"
+		texturefile = "gfx//interface//mongol_reform_silk_road_legislation.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_standardized_administration"
+		texturefile = "gfx//interface//mongol_reform_standardized_administration.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_yam_system"
+		texturefile = "gfx//interface//mongol_reform_yam_system.dds"
+	}
+
+	spriteType = {
+		name = "GFX_mongol_reform_infantry_reform"
+		texturefile = "gfx//interface//mongol_reform_infantry_reform.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_formalized_navy"
+		texturefile = "gfx//interface//mongol_reform_formalized_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_eastward_exploration"
+		texturefile = "gfx//interface//mongol_reform_eastward_exploration.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_cultural_hybridization"
+		texturefile = "gfx//interface//mongol_reform_cultural_hybridization.dds"
+	}
+	spriteType = {
+		name = "GFX_mongol_reform_first_among_equals"
+		texturefile = "gfx//interface//mongol_reform_first_among_equals.dds"
+	}
+}

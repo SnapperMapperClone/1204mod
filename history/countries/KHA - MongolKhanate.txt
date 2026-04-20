@@ -5,7 +5,7 @@ technology_group = nomad_group
 religion = tengri_pagan_reformed
 secondary_religion = vajrayana
 primary_culture = mongol
-capital = 2116
+capital = 721
 add_accepted_culture = khalkha
 
 1162.1.1 = {
@@ -17,6 +17,7 @@ add_accepted_culture = khalkha
 		dip = 6
 		mil = 6
 	}
+	set_ruler_flag = is_genghis_khan
 }
 
 1260.5.5 = {

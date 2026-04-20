@@ -23,3 +23,5 @@ country_decisions = {
       add_prestige = 50
       add_army_tradition = 100
     }
+  }
+}

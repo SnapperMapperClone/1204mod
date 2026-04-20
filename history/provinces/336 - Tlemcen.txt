@@ -1,6 +1,6 @@
 #336 - Tlemcen
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Tlemcen"
@@ -17,7 +17,6 @@ extra_cost = 16
 center_of_trade = 2
 1549.1.1 = { 
 	controller = MOR
-	add_core = MOR
 }
 1554.1.1 = { 
 	controller = ALG
@@ -25,5 +24,5 @@ center_of_trade = 2
 }
 1659.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 1 } }
 1660.1.1 = { controller = ALG revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

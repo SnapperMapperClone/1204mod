@@ -3,14 +3,13 @@ owner = FRA
 controller = FRA
 capital = "Soissons"
 is_city = yes
-culture = cosmopolitan_french
+culture = picard
 religion = catholic
-base_tax = 5
-base_production = 5
+base_tax = 6
+base_production = 6
 trade_goods = livestock
 base_manpower = 4
 #fort_15th = yes
-add_core = CHP
 add_core = PIC
 add_core = VLO
 discovered_by = eastern
@@ -23,7 +22,7 @@ discovered_by = ottoman
 	controller = ORL
 	add_core = ORL
 }
-1574.5.3 = { controller = FRA add_core = FRA }
+1574.5.3 = { controller = FRA }
 1636.9.10 = { controller = HAB }
 1636.9.15 = { controller = FRA }
 1650.3.1 = { controller = REB revolt = { type = revolutionary_rebels size = 2 } }

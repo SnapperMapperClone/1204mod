@@ -1,0 +1,101 @@
+defined_text = {
+	name = GetCultureLeaderOne
+	random = no
+	text = {
+		localisation_key = culture_leader_slot_one_text
+		trigger = {
+			has_saved_global_event_target = culture_leader_one
+		}
+	}
+	text = {
+		localisation_key = culture_leader_slot_empty
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetCultureLeaderTwo
+	random = no
+	text = {
+		localisation_key = culture_leader_slot_two_text
+		trigger = {
+			has_saved_global_event_target = culture_leader_two
+		}
+	}
+	text = {
+		localisation_key = culture_leader_slot_empty
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetCultureLeaderThree
+	random = no
+	text = {
+		localisation_key = culture_leader_slot_three_text
+		trigger = {
+			has_saved_global_event_target = culture_leader_three
+		}
+	}
+	text = {
+		localisation_key = culture_leader_slot_empty
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetCultureLeaderFour
+	random = no
+	text = {
+		localisation_key = culture_leader_slot_four_text
+		trigger = {
+			has_saved_global_event_target = culture_leader_four
+		}
+	}
+	text = {
+		localisation_key = culture_leader_slot_empty
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetCultureLeaderFive
+	random = no
+	text = {
+		localisation_key = culture_leader_slot_five_text
+		trigger = {
+			has_saved_global_event_target = culture_leader_five
+		}
+	}
+	text = {
+		localisation_key = culture_leader_slot_empty
+		trigger = {
+			always = yes
+		}
+	}
+}
+
+defined_text = {
+	name = GetCultureLeaderSix
+	random = no
+	text = {
+		localisation_key = culture_leader_slot_six_text
+		trigger = {
+			has_saved_global_event_target = culture_leader_six
+		}
+	}
+	text = {
+		localisation_key = culture_leader_slot_empty
+		trigger = {
+			always = yes
+		}
+	}
+}

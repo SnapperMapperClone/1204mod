@@ -25,3 +25,4 @@ discovered_by = ottoman
 1809.1.1 = { controller = SPA revolt = { size = 1 } }
 1812.10.1 = { controller = REB revolt = { type = pretender_rebels size = 2 leader = "Fernando" } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
+center_of_trade = 1

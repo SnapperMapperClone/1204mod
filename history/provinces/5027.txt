@@ -1,0 +1,20 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+hre = yes
+is_city = yes
+add_core = FRC
+owner = FRC
+culture = burgundian
+trade_goods = salt
+controller = FRC
+capital = "Pontarlier"
+latent_trade_goods = { 
+	coal 
+}
+base_tax = 3
+base_manpower = 2
+base_production = 3
+center_of_trade = 1

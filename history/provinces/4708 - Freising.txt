@@ -5,9 +5,9 @@ is_city = yes
 culture = bavarian
 religion = catholic
 hre = yes
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 1
 trade_goods = grain#Weihenstephaner beer
 discovered_by = eastern
 discovered_by = western
@@ -16,7 +16,6 @@ discovered_by = ottoman
 #Last of the Landshuter Wittelsbachs dies, Bavaria reunited
 1503.12.1 = { 
 	controller = BAV
-	add_core = BAV
 }
 1704.8.13 = { controller = HAB }
 1714.9.7 = { controller = BAV }

@@ -2,18 +2,13 @@
 owner = FRI
 controller = FRI
 capital = "Leeuwarden"
-is_city = yes
+is_city = no
 culture = frisian
 religion = catholic
 base_tax = 6
 base_production = 6
-trade_goods = livestock
 base_manpower = 2
 add_core = FRI
-discovered_by = western
-discovered_by = eastern
-discovered_by = muslim
-discovered_by = ottoman
 1445.1.1 = { add_core = BUR }
 1473.2.23 = { controller = BUR }
 1477.1.5 = { controller = FRI add_core = HAB }
@@ -23,7 +18,7 @@ discovered_by = ottoman
 }
 1519.1.12 = { add_core = SPA }
 1524.1.1 = { controller = SPA }
-1536.1.1 = { religion = Reformed }
+1536.1.1 = { religion = reformed }
 1549.11.4 = { controller = NED add_core = NED }
 1568.5.23 = { controller = REB revolt = { type = nationalist_rebels name = "Les Gueux" size = 2 leader = "Louis of Nassau" } }
 1568.7.21 = { controller = SPA revolt = { size = 1 } }
@@ -39,4 +34,20 @@ discovered_by = ottoman
 }
 1813.11.30 = { 
 	controller = NED
+}
+1444.11.11 = { 
+	controller = FRI
+	capital = "Leeuwarden"
+	city = yes
+	culture = frisian
+	religion = catholic
+	base_tax = 6
+	base_production = 6
+	trade_goods = Livestock
+	base_manpower = 2
+	add_core = FRI
+	discovered_by = western
+	discovered_by = eastern
+	discovered_by = muslim
+	discovered_by = ottoman
 }

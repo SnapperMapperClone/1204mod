@@ -1,6 +1,6 @@
 #4150 - Alto Alentejo
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = mozarabic
 religion = catholic
 capital = "Évora"
@@ -22,5 +22,5 @@ discovered_by = eastern
 1801.6.6 = { controller = POR }
 1810.9.15 = { controller = FRA }
 1811.4.5 = { controller = POR }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

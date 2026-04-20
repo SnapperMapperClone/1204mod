@@ -1,0 +1,23 @@
+#4232 - Ganggye
+owner = KOR
+controller = KOR
+culture = korean
+religion = mahayana
+capital = "Ganggye"
+trade_goods = fur
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = KOR
+add_local_autonomy = 35
+discovered_by = chinese
+discovered_by = nomad_group
+1519.1.1 = { discovered_by = POR }
+1592.7.19 = { controller = ODA }
+1593.2.8 = { controller = KOR }
+1637.1.1 = { add_core = MNG }
+1644.1.1 = { add_core = MCH }
+1645.7.1 = { add_core = QNG }
+1653.1.1 = { discovered_by = NED }
+fort_15th = yes

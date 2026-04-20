@@ -1,8 +1,8 @@
 government = monarchy
 add_government_reform = appanage_reform
 government_rank = 1
-primary_culture = occitain_sep
-add_accepted_culture = occitain_sep
+primary_culture = occitain
+add_accepted_culture = occitain
 religion = catholic
 technology_group = western
 capital = 196	# Toulouse

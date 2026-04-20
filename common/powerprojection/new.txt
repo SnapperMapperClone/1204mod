@@ -1,0 +1,7 @@
+upgraded_gov_rank_to_kingdom = {
+	yearly_decay = 0.5
+}
+
+upgraded_gov_rank_to_empire = {
+	yearly_decay = 0.5
+}

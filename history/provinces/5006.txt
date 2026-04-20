@@ -1,0 +1,19 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+is_city = yes
+add_core = PRO
+owner = PRO
+culture = occitain
+religion = catholic
+controller = PRO
+trade_goods = paper
+base_tax = 7
+base_manpower = 5
+base_production = 7
+hre = yes
+add_permanent_province_modifier = { 
+	name = rhone_estuary_modifier
+	duration = -1
+}

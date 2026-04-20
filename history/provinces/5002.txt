@@ -1,0 +1,15 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+is_city = yes
+add_core = ANJ
+owner = ANJ
+culture = angevin
+religion = catholic
+controller = ANJ
+trade_goods = grain
+base_tax = 4
+base_manpower = 3
+base_production = 4
+capital = "Vendôme"

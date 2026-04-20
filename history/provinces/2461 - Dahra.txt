@@ -1,6 +1,6 @@
 # - Dahra
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Mostaganem"
@@ -17,5 +17,5 @@ discovered_by = eastern
 1517.1.1 = { 
 	controller = ALG
 }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

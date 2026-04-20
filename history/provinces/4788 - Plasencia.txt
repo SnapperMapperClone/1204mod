@@ -1,6 +1,6 @@
 #4788 - Plasencia
-owner = MOR#Enrique III of Castille
-controller = MOR
+owner = AMO#Enrique III of Castille
+controller = AMO
 add_core = LON
 culture = mozarabic
 religion = catholic
@@ -24,4 +24,4 @@ discovered_by = ottoman
 1809.1.1 = { controller = SPA revolt = { size = 1 } }
 1812.7.26 = { controller = REB revolt = { type = pretender_rebels size = 0 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO

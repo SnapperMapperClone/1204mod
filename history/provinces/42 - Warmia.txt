@@ -27,4 +27,4 @@ discovered_by = ottoman
 1589.1.1 = { controller = PLC revolt = { size = 1 } }
 1655.8.1 = { controller = SWE }
 1660.1.1 = { controller = PLC }
-1772.9.22 = { controller = PRU religion = Protestant }
+1772.9.22 = { controller = PRU religion = protestant }

@@ -1,6 +1,6 @@
 # - Susa
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = maghrebi_arabic
 religion = sunni
 capital = "Susa"
@@ -27,4 +27,4 @@ discovered_by = eastern
 1593.1.1 = { 
 	controller = TUN
 }
-add_core = MOR
+add_core = AMO

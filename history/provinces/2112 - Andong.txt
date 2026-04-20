@@ -2,12 +2,12 @@
 owner = CJN
 controller = CJN
 culture = manchu
-religion = confucianism
+religion = tengri_pagan_reformed
 capital = "Andong"
 trade_goods = grain
-base_tax = 2
-base_production = 2
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group

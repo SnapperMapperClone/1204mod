@@ -1,6 +1,6 @@
 #340 - Constantine
-owner = MOR
-controller = MOR
+owner = AMO
+controller = AMO
 culture = algerian
 religion = sunni
 capital = "Annaba"
@@ -17,4 +17,4 @@ discovered_by = ottoman
 	controller = ALG
 	add_core = ALG
 }
-add_core = MOR
+add_core = AMO

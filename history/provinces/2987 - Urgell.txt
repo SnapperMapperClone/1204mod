@@ -2,7 +2,7 @@
 owner = URG#Alfons V of Aragon
 controller = URG
 add_core = CAT
-culture = catalan_sep
+culture = catalan
 religion = catholic
 base_tax = 3
 base_production = 3

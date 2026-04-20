@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = western
 religion = catholic
 capital = 4766
-primary_culture = burgundian
+primary_culture = lorrain

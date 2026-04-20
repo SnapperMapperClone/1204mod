@@ -1,8 +1,8 @@
 #220 - València
-owner = MOR#Alfons V of Aragon
-controller = MOR
+owner = AMO#Alfons V of Aragon
+controller = AMO
 add_core = VAL
-culture = catalan_sep
+culture = catalan
 religion = catholic
 base_tax = 6
 base_production = 5
@@ -28,5 +28,5 @@ center_of_trade = 2
 1812.1.1 = { controller = SPA revolt = { size = 1 } }
 1813.3.19 = { controller = REB revolt = { type = pretender_rebels size = 2 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-add_core = MOR
+add_core = AMO
 fort_15th = yes

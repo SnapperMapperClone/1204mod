@@ -21,7 +21,7 @@ center_of_trade = 1
 1525.2.10 = { 
 	controller = PRU
 	trade_goods = Paper
-	religion = Protestant
+	religion = protestant
 }
 1618.8.28 = { 
 	controller = BRA

@@ -1,0 +1,16 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+hre = yes
+is_city = yes
+add_core = LOR
+owner = LOR
+culture = lorrain
+trade_goods = cloth
+controller = LOR
+capital = "Épinal"
+base_tax = 4
+base_manpower = 2
+base_production = 4

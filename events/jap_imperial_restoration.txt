@@ -1,0 +1,32 @@
+namespace = jap_imperial_restoration
+
+country_event = {
+	id = jap_imperial_restoration.1
+	title = jap_imperial_restoration.1.t
+	desc = jap_imperial_restoration.1.d
+	picture = SHOGUNATE_AUTHORITY_INCIDENT_eventPicture
+	
+	is_triggered_only = yes
+  
+ 	option = {
+ 		name = jap_imperial_restoration.1.a
+		set_country_flag = jap_imperial_restoration
+		define_ruler = {
+			dynasty = "Yamato"
+			male = yes
+		}
+		if = {
+			limit = {
+				has_heir = yes
+			}
+			kill_heir = {
+				allow_new_heir = no
+			}
+		}
+		add_government_reform = jap_imperial_government
+	}
+	option = {
+ 		name = jap_imperial_restoration.1.b
+		add_stability = -3
+	}
+}

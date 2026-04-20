@@ -1,0 +1,16 @@
+add_core = FRA
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = FRA
+culture = picard
+religion = catholic
+controller = FRA
+is_city = yes
+trade_goods = naval_supplies
+base_tax = 4
+base_manpower = 3
+base_production = 4
+capital = "Abbeville"
+add_core = PIC
