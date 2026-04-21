@@ -1,0 +1,17 @@
+technology_group = muslim
+primary_culture = uzbehk
+religion = sunni
+government = monarchy
+add_government_reform = iqta
+capital = 454 # Samarkand
+religious_school = hanafi_school
+
+1204.1.1 = {
+	monarch = {
+		name = "Uthman ibn Ibrahim"
+		dynasty = "Afrasiabid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

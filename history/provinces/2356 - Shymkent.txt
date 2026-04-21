@@ -1,13 +1,15 @@
-#457 - Tashkent
+# 2356 - Shymkent
+
 owner = TSH
 controller = TSH
 culture = uzbehk
-religion = nestorian
-capital = "Tashkent"
+religion = sunni
+capital = "Shymkent"
 trade_goods = tea
-base_tax = 3
-base_production = 3
-base_manpower = 3
+hre = no
+base_tax = 1 
+base_production = 1
+base_manpower = 1
 is_city = yes
 add_core = TSH
 discovered_by = KAS

@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = nomad_group
+religion = vajrayana
+capital = 713

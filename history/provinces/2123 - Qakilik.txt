@@ -1,14 +1,20 @@
-#4206 - Balikul
+# 2123 - Qakilik
+
 owner = QOC
 controller = QOC
+add_core = QOC
 culture = oirats
-religion = tengri_pagan_reformed
-capital = "Balikul"
+religion = vajrayana
+capital = "Qakilik"
 trade_goods = livestock
-base_tax = 1
+hre = no
+base_tax = 1 
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 is_city = yes
+
+
+
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = QOC
+

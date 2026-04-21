@@ -1099,6 +1099,9 @@ ELD = "countries/Eldiguzids.txt"
 #CENTRAL ASIA
 GHU = "countries/Ghurid.txt"
 QKT = "countries/QaraKhitai.txt"
+KKW = "countries/WestKarakhanids.txt"
+TSH = "countries/Tashkent.txt"
+QOC = "countries/Qocho.txt"
 #INDIA
 CLS = "countries/Chola.txt"
 #CHINA

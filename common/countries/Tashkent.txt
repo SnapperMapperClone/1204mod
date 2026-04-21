@@ -1,0 +1,4 @@
+graphical_culture = muslimgfx
+color = { 
+	89  134  166
+}
