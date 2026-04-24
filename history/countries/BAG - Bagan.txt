@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = mandala_reform
+technology_group = chinese
+religion = buddhism
+primary_culture = burmese
+capital = 2399
+
+1174.5.1 = {
+	monarch = {
+		name = "Narapati Sithu"
+		dynasty = "Bagan"
+		ADM = 4
+		DIP = 4
+		MIL = 4
+	}
+}

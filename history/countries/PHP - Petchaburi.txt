@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = central_thai
+religion = buddhism
+technology_group = chinese
+capital = 2387
+
+
+1165.1.1 = {
+	monarch = {
+		name = "Intharacha"
+		dynasty = "Guruwamsa"
+		birth_date = 1135.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

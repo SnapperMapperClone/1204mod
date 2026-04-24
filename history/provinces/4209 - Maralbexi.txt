@@ -1,7 +1,7 @@
 #4209 - Maralbexi
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = QKT
+controller = QKT
+add_core = QKT
 culture = uyghur
 religion = vajrayana
 capital = "Maralbexi"

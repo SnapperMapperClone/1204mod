@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = mon
+religion = buddhism
+technology_group = chinese
+capital = 593
+
+
+1183.1.1 = {
+	monarch = {
+		name = "Chandrabhanu II"
+		dynasty = "Padmavamsa"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

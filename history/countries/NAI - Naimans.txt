@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = steppe_horde
+government_rank = 1
+technology_group = nomad_group
+religion = nestorian
+primary_culture = naiman
+capital = 719
+
+1198.1.1 = {
+	monarch = {
+		name = "Tayang"
+		dynasty = "Gucugut"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}

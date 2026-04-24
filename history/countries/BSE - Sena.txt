@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = bengali
+religion = hinduism
+technology_group = indian
+capital = 4476
+
+1178.1.1 = {
+	monarch = {
+		name = "Lakshmana"
+		dynasty = "Sena"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
