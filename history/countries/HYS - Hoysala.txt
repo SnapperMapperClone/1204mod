@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = indian
+religion = hinduism
+primary_culture = kannada
+capital = 2032
+
+1173.7.22 = {
+	monarch = {
+		name = "Veera Ballala II"
+		dynasty = "Hoysala"
+		ADM = 4
+		DIP = 4
+		MIL = 4
+	}
+}
+

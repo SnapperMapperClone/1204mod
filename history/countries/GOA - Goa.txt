@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = indian
+religion = hinduism
+primary_culture = kannada
+capital = 2030
+
+1188.1.1 = {
+	monarch = {
+		name = "Jayakeshi III"
+		dynasty = "Kadamba"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+

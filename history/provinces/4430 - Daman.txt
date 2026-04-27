@@ -2,7 +2,7 @@
 
 owner = CAU
 controller = CAU
-culture = marathi
+culture = parsi
 religion = zoroastrian
 capital = "Daman"
 trade_goods = cloth
