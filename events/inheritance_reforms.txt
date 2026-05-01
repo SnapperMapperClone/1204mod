@@ -1,0 +1,75 @@
+namespace = inheritance_reform_event
+
+country_event = {
+	id = inheritance_reform_event.1
+	title = inheritance_reform_event.1.t
+	desc = inheritance_reform_event.1.d
+	picture = ADVISOR_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = inheritance_reform_event.1.a
+		remove_heir = {
+			allow_new_heir = no
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+
+	option = {
+		name = inheritance_reform_event.1.b
+		add_stability = -1
+		add_prestige = -25
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+	}
+}
+
+country_event = { #new male heir with female in succession
+	id = inheritance_reform_event.2
+	title = inheritance_reform_event.2.t
+	desc = inheritance_reform_event.2.d
+	picture = GREAT_BUILDING_eventPicture
+
+	trigger = {
+		has_female_heir = yes
+		has_consort = yes
+		has_reform = male_preference_primogeniture
+	}
+
+	mean_time_to_happen = {
+		years = 20
+
+		modifier = {
+			factor = 0.5
+			ruler_has_personality = fertile_personality
+		}
+
+		modifier = {
+			factor = 2
+			ruler_has_personality = infertile_personality
+		}
+	}
+
+	option = {
+		name = inheritance_reform_event.2.a
+		remove_heir = {
+			allow_new_heir = no
+		}
+		define_heir = {
+			age = 0
+			male = yes
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = inheritance_reform_event.2.b
+		add_prestige = -10
+	}
+}

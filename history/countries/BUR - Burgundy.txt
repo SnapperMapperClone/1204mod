@@ -1,14 +1,13 @@
 government = monarchy
 add_government_reform = burgundian_state_reform
-government_rank = 1
+government_rank = 2
 primary_culture = burgundian
 add_accepted_culture = wallonian
 religion = catholic
 technology_group = western
-capital = 192	# Dijon
-
-1192.1.1 = {
-	monarch = {
+capital = 192# Dijon
+1192.1.1 = { 
+	monarch = { 
 		name = "Eudes III"
 		dynasty = "de Bourgogne"
 		birth_date = 1166.1.1
@@ -18,9 +17,8 @@ capital = 192	# Dijon
 		mil = 2
 	}
 }
-
-1199.1.1 = {
-	queen = {
+1199.1.1 = { 
+	queen = { 
 		name = "Alix"
 		dynasty = "de Vergy"
 		birth_date = 1182.1.1
@@ -31,9 +29,8 @@ capital = 192	# Dijon
 		mil = 2
 	}
 }
-
-1213.3.9 = {
-	heir = {
+1213.3.9 = { 
+	heir = { 
 		name = "Hugues"
 		monarch_name = "Hugues IV"
 		dynasty = "de Bourgogne"

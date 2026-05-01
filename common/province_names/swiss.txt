@@ -2,3 +2,5 @@
 1871 = "Valais"
 1867 = "Vaud"
 4720 = "Genève"
+165 = { "Bear" "Bear" }
+1869 = { "Züri" "Züri" }

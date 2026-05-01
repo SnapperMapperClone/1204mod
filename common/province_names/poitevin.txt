@@ -1,0 +1,4 @@
+180 = { "Haut-Poitou" "Poetàe" }
+5009 = { "Aunis" "La Rochéle" }
+4111 = { "Saintonge" "Sénte" }
+4387 = { "Engoulaeme" "Engoulaeme" }

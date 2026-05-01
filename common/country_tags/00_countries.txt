@@ -560,8 +560,7 @@ SOO = "countries/So.txt"# Japanese potential pirate daimyo
 NVK = "countries/Nivkh.txt"# Split from Yeren
 SOL = "countries/Solon.txt"# Split from Yeren
 EJZ = "countries/EastJianzhou.txt"# Split from Jianzhou
-NHX = "countries/NorthHaixi.txt"# Split from Haixi
-#Manchuria tags
+NHX = "countries/NorthHaixi.txt"#Manchuria tags
 MYR = "countries/Yeren.txt"
 MHX = "countries/Haixi.txt"
 MJZ = "countries/Jianzhou.txt"
@@ -1144,6 +1143,12 @@ CAG = "countries/Cagliari.txt"
 ABR = "countries/Arborea.txt"
 LGD = "countries/Logudoro.txt"
 URG = "countries/Urgell.txt"
- = "countries/CreateCountryForm.txt"
+
 AMO = "countries/ALmohads.txt"
 KMK = "countries/Kamakura.txt"
+ATO = "countries/Artois.txt"
+VMD = "countries/Vermandois.txt"
+CLR = "countries/Colmar.txt"
+VLO = "countries/Valois.txt"
+PNT = "countries/Ponthieu.txt"
+SNC = "countries/Sancerre.txt"

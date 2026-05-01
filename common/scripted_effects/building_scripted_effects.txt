@@ -1,0 +1,1189 @@
+temple_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = temple_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = temple_modifier_i
+            duration = -1
+        }
+        remove_building = temple
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = temple_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = temple_modifier_ii
+            duration = -1
+        }
+        remove_building = temple
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = temple_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = temple_modifier_iii
+            duration = -1
+        }
+        remove_building = temple
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = temple_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = temple_modifier_iv
+            duration = -1
+        }
+        remove_building = temple
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+cathedral_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = cathedral_modifier_i
+            }
+        }
+        remove_province_modifier = temple_modifier_i
+        add_permanent_province_modifier = {
+            name = cathedral_modifier_i
+            duration = -1
+        }
+        remove_building = cathedral
+        add_building = temple
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = cathedral_modifier_ii
+            }
+        }
+        remove_province_modifier = temple_modifier_ii
+        add_permanent_province_modifier = {
+            name = cathedral_modifier_ii
+            duration = -1
+        }
+        remove_building = cathedral
+        add_building = temple
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = cathedral_modifier_iii
+            }
+        }
+        remove_province_modifier = temple_modifier_iii
+        add_permanent_province_modifier = {
+            name = cathedral_modifier_iii
+            duration = -1
+        }
+        remove_building = cathedral
+        add_building = temple
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = cathedral_modifier_iv
+            }
+        }
+        remove_province_modifier = temple_modifier_iv
+        add_permanent_province_modifier = {
+            name = cathedral_modifier_iv
+            duration = -1
+        }
+        remove_building = cathedral
+        add_building = temple
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+
+marketplace_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = marketplace_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = marketplace_modifier_i
+            duration = -1
+        }
+        remove_building = marketplace
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = marketplace_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = marketplace_modifier_ii
+            duration = -1
+        }
+        remove_building = marketplace
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = marketplace_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = marketplace_modifier_iii
+            duration = -1
+        }
+        remove_building = marketplace
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = marketplace_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = marketplace_modifier_iv
+            duration = -1
+        }
+        remove_building = marketplace
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+trade_depot_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = trade_depot_modifier_i
+            }
+        }
+        remove_province_modifier = marketplace_modifier_i
+        add_permanent_province_modifier = {
+            name = trade_depot_modifier_i
+            duration = -1
+        }
+        remove_building = trade_depot
+        add_building = marketplace
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = trade_depot_modifier_ii
+            }
+        }
+        remove_province_modifier = marketplace_modifier_ii
+        add_permanent_province_modifier = {
+            name = trade_depot_modifier_ii
+            duration = -1
+        }
+        remove_building = trade_depot
+        add_building = marketplace
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = trade_depot_modifier_iii
+            }
+        }
+        remove_province_modifier = marketplace_modifier_iii
+        add_permanent_province_modifier = {
+            name = trade_depot_modifier_iii
+            duration = -1
+        }
+        remove_building = trade_depot
+        add_building = marketplace
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = trade_depot_modifier_iv
+            }
+        }
+        remove_province_modifier = marketplace_modifier_iv
+        add_permanent_province_modifier = {
+            name = trade_depot_modifier_iv
+            duration = -1
+        }
+        remove_building = trade_depot
+        add_building = marketplace
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+stock_exchange_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = stock_exchange_modifier_i
+            }
+        }
+        remove_province_modifier = trade_depot_modifier_i
+        add_permanent_province_modifier = {
+            name = stock_exchange_modifier_i
+            duration = -1
+        }
+        remove_building = stock_exchange
+        add_building = trade_depot
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = stock_exchange_modifier_ii
+            }
+        }
+        remove_province_modifier = trade_depot_modifier_ii
+        add_permanent_province_modifier = {
+            name = stock_exchange_modifier_ii
+            duration = -1
+        }
+        remove_building = stock_exchange
+        add_building = trade_depot
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = stock_exchange_modifier_iii
+            }
+        }
+        remove_province_modifier = trade_depot_modifier_iii
+        add_permanent_province_modifier = {
+            name = stock_exchange_modifier_iii
+            duration = -1
+        }
+        remove_building = stock_exchange
+        add_building = trade_depot
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = stock_exchange_modifier_iv
+            }
+        }
+        remove_province_modifier = trade_depot_modifier_iv
+        add_permanent_province_modifier = {
+            name = stock_exchange_modifier_iv
+            duration = -1
+        }
+        remove_building = stock_exchange
+        add_building = trade_depot
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+
+bell_tower_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = bell_tower_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = bell_tower_modifier_i
+            duration = -1
+        }
+        remove_building = bell_tower
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = bell_tower_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = bell_tower_modifier_ii
+            duration = -1
+        }
+        remove_building = bell_tower
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = bell_tower_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = bell_tower_modifier_iii
+            duration = -1
+        }
+        remove_building = bell_tower
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = bell_tower_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = bell_tower_modifier_iv
+            duration = -1
+        }
+        remove_building = bell_tower
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+workshop_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = workshop_modifier_i
+            }
+        }
+        remove_province_modifier = bell_tower_modifier_i
+        add_permanent_province_modifier = {
+            name = workshop_modifier_i
+            duration = -1
+        }
+        remove_building = workshop
+        add_building = bell_tower
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = workshop_modifier_ii
+            }
+        }
+        remove_province_modifier = bell_tower_modifier_ii
+        add_permanent_province_modifier = {
+            name = workshop_modifier_ii
+            duration = -1
+        }
+        remove_building = workshop
+        add_building = bell_tower
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = workshop_modifier_iii
+            }
+        }
+        remove_province_modifier = bell_tower_modifier_iii
+        add_permanent_province_modifier = {
+            name = workshop_modifier_iii
+            duration = -1
+        }
+        remove_building = workshop
+        add_building = bell_tower
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = workshop_modifier_iv
+            }
+        }
+        remove_province_modifier = bell_tower_modifier_iv
+        add_permanent_province_modifier = {
+            name = workshop_modifier_iv
+            duration = -1
+        }
+        remove_building = workshop
+        add_building = bell_tower
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+counting_house_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = counting_house_modifier_i
+            }
+        }
+        remove_province_modifier = workshop_modifier_i
+        add_permanent_province_modifier = {
+            name = counting_house_modifier_i
+            duration = -1
+        }
+        remove_building = counting_house
+        add_building = workshop
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = counting_house_modifier_ii
+            }
+        }
+        remove_province_modifier = workshop_modifier_ii
+        add_permanent_province_modifier = {
+            name = counting_house_modifier_ii
+            duration = -1
+        }
+        remove_building = counting_house
+        add_building = workshop
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = counting_house_modifier_iii
+            }
+        }
+        remove_province_modifier = workshop_modifier_iii
+        add_permanent_province_modifier = {
+            name = counting_house_modifier_iii
+            duration = -1
+        }
+        remove_building = counting_house
+        add_building = workshop
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = counting_house_modifier_iv
+            }
+        }
+        remove_province_modifier = workshop_modifier_iv
+        add_permanent_province_modifier = {
+            name = counting_house_modifier_iv
+            duration = -1
+        }
+        remove_building = counting_house
+        add_building = workshop
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+
+fishery_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = fishery_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = fishery_modifier_i
+            duration = -1
+        }
+        remove_building = fishery
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = fishery_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = fishery_modifier_ii
+            duration = -1
+        }
+        remove_building = fishery
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = fishery_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = fishery_modifier_iii
+            duration = -1
+        }
+        remove_building = fishery
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = fishery_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = fishery_modifier_iv
+            duration = -1
+        }
+        remove_building = fishery
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+dock_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = dock_modifier_i
+            }
+        }
+        remove_province_modifier = fishery_modifier_i
+        add_permanent_province_modifier = {
+            name = dock_modifier_i
+            duration = -1
+        }
+        remove_building = dock
+        add_building = fishery
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = dock_modifier_ii
+            }
+        }
+        remove_province_modifier = fishery_modifier_ii
+        add_permanent_province_modifier = {
+            name = dock_modifier_ii
+            duration = -1
+        }
+        remove_building = dock
+        add_building = fishery
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = dock_modifier_iii
+            }
+        }
+        remove_province_modifier = fishery_modifier_iii
+        add_permanent_province_modifier = {
+            name = dock_modifier_iii
+            duration = -1
+        }
+        remove_building = dock
+        add_building = fishery
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = dock_modifier_iv
+            }
+        }
+        remove_province_modifier = fishery_modifier_iv
+        add_permanent_province_modifier = {
+            name = dock_modifier_iv
+            duration = -1
+        }
+        remove_building = dock
+        add_building = fishery
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+drydock_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = drydock_modifier_i
+            }
+        }
+        remove_province_modifier = dock_modifier_i
+        add_permanent_province_modifier = {
+            name = drydock_modifier_i
+            duration = -1
+        }
+        remove_building = drydock
+        add_building = dock
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = drydock_modifier_ii
+            }
+        }
+        remove_province_modifier = dock_modifier_ii
+        add_permanent_province_modifier = {
+            name = drydock_modifier_ii
+            duration = -1
+        }
+        remove_building = drydock
+        add_building = dock
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = drydock_modifier_iii
+            }
+        }
+        remove_province_modifier = dock_modifier_iii
+        add_permanent_province_modifier = {
+            name = drydock_modifier_iii
+            duration = -1
+        }
+        remove_building = drydock
+        add_building = dock
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = drydock_modifier_iv
+            }
+        }
+        remove_province_modifier = dock_modifier_iv
+        add_permanent_province_modifier = {
+            name = drydock_modifier_iv
+            duration = -1
+        }
+        remove_building = drydock
+        add_building = dock
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+
+shipyard_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = shipyard_modifier_i
+            duration = -1
+        }
+        remove_building = shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = shipyard_modifier_ii
+            duration = -1
+        }
+        remove_building = shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = shipyard_modifier_iii
+            duration = -1
+        }
+        remove_building = shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = shipyard_modifier_iv
+            duration = -1
+        }
+        remove_building = shipyard
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+grand_shipyard_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = grand_shipyard_modifier_i
+            }
+        }
+        remove_province_modifier = shipyard_modifier_i
+        add_permanent_province_modifier = {
+            name = grand_shipyard_modifier_i
+            duration = -1
+        }
+        remove_building = grand_shipyard
+        add_building = shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = grand_shipyard_modifier_ii
+            }
+        }
+        remove_province_modifier = shipyard_modifier_ii
+        add_permanent_province_modifier = {
+            name = grand_shipyard_modifier_ii
+            duration = -1
+        }
+        remove_building = grand_shipyard
+        add_building = shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = grand_shipyard_modifier_iii
+            }
+        }
+        remove_province_modifier = shipyard_modifier_iii
+        add_permanent_province_modifier = {
+            name = grand_shipyard_modifier_iii
+            duration = -1
+        }
+        remove_building = grand_shipyard
+        add_building = shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = grand_shipyard_modifier_iv
+            }
+        }
+        remove_province_modifier = shipyard_modifier_iv
+        add_permanent_province_modifier = {
+            name = grand_shipyard_modifier_iv
+            duration = -1
+        }
+        remove_building = grand_shipyard
+        add_building = shipyard
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+shipyard_system_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_system_modifier_i
+            }
+        }
+        remove_province_modifier = grand_shipyard_modifier_i
+        add_permanent_province_modifier = {
+            name = shipyard_system_modifier_i
+            duration = -1
+        }
+        remove_building = shipyard_system
+        add_building = grand_shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_system_modifier_ii
+            }
+        }
+        remove_province_modifier = grand_shipyard_modifier_ii
+        add_permanent_province_modifier = {
+            name = shipyard_system_modifier_ii
+            duration = -1
+        }
+        remove_building = shipyard_system
+        add_building = grand_shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_system_modifier_iii
+            }
+        }
+        remove_province_modifier = grand_shipyard_modifier_iii
+        add_permanent_province_modifier = {
+            name = shipyard_system_modifier_iii
+            duration = -1
+        }
+        remove_building = shipyard_system
+        add_building = grand_shipyard
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = shipyard_system_modifier_iv
+            }
+        }
+        remove_province_modifier = grand_shipyard_modifier_iv
+        add_permanent_province_modifier = {
+            name = shipyard_system_modifier_iv
+            duration = -1
+        }
+        remove_building = shipyard_system
+        add_building = grand_shipyard
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+
+armory_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = armory_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = armory_modifier_i
+            duration = -1
+        }
+        remove_building = armory
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = armory_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = armory_modifier_ii
+            duration = -1
+        }
+        remove_building = armory
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = armory_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = armory_modifier_iii
+            duration = -1
+        }
+        remove_building = armory
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = armory_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = armory_modifier_iv
+            duration = -1
+        }
+        remove_building = armory
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+regimental_camp_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = regimental_camp_modifier_i
+            }
+        }
+        remove_province_modifier = armory_modifier_i
+        add_permanent_province_modifier = {
+            name = regimental_camp_modifier_i
+            duration = -1
+        }
+        remove_building = regimental_camp
+        add_building = armory
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = regimental_camp_modifier_ii
+            }
+        }
+        remove_province_modifier = armory_modifier_ii
+        add_permanent_province_modifier = {
+            name = regimental_camp_modifier_ii
+            duration = -1
+        }
+        remove_building = regimental_camp
+        add_building = armory
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = regimental_camp_modifier_iii
+            }
+        }
+        remove_province_modifier = armory_modifier_iii
+        add_permanent_province_modifier = {
+            name = regimental_camp_modifier_iii
+            duration = -1
+        }
+        remove_building = regimental_camp
+        add_building = armory
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = regimental_camp_modifier_iv
+            }
+        }
+        remove_province_modifier = armory_modifier_iv
+        add_permanent_province_modifier = {
+            name = regimental_camp_modifier_iv
+            duration = -1
+        }
+        remove_building = regimental_camp
+        add_building = armory
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+conscription_center_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = conscription_center_modifier_i
+            }
+        }
+        remove_province_modifier = regimental_camp_modifier_i
+        add_permanent_province_modifier = {
+            name = conscription_center_modifier_i
+            duration = -1
+        }
+        remove_building = conscription_center
+        add_building = regimental_camp
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = conscription_center_modifier_ii
+            }
+        }
+        remove_province_modifier = regimental_camp_modifier_ii
+        add_permanent_province_modifier = {
+            name = conscription_center_modifier_ii
+            duration = -1
+        }
+        remove_building = conscription_center
+        add_building = regimental_camp
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = conscription_center_modifier_iii
+            }
+        }
+        remove_province_modifier = regimental_camp_modifier_iii
+        add_permanent_province_modifier = {
+            name = conscription_center_modifier_iii
+            duration = -1
+        }
+        remove_building = conscription_center
+        add_building = regimental_camp
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = conscription_center_modifier_iv
+            }
+        }
+        remove_province_modifier = regimental_camp_modifier_iv
+        add_permanent_province_modifier = {
+            name = conscription_center_modifier_iv
+            duration = -1
+        }
+        remove_building = conscription_center
+        add_building = regimental_camp
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+
+advocatus_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = advocatus_modifier_i
+            }
+        }
+        add_permanent_province_modifier = {
+            name = advocatus_modifier_i
+            duration = -1
+        }
+        remove_building = advocatus
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = advocatus_modifier_ii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = advocatus_modifier_ii
+            duration = -1
+        }
+        remove_building = advocatus
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = advocatus_modifier_iii
+            }
+        }
+        add_permanent_province_modifier = {
+            name = advocatus_modifier_iii
+            duration = -1
+        }
+        remove_building = advocatus
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = advocatus_modifier_iv
+            }
+        }
+        add_permanent_province_modifier = {
+            name = advocatus_modifier_iv
+            duration = -1
+        }
+        remove_building = advocatus
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+training_fields_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = training_fields_modifier_i
+            }
+        }
+        remove_province_modifier = advocatus_modifier_i
+        add_permanent_province_modifier = {
+            name = training_fields_modifier_i
+            duration = -1
+        }
+        remove_building = training_fields
+        add_building = advocatus
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = training_fields_modifier_ii
+            }
+        }
+        remove_province_modifier = advocatus_modifier_ii
+        add_permanent_province_modifier = {
+            name = training_fields_modifier_ii
+            duration = -1
+        }
+        remove_building = training_fields
+        add_building = advocatus
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = training_fields_modifier_iii
+            }
+        }
+        remove_province_modifier = advocatus_modifier_iii
+        add_permanent_province_modifier = {
+            name = training_fields_modifier_iii
+            duration = -1
+        }
+        remove_building = training_fields
+        add_building = advocatus
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = training_fields_modifier_iv
+            }
+        }
+        remove_province_modifier = advocatus_modifier_iv
+        add_permanent_province_modifier = {
+            name = training_fields_modifier_iv
+            duration = -1
+        }
+        remove_building = training_fields
+        add_building = advocatus
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}
+
+barracks_construction_assessment = {
+    if = {
+        limit = {
+            NOT = {
+                has_province_modifier = barracks_modifier_i
+            }
+        }
+        remove_province_modifier = training_fields_modifier_i
+        add_permanent_province_modifier = {
+            name = barracks_modifier_i
+            duration = -1
+        }
+        remove_building = barracks
+        add_building = training_fields
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = barracks_modifier_ii
+            }
+        }
+        remove_province_modifier = training_fields_modifier_ii
+        add_permanent_province_modifier = {
+            name = barracks_modifier_ii
+            duration = -1
+        }
+        remove_building = barracks
+        add_building = training_fields
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = barracks_modifier_iii
+            }
+        }
+        remove_province_modifier = training_fields_modifier_iii
+        add_permanent_province_modifier = {
+            name = barracks_modifier_iii
+            duration = -1
+        }
+        remove_building = barracks
+        add_building = training_fields
+    }
+    else_if = {
+        limit = {
+            NOT = {
+                has_province_modifier = barracks_modifier_iv
+            }
+        }
+        remove_province_modifier = training_fields_modifier_iv
+        add_permanent_province_modifier = {
+            name = barracks_modifier_iv
+            duration = -1
+        }
+        remove_building = barracks
+        add_building = training_fields
+    }
+    else = {
+        #the building will now be added as expected
+    }
+}

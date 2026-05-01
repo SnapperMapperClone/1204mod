@@ -1,0 +1,263 @@
+namespace = irrigation_passive_dev
+
+province_event = {
+	id = irrigation_passive_dev.1
+	title = none
+	desc = none
+	picture = GREAT_BUILDING_eventPicture
+
+	is_triggered_only = yes
+	hidden = yes
+
+	option = {
+		name = none
+		if = {
+			limit = {
+				owner = {
+					has_global_modifier_value = {
+						which = global_tax_modifier
+						value = 0.1
+					}
+				}
+			}
+			random_list = {
+				30 = {
+					add_base_tax = 1
+				}
+				70 = {
+
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					has_global_modifier_value = {
+						which = global_tax_modifier
+						value = 0.2
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					add_base_tax = 1
+				}
+				60 = {
+
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					has_global_modifier_value = {
+						which = global_tax_modifier
+						value = 0.4
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_base_tax = 1
+				}
+				50 = {
+
+				}
+			}
+		}
+		else = {
+			20 = {
+				add_base_tax = 1
+			}
+			80 = {
+			
+			}
+		}
+
+
+		if = {
+			limit = {
+				owner = {
+					OR = {
+						production_efficiency = 0.1
+						trade_efficiency = 0.1
+					}
+				}
+			}
+			random_list = {
+				30 = {
+					add_base_production = 1
+				}
+				70 = {
+
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					OR = {
+						production_efficiency = 0.2
+						trade_efficiency = 0.2
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					add_base_production = 1
+				}
+				60 = {
+
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					OR = {
+						production_efficiency = 0.4
+						trade_efficiency = 0.4
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_base_production = 1
+				}
+				50 = {
+
+				}
+			}
+		}
+		else = {
+			20 = {
+				add_base_production = 1
+			}
+			80 = {
+			
+			}
+		}
+
+
+		if = {
+			limit = {
+				owner = {
+					has_global_modifier_value = {
+						which = global_manpower_modifier
+						value = 0.1
+					}
+				}
+			}
+			random_list = {
+				30 = {
+					add_base_manpower = 1
+				}
+				70 = {
+
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					has_global_modifier_value = {
+						which = global_manpower_modifier
+						value = 0.2
+					}
+				}
+			}
+			random_list = {
+				40 = {
+					add_base_manpower = 1
+				}
+				60 = {
+
+				}
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					has_global_modifier_value = {
+						which = global_manpower_modifier
+						value = 0.4
+					}
+				}
+			}
+			random_list = {
+				50 = {
+					add_base_manpower = 1
+				}
+				50 = {
+
+				}
+			}
+		}
+		else = {
+			20 = {
+				add_base_manpower = 1
+			}
+			80 = {
+			
+			}
+		}
+
+
+		if = {
+			limit = {
+				has_terrain = farmlands
+				has_terrain = grasslands
+				has_building = irrigation
+			}
+			province_event = {
+				id = irrigation_passive_dev.1
+				days = 3650
+				random = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				has_terrain = marsh
+				has_terrain = hills
+				has_terrain = woods
+				has_building = irrigation
+			}
+			province_event = {
+				id = irrigation_passive_dev.1
+				days = 5475
+				random = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				has_terrain = drylands
+				has_terrain = savannah
+				has_terrain = steppe
+				has_terrain = highlands
+				has_building = irrigation
+			}
+			province_event = {
+				id = irrigation_passive_dev.1
+				days = 7300
+				random = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				has_terrain = mountain
+				has_terrain = coastline
+				has_terrain = forest
+				has_terrain = jungle
+				has_building = irrigation
+			}
+			province_event = {
+				id = irrigation_passive_dev.1
+				days = 9125
+				random = 1825
+			}
+		}
+		else = {
+			
+		}
+	}
+}

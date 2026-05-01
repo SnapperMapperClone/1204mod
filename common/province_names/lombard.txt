@@ -1,0 +1,6 @@
+4740 = { "Còmm" "Còmm" }
+104 = { "Milan" "Milan" }
+1862 = { "Cremùna" "Cremùna" }
+4739 = { "Bèrghem" "Bèrghem" }
+107 = { "Brèsa" "Brèsa" }
+109 = { "Mantua" "Mantua" }

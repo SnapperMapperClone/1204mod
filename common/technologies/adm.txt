@@ -60,6 +60,16 @@ technology = { #wheelbarrow
 	expects_institution = {
 		feudalism = 0.75
 	}
+	bell_tower = yes
+	dirt_road = yes
+	paved_road = yes
+	fishery = yes
+	shipyard_system = yes
+	advocatus = yes
+	irrigation = yes
+	hospital = yes
+	armory = yes
+	railroad = yes
 	#effect = { } # When a country researches the technology
 }
 

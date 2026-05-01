@@ -1,0 +1,7 @@
+109 = { "Màntua" "Màntua" }
+105 = { "Pärma" "Pärma" }
+106 = { "Mòdna" "Mòdna" }
+4730 = { "Bulåggna" "Bulåggna" }
+113 = { "Fràra" "Fràra" }
+114 = { "Ravêna" "Ravêna" }
+2977 = { "Urbìn" "Urbìn" }

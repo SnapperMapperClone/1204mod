@@ -1,0 +1,7 @@
+75  = { "Strossburi" "Strossburi" }
+5026  = { "Colmer" "Colmer" }
+4765  = { "Milhüsa" "Milhüsa" }
+1868  = { "Ougschburg" "Ougschburg" }
+68  = { "Memmenge" "Memmenge" }
+4711  = { "Donawerd" "Donawerd" }
+70  = { "Schduagert" "Schduagert" }

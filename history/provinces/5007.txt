@@ -1,4 +1,3 @@
-add_core = FRA
 discovered_by = western
 discovered_by = ottoman
 discovered_by = eastern
@@ -13,4 +12,5 @@ base_tax = 4
 base_manpower = 3
 base_production = 4
 capital = "Abbeville"
-add_core = PIC
+add_core = PNT
+add_core = FRA

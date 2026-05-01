@@ -1,7 +1,8 @@
 government = monarchy
 add_government_reform = almohad_caliphal_reform
-government_rank = 3
+government_rank = 4
 technology_group = muslim
 religion = sunni
 capital = 344
 primary_culture = moroccan
+add_government_reform = almohad_caliphal_reform

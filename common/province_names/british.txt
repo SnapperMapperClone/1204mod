@@ -236,3 +236,22 @@
 4867 = { "Kimberley" "Easton" }
 4868 = { "Launceston" "Launceston" }
 4869 = { "Queenstown" "Queenstown" }
+
+1743 = "Camerick"
+1865 = "Ghent"
+4383 = "The Hague"
+118 = "Rome"
+116 = "Florence"
+121 = "Naples"
+1878 = "Aix-la-Chapelle"
+214 = "Saragossa"
+206 = "Corunna"
+224 = "Seville"
+103 = "Turin"
+104 = "Milan"
+101 = "Genoa"
+65 = "Munich"
+67 = "NUremberg"
+226 = "Prague"
+262 = "Cracow"
+257 = "Warsaw"

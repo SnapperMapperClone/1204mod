@@ -1,44 +1,44 @@
 kor_mil_govt_name = {
 	rank = {
-		1 = DUCHY
-		2 = KINGDOM
-		3 = EMPIRE
+		2 = DUCHY
+		3 = KINGDOM
+		4 = EMPIRE
 	}
 
 	ruler_male = {
-		1 = GUARDIAN
 		2 = GUARDIAN
-		3 = IMPERIAL_GUARDIAN
+		3 = GUARDIAN
+		4 = IMPERIAL_GUARDIAN
 	}
 
 	ruler_female = {
-		1 = GUARDIAN
 		2 = GUARDIAN
-		3 = IMPERIAL_GUARDIAN
+		3 = GUARDIAN
+		4 = IMPERIAL_GUARDIAN
 	}
 
 	consort_male = {
-		1 = GUARDIAN_CONSORT
 		2 = GUARDIAN_CONSORT
 		3 = GUARDIAN_CONSORT
+		4 = GUARDIAN_CONSORT
 	}
 
 	consort_female = {
-		1 = GUARDIAN_CONSORT
 		2 = GUARDIAN_CONSORT
 		3 = GUARDIAN_CONSORT
+		4 = GUARDIAN_CONSORT
 	}
 	
 	heir_male = {
-		1 = HEIR
 		2 = HEIR
 		3 = HEIR
+		4 = HEIR
 	}
 
 	heir_female = {
-		1 = HEIR_fem
 		2 = HEIR_fem
 		3 = HEIR_fem
+		4 = HEIR_fem
 	}
 
 	trigger = {

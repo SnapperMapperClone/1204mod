@@ -1,0 +1,5 @@
+192 = { "Dijonnais" "Digion" }
+4392 = { "Auxerrois" "Auchoirre" }
+1877 = { "Charolais" "Tsarolles" }
+193 = { "B'sançon" "B'sançon" }
+5027 = { "Jura" "Pontailie" }

@@ -1,0 +1,4 @@
+1247 = { "Corsica" "Bastìa" }
+127 = { "Tàtari" "Tàtari" }
+4735 = { "Aristanis" "Aristanis" }
+2986 = { "Casteddu" "Casteddu" }

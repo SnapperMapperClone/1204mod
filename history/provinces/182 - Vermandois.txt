@@ -1,7 +1,7 @@
-# 182 Valois - Principal cities: Compiègne + Soissons
-owner = FRA
-controller = FRA
-capital = "Soissons"
+# 182 Valois
+owner = VMD
+controller = VMD
+capital = "Crépy"
 is_city = yes
 culture = picard
 religion = catholic
@@ -10,8 +10,6 @@ base_production = 6
 trade_goods = livestock
 base_manpower = 4
 #fort_15th = yes
-add_core = PIC
-add_core = VLO
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -27,4 +25,5 @@ discovered_by = ottoman
 1636.9.15 = { controller = FRA }
 1650.3.1 = { controller = REB revolt = { type = revolutionary_rebels size = 2 } }
 1651.4.1 = { controller = FRA revolt = { size = 1 } }
-add_core = FRA
+add_core = VMD
+add_core = VLO

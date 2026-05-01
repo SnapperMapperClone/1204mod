@@ -1,12 +1,8 @@
 #Country Name: Galiza
-
 graphical_culture = westerngfx
-
-color = { 240  167  130 }
-
+color = { 240 167 130 }
 revolutionary_colors = { 0 14 0 }
-
-monarch_names = {
+monarch_names = { 
 	"Garsea #2" = 30
 	"Vermudo #3" = 20
 	"Ordonno #4" = 20
@@ -36,7 +32,7 @@ monarch_names = {
 	"Fernaam #0" = 20
 	"Frederico #0" = 0
 	"Gonçalvo #0" = 0
- 	"Guilherme #0" = 0
+	"Guilherme #0" = 0
 	"Gumersindo #0" = 0
 	"Henrique #0" = 0
 	"Hermenegildo #0" = 0
@@ -55,7 +51,6 @@ monarch_names = {
 	"Tomee #0" = 0
 	"Vitor #0" = 0
 	"Ignacio #0" = 0
-	
 	"Maria #0" = -1
 	"Aldonça #0" = -1
 	"Sancia #2" = -1
@@ -82,42 +77,31 @@ monarch_names = {
 	"Isabella #0" = -1
 	"Ougia #0" = -1
 }
-
-leader_names = {
-	"de Maia" Pereira "de Sousa" Meneses "de Bragança" Coutinho "de Lima" Teive Peres
-	"de Andeyro" "de Cela" "de Castro" "de Andrade" "de Lemos" "de Figueiroa" Vimaraes
-	"de Ulhoa" "de Deza" Esquío "de Osorio" "de Novoa" Churrichao Colombo Portocarreiro Noronha
-	"de Soutomaior" "de Moscoso" "de Araujo" "de Lima" Fonseca Coutinho Penela
-	Ruis Eanes "de Meira" "Pardo de Cela" Louçao "da Ponte" Correia "de Cerveira" Freitas
-	"de Lobeira" "Castro de Lemos" "de Trava" Menor "de Probem" Sampaio "da Costa" "de Ataiide"
-	"de Saavedra" "de Soutelo" "da Ponte" "de Altamira" Baltar Azambuja Lopes "de Mascarenhas"
-	Aalvares "de Sonnar" "Nuñez de Balboa" "de Abella" Nunes Osorio "de Sequeira"
-	Pimentel Bolanhos Galhinato "de Castro e Osorio" Portocarreyro Pacheco "do Pombal"
-	"de Aldao" "Charinho-Maldonado" "de Monterrei" "de Borgonha" "de Melo" Magalhaes Veloso
-	"de Troncoso" Charinho Lançós Parada "de Lira" "de Távora" Marinho "de Prego" Gres "de Gres"
-	Valadares "de Saraça" "da Cunha" Vasconcelos "de Silva" "de Almeida" "d'Albuquerque" "de Baióm"
-	"d'Almada" "d'Azevedo" Resende "d'Abreu" Brites "de Brito" Moniz "de Moura" "de Cerveira" Cabral
-	"da Silveira" "de Ribeiro" "de Gois" "de Falcóm" Costa Sampaio Sequeuira Tavares "de Boim" "do Lago"
-	"de Mascarenhas" Pedrouzo "d'Aguiar" PAcheco "de Faria" "de Serpa" Barreto Nogueira Coelho Pintos
-	"de Queirós" "de Gama" Fogaça Barbudo "de Barbosa" Jácome Peixoto Barroso Pessanha Pinheiro "de Unha"
-	Morais Moreira Figueirido Correia Lobia Azeredo Bulhóm Lançoes "de Meigía" "Telles-Meneses"
+leader_names = { 
+	"de Maia" Pereira "de Sousa" Meneses "de Bragança" Coutinho "de Lima" Teive Peres "de Andeyro"
+	"de Cela" "de Castro" "de Andrade" "de Lemos" "de Figueiroa" Vimaraes "de Ulhoa" "de Deza" Esquío "de Osorio"
+	"de Novoa" Churrichao Colombo Portocarreiro Noronha "de Soutomaior" "de Moscoso" "de Araujo" "de Lima" Fonseca
+	Coutinho Penela Ruis Eanes "de Meira" "Pardo de Cela" Louçao "da Ponte" Correia "de Cerveira"
+	Freitas "de Lobeira" "Castro de Lemos" "de Trava" Menor "de Probem" Sampaio "da Costa" "de Ataiide" "de Saavedra"
+	"de Soutelo" "da Ponte" "de Altamira" Baltar Azambuja Lopes "de Mascarenhas" Aalvares "de Sonnar" "Nuñez de Balboa"
+	"de Abella" Nunes Osorio "de Sequeira" Pimentel Bolanhos Galhinato "de Castro e Osorio" Portocarreyro Pacheco
+	"do Pombal" "de Aldao" "Charinho-Maldonado" "de Monterrei" "de Borgonha" "de Melo" Magalhaes Veloso "de Troncoso" Charinho
+	Lançós Parada "de Lira" "de Távora" Marinho "de Prego" Gres "de Gres" Valadares "de Saraça"
+	"da Cunha" Vasconcelos "de Silva" "de Almeida" "d'Albuquerque" "de Baióm" "d'Almada" "d'Azevedo" Resende "d'Abreu"
+	Brites "de Brito" Moniz "de Moura" "de Cerveira" Cabral "da Silveira" "de Ribeiro" "de Gois" "de Falcóm"
+	Costa Sampaio Sequeuira Tavares "de Boim" "do Lago" "de Mascarenhas" Pedrouzo "d'Aguiar" PAcheco
+	"de Faria" "de Serpa" Barreto Nogueira Coelho Pintos "de Queirós" "de Gama" Fogaça Barbudo
+	"de Barbosa" Jácome Peixoto Barroso Pessanha Pinheiro "de Unha" Morais Moreira Figueirido
+	Correia Lobia Azeredo Bulhóm Lançoes "de Meigía" "Telles-Meneses" 
 }
-
-ship_names = {
-	Galega Escarlata Cerva Golfinha Azor "Rosto Formoso"
-	"Santa María de Vilaverde" Castor "Santa María a Rossa"
-	Doncela Dragón Christo Sardinheira "O Falcoom" Lostrego
-	"Santa María" "Santa María a Rosa" "Espírito Santo" "Santa Marinha"
-	"Santo Tomee" "Santa Comba" Hércules "Santa Isabella" "Rainha Lupa"
-	"Santa Eynees" "Santa Maria do Beleem" "Santa Clara" "Santo Nicolaas"
-	Marte Mercurio Neptuno Orión "Menina-do-Mar" Francisca "Santa Cruz"
-	"Sam Ioham" "San Jurjo" Lavandeira Moura "Santa Trinidade"
-	Raio "San Gabriel" "Bom Ihesu" "Sant'Andree" "Santo Antonio"
-	"Sant'Estevo" "San Cristovo" "San Pero" "San Gabriel" "San Telmo" "Corpo Santo"
-	"Santa Maria da Graça" "San Bento" "Santa Maria Magdalena" "Santa Ana" "San Miguel" "San Pero"
-	"Santa Maria do Caminno" "Santa Maria do Campo" "San Salvador" "Santa Ana" "Santa Maria do Mar" "Santa Beatriz"
-	"Santa Catalina" "Santa Cruz" "Santa Fé" "San Ioham de Baiona" "A Nobre Trinidade" "Nossa Sennor"
-	"Santa Marta" "Santa Maria de Cedeira" "Santa Maria de Cangas" "Sant'Iago" "Sant'Antoom de Pontedeume" "Santa Maria de Fisterra"
-	"Nossa Senhora da Merçee" "Nossa Senhora de Murgados" "Maria Carence" Trinidade Raposa "Cadela de Lume"
-	"Caliz da Guerra" Sereia "Cisne-Real" "Dragoom" "Santo-Caralho"
+ship_names = { 
+	Galega Escarlata Cerva Golfinha Azor "Rosto Formoso" "Santa María de Vilaverde" Castor "Santa María a Rossa" Doncela
+	Dragón Christo Sardinheira "O Falcoom" Lostrego "Santa María" "Santa María a Rosa" "Espírito Santo" "Santa Marinha" "Santo Tomee"
+	"Santa Comba" Hércules "Santa Isabella" "Rainha Lupa" "Santa Eynees" "Santa Maria do Beleem" "Santa Clara" "Santo Nicolaas" Marte Mercurio
+	Neptuno Orión "Menina-do-Mar" Francisca "Santa Cruz" "Sam Ioham" "San Jurjo" Lavandeira Moura "Santa Trinidade"
+	Raio "San Gabriel" "Bom Ihesu" "Sant'Andree" "Santo Antonio" "Sant'Estevo" "San Cristovo" "San Pero" "San Gabriel" "San Telmo"
+	"Corpo Santo" "Santa Maria da Graça" "San Bento" "Santa Maria Magdalena" "Santa Ana" "San Miguel" "San Pero" "Santa Maria do Caminno" "Santa Maria do Campo" "San Salvador"
+	"Santa Ana" "Santa Maria do Mar" "Santa Beatriz" "Santa Catalina" "Santa Cruz" "Santa Fé" "San Ioham de Baiona" "A Nobre Trinidade" "Nossa Sennor" "Santa Marta"
+	"Santa Maria de Cedeira" "Santa Maria de Cangas" "Sant'Iago" "Sant'Antoom de Pontedeume" "Santa Maria de Fisterra" "Nossa Senhora da Merçee" "Nossa Senhora de Murgados" "Maria Carence" Trinidade Raposa
+	"Cadela de Lume" "Caliz da Guerra" Sereia "Cisne-Real" "Dragoom" "Santo-Caralho" 
 }

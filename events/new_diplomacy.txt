@@ -1,0 +1,215 @@
+namespace = new_diplomacy
+
+province_event = { #purchase province request
+	id = new_diplomacy.1
+	title = "new_diplomacy.1.t"
+	desc = "new_diplomacy.1.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "new_diplomacy.1.a"
+		owner = {
+			add_truce_with = event_target:province_purchaser
+		}
+		event_target:province_purchaser = {
+			add_truce_with = owner
+			add_treasury = -100
+			every_neighbor_country = {
+				limit = {
+					NOT = {
+						is_subject_of = event_target:province_purchaser
+					}
+				}
+				add_aggressive_expansion = {
+					who = event_target:province_purchaser
+					value = 2
+				}
+			}
+		}
+		owner = {
+			add_treasury = 100
+			add_truce_with = event_target:province_purchaser
+		}
+		remove_core = owner
+		cede_province = event_target:province_purchaser
+		add_core = event_target:province_purchaser
+
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 0
+				owner = {
+					OR = {
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_hostile
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_outraged
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_defensive
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_disloyal
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_domineering
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_rebellious
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_rivalry
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_threatened
+						}
+						NOT = {
+							has_opinion = {
+								who = event_target:province_purchaser
+								value = 0
+							}
+						}
+					}
+				}
+			}
+
+			modifier = {
+				factor = 2
+				owner = {
+					num_of_loans = 1
+				}
+			}
+			modifier = {
+				factor = 4
+				owner = {
+					num_of_loans = 2
+				}
+			}
+
+			modifier = {
+				factor = 10
+				owner = {
+					is_bankrupt = yes
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "new_diplomacy.1.b"
+		owner = {
+			add_truce_with = event_target:province_purchaser
+		}
+		event_target:province_purchaser = {
+			add_truce_with = owner
+		}
+
+		ai_chance = {
+			factor = 1
+
+			modifier = {
+				factor = 0.1
+				owner = {
+					OR = {
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_hostile
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_outraged
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_defensive
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_disloyal
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_domineering
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_rebellious
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_rivalry
+						}
+						ai_attitude = {
+							who = event_target:province_purchaser
+							attitude = attitude_threatened
+						}
+						NOT = {
+							has_opinion = {
+								who = event_target:province_purchaser
+								value = 0
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+province_event = { #confiscate province
+	id = new_diplomacy.2
+	title = "new_diplomacy.2.t"
+	desc = "new_diplomacy.2.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "new_diplomacy.2.a"
+		owner = {
+			overlord = {
+				every_neighbor_country = {
+					limit = {
+						NOT = {
+							is_subject_of = overlord
+						}
+					}
+					add_aggressive_expansion = {
+						who = overlord
+						value = 2
+					}
+				}
+				every_subject_country = {
+					limit = {
+						NOT = {
+							tag = PREV
+						}
+					}
+					add_liberty_desire = 5
+				}
+			}
+			add_liberty_desire = 10
+			add_truce_with = overlord
+		}
+		remove_core = owner
+		owner = {
+			overlord = {
+				ROOT = {
+					cede_province = PREV
+				}
+			}
+		}
+	}
+}

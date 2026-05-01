@@ -3,10 +3,9 @@ add_government_reform = iqta
 primary_culture = al_misr_arabic
 religion = sunni
 technology_group = muslim
-capital = 382 # Damascus
-
-1200.1.1 = {
-	monarch ={
+capital = 382# Damascus
+1200.1.1 = { 
+	monarch = { 
 		name = "Al-Adil"
 		dynasty = "Ayyubid"
 		adm = 3
@@ -14,3 +13,4 @@ capital = 382 # Damascus
 		mil = 4
 	}
 }
+government_rank = 3

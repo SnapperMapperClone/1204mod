@@ -2,18 +2,16 @@ government = monarchy
 add_government_reform = bohemian_elective_kingdom_reform
 primary_culture = czech
 religion = catholic
-capital = 266 # Praha
+capital = 266# Praha
 technology_group = western
 add_accepted_culture = sorbian
 add_army_professionalism = 0.1
-
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -5
 }
-
-1192.1.1 = {
-	monarch = {
+1192.1.1 = { 
+	monarch = { 
 		name = "Ottokar I"
 		dynasty = "Premyslovci"
 		birth_date = 1361.2.26
@@ -22,9 +20,8 @@ change_estate_land_share = {
 		mil = 0
 	}
 }
-
-1378.11.29 = {
-	monarch = {
+1378.11.29 = { 
+	monarch = { 
 		name = "Václav IV"
 		dynasty = "von Luxemburg"
 		birth_date = 1361.2.26
@@ -33,17 +30,12 @@ change_estate_land_share = {
 		mil = 0
 	}
 }
-
 # Personal Union with Hungary under Sigismund I 1419-1437
-
-1419.1.1 = { leader = {	name = "Jan Zizka"	type = general	fire = 6	shock = 3	manuever = 5	siege = 0	death_date = 1424.10.11 } }
-
-1419.1.1 = { leader = {	name = "Prokop Holý"	type = general	fire = 4	shock = 3	manuever = 5	siege = 1	death_date = 1434.5.30 } }
-
+1419.1.1 = { leader = { name = "Jan Zizka" type = general fire = 6 shock = 3 manuever = 5 siege = 0 death_date = 1424.10.11 } }
+1419.1.1 = { leader = { name = "Prokop Holý" type = general fire = 4 shock = 3 manuever = 5 siege = 1 death_date = 1434.5.30 } }
 # Personal Union with Habsburg under Albrecht II 1437-1439
-
-1439.10.27 = {
-	monarch = {
+1439.10.27 = { 
+	monarch = { 
 		name = "Landfriedens"
 		regent = yes
 		adm = 2
@@ -51,11 +43,9 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
-
 # Personal Union with Habsburg under Ladislaus Postumus 1453-1457
-
-1457.11.24 = {
-	monarch = {
+1457.11.24 = { 
+	monarch = { 
 		name = "Jirí"
 		dynasty = "z Podebrad"
 		birth_date = 1420.4.23
@@ -63,7 +53,7 @@ change_estate_land_share = {
 		dip = 4
 		mil = 3
 	}
-	queen = {
+	queen = { 
 		country_of_origin = BOH
 		name = "Joanna"
 		dynasty = "Rozmitál"
@@ -75,9 +65,8 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
-
-1471.3.23 = {
-	monarch = {
+1471.3.23 = { 
+	monarch = { 
 		name = "Vladislav II"
 		dynasty = Jagiellon
 		birth_date = 1456.3.1
@@ -86,37 +75,35 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
+1476.1.1 = {  #A marriage more in name than in practice, should possibly not count.
 
-1476.1.1 = { #A marriage more in name than in practice, should possibly not count.
-	queen = {
+	queen = { 
 		country_of_origin = BRA
 		name = "Barbara"
 		dynasty = "von Hohenzollern"
 		birth_date = 1464.5.30
-		death_date = 1491.1.1 #(divorce), real death: 1515.9.4 
+		death_date = 1491.1.1#(divorce), real death: 1515.9.4 
 		female = yes
 		adm = 1
 		dip = 1
 		mil = 1
 	}
 }
-
-1490.10.4 = {
-	queen = {
+1490.10.4 = { 
+	queen = { 
 		country_of_origin = NAP
 		name = "Beatrice"
 		dynasty = "de Trastámara"
 		birth_date = 1457.11.16
-		death_date = 1500.4.7 #annulled, real death: 1508.9.23
+		death_date = 1500.4.7#annulled, real death: 1508.9.23
 		female = yes
 		adm = 2
 		dip = 2
 		mil = 1
 	}
 }
-
-1502.9.29 = {
-	queen = {
+1502.9.29 = { 
+	queen = { 
 		country_of_origin = FRA
 		name = "Anne"
 		dynasty = "de Foix"
@@ -128,9 +115,8 @@ change_estate_land_share = {
 		mil = 1
 	}
 }
-
-1516.3.14 = {
-	monarch = {
+1516.3.14 = { 
+	monarch = { 
 		name = "Ludvik I"
 		dynasty = Jagiellon
 		birth_date = 1506.7.1
@@ -138,7 +124,7 @@ change_estate_land_share = {
 		dip = 3
 		mil = 2
 	}
-	queen = {
+	queen = { 
 		country_of_origin = HAB
 		name = "Maria"
 		dynasty = "von Habsburg"
@@ -150,15 +136,13 @@ change_estate_land_share = {
 		mil = 3
 	}
 }
-
-1526.8.30 = {
+1526.8.30 = { 
 	government = monarchy
-add_government_reform = autocracy_reform
+	add_government_reform = autocracy_reform
 	add_accepted_culture = schlesian
 }
-
-1526.8.30 = {
-	monarch = {
+1526.8.30 = { 
+	monarch = { 
 		name = "Ferdinand I"
 		dynasty = "von Habsburg"
 		birth_date = 1503.3.10
@@ -167,12 +151,12 @@ add_government_reform = autocracy_reform
 		mil = 4
 	}
 }
-
-1556.10.2 = { government = monarchy
-add_government_reform = autocracy_reform }
-
-1562.9.17 = {
-	monarch = {
+1556.10.2 = { 
+	government = monarchy
+	add_government_reform = autocracy_reform
+}
+1562.9.17 = { 
+	monarch = { 
 		name = "Maximilian II"
 		dynasty = "von Habsburg"
 		birth_date = 1527.7.31
@@ -181,9 +165,8 @@ add_government_reform = autocracy_reform }
 		mil = 2
 	}
 }
-
-1576.1.1 = {
-	monarch = {
+1576.1.1 = { 
+	monarch = { 
 		name = "Rudolf II"
 		dynasty = "von Habsburg"
 		birth_date = 1552.7.18
@@ -192,11 +175,9 @@ add_government_reform = autocracy_reform }
 		mil = 2
 	}
 }
-
-1610.1.1 = { leader = {	name = "Christian of Anhalt"   	type = general	fire = 2	shock = 2	manuever = 3	siege = 0	death_date = 1630.4.17 } }
-
-1612.1.22 = {
-	monarch = {
+1610.1.1 = { leader = { name = "Christian of Anhalt" type = general fire = 2 shock = 2 manuever = 3 siege = 0 death_date = 1630.4.17 } }
+1612.1.22 = { 
+	monarch = { 
 		name = "Matthias"
 		dynasty = "von Habsburg"
 		birth_date = 1557.2.24
@@ -205,12 +186,10 @@ add_government_reform = autocracy_reform }
 		mil = 0
 	}
 }
-
-1615.1.1 = { leader = {	name = "Thurn"                 	type = general	fire = 3	shock = 2	manuever = 3	siege = 0	death_date = 1640.1.28 } }
-
+1615.1.1 = { leader = { name = "Thurn" type = general fire = 3 shock = 2 manuever = 3 siege = 0 death_date = 1640.1.28 } }
 # Start of Thirty years war
-1618.5.22 = {
-	monarch = {
+1618.5.22 = { 
+	monarch = { 
 		name = "The Bohemian Estates"
 		regent = yes
 		adm = 1
@@ -220,10 +199,9 @@ add_government_reform = autocracy_reform }
 	religion = protestant
 	join_league = protestant
 }
-
 #Personal union with Palatinate
 #Personal Union with Habsburg
-
-1620.11.8 = {
+1620.11.8 = { 
 	leave_league = protestant
 }
+government_rank = 2

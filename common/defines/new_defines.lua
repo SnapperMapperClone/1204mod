@@ -2,8 +2,14 @@
 NDefines.NGame.START_DATE = "1204.5.16"
 NDefines.NGame.END_DATE = "9999.12.31"
 
+NDefines.NNationDesigner.MAX_GOVERNMENT_RANK = 5
+NDefines.NCountry.MAX_GOV_RANK = 5
+NDefines.NCountry.HRE_RANK = 4
+NDefines.NCountry.HRE_MAX_RANK = 2
+NDefines.NCountry.HRE_MAX_RANK_ELECTOR = 3
+
 NDefines.NCountry.CULTURAL_UNION_MIN_DEV = 999999 --NDefines.NCountry.
-NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 4
+NDefines.NCountry.CULTURAL_UNION_MIN_RANK = 5
 NDefines.NCountry.MONTHS_TO_CORE = 72
 NDefines.NCountry.MONTHS_TO_CHANGE_CULTURE = 30
 NDefines.NCountry.YEARS_UNTIL_BROKEN = 0
@@ -37,4 +43,3 @@ NDefines.NDiplomacy.AE_INFIDEL_CONQUEST = 0.5
 NDefines.NDiplomacy.AE_DIFFERENT_RELIGION = -0.65
 
 NDefines.NDiplomacy.ALLY_AE_MULT = 2
---NDefines.NEconomy.MISSIONARY_TIME_BASE = 1

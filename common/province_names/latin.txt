@@ -9,9 +9,8 @@
 4758 = { "Valle d'Etsch" "Merano" }
 
 # France and Low countries
-89 = "Piccardia"
 90 = "Bruggia"
-92 = "Brabante"
+92 = "Brusselle"
 93 = "Liegi"
 94 = "Lussemburgo"
 96 = "Zelanda"
@@ -19,7 +18,6 @@
 99 = "Gheldria"
 100 = "Frisia"
 102 = { "Nizza" "Nizza" }
-168 = "Normandia"
 170 = "Finisterra"
 173 = "Laburdo"
 174 = "Bordò"
@@ -123,7 +121,6 @@
 213 = "Barcellona"
 214 = "Saragozza"
 215 = "Vecchia Castiglia"
-224 = "Siviglia"
 225 = "Cordova"
 226 = "Gibilterra"
 227 = "Lisbona"
@@ -252,3 +249,17 @@
 #1.37 additions
 4752 = { "Fiume" "Fiume" }
 4698 = "Cefalonia"
+
+5003 = { "Scialone" "Scialone-in-Sciampagna" }
+5009 = { "Aunis" "la Roccella" }
+5012 = "Cortraco"
+5011 = "Ipro"
+5013 = "Lovanio"
+5027 = { "Giura" "Pontarlera" }
+5024 = "Vosgi"
+193 = { "Besanzone" "Besanzone" }
+192 = { "Digionese" "Digione" }
+5002 = "Vendomo"
+5015 = "Buglione"
+224 = { "Siviglia" "Siviglia" }
+220 = "Valenza"

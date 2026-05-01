@@ -3,14 +3,11 @@ add_government_reform = feudalism_reform
 technology_group = western
 religion = catholic
 primary_culture = sicilian
-capital = 125	# Palermo
-
-
-1198.9.3 = {
+capital = 125# Palermo
+1198.9.3 = { 
 	set_country_flag = innocent_iii
 	monarch = { 
 		name = "Innocentius III"
-		dynasty = ""
 		dip = 6
 		mil = 4
 		adm = 5
@@ -30,20 +27,19 @@ capital = 125	# Palermo
 		death_date = 9999.12.31
 	}
 }
-
 # 1720.1.1 Vittorio Amedeo II becomes king of Sardinia-Piemont
-
-1806.3.11 = { government = monarchy
-# add_government_reform = letat_cest_moi_reform 
+1806.3.11 = { 
+	government = monarchy
+	# add_government_reform = letat_cest_moi_reform 
 }
-
 # Ferdinand/Ferrante flees to Sicily
-1806.3.11 = {
-	monarch = {
+1806.3.11 = { 
+	monarch = { 
 		name = "Ferrante IV"
 		dynasty = "de Bourbon"
 		dip = 0
 		mil = 0
 		adm = 0
-	}		
+	}
 }
+government_rank = 3

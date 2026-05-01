@@ -1,0 +1,96 @@
+namespace = new_feature_designate_subject
+
+country_event = {
+	id = new_feature_designate_subject.1
+	title = new_feature_designate_subject.1.t
+	desc = new_feature_designate_subject.1.d
+	picture = GREAT_BUILDING_eventPicture
+
+	is_triggered_only = yes
+
+	option = { #leave as is
+		name = new_feature_designate_subject.1.a
+	}
+	option = { #create appanage
+		name = new_feature_designate_subject.1.b
+		trigger = {
+			has_reform = monarchy_mechanic
+			event_target:subject_created = {
+				culture_group = ROOT
+			}
+		}
+		create_subject = {
+			subject_type = appanage
+			who = event_target:subject_created
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		ai_chance = {
+			factor = 1000
+		}
+	}
+	option = { #create personal union
+		name = new_feature_designate_subject.1.c
+		create_subject = {
+			subject_type = personal_union
+			who = event_target:subject_created
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				event_target:subject_created = {
+					NOT = {
+						calc_true_if = {
+							amount = 3
+							all_core_province = {
+								NOT = {
+									owned_by = event_target:subject_created
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	option = { #create tributary
+		name = new_feature_designate_subject.1.dd
+		trigger = {
+			capital_scope = {
+				OR = {
+					superregion = china_superregion
+					region = japan_region
+				}
+			}
+		}
+		create_subject = {
+			subject_type = tributary_state
+			who = event_target:subject_created
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 1000
+				NOT = {
+					num_of_free_diplomatic_relations = 1
+				}
+			}
+		}
+	}
+	option = { #create pronoia
+		name = new_feature_designate_subject.1.e
+		trigger = {
+			tag = BYZ
+		}
+		create_subject = {
+			subject_type = pronoia_subject_type
+			who = event_target:subject_created
+		}
+		ai_chance = {
+			factor = 1000
+		}
+	}
+}

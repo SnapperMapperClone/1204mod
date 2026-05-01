@@ -1,4 +1,6 @@
-89 = "Picårdeye"
-94 = "Lussimbork"
-1878 = "Åxhe"
-4768 = "Djulé"
+93 = { "Lîdje" "Lîdje" }
+94 = { "Lussimbork" "Lussimbork" }
+1878 = { "Åxhe" "Åxhe" }
+4768 = { "Djulé" "Djulé" }
+1866 = { "Nameur" "Nameur" }
+5015 = { "Bouyon" "Bouyon" }

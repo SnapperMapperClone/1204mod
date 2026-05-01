@@ -12,3 +12,4 @@ trade_goods = cloth
 religion = catholic
 controller = GUY
 is_city = yes
+capital = "Agen"

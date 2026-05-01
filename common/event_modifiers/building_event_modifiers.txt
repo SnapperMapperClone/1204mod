@@ -1,0 +1,308 @@
+temple_modifier_i = {
+	local_tax_modifier = 0.1
+	local_governing_cost = -0.05
+}
+temple_modifier_ii = {
+	local_tax_modifier = 0.1
+	local_governing_cost = -0.05
+}
+temple_modifier_iii = {
+	local_tax_modifier = 0.1
+	local_governing_cost = -0.05
+}
+temple_modifier_iv = {
+	local_tax_modifier = 0.1
+	local_governing_cost = -0.05
+}
+
+cathedral_modifier_i = {
+	local_tax_modifier = 0.2
+	local_governing_cost = -0.05
+}
+cathedral_modifier_ii = {
+	local_tax_modifier = 0.2
+	local_governing_cost = -0.05
+}
+cathedral_modifier_iii = {
+	local_tax_modifier = 0.2
+	local_governing_cost = -0.05
+}
+cathedral_modifier_iv = {
+	local_tax_modifier = 0.2
+	local_governing_cost = -0.05
+}
+
+
+bell_tower_modifier_i = {
+	local_production_efficiency = 0.05
+}
+bell_tower_modifier_ii = {
+	local_production_efficiency = 0.05
+}
+bell_tower_modifier_iii = {
+	local_production_efficiency = 0.05
+}
+bell_tower_modifier_iv = {
+	local_production_efficiency = 0.05
+}
+
+workshop_modifier_i = {
+	local_production_efficiency = 0.1
+}
+workshop_modifier_ii = {
+	local_production_efficiency = 0.1
+}
+workshop_modifier_iii = {
+	local_production_efficiency = 0.1
+}
+workshop_modifier_iv = {
+	local_production_efficiency = 0.1
+}
+
+counting_house_modifier_i = {
+	local_production_efficiency = 0.2
+}
+counting_house_modifier_ii = {
+	local_production_efficiency = 0.2
+}
+counting_house_modifier_iii = {
+	local_production_efficiency = 0.2
+}
+counting_house_modifier_iv = {
+	local_production_efficiency = 0.2
+}
+
+
+marketplace_modifier_i = {
+	province_trade_power_modifier = 0.2
+}
+marketplace_modifier_ii = {
+	province_trade_power_modifier = 0.2
+}
+marketplace_modifier_iii = {
+	province_trade_power_modifier = 0.2
+}
+marketplace_modifier_iv = {
+	province_trade_power_modifier = 0.2
+}
+
+trade_depot_modifier_i = {
+	province_trade_power_modifier = 0.5
+}
+trade_depot_modifier_ii = {
+	province_trade_power_modifier = 0.5
+}
+trade_depot_modifier_iii = {
+	province_trade_power_modifier = 0.5
+}
+trade_depot_modifier_iv = {
+	province_trade_power_modifier = 0.5
+}
+
+stock_exchange_modifier_i = {
+	province_trade_power_modifier = 1
+}
+stock_exchange_modifier_ii = {
+	province_trade_power_modifier = 1
+}
+stock_exchange_modifier_iii = {
+	province_trade_power_modifier = 1
+}
+stock_exchange_modifier_iv = {
+	province_trade_power_modifier = 1
+}
+
+
+advocatus_modifier_i = {
+	local_manpower_modifier = 0.5
+	land_forcelimit = 1
+}
+advocatus_modifier_ii = {
+	local_manpower_modifier = 0.5
+	land_forcelimit = 1
+}
+advocatus_modifier_iii = {
+	local_manpower_modifier = 0.5
+	land_forcelimit = 1
+}
+advocatus_modifier_iv = {
+	local_manpower_modifier = 0.5
+	land_forcelimit = 1
+}
+
+training_fields_modifier_i = {
+	local_manpower_modifier = 1
+	land_forcelimit = 5
+}
+training_fields_modifier_ii = {
+	local_manpower_modifier = 1
+	land_forcelimit = 5
+}
+training_fields_modifier_iii = {
+	local_manpower_modifier = 1
+	land_forcelimit = 5
+}
+training_fields_modifier_iv = {
+	local_manpower_modifier = 1
+	land_forcelimit = 5
+}
+
+barracks_modifier_i = {
+	local_manpower_modifier = 2
+	land_forcelimit = 10
+}
+barracks_modifier_ii = {
+	local_manpower_modifier = 2
+	land_forcelimit = 10
+}
+barracks_modifier_iii = {
+	local_manpower_modifier = 2
+	land_forcelimit = 10
+}
+barracks_modifier_iv = {
+	local_manpower_modifier = 2
+	land_forcelimit = 10
+}
+
+
+shipyard_modifier_i = {
+	naval_forcelimit = 1
+	ship_recruit_speed = -0.025
+	local_ship_repair = 0.05
+}
+shipyard_modifier_ii = {
+	naval_forcelimit = 1
+	ship_recruit_speed = -0.025
+	local_ship_repair = 0.05
+}
+shipyard_modifier_iii = {
+	naval_forcelimit = 1
+	ship_recruit_speed = -0.025
+	local_ship_repair = 0.05
+}
+shipyard_modifier_iv = {
+	naval_forcelimit = 1
+	ship_recruit_speed = -0.025
+	local_ship_repair = 0.05
+}
+
+grand_shipyard_modifier_i = {
+	naval_forcelimit = 2
+	ship_recruit_speed = -0.05
+	local_ship_repair = 0.1
+}
+grand_shipyard_modifier_ii = {
+	naval_forcelimit = 2
+	ship_recruit_speed = -0.05
+	local_ship_repair = 0.1
+}
+grand_shipyard_modifier_iii = {
+	naval_forcelimit = 2
+	ship_recruit_speed = -0.05
+	local_ship_repair = 0.1
+}
+grand_shipyard_modifier_iv = {
+	naval_forcelimit = 2
+	ship_recruit_speed = -0.05
+	local_ship_repair = 0.1
+}
+
+shipyard_system_modifier_i = {
+	naval_forcelimit = 4
+	ship_recruit_speed = -0.075
+	local_ship_repair = 0.15
+}
+shipyard_system_modifier_ii = {
+	naval_forcelimit = 4
+	ship_recruit_speed = -0.075
+	local_ship_repair = 0.15
+}
+shipyard_system_modifier_iii = {
+	naval_forcelimit = 4
+	ship_recruit_speed = -0.075
+	local_ship_repair = 0.15
+}
+shipyard_system_modifier_iv = {
+	naval_forcelimit = 4
+	ship_recruit_speed = -0.075
+	local_ship_repair = 0.15
+}
+
+fishery_modifier_i = {
+	local_sailors_modifier = 0.05
+}
+fishery_modifier_ii = {
+	local_sailors_modifier = 0.05
+}
+fishery_modifier_iii = {
+	local_sailors_modifier = 0.05
+}
+fishery_modifier_iv = {
+	local_sailors_modifier = 0.05
+}
+
+dock_modifier_i = {
+	local_sailors_modifier = 0.1
+}
+dock_modifier_ii = {
+	local_sailors_modifier = 0.1
+}
+dock_modifier_iii = {
+	local_sailors_modifier = 0.1
+}
+dock_modifier_iv = {
+	local_sailors_modifier = 0.1
+}
+
+drydock_modifier_i = {
+	local_sailors_modifier = 0.2
+}
+drydock_modifier_ii = {
+	local_sailors_modifier = 0.2
+}
+drydock_modifier_iii = {
+	local_sailors_modifier = 0.2
+}
+drydock_modifier_iv = {
+	local_sailors_modifier = 0.2
+}
+
+
+armory_modifier_i = {
+	land_forcelimit = 5
+}
+armory_modifier_ii = {
+	land_forcelimit = 5
+}
+armory_modifier_iii = {
+	land_forcelimit = 5
+}
+armory_modifier_iv = {
+	land_forcelimit = 5
+}
+
+regimental_camp_modifier_i = {
+	land_forcelimit = 10
+}
+regimental_camp_modifier_ii = {
+	land_forcelimit = 10
+}
+regimental_camp_modifier_iii = {
+	land_forcelimit = 10
+}
+regimental_camp_modifier_iv = {
+	land_forcelimit = 10
+}
+
+conscription_center_modifier_i = {
+	land_forcelimit = 25
+}
+conscription_center_modifier_ii = {
+	land_forcelimit = 25
+}
+conscription_center_modifier_iii = {
+	land_forcelimit = 25
+}
+conscription_center_modifier_iv = {
+	land_forcelimit = 25
+}

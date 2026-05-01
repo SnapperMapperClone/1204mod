@@ -1,0 +1,2 @@
+4384 = { "Resnn" "Resnn" }
+172 = { "Naunnt" "Naunnt" }

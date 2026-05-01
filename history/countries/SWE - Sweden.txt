@@ -5,21 +5,18 @@ unit_type = western
 primary_culture = swedish
 religion = catholic
 add_accepted_culture = finnish
-capital = 1	#Stockholm
-
+capital = 1#Stockholm
 national_focus = MIL
-
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -6
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 10
 }
-
-1195.1.1 = {
-	monarch = {
+1195.1.1 = { 
+	monarch = { 
 		name = "Sverker II"
 		dynasty = "Sverker"
 		birth_date = 1166.1.1
@@ -28,3 +25,4 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
+government_rank = 3

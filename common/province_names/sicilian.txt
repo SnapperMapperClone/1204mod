@@ -1,0 +1,16 @@
+121 = { "Napule" "Napule" }
+2983 = { "Salierno" "Salierno" }
+4734 = { "Avillino" "Avillino" }
+4733 = { "Molise" "Cambuàsce" }
+2985 = { "Captianata" "Fogge" }
+1933 = { "Bare" "Bare" }
+122 = { "Salentu" "Tarde" }
+5004 = { "Lècce" "Lècce" }
+2984 = { "Cusenza" "Cusenza" }
+123 = { "Calàbbria" "Riggiu" }
+
+124 = { "Missina" "Missina" }
+125 = { "Palermu" "Palermu" }
+2982 = { "Saragusa" "Saragusa" }
+4737 = { "Girgenti" "Girgenti" }
+4736 = { "Tràpani" "Tràpani" }

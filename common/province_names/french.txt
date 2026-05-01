@@ -192,7 +192,7 @@
 1875 = "Coni"
 1934 = "Lucanie"
 2976 = "Pérouse"
-2978 = "Novare"
+2979 = "Novare"
 2980 = "Lucques"
 2981 = "Montferrat"
 2984 = "Cosence"
@@ -214,7 +214,7 @@
 206 = "La Corogne"
 207 = "Asturies"
 208 = "León"
-211 = "Pyrénées"
+#211 = "Pyrénées"
 212 = "Gironne"
 213 = "Barcelone"
 214 = "Aragon"
@@ -225,7 +225,6 @@
 221 = "Murcie"
 222 = "Almérie"
 223 = "Grenade"
-224 = "Séville"
 225 = "Cordoue"
 226 = "Gibraltar"
 333 = "Baléares"
@@ -359,3 +358,12 @@
 4758 = "Val d'Etsch"
 4720 = "Genève"
 4721 = "Fribourg"
+
+5013 = "Louvain"
+5014 = "Maestricht"
+5029 = { "Ipuzcoa" "Saint-Sébastien" }
+2988 = "Tarragone"
+210 = "Navarre"
+214 = "Saragosse"
+1749 = { "Cadix" "Cadix" }
+224 = { "Séville" "Séville" }

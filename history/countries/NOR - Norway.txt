@@ -3,19 +3,17 @@ add_government_reform = feudalism_reform
 primary_culture = norwegian
 religion = catholic
 technology_group = western
-capital = 20 #Trondheim was capital until the mid 1200s
-
-change_estate_land_share = {
+capital = 20#Trondheim was capital until the mid 1200s
+change_estate_land_share = { 
 	estate = estate_church
 	share = -6
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 10
 }
-
-1202.1.1 = {
-	monarch = {
+1202.1.1 = { 
+	monarch = { 
 		name = "Hákon III"
 		dynasty = "af Sverrir"
 		birth_date = 1182.1.1
@@ -24,3 +22,4 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
+government_rank = 3

@@ -1,0 +1,81 @@
+assassinate_ruler =  {
+	category = covert
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			OR = {
+				is_rival = ROOT
+				is_enemy = ROOT
+				overlord_of = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+	is_allowed = {
+		has_spy_network_in = {
+			who = FROM
+			value = 50
+		}
+		custom_trigger_tooltip = {
+			tooltip = cannot_assassinate_again_fifty_years
+			OR = {
+				NOT = { has_country_flag = assassinated_ruler_within_fifty_years }
+				had_country_flag = {
+					flag = assassinated_ruler_within_fifty_years
+					days = 18250
+				}
+			}
+			FROM = {
+				OR = {
+					NOT = { has_country_flag = had_recent_ruler_assassination }
+					had_country_flag = {
+						flag = had_recent_ruler_assassination
+						days = 18250
+					}
+				}
+			}
+		}
+		FROM = {
+			calc_true_if = {
+				amount = 2
+				NOT = {
+					OR = {
+						legitimacy = 50
+						horde_unity = 50
+						devotion = 50
+						republican_tradition = 50
+					}
+				}
+				NOT = {
+					stability = 1
+				}
+				NOT = { any_estate_loyalty = { loyalty = 30 } }
+			}
+		}
+	}
+	
+	on_accept = {
+		set_country_flag = assassinated_ruler_within_fifty_years
+		FROM = {
+			kill_ruler = yes
+			set_country_flag = had_recent_ruler_assassination
+		}
+		add_spy_network_in = {
+			who = FROM
+			value = -100
+		}
+	}
+	ai_will_do = {
+		OR = {
+			FROM = {
+				has_reform = monarchy_mechanic
+				NOT = { has_heir = yes }
+			}
+			FROM = {
+				adm = 5
+				dip = 5
+				mil = 5
+			}
+		}
+	}
+}

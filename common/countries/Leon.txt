@@ -1,11 +1,8 @@
 #Country Name: Llion.
-
 graphical_culture = westerngfx
-
-color = { 99  14  87 }
+color = { 99 14 87 }
 revolutionary_colors = { 0 2 0 }
-
-monarch_names = {
+monarch_names = { 
 	"Garsea #1" = 20
 	"Alfonsu #8" = 30
 	"Vermundu #3" = 30
@@ -30,9 +27,6 @@ monarch_names = {
 	"Nicolau #0" = 0
 	"Godoon #0" = 0
 	"Miguel #0" = 0
-
-
-	
 	"Maria #0" = -1
 	"Alexania #0" = -1
 	"Sancia #0" = -1
@@ -42,17 +36,14 @@ monarch_names = {
 	"Orraca #0" = -1
 	"Sancia #0" = -1
 	"Aldonçe #0" = -1
-
 }
-
-leader_names = {
-	Martiiniz "de Nava" Diaz "de Quiroos" Froylez Pelaz "de Laria" "de Asturies" "de Llyon" Morate "de Cardielles" Domenguez
-	"de Mataxana" Pedrez "de Oumanna" "de Carvayar" "della Tenda" Alonsu "de Qualla" "de Olloniego" "del Dado" "de Aller"
-	"de Mieres" "de Premanna" Nicolas Rodriguiz "del Castiello" "de Quinnones" "de Abilles" "de Ovieu" "de Llamuno"
-	"de Ponce de Llion" "de Biedma" "d'Osorio"
+leader_names = { 
+	Martiiniz "de Nava" Diaz "de Quiroos" Froylez Pelaz "de Laria" "de Asturies" "de Llyon" Morate
+	"de Cardielles" Domenguez "de Mataxana" Pedrez "de Oumanna" "de Carvayar" "della Tenda" Alonsu "de Qualla" "de Olloniego"
+	"del Dado" "de Aller" "de Mieres" "de Premanna" Nicolas Rodriguiz "del Castiello" "de Quinnones" "de Abilles" "de Ovieu"
+	"de Llamuno" "de Ponce de Llion" "de Biedma" "d'Osorio" 
 }
-
-ship_names = {
-	"Sancta Gadiia" Asturies Llion "Sancta Maria de Mieres" "Sancta Maria de Nava" "Sancta Maria de Cangues" "Sancta Maria de Ovieu"
-	Trinidade "Sancta Taresa" "Sancta Alexania" "Regina Orraca"
+ship_names = { 
+	"Sancta Gadiia" Asturies Llion "Sancta Maria de Mieres" "Sancta Maria de Nava" "Sancta Maria de Cangues" "Sancta Maria de Ovieu" Trinidade "Sancta Taresa" "Sancta Alexania"
+	"Regina Orraca" 
 }

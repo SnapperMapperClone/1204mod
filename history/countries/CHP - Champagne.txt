@@ -4,11 +4,10 @@ government_rank = 1
 technology_group = western
 religion = catholic
 primary_culture = champenois
-capital = 186	# Reims
-fixed_capital = 186 # Cannot move capital away from this province & no power cost to move to it
-
-1201.5.30 = {
-	monarch = {
+capital = 4390# Reims
+fixed_capital = 186# Cannot move capital away from this province & no power cost to move to it
+1201.5.30 = { 
+	monarch = { 
 		name = "Thibaut IV"
 		dynasty = "de Blois"
 		birth_date = 1155.11.11
@@ -18,11 +17,12 @@ fixed_capital = 186 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-1515.1.1 = { government = monarchy
-add_government_reform = autocracy_reform }
-
+1515.1.1 = { 
+	government = monarchy
+	add_government_reform = autocracy_reform
+}
 1589.8.3 = { set_legacy_government = administrative_monarchy }
-
-1661.3.9 = { government = monarchy
-add_government_reform = autocracy_reform }
+1661.3.9 = { 
+	government = monarchy
+	add_government_reform = autocracy_reform
+}

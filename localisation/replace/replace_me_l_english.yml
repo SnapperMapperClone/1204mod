@@ -37,6 +37,12 @@
  balkan_region_adj:0 "Rumelian"
 
  #zyp
+ RANK_1: "County"
+ RANK_2: "Duchy"
+ RANK_3: "Kingdom"
+ RANK_4: "Empire"
+ RANK_5: "Superstate"
+
  champagne: "Paris"
  english_channel: "Holland"
  valencia: "Barcelona"
@@ -61,14 +67,24 @@
  PROV_ADJ189: "Nancian"
  PROV4766: "Verdunois"
  PROV188: "Messin"
+ PROV92: "Brussels"
+ PROV100: "Leeuwarden"
+ PROV87: "Calaisis"
+
+ PROV4737: "Agrigento"
  
  PROV721: "Aurag"
  
  bourgogne_area: "Franche-Comté"
  west_burgundy_area: "Burgundy"
  
+ GUY: "Aquitaine"
+ GUY_ADJ: "Aquitainian"
  KOR: "Goryeo"
  KOR_ADJ: "Korean"
+ 
+ TRV: "Treviso"
+ TRV_ADJ: "Trevisan"
  
  
  #tech

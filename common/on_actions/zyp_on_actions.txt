@@ -25,6 +25,14 @@ on_startup = {
 		KHA = {
 			save_global_event_target_as = kha_mongol_empire
 		}
+		REB = {
+			save_global_event_target_as = culture_leader_one
+			save_global_event_target_as = culture_leader_two
+			save_global_event_target_as = culture_leader_three
+			save_global_event_target_as = culture_leader_four
+			save_global_event_target_as = culture_leader_five
+			save_global_event_target_as = culture_leader_six
+		}
 	}
 }
 
@@ -63,6 +71,51 @@ on_monarch_death = {
 			}
 			clr_country_flag = innocent_iii
 			kill_ruler = yes
+		}
+	}
+}
+
+on_new_heir = {
+	if = {
+		limit = {
+			has_reform = male_exclusive_inheritance
+			has_female_heir = yes
+		}
+		country_event = {
+			id = inheritance_reform_event.1
+		}
+	}
+	if = {
+		limit = {
+			is_female = yes
+			has_foreign_consort = yes
+		}
+		random_country = {
+			limit = {
+				ROOT = {
+					is_origin_of_consort = PREV
+				}
+			}
+			save_event_target_as = consort_tag
+		}
+		remove_heir = {
+			allow_new_heir = no
+		}
+		define_heir = {
+			age = 0
+			male = yes
+			dynasty = event_target:origin_of_consort
+		}
+	}
+}
+
+on_create_vassal = {
+	ROOT = {
+		save_event_target_as = subject_created
+	}
+	FROM = {
+		country_event = {
+			id = new_feature_designate_subject.1
 		}
 	}
 }

@@ -1,0 +1,5 @@
+67 = { "Nämberch" "Nämberch" }
+4717 = { "Bareid" "Bareid" }
+71 = { "Anschba" "Anschba" }
+66 = { "Bämberch" "Bämberch" }
+79 = { "Wörtzburch" "Wörtzburch" }

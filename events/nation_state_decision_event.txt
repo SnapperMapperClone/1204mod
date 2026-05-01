@@ -1,0 +1,83 @@
+namespace = nation_state_decision_event
+
+#Joan of Wales
+country_event = {
+	id = nation_state_decision_event.1
+	title = nation_state_decision_event.1.t
+	desc = nation_state_decision_event.1.d
+	picture = GREAT_BUILDING_eventPicture
+
+	is_triggered_only = yes
+
+  	option = { #take new culture
+		name = nation_state_decision_event.1.a
+		trigger = {
+			OR = {
+				culture_group = germanic
+				culture_group = latin
+			}
+		}
+		if = {
+			limit = {
+				culture_group = latin
+			}
+			change_primary_culture = italian_culture
+		}
+		else_if = {
+			limit = {
+				culture_group = germanic
+			}
+			change_primary_culture = german_culture
+		}
+	}
+
+	option = { #keep traditional culture
+		name = nation_state_decision_event.1.b
+		
+	}
+
+	after = {
+		play_sound = new_raise_goverment_rank
+		while = {
+			limit = {
+				any_owned_province = {
+					culture_group = ROOT
+					has_owner_accepted_culture = yes
+					NOT = { has_province_flag = has_owner_accepted_culture_in_group_flag }
+				}
+			}
+			random_owned_province = {
+				limit = {
+					culture_group = ROOT
+					has_owner_accepted_culture = yes
+					NOT = { has_province_flag = has_owner_accepted_culture_in_group_flag }
+				}
+				set_province_flag = has_owner_accepted_culture_in_group_flag
+			}
+		}
+		every_owned_province = {
+			limit = {
+				has_owner_accepted_culture = yes
+				culture_group = owner
+			}
+			owner = {
+				remove_accepted_culture = PREV
+			}
+		}
+		while = {
+			limit = {
+				any_owned_province = {
+					has_province_flag = has_owner_accepted_culture_in_group_flag
+				}
+			}
+			random_owned_province = {
+				limit = {
+					has_province_flag = has_owner_accepted_culture_in_group_flag
+				}
+				change_culture = ROOT
+				clr_province_flag = has_owner_accepted_culture_in_group_flag
+			}
+		}
+		
+	}
+}

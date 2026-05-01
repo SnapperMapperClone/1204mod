@@ -11,9 +11,7 @@
 165 = "Berna"
 174 = "Bordéus"
 197 = "Rossilhão"
-206 = "Corunha"
-207 = "Asturias"
-208 = "Leão"
+208 = { "Leão" "Leão" }
 211 = "Pirinéus"
 212 = "Girona"
 213 = "Barcelona"
@@ -25,7 +23,6 @@
 221 = "Murcia"
 222 = "Almería"
 223 = "Granada"
-224 = "Sevilha"
 225 = "Córdoba"
 226 = "Gibraltar"
 333 = "Ilhas Baleares"
@@ -108,3 +105,10 @@
 367 = "Açores"
 1995 = "Micronésia"
 4720 = "Genebra"
+
+209 = { "Biscaia" "Bilbau" }
+4558 = "Ourense"
+206 = "A Corunha"
+207 = "Astúrias"
+1749 = { "Cádis" "Cádis" }
+224 = { "Sevilha" "Sevilha" }

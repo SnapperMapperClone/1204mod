@@ -6,7 +6,6 @@ add_accepted_culture = sicilian
 religion = catholic
 technology_group = western
 capital = 214# Tinto HQ
-
 1196.4.25 = { 
 	monarch = { 
 		name = "Pere"
@@ -18,4 +17,4 @@ capital = 214# Tinto HQ
 		mil = 2
 	}
 }
-government_rank = 1
+government_rank = 2

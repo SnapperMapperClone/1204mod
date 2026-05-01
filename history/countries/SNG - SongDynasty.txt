@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = celestial_empire
-government_rank = 3
+government_rank = 5
 technology_group = chinese
 religion = confucianism
 capital = 684
 primary_culture = jianghuai
-
-1194.7.24 = {
-	monarch = {
+1194.7.24 = { 
+	monarch = { 
 		name = "Kuo"
 		dynasty = "Zhao"
 		birth_date = 1168.11.19
@@ -17,9 +16,8 @@ primary_culture = jianghuai
 		mil = 2
 	}
 }
-
-1170.1.1 = {
-	queen = {
+1170.1.1 = { 
+	queen = { 
 		name = "Yang"
 		dynasty = "Zhao"
 		birth_date = 1161.1.1

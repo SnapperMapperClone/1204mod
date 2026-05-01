@@ -189,3 +189,10 @@
 1954 = "Torontal"
 4712 = "Konstanz"
 4764 = "Salzbad"
+
+5024 = { "Vogesen" "Spinneln" }
+5026 = "Kolmar"
+5025 = "Bitsch"
+193 = { "Bisanz" "Bisanz" }
+5011 = "Ypern"
+5013 = "Löwen"

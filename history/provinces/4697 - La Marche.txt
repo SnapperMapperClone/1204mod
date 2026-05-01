@@ -1,6 +1,6 @@
 owner = GUY
 controller = GUY
-capital = "GuÃ©ret"
+capital = "Guéret"
 is_city = yes
 culture = aquitaine
 religion = catholic

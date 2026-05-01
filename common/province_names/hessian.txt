@@ -1,0 +1,14 @@
+4718 = { "Aschebersch" "Aschebersch" }
+77 = { "Heidlberg" "Heidlberg" }
+78 = { "Määnz" "Määnz" }
+1761 = { "Palz" "Worms" }
+4767 = { "Zweebrigge" "Zweebrigge" }
+80 = { "Tréier" "Tréier" }
+94 = { "Lëtzebuerg" "Lëtzebuerg" }
+1760 = { "Kowelenz" "Kowelenz" }
+4768 = { "Jöllesch" "Jöllesch" }
+1878 = { "Oche" "Oche" }
+85 = { "Kölle" "Kölle" }
+2975 = { "Kleff" "Kleff" }
+84 = { "Berg" "Düsseldörp" }
+1876 = { "Frangford" "Frangford" }

@@ -1,0 +1,8 @@
+88 = { "Artoé" "Aros" }
+89 = { "Amienois" "Anmien" }
+5007 = { "Pontiu" "Advile" }
+1743 = { "Cambrésis" "Kimbré"}
+182 = { "Valois" "Crépy" }
+87 = { "Calaisis" "Calés" }
+4769 = { "Lile" "Lile" }
+91 = { "Hainaut" "Mont" }

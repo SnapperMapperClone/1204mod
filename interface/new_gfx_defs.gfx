@@ -206,4 +206,112 @@ spriteTypes = {
 		name = "GFX_mongol_reform_first_among_equals"
 		texturefile = "gfx//interface//mongol_reform_first_among_equals.dds"
 	}
+
+
+	spriteType = {
+		name = "GFX_prov_dip_bg"
+		texturefile = "gfx//interface//prov_dip_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_button_red_short_wide"
+		texturefile = "gfx//interface//button_red_short_wide.dds"
+	}
+	spriteType = {
+		name = "GFX_prov_dip_button"
+		texturefile = "gfx//interface//prov_dip_button.dds"
+	}
+
+
+	spriteType = {
+		name = "GFX_trenches"
+		texturefile = "gfx//interface//buildings//trenches.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_bell_tower"
+		texturefile = "gfx//interface//buildings//bell_tower.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_hospital"
+		texturefile = "gfx//interface//buildings//hospital.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_railroad"
+		texturefile = "gfx//interface//buildings//railroad.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_irrigation"
+		texturefile = "gfx//interface//buildings//irrigation.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_dirt_road"
+		texturefile = "gfx//interface//buildings//dirt_road.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_paved_road"
+		texturefile = "gfx//interface//buildings//paved_road.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_fishery"
+		texturefile = "gfx//interface//buildings//fishery.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_shipyard_system"
+		texturefile = "gfx//interface//buildings//shipyard_system.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_advocatus"
+		texturefile = "gfx//interface//buildings//advocatus.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_building_category_strip"
+		texturefile = "gfx//interface//macro_buildings_category_strip.tga"
+		loadType = "INGAME"
+		noOfFrames = 11
+	}
+
+
+	spriteType = {
+		name = "government_reform_renowned_royal_court_reform"
+		texturefile = "gfx//interface//government_reform_icons//renowned_royal_court_reform.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_elaborate_royal_court"
+		texturefile = "gfx//interface//government_reform_icons//elaborate_royal_court.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_modest_royal_court"
+		texturefile = "gfx//interface//government_reform_icons//modest_royal_court.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_imperial_court"
+		texturefile = "gfx//interface//government_reform_icons//imperial_court.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_mongol_court"
+		texturefile = "gfx//interface//government_reform_icons//mongol_court.dds"
+	}
+	
+	spriteType = {
+		name = "government_reform_caliphal_court"
+		texturefile = "gfx//interface//government_reform_icons//caliphal_court.dds"
+	}
+
+	spriteType = {
+		name = "government_reform_papal_court"
+		texturefile = "gfx//interface//government_reform_icons//papal_court.dds"
+	}
 }

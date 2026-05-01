@@ -6,21 +6,19 @@ primary_culture = english
 add_accepted_culture = gascon
 add_accepted_culture = normand
 religion = catholic
-capital = 236 # London
-
+capital = 236# London
 add_rival = FRA
-
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -10
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -10
 }
+1199.1.1 = {  #Coronation
 
-1199.1.1 = { #Coronation
-	monarch = {
+	monarch = { 
 		name = "John I"
 		dynasty = "Plantagenêt"
 		birth_date = 1166.12.24
@@ -29,3 +27,4 @@ change_estate_land_share = {
 		mil = 2
 	}
 }
+government_rank = 3

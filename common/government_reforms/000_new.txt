@@ -91,3 +91,630 @@ kor_military_government = {
 		factor = 1
 	}
 }
+
+#
+
+renowned_royal_court = {
+	icon = "renowned_royal_court_reform"
+	modifiers = {
+		prestige = 1
+		legitimacy = 1
+		devotion = 1
+		horde_unity = 1
+		republican_tradition = 0.5
+	}
+	potential = {
+		is_great_power = yes
+	}
+	
+	trigger = {
+	}
+
+#	conditional = {
+#		allow = {
+#			OR = {
+#				has_dlc = "Common Sense"
+#				has_dlc = "Domination"
+#			}
+#		}
+#		has_parliament = yes
+#		custom_attributes = {
+#			blocked_call_diet = yes
+#		}
+#	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+		}
+	}
+}
+
+elaborate_royal_court = {
+	icon = "elaborate_royal_court"
+	modifiers = {
+		prestige = 0.5
+		nobles_loyalty_modifier = 0.05
+	}
+	potential = {
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+		}
+	}
+}
+
+modest_royal_court = {
+	icon = "modest_royal_court"
+	modifiers = {
+		stability_cost_modifier = -0.1
+		global_tax_modifier = 0.05
+	}
+	potential = {
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.1
+			monthly_income = 3
+		}
+	}
+}
+
+imperial_court = {
+	icon = "imperial_court"
+	modifiers = {
+		imperial_mandate = 0.05
+		state_governing_cost = -0.1
+	}
+	potential = {
+		is_emperor_of_china = yes
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+		}
+	}
+}
+
+mongol_court = {
+	icon = "mongol_court"
+	modifiers = {
+		ae_impact = -0.25
+		monthly_splendor = 2
+	}
+	potential = {
+		has_country_flag = proclaimed_mongol_empire
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1000
+	}
+}
+
+caliphal_court = {
+	icon = "caliphal_court"
+	modifiers = {
+		technology_cost = -0.05
+		tolerance_own = 3
+	}
+	potential = {
+		has_reform = caliphate_reform
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1000
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+		}
+	}
+}
+
+papal_court = {
+	icon = "papal_court"
+	modifiers = {
+		papal_influence = 1
+		diplomatic_reputation = 2
+	}
+	potential = {
+		has_reform = papacy_reform
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 0.5
+			NOT = { technology_group = western }
+		}
+	}
+}
+
+#
+
+maintain_serfdom = {
+	icon = "peasants"
+	modifiers = {
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.15
+	}
+	potential = {
+	}
+	
+	trigger = {
+	}
+}
+
+abolish_serfdom = {
+	icon = "dutch_architecture"
+	modifiers = {
+		build_cost = -0.1
+		global_tax_modifier = 0.05
+	}
+	potential = {
+	}
+	
+	trigger = {
+	}
+}
+
+facilitate_rural_exodus = {
+	icon = "free_city"
+	modifiers = {
+		development_cost = -0.1
+		global_allowed_num_of_buildings = 1
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+		capital_scope = {
+			province_has_center_of_trade_of_level = 1
+		}
+	}
+	ai = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				trade_income_percentage = 0.2
+			}
+		}
+	}
+}
+
+municipal_immigration = {
+	icon = "parliament"
+	modifiers = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1000
+		modifier = {
+			factor = 0
+			NOT = {
+				trade_income_percentage = 0.2
+			}
+		}
+	}
+}
+
+#
+
+clerical_scholarships = {
+	icon = "politeia"
+	modifiers = {
+		innovativeness_gain = 0.25
+		embracement_cost = -0.1
+	}
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+	
+	trigger = {
+	}
+}
+
+inquisitions = {
+	icon = "pope"
+	modifiers = {
+		missionary_maintenance_cost = -0.1
+		tolerance_own = 1
+	}
+	potential = {
+		NOT = { religion_group = muslim }
+	}
+	
+	trigger = {
+	}
+}
+
+islamic_scholars = {
+	icon = "pope"
+	modifiers = {
+		idea_cost = -0.15
+	}
+	potential = {
+		religion_group = muslim
+	}
+	
+	trigger = {
+	}
+}
+
+#
+
+troubadour_literature = {
+	icon = "fiqh_laws"
+	modifiers = {
+		monthly_splendor = 1
+		idea_cost = -0.05
+	}
+	potential = {
+		OR = {
+			primary_culture = gascon
+			primary_culture = occitain
+			primary_culture = gascon_sep
+			primary_culture = occitain_sep
+		}
+	}
+	
+	trigger = {
+	}
+}
+
+renaissance_literature = {
+	icon = "legislative_assembly"
+	modifiers = {
+		advisor_cost = -0.1
+		innovativeness_gain = 0.5
+	}
+	potential = {
+		culture_group = latin
+	}
+	
+	trigger = {
+	}
+}
+
+chaucerian_works = {
+	icon = "neutral_ground"
+	modifiers = {
+		tolerance_heretic = 1
+		stability_cost_modifier = -0.1
+	}
+	potential = {
+		culture_group = british
+	}
+	
+	trigger = {
+	}
+}
+
+byzantine_works = {
+	icon = "united_cantons"
+	modifiers = {
+		technology_cost = -0.1
+		tolerance_own = 1
+	}
+	potential = {
+		culture_group = byzantine
+	}
+	
+	trigger = {
+	}
+}
+
+poesies_francaises = {
+	icon = "soldiers_7"
+	modifiers = {
+		legitimacy = 0.5
+		devotion = 0.5
+		horde_unity = 0.5
+		republican_tradition = 0.3
+		prestige_from_land = 0.5
+	}
+	potential = {
+		culture_group = french
+		NOT = {
+			OR = {
+				primary_culture = occitain
+				primary_culture = gascon
+			}
+		}
+	}
+	
+	trigger = {
+	}
+}
+
+arabic_literature = {
+	icon = "eyalet_government"
+	modifiers = {
+		improve_relation_modifier = 0.15
+		trade_efficiency = 0.05
+	}
+	potential = {
+		religion_group = muslim
+	}
+	
+	trigger = {
+	}
+}
+
+distinct_works = {
+	icon = "stone_tablet"
+	modifiers = {
+		prestige = 0.25
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+}
+
+#
+
+male_exclusive_inheritance = {
+	icon = "letat_cest_moi"
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		monthly_reform_progress = 0.1
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+}
+
+male_preference_primogeniture = {
+	icon = "people_walking"
+	modifiers = {
+		stability_cost_modifier = -0.1
+		nobles_loyalty_modifier = 0.05
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+egalitarian_inheritance = {
+	icon = "queen"
+	modifiers = {
+		diplomatic_reputation = 1
+		female_advisor_chance = 0.05
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 0.2
+	}
+}
+
+elective_monarchical_arrangement = {
+	icon = "machiavellianism"
+	modifiers = {
+		improve_relation_modifier = 0.15
+		reduced_liberty_desire_on_same_continent = 10
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+	custom_attributes = {
+		has_ruler_election = yes
+	}
+	ai = {
+		factor = 0.1
+	}
+}
+
+#
+
+prioritize_overland_trade = {
+	icon = "landscape"
+	modifiers = {
+		global_prov_trade_power_modifier = 0.2
+		build_cost = -0.05
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 1000
+			NOT = {
+				any_owned_province = {
+					has_port = yes
+				}
+			}
+		}
+	}
+}
+
+sea_traders = {
+	icon = "great_sea"
+	modifiers = {
+		naval_tradition_from_trade = 0.2
+		light_ship_cost = -0.15
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+	}
+	ai = {
+		factor = 1
+		modifier = {
+			factor = 1000
+			capital_scope = {
+				has_port = yes
+			}
+		}
+	}
+}
+
+mercantilist_trade = {
+	icon = "paper_with_seal_3"
+	modifiers = {
+		mercantilism_cost = -0.1
+		global_own_trade_power = 0.25
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+		has_institution = commercial_revolution
+	}
+}
+
+#
+
+enlightened_absolutism = {
+	icon = "king"
+	modifiers = {
+		max_absolutism_effect = 0.1
+		max_absolutism = 10
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+		has_parliament = no
+	}
+}
+
+adopt_popular_reforms = {
+	icon = "constitution"
+	modifiers = {
+		num_of_parliament_issues = 2
+		parliament_backing_chance = 0.15
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+		has_parliament = yes
+	}
+}
+
+#
+
+societal_conservatism = {
+	icon = "austrian_archduchy_reform"
+	modifiers = {
+		manpower_in_accepted_culture_provinces = 0.15
+		num_accepted_cultures = 2
+	}
+	potential = {
+		
+	}
+	
+	trigger = {
+		NOT = {
+			has_reform = facilitate_nation_state
+		}
+	}
+}
+
+facilitate_nation_state = {
+	icon = "peasant_republic"
+	modifiers = {
+		ae_impact = -0.1
+		relation_with_same_culture_group = 50
+	}
+	effect = {
+		set_country_flag = has_enacted_nation_state_reform
+		custom_tooltip = national_diplomacy_tt
+		custom_tooltip = nationalist_cb_tt
+	}
+	potential = {
+		NOT = {
+			has_reform = societal_conservatism
+		}
+	}
+	
+	trigger = {
+		OR = {
+			is_great_power = yes
+			custom_trigger_tooltip = {
+				tooltip = is_culture_leader_tt
+				OR = {
+					event_target:culture_leader_one = {
+						tag = ROOT
+					}
+					event_target:culture_leader_two = {
+						tag = ROOT
+					}
+					event_target:culture_leader_three = {
+						tag = ROOT
+					}
+					event_target:culture_leader_four = {
+						tag = ROOT
+					}
+					event_target:culture_leader_five = {
+						tag = ROOT
+					}
+					event_target:culture_leader_six = {
+						tag = ROOT
+					}
+				}
+			}
+		}
+	}
+	ai = {
+		factor = 1000
+	}
+}

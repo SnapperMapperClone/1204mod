@@ -46,4 +46,4 @@ national_focus = MIL
 		mil = 2
 	}
 }
-government_rank = 1
+government_rank = 2

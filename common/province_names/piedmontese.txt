@@ -1,0 +1,5 @@
+1875 = { "Coni" "Coni" }
+4727 = { "Salusse" "Salusse" }
+103 = { "Turin" "Turin" }
+2981 = { "Monfrà" "Monfrà" }
+2979 = { "Noara" "Novara" }

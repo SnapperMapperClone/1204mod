@@ -1,0 +1,24 @@
+country_decisions = {
+
+	unify_cultures_decision = {
+		potential = {
+			has_reform = facilitate_nation_state
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = enacted_nation_state_for_twenty_five_years
+				had_country_flag = {
+					flag = has_enacted_nation_state_reform
+					days = 9125
+				}
+			}
+		}
+		effect = {
+			
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

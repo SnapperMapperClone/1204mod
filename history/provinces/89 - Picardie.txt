@@ -1,7 +1,6 @@
 # 89 Picardie - Principal cities: Amiens
-owner = FRA
-controller = FRA
-add_core = FRA
+owner = VMD
+controller = VMD
 capital = "Amiens"
 is_city = yes
 culture = picard
@@ -10,7 +9,6 @@ base_tax = 6
 base_production = 6
 trade_goods = grain
 base_manpower = 5
-add_core = PIC
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -40,4 +38,5 @@ discovered_by = ottoman
 	base_tax = 5
 	base_production = 5
 }
+add_core = VMD
 fort_15th = yes

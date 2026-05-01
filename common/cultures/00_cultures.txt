@@ -1435,6 +1435,10 @@ germanic = {
 		#Hannoveran
 		"von Schack" "von Fabrice" "von Hardenberg" "von Welf" "von Schauenburg" "von Holstein-Gottorp" "Askanier" "von Oldenburg"
 	}
+
+	german_culture = {
+		primary = GER
+	}
 }
 	
 west_slavic = {
