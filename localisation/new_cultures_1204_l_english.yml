@@ -54,6 +54,8 @@
 
  basque_group:0 "Basque"
  aquitainian:0 "Aquitainian"
+ 
+ turcomeni:0 "Turcomen"
 
  tajik:0 "Tajik"
  talysh:0 "Talysh"
@@ -101,3 +103,12 @@
  aromanian:0 "Aromanian"
 
  brittonic:0 "Brittonic"
+ 
+ south_caucasian:0 "Southern Caucasian"
+ 
+ altai:0 "Altai"
+
+ naiman:0 "Naiman"
+ 
+ dhivehi: "Dhivehi"
+ konkani: "Konkani"

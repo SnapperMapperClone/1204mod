@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = indian
+religion = hinduism
+primary_culture = telugu
+capital = 2037
+
+1175.1.1 = {
+	monarch = {
+		name = "Ganapathi Deva"
+		dynasty = "Kakatiya"
+		ADM = 2
+		DIP = 2
+		MIL = 2
+	}
+}
+

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = turcomeni
+religion = sunni
+technology_group = muslim
+capital = 411
+
+1191.1.1 = {
+	monarch = {
+		name = "Nur al-Din Arslan Shah I"
+		dynasty = "Zengid"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+

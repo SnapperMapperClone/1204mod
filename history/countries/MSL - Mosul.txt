@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = turcomeni
+religion = sunni
+technology_group = muslim
+capital = 4293
+religious_school = shafii_school
+
+1191.1.1 = {
+	monarch = {
+		name = "Muzaffar ad-Din"
+		dynasty = "Gökböri"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}
+

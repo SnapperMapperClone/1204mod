@@ -1,7 +1,7 @@
 #712 - Uighuristan
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = QOC
+controller = QOC
+add_core = QOC
 culture = uyghur
 religion = nestorian
 capital = "Aksu"

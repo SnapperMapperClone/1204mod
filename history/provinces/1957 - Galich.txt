@@ -1,7 +1,7 @@
 #Galich
 
-owner = VLD
-controller = VLD
+owner = GLC
+controller = GLC
 capital = "Galich"
 culture = russian
 religion = orthodox
@@ -11,7 +11,7 @@ base_tax = 4
 base_production = 5 #Huge Salt Mine
 base_manpower = 2
 is_city = yes
-add_core = VLD
+add_core = GLC
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

@@ -1,0 +1,18 @@
+#2758 - Illubabor
+
+owner = DAM
+controller = DAM
+add_core = DAM
+add_core = ENA
+culture = sidamo
+religion = coptic
+capital = "Illubabor"
+is_city = yes
+base_manpower = 2
+trade_goods = slaves
+hre = no
+base_tax = 2 
+base_production = 3
+discovered_by = east_african
+discovered_by = muslim
+

@@ -46,7 +46,7 @@ province_event = {
 			limit = {
 				area = aragon_area
 			}
-			change_culture = aragonese_sep
+			change_culture = aragonese
 		}
 		else_if = {
 			limit = {
@@ -56,7 +56,7 @@ province_event = {
 					area = baleares_area
 				}
 			}
-			change_culture = catalan_sep
+			change_culture = catalan
 		}
 		else_if = {
 			limit = {

@@ -2,7 +2,7 @@
 
 owner = VLG
 controller = VLG
-culture = kazani
+culture = bulgar
 religion = tengri_pagan_reformed
 capital = "Samara"
 trade_goods = livestock

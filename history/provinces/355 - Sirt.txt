@@ -1,6 +1,4 @@
 #355 - Sirt
-owner = AYB
-controller = AYB
 culture = african_bedouin_arabic
 religion = sunni
 capital = "Ben Jawad"
@@ -8,14 +6,9 @@ trade_goods = fish
 base_tax = 1
 base_production = 1
 base_manpower = 1
-is_city = yes
-add_core = TRP
+is_city = no
 add_local_autonomy = 25
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
-1558.1.1 = { 
-	controller = TRP
-}
-add_core = AYB

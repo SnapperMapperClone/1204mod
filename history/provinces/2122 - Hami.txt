@@ -1,0 +1,18 @@
+# 2122 - Hami
+
+owner = QOC
+controller = QOC
+add_core = QOC
+culture = oirats
+religion = vajrayana
+capital = "Hami"
+trade_goods = grain
+hre = no
+base_tax = 3 
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
+
+

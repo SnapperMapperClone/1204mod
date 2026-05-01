@@ -1,0 +1,6 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 244 209 130 } 
+

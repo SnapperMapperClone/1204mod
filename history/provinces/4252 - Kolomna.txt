@@ -1,7 +1,7 @@
 #4252 - Kolomna
 
-owner = VLD
-controller = VLD 
+owner = RYA
+controller = RYA
 culture = russian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Kolomna"
 is_city = yes
-add_core = VLD
+add_core = RYA
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL

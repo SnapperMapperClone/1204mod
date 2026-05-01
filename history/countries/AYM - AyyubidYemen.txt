@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+capital = 4280
+primary_culture = yemeni_culture
+
+1202.1.1 = {
+	monarch = {
+		name = "al-Nāṣir Muhammed ibn Tughtakin"
+		dynasty = "Ayyubid"
+		culture = al_misr_arabic
+		adm = 2	
+		dip = 2
+		mil = 2
+	}
+}

@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+primary_culture = al_suryah_arabic
+religion = sunni
+technology_group = muslim
+capital = 4297
+
+1186.1.1 = {
+	monarch = {
+		name = "Shirkuh II"
+		dynasty = "Ayyubid"
+		birth_date = 1173.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+

@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = east_african
+unit_type = sub_saharan
+religion = sunni
+primary_culture = afar
+capital = 1215
+religious_school = shafii_school

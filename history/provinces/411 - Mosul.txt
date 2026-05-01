@@ -1,6 +1,6 @@
 #411 - Mosul
-owner = AYB
-controller = AYB
+owner = ZNG
+controller = ZNG
 culture = assyrian
 religion = nestorian
 capital = "Al Mawsil"
@@ -9,8 +9,7 @@ base_tax = 4
 base_production = 4
 base_manpower = 4
 is_city = yes
-add_core = AYB
-add_core = BHT
+add_core = ZNG
 discovered_by = east_african
 discovered_by = muslim
 discovered_by = indian

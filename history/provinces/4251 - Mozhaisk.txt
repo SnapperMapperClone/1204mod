@@ -1,7 +1,7 @@
 #4251 - Mozhaisk
 
-owner = VLD
-controller = VLD   
+owner = YAR
+controller = YAR
 culture = russian
 religion = orthodox
 hre = no
@@ -11,13 +11,12 @@ trade_goods = grain
 base_manpower = 2
 capital = "Mozhaisk"
 is_city = yes
-add_core = VLD
+add_core = YAR
 discovered_by = eastern
 discovered_by = western
 discovered_by = GOL
 discovered_by = KAZ
 discovered_by = nomad_group
-fort_15th = yes
 
 
 

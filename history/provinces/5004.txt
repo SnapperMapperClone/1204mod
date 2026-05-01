@@ -1,15 +1,21 @@
+
+
+owner = SIC
+controller = SIC
 culture = griko
-trade_goods = naval_supplies
 religion = catholic
-center_of_trade = 1
-is_city = yes
+capital = "Lecce"
+trade_goods = naval_supplies
+hre = no
 base_tax = 4
-base_manpower = 2
 base_production = 4
+base_manpower = 2
+is_city = yes
 add_core = SIC
 discovered_by = western
 discovered_by = ottoman
 discovered_by = muslim
 discovered_by = eastern
-owner = SIC
-controller = SIC
+
+center_of_trade = 1
+

@@ -3,7 +3,7 @@
 owner = VLD
 controller = VLD
 culture = mishary
-religion = sunni
+religion = finnish_pagan_reformed
 hre = no
 base_tax = 4 
 base_production = 4
