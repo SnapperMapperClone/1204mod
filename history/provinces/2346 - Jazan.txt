@@ -1,7 +1,7 @@
 #2346 - Jazan
 
-owner = AYB
-controller = AYB
+owner = AYM
+controller = AYM
 culture = hejazi_culture
 religion = shiite
 capital = "Jazan"
@@ -11,8 +11,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 1
 is_city = yes
-add_core = AYB
-add_core = YEM
+add_core = AYM
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = western

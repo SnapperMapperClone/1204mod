@@ -1,0 +1,12 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = east_african
+unit_type = sub_saharan
+religion = sunni
+primary_culture = somali
+capital = 2794
+religious_school = shafii_school
+
+
+

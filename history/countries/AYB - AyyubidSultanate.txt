@@ -3,7 +3,7 @@ add_government_reform = iqta
 primary_culture = al_misr_arabic
 religion = sunni
 technology_group = muslim
-capital = 382 # Damascus
+capital = 361
 
 1200.1.1 = {
 	monarch ={

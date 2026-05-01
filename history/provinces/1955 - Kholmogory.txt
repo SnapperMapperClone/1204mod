@@ -1,0 +1,19 @@
+#1955 - Kholmogory
+
+culture = samoyed
+religion = finnish_pagan_reformed
+
+hre = no
+base_tax = 2 
+base_production = 2
+base_manpower = 1
+
+native_size = 20
+native_ferocity = 2
+native_hostileness = 3
+
+discovered_by = eastern
+discovered_by = western
+extra_cost = 16
+center_of_trade = 2
+

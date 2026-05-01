@@ -1,6 +1,6 @@
 #2407 - Pereyaslav
-owner = CHR
-controller = CHR
+owner = PYS
+controller = PYS
 culture = ruthenian
 religion = orthodox
 base_tax = 3
@@ -9,7 +9,7 @@ trade_goods = grain
 base_manpower = 2
 capital = "Pereyaslav"
 is_city = yes
-add_core = CHR
+add_core = PYS
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

@@ -18,7 +18,14 @@
  turko_semitic:0 "Arabian"
  sudanese:0 "Nilotic"
  
+ caucasian:0 "Northern Caucasian"
+ 
  tartar:0 "Cuman-Kipchak"
+ siberian:0 "Yerle Qaliq"
+ 
+ uralic:0 "Komi"
+ samoyed:0 "Nenets"
+ 
  
  altaic:0 "Altaic-Mongolic"
 
@@ -73,6 +80,10 @@
  
  KOR: "Goryeo"
  KOR_ADJ: "Korean"
+ MED: "Tigray"
+ MED_ADJ: "Tigray"
+ JJI: "Yamma"
+ JJI_ADJ: "Yamman"
  
  
  #tech

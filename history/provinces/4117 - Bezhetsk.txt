@@ -1,7 +1,7 @@
 # - Bezhetsk
 
-owner = VLD
-controller = VLD
+owner = NOV
+controller = NOV
 culture = novgorodian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = naval_supplies
 base_manpower = 1
 capital = "Bezhetsk"
 is_city = yes
-add_core = VLD
+add_core = NOV
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
