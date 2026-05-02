@@ -194,6 +194,7 @@
  lorrain: "Lorrainian"
  bourbonnais: "Bourbonnais"
  champenois: "Champenois"
+ dauphine_area: "Dauphiné"
  
  
  netherlandic: "Netherlandic"
@@ -201,6 +202,9 @@
  italian_culture: "Italian"
  german_culture: "German"
  
+ unify_cultures_decision_title: "Unify Accepted National Cultures"
+ unify_cultures_decision_desc: "Time has passed since our glorious nation was proclaimed. It's time to acknowledge that we are now one people."
+ enacted_nation_state_for_twenty_five_years: "§YWe must have the Facilitate Nation-State reform for more than Twenty-five years."
  nation_state_decision_event.1.t: "National Culture"
  nation_state_decision_event.1.d: "Our country has remained united for sufficient time that many in our nation have acknowledged they're now a part of a nation-state. It's time to put forth our newfound unity and aspire for higher ambitions!"
  nation_state_decision_event.1.a: "Adopt a new national culture!"
@@ -517,6 +521,18 @@
  PROV_ADJ5031: "Méridan"
  PROV5032: "Guadalajara"
  PROV_ADJ5032: "Guadalajaran"
+ PROV5033: "Vermandois"
+ PROV_ADJ5033: "Vermandois"
+ PROV5034: "Sens"
+ PROV_ADJ5034: "Sénonais"
+ PROV5035: "Viennois"
+ PROV_ADJ5035: "Viennois"
+ PROV5036: "Valentinois"
+ PROV_ADJ5036: "Valentinois"
+ PROV5037: "Annecy"
+ PROV_ADJ5037: "Annecian"
+ PROV5038: "Viterbo"
+ PROV_ADJ5038: "Viterbese"
  
 
 

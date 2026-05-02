@@ -23,5 +23,4 @@ discovered_by = ottoman
 1674.9.1 = { controller = FRA }
 1806.7.12 = { hre = no }
 add_core = FRC
-center_of_trade = 1
 fort_15th = yes

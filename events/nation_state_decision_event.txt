@@ -1,6 +1,5 @@
 namespace = nation_state_decision_event
 
-#Joan of Wales
 country_event = {
 	id = nation_state_decision_event.1
 	title = nation_state_decision_event.1.t
@@ -11,6 +10,12 @@ country_event = {
 
   	option = { #take new culture
 		name = nation_state_decision_event.1.a
+		every_owned_province = {
+			limit = {
+				culture = ROOT
+			}
+			set_province_flag = has_owner_primary_culture_flag
+		}
 		trigger = {
 			OR = {
 				culture_group = germanic
@@ -28,6 +33,13 @@ country_event = {
 				culture_group = germanic
 			}
 			change_primary_culture = german_culture
+		}
+		every_owned_province = {
+			limit = {
+				has_province_flag = has_owner_primary_culture_flag
+			}
+			change_culture = owner
+			clr_province_flag = has_owner_primary_culture_flag
 		}
 	}
 

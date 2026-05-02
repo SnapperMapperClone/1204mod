@@ -279,7 +279,7 @@ massif_central_area = {  #3
 }
 savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy 
 
-	203 204 205 4719 
+	4719 205 5037 
 }
 lorraine_area = {  #4
 
@@ -291,11 +291,11 @@ picardy_area = {  #4
 }
 ile_de_france_area = {  #4
 
-	182 183 185 4388 
+	183 185 4388 182 5033 
 }
 champagne_area = {  #3
 
-	181 4390 186 5003 
+	181 4390 5003 186 5034 
 }
 loire_area = {  #5
 
@@ -446,7 +446,7 @@ naples_area = {  #3  #Campania
 }
 lazio_area = {  #4 Lazio-Umbria
 
-	118 2976 4731 4732 
+	2976 4731 4732 118 5038 
 }
 calabria_area = {  #3 (+Lucania)
 
@@ -3648,3 +3648,6 @@ netherlands_area = { }
 indonesian_islands_area = { }
 iceland_area = { }
 south_laos_area = { }
+dauphine_area = { 
+	204 5036 5035 203 
+}

@@ -3,5 +3,5 @@ add_government_reform = appanage_reform
 government_rank = 1
 technology_group = western
 religion = catholic
-capital = 182
+capital = 5033
 primary_culture = picard

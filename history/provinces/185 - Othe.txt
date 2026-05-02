@@ -1,15 +1,14 @@
 # 185 Nemours
-owner = CHP
-controller = CHP
-capital = "Sens"
+owner = FRA
+controller = FRA
+capital = "Nemours"
 is_city = yes
-culture = champenois
+culture = cosmopolitan_french
 religion = catholic
-base_tax = 5
-base_production = 5
+base_tax = 4
+base_production = 3
 trade_goods = grain
-base_manpower = 4
-add_core = CHP
+base_manpower = 3
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -24,3 +23,4 @@ discovered_by = ottoman
 	base_tax = 8
 	base_production = 8
 }
+add_core = FRA

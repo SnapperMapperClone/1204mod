@@ -14,7 +14,9 @@ country_decisions = {
 			}
 		}
 		effect = {
-			
+			country_event = {
+				id = nation_state_decision_event.1
+			}
 		}
 		ai_will_do = {
 			factor = 1

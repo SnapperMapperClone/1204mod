@@ -78,7 +78,6 @@
 201 = "Provenza"
 202 = "Condado Venaissin"
 203 = "Lionese"
-204 = "Delfinado"
 1879 = "Alenzón"
 
 41 = "Prusia Oriental"

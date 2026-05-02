@@ -19,7 +19,7 @@
 201 = { "Ais" "Ais de Provença" }
 4696 = { "Tolon" "Tolon" }
 2991 = { "Forcauquier" "Forcauquier" }
-204 = { "Daufinat" "Grenòble" }
+204 = { "Grenòble" "Grenòble" }
 4777 = { "Forés" "Montbrison" }
 199 = { "Auvèrnhe" "Clarmont" }
 195 = { "Lemosin" "Lemòtges" }

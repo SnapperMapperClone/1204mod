@@ -81,7 +81,6 @@
 201 = "Provenza"
 202 = "Aviñón"
 203 = "Lionese"
-204 = "Delfinado"
 205 = { "Chamberí" "Chamberí" }
 2753 = "Narbona"
 1879 = "Alenzón"

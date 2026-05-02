@@ -79,7 +79,6 @@
 201 = "Ais"
 202 = "Aviñón"
 203 = "Lionese"
-204 = "Delfinado"
 205 = "Chamberí"
 1879 = "Alenzón"
 2753 = "Narbona"
