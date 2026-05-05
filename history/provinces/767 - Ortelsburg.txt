@@ -2,7 +2,7 @@
 owner = TEU
 controller = TEU
 capital = "Ortelsburg"
-culture = prussian
+culture = pruthenian
 religion = baltic_pagan_reformed
 trade_goods = naval_supplies
 base_tax = 2
@@ -14,18 +14,3 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-1454.3.6 = { add_core = POL controller = REB revolt = { type = revolutionary_rebels size = 2 } }
-1466.10.19 = { controller = TEU add_core = PRU revolt = { size = 1 } }
-1525.2.10 = { 
-	controller = PRU
-	religion = protestant
-}
-1618.8.28 = { 
-	controller = BRA
-	add_core = BRA
-}
-1701.1.18 = { 
-	controller = PRU
-}
-1758.1.22 = { controller = RUS }
-1762.5.5 = { controller = PRU }

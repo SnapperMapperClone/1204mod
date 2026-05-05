@@ -1,0 +1,17 @@
+#4536 - Lida
+owner = LIT
+controller = LIT
+religion = baltic_pagan_reformed
+culture = lithuanian
+capital = "Lyda"
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = LIT
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group

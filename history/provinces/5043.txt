@@ -1,0 +1,14 @@
+#273 - Livland
+owner = SKL
+controller = SKL
+add_core = SKL
+religion = finnish_pagan_reformed
+culture = estonian
+capital = "Fellin"
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+discovered_by = western
+discovered_by = eastern
