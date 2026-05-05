@@ -1,7 +1,7 @@
 #Kovno
 owner = LIT
 controller = LIT
-culture = lithuanian
+culture = sudovian
 religion = baltic_pagan_reformed
 capital = "Kovno"
 trade_goods = livestock

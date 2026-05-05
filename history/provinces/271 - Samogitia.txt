@@ -1,7 +1,7 @@
 #271 - Samogitia
 owner = LIT
 controller = LIT
-culture = lithuanian
+culture = samogitian
 religion = baltic_pagan_reformed
 capital = "Varniai"
 trade_goods = livestock

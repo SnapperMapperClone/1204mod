@@ -608,23 +608,33 @@ greenland_area = {  #2
 ########################################
 estonia_ingria_area = {  #3
 
-	36 1834 1842 
+	36 1842 5041
 }
+
+estonia_west_area = {
+	35 5039 5040
+}
+
 livonia_area = {  #4
-
-	37 38 273 4241 
+	37 5044 5045
+	
 }
-curonia_area = {  #3
-
-	35 39 1935 
+north_livonia_area = {
+	1834 5042 5043
 }
+curonia_area = {  
+	38 39 1935 5046
+}
+latgalia_area = {
+	273 4241 5047
+}
+
 east_prussia_area = {  #5
 
-	40 41 767 2958 42 
+	40 41 5052 5053 5054
 }
 west_prussia_area = {  #3 (South West Prussia)
-
-	2997 43 1841 
+	42 767 2958
 }
 wielkopolska_area = {  #5
 
@@ -667,12 +677,14 @@ kuyavia_area = {
 	4523 1859 4524 4528 
 }
 samogitia_area = {  #4
-
-	270 271 1936 4534 
+	271 4534 5048 5049
 }
 lithuania_area = {  #5
 
 	272 770 4535 4536 
+}
+yotvingia_area = {
+	270 1936 5050 5051
 }
 west_dniepr_area = {  #4 Right Bank Ukraine
 
