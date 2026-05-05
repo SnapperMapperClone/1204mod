@@ -1,0 +1,15 @@
+add_core = TOU
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = TOU
+culture = occitain
+religion = cathar
+controller = TOU
+is_city = yes
+capital = "Albi"
+base_tax = 5
+base_manpower = 3
+base_production = 5
+trade_goods = glass

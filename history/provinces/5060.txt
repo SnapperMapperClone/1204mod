@@ -1,0 +1,15 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+is_city = yes
+hre = yes
+add_core = BLN
+owner = BLN
+culture = venetian
+controller = BLN
+base_tax = 3
+base_manpower = 3
+base_production = 3
+trade_goods = iron

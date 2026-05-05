@@ -1,0 +1,15 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+is_city = yes
+hre = yes
+add_core = PIZ
+owner = PIZ
+culture = romagnan
+controller = PIZ
+base_tax = 4
+base_manpower = 3
+base_production = 4
+trade_goods = livestock

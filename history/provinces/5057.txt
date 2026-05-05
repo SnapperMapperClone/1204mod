@@ -1,0 +1,17 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+is_city = yes
+add_core = FRA
+add_core = ANJ
+add_core = NRM
+owner = FRA
+culture = normand
+controller = FRA
+capital = "Lisieux"
+base_tax = 4
+base_manpower = 4
+base_production = 4
+trade_goods = livestock

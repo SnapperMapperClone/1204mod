@@ -1,0 +1,15 @@
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+religion = catholic
+is_city = yes
+hre = yes
+add_core = VCZ
+owner = VCZ
+culture = venetian
+controller = VCZ
+base_tax = 5
+base_manpower = 3
+base_production = 5
+trade_goods = gold
