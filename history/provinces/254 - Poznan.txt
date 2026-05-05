@@ -4,7 +4,7 @@ controller = WIE
 capital = "Poznan"
 culture = polish
 religion = catholic
-trade_goods = salt
+trade_goods = beer
 base_tax = 6
 base_production = 6
 base_manpower = 5
@@ -41,5 +41,5 @@ discovered_by = ottoman
 }
 1813.3.17 = { controller = PRU }
 add_core = WIE
-fort_15th = yes
 center_of_trade = 1
+fort_15th = yes

@@ -85,3 +85,13 @@ check_if_tag_is_culture_leader = {
 		event_target:culture_leader_six = { tag = REB }
 	}
 }
+
+langues_doil_assessment = {
+    OR = {
+        primary_culture = cosmopolitan_french
+        primary_culture = bourbonnais
+        primary_culture = angevin
+        primary_culture = champenois
+        primary_culture = poitevin
+    }
+}

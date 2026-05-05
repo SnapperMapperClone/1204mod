@@ -2,7 +2,7 @@
 culture = buryat
 religion = tengri_pagan_reformed
 capital = "Irkutsk"
-trade_goods = unknown
+trade_goods = lumber
 base_tax = 1
 base_production = 1
 base_manpower = 1
@@ -17,7 +17,6 @@ discovered_by = BRT
 	controller = RUS
 	religion = Orthodox
 	culture = russian
-	city = yes
 }
 1634.1.1 = { add_core = RUS }
 add_core = KHA

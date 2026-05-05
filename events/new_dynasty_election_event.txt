@@ -1,0 +1,155 @@
+namespace = new_dynasty_election_event
+
+country_event = {
+	id = new_dynasty_election_event.1
+	title = new_dynasty_election_event.1.t
+	desc = new_dynasty_election_event.1.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = new_dynasty_election_event.1.a
+	}
+	option = {
+		name = new_dynasty_election_event.1.b
+		trigger = {
+			num_of_allies = 1
+		}
+		random_ally = {
+			save_event_target_as = ally_dynasty
+		}
+		define_ruler = {
+			dynasty = event_target:ally_dynasty
+		}
+		set_ruler_flag = is_heir_flag
+	}
+	option = {
+		name = new_dynasty_election_event.1.c
+		trigger = {
+			has_subject_of_type = appanage
+		}
+		random_subject_country = {
+			limit = {
+				is_subject_of_type = appanage
+			}
+			hidden_effect = {
+				country_event = {
+					id = new_dynasty_election_event.2
+				}
+			}
+		}
+		ai_chance = {
+			factor = 1000
+		}
+	}
+	after = {
+		every_ally = {
+			limit = {
+				NOT = {
+					dynasty = ROOT
+				}
+			}
+			break_alliance = ROOT
+			break_marriage = ROOT
+			add_trust = {
+				who = ROOT
+				value = -100
+			}
+			add_trust = {
+				who = ROOT
+				value = 50
+			}
+			ROOT = {
+				add_trust = {
+					who = PREV
+					value = -100
+				}
+				add_trust = {
+					who = PREV
+					value = 50
+				}
+			}
+		}
+		every_enemy_country = {
+			force_remove_rival = ROOT
+			add_trust = {
+				who = ROOT
+				value = -100
+			}
+			add_trust = {
+				who = ROOT
+				value = 50
+			}
+			ROOT = {
+				add_trust = {
+					who = PREV
+					value = -100
+				}
+				add_trust = {
+					who = PREV
+					value = 50
+				}
+			}
+		}
+		every_rival_country = {
+			ROOT = { force_remove_rival = PREV }
+			add_trust = {
+				who = ROOT
+				value = -100
+			}
+			add_trust = {
+				who = ROOT
+				value = 50
+			}
+			ROOT = {
+				add_trust = {
+					who = PREV
+					value = -100
+				}
+				add_trust = {
+					who = PREV
+					value = 50
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = new_dynasty_election_event.2
+	title = new_dynasty_election_event.2.t
+	desc = new_dynasty_election_event.2.d
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = new_dynasty_election_event.2.a
+		switch_tag = FROM
+		ai_chance = {
+			factor = 0
+		}
+	}
+	option = {
+		name = new_dynasty_election_event.2.b
+		
+	}
+	after = {
+		set_ruler_flag = is_heir_flag
+		exile_ruler_as = {
+			name = elected_as_ruler
+		}
+		exile_heir_as = elected_as_heir
+		exile_consort_as = elected_as_consort
+		FROM = {
+			set_ruler = elected_as_ruler
+			set_heir = elected_as_heir
+			exile_consort_as = elected_as_consort
+			create_subject = {
+				subject_type = personal_union
+				who = ROOT
+			}
+		}
+	}
+}

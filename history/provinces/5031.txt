@@ -11,3 +11,4 @@ culture = mozarabic
 religion = catholic
 controller = AMO
 is_city = yes
+trade_goods = livestock

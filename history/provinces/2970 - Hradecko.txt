@@ -5,7 +5,7 @@ add_core = BOH
 capital = "Hradec Králové"
 culture = czech
 religion = catholic
-trade_goods = grain
+trade_goods = beer
 hre = yes
 base_tax = 4
 base_production = 4
@@ -26,12 +26,12 @@ discovered_by = ottoman
 	controller = HAB
 	add_core = HAB
 }
-1576.1.1 = { religion = protestant }
+1576.1.1 = { religion = Protestant }
 1618.5.23 = { 
 	controller = BOH
 }
 1620.11.8 = { 
 	controller = HAB
 }
-1627.1.1 = { religion = catholic }
+1627.1.1 = { religion = Catholic }
 1806.7.12 = { hre = no }

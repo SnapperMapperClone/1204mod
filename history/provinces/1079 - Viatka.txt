@@ -1,10 +1,10 @@
 #1079 - Viatka
-owner =PRM
+owner = PRM
 controller = PRM
 capital = "Hlynov"
 culture = russian
 religion = finnish_pagan_reformed
-trade_goods = copper
+trade_goods = lumber
 base_tax = 3
 base_production = 3
 base_manpower = 4

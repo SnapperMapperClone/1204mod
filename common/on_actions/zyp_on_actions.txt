@@ -33,6 +33,12 @@ on_startup = {
 			save_global_event_target_as = culture_leader_five
 			save_global_event_target_as = culture_leader_six
 		}
+		every_country = {
+			limit = {
+				has_heir = yes
+			}
+			set_heir_flag = is_heir_flag
+		}
 	}
 }
 
@@ -46,6 +52,297 @@ on_main_war_lost = {
 	}
 }
 
+on_war_ended = {
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = champenois }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = champenois
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = champenois_integrated }
+		}
+		set_country_flag = champenois_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = cosmopolitan_french }
+			NOT = {
+				any_province = {
+				continent = europe
+				culture = cosmopolitan_french
+				NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = cosmopolitan_french_integrated }
+		}
+		set_country_flag = cosmopolitan_french_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = bourbonnais }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = bourbonnais
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = bourbonnais_integrated }
+		}
+		set_country_flag = bourbonnais_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = angevin }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = angevin
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = angevin_integrated }
+		}
+		set_country_flag = angevin_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = poitevin }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = poitevin
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = poitevin_integrated }
+		}
+		set_country_flag = poitevin_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+}
+
+on_integrate = {
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = champenois }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = champenois
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = champenois_integrated }
+		}
+		set_country_flag = champenois_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = cosmopolitan_french }
+			NOT = {
+				any_province = {
+				continent = europe
+				culture = cosmopolitan_french
+				NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = cosmopolitan_french_integrated }
+		}
+		set_country_flag = cosmopolitan_french_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = bourbonnais }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = bourbonnais
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = bourbonnais_integrated }
+		}
+		set_country_flag = bourbonnais_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = angevin }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = angevin
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = angevin_integrated }
+		}
+		set_country_flag = angevin_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = poitevin }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = poitevin
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = poitevin_integrated }
+		}
+		set_country_flag = poitevin_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+}
+
+on_annexed = {
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = champenois }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = champenois
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = champenois_integrated }
+		}
+		set_country_flag = champenois_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = cosmopolitan_french }
+			NOT = {
+				any_province = {
+				continent = europe
+				culture = cosmopolitan_french
+				NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = cosmopolitan_french_integrated }
+		}
+		set_country_flag = cosmopolitan_french_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = bourbonnais }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = bourbonnais
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = bourbonnais_integrated }
+		}
+		set_country_flag = bourbonnais_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = angevin }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = angevin
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = angevin_integrated }
+		}
+		set_country_flag = angevin_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+	if = {
+		limit = {
+			langues_doil_assessment = yes
+			NOT = { primary_culture = poitevin }
+			NOT = {
+				any_province = {
+					continent = europe
+					culture = poitevin
+					NOT = { owned_by = ROOT }
+				}
+			}
+			NOT = { has_country_flag = poitevin_integrated }
+		}
+		set_country_flag = poitevin_integrated
+		country_event = {
+			id = culture_folding.1
+		}
+	}
+}
+
+on_new_monarch = {
+	if = {
+		limit = {
+			NOT = {
+				has_ruler_flag = is_heir_flag
+			}
+		}
+		country_event = {
+			id = new_dynasty_election_event.1
+		}
+	}
+}
 
 on_monarch_death = {
 	if = {
@@ -118,4 +415,8 @@ on_create_vassal = {
 			id = new_feature_designate_subject.1
 		}
 	}
+}
+
+on_new_heir = {
+	set_heir_flag = is_heir_flag
 }

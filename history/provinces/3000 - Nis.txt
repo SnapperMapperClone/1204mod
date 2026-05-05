@@ -1,12 +1,10 @@
 # - Nis
-
 owner = BUL
 controller = BUL
 culture = serbian
 religion = orthodox
 capital = "Nish"
-trade_goods = livestock
-hre = no
+trade_goods = horses
 base_tax = 3
 base_production = 3
 base_manpower = 1

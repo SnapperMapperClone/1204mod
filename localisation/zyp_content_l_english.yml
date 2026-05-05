@@ -110,6 +110,17 @@
  MILITARY: "Military"
  EDUCATION: "Education"
  
+ maize: "Maize"
+ maizeDESC: ""
+ marble: "Marble"
+ marbleDESC: ""
+ beer: "Beer"
+ beerDESC: ""
+ horses: "Horses"
+ horsesDESC: ""
+ lumber: "Lumber"
+ lumberDESC: ""
+ 
  temple_modifier_i: "Temple I"
  temple_modifier_ii: "Temple II"
  temple_modifier_iii: "Temple III"
@@ -196,7 +207,7 @@
  champenois: "Champenois"
  dauphine_area: "Dauphiné"
  
- 
+ french_culture: "French"
  netherlandic: "Netherlandic"
 
  italian_culture: "Italian"
@@ -445,6 +456,25 @@
  assassinate_ruler_desc: "This ruler has been a thorn in our side for too long. It's time to make a move and end their rule by force."
  assassinate_ruler_tooltip: ""
  cannot_assassinate_again_fifty_years: "§YThis can be done on any particular country only once every fifty years.§!"
+
+ new_dynasty_election_event.1.t: "End of a Dynasty"
+ new_dynasty_election_event.1.d: "Our previous dynasty has gone extinct. It's time to evaluate new candidates for the throne."
+ new_dynasty_election_event.1.a: "Accept the Regent."
+ new_dynasty_election_event.1.b: "Coronate a noble from an allied dynasty."
+ new_dynasty_election_event.1.c: "Our appanage has the right to rule."
+ 
+ new_dynasty_election_event.2.t: "Elected to Overlord's Throne"
+ new_dynasty_election_event.2.d: "Our dynasty has been selected for the office of monarch in our overlord's realm. It's time to consider following them to greater ambition or stay here as a territory in union."
+ new_dynasty_election_event.2.a: "Let's follow the [Root.Dynasty.GetName] dynasty."
+ new_dynasty_election_event.2.b: "We will stay here."
+ 
+ culture_folding.1.t: "Folding of Cultures"
+ culture_folding.1.d: "On noting the similarities between our ruling culture and that of our neighboring provinces it's time to assess whether to enshrine their distinct characteristics or let them become part of our ruling identity."
+ culture_folding.1.a: "They will become one of us."
+ culture_folding.1.b: "Do not involve ourselves with their ways."
+ owned_cultures_will_be_changed: "§YIf we own all Champenois, Bourbonnais, Francian, Angevin, or Poitevin provinces in Europe their cultures will be changed to match that of our primary culture.§!"
+
+
 
  north_italy: "Genoa-Venice"
  south_italy: "Sicily"

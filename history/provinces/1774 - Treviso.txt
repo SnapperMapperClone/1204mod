@@ -5,7 +5,7 @@ culture = venetian
 religion = catholic
 base_tax = 7
 base_production = 7
-trade_goods = paper
+trade_goods = wine
 base_manpower = 4
 capital = "Treviso"
 is_city = yes# Estimated 
@@ -30,5 +30,5 @@ discovered_by = ottoman
 	controller = HAB
 }
 add_core = TRV
-fort_15th = yes
 hre = yes
+fort_15th = yes

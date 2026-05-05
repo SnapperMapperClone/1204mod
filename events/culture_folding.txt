@@ -1,0 +1,104 @@
+namespace = culture_folding
+
+country_event = {
+	id = culture_folding.1
+	title = culture_folding.1.t
+	desc = culture_folding.1.d
+	picture = GREAT_BUILDING_eventPicture
+
+	is_triggered_only = yes
+
+  	option = { #take new culture
+		name = culture_folding.1.a
+		custom_tooltip = owned_cultures_will_be_changed
+		hidden_effect = {
+			if = {
+				limit = {
+					langues_doil_assessment = yes
+					NOT = { primary_culture = champenois }
+				}
+				every_owned_province = { #champenois
+					limit = {
+						culture = champenois
+					}
+					change_culture = ROOT
+				}
+				if = {
+					limit = { accepted_culture = champenois }
+					remove_accepted_culture = champenois
+				}
+			}
+			if = {
+				limit = {
+					langues_doil_assessment = yes
+					NOT = { primary_culture = cosmopolitan_french }
+				}
+				every_owned_province = { #champenois
+					limit = {
+						culture = cosmopolitan_french
+					}
+					change_culture = ROOT
+				}
+				if = {
+					limit = { accepted_culture = cosmopolitan_french }
+					remove_accepted_culture = cosmopolitan_french
+				}
+			}
+			if = {
+				limit = {
+					langues_doil_assessment = yes
+					NOT = { primary_culture = angevin }
+				}
+				every_owned_province = { #champenois
+					limit = {
+						culture = angevin
+					}
+					change_culture = ROOT
+				}
+				if = {
+					limit = { accepted_culture = angevin }
+					remove_accepted_culture = angevin
+				}
+			}
+			if = {
+				limit = {
+					langues_doil_assessment = yes
+					NOT = { primary_culture = bourbonnais }
+				}
+				every_owned_province = { #champenois
+					limit = {
+						culture = bourbonnais
+					}
+					change_culture = ROOT
+				}
+				if = {
+					limit = { accepted_culture = bourbonnais }
+					remove_accepted_culture = bourbonnais
+				}
+			}
+			if = {
+				limit = {
+					langues_doil_assessment = yes
+					NOT = { primary_culture = poitevin }
+				}
+				every_owned_province = { #champenois
+					limit = {
+						culture = poitevin
+					}
+					change_culture = ROOT
+				}
+				if = {
+					limit = { accepted_culture = poitevin }
+					remove_accepted_culture = poitevin
+				}
+			}
+		}
+	}
+
+	option = { #keep traditional culture
+		name = culture_folding.1.b
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

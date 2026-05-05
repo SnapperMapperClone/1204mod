@@ -1,12 +1,10 @@
 #4311 - Karahisar
-
 owner = RUM
 controller = RUM
 culture = asia_minor_greek
 religion = orthodox
 capital = "Karahisar"
-trade_goods = livestock
-hre = no
+trade_goods = marble
 base_tax = 2
 base_production = 2
 base_manpower = 2
@@ -17,6 +15,3 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = nomad_group
-
-
-

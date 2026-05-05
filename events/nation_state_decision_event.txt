@@ -18,6 +18,7 @@ country_event = {
 		}
 		trigger = {
 			OR = {
+				culture_group = french
 				culture_group = germanic
 				culture_group = latin
 			}
@@ -33,6 +34,12 @@ country_event = {
 				culture_group = germanic
 			}
 			change_primary_culture = german_culture
+		}
+		else_if = {
+			limit = {
+				culture_group = french
+			}
+			change_primary_culture = french_culture
 		}
 		every_owned_province = {
 			limit = {

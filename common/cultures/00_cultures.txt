@@ -119,6 +119,18 @@ netherlandic = {
 
 french	= {
 	graphical_culture = westerngfx
+	french_culture = {
+		primary = NFR
+
+		male_names = {
+			André Georges René Joseph Antoine Henri Pierre François Édouard Alexandre Léon
+		}
+
+		dynasty_names = {
+			Soult "de l'Eure" Arago Cavaignac Barrot Faucher Dufaure "de Cissey" Buffet Simon "de Rochebouët" Ferry Gambetta "de Freycinet" Duclerc Fallières Goblet Tirard Rouvier Floquet Dupuy Méline Brisson Rousseau
+			Combes Sarrien Clemenceau Briand Monis Caillaux Barthou Doumergue Painlevé Millerand Leygues Chautemps Flandin Bouisson Auriol Bidault Blum Ramadier Marie Faure
+		}
+	}
 	cosmopolitan_french = {
 		primary = FRA
 		dynasty_names = {
@@ -1437,7 +1449,7 @@ germanic = {
 	}
 
 	german_culture = {
-		primary = GER
+		primary = NGR
 	}
 }
 	
@@ -6375,7 +6387,7 @@ latin = {
 	}
 
 	italian_culture = {
-		primary = ITA
+		primary = NIT
 	}
 
 	neapolitan = {

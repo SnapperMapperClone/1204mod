@@ -11,3 +11,4 @@ culture = castillian
 religion = catholic
 controller = CAS
 is_city = yes
+trade_goods = grain

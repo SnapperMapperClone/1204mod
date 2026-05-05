@@ -11,3 +11,4 @@ culture = asturian_leonese
 religion = catholic
 controller = LON
 is_city = yes
+trade_goods = marble

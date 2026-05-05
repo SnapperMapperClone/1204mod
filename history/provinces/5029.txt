@@ -13,3 +13,4 @@ controller = CAS
 is_city = yes
 add_core = NAV
 capital = "San Sebastián"
+trade_goods = naval_supplies
