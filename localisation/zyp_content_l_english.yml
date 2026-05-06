@@ -477,7 +477,8 @@
  release_appanages.1.t: "Contribution fron Nobility"
  release_appanages.1.d: "In our recent endeavors we have owed an essential contribution from a noble house. They know their efforts are invaluable and as such have confronted us requesting an appanage in return."
  release_appanages.1.a: "Their favor shall be rewarded."
- release_appanages.1.b: "We will not fragment the [Root.GovernmentName]."
+ release_appanages.1.b: "They shall receive a statte in union with the [Root.Monarch.GetTitle]."
+ release_appanages.1.c: "We will not fragment the [Root.GovernmentName]."
  appanage_as_favor: "Released Appanage as Favor"
  
  RV1: "Revolutionary Revolt"

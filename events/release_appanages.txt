@@ -9,7 +9,7 @@ country_event = { #test release appanage
 	is_triggered_only = yes
 
 	option = {
-		name = "release_appanages.1.a"
+		name = release_appanages.1.a
 		random_owned_province = {
 			limit = {
 				any_core_country = {
@@ -46,8 +46,66 @@ country_event = { #test release appanage
 		}
 	}
 
-	option = {
+	option = { #hand a union over
 		name = release_appanages.1.b
+		trigger = {
+			any_subject_country = {
+				is_subject_of_type = personal_union
+			}
+		}
+		if = {
+			limit = {
+				any_subject_country = {
+					culture_group = ROOT
+					is_subject_of_type = personal_union
+				}
+			}
+			random_subject_country = {
+				limit = {
+					culture_group = ROOT
+					is_subject_of_type = personal_union
+				}
+				save_event_target_as = union_to_convert_to_appanage
+			}
+			event_target:union_to_convert_to_appanage = {
+				ROOT = {
+					create_subject = {
+						subject_type = appanage
+						who = PREV
+					}
+				}
+			}
+		}
+		else = {
+			random_subject_country = {
+				limit = {
+					is_subject_of_type = personal_union
+				}
+				save_event_target_as = union_to_convert_to_appanage
+			}
+			event_target:union_to_convert_to_appanage = {
+				ROOT = {
+					create_subject = {
+						subject_type = appanage
+						who = PREV
+					}
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				event_target:union_to_convert_to_appanage = {
+					army_size = ROOT
+				}
+			}
+		}
+	}
+
+	option = {
+		name = release_appanages.1.c
 		add_estate_loyalty = {
 			estate = estate_nobles
 			loyalty = -20
