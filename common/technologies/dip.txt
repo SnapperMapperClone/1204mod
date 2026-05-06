@@ -162,7 +162,7 @@ technology = { #quarantine
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.25
+		quarantine = 0.25
 	}
 	
 }
@@ -174,7 +174,7 @@ technology = { #carrack
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.5
+		quarantine = 0.5
 		#commercial_revolution = 0.25
 	}
 	
@@ -187,7 +187,7 @@ technology = { #arabic numeration
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.5
+		quarantine = 0.5
 		commercial_revolution = 0.25
 	}
 	
@@ -201,7 +201,7 @@ technology = { #clavicord
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.75
+		quarantine = 0.75
 		commercial_revolution = 0.5
 	}
 	
@@ -214,7 +214,7 @@ technology = { #long-distance travel
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 1
+		quarantine = 1
 		commercial_revolution = 0.75
 	}
 }
@@ -228,7 +228,7 @@ technology = { #The Early Carrack
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 1
+		quarantine = 1
 		commercial_revolution = 1.0
 	}
 

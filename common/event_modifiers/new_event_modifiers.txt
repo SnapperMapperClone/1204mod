@@ -25,3 +25,48 @@ military_culture_leader_modifier = {
 	land_morale = 0.15
 	prestige_from_land = 1
 }
+
+
+#institutions
+
+birthplace_of_ag_rev = {
+	local_manpower_modifier = 0.5
+	land_forcelimit = 50
+}
+
+birthplace_of_remote_communication = {
+	local_manpower_modifier = 0.5
+	land_forcelimit = 50
+}
+
+birthplace_of_scholasticism = {
+	institution_growth = 1
+}
+
+birthplace_of_gunpowder = {
+	local_regiment_cost = -0.25
+}
+
+birthplace_of_quarantine = {
+	local_tax_modifier = 0.5
+}
+
+birthplace_of_commercial_revolution = {
+	trade_value = 10
+}
+
+birthplace_of_modern_firearm = {
+	local_fort_maintenance_modifier = -0.5
+	local_assault_fort_ability = -0.5
+}
+
+birthplace_of_electrification = {
+	trade_goods_size_modifier = 0.33
+}
+
+#estuaries
+
+scheldt_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}

@@ -117,3 +117,7 @@
 105 = { "Taro" "Parme" }
 4720 = { "Léman" "Genève" }
 1871 = { "Simplon" "Sion" }
+5056 = { "Tarn" "Albi" }
+5059 = { "Lozère" "Mende" }
+5058 = { "Gard" "Nîmes" }
+5057 = { "Lisieux" "Lisieux" }

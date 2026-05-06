@@ -198,7 +198,7 @@ technology = { #gunpowder corning
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.25
+		quarantine = 0.25
 	}
 	
 }
@@ -210,7 +210,7 @@ technology = { #high-caliber cannon
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.5
+		quarantine = 0.5
 		#commercial_revolution = 0.25
 	}
 	
@@ -223,7 +223,7 @@ technology = { #indirect warfare
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.5
+		quarantine = 0.5
 		commercial_revolution = 0.25
 	}
 	
@@ -237,7 +237,7 @@ technology = { #voulge
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.75
+		quarantine = 0.75
 		commercial_revolution = 0.5
 	}
 	
@@ -250,7 +250,7 @@ technology = { #combined arms
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 1
+		quarantine = 1
 		commercial_revolution = 0.75
 	}
 }
@@ -264,7 +264,7 @@ technology = {
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 1
+		quarantine = 1
 		commercial_revolution = 1.0
 	}
 	

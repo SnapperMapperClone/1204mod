@@ -31,3 +31,6 @@
 4754 = { "Càtaro" "Càtaro" }
 4174 = { "Durazo" "Durazo" }
 113 = { "Ferara" "Ferara" }
+5061 = { "Vicensa" "Vicensa" }
+5060 = { "Belùn" "Belùn" }
+5070 = { "Cioxa" "Cioxa" }

@@ -24,6 +24,7 @@ NDefines.NMilitary.GARRISON_SIZE = 50
 NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.15
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0
 NDefines.NMilitary.LAND_MAINTENANCE_FACTOR = 100
+NDefines.NMilitary.INSUFFICIENT_SUPPORT = 0
 
 NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 1.5
 

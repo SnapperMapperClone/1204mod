@@ -105,9 +105,17 @@
  
  tuscany_area: "Tuscan Littoral"
  emilia_romagna_area: "Romagna"
+ lazio_area: "Lazio"
  normandy_area: "Western Normandy"
  brittany_area: "Lower Brittany"
  languedoc_area: "Upper Languedoc"
+
+
+
+ manufactories_date: "1800"
+ enlightenment_date: "1650"
+ printing_press_date: "1500"
+ feudalism_date: "800"
  
  #tech
  mil_tech_cs_0_name:0 "Pre-Medieval Military"

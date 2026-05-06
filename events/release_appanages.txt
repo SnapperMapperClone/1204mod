@@ -1,0 +1,57 @@
+namespace = release_appanages
+
+country_event = { #test release appanage
+	id = release_appanages.1
+	title = "release_appanages.1.t"
+	desc = "release_appanages.1.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "release_appanages.1.a"
+		random_owned_province = {
+			limit = {
+				any_core_country = {
+					culture_group = ROOT
+					exists = no
+				}
+			}
+			random_core_country = {
+				save_event_target_as = appanage_to_release
+				limit = {
+					culture_group = ROOT
+					exists = no
+				}
+				ROOT = {
+					release = PREV
+					create_subject = {
+						subject_type = appanage
+						who = PREV
+					}
+				}
+				every_owned_province = {
+					limit = {
+						is_core = ROOT
+					}
+					ROOT = {
+						remove_core = PREV
+					}
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = appanage_as_favor
+				}
+			}
+		}
+	}
+
+	option = {
+		name = release_appanages.1.b
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -20
+		}
+		add_stability = -1
+	}
+}

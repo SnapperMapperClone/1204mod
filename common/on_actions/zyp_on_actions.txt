@@ -42,6 +42,85 @@ on_startup = {
 	}
 }
 
+on_siege_won_province = {
+	if = {
+		limit = {
+			is_capital = no
+			is_core = controller
+			NOT = {
+				OR = {
+					has_building = fort_15th
+					has_building = fort_16th
+					has_building = fort_17th
+					has_building = fort_18th
+				}
+			}
+			OR = {
+				controller = {
+					is_in_war = {
+						attacker_leader = FROM
+						casus_belli = cb_revolution
+					}
+				}
+				controller = {
+					is_in_war = {
+						defender_leader = FROM
+						casus_belli = cb_revolution
+					}
+				}
+			}
+			NOT = {
+				any_neighbor_province = {
+					OR = {
+						has_building = fort_15th
+						has_building = fort_16th
+						has_building = fort_17th
+						has_building = fort_18th
+					}
+					controller = {
+						tag = FROM
+					}
+				}
+			}
+		}
+		cede_province = controller
+	}
+	else_if = {
+		limit = {
+			is_capital = no
+			is_core = controller
+			OR = {
+				has_building = fort_15th
+				has_building = fort_16th
+				has_building = fort_17th
+				has_building = fort_18th
+			}
+			OR = {
+				controller = {
+					is_in_war = {
+						attacker_leader = FROM
+						casus_belli = cb_revolution
+					}
+				}
+				controller = {
+					is_in_war = {
+						defender_leader = FROM
+						casus_belli = cb_revolution
+					}
+				}
+			}
+		}
+		every_province = {
+			limit = {
+				is_neighbor_of = ROOT
+			}
+			cede_province = controller
+		}
+		cede_province = controller
+		controller = { add_treasury = 50 }
+	}
+}
+
 on_main_war_lost = {
 	if = {
 		limit = {

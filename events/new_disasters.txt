@@ -1,0 +1,121 @@
+namespace = new_disasters
+
+country_event = { #test new revolt tags
+	id = new_disasters.1
+	title = "new_disasters.1.t"
+	desc = "new_disasters.1.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "new_disasters.1.a"
+		if = {
+			limit = {
+				NOT = { exists = RV1 }
+			}
+			RV1 = { save_event_target_as = revolt_to_release }
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = RV2 }
+			}
+			RV2 = { save_event_target_as = revolt_to_release }
+		}
+		else_if = {
+			limit = {
+				NOT = { exists = RV3 }
+			}
+			RV3 = { save_event_target_as = revolt_to_release }
+		}
+		else = {
+			RV4 = { save_event_target_as = revolt_to_release }
+		}
+
+		every_owned_province = {
+			limit = {
+				is_capital = no
+				can_spawn_rebels = noble_rebels
+			}
+			add_core = event_target:revolt_to_release
+		}
+		release = event_target:revolt_to_release
+		event_target:revolt_to_release = {
+			every_owned_province = {
+				set_revolution_in_province = yes
+			}
+			add_government_reform = revolutionary_republic_reform
+			change_primary_culture = ROOT
+			change_religion = ROOT
+			define_ruler = {
+				
+			}
+			add_yearly_manpower = 10
+			add_years_of_income = 10
+			declare_war_with_cb = {
+				casus_belli = cb_revolution
+				who = ROOT
+			}
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.5
+					cavalry = 0.05
+					artillery = 0.45
+				}
+			}
+		}
+		add_yearly_manpower = -5
+		set_country_flag = is_in_revolution
+	}
+
+	after = {
+		
+	}
+}
+
+country_event = { #test new revolt tags
+	id = new_disasters.2
+	title = "new_disasters.1.t"
+	desc = "new_disasters.1.d"
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = "new_disasters.1.a"
+		random_owned_province = {
+			limit = {
+				can_spawn_rebels = nationalist_rebels
+			}
+			save_global_event_target_as = nationalist_revolt_prov
+		}
+		every_owned_province = {
+			limit = {
+				culture = event_target:nationalist_revolt_prov
+			}
+			random_country = {
+				limit = {
+					exists = no
+					primary_culture = PREV
+				}
+				add_core = PREV
+			}
+		}
+		event_target:nationalist_revolt_prov = {
+			random_core_country = {
+				limit = {
+					exists = no
+					primary_culture = event_target:nationalist_revolt_prov
+				}
+				ROOT = {
+					release = PREV
+				}
+				declare_war_with_cb = {
+					casus_belli = cb_independence_war
+					who = ROOT
+				}
+			}
+		}
+		clear_global_event_target = nationalist_revolt_prov
+	}
+}

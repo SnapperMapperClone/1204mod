@@ -28,3 +28,4 @@
 190 = { "Borbonés" "Moulins" }
 179 = { "Barric" "Bourges" }
 1875 = { "Coni" "Coni" }
+5059 = { "Gevaudan" "Jàvols" }

@@ -164,7 +164,7 @@ technology = { #university
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1.0
-		#urbanization = 0.25
+		quarantine = 0.25
 	}
 	
 }
@@ -176,7 +176,7 @@ technology = { #floating crane
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.25
+		quarantine = 0.25
 	}
 	
 }
@@ -188,7 +188,7 @@ technology = { #tower mill
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.5
+		quarantine = 0.25
 		#commercial_revolution = 0.25
 	}
 	
@@ -201,7 +201,7 @@ technology = { #iron-based tools
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.5
+		quarantine = 0.25
 		commercial_revolution = 0.25
 	}
 	
@@ -215,7 +215,7 @@ technology = { #oil painting
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 0.75
+		quarantine = 0.75
 		commercial_revolution = 0.5
 	}
 	
@@ -228,7 +228,7 @@ technology = { #punchcutting
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 1
+		quarantine = 1
 		commercial_revolution = 0.75
 	}
 }
@@ -242,7 +242,7 @@ technology = { #Medieval Administration
 		feudalism = 1.0
 		scholasticism = 1.0
 		gunpowder = 1
-		urbanization = 1
+		quarantine = 1
 		commercial_revolution = 1.0
 	}
 

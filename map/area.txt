@@ -446,7 +446,7 @@ naples_area = {  #3  #Campania
 }
 lazio_area = {  #4 Lazio-Umbria
 
-	2976 4731 4732 118 5038 
+	4732 5038 118 5075 
 }
 calabria_area = {  #3 (+Lucania)
 
@@ -459,11 +459,11 @@ apulia_area = {  #4
 emilia_romagna_area = {  #5
 
 	color = { 24 222 66 }
-	113 114 4730 
+	113 4730 114 5070 5071 
 }
 central_italy_area = {  #3
 
-	119 120 2977 
+	120 2977 119 5072 
 }
 ########################################
 # British Isles			 			   #
@@ -632,7 +632,7 @@ east_prussia_area = {  #5
 }
 west_prussia_area = {  #3 (South West Prussia)
 
-	42 767 2958 
+	42 767 2958 1841 
 }
 wielkopolska_area = {  #5
 
@@ -913,7 +913,7 @@ vorpommern_area = {  #4
 }
 hinter_pommern_area = {  #3
 
-	48 2995 4746 
+	48 4746 2995 43 2997 
 }
 tirol_area = {  #5
 
@@ -3679,4 +3679,7 @@ upper_brittany_area = {
 }
 east_normandy_area = { 
 	167 5001 5057 
+}
+umbria_area = { 
+	2976 5073 4731 5074 
 }

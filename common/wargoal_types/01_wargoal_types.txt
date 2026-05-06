@@ -71,3 +71,27 @@ enforce_territorial_integration_wargoal = {
 		}
 	}
 }
+
+revolution_wargoal = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0
+		prestige_factor = 0.5
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_revolutionary_capitulation
+		}
+	}
+	
+	defender = {
+		badboy_factor = 0
+		prestige_factor = 0.5
+		peace_cost_factor = 1
+
+		peace_options = {
+			po_revolutionary_capitulation
+		}
+	}
+}

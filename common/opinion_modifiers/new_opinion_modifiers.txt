@@ -1,0 +1,4 @@
+appanage_as_favor = {
+	opinion = 50
+	yearly_decay = 2
+}

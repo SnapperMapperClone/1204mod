@@ -64,3 +64,12 @@ cb_restore_personal_union = {
 
 	war_goal = take_capital_personal_union
 }
+
+cb_revolution = {
+	valid_for_subject = no
+
+	is_triggered_only = yes
+	months = 240
+
+	war_goal = revolution_wargoal
+}

@@ -2,7 +2,7 @@
 owner = FRI
 controller = FRI
 capital = "Leeuwarden"
-is_city = no
+is_city = yes
 culture = frisian
 religion = catholic
 base_tax = 6
