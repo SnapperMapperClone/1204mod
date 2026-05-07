@@ -207,3 +207,106 @@ check_vacant_slots_and_place_in_one = {
         save_global_event_target_as = culture_leader_six
     }
 }
+
+
+
+
+decentralize_realm = {
+    every_owned_province = {
+        limit = {
+            base_tax = 16
+        }
+        add_base_tax = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_tax = 12
+        }
+        add_base_tax = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_tax = 8
+        }
+        add_base_tax = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_tax = 4
+        }
+        add_base_tax = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_tax = 2
+        }
+        add_base_tax = -1
+    }
+    
+    every_owned_province = {
+        limit = {
+            base_production = 16
+        }
+        add_base_production = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_production = 12
+        }
+        add_base_production = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_production = 8
+        }
+        add_base_production = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_production = 4
+        }
+        add_base_production = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_production = 2
+        }
+        add_base_production = -1
+    }
+
+    every_owned_province = {
+        limit = {
+            base_manpower = 16
+        }
+        add_base_manpower = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_manpower = 12
+        }
+        add_base_manpower = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_manpower = 8
+        }
+        add_base_manpower = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_manpower = 4
+        }
+        add_base_manpower = -1
+    }
+    every_owned_province = {
+        limit = {
+            base_manpower = 2
+        }
+        add_base_manpower = -1
+    }
+
+    add_country_modifier = {
+        name = decentralized_realm
+        duration = 10950
+    }
+}

@@ -1,5 +1,5 @@
 government = republic
-add_government_reform = merchants_reform
+add_government_reform = italian_communes
 government_rank = 1
 technology_group = western
 primary_culture = umbrian
@@ -7,11 +7,9 @@ religion = catholic
 capital = 119
 fixed_capital = 119
 set_estate_privilege = estate_church_papal_emissary
-
-
-1444.11.11 = {
-	monarch = {
-		name = "Consiglio di Anziani" #Elders Council in Italian. Was technically six elders, but this'll work.
+1444.11.11 = { 
+	monarch = { 
+		name = "Consiglio di Anziani"#Elders Council in Italian. Was technically six elders, but this'll work.
 		adm = 3
 		dip = 3
 		mil = 3

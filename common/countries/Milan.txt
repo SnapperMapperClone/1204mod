@@ -84,10 +84,10 @@ leader_names = {
 }
 ship_names = { 
 	Alliata "Ariberto d'Intimiano" Ansperto "Azzone Visconti" Celentano "Conte Angilberto" Como "Corrado II" Cremona "Filippo Maria"
-	"Fiumi Lambro" "Fiumi l'Olona" "Fiume Seveso" "Francesco Sforza" "Gian Galeazzo Visconti" Lecco Lodi Lombardia Pavia
-	"Re Alboino" "San Babila" "San Bernardino alle Ossa" "San Cristoforo sul Naviglio" "San Giovanni in Conca" "San Gottardo" "San Lorenzo" "San Marco" "San Nazaro Maggiore" "San Simpliciano"
-	"San Satiro" "Santa Maria dei Miracoli" Sant'Agostino Sant'Ambrogio Sant'Eustorgio "Santo Stefano" Sondrio Terragni Teodolinda Torriani
-	Valperto Varese Virgilio 
+	"Fiumi Lambro" "Fiumi l'Olona" "Fiume Seveso" "Francesco Sforza" "Gian Galeazzo Visconti" Lecco Lodi Lombardia Pavia "Re Alboino"
+	"San Babila" "San Bernardino alle Ossa" "San Cristoforo sul Naviglio" "San Giovanni in Conca" "San Gottardo" "San Lorenzo" "San Marco" "San Nazaro Maggiore" "San Simpliciano" "San Satiro"
+	"Santa Maria dei Miracoli" Sant'Agostino Sant'Ambrogio Sant'Eustorgio "Santo Stefano" Sondrio Terragni Teodolinda Torriani Valperto
+	Varese Virgilio 
 }
 army_names = { 
 	"Armata di $PROVINCE$" 

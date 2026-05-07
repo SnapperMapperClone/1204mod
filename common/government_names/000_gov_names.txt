@@ -47,3 +47,32 @@ kor_mil_govt_name = {
 		tag = KOR
 	}
 }
+
+commune_name = {
+	rank = {
+		1 = COMMUNE
+		2 = COMMUNE
+		3 = REPUBLIC
+		4 = REPUBLIC
+		5 = REPUBLIC
+	}
+	ruler_male = {
+		1 = DOGE
+		2 = DOGE
+		3 = DOGE
+		4 = DOGE
+		5 = DOGE
+	}
+
+	ruler_female = {
+		1 = DOGARESSA
+		2 = DOGARESSA
+		3 = DOGARESSA
+		4 = DOGARESSA
+		5 = DOGARESSA
+	}
+
+	trigger = {
+		has_reform = italian_communes
+	}
+}

@@ -12,4 +12,4 @@ trade_goods = naval_supplies
 base_tax = 5
 base_manpower = 3
 base_production = 5
-capital = "Borgomanero"
+capital = "Pescara"

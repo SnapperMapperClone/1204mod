@@ -8,3 +8,30 @@ can_make_state = {
 		}
 	}
 }
+
+can_improve_tax = {
+	condition = {
+		potential = {
+			ai = yes
+		}
+		allow = { NOT = { has_country_modifier = decentralized_realm } }
+	}
+}
+
+can_improve_production = {
+	condition = {
+		potential = {
+			ai = yes
+		}
+		allow = { NOT = { has_country_modifier = decentralized_realm } }
+	}
+}
+
+can_improve_manpower = {
+	condition = {
+		potential = {
+			ai = yes
+		}
+		allow = { NOT = { has_country_modifier = decentralized_realm } }
+	}
+}

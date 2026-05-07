@@ -600,7 +600,10 @@
  korea: "Korea"
  
 
- 
+ italian_communes: "Italian Commune"
+ italian_communes_desc: "These were independent municipalities before a shift in politics overcame the Italian region and these states would as a consequence become the Signorias of Italy."
+ COMMUNE: "Commune"
+
  alpine_venetia_area: "Dolomites"
  apennine_tuscany_area: "Apennine Tuscany"
  umbria_area: "Umbria"
@@ -613,6 +616,15 @@
 
 
  scheldt_estuary_modifier: "Scheldt Estuary"
+ 
+ PEACE_po_fragment_realm: "Fragment Realm"
+ po_fragment_realm_desc: "[From.GetName]'s lands will be, in part, handed over to the small Imperial States. This reduces development in their owned provinces."
+ has_not_centralized_realm_yet: "§Y[From.GetName] must not have centralized their realm yet.§!"
+ decentralized_realm: "Decentralized Realm"
+ imperial_states_rebels_name: "Imperial States"
+ imperial_states_rebels_title: "Imperial States"
+ imperial_states_rebels_desc: "They are the numerous smaller states in the Holy Roman Empire. Seeking autonomy, they will carve development out of our country for themselves."
+ imperial_states_rebels_army: "Imperial States' Armies"
  
  
  PROV5001: "Vexin"

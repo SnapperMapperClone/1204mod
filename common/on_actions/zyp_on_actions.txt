@@ -499,3 +499,15 @@ on_create_vassal = {
 on_new_heir = {
 	set_heir_flag = is_heir_flag
 }
+
+on_new_term_election = {
+	if = {
+		limit = {
+			NOT = {
+				republican_tradition = 75
+			}
+			has_reform = italian_communes
+		}
+		add_government_reform = signoria_reform
+	}
+}

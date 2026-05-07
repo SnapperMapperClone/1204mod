@@ -725,6 +725,8 @@ republic = {
 				egyptian_government_reform
 				city_alliance_reform
 				turkoman_ottoman_institutions
+
+				italian_communes
 			}
 		}
 		court_culture = {
