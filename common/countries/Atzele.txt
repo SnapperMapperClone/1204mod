@@ -1,6 +1,6 @@
 graphical_culture = westerngfx
 
-color = { 50 135 175 }
+color = { 105 67 186 }
 
 historical_idea_groups = {
 	trade_ideas
@@ -24,7 +24,6 @@ historical_units = {
 	swedish_caroline
 	swedish_arme_blanche
 	prussian_frederickian
-	prussian_uhlan
 	mixed_order_infantry
 	open_order_cavalry
 	napoleonic_square
@@ -40,26 +39,36 @@ leader_names = {
 }
 
 ship_names = {
-	Reval Hapsal Weissenstein Wesenberg Pernau
-	Toompea Ösel Arensburg Narva Maria
+	Dorpat Wenden Fellin Dünaburg Riga
+	Wolmar Kokenhusen Segewold Dobeln Karkus
 }
 
 monarch_names = {
-	"Eerikki #0" = 20
-	"Jaak #0" = 20
-	"Ilmar #0" = 20
-	"Aabraham #0" = 10
-	"Kauri #0" = 10
+	"Kaupo #0" = 20
+	"Shutr #0" = 20
+	"Narvait #0" = 20
+	"Dovyat #0" = 10
+	"Likiik #0" = 10
 	"Priidu #0" = 10
-	"Marten #0" = 5
-	"Otto #0" = 5
-	"Jaakko #0" = 5
+	"Klavess #0" = 5
+	"Janis #0" = 5
+	"Talivaldis #0" = 5
 	"Jürgen #0" = 5
-	"Kaarel #0" = 0
-	"Meeme #0" = 0
-	"Riivo #0" = 0
+	"Vetseke #0" = 0
+	"Vaishvilkas #0" = 0
+	"Yudki #0" = 0
 	
-	"Silja #0" = -1
-	"Kätlin #0" = -1
-	"Juta #0" = -1
+	"Savna #0" = -1
+	"Brita #0" = -1
+	"Kordula #0" = -1
+	"Maria #0" = -1
+	"Elmede #0" = -1
+	"Helgi #0" = -1
+	"Helvi #0" = -1
+	"Ilma #0" = -1
+	"Imetra #0" = -1
+	"Leili #0" = -1
+	"Maimu #0" = -1
+	"Vanema #0" = -1
+	"Raili #0" = -1
 }
