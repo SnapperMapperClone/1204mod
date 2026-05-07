@@ -1,7 +1,7 @@
 #271 - Samogitia
 owner = SGT
 controller = SGT
-culture = samogitian
+culture = lithuanian
 religion = baltic_pagan_reformed
 capital = "Varniai"
 trade_goods = livestock

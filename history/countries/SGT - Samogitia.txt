@@ -1,0 +1,5 @@
+religion = baltic_pagan_reformed
+capital = 271
+technology_group = eastern
+primary_culture = lithuanian
+government_rank = 1
