@@ -2,8 +2,8 @@
 
 owner = VLG
 controller = VLG
-culture = bulgar
-religion = sunni
+culture = ostyaki
+religion = tengri_pagan_reformed
 hre = no
 base_tax = 2 
 base_production = 2

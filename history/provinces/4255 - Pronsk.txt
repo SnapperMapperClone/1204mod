@@ -2,7 +2,7 @@
 owner = PRN
 controller = PRN
 culture = ryazanian
-religion = finnish_pagan_reformed
+religion = orthodox
 base_tax = 2
 base_production = 2
 trade_goods = iron

@@ -998,11 +998,114 @@ finno_ugric = { #Ugric
 	uralic = {
 		primary = PRM
 		male_names = {
-			Mikhail Yermolay Matvey Vasiley Pitirim Gerasim Isaak Iona Volod Gavril Yegor Ivan Mikulay Petyr 
-			Kos'ta Öndrey Stepan Ölyöksey Boris Danil Dmitry Pedot Illya Segö Semö Pedör 
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
 		}
 		female_names = {
-			Nasta Katyö Ölga
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	mordvin = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	merya = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	mari = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	udmurt = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	meshchera = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	merya = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
+		}
+	}
+	murom = {
+		male_names = {
+			Alik Hasaba Kako Kharuchi Kolik Mandak Nabtiko Nenyts Nga Ngënoh Noumea Num Nyalku Panay 
+			Salinder Samatu Sarak Sirtya Somatu Syudbya Tatva Tolik Vesei Wayngachi Xëryuchi Yadne 
+			Yar Yavlad Yurak Pudak Yapti
+		}
+		female_names = {
+			Atpälha Auli Galya Ilme Kat Khatyako Kontäw Kujku Laptsui Ngeva Senda Syeju Tada Tadane Yar
+		}
+		dynasty_names = {
+			# CKII
+			"Sarakid" "Hasabid" "Tatvid" "Yurakid" "Varakid"
 		}
 	}
 	samoyed = {
@@ -1078,26 +1181,6 @@ finno_ugric = { #Ugric
 			Sernyava Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Yugörka Anava Ashava Asrava Avya Azra-Va 
 			Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva Inyava Kanyava Kanyuva Kirdyava 
 			Kunava Kunyavka Litava 
-		}
-	}
-	ingrian = {
-		male_names = {
-			Kahru Kahrulemb Gáktu Henes Járre Jeansa Juvven John Lágon Lávrrohas Leammá Mellet Mihka Igalemb Ihameel Ihar 
-			Ihatõiv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep Lättelemb Manivald Mart Maru Mati Mats Meelis Mehis 
-			Ohetõiv Ohevald Olev Onni Otelemb Ott Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun 
-			Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Dobrinya Dokya 
-			Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka 
-			Tikshayka Tuhan Tyueykezhut Tyutyuk Meltsayka Mordvinko Moksha Nalka Nuyaksha Nuyanza Nuyat Ovtay Pakstyan Paksyay 
-			Paksyut 
-		}
-		female_names = {
-			Aasa Ahma Aime Aimo Aita Aldi Ann Anni Annika Are Auli Aune Eha Elo Ere Helbe Hele Helgi Tiiu Tuuli Urve Viire Vilja 
-			Virge Virve Värvu Õie Õnne Ülane Ülle Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa 
-			Chindyayka Chinzhay Chitska Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka 
-			Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava 
-			Yugörka Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva 
-			Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nuyanza 
-			Nyal'ka 
 		}
 	}
 	dynasty_names = {
@@ -1886,6 +1969,259 @@ carpathian = {
 baltic	= {
 	graphical_culture = easterngfx
 	
+	lithuanian = {
+		primary = LIT
+		male_names = {
+			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
+			Algirdas Stanislovas Svitrigaila Mindaugas Albertas Andrius Antanas Aras Arturas Azuolas 
+			Gediminas Giedrius Gintaras Henrikas Jonas Jonusas Juozapas Jurgis Kaributas Karolis Kristupas 
+			Liudvikas Marijus Mykolas Paulius Petras Pranciskus Raimondas Ramunas Steponas Skirgaila Tomas 
+			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
+		}
+		female_names = {
+			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Au?ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena El?bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Ro?e Ruta Sandra Saule 
+			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
+			Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"Giedraitis" "Mantigirdaitis" "Chodkevicius" "Sudimantaitis" "Korybut" "Jogailaitis" "Gediminaitis"
+		}
+	}
+	samogitian = {
+	
+		primary = SMG
+		
+		male_names = {
+			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
+			Algirdas Stanislovas Svitrigaila Mindaugas Albertas Andrius Antanas Aras Arturas Azuolas 
+			Gediminas Giedrius Gintaras Henrikas Jonas Jonusas Juozapas Jurgis Kaributas Karolis Kristupas 
+			Liudvikas Marijus Mykolas Paulius Petras Pranciskus Raimondas Ramunas Steponas Skirgaila Tomas 
+			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
+		}
+		female_names = {
+			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Au?ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena El?bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Ro?e Ruta Sandra Saule 
+			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
+			Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"Giedraitis" "Mantigirdaitis" "Chodkevicius" "Sudimantaitis" "Korybut" "Jogailaitis" "Gediminaitis"
+		}
+	}
+	sudovian = {
+	
+		primary = YOT
+		
+		male_names = {
+			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
+			Algirdas Stanislovas Svitrigaila Mindaugas Albertas Andrius Antanas Aras Arturas Azuolas 
+			Gediminas Giedrius Gintaras Henrikas Jonas Jonusas Juozapas Jurgis Kaributas Karolis Kristupas 
+			Liudvikas Marijus Mykolas Paulius Petras Pranciskus Raimondas Ramunas Steponas Skirgaila Tomas 
+			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
+		}
+		female_names = {
+			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Au?ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
+			Edita Egle Elena El?bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
+			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
+			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Ro?e Ruta Sandra Saule 
+			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
+			Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"Giedraitis" "Mantigirdaitis" "Chodkevicius" "Sudimantaitis" "Korybut" "Jogailaitis" "Gediminaitis"
+		}
+	}
+	pruthenian = {
+	
+		primary = PRT
+		
+		male_names = {
+			Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
+			Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+			Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
+			Karijotas Kesgaila Kestutis Korigaila Korybutas
+			Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
+			Narimantas Povilas Pukuveras Rimantas 
+			Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
+			Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
+			Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
+		}
+		female_names = {
+			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
+			Mikova Roze Saule Svajone Vida Laima
+		}
+		dynasty_names = {
+			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+			# CKII
+			"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
+			"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+			# Ugric Baltic
+			"Karasi" "Ingrija" "Revala" "Virumaa" "Läänemaa" "Ingeri" "Livo" "Harjumaa"
+			"Ridala" "Saaremaa" "Vaiga" "Turaida"
+		}
+	}
+	latvian = {
+		primary = LTG
+		male_names = {
+			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
+			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
+			Elmede Erasts Erdzivil Galeine Gastile Gedere Gerden Gibedats Giemund Golovke Gotene Gunvald 
+			Janis John Jaunule Jedetus Juvage Kage Likiik
+			Kaire Karijotas Karnak Kaupo Kerstigens Kiten Klavess Kodere Kuliens Kurlemuse Lammekinus 
+			Litto Lonkogveni Manvydas Meinekinus Shutr
+			Mendune Nameisis Narvait Pliksov Pukiik Pukuveras Ringaudas Rushky Rusins Sabe Sargun Scurdo 
+			Shvarnas Skornand Sprudeik Stegut Viesturs
+			Steikint Sviendorog Talivaldis Tautvila Traidenis Treniota Vaishvilkas Valikaila Vetseke 
+			Visheiv Vishikut Vishly Vykantas Yudki 
+		}
+		female_names = {
+			Agita Ausala Balba Bitens Brita Daira Darate Dardedze Dose Dzeguze Galene Greze Gunda Gundega 
+			Imela Kordula Liga Maija Marite Naula Rasa Ruta Savna Viba Zigne Ieva
+		}
+	}
+	
+	curonian = {
+		primary = CUR
+		male_names = {
+			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
+			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
+			Elmede Erasts Erdzivil Galeine Gastile Gedere Gerden Gibedats Giemund Golovke Gotene Gunvald 
+			Janis John Jaunule Jedetus Juvage Kage Likiik
+			Kaire Karijotas Karnak Kaupo Kerstigens Kiten Klavess Kodere Kuliens Kurlemuse Lammekinus 
+			Litto Lonkogveni Manvydas Meinekinus Shutr
+			Mendune Nameisis Narvait Pliksov Pukiik Pukuveras Ringaudas Rushky Rusins Sabe Sargun Scurdo 
+			Shvarnas Skornand Sprudeik Stegut Viesturs
+			Steikint Sviendorog Talivaldis Tautvila Traidenis Treniota Vaishvilkas Valikaila Vetseke 
+			Visheiv Vishikut Vishly Vykantas Yudki 
+		}
+		female_names = {
+			Agita Ausala Balba Bitens Brita Daira Darate Dardedze Dose Dzeguze Galene Greze Gunda Gundega 
+			Imela Kordula Liga Maija Marite Naula Rasa Ruta Savna Viba Zigne Ieva
+		}
+	}
+	
+	male_names = {
+		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
+		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+		Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
+		Karijotas Kesgaila Kestutis Korigaila Korybutas
+		Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
+		Narimantas Povilas Pukuveras Rimantas 
+		Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
+		Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
+		Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
+	}
+	female_names = {
+		Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
+		Mikova Roze Saule Svajone Vida Laima
+	}
+	dynasty_names = {
+		Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
+		Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+		# CKII
+		"von Finckenstein" "Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan" "von Preussen" "von Königsberg" 
+		"Jankowskie" "von Danzig" "von Seidlitz" "von Marienburg" "Konopacki"
+		"von Memel" "von Kurs" "von Rohrbach" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+		# Ugric Baltic
+		"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
+		"Ridala" "Saaremaa" "Vaiga" "Turaida"
+	}
+}
+
+finnic = {
+	graphical_culture = easterngfx
+	
+	finnish = {
+		primary = FIN
+		country = {  }
+		province = { local_has_carolean = yes }
+		dynasty_names = {
+			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
+			Mannerheim Furuhjelm Aminoff Armfelt Carpelan Rehbinder Schulman
+		}
+		male_names = {
+			Eerikki Niklas Väinämöinen Aato Fredrik Jani Aleksanteri Edvard Jaakko Juha Aapeli Alpertti Antero 
+			Eino Erno Heikki Jooseppi Jyri Kaarle Kristian Lauri Mainio Mikael Onni Otso Paavo Petteri Ransu 
+			Samuli Taavi Tauno Tuomas Valto Veli Vieno Vilhelmi Voitto Reino
+			Aatos Ahma Aimo Armas Arvo Asikko Ensio Haapa Hannu Havu Hintsa Ihanti Into Jalo Jurva 
+			Kalevi Kettu Kolli Lalli Lauri Laurence Lemetti Kaleva
+			Mielitty Miemo Mikko Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka 
+			Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö Satatieto
+			Valta Valto Veli Vesa Voitto Erkki Erik Kaarle Charles Johannes John Risto Christopher 
+			Olaf Petri Peter Henri Henry Yrjö George Olavi
+			Valteri Walter Riku Richard Matti Matthew Jaakoppi Jacob Taisto Paavo Paul Aatso Adam Ahvo 
+			Artur Asko Tuokko David Rieti Frederick Aarto
+			Kauro Gabriel Kuuti Knut Pekko Soini Sven Tuure Turo Tommo Tohmas Thomas
+		}
+		female_names = {
+			Tarja Aina Jaana
+			Aamu Aino Hellä Helmi Ilta Kaarina Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija 
+			Metta Päivä Päivi Pihla Pilvi Rauha Sisko Suoma Marja Mesi 
+			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta 
+			Inkeri Ilmatar Irene Irene Ilona Helen Kristiina Christina Loviisa
+			Elisabet Elisabeth Sohvi Sofia Auni Agnes Liekko Helen Kivutar Lemmikki Lyylikki Salme 
+			Tuulitar Talvikki
+		}
+	}
+	sapmi = {
+		primary = SMI
+		male_names = {
+			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv 
+			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb 
+			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo 
+			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort 
+			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka 
+			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy 
+			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra 
+		}
+		female_names = {
+			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli 
+			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme 
+			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava 
+			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka 
+			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava 
+			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka 
+			Tekay 
+		}
+		dynasty_names = {
+			Ubmeje Nuoráne Gájka
+			Magga Guoládat Yugra
+			Kaise Saiva
+		}
+	}
+	karelian = {
+		primary = KRL
+		male_names = {
+			Mohkku Mokci Náhkol Náinnas Njulgu Oaván Orddot Rástos Riibma Ruigi Sárra Speaidna Viggu Kaarel Kaaren Kahus Kaido 
+			Kalev Kalju Kaljuvald Kalle Kaomeel Karuvald Kaugemeel Kaupo Pihl Piho Pikne Päevalemb Pärt Raak Raho Rahuleid Sulev 
+			Sutepelg Tambet Tarva Tarvet Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey 
+			Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka Tikshayka Tuhan Tyueykezhut Tyutyuk Tugan Kezhevat Kichay Koksha 
+			Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas Velmayka Virdyan Viryas 
+			Viryay Vokan Yirkap Ylvan Zarny Tugan Parush Pivtsay Pokshayka Putyayka Setyamka Shindyay Shoksha Syrka Tikshayka 
+			Tyueykezhut Tylmache Tylze Tyushten Tyushtya Uzhara Varmanpaz
+		}
+		female_names = {
+			Nyayka Olota Ordava Oshama Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Ruzava 
+			Sanal'ka Sangasa Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka 
+			Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava 
+			Virtyava Yalgava Litova Mastorava Noroava
+		}
+		dynasty_names = {
+			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
+			Mannerheim Furuhjelm Aminoff Armfelt Carpelan Rehbinder Schulman
+		}
+	}
 	estonian = {
 		primary = EST
 		dynasty_names = {
@@ -1932,74 +2268,62 @@ baltic	= {
 			Õnnela Ülle
 		}
 	}
-	lithuanian = {
-		primary = LIT
+	livonian = {
 		male_names = {
-			Zygimantas Kazimieras Aleksandras Jonas Albertas Zygimantas Augustas Vytautas Jogaila Vladislovas 
-			Algirdas Stanislovas Svitrigaila Mindaugas Albertas Andrius Antanas Aras Arturas Azuolas 
-			Gediminas Giedrius Gintaras Henrikas Jonas Jonusas Juozapas Jurgis Kaributas Karolis Kristupas 
-			Liudvikas Marijus Mykolas Paulius Petras Pranciskus Raimondas Ramunas Steponas Skirgaila Tomas 
-			Vincentas Vilhelmas Vytenis Kestutis Viktoras Leonas Linas Bronislovas Darius 
+			Alo Asso Caupo Dabrel Gerweder Ilmedous Ilo Imme Kike Kovals Layanus Lembewalde Musts Paimis Peite Pi?ke Sula Uldenago Usis Valke Vesiki Vietso Waldeko Ylo Ymaut
 		}
 		female_names = {
-			Agné Morta Viltauté Agné Aldona Amalija Audra Aurelija Au?ra Austeja Barbora Daina Daiva Dalia Danute Diana Doroteja 
-			Edita Egle Elena El?bieta Elze Emilija Ernesta Estera Gabija Gabriele Giedre Gintare Ieva Ilona Inga Irena Jadvyga 
-			Janina Jelena Yelena Jolanta Julija Justina Kamile Karolina Katre Kotryna Kristina Laima Leja Lilija Lina Liucija 
-			Liudvika Margarita Marija Marijona Melanija Migle Milda Monika Morta Ona Rasa Regina Rozalija Ro?e Ruta Sandra Saule 
-			Smilte Sofija Solveiga Svajone Tatjana Ugne Urte Valerija Veronika Viktorija Vilhelmina Viltaute Vilte Vita Vitalija
+			Elmede Use Valata Vasara
 		}
 		dynasty_names = {
-			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
-			Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
-			# CKII
-			"Giedraitis" "Mantigirdaitis" "Chodkevicius" "Sudimantaitis" "Korybut" "Jogailaitis" "Gediminaitis"
+			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
+			"Ridala" "Saaremaa" "Vaiga" "Turaida"
 		}
 	}
-	latvian = {
-		primary = LTG
+	ingrian = {
 		male_names = {
-			Aishno Ako Ankad Baise Balodis Bikshe Borut Bulei Butovit Cirulis Dangeruthe Darbeslave 
-			Davins Demas Dobre Dovyat Dzintis Dausprungas Imanta
-			Elmede Erasts Erdzivil Galeine Gastile Gedere Gerden Gibedats Giemund Golovke Gotene Gunvald 
-			Janis John Jaunule Jedetus Juvage Kage Likiik
-			Kaire Karijotas Karnak Kaupo Kerstigens Kiten Klavess Kodere Kuliens Kurlemuse Lammekinus 
-			Litto Lonkogveni Manvydas Meinekinus Shutr
-			Mendune Nameisis Narvait Pliksov Pukiik Pukuveras Ringaudas Rushky Rusins Sabe Sargun Scurdo 
-			Shvarnas Skornand Sprudeik Stegut Viesturs
-			Steikint Sviendorog Talivaldis Tautvila Traidenis Treniota Vaishvilkas Valikaila Vetseke 
-			Visheiv Vishikut Vishly Vykantas Yudki 
+			Kahru Kahrulemb Gáktu Henes Járre Jeansa Juvven John Lágon Lávrrohas Leammá Mellet Mihka Igalemb Ihameel Ihar 
+			Ihatõiv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep Lättelemb Manivald Mart Maru Mati Mats Meelis Mehis 
+			Ohetõiv Ohevald Olev Onni Otelemb Ott Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun 
+			Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Dobrinya Dokya 
+			Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka 
+			Tikshayka Tuhan Tyueykezhut Tyutyuk Meltsayka Mordvinko Moksha Nalka Nuyaksha Nuyanza Nuyat Ovtay Pakstyan Paksyay 
+			Paksyut 
 		}
 		female_names = {
-			Agita Ausala Balba Bitens Brita Daira Darate Dardedze Dose Dzeguze Galene Greze Gunda Gundega 
-			Imela Kordula Liga Maija Marite Naula Rasa Ruta Savna Viba Zigne Ieva
+			Aasa Ahma Aime Aimo Aita Aldi Ann Anni Annika Are Auli Aune Eha Elo Ere Helbe Hele Helgi Tiiu Tuuli Urve Viire Vilja 
+			Virge Virve Värvu Õie Õnne Ülane Ülle Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa 
+			Chindyayka Chinzhay Chitska Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka 
+			Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava 
+			Yugörka Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva 
+			Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nuyanza 
+			Nyal'ka 
+		}
+		dynasty_names = {
+			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
+			Mannerheim Furuhjelm Aminoff Armfelt Carpelan Rehbinder Schulman
 		}
 	}
-	
-	male_names = {
-		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
-		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
-		Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
-		Karijotas Kesgaila Kestutis Korigaila Korybutas
-		Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
-		Narimantas Povilas Pukuveras Rimantas 
-		Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
-		Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
-		Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
-	}
-	female_names = {
-		Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
-		Mikova Roze Saule Svajone Vida Laima
-	}
-	dynasty_names = {
-		Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski
-		Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
-		# CKII
-		"von Finckenstein" "Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan" "von Preussen" "von Königsberg" 
-		"Jankowskie" "von Danzig" "von Seidlitz" "von Marienburg" "Konopacki"
-		"von Memel" "von Kurs" "von Rohrbach" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
-		# Ugric Baltic
-		"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
-		"Ridala" "Saaremaa" "Vaiga" "Turaida"
+	veps = {
+		male_names = {
+			Mohkku Mokci Náhkol Náinnas Njulgu Oaván Orddot Rástos Riibma Ruigi Sárra Speaidna Viggu Kaarel Kaaren Kahus Kaido 
+			Kalev Kalju Kaljuvald Kalle Kaomeel Karuvald Kaugemeel Kaupo Pihl Piho Pikne Päevalemb Pärt Raak Raho Rahuleid Sulev 
+			Sutepelg Tambet Tarva Tarvet Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey 
+			Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka Tikshayka Tuhan Tyueykezhut Tyutyuk Tugan Kezhevat Kichay Koksha 
+			Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas Velmayka Virdyan Viryas 
+			Viryay Vokan Yirkap Ylvan Zarny Tugan Parush Pivtsay Pokshayka Putyayka Setyamka Shindyay Shoksha Syrka Tikshayka 
+			Tyueykezhut Tylmache Tylze Tyushten Tyushtya Uzhara Varmanpaz
+		}
+		female_names = {
+			Nyayka Olota Ordava Oshama Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Ruzava 
+			Sanal'ka Sangasa Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka 
+			Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava 
+			Virtyava Yalgava Litova Mastorava Noroava
+		}
+		dynasty_names = {
+			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
+			Mannerheim Furuhjelm Aminoff Armfelt Carpelan Rehbinder Schulman
+		}
 	}
 }
 
@@ -7677,82 +8001,6 @@ scandinavian = { #Nordic
 			"Vedel" "Bjelke" "Galle" "Griis"
 		}
 	}
-	finnish = {
-		primary = FIN
-		country = {  }
-		province = { local_has_carolean = yes }
-		dynasty_names = {
-			Bielke Horn Tott Fleming Paijkull Bonde Wrede Soop
-			Mannerheim Furuhjelm Aminoff Armfelt Carpelan Rehbinder Schulman
-		}
-		male_names = {
-			Eerikki Niklas Väinämöinen Aato Fredrik Jani Aleksanteri Edvard Jaakko Juha Aapeli Alpertti Antero 
-			Eino Erno Heikki Jooseppi Jyri Kaarle Kristian Lauri Mainio Mikael Onni Otso Paavo Petteri Ransu 
-			Samuli Taavi Tauno Tuomas Valto Veli Vieno Vilhelmi Voitto Reino
-			Aatos Ahma Aimo Armas Arvo Asikko Ensio Haapa Hannu Havu Hintsa Ihanti Into Jalo Jurva 
-			Kalevi Kettu Kolli Lalli Lauri Laurence Lemetti Kaleva
-			Mielitty Miemo Mikko Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka 
-			Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö Satatieto
-			Valta Valto Veli Vesa Voitto Erkki Erik Kaarle Charles Johannes John Risto Christopher 
-			Olaf Petri Peter Henri Henry Yrjö George Olavi
-			Valteri Walter Riku Richard Matti Matthew Jaakoppi Jacob Taisto Paavo Paul Aatso Adam Ahvo 
-			Artur Asko Tuokko David Rieti Frederick Aarto
-			Kauro Gabriel Kuuti Knut Pekko Soini Sven Tuure Turo Tommo Tohmas Thomas
-		}
-		female_names = {
-			Tarja Aina Jaana
-			Aamu Aino Hellä Helmi Ilta Kaarina Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija 
-			Metta Päivä Päivi Pihla Pilvi Rauha Sisko Suoma Marja Mesi 
-			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta 
-			Inkeri Ilmatar Irene Irene Ilona Helen Kristiina Christina Loviisa
-			Elisabet Elisabeth Sohvi Sofia Auni Agnes Liekko Helen Kivutar Lemmikki Lyylikki Salme 
-			Tuulitar Talvikki
-		}
-	}
-	sapmi = {
-		primary = SMI
-		male_names = {
-			Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas Elmar Hain Haljas Igapäiv Ihalemb Kahar Eeri Heameel Heatõiv 
-			Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Tõnn Uku Vootele Väino Värvo Õigemeel Ülo Küllelemb 
-			Leetõiv Lembit Leppetõiv Lible Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Andyamo 
-			Nuyaksha Nuyanza Nuyat Nydog Nylog Odeg Onika Osh Oshmar Oshypel Ovtay Ozheg Ozhmeg Arnaz Arti Artis Arvo Aymort 
-			Azeg Biur Biyar Burmort Chichayka Chuga Dergun Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka 
-			Pyera Rateg Rayda Sarin Sektev Dobrinya Erziya Inzhay Kezhapa Kezhay Kezhedey Kezhevat Kichay Kubrat Malyaka Malyy 
-			Koshel Murunza Naruchad Nishkepaz Orunza Puresh Purysho Saksa Shkay Surt Tul Tunya Tutyra 
-		}
-		female_names = {
-			Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá Seará Soabá Sojá Suoinná Suonjar Uksáhkká Maija Mari Marja Meeli 
-			Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Heli Helina Helmi Helve Hiie Hämarik Hüüp Ida Ilme 
-			Ilmi Ilo Kai Kaili Kaja Kalli Kare Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava 
-			Yalgava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama Öshkamöshka 
-			Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Rayda Ruzava Sanal'ka Sangasa Sernyava 
-			Serzhay Setyamka Seyamka Shochynava Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka Syryava Tatka 
-			Tekay 
-		}
-		dynasty_names = {
-			Ubmeje Nuoráne Gájka
-			Magga Guoládat Yugra
-			Kaise Saiva
-		}
-	}
-	karelian = {
-		primary = KRL
-		male_names = {
-			Mohkku Mokci Náhkol Náinnas Njulgu Oaván Orddot Rástos Riibma Ruigi Sárra Speaidna Viggu Kaarel Kaaren Kahus Kaido 
-			Kalev Kalju Kaljuvald Kalle Kaomeel Karuvald Kaugemeel Kaupo Pihl Piho Pikne Päevalemb Pärt Raak Raho Rahuleid Sulev 
-			Sutepelg Tambet Tarva Tarvet Dobrinya Dokya Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey 
-			Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka Tikshayka Tuhan Tyueykezhut Tyutyuk Tugan Kezhevat Kichay Koksha 
-			Kuaz Kudym-Osh Kya Kyldysin Malyaka Malyy Meltsayka Mosheg Nalka Turush Uchva Varaka Vechkas Velmayka Virdyan Viryas 
-			Viryay Vokan Yirkap Ylvan Zarny Tugan Parush Pivtsay Pokshayka Putyayka Setyamka Shindyay Shoksha Syrka Tikshayka 
-			Tyueykezhut Tylmache Tylze Tyushten Tyushtya Uzhara Varmanpaz
-		}
-		female_names = {
-			Nyayka Olota Ordava Oshama Parava Pekshayka Pemka Pokshava Poshayka Potekay Potyava Putyayka Ravzhava Ruzava 
-			Sanal'ka Sangasa Sernyava Serzhay Setyamka Seyamka Shonzhava Shukshtoroyka Sinyava Siyamka Slyugan'ka Sochava Styaka 
-			Syryava Tatka Tekay Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava 
-			Virtyava Yalgava Litova Mastorava Noroava
-		}
-	}
 	icelandic = {
 		primary = ICE
 		male_names = {
@@ -12611,22 +12859,6 @@ tartar	= {
 			"Aibanoo" "Aininoor" "Alfia" "Janan" "Alfira" "Alfiya" "Alia" "Amenya" "Asia" "Assel" "Dinara"
 		}
 	}
-	bulgar = {
-		primary = VLG
-		dynasty_names = {
-			Cälil Göbäydullina Nasiri Näcmetdin Nigmät Nurgäli Isxaqi Märcani Qamay "Qol-Gäli" Qursawi Tuqay Yusupow
-		}
-		male_names = {
-			"Ulugh Muhammad" "Muhammad" "Mahmudak" "Khalil" "Ibrahim" "Ilham" "Muhammad Amin" "Abdul-Latif" "Shah Ali" 
-			"Sahib" "Safa" "Jan Ali" "Otemesh" "Shah Ali" "Yadigar Muhammad" "Ahmyetgali" "Airat" "Akhmed" "Alikber" 
-			"Amazat" "Amerhan" "Ansar" "Anvar" "Ahmat" "Aydar" "Ayrat" "Azgar" "Cingi" "Farit" "Ildus" "Ilgiz" "Ilsat" 
-			"Irek" "Nariman" "Radiq" "Gabdulla" "Ramil" "Rasit" "Rawil" "Risat" "Rusan" "Timer" "Toktamish" "Yasher" 
-			"Zagip" "Zamanbyek" "Zaribzyan" "Gabdulla" "Zofar"
-		}
-		female_names = {
-			"Aibanoo" "Aininoor" "Alfia" "Janan" "Alfira" "Alfiya" "Alia" "Amenya" "Asia" "Assel" "Dinara"
-		}
-	}
 	mishary = {
 		primary = GOL
 		dynasty_names = {
@@ -12805,6 +13037,41 @@ tartar	= {
 	}
 }
 
+oghur = {
+	graphical_culture = muslimgfx
+	bulgar = {
+		primary = VLG
+		dynasty_names = {
+			Cälil Göbäydullina Nasiri Näcmetdin Nigmät Nurgäli Isxaqi Märcani Qamay "Qol-Gäli" Qursawi Tuqay Yusupow
+		}
+		male_names = {
+			"Ulugh Muhammad" "Muhammad" "Mahmudak" "Khalil" "Ibrahim" "Ilham" "Muhammad Amin" "Abdul-Latif" "Shah Ali" 
+			"Sahib" "Safa" "Jan Ali" "Otemesh" "Shah Ali" "Yadigar Muhammad" "Ahmyetgali" "Airat" "Akhmed" "Alikber" 
+			"Amazat" "Amerhan" "Ansar" "Anvar" "Ahmat" "Aydar" "Ayrat" "Azgar" "Cingi" "Farit" "Ildus" "Ilgiz" "Ilsat" 
+			"Irek" "Nariman" "Radiq" "Gabdulla" "Ramil" "Rasit" "Rawil" "Risat" "Rusan" "Timer" "Toktamish" "Yasher" 
+			"Zagip" "Zamanbyek" "Zaribzyan" "Gabdulla" "Zofar"
+		}
+		female_names = {
+			"Aibanoo" "Aininoor" "Alfia" "Janan" "Alfira" "Alfiya" "Alia" "Amenya" "Asia" "Assel" "Dinara"
+		}
+	}
+	chuvash = {
+		dynasty_names = {
+			Cälil Göbäydullina Nasiri Näcmetdin Nigmät Nurgäli Isxaqi Märcani Qamay "Qol-Gäli" Qursawi Tuqay Yusupow
+		}
+		male_names = {
+			"Ulugh Muhammad" "Muhammad" "Mahmudak" "Khalil" "Ibrahim" "Ilham" "Muhammad Amin" "Abdul-Latif" "Shah Ali" 
+			"Sahib" "Safa" "Jan Ali" "Otemesh" "Shah Ali" "Yadigar Muhammad" "Ahmyetgali" "Airat" "Akhmed" "Alikber" 
+			"Amazat" "Amerhan" "Ansar" "Anvar" "Ahmat" "Aydar" "Ayrat" "Azgar" "Cingi" "Farit" "Ildus" "Ilgiz" "Ilsat" 
+			"Irek" "Nariman" "Radiq" "Gabdulla" "Ramil" "Rasit" "Rawil" "Risat" "Rusan" "Timer" "Toktamish" "Yasher" 
+			"Zagip" "Zamanbyek" "Zaribzyan" "Gabdulla" "Zofar"
+		}
+		female_names = {
+			"Aibanoo" "Aininoor" "Alfia" "Janan" "Alfira" "Alfiya" "Alia" "Amenya" "Asia" "Assel" "Dinara"
+		}
+	}
+}
+
 basque_group = {
 	graphical_culture = westerngfx
 
@@ -12947,32 +13214,6 @@ lost_cultures_group = {
 			Brummelisa Ursa Brumma
 		}
 	}
-	pruthenian = {
-		male_names = {
-		Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
-		Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
-		Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
-		Karijotas Kesgaila Kestutis Korigaila Korybutas
-		Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
-		Narimantas Povilas Pukuveras Rimantas 
-		Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
-		Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
-		Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
-		}
-		female_names = {
-			Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
-			Mikova Roze Saule Svajone Vida Laima
-		}
-		dynasty_names = {
-			Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
-			# CKII
-			"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
-			"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
-			# Ugric Baltic
-			"Karasi" "Ingrija" "Revala" "Virumaa" "Läänemaa" "Ingeri" "Livo" "Harjumaa"
-			"Ridala" "Saaremaa" "Vaiga" "Turaida"
-		}
-	}
 	anglosaxon = { #CK2
 		dynasty_names = {
 			Godhelming Beorming Eorling Æbbing Hæsting Ælling Eadricing Eadwulfing Leodwalding
@@ -13040,18 +13281,6 @@ lost_cultures_group = {
 		}
 		female_names = {
 			Amage Ghadani Opoin Polemakratia
-		}
-	}
-	livonian = {
-		male_names = {
-			Alo Asso Caupo Dabrel Gerweder Ilmedous Ilo Imme Kike Kovals Layanus Lembewalde Musts Paimis Peite Pi?ke Sula Uldenago Usis Valke Vesiki Vietso Waldeko Ylo Ymaut
-		}
-		female_names = {
-			Elmede Use Valata Vasara
-		}
-		dynasty_names = {
-			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "Läänemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
-			"Ridala" "Saaremaa" "Vaiga" "Turaida"
 		}
 	}
 }
