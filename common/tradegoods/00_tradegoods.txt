@@ -1549,10 +1549,10 @@ tobacco = {
 cocoa = {
 	color = { 0.45 0.21 0.09 }
 	modifier = {
-		manpower_recovery_speed = 0.05
+		build_time = -0.15
 	}
 	province = {
-		local_manpower_modifier = 0.10
+		local_culture_conversion_time = -0.15
 	}
 
 	chance = {
@@ -2200,21 +2200,21 @@ coal = {
 				}
 			}
 			provincial_institution_progress = {
-				which = enlightenment
+				which = industrialization
 				value = 100
 			}
-			owner = { has_institution = enlightenment }
+			owner = { has_institution = industrialization }
 		}
 		else_if = {
 			limit = {
 				has_province_flag = GER_specific_coal
 			}
 			provincial_institution_progress = {
-				which = manufactories
+				which = ag_rev_institution
 				value = 100
 			}
 			owner = {
-				has_institution = manufactories
+				has_institution = ag_rev_institution
 				adm_tech = 21
 			}
 		}
@@ -2224,7 +2224,7 @@ coal = {
 				value = 100
 			}
 			owner = {
-				has_institution = manufactories
+				has_institution = ag_rev_institution
 				adm_tech = 23
 			}
 		}

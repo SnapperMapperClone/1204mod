@@ -1,0 +1,126 @@
+namespace = industrialization_export_change
+
+province_event = {
+	id = industrialization_export_change.1
+	title = industrialization_export_change.1.t
+	desc = industrialization_export_change.1.d
+	picture = CITY_DEVELOPMENT_eventPicture
+
+	trigger = {
+		has_manufactory_trigger = yes
+		NOT = {
+			OR = {
+				trade_goods = coal
+				trade_goods = oil
+			}
+		}
+		OR = {
+			NOT = {
+				OR = {
+					trade_goods = fish
+					trade_goods = rice
+					trade_goods = maize
+					trade_goods = potatoes
+					trade_goods = grain
+					trade_goods = wine
+					trade_goods = beer
+					trade_goods = livestock
+				}
+			}
+			AND = {
+				development = 50
+				has_building = counting_house
+				num_of_buildings_in_province = 10
+			}
+		}
+		owner = {
+			has_institution = remote_communication
+			NOT = { is_bankrupt = yes }
+			innovativeness = 50
+			production_income_percentage = 0.35
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 100
+
+		modifier = {
+			factor = 3
+			trade_goods = iron
+		}
+
+		modifier = {
+			factor = 1.5
+			OR = {
+				trade_goods = paper
+				trade_goods = gold
+				trade_goods = cocoa
+				trade_goods = tea
+				trade_goods = coffee
+				trade_goods = sugar
+				trade_goods = cotton
+				trade_goods = salt
+			}
+		}
+
+		modifier = {
+			factor = 0.9
+			province_has_center_of_trade_of_level = 1
+		}
+		modifier = {
+			factor = 0.9
+			province_has_center_of_trade_of_level = 2
+		}
+		modifier = {
+			factor = 0.9
+			province_has_center_of_trade_of_level = 3
+		}
+
+		modifier = {
+			factor = 0.9
+			is_prosperous = yes
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = {
+				innovativeness = 65
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				innovativeness = 80
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				innovativeness = 100
+			}
+		}
+
+		modifier = {
+			factor = 0.9
+			owner = {
+				production_income_percentage = 0.375
+			}
+		}
+		modifier = {
+			factor = 0.9
+			owner = {
+				production_income_percentage = 0.4
+			}
+		}
+	}
+
+	option = {
+		name = rural_flight_passive_dev_change.1.a
+		add_province_modifier = {
+			name = industrial_job_growth
+			duration = 7300
+		}
+		add_base_production = -4
+		change_trade_goods = steel
+	}
+}

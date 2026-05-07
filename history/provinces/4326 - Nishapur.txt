@@ -38,3 +38,6 @@ discovered_by = indian
 	controller = PER
 }
 add_core = KHW
+latent_trade_goods = { 
+	oil 
+}

@@ -132,7 +132,7 @@ paper = {
 }
 
 coal = {
-	base_price = 10
+	base_price = 5
 }
 
 cloves = {
@@ -157,6 +157,22 @@ horses = {
 
 lumber = {
 	base_price = 2
+}
+
+potatoes = {
+	base_price = 2
+}
+
+rice = {
+	base_price = 3
+}
+
+steel = {
+	base_price = 8
+}
+
+oil = {
+	base_price = 10
 }
 
 unknown = {

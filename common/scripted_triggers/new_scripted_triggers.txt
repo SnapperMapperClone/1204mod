@@ -95,3 +95,17 @@ langues_doil_assessment = {
         primary_culture = poitevin
     }
 }
+
+evaluate_rural_flight = {
+    OR = {
+		province_has_center_of_trade_of_level = 1
+		trade_goods = paper
+		trade_goods = marble
+		trade_goods = gems
+		trade_goods = glass
+		trade_goods = incense
+		trade_goods = dyes
+		trade_goods = silk
+		trade_goods = chinaware
+	}
+}

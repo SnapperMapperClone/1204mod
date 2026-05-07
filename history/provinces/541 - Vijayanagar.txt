@@ -1,13 +1,11 @@
 #541 - Vijayanagar
-
 owner = HYS
 controller = HYS
 culture = kannada
 religion = hinduism
 capital = "Vijayanagar"
-trade_goods = grain
-hre = no
-base_tax = 6 
+trade_goods = rice
+base_tax = 6
 base_production = 6
 base_manpower = 4
 is_city = yes

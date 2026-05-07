@@ -76,3 +76,19 @@ scheldt_estuary_modifier = {
 decentralized_realm = {
 	development_cost_modifier = 0.5
 }
+
+#misc
+
+rural_influx_modifier = {
+	trade_goods_size_modifier = 0.05
+}
+
+rural_exodus_modifier = {
+	trade_goods_size_modifier = -0.05
+	local_autonomy = 0.05
+}
+
+industrial_job_growth = {
+	local_production_efficiency = 0.25
+	local_development_cost = -0.25
+}

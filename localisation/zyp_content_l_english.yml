@@ -120,6 +120,16 @@
  horsesDESC: ""
  lumber: "Lumber"
  lumberDESC: ""
+ potatoes: "Potatoes"
+ potatoesDESC: ""
+ rice: "Rice"
+ riceDESC: ""
+ steel: "Industrial Products"
+ steelDESC: ""
+ oil: "Oil"
+ oilDESC: ""
+ 
+ industrial_job_growth: "Industrial Job Growth"
  
  temple_modifier_i: "Temple I"
  temple_modifier_ii: "Temple II"
@@ -480,6 +490,13 @@
  release_appanages.1.b: "They shall receive a statte in union with the [Root.Monarch.GetTitle]."
  release_appanages.1.c: "We will not fragment the [Root.GovernmentName]."
  appanage_as_favor: "Released Appanage as Favor"
+ 
+ rural_flight_passive_dev_change.1.t: "Rural Flight"
+ rural_flight_passive_dev_change.1.d: "With the improved economic conditions of our city centers in addition to those of the greater realm, peasants from the countryside have immigrated to urbanized areas in sufficient amounts so as to influence the overall output of our provinces."
+ rural_flight_passive_dev_change.1.a: "Okay."
+ 
+ rural_influx_modifier: "Influx of Rural Immigration"
+ rural_exodus_modifier: "Rural Exodus"
  
  RV1: "Revolutionary Revolt"
  RV1_ADJ: "Revolutionary"
