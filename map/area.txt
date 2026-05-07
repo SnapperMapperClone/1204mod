@@ -279,7 +279,7 @@ massif_central_area = {  #3
 }
 savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy 
 
-	4719 205 5037 
+	4719 5037 205 5079 
 }
 lorraine_area = {  #4
 
@@ -342,7 +342,7 @@ aragon_area = {  #4
 }
 catalonia_area = {  #5
 
-	197 212 213 2987 2988 
+	212 213 2988 
 }
 valencia_area = {  #5
 
@@ -409,7 +409,7 @@ venetia_area = {  #5
 }
 lombardy_area = {  #5
 
-	104 1862 4728 4740 2979 
+	104 1862 4728 4740 
 }
 po_valley_area = {  #3
 
@@ -418,7 +418,7 @@ po_valley_area = {  #3
 }
 piedmont_area = {  #4
 
-	1875 2981 4727 103 5065 
+	1875 2981 4727 103 
 }
 tuscany_area = {  #5
 
@@ -1074,7 +1074,7 @@ bosnia_area = {  #5
 croatia_area = {  #4
 
 	color = { 18 126 16 }
-	131 1826 1828 4752 
+	131 1826 1828 
 }
 slavonia_area = {  #4
 
@@ -1082,7 +1082,7 @@ slavonia_area = {  #4
 }
 east_adriatic_coast_area = {  #3
 
-	136 137 4753 
+	136 137 4753 5082 4752 
 }
 alfold_area = {  #4
 
@@ -3682,4 +3682,10 @@ east_normandy_area = {
 }
 umbria_area = { 
 	2976 5073 4731 5074 
+}
+pennine_piedmont_area = { 
+	5065 2979 5078 
+}
+pyrenean_catalonia_area = { 
+	2987 5080 197 
 }

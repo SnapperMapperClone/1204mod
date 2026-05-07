@@ -196,3 +196,4 @@
 193 = { "Bisanz" "Bisanz" }
 5011 = "Ypern"
 5013 = "Löwen"
+5082 = { "Zengg" "Zengg" }

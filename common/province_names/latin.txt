@@ -65,6 +65,9 @@
 4719 = "Bressia"
 4769 = "Lilla"
 4777 = "Forese"
+5079 = { "Tarantasia" "Tarantasia" }
+5082 = { "Segna" "Segna" }
+1826 = { "Licca" "Ottocio" }
 
 # Germany
 43 = "Danzica"
@@ -162,7 +165,6 @@
 321 = "Cipro"
 330 = "Trebisonda"
 1773 = "Acaia"
-1826 = "Licca"
 1853 = "Castoria"
 2298 = "Adalia"
 2348 = "Scio"

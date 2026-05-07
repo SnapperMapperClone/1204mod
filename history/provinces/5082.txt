@@ -1,0 +1,14 @@
+add_core = CRO
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = CRO
+culture = croatian
+trade_goods = fish
+religion = catholic
+controller = CRO
+is_city = yes
+base_tax = 3
+base_manpower = 2
+base_production = 3

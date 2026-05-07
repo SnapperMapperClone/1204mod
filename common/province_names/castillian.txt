@@ -20,6 +20,7 @@
 4550 = "Castellón"
 4549 = "Játiva"
 206 = "La Coruña"
+5080 = "Lérida"
 
 90 = { "Brujas" "Brujas" }
 92 = { "Brabante" "Bruselas" }

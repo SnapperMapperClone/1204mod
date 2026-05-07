@@ -243,6 +243,7 @@
  RII_ADJ: "Rietian"
  FSN: "Frosinone"
  FSN_ADJ: "Frosinonan"
+<<<<<<< Updated upstream
  
  TAV: "Tavastia"
  TAV_ADJ: "Tavastian"
@@ -289,3 +290,7 @@
  GLN_ADJ: "Galindian"
  PTH: "Pruthenia"
  PTH_ADJ: "Pruthenian"
+=======
+ BGR: "Borgomanero"
+ BGR_ADJ: "Borgomaneran"
+>>>>>>> Stashed changes

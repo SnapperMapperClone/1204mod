@@ -1,0 +1,6 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 126  114  67 }
+
