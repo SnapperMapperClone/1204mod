@@ -2,7 +2,7 @@
 owner = PRM
 controller = PRM
 capital = "Hlynov"
-culture = russian
+culture = udmurt
 religion = finnish_pagan_reformed
 trade_goods = lumber
 base_tax = 3

@@ -1,7 +1,7 @@
 #306 - Nijni-Novgorod
 owner = VLD
 controller = VLD
-culture = russian
+culture = merya
 religion = finnish_pagan_reformed
 base_tax = 5
 base_production = 5

@@ -213,8 +213,8 @@
  NVG_ADJ: "Novogrodukian"
  MSK: "Minsk"
  MSK_ADJ: "Minskian"
- VTB: "Vitebsk"
- VTB_ADJ: "Vitebskian"
+ VSK: "Vitebsk"
+ VSK_ADJ: "Vitebskian"
  TPT: "Toropets"
  TPT_ADJ: "Toropetsian"
  RZH: "Rzhev"
@@ -243,7 +243,7 @@
  RII_ADJ: "Rietian"
  FSN: "Frosinone"
  FSN_ADJ: "Frosinonan"
-<<<<<<< Updated upstream
+ 
  
  TAV: "Tavastia"
  TAV_ADJ: "Tavastian"
@@ -252,6 +252,8 @@
  OST: "Ostrobothnia"
  OST_ADJ: "Ostrobothnian"
  
+ REV: "Revalia"
+ REV_ADJ: "Revalian"
  OES: "Osilia"
  OES_ADJ: "Osilian"
  RTL: "Rotalia"
@@ -290,7 +292,7 @@
  GLN_ADJ: "Galindian"
  PTH: "Pruthenia"
  PTH_ADJ: "Pruthenian"
-=======
+
  BGR: "Borgomanero"
  BGR_ADJ: "Borgomaneran"
->>>>>>> Stashed changes
+

@@ -57,8 +57,12 @@
  
  samogitian:0 "Samogitian"
  sudovian:0 "Yotvingian"
+ curonian:0 "Curonian"
  
  finnic:0 "Finnic"
+ veps:0 "Veps"
+ mordvin:0 "Mordvin"
+ udmurt:0 "Udmurt"
  
  turcomeni:0 "Turcomen"
 
@@ -66,7 +70,7 @@
  talysh:0 "Talysh"
  khwarezmian:0 "Khwarezmian"
 
- bulgar:0 "Volga Bulgarian"
+ bulgar:0 "Bulgar"
  cuman:0 "Cuman"
  pecheneg:0 "Pecheneg"
 
