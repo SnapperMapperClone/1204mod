@@ -6,9 +6,9 @@ add_core = RVA
 capital = "Dortmund"
 religion = catholic
 trade_goods = cloth
-base_tax = 4
-base_production = 3
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 3
 is_city = yes
 hre = yes
 center_of_trade = 1
@@ -28,4 +28,7 @@ discovered_by = ottoman
 1815.6.9 = { 
 	controller = PRU
 	add_core = PRU
+}
+latent_trade_goods = { 
+	coal 
 }

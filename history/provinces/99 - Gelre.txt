@@ -49,4 +49,3 @@ discovered_by = ottoman
 1813.11.30 = { 
 	controller = NED
 }
-center_of_trade = 1

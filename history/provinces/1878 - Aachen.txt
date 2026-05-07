@@ -1,14 +1,15 @@
-owner = TRI
-controller = TRI
+#1878 - Aachen
+owner = AAC
+controller = AAC
 culture = hessian
 religion = catholic
 trade_goods = beer
-capital = "Koblenz"
-base_tax = 3
-base_production = 3
+capital = "Aachen"
+base_tax = 6
+base_production = 6
 is_city = yes
-add_core = TRI
-base_manpower = 1
+add_core = AAC
+base_manpower = 2
 hre = yes
 discovered_by = eastern
 discovered_by = western
@@ -16,7 +17,7 @@ discovered_by = muslim
 discovered_by = ottoman
 1690.1.1 = { base_manpower = 1 }
 1730.1.1 = { base_manpower = 2 }
-1792.10.4 = { controller = FRA }
+1792.12.15 = { controller = FRA }
 1797.10.17 = { 
 	add_core = FRA
 }
@@ -25,4 +26,3 @@ discovered_by = ottoman
 	controller = PRU
 	add_core = PRU
 }
-fort_15th = yes

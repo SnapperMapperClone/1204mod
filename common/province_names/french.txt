@@ -320,6 +320,7 @@
 4384 = { "Rennais" "Rennes" }
 172 = { "Nantais" "Nantes" }
 171 = { "Vannetais" "Vannes" }
+5055 = { "Cornouaille" "Quimper" }
 
 
 128 = "Basse-Carinthie"

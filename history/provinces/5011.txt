@@ -12,4 +12,3 @@ culture = flemish
 trade_goods = cloth
 religion = catholic
 controller = FLA
-center_of_trade = 1

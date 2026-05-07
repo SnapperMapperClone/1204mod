@@ -286,7 +286,7 @@ development = {
 }
 
 development_scaled = {
-	local_development_cost = 0.03
+	local_development_cost = 0.05
 }
 
 capital_city = {
@@ -1518,11 +1518,11 @@ self_governing_colony_subject = {
 }
 
 march_subject = {
-	land_forcelimit = 1
+	land_forcelimit = 2
 }
 
 vassal_subject = {
-	land_forcelimit = 1
+	#land_forcelimit = 1
 }
 
 daimyo_subject = {
@@ -1540,8 +1540,8 @@ union_subject = {
 
 all_nations = {
 	global_tax_income = 1
-	land_forcelimit	= 1
-	naval_forcelimit = 1
+	land_forcelimit	= 2
+	naval_forcelimit = 2
 }
 
 subject_nation = {
@@ -2162,9 +2162,9 @@ revolutionary_guard_regiment = {
 }
 
 innovativeness = {
-	all_power_cost	= -0.1
-	army_tradition_decay = -0.01
-	navy_tradition_decay = -0.01
+	technology_cost = -0.2
+	idea_cost = -0.2
+	global_trade_goods_size_modifier = 0.1
 }
 
 rajput_regiment = {
@@ -2224,9 +2224,10 @@ under_governing_capacity_modifier = {
 reverse_under_governing_capacity_modifier = {
 	global_autonomy = -0.1
 	global_tax_modifier = 0.5
-	global_unrest = -5
-	advisor_cost = -0.25
-	administrative_efficiency = 0.5
+	global_manpower_modifier = 0.5
+	#global_unrest = -5
+	#advisor_cost = -0.25
+	#administrative_efficiency = 0.5
 }
 
 lost_hegemony = {

@@ -28,4 +28,3 @@ extra_cost = 8
 1808.12.1 = { controller = SPA revolt = { size = 1 } }
 1812.10.1 = { controller = REB revolt = { type = pretender_rebels size = 2 } }
 1813.12.11 = { controller = SPA revolt = { size = 1 } }
-center_of_trade = 1

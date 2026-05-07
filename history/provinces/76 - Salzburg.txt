@@ -4,7 +4,7 @@ controller = SLZ
 culture = bavarian
 religion = catholic
 capital = "Salzburg"
-trade_goods = beer
+trade_goods = salt
 hre = yes
 base_tax = 3
 base_production = 3
@@ -32,3 +32,4 @@ discovered_by = ottoman
 1814.5.30 = { 
 	controller = HAB
 }
+fort_15th = yes

@@ -18,7 +18,6 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 extra_cost = 8
-center_of_trade = 1
 1467.6.15 = { add_core = BUR }
 1475.11.30 = { controller = BUR capital = "Thionville" }
 1476.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 0 } }

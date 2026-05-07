@@ -13,3 +13,4 @@ add_core = BGR
 owner = BGR
 controller = BGR
 trade_goods = livestock
+capital = "Borgomanero"

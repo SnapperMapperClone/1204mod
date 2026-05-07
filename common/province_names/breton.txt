@@ -7,4 +7,4 @@
 236 = { "Londrez" "Londrez" }
 373 = { "Dulenn" "Dulen" }
 248 = { "Dinedin" "Dinedin" }
-233 = { "Kernev" "Truro" }
+5055 = { "Kernev" "Kemper" }
