@@ -2,7 +2,7 @@
 
 owner = NVG
 controller = NVG 
-culture = byelorussian
+culture = polesian
 religion = orthodox
 hre = no
 base_tax = 2 

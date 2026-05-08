@@ -1,7 +1,7 @@
 #293 - Smolensk
 owner = SMO
 controller = SMO
-culture = ryazanian
+culture = smolenskian
 religion = orthodox
 base_tax = 5
 base_production = 5

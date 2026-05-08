@@ -2,7 +2,7 @@
 
 owner = RZH
 controller = RZH
-culture = russian
+culture = novgorodian
 religion = orthodox
 base_tax = 5
 base_production = 5

@@ -1,7 +1,7 @@
 #279 - Rowne
 owner = VOL
 controller = VOL
-culture = ruthenian
+culture = volhynian
 religion = orthodox
 base_tax = 2
 base_production = 2
