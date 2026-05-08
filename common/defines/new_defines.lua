@@ -25,13 +25,16 @@ NDefines.NMilitary.BASE_MP_TO_MANPOWER = 0.25
 NDefines.NMilitary.MIN_MONTHLY_MANPOWER = 0
 NDefines.NMilitary.LAND_MAINTENANCE_FACTOR = 100
 
+NDefines.NDiplomacy.INTEGRATE_UNION_MIN_YEARS = 25
+NDefines.NDiplomacy.INTEGRATE_VASSAL_MIN_YEARS = 25
+
 NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 1.5
 
 NDefines.NDiplomacy.PO_REVOKE_CORES_PRESTIGE = 0.2
 NDefines.NDiplomacy.PO_RETURN_CORES_PRESTIGE = 0.35
 
-NDefines.NDiplomacy.PEACE_COST_DEMAND_PROVINCE = 2.0
-NDefines.NDiplomacy.PEACE_COST_RETURN_CORE = 0.65
+--NDefines.NDiplomacy.PEACE_COST_DEMAND_PROVINCE = 2.0
+NDefines.NDiplomacy.PEACE_COST_RETURN_CORE = 0.7 --0.65
 
 NDefines.NDiplomacy.PEACE_COST_GIVE_UP_CLAIM = 25
 NDefines.NDiplomacy.PEACE_COST_UNION = 100
@@ -43,3 +46,5 @@ NDefines.NDiplomacy.AE_INFIDEL_CONQUEST = 0.5
 NDefines.NDiplomacy.AE_DIFFERENT_RELIGION = -0.65
 
 NDefines.NDiplomacy.ALLY_AE_MULT = 2
+
+NDefines.NEconomy.INFLATION_FROM_LOAN = 0.05

@@ -203,3 +203,138 @@ dependency = {
 	start_date = 1204.1.1
 	end_date = 9999.1.1
 }
+
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = NAA
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = CRM
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = BRM
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = BSC
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = PIZ
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = PAR
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = MAN
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = VRN
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = VCZ
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = PDV
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = RGA
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = BLG
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = MOD
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = FER
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+	first = MLO
+	second = GEN
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+alliance = {
+	first = MLO
+	second = VEN
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
+dependency = {
+	subject_type = league_member
+	first = MLO
+	second = TRV
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}

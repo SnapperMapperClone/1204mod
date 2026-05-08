@@ -39,6 +39,15 @@ on_startup = {
 			}
 			set_heir_flag = is_heir_flag
 		}
+		every_province = {
+			limit = {
+				has_port = yes
+			}
+			add_permanent_province_modifier = {
+				name = province_is_coastal
+				duration = -1
+			}
+		}
 	}
 }
 
@@ -565,5 +574,15 @@ on_new_term_election = {
 			has_reform = italian_communes
 		}
 		add_government_reform = signoria_reform
+		if = {
+			limit = {
+				is_subject_of_type = league_member
+			}
+			overlord = {
+				country_event = {
+					id = league_membership.2
+				}
+			}
+		}
 	}
 }

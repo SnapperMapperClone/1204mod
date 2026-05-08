@@ -1,38 +1,7 @@
 custom_button = {
     name = duke_upgrade_button
     potential = {
-		always = no
         ai = no
-		#NOT = {
-		#	government_rank = 2
-		#}
-    }
-    trigger = {
-		OR = {
-			AND = {
-				prestige = 50
-				total_development = 100
-			}
-			num_of_cities = 15
-		}
-	}
-    effect = { 
-		play_sound = new_raise_goverment_rank
-		set_government_rank = 2
-		add_legitimacy = 25
-		add_power_projection = {
-			type = upgraded_gov_rank_to_kingdom
-			amount = 25
-		}
-	}
-    tooltip = duke_upgrade_tt
-}
-
-custom_button = {
-    name = king_upgrade_button
-    potential = {
-        ai = no
-		government_rank = 1
 		NOT = {
 			government_rank = 2
 		}
@@ -51,6 +20,41 @@ custom_button = {
 		set_government_rank = 2
 		add_legitimacy = 25
 		add_power_projection = {
+			type = upgraded_gov_rank_to_duchy
+			amount = 25
+		}
+	}
+    tooltip = duke_upgrade_tt
+}
+
+custom_button = {
+    name = king_upgrade_button
+    potential = {
+        ai = no
+		government_rank = 2
+		NOT = {
+			government_rank = 3
+		}
+    }
+    trigger = {
+		NOT = { has_reform = daimyo }
+		NOT = { has_reform = grand_duchy_reform }
+		NOT = { has_reform = principality }
+		NOT = { has_reform = veche_republic }
+		NOT = { has_reform = papacy_reform }
+		OR = {
+			AND = {
+				prestige = 50
+				total_development = 100
+			}
+			num_of_cities = 15
+		}
+	}
+    effect = { 
+		play_sound = new_raise_goverment_rank
+		set_government_rank = 3
+		add_legitimacy = 25
+		add_power_projection = {
 			type = upgraded_gov_rank_to_kingdom
 			amount = 25
 		}
@@ -65,9 +69,9 @@ custom_button = {
 
 		OR = {
 			AND = {
-				government_rank = 2
+				government_rank = 3
 				NOT = {
-					government_rank = 3
+					government_rank = 4
 				}
 			}
 			tag = BYZ
@@ -77,7 +81,10 @@ custom_button = {
 		#government_rank = 3
     }
     trigger = {
+		NOT = { has_reform = shogunate }
+		NOT = { has_reform = lithuanian_grand_kingdom }
 		NOT = { has_reform = feudal_france_reform }
+		NOT = { has_reform = crusading_kingdom_reform }
 		OR = {
 			AND = {
 				religion = catholic
@@ -92,7 +99,7 @@ custom_button = {
 	}
     effect = { 
 		play_sound = new_raise_goverment_rank
-		set_government_rank = 3
+		set_government_rank = 4
 		add_legitimacy = 50
 		add_power_projection = {
 			type = upgraded_gov_rank_to_empire

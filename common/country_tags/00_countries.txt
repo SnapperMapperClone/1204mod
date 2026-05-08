@@ -1073,7 +1073,6 @@ VSK = "countries/Vitebsk.txt"
 TPT = "countries/Toropets.txt"
 RZH = "countries/Rzhev.txt"
 PRN = "countries/Pronsk.txt"
-
 #BALTICS
 TAV = "countries/Tavastia.txt"
 SVO = "countries/Savonia.txt"
@@ -1098,7 +1097,6 @@ SGT = "countries/Samogitia.txt"
 SKV = "countries/Skalvians.txt"
 GLN = "countries/Galindians.txt"
 PTH = "countries/Pruthenia.txt"
-
 #ANATOLIA
 CLC = "countries/Cilicia.txt"
 AHL = "countries/Ahlat.txt"
@@ -1240,3 +1238,4 @@ RV2 = "countries/RevRevolt2.txt"
 RV3 = "countries/RevRevolt3.txt"
 RV4 = "countries/RevRevolt4.txt"
 BGR = "countries/Borgomanero.txt"
+VNO = "countries/Vendome.txt"

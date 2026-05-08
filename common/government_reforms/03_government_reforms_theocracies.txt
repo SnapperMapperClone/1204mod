@@ -100,7 +100,7 @@ crusading_kingdom_reform = {
 	custom_attributes = {
 		monastic_order = yes
 	}
-	fixed_rank = 2
+	fixed_rank = 3
 }
 
 teutonic_bishopric_reform = {

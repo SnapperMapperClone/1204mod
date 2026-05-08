@@ -30,6 +30,7 @@
 
 # Forward declaring all subject types so they can refer to each other in triggers etc.
 integrated_territory = {}
+league_member = {}
 
 default = {
 	# Graphics:
@@ -223,4 +224,65 @@ integrated_territory = {
 
 	overlord_opinion_modifier = in_union
 	subject_opinion_modifier = in_union
+}
+
+league_member = {
+	copy_from = default
+
+	# Graphics:
+	sprite = GFX_icon_integrated_personal_union_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_integrated_personal_union_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_integrated_personal_union_subject_type
+
+	# Properties:
+	transfer_trade_power = yes
+	joins_overlords_wars = no
+	can_be_annexed = yes
+	has_power_projection = yes
+	gets_help_with_rebels = yes
+	forms_trade_companies = no
+	takes_diplo_slot = no
+	extend_trading_range = yes
+	counts_for_borders = yes
+	can_be_co_belligerented = yes
+	must_accept_cta_from_overlord = yes
+	can_gain_favors = yes
+	favors_cost_to_join_offensive_wars = 50   #Defines how much favors the overlord need to invest to call the subject into an offensive war
+	favors_cost_to_join_defensive_wars = 0   #Defines how much favors the overlord need to invest to call the subject into a defensive war
+	opinion_cost_to_join_offensive_wars = 50   #Defines how much opinion the subject loses of the overlord to call the subject into an offensive war. Applied if you do not have Leviathan
+	opinion_cost_to_join_defensive_wars = 0   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
+	opinion_on_subject_integration = 0
+
+	liberty_desire_development_ratio = 0.1
+	pays_overlord = 0
+	forcelimit_to_overlord = 0.1						# Percent of subject FL to use as base for modifiers
+	naval_forcelimit_to_overlord = 0.1					# Percent of subject FL to use as base for modifiers
+	manpower_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
+	sailors_to_overlord = 0.1							# Percent of subject FL to use as base for modifiers
+
+	base_liberty_desire = 35
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
+
+	can_fight = {
+		same_overlord = league_member
+	}
+	can_rival = {
+		same_overlord = league_member
+	}
+	can_ally = {
+		same_overlord = league_member
+	}
+	can_marry = {
+		same_overlord = league_member
+	}
+	
+	# Subject Interactions:
+	placate_rulers = no
+	siphon_income = yes
+	support_loyalists = yes
+
+
+	overlord_opinion_modifier = null
+	subject_opinion_modifier = null
 }

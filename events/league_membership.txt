@@ -1,0 +1,31 @@
+namespace = league_membership
+
+country_event = {
+	id = league_membership.1
+	title = league_membership.1.t
+	desc = league_membership.1.d
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+  
+ 	option = {
+ 		name = league_membership.1.a
+	}
+}
+
+country_event = {
+	id = league_membership.2
+	title = league_membership.2.t
+	desc = league_membership.2.d
+	picture = ADVISOR_eventPicture
+	
+	is_triggered_only = yes
+  
+ 	option = {
+ 		name = league_membership.2.a
+		add_casus_belli = {
+			type = cb_vassalize_mission
+			target = FROM
+		}
+	}
+}

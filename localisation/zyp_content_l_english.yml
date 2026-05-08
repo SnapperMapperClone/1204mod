@@ -419,6 +419,28 @@
  commercial_culture_leader_modifier: "Commercial Culture Leader"
  diplomatic_culture_leader_modifier: "Diplomatic Culture Leader"
  military_culture_leader_modifier: "Militaristic Culture Leader"
+
+
+ join_league_title: "Join League"
+ join_league_desc: "We will offer to join [From.GetName]'s League."
+ join_league_tooltip: "We will offer to join [From.GetName]'s League."
+ leave_league_title: "Leave League"
+ leave_league_desc: "We will leave [From.GetName]'s League."
+ leave_league_tooltip: "We will leave [From.GetName]'s League."
+ left_league: "Left League"
+ league_membership.1.t: "A New Member of the League"
+ league_membership.1.d: "With the outside world proving itself a dangerous place [From.GetName] has approached us requesting membership in our league."
+ league_membership.1.a: "Excellent."
+
+ league_membership.2.t: "League Member Leaves!"
+ league_membership.2.d: "[From.GetName] has decided to leave the League under our control. This is a grave insult to us and we ought to show them the errors of their ways!"
+ league_membership.2.a: "Indeed."
+
+ league_member_title: "League Member"
+ league_member_title_plural: "League Members"
+ league_member_long_desc: "League Members have pledged their loyalty for a cause shared by the collective of the league's members and leadership."
+ league_member_is_our: "$NAME|Y$ is a League Member."
+ league_member_overlord_title: "League Leader"
  
  new_diplomacy.1.t: "Province Purchase Request"
  new_diplomacy.1.d: "[From.GetName] has approached us requesting to purchase one of our provinces."
@@ -434,12 +456,14 @@
  FEUDAL_CLAIM_PROV: "Feudal Claim"
  provincial_diplomacy_text: "Provincial Diplomacy"
 
- duke_upgrade_tt: "@ROOT §YTest§!"
+ duke_upgrade_tt: "§YProclaim the title of Duke.§!"
  king_upgrade_tt: "§YProclaim the title of King.§!"
  emperor_upgrade_tt: "§YProclaim the title of Emperor.§!"
  
  county_appanage_reform: "County Appanage"
  county_appanage_reform_desc: "A realm which is ruled by an off-branch candidate of its overlord's dynasty."
+ 
+ province_is_coastal: "Coastal Province"
 
  CHIEFTAIN: "Chieftain"
  MUNICIPALITY: "Municipality"
@@ -456,6 +480,7 @@
  
  irrigation_tt: "§TDepending on the terrain favorability, passive development increases faster.§!"
  
+ upgraded_gov_rank_to_duchy: "Upgraded Government Rank to Duchy"
  upgraded_gov_rank_to_kingdom: "Upgraded Government Rank to Kingdom"
  upgraded_gov_rank_to_empire: "Upgraded Government Rank to Empire"
  

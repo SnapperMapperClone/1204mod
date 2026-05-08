@@ -79,3 +79,103 @@ assassinate_ruler =  {
 		}
 	}
 }
+
+join_league =  {
+	category = alliance
+	require_acceptance = no
+	is_visible = {
+		NOT = {
+			num_of_cities = 5
+		}
+		government = republic
+		OR = {
+			FROM = {
+				is_neighbor_of = ROOT
+			}
+			any_neighbor_country = {
+				is_subject_of_type = league_member
+				is_subject_of = FROM
+			}
+		}
+	}
+	is_allowed = {
+		NOT = {
+			OR = {
+				num_of_cities = FROM
+				total_development = FROM
+			}
+		}
+		OR = {
+			FROM = {
+				is_great_power = yes
+			}
+			FROM = {
+				has_reform = signoria_reform
+			}
+		}
+		OR = {
+			AND = {
+				has_reform = italian_communes
+				FROM = { has_reform = italian_communes }
+			}
+			AND = {
+				has_reform = signoria_reform
+				FROM = { has_reform = signoria_reform }
+			}
+		}
+	}
+	
+	on_accept = {
+		FROM = {
+			create_subject = {
+				subject_type = league_member
+				who = ROOT
+			}
+		}
+	}
+	ai_will_do = {
+		has_opinion = {
+			who = FROM
+			value = 0
+		}
+		any_neighbor_country = {
+			army_size = ROOT
+		}
+	}
+}
+
+leave_league =  {
+	category = alliance
+	require_acceptance = no
+	is_visible = {
+		NOT = {
+			num_of_cities = 5
+		}
+		government = republic
+		OR = {
+			FROM = {
+				is_neighbor_of = ROOT
+			}
+			any_neighbor_country = {
+				is_subject_of_type = league_member
+				is_subject_of = FROM
+			}
+		}
+	}
+	is_allowed = {
+		is_subject_of_type = league_member
+	}
+	
+	on_accept = {
+		grant_independence = yes
+		FROM = {
+			add_opinion = {
+				who = ROOT
+				modifier = left_league
+			}
+		}
+	}
+	ai_will_do = {
+		liberty_desire = 50
+	}
+}
