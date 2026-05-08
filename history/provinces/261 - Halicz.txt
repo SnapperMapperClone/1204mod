@@ -3,7 +3,7 @@
 owner = VOL
 controller = VOL
 capital= "Halicz"
-culture = ruthenian
+culture = volhynian
 religion = orthodox
 trade_goods = grain
 hre = no

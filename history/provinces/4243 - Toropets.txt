@@ -2,7 +2,7 @@
 
 owner = TPT
 controller = TPT
-culture = byelorussian
+culture = polatskian
 religion = orthodox
 hre = no
 base_tax = 2

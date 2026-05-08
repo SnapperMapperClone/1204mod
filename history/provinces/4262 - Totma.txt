@@ -1,7 +1,7 @@
 #4262 - Totma
 owner = NOV
 controller = NOV
-culture = russian
+culture = novgorodian
 religion = orthodox
 base_tax = 1
 base_production = 1

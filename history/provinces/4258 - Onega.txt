@@ -1,19 +1,17 @@
-#2424 - Przemysl
+#4258 - Onega
 
-owner = VOL
-controller = VOL
-culture = volhynian
+owner = NOV 
+controller = NOV 
+culture = pomor
 religion = orthodox
 hre = no
-base_tax = 3
-base_production = 3
-trade_goods = livestock
+base_tax = 1
+base_production = 1
+trade_goods = fur 
 base_manpower = 1
-capital = "Przemysl"
+capital = "Onega"
 is_city = yes
-add_core = VOL
-
-
+add_core = NOV
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -21,7 +19,4 @@ discovered_by = AST
 discovered_by = QAS
 discovered_by = eastern
 discovered_by = western
-discovered_by = ottoman
-discovered_by = muslim
-
 

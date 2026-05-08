@@ -2,7 +2,7 @@
 
 owner = TUV
 controller = TUV 
-culture = byelorussian
+culture = polesian
 religion = orthodox
 hre = no
 base_tax = 3

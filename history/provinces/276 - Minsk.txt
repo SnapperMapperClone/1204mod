@@ -1,7 +1,7 @@
 #276 - Minsk
 owner = MSK
 controller = MSK
-culture = byelorussian
+culture = polatskian
 religion = orthodox
 base_tax = 3
 base_production = 3

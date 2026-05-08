@@ -2,7 +2,7 @@
 
 owner = PLT
 controller = PLT
-culture = byelorussian
+culture = polatskian
 religion = orthodox 
 hre = no
 base_tax = 4
