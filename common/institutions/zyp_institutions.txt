@@ -441,50 +441,7 @@ gunpowder = {
 	historical_start_province = 688 #Nanjing
 
 	history = {
-		OR = {
-			continent = europe
-			continent = asia
-		}
-		OR = {
-			AND = {
-				started_in = 1356.12.25
-				OR = {
-					AND = {
-						OR = {
-							region = balkan_region
-							region = anatolia_region
-						}
-						OR = {
-							development = 10
-							province_has_center_of_trade_of_level = 1
-						}
-						has_port = yes
-					}
-					AND = {
-						NOT = {
-							region = france_region
-						}
-						OR = {
-							region = italy_region
-							area = provence_area
-							area = languedoc_area
-							area = catalonia_area
-							area = valencia_area
-						}
-						OR = {
-							development = 10
-							province_has_center_of_trade_of_level = 1
-						}
-						has_port = yes
-					}
-					superregion = china_superregion
-					province_id = 688
-					development = 20
-					province_has_center_of_trade_of_level = 2
-				}
-			}
-			superregion = china_superregion
-		}
+		always = no
 	}
 	
 	# no need for events, as its there from the start.
@@ -518,10 +475,10 @@ gunpowder = {
 		}
 	}
 	start_chance = 3
-	on_start = institution_events.1
+	on_start = new_institution_events.3
 
 	can_embrace = {
-		owner = { has_institution = feudalism }
+		owner = { has_institution = scholasticism }
 	}
 
 	embracement_speed = {
@@ -697,7 +654,7 @@ quarantine = {
 	start_chance = 50		#in 100 for when a province can_start
 	
 	
-	on_start = new_institution_events.9
+	on_start = new_institution_events.4
 	
 	can_embrace = {
 		owner = { has_institution = gunpowder }
@@ -968,7 +925,7 @@ commercial_revolution = {
 	start_chance = 50		#in 100 for when a province can_start
 	
 	
-	on_start = new_institution_events.9
+	on_start = new_institution_events.5
 	
 	can_embrace = {
 		owner = { has_institution = quarantine }
@@ -1265,13 +1222,6 @@ renaissance = {
 					development = 25
 				}
 				is_year = 1425
-			}
-			custom_trigger_tooltip = {
-				tooltip = bgm_early_renaissance_tooltip
-				owner = { 
-					has_country_flag = bgm_early_renaissance 
-				}
-				is_capital_of = owner
 			}
 			AND = {
 				has_global_flag = renaissance_arbitrarily_enabled
@@ -1910,7 +1860,7 @@ modern_firearm = { #matchlocks
 	
 	can_start = {
 		is_year = 1500
-		is_institution_enabled = renaissance
+		is_institution_enabled = printing_press
 		OR = {
 			continent = europe
 			continent = asia
@@ -1962,7 +1912,7 @@ modern_firearm = { #matchlocks
 	start_chance = 5		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.3
+	on_start = new_institution_events.6
 	
 	
 	
@@ -4240,7 +4190,7 @@ remote_communication = {
 	start_chance = 100		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.80
+	on_start = new_institution_events.7
 	
 	
 	can_embrace = {
@@ -4319,7 +4269,7 @@ electrification = {
 	start_chance = 100		#in 100 for when a province can_start
 	
 	
-	on_start = institution_events.80
+	on_start = new_institution_events.8
 	
 	
 	can_embrace = {

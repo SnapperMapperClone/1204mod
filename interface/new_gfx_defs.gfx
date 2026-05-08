@@ -413,4 +413,53 @@ spriteTypes = {
 		noOfFrames = 2
 		transparencecheck = yes
 	}
+
+	spriteType = {
+		name = "GFX_tech_institution_ag_rev_institution"
+		texturefile = "gfx/interface/institutions/tech_institution_agricultural_revolution.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_commercial_revolution"
+		texturefile = "gfx/interface/institutions/tech_institution_commercial_revolution.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_electrification"
+		texturefile = "gfx/interface/institutions/tech_institution_electrification.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_gunpowder"
+		texturefile = "gfx/interface/institutions/tech_institution_gunpowder.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_modern_firearm"
+		texturefile = "gfx/interface/institutions/tech_institution_modern_firearm.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_quarantine"
+		texturefile = "gfx/interface/institutions/tech_institution_quarantine.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_remote_communication"
+		texturefile = "gfx/interface/institutions/tech_institution_remote_communication.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tech_institution_scholasticism"
+		texturefile = "gfx/interface/institutions/tech_institution_scholasticism.dds"
+		noOfFrames = 5
+		transparencecheck = yes
+	}
 }
