@@ -500,6 +500,62 @@ on_new_heir = {
 	set_heir_flag = is_heir_flag
 }
 
+on_yearly_pulse = {
+	if = {
+		limit = {
+			any_owned_province = {
+				devastation = 90
+				OR = {
+					base_tax = 2
+					base_production = 2
+					base_manpower = 2
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				devastation = 90
+				OR = {
+					base_tax = 2
+					base_production = 2
+					base_manpower = 2
+				}
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+	}
+}
+
+on_bi_yearly_pulse = {
+	if = {
+		limit = {
+			any_owned_province = {
+				devastation = 75
+				OR = {
+					base_tax = 2
+					base_production = 2
+					base_manpower = 2
+				}
+			}
+		}
+		every_owned_province = {
+			limit = {
+				devastation = 75
+				OR = {
+					base_tax = 2
+					base_production = 2
+					base_manpower = 2
+				}
+			}
+			add_base_tax = -1
+			add_base_production = -1
+			add_base_manpower = -1
+		}
+	}
+}
+
 on_new_term_election = {
 	if = {
 		limit = {

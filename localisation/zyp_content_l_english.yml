@@ -130,6 +130,9 @@
  oilDESC: ""
  
  industrial_job_growth: "Industrial Job Growth"
+ industrialization_export_change.1.t: "Growth of the Manufacturing Sector"
+ industrialization_export_change.1.d: "With the increasing income from exports' production we have managed to grow the industrial sector of one of our provinces' economies such that it now eclipses the previous primary output product."
+ industrialization_export_change.1.a: "Excellent."
  
  temple_modifier_i: "Temple I"
  temple_modifier_ii: "Temple II"
