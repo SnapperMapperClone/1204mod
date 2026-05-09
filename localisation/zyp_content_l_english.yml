@@ -255,6 +255,9 @@
  culture_leader_options.1.b: "Our exports are the most renowned!"
  culture_leader_options.1.c: "We are a master class in foreign management."
  culture_leader_options.1.d: "The glory of the battlefield is our calling!"
+
+
+ claimed_king_of_ger: "Claimed King of Germany"
  
  mongol_proclaim_empire_title: "§TProclaim the Title of Genghis Khan§!"
  mongol_proclaim_empire_desc: "Temüjin has taken it upon himself to unite the once-fragmented and feuding clans of the Mongol Steppe under the Khamag Mongol. Our journey is far from over - even from here; it's time to oversee the creation of a new, unique, and great polity the likes of which were never before seen in human history!"

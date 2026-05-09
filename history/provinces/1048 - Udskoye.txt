@@ -17,7 +17,7 @@ discovered_by = SOL
 1643.1.1 = { discovered_by = RUS }
 1653.1.1 = { 
 	controller = RUS
-	religion = Orthodox
+	religion = orthodox
 	culture = russian
 }
 1678.1.1 = { add_core = RUS }
@@ -26,6 +26,6 @@ discovered_by = SOL
 	controller = QNG
 	add_core = QNG
 	religion = Confucianism
-	trade_goods = Fish
+	trade_goods = fish
 }
-1700.1.1 = { trade_goods = Fur }
+1700.1.1 = { trade_goods = fur }

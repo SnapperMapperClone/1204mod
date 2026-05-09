@@ -15,7 +15,7 @@ discovered_by = BRT
 1633.1.1 = { 
 	discovered_by = RUS
 	controller = RUS
-	religion = Orthodox
+	religion = orthodox
 	culture = russian
 }
 1634.1.1 = { add_core = RUS }

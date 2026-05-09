@@ -23,7 +23,7 @@ base_manpower = 1
 }
 1600.1.1 = { 
 	culture = castillian
-	religion = Catholic
+	religion = catholic
 }
 1816.7.9 = { 
 	controller = LAP

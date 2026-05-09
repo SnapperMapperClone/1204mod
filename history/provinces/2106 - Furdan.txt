@@ -1,9 +1,9 @@
-# 2106 - Furdan
+# 2106 - furdan
 owner = CJN
 controller = CJN
 culture = manchu
 religion = tengri_pagan_reformed
-capital = "Furdan"
+capital = "furdan"
 trade_goods = horses
 base_tax = 5
 base_production = 5

@@ -12,7 +12,7 @@ native_ferocity = 4
 native_hostileness = 9
 discovered_by = sub_saharan
 1670.1.1 = { controller = OYO add_core = OYO }
-1790.1.1 = { religion = Sunni }
+1790.1.1 = { religion = sunni }
 1791.1.1 = { 
 	controller = NUP
 }

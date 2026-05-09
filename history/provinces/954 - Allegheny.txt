@@ -34,7 +34,7 @@ discovered_by = north_american
 	controller = IRO
 	city = yes
 	culture = iroquois
-	religion = Totemism
+	religion = totemism
 }
 1784.10.22 = { 
 	controller = USA

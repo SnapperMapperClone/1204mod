@@ -20,5 +20,5 @@ discovered_by = north_american
 	add_core = USA
 	culture = american
 	trade_goods = Cotton
-	religion = Protestant
+	religion = protestant
 }

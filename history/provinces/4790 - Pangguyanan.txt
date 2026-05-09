@@ -19,7 +19,7 @@ discovered_by = ottoman
 	add_core = BAN
 }
 1527.6.22 = { capital = "Jayakarta" }
-1540.1.1 = { religion = Sunni }
+1540.1.1 = { religion = sunni }
 1613.1.1 = { discovered_by = NED }
 1619.5.30 = { 
 	controller = NED

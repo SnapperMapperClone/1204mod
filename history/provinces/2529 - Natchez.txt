@@ -27,7 +27,7 @@ discovered_by = north_american
 	add_core = CHO
 	city = yes
 	culture = choctaw
-	religion = Totemism
+	religion = totemism
 }
 1786.1.3 = { 
 	controller = USA

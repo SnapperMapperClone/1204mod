@@ -19,6 +19,6 @@ discovered_by = QNG
 1566.11.28 = { controller = MRI fort_15th = no }
 1566.11.28 = { fort_15th = no } # Gassan Toda Castle has fallen
 1600.9.13 = { add_core = TKG controller = TKG }
-1639.8.4 = { trade_goods = Fish }
+1639.8.4 = { trade_goods = fish }
 add_core = KMK
 fort_15th = yes

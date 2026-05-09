@@ -17,7 +17,7 @@ discovered_by = north_american
 	add_core = SPA
 	city = yes
 	trade_goods = Grain
-	religion = Catholic
+	religion = catholic
 	culture = castillian
 }
 1810.9.16 = { 

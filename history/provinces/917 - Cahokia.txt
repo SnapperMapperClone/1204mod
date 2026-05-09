@@ -21,7 +21,7 @@ discovered_by = north_american
 	controller = FRA
 	add_core = FRA
 	culture = cosmopolitan_french
-	religion = Catholic
+	religion = catholic
 }
 1763.2.10 = { 
 	controller = GBR

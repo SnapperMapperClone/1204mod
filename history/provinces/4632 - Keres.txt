@@ -15,7 +15,7 @@ discovered_by = north_american
 1598.1.1 = { 
 	controller = SPA
 	add_core = SPA
-	trade_goods = Wool
+	trade_goods = wool
 }
 1680.8.10 = { controller = REB revolt = { type = nationalist_rebels size = 0 } }
 1680.8.21 = { 
@@ -24,7 +24,7 @@ discovered_by = north_american
 1692.9.13 = { 
 	controller = SPA
 	culture = castillian
-	religion = Catholic
+	religion = catholic
 }
 1810.9.16 = { 
 	add_core = MEX

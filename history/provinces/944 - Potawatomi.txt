@@ -38,7 +38,7 @@ center_of_trade = 2
 	add_core = USA
 	city = yes
 	culture = anishinabe
-	religion = Totemism
+	religion = totemism
 }
 1807.11.17 = { 
 	controller = USA

@@ -13,7 +13,7 @@ native_hostileness = 2
 discovered_by = north_american
 1650.1.1 = { 
 	controller = SUS
-	trade_goods = Fur
+	trade_goods = fur
 }
 1671.1.1 = { discovered_by = ENG }
 1677.1.1 = { 
@@ -26,7 +26,7 @@ discovered_by = north_american
 	controller = GBR
 	add_core = GBR
 	culture = english
-	religion = Protestant
+	religion = protestant
 }
 1776.7.4 = { 
 	controller = USA

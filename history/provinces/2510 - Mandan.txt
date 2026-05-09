@@ -18,6 +18,6 @@ discovered_by = north_american
 	controller = ASI
 	add_core = ASI
 	culture = nakota
-	trade_goods = Fur
+	trade_goods = fur
 	city = yes
 }

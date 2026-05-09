@@ -15,7 +15,7 @@ discovered_by = chinese
 1570.5.1 = { 
 	controller = SPA
 	culture = castillian
-	religion = Catholic
+	religion = catholic
 	add_core = SPA
 	city = yes
 }

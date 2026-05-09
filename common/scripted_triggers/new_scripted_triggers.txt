@@ -75,14 +75,6 @@ check_if_tag_is_culture_leader = {
 		event_target:culture_leader_four = { tag = ROOT }
 		event_target:culture_leader_five = { tag = ROOT }
 		event_target:culture_leader_six = { tag = ROOT }
-
-
-        event_target:culture_leader_one = { tag = REB }
-		event_target:culture_leader_two = { tag = REB }
-		event_target:culture_leader_three = { tag = REB }
-		event_target:culture_leader_four = { tag = REB }
-		event_target:culture_leader_five = { tag = REB }
-		event_target:culture_leader_six = { tag = REB }
 	}
 }
 

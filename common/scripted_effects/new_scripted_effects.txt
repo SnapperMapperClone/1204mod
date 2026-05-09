@@ -166,8 +166,8 @@ remove_culture_leader = {
 	}
 	if = {
 		limit = { event_target:culture_leader_four = { tag = ROOT } }
-			clear_global_event_target = culture_leader_four
-            clr_global_flag = someone_claimed_culture_leader_four
+		clear_global_event_target = culture_leader_four
+        clr_global_flag = someone_claimed_culture_leader_four
 	}
 	if = {
 		limit = { event_target:culture_leader_five = { tag = ROOT } }

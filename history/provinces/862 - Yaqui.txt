@@ -19,6 +19,6 @@ discovered_by = mesoamerican
 	city = yes
 	culture = castillian
 	religion = catholic
-	trade_goods = Wool
+	trade_goods = wool
 }
 1810.9.16 = { add_core = MEX controller = SPA }

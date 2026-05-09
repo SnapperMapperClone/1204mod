@@ -15,7 +15,7 @@ discovered_by = north_american
 1650.1.1 = { 
 	controller = MSG
 	city = yes
-	trade_goods = Fur
+	trade_goods = fur
 	culture = anishinabe
 }
 1707.5.12 = { discovered_by = GBR }

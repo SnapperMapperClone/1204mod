@@ -1,0 +1,165 @@
+country_decisions = {
+
+	german_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_germany_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				is_free_or_tributary_trigger = yes
+				ai = no
+			}
+			NOT = { exists = GER }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			NOT = { tag = ROM }
+			NOT = { tag = AUH }
+			culture_group = germanic
+			NOT = { primary_culture = dutch }
+			capital_scope = {
+				OR = {
+					region = north_german_region
+					region = south_german_region
+				}
+			}
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			NOT = {
+				is_core = ROOT
+			}
+			NOT = {
+				owned_by = ROOT
+			}
+			OR = {
+				province_id = 50
+				province_id = 67
+				province_id = 65
+				province_id = 1872
+				province_id = 1876
+				province_id = 78
+				province_id = 134
+				province_id = 75
+				province_id = 85
+				province_id = 44
+				province_id = 45
+				province_id = 2957
+				province_id = 61
+				province_id = 63
+				province_id = 1869
+				province_id = 165
+				province_id = 1874
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			OR = {
+				government = monarchy
+				government = republic
+				government = theocracy
+			}
+			is_at_war = no
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				OR = {
+					province_id = 50
+					province_id = 67
+					province_id = 65
+					province_id = 1872
+					province_id = 1876
+					province_id = 78
+					province_id = 134
+					province_id = 75
+					province_id = 85
+					province_id = 44
+					province_id = 45
+					province_id = 2957
+					province_id = 61
+					province_id = 63
+					province_id = 1869
+					province_id = 165
+					province_id = 1874
+				}
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 65
+				OR = {
+					region = north_german_region
+					region = south_german_region
+				}
+			}
+		}
+		effect = {
+			if = {
+				limit = {
+					has_reform = facilitate_nation_state
+				}
+				change_tag = NGR
+			}
+			else = {
+				change_tag = GER
+			}
+			restore_country_name_effect = yes
+			if = {
+				limit = {
+					is_emperor = yes
+				}
+				dismantle_hre = yes
+			}
+			add_opinion = {
+				who = root
+				modifier = claimed_king_of_ger
+			}
+			north_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GER
+			}
+			south_german_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = GER
+			}			
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 25
+			set_country_flag = formed_germany_flag
+			if = {
+				limit = {
+					has_custom_ideas = no
+				}
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			swap_non_generic_missions = yes
+			on_change_tag_effect = yes
+			if = {
+				limit = { has_dlc = "Winds of Change" }
+				set_country_flag = GER_stuck_disunited
+				add_government_reform = german_cultural_disunity_reform
+				freeze_government_power = {
+					mechanic_type = cultural_unity_mechanic
+					power_type = cultural_unity
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+}

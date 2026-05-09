@@ -21,7 +21,7 @@ discovered_by = AZT
 }
 1529.1.1 = { 
 	culture = castillian
-	religion = Catholic
+	religion = catholic
 }
 1810.9.16 = { add_core = MEX controller = SPA }
 1812.11.25 = { controller = MEX }

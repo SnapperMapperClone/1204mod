@@ -28,7 +28,7 @@ discovered_by = north_american
 	controller = POT
 	city = yes
 	culture = huron
-	religion = Totemism
+	religion = totemism
 }
 1813.10.5 = { 
 	controller = USA

@@ -10,7 +10,7 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 2
 discovered_by = north_american
-1732.1.1 = { discovered_by = FRA controller = FRA add_core = FRA culture = cosmopolitan_french religion = catholic city = yes trade_goods = Fur }
+1732.1.1 = { discovered_by = FRA controller = FRA add_core = FRA culture = cosmopolitan_french religion = catholic city = yes trade_goods = fur }
 1732.1.1 = { 
 	owner = FRA
 	controller = FRA
@@ -30,7 +30,7 @@ discovered_by = north_american
 1763.10.9 = { 
 	controller = NAK
 	culture = bungi
-	religion = Totemism
+	religion = totemism
 }
 1808.1.1 = { 
 	controller = GBR

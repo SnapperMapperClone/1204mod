@@ -15,6 +15,6 @@ discovered_by = north_american
 	controller = WCY
 	add_core = WCY
 	city = yes
-	trade_goods = Fur
+	trade_goods = fur
 }
 1743.1.1 = { discovered_by = FRA }

@@ -20,6 +20,6 @@ discovered_by = ottoman
 	add_core = BAN
 	city = yes
 }
-1550.1.1 = { religion = Sunni }
+1550.1.1 = { religion = sunni }
 1602.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }

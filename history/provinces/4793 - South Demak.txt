@@ -16,7 +16,7 @@ discovered_by = ottoman
 1475.1.1 = { 
 	controller = DMK
 	add_core = DMK
-	religion = Sunni
+	religion = sunni
 }
 1509.1.1 = { discovered_by = POR }
 1587.1.1 = { 
