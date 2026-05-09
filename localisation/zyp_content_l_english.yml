@@ -225,6 +225,8 @@
 
  italian_culture: "Italian"
  german_culture: "German"
+
+ northumbrian: "Northumbrian"
  
  unify_cultures_decision_title: "Unify Accepted National Cultures"
  unify_cultures_decision_desc: "Time has passed since our glorious nation was proclaimed. It's time to acknowledge that we are now one people."
