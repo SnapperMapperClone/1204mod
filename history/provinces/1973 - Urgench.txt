@@ -2,7 +2,7 @@
 
 owner = KHW
 controller = KHW
-culture = uzbehk
+culture = khwarezmian
 religion = sunni
 capital = "Urgench"
 trade_goods = grain

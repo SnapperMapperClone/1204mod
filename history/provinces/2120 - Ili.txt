@@ -3,8 +3,8 @@
 owner = QKT
 controller = QKT
 add_core = QKT
-culture = uyghur
-religion = sunni
+culture = yugur
+religion = tengri_pagan_reformed
 capital = "Ili"
 trade_goods = grain
 hre = no

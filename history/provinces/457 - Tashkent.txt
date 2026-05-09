@@ -1,7 +1,7 @@
 #457 - Tashkent
 owner = TSH
 controller = TSH
-culture = uzbehk
+culture = turki
 religion = nestorian
 capital = "Tashkent"
 trade_goods = tea

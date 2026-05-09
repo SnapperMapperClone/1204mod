@@ -1,7 +1,7 @@
 # 4685 - Karagandy
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kimek
 religion = nestorian
 capital = "Karagandy"
 trade_goods = wool

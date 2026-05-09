@@ -2,7 +2,7 @@
 owner = QKT
 controller = QKT
 add_core = QKT
-culture = kirgiz
+culture = khitan
 religion = nestorian
 capital = "Balasagun"
 trade_goods = horses

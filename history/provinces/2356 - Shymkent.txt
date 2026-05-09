@@ -2,8 +2,8 @@
 
 owner = TSH
 controller = TSH
-culture = uzbehk
-religion = sunni
+culture = turki
+religion = tengri_pagan_reformed
 capital = "Shymkent"
 trade_goods = tea
 hre = no

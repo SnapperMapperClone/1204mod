@@ -1,4 +1,4 @@
-#4688 - Baraba
+#4687 - Imakia
 
 owner = CKC
 controller = CKC
@@ -7,15 +7,14 @@ is_city = yes
 hre = no
 culture = kimek
 religion = tengri_pagan_reformed
-capital = "Baraba"
-trade_goods = livestock
+capital = "Imakia"
+trade_goods = unknown
 hre = no
-base_tax = 1
+base_tax = 1 
 base_production = 1
-base_manpower = 2
+base_manpower = 1
 
 
 
-
-discovered_by = eastern
 discovered_by = nomad_group
+

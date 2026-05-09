@@ -1,7 +1,7 @@
 # 2359 - Baganaly
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kipchak
 religion = tengri_pagan_reformed
 capital = "Baganaly"
 trade_goods = horses

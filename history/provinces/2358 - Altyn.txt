@@ -2,7 +2,7 @@
 
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kipchak
 religion = tengri_pagan_reformed
 capital = "Altyn"
 trade_goods = livestock
