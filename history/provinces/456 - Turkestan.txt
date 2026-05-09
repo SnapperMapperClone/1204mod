@@ -1,7 +1,7 @@
 #456 - Turkestan
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kipchak
 religion = nestorian
 capital = "Yasi"
 trade_goods = grain

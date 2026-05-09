@@ -1,7 +1,7 @@
 # 2363 - Atakent
-owner = CKC
-controller = CKC
-culture = khazak
+owner = TSH
+controller = TSH
+culture = turki
 religion = tengri_pagan_reformed
 capital = "Atakent"
 trade_goods = horses
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = CKC
+add_core = TSH
 discovered_by = KAS
 discovered_by = muslim
 discovered_by = ottoman

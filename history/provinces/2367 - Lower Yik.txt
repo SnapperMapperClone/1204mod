@@ -2,7 +2,7 @@
 
 owner = CKC
 controller = CKC
-culture = nogaybak
+culture = cuman
 religion = tengri_pagan_reformed
 capital = "Kalmyk"
 trade_goods = livestock

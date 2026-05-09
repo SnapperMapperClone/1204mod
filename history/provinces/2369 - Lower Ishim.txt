@@ -2,7 +2,7 @@
 
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kimek
 religion = tengri_pagan_reformed
 capital = "Zhanibek"
 trade_goods = iron

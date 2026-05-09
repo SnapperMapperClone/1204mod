@@ -1,7 +1,7 @@
 # 2355 - Narym
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kimek
 religion = nestorian
 capital = "Narym"
 trade_goods = horses

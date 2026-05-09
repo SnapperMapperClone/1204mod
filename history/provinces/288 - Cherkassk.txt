@@ -1,7 +1,7 @@
 #288 - Cherkassk
 owner = CKC
 controller = CKC
-culture = mishary
+culture = cuman
 religion = tengri_pagan_reformed
 base_tax = 3
 base_production = 3

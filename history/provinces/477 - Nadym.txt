@@ -1,7 +1,7 @@
 #477 - Nadym
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kimek
 religion = tengri_pagan_reformed
 capital = "Nadym"
 trade_goods = horses

@@ -1,16 +1,18 @@
 #1075 - Tyumen
 
+owner = CKC
+controller = CKC
+add_core = CKC
+is_city = yes
+hre = no
 capital = "Chimgi-Tura"
 culture = siberian
 religion = tengri_pagan_reformed
 trade_goods = fur
-hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 4
-native_hostileness = 2
-native_size = 40
-native_ferocity = 3
+
 
 
 

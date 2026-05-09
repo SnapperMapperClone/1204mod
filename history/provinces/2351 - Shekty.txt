@@ -1,7 +1,7 @@
 # 2351 - Shekty
 owner = CKC
 controller = CKC
-culture = khazak
+culture = kipchak
 religion = tengri_pagan_reformed
 capital = "Shekty"
 trade_goods = livestock

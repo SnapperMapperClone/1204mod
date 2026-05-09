@@ -1,7 +1,7 @@
 #2409 - Bahmut
 owner = CKC
 controller = CKC
-culture = mishary
+culture = cuman
 religion = tengri_pagan_reformed
 base_tax = 2
 base_production = 2
