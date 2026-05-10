@@ -110,7 +110,6 @@
 2988 = { "Bouches-de-l'Ebre" "Tarragone" }
 103 = { "Pô" "Turin" }
 1875 = { "Stura" "Coni" }
-2992 = { "Montenotte" "Savona" }
 116 = { "Arno" "Florence" }
 117 = { "Ombrone" "Sienne" }
 4731 = { "Trasimène" "Spolète" }

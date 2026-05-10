@@ -1,0 +1,15 @@
+add_core = LDI
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = LDI
+culture = lombard
+religion = catholic
+hre = yes
+controller = LDI
+is_city = yes
+trade_goods = grain
+base_tax = 4
+base_manpower = 3
+base_production = 4

@@ -42,10 +42,10 @@ balkan_region = {
 	}
 }
 
-south_german_region = { 
+arabia_region = { 
 	areas = { 
-		tirol_area austria_proper_area inner_austria_area switzerland_area lower_bavaria_area upper_bavaria_area east_bavaria_area franconia_area upper_franconia_area lower_swabia_area
-		upper_swabia_area upper_rhineland_area romandie_area palatinate_area alsace_area 
+		tabuk_area medina_area mecca_area asir_area tihama_al_yemen_area upper_yemen_area yemen_area mahra_area hadramut_area bahrain_area
+		oman_area pirate_coast_area dhofar_area mascat_area qasim_area yamamah_area nafud_area 
 	}
 }
 
@@ -155,12 +155,7 @@ caucasia_region = {
 		circassia_area shirvan_area armenia_area dagestan_area imereti_area samtskhe_area kartli_kakheti_area 
 	}
 }
-arabia_region = { 
-	areas = { 
-		tabuk_area medina_area mecca_area asir_area tihama_al_yemen_area upper_yemen_area yemen_area mahra_area hadramut_area bahrain_area
-		oman_area pirate_coast_area dhofar_area mascat_area qasim_area yamamah_area nafud_area 
-	}
-}
+
 niger_region = { 
 	areas = { 
 		adamawa_plateau_area lower_niger_area hausa_area katsina_area zazzau_area upper_volta_area atacora_oueme_area lower_volta_area kong_area massina_area

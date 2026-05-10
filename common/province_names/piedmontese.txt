@@ -5,3 +5,5 @@
 2979 = { "Noara" "Novara" }
 5065 = { "Ivrèja" "Ivrèja" }
 5078 = { "Vërsèj" "Vërsèj" }
+4970 = { "Torton-a" "Torton-a" }
+4972 = { "Savon-a" "Savon-a" }

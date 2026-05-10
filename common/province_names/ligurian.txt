@@ -1,2 +1,3 @@
 101 = { "Zêna" "Zêna" }
 2992 = { "Arbenga" "Arbenga" }
+4972 = { "Saña" "Saña" }

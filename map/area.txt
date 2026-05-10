@@ -405,20 +405,20 @@ macaronesia_area = {  #3
 ########################################
 venetia_area = {  #5
 
-	111 112 1774 4729 
+	111 112 4729 1774 5070 
 }
 lombardy_area = {  #5
 
-	104 1862 4728 4740 
+	1862 4740 104 4969 
 }
 po_valley_area = {  #3
 
 	color = { 205 190 47 }
-	109 4739 107 
+	109 107 4739 4974 
 }
 piedmont_area = {  #4
 
-	1875 2981 4727 103 
+	4727 4971 1875 103 4970 
 }
 tuscany_area = {  #5
 
@@ -426,7 +426,7 @@ tuscany_area = {  #5
 }
 liguria_area = {  #3
 
-	101 102 2992 
+	101 102 2992 4972 4973 
 }
 corsica_sardinia_area = {  #4
 
@@ -459,7 +459,7 @@ apulia_area = {  #4
 emilia_romagna_area = {  #5
 
 	color = { 24 222 66 }
-	113 4730 114 5070 5071 
+	113 4730 114 5071 
 }
 central_italy_area = {  #3
 
@@ -917,7 +917,7 @@ hinter_pommern_area = {  #3
 }
 tirol_area = {  #5
 
-	73 110 1768 4710 4758 
+	73 1768 4710 4758 
 }
 austria_proper_area = {  #5
 
@@ -1023,7 +1023,7 @@ northern_greece_area = {  #3 #Northern Greece
 }
 thrace_area = {  #5
 
-	149 151 4779 4705 4955 4961
+	149 151 4779 4705 4955 4961 
 }
 eastern_rumelia_area = { 
 	1764 2750 4958 4959 4960 
@@ -1119,7 +1119,7 @@ shirvan_area = {  #5 #Northern Azerbaijan
 }
 circassia_area = {  #4
 
-	463 2201 2195 2197 5086
+	463 2201 2195 2197 
 }
 dagestan_area = {  #5
 
@@ -1134,10 +1134,10 @@ rum_area = {  #5
 }
 erzurum_area = {  #3	Erzurum and Trebizond
 
-	331 2305 4178
+	331 2305 4178 
 }
-trebizond_area = {
-	330 4962 4963
+trebizond_area = { 
+	330 4962 4963 
 }
 hudavendigar_area = {  #3
 
@@ -1146,21 +1146,21 @@ hudavendigar_area = {  #3
 germiyan_area = {  #4
 
 	color = { 234 145 65 }
-	322 1848 4308 4965 4968
+	322 1848 4308 4965 4968 
 }
 aydin_area = {  #5
 
 	color = { 239 70 86 }
-	318 319 2297 2298 4309 4966
+	318 319 2297 2298 4309 4966 
 }
 ankara_area = {  #3
 
 	color = { 57 154 172 }
-	326 4312 4313 4311
+	326 4312 4313 4311 
 }
 kastamonu_area = {  #4
 
-	325 328 2299 2304 4964
+	325 328 2299 2304 4964 
 }
 karaman_area = {  #4
 
@@ -1169,7 +1169,7 @@ karaman_area = {  #4
 cukurova_area = {  #3
 
 	color = { 50 177 200 }
-	321 327 2302 4967
+	321 327 2302 4967 
 }
 aleppo_area = {  #4
 
@@ -3675,7 +3675,7 @@ apennine_tuscany_area = {
 	116 5067 2978 
 }
 alpine_venetia_area = { 
-	5061 5060 108 
+	5060 108 5061 110 
 }
 upper_brittany_area = { 
 	4384 172 171 
@@ -3687,7 +3687,7 @@ umbria_area = {
 	2976 5073 4731 5074 
 }
 pennine_piedmont_area = { 
-	5065 2979 5078 
+	2979 5078 4728 5065 2981 
 }
 pyrenean_catalonia_area = { 
 	2987 5080 197 

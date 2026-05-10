@@ -833,6 +833,18 @@
  PROV_ADJ5081: "Alpine"
  PROV5082: "Senj"
  PROV_ADJ5082: "Senjian"
+ PROV4969: "Lodi"
+ PROV_ADJ4969: "Lodian"
+ PROV4970: "Tortona"
+ PROV_ADJ4970: "Tortonan"
+ PROV4971: "Asti"
+ PROV_ADJ4971: "Astian"
+ PROV4972: "Savona"
+ PROV_ADJ4972: "Savonan"
+ PROV4973: "Rapallo"
+ PROV_ADJ4973: "Rapallan"
+ PROV4974: "Sondrio"
+ PROV_ADJ4974: "Sondrian"
  
 
 

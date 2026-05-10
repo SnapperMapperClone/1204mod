@@ -197,3 +197,4 @@
 5011 = "Ypern"
 5013 = "Löwen"
 5082 = { "Zengg" "Zengg" }
+4974 = { "Sünders" "Sünders" }

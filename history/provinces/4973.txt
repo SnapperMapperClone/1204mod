@@ -1,0 +1,15 @@
+add_core = GEN
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = GEN
+culture = ligurian
+religion = catholic
+hre = yes
+controller = GEN
+is_city = yes
+trade_goods = naval_supplies
+base_tax = 4
+base_manpower = 2
+base_production = 4

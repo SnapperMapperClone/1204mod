@@ -1,0 +1,15 @@
+add_core = SDI
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = SDI
+base_tax = 2
+base_manpower = 2
+base_production = 2
+culture = lombard
+trade_goods = livestock
+religion = catholic
+controller = SDI
+is_city = yes
+hre = yes
