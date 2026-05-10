@@ -8,7 +8,6 @@ owner = VEN
 culture = venetian
 controller = VEN
 trade_goods = fish
-hre = yes
 base_tax = 4
 base_manpower = 3
 base_production = 4
