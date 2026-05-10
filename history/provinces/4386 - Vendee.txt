@@ -20,3 +20,4 @@ extra_cost = 8
 1652.10.21 = { controller = FRA revolt = { size = 1 } }
 1686.1.17 = { religion = Catholic }
 add_core = GUY
+add_core = POI
