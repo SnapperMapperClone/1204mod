@@ -95,3 +95,36 @@ revolution_wargoal = {
 		}
 	}
 }
+
+recover_royal_demesne_wg = {
+	type = superiority
+	
+	attacker = {
+		badboy_factor = 0.1
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+
+		allowed_provinces = {
+			has_province_flag = royal_demesne_flag
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+	
+	
+	defender = {
+		badboy_factor = 0.1
+		prestige_factor = 1
+		peace_cost_factor = 0.5
+
+		allowed_provinces = {
+			has_province_flag = royal_demesne_flag
+		}
+
+		peace_options = {
+			po_demand_provinces
+		}
+	}
+}

@@ -1,12 +1,9 @@
-
-
 owner = TOU
 controller = TOU
 culture = occitain
 religion = cathar
 capital = "Beziers"
 trade_goods = wine
-hre = no
 base_tax = 8
 base_production = 8
 base_manpower = 4
@@ -16,4 +13,3 @@ discovered_by = western
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = muslim
-

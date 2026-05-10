@@ -32,12 +32,12 @@ historical_units = {
 	napoleonic_lancers
 }
 monarch_names = { 
-	"Louis #10" = 160
-	"Charles #5" = 80
-	"Henri #1" = 60
-	"François #0" = 40
-	"Philippe #6" = 10
-	"Jean #2" = 10
+	"Louis #10" = 70
+	"Charles #5" = 40
+	"Henri #1" = 20
+	"François #0" = 10
+	"Philippe #6" = 40
+	"Jean #2" = 15
 	"Gaston #0" = 10
 	"Nicolas-Henri #0" = 10
 	"Louis-François #0" = 5

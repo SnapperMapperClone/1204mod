@@ -1,12 +1,10 @@
 #317 - Bursa
-
 owner = NIC
 controller = NIC
 culture = asia_minor_greek
 religion = orthodox
 capital = "Prusa"
 trade_goods = silk
-hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 1

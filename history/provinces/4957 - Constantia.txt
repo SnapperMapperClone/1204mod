@@ -1,12 +1,10 @@
 #143 - Vlorë - Southern Albania
-
 owner = BUL
 controller = BUL
 culture = bulgarian
 religion = orthodox
 capital = "Varna"
 trade_goods = fish
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1

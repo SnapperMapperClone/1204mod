@@ -73,3 +73,33 @@ cb_revolution = {
 
 	war_goal = revolution_wargoal
 }
+
+cb_confiscate_territory = {
+	valid_for_subject = no
+
+	prerequisites_self = {
+		is_subject = no
+		OR = {
+			tag = FRA
+			AND = {
+				OR = {
+					tag = ENG
+					has_country_flag = former_appanage_broke_free
+				}
+				FRA = { NOT = { dynasty = "Capet" } }
+			}
+		}
+		government = monarchy
+		government_rank = 3
+	}
+
+	prerequisites = {
+		FROM = {
+			any_owned_province = {
+				has_province_flag = royal_demesne_flag
+			}
+		}
+	}
+
+	war_goal = recover_royal_demesne_wg
+}

@@ -1,12 +1,10 @@
 #143 - Vlorë - Southern Albania
-
 owner = LAT
 controller = LAT
 culture = greek
 religion = orthodox
 capital = "Samos"
 trade_goods = fish
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1

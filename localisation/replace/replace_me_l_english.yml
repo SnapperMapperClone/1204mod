@@ -103,6 +103,11 @@
  TRV: "Treviso"
  TRV_ADJ: "Trevisan"
  
+ trade_company_venice: "Sicilian Charter"
+ trade_company_genua: "Italian Charter"
+ TRADE_COMPANY_GENUA_Root_Culture_GetName: "[Root.Culture.GetName] Italian Company"
+ TRADE_COMPANY_GENUA_European_Trade_Company: "Italian Trade Company"
+ 
  tuscany_area: "Tuscan Littoral"
  emilia_romagna_area: "Romagna"
  lazio_area: "Lazio"
@@ -111,7 +116,9 @@
  languedoc_area: "Upper Languedoc"
 
 
-
+ trade_company_champagne: "Parisian Charter"
+ TRADE_COMPANY_CHAMPAGNE_Root_Culture_GetName: "[Root.Culture.GetName] Parisian Company"
+ TRADE_COMPANY_CHAMPAGNE_European_Trade_Company: "Parisian Trade Company"
  manufactories_date: "1800"
  enlightenment_date: "1650"
  printing_press_date: "1500"

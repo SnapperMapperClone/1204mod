@@ -243,6 +243,10 @@
  RII_ADJ: "Rietian"
  FSN: "Frosinone"
  FSN_ADJ: "Frosinonan"
+ LDY: "Lombardy"
+ LDY_ADJ: "Lombard"
+ lombard_nation_title: "Form Lombardy"
+ lombard_nation_desc: ""
  
  
  TAV: "Tavastia"

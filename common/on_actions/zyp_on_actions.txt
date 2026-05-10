@@ -48,6 +48,18 @@ on_startup = {
 				duration = -1
 			}
 		}
+		every_province = {
+			limit = {
+				owner = {
+					OR = {
+						tag = FRA
+						is_subject_of = FRA
+						is_subject_of = ENG
+					}
+				}
+			}
+			set_province_flag = royal_demesne_flag
+		}
 	}
 }
 
@@ -576,6 +588,7 @@ on_new_term_election = {
 		add_government_reform = signoria_reform
 		if = {
 			limit = {
+				ai = yes
 				is_subject_of_type = league_member
 			}
 			overlord = {

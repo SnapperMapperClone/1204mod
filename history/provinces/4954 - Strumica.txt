@@ -1,12 +1,10 @@
 #143 - Vlorë - Southern Albania
-
 owner = BUL
 controller = BUL
 culture = bulgarian
 religion = orthodox
 capital = "Strumica"
 trade_goods = copper
-hre = no
 base_tax = 1
 base_production = 1
 base_manpower = 1

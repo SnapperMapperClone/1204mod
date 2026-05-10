@@ -1,5 +1,18 @@
 # A province can only belong to one region!
 # random_new_world_region is used for RNW. Must be first in this list.
+scandinavia_region = {
+	areas = { 
+		svealand_area norrland_area gotaland_area skaneland_area jutland_area denmark_area finland_area northern_norway eastern_norway western_norway
+		bothnia_area subarctic_islands_area laponia_area vastra_gotaland_area ostra_svealand_area 
+	}
+}
+
+low_countries_region = { 
+	areas = { 
+		wallonia_area flanders_area holland_area frisia_area brabant_area north_brabant_area 
+	}
+}
+
 france_region = { 
 	areas = { 
 		brittany_area normandy_area provence_area guyenne_area languedoc_area massif_central_area savoy_dauphine_area lorraine_area picardy_area champagne_area
@@ -7,59 +20,62 @@ france_region = {
 		east_normandy_area 
 	}
 }
-scandinavia_region = { 
-	areas = { 
-		svealand_area norrland_area gotaland_area skaneland_area jutland_area denmark_area finland_area northern_norway eastern_norway western_norway
-		bothnia_area subarctic_islands_area laponia_area vastra_gotaland_area ostra_svealand_area 
-	}
-}
-low_countries_region = { 
-	areas = { 
-		wallonia_area flanders_area holland_area frisia_area brabant_area north_brabant_area 
-	}
-}
-italy_region = { 
-	areas = { 
-		venetia_area lombardy_area tuscany_area liguria_area corsica_sardinia_area sicily_area naples_area calabria_area apulia_area emilia_romagna_area
-		central_italy_area lazio_area po_valley_area western_sicily_area emilia_area apennine_tuscany_area alpine_venetia_area umbria_area piedmont_area pennine_piedmont_area
-	}
-}
-north_german_region = { 
-	areas = { 
-		erzgebirge_area south_saxony_area northern_saxony_area thuringia_area neumark_area mittelmark_area vorpommern_area bohemia_area moravia_area hinter_pommern_area
-		north_rhine_area lower_rhineland_area westphalia_area north_westphalia_area hesse_area lower_saxony_area weser_area holstein_area mecklenburg_area braunschweig_area
-		lusatia_area 
-	}
-}
-south_german_region = { 
-	areas = { 
-		tirol_area austria_proper_area inner_austria_area switzerland_area lower_bavaria_area upper_bavaria_area east_bavaria_area franconia_area upper_franconia_area lower_swabia_area
-		upper_swabia_area upper_rhineland_area romandie_area palatinate_area alsace_area 
-	}
-}
+
 russia_region = { 
 	areas = { 
 		moscow_area suzdal_area novgorod_area pskov_area beloozero_area pomor_area karelia_area ryazan_area tambov_area north_karelia
 		tver_area yaroslavl_area vladimir_area oka_area arkhangelsk_area vologda_area 
 	}
 }
+
+south_german_region = { 
+	areas = { 
+		tirol_area austria_proper_area inner_austria_area switzerland_area lower_bavaria_area upper_bavaria_area east_bavaria_area franconia_area upper_franconia_area lower_swabia_area
+		upper_swabia_area upper_rhineland_area romandie_area palatinate_area alsace_area 
+	}
+}
+
+balkan_region = { 
+	areas = { 
+		bulgaria_area macedonia_area vardarska_area northern_greece_area hellas_area morea_area aegean_archipelago_area crete_area thrace_area eastern_rumelia_area
+		albania_area silistria_area 
+	}
+}
+
+south_german_region = { 
+	areas = { 
+		tirol_area austria_proper_area inner_austria_area switzerland_area lower_bavaria_area upper_bavaria_area east_bavaria_area franconia_area upper_franconia_area lower_swabia_area
+		upper_swabia_area upper_rhineland_area romandie_area palatinate_area alsace_area 
+	}
+}
+
 ural_region = { 
 	areas = { 
 		ural_area perm_area kazan_area galich_area saratov_area kama_area bashkiria_area samara_area volga_area 
 	}
 }
-iberia_region = { 
+
+italy_region = { 
 	areas = { 
-		aragon_area valencia_area lower_andalucia_area upper_andalucia_area castille_area toledo_area asturias_area leon_area alentejo_area beieras_area
-		basque_country galicia_area baleares_area extremadura_area pyrenean_catalonia_area catalonia_area 
+		venetia_area lombardy_area tuscany_area liguria_area corsica_sardinia_area sicily_area naples_area calabria_area apulia_area emilia_romagna_area
+		central_italy_area lazio_area po_valley_area western_sicily_area emilia_area apennine_tuscany_area alpine_venetia_area umbria_area piedmont_area pennine_piedmont_area
 	}
 }
+
 british_isles_region = { 
 	areas = { 
 		east_midlands_area west_midlands_area yorkshire_area scottish_marches_area wessex_area home_counties_area east_anglia_area wales_area lowlands_area highlands_area
 		kingdom_of_the_isles_area munster_area connacht_area leinster_area ulster_area 
 	}
 }
+
+iberia_region = { 
+	areas = { 
+		aragon_area valencia_area lower_andalucia_area upper_andalucia_area castille_area toledo_area asturias_area leon_area alentejo_area beieras_area
+		basque_country galicia_area baleares_area extremadura_area pyrenean_catalonia_area catalonia_area 
+	}
+}
+
 baltic_region = { 
 	areas = { 
 		lithuania_area estonia_west_area north_livonia_area estonia_ingria_area curonia_area west_prussia_area east_prussia_area samogitia_area yotvingia_area livonia_area
@@ -82,12 +98,15 @@ crimea_region = {
 		crimea_area lower_don_area astrakhan_area zaporizhia_area yedisan_area azov_area 
 	}
 }
-balkan_region = { 
+
+north_german_region = { 
 	areas = { 
-		bulgaria_area macedonia_area vardarska_area northern_greece_area hellas_area morea_area aegean_archipelago_area crete_area thrace_area eastern_rumelia_area
-		albania_area silistria_area 
+		erzgebirge_area south_saxony_area northern_saxony_area thuringia_area neumark_area mittelmark_area vorpommern_area bohemia_area moravia_area hinter_pommern_area
+		north_rhine_area lower_rhineland_area westphalia_area north_westphalia_area hesse_area lower_saxony_area weser_area holstein_area mecklenburg_area braunschweig_area
+		lusatia_area 
 	}
 }
+
 illyria_region = { 
 	areas = { 
 		croatia_area east_adriatic_coast_area bosnia_area serbia_area rascia_area slavonia_area carinthia_area 
