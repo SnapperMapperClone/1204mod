@@ -5,6 +5,40 @@ add_accepted_culture = highland_scottish
 religion = catholic
 technology_group = western
 capital = 248# Edinburgh
+
+1165.12.9 = {  #Coronation
+
+	monarch = { 
+		name = "William I"
+		dynasty = "Dunkeld"
+		birth_date = 1142.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	queen = { 
+		name = "Ermengarde"
+		dynasty = "de Beaumont"
+		birth_date = 1170.1.1
+		death_date = 1212.1.1
+		female = yes
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+	heir = { 
+		name = "Alexander"
+		monarch_name = "Alexander II"
+		dynasty = "Dunkeld"
+		birth_date = 1196.8.24
+		death_date = 9999.12.31
+		claim = 95
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
 1390.1.1 = { 
 	monarch = { 
 		name = "Robert III"

@@ -4,4 +4,4 @@
 2981 = { "Monfrà" "Monfrà" }
 2979 = { "Noara" "Novara" }
 5065 = { "Biela" "Biela" }
-5078 = { "Borbané" "Borbané" }
+5078 = { "Vërsèj" "Vërsèj" }

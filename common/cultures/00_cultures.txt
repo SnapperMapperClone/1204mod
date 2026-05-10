@@ -164,7 +164,7 @@ french	= {
 		primary = HAI
 	}
 	poitevin = {
-		#primary = POI
+		primary = POI
 	}
 	angevin = {
 		primary = ANJ
