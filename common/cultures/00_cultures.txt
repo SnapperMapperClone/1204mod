@@ -2735,6 +2735,23 @@ iberian	= {
 			Blanche Ant a Branca Carme Catarina Dores Iria L a Margarida Mar a Noela Rosal a Sabela Ux a Xoana
 		}
 	}
+	cordoban = {
+		province = { local_has_caravel = yes local_has_galleon = yes }
+		dynasty_names = {
+			Martinez "de Lara" Diaz "de Haro" "de Velasco" "de Ayala" "de Manrique" Morato "de Sandoval" Enriquez
+			"de Toledo" Pedrez "de Borgonna" "de Avellaneda" "del Zunniga" Alonso "de Guzman" "de Guardiola" F nnez
+			"de Carrioon" "de Vivar" Velasco Ansurez "de Castilla" "de Atoja" "de Aguirre" "de Cisneros" "de Villena"
+			"de Balboa" "de Nebrija" "de Ojeda" "de Rojas" "de la Vega" "de Giroon" Fonseca Mudarra "de Marciena"
+		}
+		male_names = {
+			Gartsia Sancho Alffonso Vermundo Ffernando Enrique Ordonno Ramiro Fruela Bernaldo Pedro Pelayo Juan Fernaan Paulo Matheo
+			Andrees Lope Gomez Vela Antsur Carlos Miguel Diego Jimeno Albaro Blas Cristobal Felipe Victor Tomaas Inacio Jacobo Antonio
+			Jorge Rodrigo Alonso Fadrique
+		}
+		female_names = {
+			Blanca Jimena Aldonza Sancia Teresa Berenguela Elvira Urraca Leonor Mayor Velasquita Beatriz
+		}
+	}
 	andalucian = {
 		primary = GRA
 		province = { local_has_caravel = yes local_has_galleon = yes }

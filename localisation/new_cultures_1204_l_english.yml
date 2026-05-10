@@ -77,7 +77,7 @@
  kumyk:0 "Kumyk"
 
  romaic:0 "Romaic"
- gasmouloi:0 "Gasmouloi"
+ gasmouloi:0 "Gasmoulian"
  rumelian:0 "Rumelian"
  asia_minor_greek:0 "Micrassiatic"
  armenian_new:0 "Armenian"
@@ -99,6 +99,7 @@
  mozarabic:0 "Mozarabic"
  galician_portugese:0 "Galician-Portuguese"
  asturian_leonese:0 "Asturian-Leonese"
+ cordoban:0 "Cordoban"
  byz_hispanian:0 "Hispanian"
 
  septimanian:0 "Septimanian"
