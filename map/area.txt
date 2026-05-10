@@ -1023,7 +1023,7 @@ northern_greece_area = {  #3 #Northern Greece
 }
 thrace_area = {  #5
 
-	149 151 4779 4705 4955 
+	149 151 4779 4705 4955 4961
 }
 eastern_rumelia_area = { 
 	1764 2750 4958 4959 4960 
@@ -1134,7 +1134,10 @@ rum_area = {  #5
 }
 erzurum_area = {  #3	Erzurum and Trebizond
 
-	330 331 2305 4178 
+	331 2305 4178
+}
+trebizond_area = {
+	330 4962 4963
 }
 hudavendigar_area = {  #3
 
@@ -1143,21 +1146,21 @@ hudavendigar_area = {  #3
 germiyan_area = {  #4
 
 	color = { 234 145 65 }
-	322 1848 4308 4311 
+	322 1848 4308 4965 4968
 }
 aydin_area = {  #5
 
 	color = { 239 70 86 }
-	318 319 2297 2298 4309 
+	318 319 2297 2298 4309 4966
 }
 ankara_area = {  #3
 
 	color = { 57 154 172 }
-	326 4312 4313 
+	326 4312 4313 4311
 }
 kastamonu_area = {  #4
 
-	325 328 2299 2304 
+	325 328 2299 2304 4964
 }
 karaman_area = {  #4
 
@@ -1166,7 +1169,7 @@ karaman_area = {  #4
 cukurova_area = {  #3
 
 	color = { 50 177 200 }
-	321 327 2302 
+	321 327 2302 4967
 }
 aleppo_area = {  #4
 

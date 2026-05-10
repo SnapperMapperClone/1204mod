@@ -1,17 +1,17 @@
 #2298 - Tekke
 
-owner = RUM
-controller = RUM
+owner = BYA
+controller = BYA
 culture = asia_minor_greek
 religion = orthodox
-capital = "Adalia"
+capital = "Attaleia"
 trade_goods = cotton
 hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = RUM
+add_core = BYA
 
 
 discovered_by = western
