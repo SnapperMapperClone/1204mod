@@ -1119,7 +1119,7 @@ shirvan_area = {  #5 #Northern Azerbaijan
 }
 circassia_area = {  #4
 
-	463 2201 2195 2197 
+	463 2201 2195 2197 5086
 }
 dagestan_area = {  #5
 
