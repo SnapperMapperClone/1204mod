@@ -1,0 +1,7 @@
+government = monarchy
+primary_culture = nakh
+religion = orthodox
+technology_group = muslim
+capital = 5086
+
+

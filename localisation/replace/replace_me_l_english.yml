@@ -40,6 +40,12 @@
  aegean_archipelago_area:0 "Northern Aegean"
  aegean_archipelago_area_name:0 "Northern Aegean"
  aegean_archipelago_area_adj:0 "Northern Aegean"
+ upper_andalucia_area:0 "Granada"
+ upper_andalucia_area_name:0 "Granada"
+ upper_andalucia_area_adj:0 "Granadan"
+ lower_andalucia_area:0 "Cordoba"
+ lower_andalucia_area_name:0 "Cordoba"
+ lower_andalucia_area_adj:0 "Cordoban"
 
  carpathian:0 "Daco-Roman"
 

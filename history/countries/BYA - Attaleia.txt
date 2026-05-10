@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+primary_culture = asia_minor_greek
+religion = orthodox
+technology_group = eastern
+capital = 2298
+fixed_capital = 2298 # Cannot move capital away from this province & no power cost to move to it
+
+1204.1.1 = {
+	monarch = {
+		name = "Niketas"
+		dynasty = "Choniates"
+		adm = 2
+		dip = 2
+		mil = 2
+	}
+}
+

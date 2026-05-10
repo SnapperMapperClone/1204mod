@@ -65,7 +65,7 @@ province_event = {
 					area = lower_andalucia_area
 				}
 			}
-			change_culture = andalucian
+			change_culture = cordoban
 		}
 		else_if = {
 			limit = {
