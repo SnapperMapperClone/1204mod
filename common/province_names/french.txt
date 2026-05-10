@@ -378,7 +378,7 @@
 224 = { "Séville" "Séville" }
 
 5068 = { "Plaisance" "Plaisance" }
-5065 = { "Bielle" "Bielle" }
+5065 = { "Ivrée" "Ivrée" }
 5062 = { "Reggio d'Émilie"  "Reggio d'Émilie" }
 5061 = { "Vicence" "Vicence" }
 5060 = { "Bellune" "Bellune" }

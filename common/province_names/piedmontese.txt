@@ -3,5 +3,5 @@
 103 = { "Turin" "Turin" }
 2981 = { "Monfrà" "Monfrà" }
 2979 = { "Noara" "Novara" }
-5065 = { "Biela" "Biela" }
+5065 = { "Ivrèja" "Ivrèja" }
 5078 = { "Vërsèj" "Vërsèj" }
