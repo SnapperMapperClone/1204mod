@@ -3,7 +3,7 @@
 owner = DRZ
 controller = DRZ
 culture = nakh
-religion = tengri_pagan_reformed
+religion = orthodox
 capital = "Vainakh"
 trade_goods = livestock
 hre = no

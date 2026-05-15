@@ -710,7 +710,7 @@ zaporizhia_area = {  #3
 }
 azov_area = {  #4
 
-	286 287 2413 2414 
+	286 287 2413 2414 5087
 }
 crimea_area = {  #4
 
@@ -1096,34 +1096,46 @@ transdanubia_area = {  #5
 ########################################
 # Caucasia 							   #
 ########################################
+terek_area = {
+
+	2208 5090 5091
+}
+alania_area = {
+
+	2197 2201 5086 5092
+}
 imereti_area = {  #3
 
-	422 462 1856 
+	422 462 1856 5095 5096
 }
 samtskhe_area = {  #3
 
-	2196 2204 4303 
+	2196 2204 4303 5097 5099
 }
 kartli_kakheti_area = {  #3
 
-	423 2203 4301 
+	423 2203 4301 5100
 }
 armenia_area = {  #5
 
-	420 419 2202 2205 4302 
+	419 2205 2307 4302 5101
 }
 shirvan_area = {  #5 #Northern Azerbaijan
 
 	color = { 225 231 53 }
-	421 4299 4305 4340 
+	421 4299 4305 4340 5103
 }
 circassia_area = {  #4
 
-	463 2201 2195 2197 
+	463 2195 5088 5089 5094
 }
-dagestan_area = {  #5
+dagestan_area = {  #4
 
-	425 2198 2199 2208 4306 
+	425 2198 2199 4306 5093
+}
+artsakh_area = {
+
+	420 2202 5102
 }
 ########################################
 # Anatolia, The Levant & Mesopotamia   #
@@ -1134,10 +1146,10 @@ rum_area = {  #5
 }
 erzurum_area = {  #3	Erzurum and Trebizond
 
-	331 2305 4178 
+	331 2305 2306
 }
 trebizond_area = { 
-	330 4962 4963 
+	330 4178 4962 4963 5098
 }
 hudavendigar_area = {  #3
 
@@ -1206,7 +1218,7 @@ luristan_area = {  #4
 }
 north_kurdistan_area = {  #5
 
-	418 2306 2307 4295 4296 
+	418 4295 4296 
 }
 khuzestan_area = {  #5
 
