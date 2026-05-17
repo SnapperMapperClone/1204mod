@@ -1,4 +1,5 @@
-government = monarchy
+government = tribal
+add_government_reform = tribal_kingdom
 primary_culture = nakh
 religion = orthodox
 technology_group = muslim

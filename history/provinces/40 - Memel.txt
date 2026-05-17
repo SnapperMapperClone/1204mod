@@ -1,6 +1,6 @@
 #40 - Memel
-owner = TEU
-controller = TEU
+owner = SKV
+controller = SKV
 culture = pruthenian
 religion = baltic_pagan_reformed
 capital = "Memel"
@@ -9,7 +9,7 @@ base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = TEU
+add_core = SKV
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

@@ -1,7 +1,7 @@
 #Kurland, center at Goldingen
-owner = KUR
-controller = KUR
-add_core = KUR
+owner = VNM
+controller = VNM
+add_core = VNM
 culture = livonian
 religion = finnish_pagan_reformed
 base_tax = 1

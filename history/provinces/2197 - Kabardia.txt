@@ -1,18 +1,24 @@
+#2197 - Kabardia
 
-owner = ZIC
-controller = ZIC
-culture = circassian
+owner = OSE
+controller = OSE
+culture = alan
 religion = orthodox
-capital = "Siba"
-trade_goods = livestock
+capital = "Nalchik"
+trade_goods = wool
 hre = no
 base_tax = 1 
 base_production = 1
-base_manpower = 1
+base_manpower = 2
 is_city = yes
-add_core = ZIC
+add_core = OSE
+
+
+
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
 discovered_by = nomad_group
+
+

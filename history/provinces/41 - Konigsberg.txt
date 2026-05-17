@@ -1,6 +1,6 @@
 #41 - Königsberg
-owner = TEU
-controller = TEU
+owner = PTH
+controller = PTH
 capital = "Königsberg"
 culture = pruthenian
 religion = baltic_pagan_reformed
@@ -9,7 +9,7 @@ base_tax = 5
 base_production = 5
 base_manpower = 3
 is_city = yes
-add_core = TEU
+add_core = PTH
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

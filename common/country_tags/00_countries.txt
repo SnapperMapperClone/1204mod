@@ -1102,6 +1102,8 @@ PTH = "countries/Pruthenia.txt"
 CLC = "countries/Cilicia.txt"
 AHL = "countries/Ahlat.txt"
 DRZ = "countries/Chechnya.txt"
+OSE = "countries/Alania.txt"
+ZIC = "countries/Zichia.txt"
 #MIDDLE EAST
 AYB = "countries/AyyubidSultanate.txt"
 ABA = "countries/Abbasids.txt"
