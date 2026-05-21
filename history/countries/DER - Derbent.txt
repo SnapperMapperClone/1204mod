@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = lezgic
+religion = sunni
+technology_group = muslim
+capital = 425
+religious_school = shafii_school

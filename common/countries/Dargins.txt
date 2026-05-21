@@ -1,0 +1,5 @@
+
+graphical_culture = muslimgfx
+
+color = { 39 117 52 }
+

@@ -1,6 +1,6 @@
 
-owner = GEO
-controller = GEO
+owner = UTI
+controller = UTI
 culture = armenian
 religion = coptic
 capital = "Utik"
@@ -10,7 +10,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 2
 is_city = yes
-add_core = GEO
+add_core = UTI
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
