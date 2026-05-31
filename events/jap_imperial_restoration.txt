@@ -28,5 +28,12 @@ country_event = {
 	option = {
  		name = jap_imperial_restoration.1.b
 		add_stability = -3
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				has_age_ability = ab_jap_imperial_restoration
+			}
+		}
 	}
 }

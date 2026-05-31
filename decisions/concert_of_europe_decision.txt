@@ -1,0 +1,58 @@
+country_decisions = {
+
+	concert_of_europe_decision = {
+		major = yes
+		potential = {
+			capital_scope = {
+				continent = europe
+			}
+			has_country_flag = had_revolution
+		}
+		
+		allow = {
+			is_revolutionary = no
+			OR = {
+				calc_true_if = {
+					amount = 4
+					all_country = {
+						is_great_power = yes
+						custom_trigger_tooltip = {
+							tooltip = had_revolution_tt
+							has_country_flag = had_revolution
+						}
+						is_revolutionary = no
+						capital_scope = {
+							continent = europe
+						}
+						NOT = {
+							has_disaster = revolution
+						}
+					}
+				}
+				calc_true_if = {
+					amount = 50
+					all_country = {
+						custom_trigger_tooltip = {
+							tooltip = had_revolution_tt
+							has_country_flag = had_revolution
+						}
+						is_revolutionary = no
+						capital_scope = {
+							continent = europe
+						}
+						NOT = {
+							has_disaster = revolution
+						}
+					}
+				}
+				current_age = age_of_industrialization
+			}
+		}
+		effect = {
+			set_global_flag = concert_of_europe
+		}
+		ai_will_do = {
+			factor = 400
+		}
+	}
+}

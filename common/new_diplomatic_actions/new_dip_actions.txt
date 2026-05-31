@@ -1,4 +1,4 @@
-assassinate_ruler =  {
+assassinate_ruler = {
 	category = covert
 	require_acceptance = no
 	is_visible = {
@@ -80,7 +80,7 @@ assassinate_ruler =  {
 	}
 }
 
-join_league =  {
+join_league = {
 	category = alliance
 	require_acceptance = no
 	is_visible = {
@@ -144,7 +144,7 @@ join_league =  {
 	}
 }
 
-leave_league =  {
+leave_league = {
 	category = alliance
 	require_acceptance = no
 	is_visible = {
@@ -177,5 +177,71 @@ leave_league =  {
 	}
 	ai_will_do = {
 		liberty_desire = 50
+	}
+}
+
+war_intervention = {
+	category = great_powers
+	require_acceptance = no
+	is_visible = {
+		has_global_flag = concert_of_europe
+	}
+	is_allowed = {
+		FROM = {
+			same_continent = ROOT
+			OR = {
+				is_in_war = {
+					defenders = FROM
+					duration = 800
+				}
+				is_in_war = {
+					attackers = FROM
+					duration = 800
+				}
+			}
+		}
+		OR = {
+			AND = {
+				is_revolutionary = yes
+				FROM = {
+					is_revolutionary = yes
+				}
+			}
+			AND = {
+				is_revolutionary = no
+				FROM = {
+					is_revolutionary = no
+				}
+			}
+		}
+	}
+	
+	on_accept = {
+		join_all_offensive_wars_of = FROM
+		join_all_defensive_wars_of = FROM
+	}
+	ai_will_do = {
+		OR = {
+			has_opinion = {
+				who = FROM
+				value = 100
+			}
+			FROM = {
+				any_war_enemy_country = {
+					OR = {
+						is_rival = ROOT
+						is_enemy = ROOT
+					}
+				}
+			}
+			FROM = {
+				any_neighbor_country = {
+					OR = {
+						is_rival = ROOT
+						is_enemy = ROOT
+					}
+				}
+			}
+		}
 	}
 }

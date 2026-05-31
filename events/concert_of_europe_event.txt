@@ -1,0 +1,33 @@
+namespace = concert_of_europe_event
+
+#Carthagenian
+country_event = {
+	id = concert_of_europe_event.1
+	title = concert_of_europe_event.1.t
+	desc = concert_of_europe_event.1.d
+	picture = CIVIL_WAR_eventPicture
+
+	is_triggered_only = yes
+	major = yes
+
+	option = {
+		name = concert_of_europe_event.1.a
+		add_prestige = 100
+		add_adm_power = 100
+		add_dip_power = 100
+		add_mil_power = 100
+		if = {
+			limit = {
+				any_province = {
+					is_center_of_revolution = yes
+				}
+			}
+			random_province = {
+				limit = {
+					is_center_of_revolution = yes
+				}
+				remove_center_of_revolution = yes
+			}
+		}
+	}
+}

@@ -2191,6 +2191,14 @@ latin = {
 
 	italian_culture = {
 		primary = NIT
+
+		male_names = {
+			Camillo Luigi Urbano Alfonso Bettino Benedetto Giuseppe Tommaso Francesco Paolo Ivanoe Mario Amintore Antonio
+		}
+
+		dynasty_names = {
+			"di Cavour" "Ricasoli" "Rattazzi" "Farini" "Minghetti" "La Marmora" "Menabrea" "Lanza" "Cairoli" "Crispi" "di Rudini" "Saracco" "Sonnino" "Salandra" "Bonomi" "Pella" "Fanfani" "Scelba" "Segni"
+		}
 	}
 
 	neapolitan = {

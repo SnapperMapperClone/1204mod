@@ -445,6 +445,12 @@
  military_culture_leader_modifier: "Militaristic Culture Leader"
 
 
+
+
+ war_intervention_title: "Intervene in Wars"
+ war_intervention_desc: "We will intervene in [From.GetName]'s wars, which we have not already participated in, on their side."
+ war_intervention_tooltip: "We will intervene in [From.GetName]'s wars, which we have not already participated in, on their side."
+
  join_league_title: "Join League"
  join_league_desc: "We will offer to join [From.GetName]'s League."
  join_league_tooltip: "We will offer to join [From.GetName]'s League."
@@ -659,6 +665,25 @@
  birthplace_of_quarantine: "Birthplace of Quarantine Protocols"
  birthplace_of_commercial_revolution: "Birthplace of the Commercial Revolution"
  birthplace_of_electrification: "Birthplace of Electrification"
+ 
+ age_of_feudalism: "Age of Feudalism"
+ age_of_feudalism_desc: "desc"
+ age_of_renaissance: "Age of Renaissance"
+ age_of_renaissance_desc: "desc"
+ age_of_industrialization: "Age of Industrialization"
+ age_of_industrialization_desc: ""
+
+ urbanization_tt: "§YGives us Rural Flight development transfers more often.§!"
+ 15_provs_in_capital_region: "§YOwn Fifteen Provinces in the Capital Region.§!"
+ had_revolution_tt: "§YHas had the Revolution Disaster.§!"
+
+ concert_of_europe_decision_title: "Enact the Concert of Europe"
+ concert_of_europe_decision_desc: ""
+ 
+ concert_of_europe_event.1.t: "The Concert of Europe"
+ concert_of_europe_event.1.d: "With the Revolution's expansion halted for now the conservative states in Europe elected to operate in unison to prevent a major diplomatic crisis. With this, liberal or nationalist movements will see difficulty expanding beyond their current bounds."
+ concert_of_europe_event.1.a: "This peace will last, though not forever."
+ CONCERT_OF_EUROPE_TT: "§RWhile the Concert of Europe is active, we cannot engage in non-nationalist wars for fifty years.§!"
 
 
 
@@ -677,6 +702,8 @@
  italian_communes: "Italian Commune"
  italian_communes_desc: "These were independent municipalities before a shift in politics overcame the Italian region and these states would as a consequence become the Signorias of Italy."
  COMMUNE: "Commune"
+ 
+ is_ita_tooltip: "§YIs Italy§!"
 
  alpine_venetia_area: "Dolomites"
  apennine_tuscany_area: "Apennine Tuscany"

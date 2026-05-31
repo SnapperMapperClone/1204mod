@@ -434,6 +434,7 @@ on_annexed = {
 on_new_monarch = {
 	if = {
 		limit = {
+			government = monarchy
 			NOT = {
 				has_ruler_flag = is_heir_flag
 			}

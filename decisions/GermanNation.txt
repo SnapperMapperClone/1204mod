@@ -94,11 +94,12 @@ country_decisions = {
 				}
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				value = 65
-				OR = {
-					region = north_german_region
-					region = south_german_region
-				}
+				value = 30
+				region = north_german_region
+			}
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 30
+				region = south_german_region
 			}
 		}
 		effect = {
