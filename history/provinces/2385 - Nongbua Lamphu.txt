@@ -2,7 +2,7 @@
 owner = KHM
 controller = KHM
 culture = lao
-religion = buddhism
+religion = mahayana
 capital = "Nongbua Lamphu"
 trade_goods = rice
 base_tax = 2

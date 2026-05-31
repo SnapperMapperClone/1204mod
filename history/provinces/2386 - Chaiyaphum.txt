@@ -2,7 +2,7 @@
 owner = KHM
 controller = KHM
 culture = khmer
-religion = buddhism
+religion = mahayana
 capital = "Chaiyaphum"
 trade_goods = rice
 base_tax = 2

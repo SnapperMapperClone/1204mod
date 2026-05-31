@@ -1,10 +1,10 @@
-#1844 - Xiankhouang
+#2379 - Battambang
 owner = KHM
 controller = KHM
-culture = lao
+culture = khmer
 religion = mahayana
-capital = "Muang Khoun"
-trade_goods = rice
+capital = "Battambang"
+trade_goods = ivory
 base_tax = 2
 base_production = 2
 base_manpower = 2
@@ -12,3 +12,6 @@ is_city = yes
 add_core = KHM
 discovered_by = chinese
 discovered_by = indian
+1795.1.1 = { 
+	controller = AYU
+}
