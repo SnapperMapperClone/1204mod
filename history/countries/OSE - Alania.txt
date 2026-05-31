@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudal_nobility
+primary_culture = alan
+religion = orthodox
+technology_group = eastern
+capital = 2201
+
+

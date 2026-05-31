@@ -6,13 +6,4 @@ technology_group = eastern
 capital = 423 # T'bilisi
 add_historical_friend = TRE
 
-1399.1.1 = {
-	monarch = {
-		name = "Giorgi VII"
-		dynasty = "Bagrationi"
-		adm = 0
-		dip = 1
-		mil = 0
-	}
-}
 

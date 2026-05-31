@@ -1,7 +1,7 @@
 #273 - Livland
-owner = SKL
-controller = SKL
-add_core = SKL
+owner = MTP
+controller = MTP
+add_core = MTP
 religion = finnish_pagan_reformed
 culture = livonian
 capital = "Fellin"

@@ -1,7 +1,7 @@
 #Narva
-owner = VIR
-controller = VIR
-add_core = VIR
+owner = VAI
+controller = VAI
+add_core = VAI
 culture = estonian
 religion = finnish_pagan_reformed
 base_tax = 1

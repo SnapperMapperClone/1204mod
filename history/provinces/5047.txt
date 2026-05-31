@@ -1,7 +1,7 @@
 #4241 - Wenden
-owner = LTG
-controller = LTG
-add_core = LTG
+owner = SEL
+controller = SEL
+add_core = SEL
 culture = latvian
 religion = baltic_pagan_reformed
 capital = "Wenden"

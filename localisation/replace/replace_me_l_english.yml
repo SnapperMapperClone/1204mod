@@ -115,10 +115,22 @@
  PROV204: "Grenoble"
  PROV189: "Nancy"
  PROV170: "Léon"
+ PROV4306: "Kubachi"
+ PROV_ADJ4306: "Kubachian"
+ PROV425: "Derbent"
+ PROV_ADJ425: "Derbentian"
+ PROV1856: "Anacopia"
+ PROV_ADJ1856: "Anacopian"
+ PROV2195: "Tuapse"
+ PROV_ADJ2195: "Tuapse"
+ PROV463: "Maykop"
+ PROV_ADJ463: "Maykopian"
 
  PROV4737: "Agrigento"
  
  PROV721: "Aurag"
+ 
+ PROV4302: "Daruynk"
  
  bourgogne_area: "Franche-Comté"
  west_burgundy_area: "Burgundy"
@@ -134,6 +146,8 @@
  
  TRV: "Treviso"
  TRV_ADJ: "Trevisan"
+ GAZ: "Shamkhalate"
+ GAZ_ADJ: "Shamkhal"
  
  trade_company_venice: "Sicilian Charter"
  trade_company_genua: "Italian Charter"

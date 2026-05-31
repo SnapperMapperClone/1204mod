@@ -1,7 +1,7 @@
 #40 - Memel
-owner = TEU
-controller = TEU
-culture = pruthenian
+owner = CUR
+controller = CUR
+culture = curonian
 religion = baltic_pagan_reformed
 capital = "Memel"
 trade_goods = livestock
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = TEU
+add_core = CUR
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
