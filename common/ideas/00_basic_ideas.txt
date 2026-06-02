@@ -1903,10 +1903,6 @@ mercenary_ideas = {
 		possible_condottieri = 1 
 	}
 
-	trigger = {
-		adm_tech = 12
-	}
-
 	organised_mercenary_payment = {
 		mercenary_cost = -0.25
 	}

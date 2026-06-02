@@ -4,8 +4,7 @@ country_decisions = {
 		potential = {
 			treasury = 500
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -60,8 +59,7 @@ country_decisions = {
 		potential = {
 			treasury = 1000
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -128,8 +126,7 @@ country_decisions = {
 		potential = {
 			treasury = 500
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -184,8 +181,7 @@ country_decisions = {
 		potential = {
 			treasury = 1000
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -243,8 +239,7 @@ country_decisions = {
 		potential = {
 			treasury = 500
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -299,8 +294,7 @@ country_decisions = {
 		potential = {
 			treasury = 1000
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -364,8 +358,7 @@ country_decisions = {
 		potential = {
 			treasury = 1000
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -431,8 +424,7 @@ country_decisions = {
 		potential = {
 			treasury = 750
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -551,8 +543,7 @@ country_decisions = {
 		potential = {
 			treasury = 1000
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -619,8 +610,7 @@ country_decisions = {
 		potential = {
 			treasury = 500
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -677,8 +667,7 @@ country_decisions = {
 		potential = {
 			treasury = 500
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -791,8 +780,7 @@ country_decisions = {
 		potential = {
 			treasury = 1000
 			num_of_cities = 5
-			#ai = yes
-			always = yes
+			ai = yes
 		}
 		
 		allow = {
