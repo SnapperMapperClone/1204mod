@@ -78,7 +78,43 @@ spriteTypes = {
 		name = "GFX_marriage_indicator"
 		texturefile = "gfx//interface//countrydipview_marriage_indicator.dds"
 	}
-
+	
+	
+	spriteType = {
+		name = "GFX_idea_urban_ideas"
+		texturefile = "gfx//interface//ideas//idea_urban_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_agriculture_ideas"
+		texturefile = "gfx//interface//ideas//idea_agriculture_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_dynastic_ideas"
+		texturefile = "gfx//interface//ideas//idea_dynastic_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_market_ideas"
+		texturefile = "gfx//interface//ideas//idea_market_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
+	spriteType = {
+		name = "GFX_idea_professional_ideas"
+		texturefile = "gfx//interface//ideas//idea_professional_ideas.dds"
+		noOfFrames = 1
+		
+		effectFile = "gfx/FX/buttonstate_linear.lua"
+	}
 
 	spriteType = {
 		name = "GFX_mongol_empire_bg"

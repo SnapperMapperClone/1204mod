@@ -34,6 +34,9 @@ on_startup = {
 			save_global_event_target_as = culture_leader_six
 		}
 		every_country = {
+			add_yearly_manpower = 10
+		}
+		every_country = {
 			limit = {
 				has_heir = yes
 			}

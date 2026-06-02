@@ -20,6 +20,7 @@ change_estate_land_share = {
 	estate = estate_burghers
 	share = -5
 }
+set_estate_privilege = estate_nobles_french_strong_duchies
 add_truce_with = ENG
 add_rival = ENG
 1179.11.1 = { 

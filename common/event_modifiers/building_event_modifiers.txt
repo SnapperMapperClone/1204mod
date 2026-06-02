@@ -269,40 +269,40 @@ drydock_modifier_iv = {
 
 
 armory_modifier_i = {
-	land_forcelimit = 5
+	land_forcelimit = 2
 }
 armory_modifier_ii = {
-	land_forcelimit = 5
+	land_forcelimit = 2
 }
 armory_modifier_iii = {
-	land_forcelimit = 5
+	land_forcelimit = 2
 }
 armory_modifier_iv = {
-	land_forcelimit = 5
+	land_forcelimit = 2
 }
 
 regimental_camp_modifier_i = {
-	land_forcelimit = 10
+	land_forcelimit = 4
 }
 regimental_camp_modifier_ii = {
-	land_forcelimit = 10
+	land_forcelimit = 4
 }
 regimental_camp_modifier_iii = {
-	land_forcelimit = 10
+	land_forcelimit = 4
 }
 regimental_camp_modifier_iv = {
-	land_forcelimit = 10
+	land_forcelimit = 4
 }
 
 conscription_center_modifier_i = {
-	land_forcelimit = 25
+	land_forcelimit = 10
 }
 conscription_center_modifier_ii = {
-	land_forcelimit = 25
+	land_forcelimit = 10
 }
 conscription_center_modifier_iii = {
-	land_forcelimit = 25
+	land_forcelimit = 10
 }
 conscription_center_modifier_iv = {
-	land_forcelimit = 25
+	land_forcelimit = 10
 }

@@ -1,0 +1,845 @@
+country_decisions = {
+
+	building_do_while_loop_temple_dec = {
+		potential = {
+			treasury = 500
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 500
+			any_owned_province = {
+				can_build = temple
+				NOT = {
+					has_building = temple
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = temple
+						NOT = {
+							has_building = temple
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = temple
+						NOT = {
+							has_building = temple
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = temple
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	building_do_while_loop_cathedral_dec = {
+		potential = {
+			treasury = 1000
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 1000
+			any_owned_province = {
+				can_build = cathedral
+				NOT = {
+					has_building = cathedral
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 750
+					any_owned_province = {
+						can_build = cathedral
+						NOT = {
+							has_building = cathedral
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = cathedral
+						NOT = {
+							has_building = cathedral
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					owner = {
+						add_treasury = -200
+					}
+					cathedral_construction_assessment = yes
+					if = {
+						limit = {
+							has_province_modifier = cathedral_modifier_iv
+						}
+						add_building_construction = {
+							building = cathedral
+							cost = 0.9
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#state maintenance
+
+	building_do_while_loop_courthouse_dec = {
+		potential = {
+			treasury = 500
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 500
+			any_owned_province = {
+				can_build = courthouse
+				NOT = {
+					has_building = courthouse
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = courthouse
+						NOT = {
+							has_building = courthouse
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = courthouse
+						NOT = {
+							has_building = courthouse
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = courthouse
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	building_do_while_loop_town_hall_dec = {
+		potential = {
+			treasury = 1000
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 1000
+			any_owned_province = {
+				can_build = town_hall
+				NOT = {
+					has_building = town_hall
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = town_hall
+						NOT = {
+							has_building = town_hall
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = town_hall
+						NOT = {
+							has_building = town_hall
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = town_hall
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#production
+
+	building_do_while_loop_bell_tower_dec = {
+		potential = {
+			treasury = 500
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 500
+			any_owned_province = {
+				can_build = bell_tower
+				NOT = {
+					has_building = bell_tower
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = bell_tower
+						NOT = {
+							has_building = bell_tower
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = bell_tower
+						NOT = {
+							has_building = bell_tower
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = bell_tower
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	building_do_while_loop_workshop_dec = {
+		potential = {
+			treasury = 1000
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 1000
+			any_owned_province = {
+				can_build = workshop
+				NOT = {
+					has_building = workshop
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 1000
+					any_owned_province = {
+						can_build = workshop
+						NOT = {
+							has_building = workshop
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = workshop
+						NOT = {
+							has_building = workshop
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					owner = {
+						add_treasury = -200
+					}
+					workshop_construction_assessment = yes
+					if = {
+						limit = {
+							has_province_modifier = workshop_modifier_iv
+						}
+						add_building_construction = {
+							building = workshop
+							cost = 0.9
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	building_do_while_loop_counting_house_dec = {
+		potential = {
+			treasury = 1000
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 1000
+			any_owned_province = {
+				can_build = counting_house
+				NOT = {
+					has_building = counting_house
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 1000
+					any_owned_province = {
+						can_build = counting_house
+						NOT = {
+							has_building = counting_house
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = counting_house
+						NOT = {
+							has_building = counting_house
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					owner = {
+						add_treasury = -200
+					}
+					counting_house_construction_assessment = yes
+					if = {
+						limit = {
+							has_province_modifier = counting_house_modifier_iv
+						}
+						add_building_construction = {
+							building = counting_house
+							cost = 0.9
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#land forcelimit
+
+	building_do_while_loop_armory_dec = {
+		potential = {
+			treasury = 750
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 750
+			any_owned_province = {
+				can_build = armory
+				NOT = {
+					has_building = armory
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 750
+					any_owned_province = {
+						can_build = armory
+						NOT = {
+							has_building = armory
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = armory
+						NOT = {
+							has_building = armory
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = armory
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	building_do_while_loop_regiment_camp_dec = {
+		potential = {
+			treasury = 750
+			num_of_cities = 5
+			#ai = yes
+		}
+		
+		allow = {
+			treasury = 750
+			any_owned_province = {
+				can_build = regimental_camp
+				NOT = {
+					has_building = regimental_camp
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 750
+					any_owned_province = {
+						can_build = regimental_camp
+						NOT = {
+							has_building = regimental_camp
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = regimental_camp
+						NOT = {
+							has_building = regimental_camp
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					owner = {
+						add_treasury = -150
+					}
+					regimental_camp_construction_assessment = yes
+					if = {
+						limit = {
+							has_province_modifier = regimental_camp_modifier_iv
+						}
+						add_building_construction = {
+							building = regimental_camp
+							cost = 0.9
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	building_do_while_loop_conscription_center_dec = {
+		potential = {
+			treasury = 1000
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 1000
+			any_owned_province = {
+				can_build = conscription_center
+				NOT = {
+					has_building = conscription_center
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 1000
+					any_owned_province = {
+						can_build = conscription_center
+						NOT = {
+							has_building = conscription_center
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = conscription_center
+						NOT = {
+							has_building = conscription_center
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					owner = {
+						add_treasury = -200
+					}
+					conscription_center_construction_assessment = yes
+					if = {
+						limit = {
+							has_province_modifier = conscription_center_modifier_iv
+						}
+						add_building_construction = {
+							building = conscription_center
+							cost = 0.9
+						}
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+	#irrigation
+
+	building_do_while_loop_irrigation_dec = {
+		potential = {
+			treasury = 500
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 500
+			any_owned_province = {
+				can_build = irrigation
+				NOT = {
+					has_building = irrigation
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = irrigation
+						NOT = {
+							has_building = irrigation
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = irrigation
+						NOT = {
+							has_building = irrigation
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = irrigation
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#roads
+
+	building_do_while_loop_dirt_road_dec = {
+		potential = {
+			treasury = 500
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 500
+			any_owned_province = {
+				can_build = dirt_road
+				NOT = {
+					has_building = dirt_road
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = dirt_road
+						NOT = {
+							has_building = dirt_road
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = dirt_road
+						NOT = {
+							has_building = dirt_road
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = dirt_road
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	building_do_while_loop_paved_road_dec = {
+		potential = {
+			treasury = 500
+			num_of_cities = 5
+			#ai = yes
+		}
+		
+		allow = {
+			treasury = 500
+			any_owned_province = {
+				can_build = paved_road
+				NOT = {
+					has_building = paved_road
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 500
+					any_owned_province = {
+						can_build = paved_road
+						NOT = {
+							has_building = paved_road
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = paved_road
+						NOT = {
+							has_building = paved_road
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					owner = {
+						add_treasury = -150
+					}
+					add_building_construction = {
+						building = paved_road
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	building_do_while_loop_railroad_dec = {
+		potential = {
+			treasury = 1000
+			num_of_cities = 5
+			#ai = yes
+			always = yes
+		}
+		
+		allow = {
+			treasury = 1000
+			any_owned_province = {
+				can_build = railroad
+				NOT = {
+					has_building = railroad
+				}
+				NOT = {
+					check_any_construction = yes
+				}
+			}
+		}
+		effect = {
+			while = {
+				limit = {
+					treasury = 1000
+					any_owned_province = {
+						can_build = railroad
+						NOT = {
+							has_building = railroad
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+				}
+				random_owned_province = {
+					limit = {
+						can_build = railroad
+						NOT = {
+							has_building = railroad
+						}
+						NOT = {
+							check_any_construction = yes
+						}
+					}
+					add_building_construction = {
+						building = railroad
+						cost = 0.9
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

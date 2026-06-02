@@ -101,3 +101,12 @@ evaluate_rural_flight = {
 		trade_goods = chinaware
 	}
 }
+
+check_any_construction = {
+    has_construction = missionary
+    has_construction = culture
+    has_construction = building
+    has_construction = core
+    has_construction = great_project
+    has_construction = canal
+}

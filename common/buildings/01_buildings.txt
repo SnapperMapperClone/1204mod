@@ -506,7 +506,7 @@ armory = {
 	cost = 150
 	time = 12
 	modifier = {
-		land_forcelimit = 5
+		land_forcelimit = 2
 	}
 	on_built = {
 		armory_construction_assessment = yes
@@ -526,7 +526,10 @@ regimental_camp = {
 	time = 12
 	make_obsolete = armory
 	modifier = {
-		land_forcelimit = 10
+		land_forcelimit = 4
+	}
+	build_trigger = {
+		has_building = armory
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -649,7 +652,7 @@ conscription_center = {
 #	}
 
 	modifier = {
-		land_forcelimit = 25
+		land_forcelimit = 10
 	}
 	build_trigger = {
 		has_building = regimental_camp

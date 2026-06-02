@@ -515,6 +515,13 @@ appanage = {
 	modifier_overlord = {
 		modifier = appanage_overlord
 	}
+
+	modifier_overlord = {
+		modifier = appanage_overlord_ducal_modifier
+		trigger = {
+			government_rank = 2
+		}
+	}
 }
 
 personal_union = {

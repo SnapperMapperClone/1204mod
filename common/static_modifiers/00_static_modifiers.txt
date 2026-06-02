@@ -1546,6 +1546,12 @@ appanage_overlord = {
 	nobles_loyalty_modifier = 0.02
 }
 
+appanage_overlord_ducal_modifier = {
+	diplomatic_upkeep = -1
+	legitimacy = 0.25
+	prestige = 1
+}
+
 union_subject = {
 }
 
