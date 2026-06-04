@@ -1,0 +1,138 @@
+country_decisions = {
+
+	purchase_prov_dec = {
+		potential = {
+			treasury = 1000
+			ai = yes
+		}
+		allow = {
+			treasury = 1000
+			any_province = {
+				NOT = {
+					continent = ROOT
+				}
+				controlled_by = owner
+				is_capital = no
+				range = ROOT
+				is_part_of_hre = no
+				owner = {
+					is_free_or_tributary_trigger = yes
+					NOT = {
+						tag = ROOT
+					}
+					NOT = {
+						truce_with = ROOT
+					}
+					NOT = {
+						alliance_with = ROOT
+					}
+				}
+			}
+			NOT = {
+				overextension_percentage = 0.9
+			}
+		}
+		effect = {
+			random_province = {
+				limit = {
+					NOT = {
+						continent = ROOT
+					}
+					controlled_by = owner
+					is_capital = no
+					range = ROOT
+					is_part_of_hre = no
+					owner = {
+						is_free_or_tributary_trigger = yes
+						NOT = {
+							tag = ROOT
+						}
+						NOT = {
+							truce_with = ROOT
+						}
+						NOT = {
+							alliance_with = ROOT
+						}
+					}
+				}
+				province_event = {
+					id = new_generic_diplomacy.1
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	purchase_area_dec = {
+		potential = {
+			treasury = 3000
+			ai = yes
+		}
+		allow = {
+			treasury = 3000
+			any_province = {
+				area_for_scope_province = {
+					is_capital = no
+				}
+				NOT = {
+					continent = ROOT
+				}
+				controlled_by = owner
+				is_capital = no
+				range = ROOT
+				is_part_of_hre = no
+				owner = {
+					is_free_or_tributary_trigger = yes
+					NOT = {
+						tag = ROOT
+					}
+					NOT = {
+						truce_with = ROOT
+					}
+					NOT = {
+						alliance_with = ROOT
+					}
+				}
+			}
+			NOT = {
+				overextension_percentage = 0.5
+			}
+		}
+		effect = {
+			random_province = {
+				limit = {
+					area_for_scope_province = {
+						is_capital = no
+					}
+					NOT = {
+						continent = ROOT
+					}
+					controlled_by = owner
+					is_capital = no
+					range = ROOT
+					is_part_of_hre = no
+					owner = {
+						is_free_or_tributary_trigger = yes
+						NOT = {
+							tag = ROOT
+						}
+						NOT = {
+							truce_with = ROOT
+						}
+						NOT = {
+							alliance_with = ROOT
+						}
+					}
+				}
+				province_event = {
+					id = new_generic_diplomacy.2
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

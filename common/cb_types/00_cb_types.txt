@@ -424,14 +424,30 @@ cb_core = {
 	war_goal = take_core
 }
 
+#usurp throne
+cb_usurp_throne = {
+	#exclusive = yes
+	independence = yes
+
+	is_triggered_only = yes
+
+	war_goal = take_capital_usurp_throne
+}
+
 # Independence War
 cb_independence_war = {
-	exclusive = yes
+	#exclusive = yes
 	independence = yes
 
 	prerequisites_self = {
 		is_subject_other_than_tributary_trigger = yes
 		NOT = { has_country_flag = burgundy_during_imperial_incident }
+		NOT = {
+			has_casus_belli = {
+				type = cb_usurp_throne
+				target = FROM
+			}
+		}
 	}
 
 	prerequisites = {
@@ -459,7 +475,7 @@ cb_independence_war = {
 
 # Colonial Independence
 cb_colonial_independence_war = {
-	exclusive = yes
+	#exclusive = yes
 	independence = yes
 
 	prerequisites_self = {

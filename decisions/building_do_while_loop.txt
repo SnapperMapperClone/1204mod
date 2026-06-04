@@ -2,6 +2,7 @@ country_decisions = {
 
 	building_do_while_loop_temple_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 500
 			num_of_cities = 5
 			ai = yes
@@ -57,6 +58,7 @@ country_decisions = {
 	
 	building_do_while_loop_cathedral_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 1000
 			num_of_cities = 5
 			ai = yes
@@ -124,6 +126,7 @@ country_decisions = {
 
 	building_do_while_loop_courthouse_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 500
 			num_of_cities = 5
 			ai = yes
@@ -179,6 +182,7 @@ country_decisions = {
 	
 	building_do_while_loop_town_hall_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 1000
 			num_of_cities = 5
 			ai = yes
@@ -237,6 +241,7 @@ country_decisions = {
 
 	building_do_while_loop_bell_tower_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 500
 			num_of_cities = 5
 			ai = yes
@@ -292,6 +297,7 @@ country_decisions = {
 	
 	building_do_while_loop_workshop_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 1000
 			num_of_cities = 5
 			ai = yes
@@ -356,6 +362,7 @@ country_decisions = {
 
 	building_do_while_loop_counting_house_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 1000
 			num_of_cities = 5
 			ai = yes
@@ -422,6 +429,7 @@ country_decisions = {
 
 	building_do_while_loop_armory_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 750
 			num_of_cities = 5
 			ai = yes
@@ -477,9 +485,10 @@ country_decisions = {
 	
 	building_do_while_loop_regiment_camp_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 750
 			num_of_cities = 5
-			#ai = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -541,6 +550,7 @@ country_decisions = {
 
 	building_do_while_loop_conscription_center_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 1000
 			num_of_cities = 5
 			ai = yes
@@ -608,6 +618,7 @@ country_decisions = {
 
 	building_do_while_loop_irrigation_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 500
 			num_of_cities = 5
 			ai = yes
@@ -665,6 +676,7 @@ country_decisions = {
 
 	building_do_while_loop_dirt_road_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 500
 			num_of_cities = 5
 			ai = yes
@@ -720,9 +732,10 @@ country_decisions = {
 	
 	building_do_while_loop_paved_road_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 500
 			num_of_cities = 5
-			#ai = yes
+			ai = yes
 		}
 		
 		allow = {
@@ -778,6 +791,7 @@ country_decisions = {
 
 	building_do_while_loop_railroad_dec = {
 		potential = {
+			NOT = { is_lacking_institutions = yes }
 			treasury = 1000
 			num_of_cities = 5
 			ai = yes

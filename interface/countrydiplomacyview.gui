@@ -557,8 +557,15 @@ guiTypes = {
 
 		iconType = {
 			name = "dip_marriage_indicator"
-			position = { x = 225 y = 185 }
+			position = { x = 215 y = 185 }
 			spriteType = "GFX_new_marriage_icon"
+			scripted = yes
+		}
+
+		iconType = {
+			name = "dip_disloyal_nobility_indicator" #reload countrydiplomacyview.gui
+			position = { x = 245 y = 185 }
+			spriteType = "GFX_new_disloyal_nobility_icon"
 			scripted = yes
 		}
 

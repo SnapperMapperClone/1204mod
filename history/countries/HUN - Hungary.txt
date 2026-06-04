@@ -11,6 +11,39 @@ change_estate_land_share = {
 	estate = estate_church
 	share = -5
 }
+
+1196.4.23 = { 
+	monarch = { 
+		name = "Imre"
+		dynasty = "Árpád"
+		birth_date = 1174.1.1
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+
+	heir = { 
+		name = "László"
+		dynasty = "Árpád"
+		birth_date = 1200.1.1
+		death_date = 9999.1.1
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}
+
+1387.3.31 = { 
+	monarch = { 
+		name = "Sigismund I"
+		dynasty = "von Luxemburg"
+		birth_date = 1368.2.14
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}
+
 1387.3.31 = { 
 	monarch = { 
 		name = "Sigismund I"

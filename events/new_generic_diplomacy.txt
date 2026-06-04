@@ -1,0 +1,196 @@
+namespace = new_generic_diplomacy
+
+province_event = {
+	id = new_generic_diplomacy.1
+	title = new_generic_diplomacy.1.t
+	desc = new_generic_diplomacy.1.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:province_purchaser = {
+			add_truce_with = owner
+		}
+	}
+
+	option = {
+		name = new_generic_diplomacy.1.a
+		event_target:province_purchaser = {
+			add_treasury = -1000
+		}
+		owner = {
+			add_treasury = 1000
+		}
+		cede_province = event_target:province_purchaser
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				owner = {
+					military_strength = {
+						who = event_target:province_purchaser
+						value = 1
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = new_generic_diplomacy.1.b
+		event_target:province_purchaser = {
+			add_claim = ROOT
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					owner = {
+						military_strength = {
+							who = event_target:province_purchaser
+							value = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+province_event = {
+	id = new_generic_diplomacy.2
+	title = new_generic_diplomacy.2.t
+	desc = new_generic_diplomacy.2.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	immediate = {
+		event_target:province_purchaser = {
+			add_truce_with = owner
+		}
+	}
+
+	option = {
+		name = new_generic_diplomacy.1.a
+		event_target:province_purchaser = {
+			add_treasury = -3000
+		}
+		owner = {
+			add_treasury = 3000
+			every_owned_province = {
+				limit = {
+					area = ROOT
+				}
+				cede_province = event_target:province_purchaser
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				owner = {
+					military_strength = {
+						who = event_target:province_purchaser
+						value = 1
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = new_generic_diplomacy.1.b
+		owner = {
+			every_owned_province = {
+				limit = {
+					area = ROOT
+				}
+				add_claim = event_target:province_purchaser
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					owner = {
+						military_strength = {
+							who = event_target:province_purchaser
+							value = 1
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = new_generic_diplomacy.3
+	title = new_generic_diplomacy.3.t
+	desc = new_generic_diplomacy.3.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = new_generic_diplomacy.3.a
+		add_stability = -1
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -10
+		}
+		add_opinion = {
+			who = FROM
+			modifier = destabilized_our_realm
+		}
+	}
+}
+
+country_event = {
+	id = new_generic_diplomacy.4
+	title = new_generic_diplomacy.4.t
+	desc = new_generic_diplomacy.4.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = new_generic_diplomacy.3.a
+		add_treasury = -150
+		FROM = {
+			add_treasury = 150
+		}
+		add_opinion = {
+			who = FROM
+			modifier = took_from_our_treasury
+		}
+		add_casus_belli = {
+			type = cb_insult
+			target = FROM
+		}
+	}
+}
+
+country_event = {
+	id = new_generic_diplomacy.5
+	title = new_generic_diplomacy.5.t
+	desc = new_generic_diplomacy.5.d
+	picture = BAD_WITH_MONARCH_eventPicture
+	
+	is_triggered_only = yes
+
+	option = {
+		name = new_generic_diplomacy.5.a
+		add_treasury = 150
+		FROM = {
+			add_treasury = -150
+		}
+	}
+}

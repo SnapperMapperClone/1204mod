@@ -3,204 +3,52 @@
 
 #Heir and consort titles are generally kept simple for clarity unless there is something special in particular that can be used.
 
-czech_localisation = {
-	rank = {
-		2 = KNIZECTVI
-		3 = KRALOVSTVI
-		4 = CISARSTVI
-	}
-
-	ruler_male = {
-		2 = KNIZE
-		3 = KRAL
-		4 = CISAR
-	}
-
-	ruler_female = {
-		2 = KNEZNA
-		3 = KRALOVNA
-		4 = CISAROVNA
-	}
-
-	consort_male = {
-		2 = KNIZE
-		3 = KRAL
-		4 = CISAR
-	}
-
-	consort_female = {
-		2 = KNEZNA
-		3 = KRALOVNA
-		4 = CISAROVNA
-	}
-	
-	heir_male = {
-		2 = HEIR
-		3 = HEIR
-		4 = HEIR
-	}
-
-	heir_female = {
-		2 = HEIR_fem
-		3 = HEIR_fem
-		4 = HEIR_fem
-	}
-
-	trigger = {
-		government = monarchy
-		OR = {
-			primary_culture = czech
-			tag = BOH
-		}
-	}
-}
-
-slovak_localisation = {
-	rank = {
-		2 = KNIEZATSTVO
-		3 = KRALOVSTVO
-		4 = CISARSTVO
-	}
-
-	ruler_male = {
-		2 = KNIEZA
-		3 = KRAL
-		4 = CISAR_SK
-	}
-
-	ruler_female = {
-		2 = KNAZNA
-		3 = KRALOVNA
-		4 = CISAROVNA_SK
-	}
-
-	consort_male = {
-		2 = KNIEZA
-		3 = KRAL
-		4 = CISAR_SK
-	}
-
-	consort_female = {
-		2 = KNAZNA
-		3 = KRALOVNA
-		4 = CISAROVNA_SK
-	}
-	
-	heir_male = {
-		2 = HEIR
-		3 = HEIR
-		4 = HEIR
-	}
-
-	heir_female = {
-		2 = HEIR_fem
-		3 = HEIR_fem
-		4 = HEIR_fem
-	}
-
-	trigger = {
-		government = monarchy
-		OR = {
-			primary_culture = slovak
-			tag = SLO
-		}
-	}
-}
-
-georgian = {
-    rank = {
-        2 = SAMTAVRO
-        3 = SAMEPO
-        4 = IMPERIA
-    }
-
-    ruler_male = {
-        2 = MTAVARI
-        3 = MEPE
-        4 = IMPERATORI
-    }
-	
-    ruler_female = {
-        2 = MTAVARI
-        3 = MEPE
-        4 = IMPERATRITSA
-    }
-
-	consort_male = {
-        2 = MTAVARI
-        3 = MEPE
-        4 = IMPERATORI
-	}
-
-	consort_female = {
-        2 = MTAVARI
-        3 = DEDOPALI
-        4 = IMPERATRITSA
-	}
-
-	heir_male = {
-		2 = HEIR
-		3 = PRINTSI
-		4 = PRINTSI
-	}
-
-	heir_female = {
-		2 = HEIR_fem
-		3 = PRINTSESA
-		4 = PRINTSESA
-	
-	}
-
-    trigger = {
-		OR = {
-			primary_culture = georgian
-			primary_culture = georgian_new
-		}
-		NOT = {
-			tag = SME
-		}
-		government = monarchy
-    }
-}
 
 stateless_society = {
 	rank = {
+		1 = STATELESS_SOCIETY
 		2 = STATELESS_SOCIETY
 		3 = STATELESS_SOCIETY
 		4 = STATELESS_SOCIETY
 	}
 
 	ruler_male = {
+		1 = TRIBAL_LEADER
 		2 = TRIBAL_LEADER
 		3 = TRIBAL_LEADER
 		4 = TRIBAL_LEADER
 	}
 
 	ruler_female = {
+		1 = TRIBAL_LEADER
 		2 = TRIBAL_LEADER_fem
 		3 = TRIBAL_LEADER_fem
 		4 = TRIBAL_LEADER_fem
 	}
 
 	consort_male = {
+		1 = CONSORT
 		2 = CONSORT
 		3 = CONSORT
 		4 = CONSORT
 	}
 
 	consort_female = {
+		1 = CONSORT
 		2 = CONSORT
 		3 = CONSORT
 		4 = CONSORT
 	}
 	
 	heir_male = {
+		1 = HEIR
 		2 = HEIR
 		3 = HEIR
 		4 = HEIR
 	}
 
 	heir_female = {
+		1 = HEIR
 		2 = HEIR_fem
 		3 = HEIR_fem
 		4 = HEIR_fem
@@ -213,42 +61,49 @@ stateless_society = {
 
 kongo_tribal_kingdom = {
 	rank = {
+		1 = CHIEFDOM
 		2 = CHIEFDOM
 		3 = TRIBAL_KINGDOM
 		4 = TRIBAL_EMPIRE
 	}
 	
 	ruler_male = {
+		1 = CHIEF
 		2 = CHIEF
 		3 = MWENE_KONGO
 		4 = GREAT_MWENE_KONGO
 	}
 	
 	ruler_female = {
+		1 = CHIEFTESS
 		2 = CHIEFTESS
 		3 = MWENE_KONGO_fem
 		4 = GREAT_MWENE_KONGO_fem
 	}
 	
 	consort_male  = {
+		1 = PRINCE_CONSORT
 		2 = PRINCE_CONSORT
 		3 = PRINCE_CONSORT
 		4 = PRINCE_CONSORT
 	}
 
 	consort_female = {
+		1 = CONSORT
 		2 = CONSORT
 		3 = QUEEN_CONSORT
 		4 = EMPRESS_CONSORT
 	}
 	
 	heir_male = {
+		1 = HEIR
 		2 = HEIR
 		3 = HEIR
 		4 = HEIR
 	}
 
 	heir_female = {
+		1 = HEIR
 		2 = HEIR_fem
 		3 = HEIR_fem
 		4 = HEIR_fem
@@ -262,42 +117,49 @@ kongo_tribal_kingdom = {
 
 kongo_monarchy_kingdom = {
 	rank = {
+		1 = COUNTY
 		2 = DUCHY
 		3 = KINGDOM
 		4 = EMPIRE
 	}
 
 	ruler_male = {
+		1 = COUNT
 		2 = DUKE
 		3 = MWENE_KONGO
 		4 = GREAT_MWENE_KONGO
 	}
 
 	ruler_female = {
+		1 = COUNTESS
 		2 = DUCHESS
 		3 = MWENE_KONGO_fem
 		4 = GREAT_MWENE_KONGO_fem
 	}
 
 	consort_male  = {
+		1 = PRINCE_CONSORT
 		2 = PRINCE_CONSORT
 		3 = PRINCE_CONSORT
 		4 = PRINCE_CONSORT
 	}
 
 	consort_female = {
+		1 = CONSORT
 		2 = CONSORT
 		3 = QUEEN_CONSORT
 		4 = EMPRESS_CONSORT
 	}
 
 	heir_male = {
+		1 = HEIR
 		2 = HEIR
 		3 = HEIR
 		4 = HEIR
 	}
 
 	heir_female = {
+		1 = HEIR
 		2 = HEIR_fem
 		3 = HEIR_fem
 		4 = HEIR_fem
@@ -1063,42 +925,49 @@ yuan_empire = {
 		2 = HORDE
 		3 = KHANATE
 		4 = KHAGANATE
+		5 = KHAGANATE
 	}
 	
 	ruler_male = {
 		2 = JINONG
 		3 = KHAN
 		4 = KHAGAN
+		5 = KHAGAN
 	}
 	
 	ruler_female = {
 		2 = JINONG
 		3 = KHATUN
 		4 = GREAT_KHATUN
+		5 = GREAT_KHATUN
 	}
 	
 	consort_male = {
 		2 = BEILE
 		3 = KHAN
 		4 = YEKHE_KHAGAN
+		5 = YEKHE_KHAGAN
 	}
 
 	consort_female = {
 		2 = GEGE
 		3 = KHANUM
 		4 = YEKHE_KHANUM
+		5 = YEKHE_KHANUM
 	}
 	
 	heir_male = {
 		2 = HEIR
 		3 = KHANZADEH
 		4 = KHANZADEH
+		5 = KHANZADEH
 	}
 
 	heir_female = {
 		2 = KHANUM
 		3 = KHANUM
 		4 = KHANUM
+		5 = KHANUM
 	}
 	
 	trigger = {
@@ -1144,31 +1013,31 @@ ilkhanate_march = {
 
 celestial_parliament = {
 	rank = {
-		4 = PARLIAMENT_OF_HEAVEN
+		5 = PARLIAMENT_OF_HEAVEN
 	}
 	
 	ruler_male = {
-		4 = EMPEROR
+		5 = EMPEROR
 	}
 	
 	ruler_female = {
-		4 = EMPRESS
+		5 = EMPRESS
 	}
 	
 	consort_male = {
-		4 = PRINCE_CONSORT
+		5 = PRINCE_CONSORT
 	}
 
 	consort_female = {
-		4 = EMPRESS_CONSORT
+		5 = EMPRESS_CONSORT
 	}
 	
 	heir_male = {
-		4 = HEIR
+		5 = HEIR
 	}
 
 	heir_female = {
-		4 = HEIR_fem
+		5 = HEIR_fem
 	}
 	
 	trigger = {
@@ -1912,48 +1781,56 @@ islamic_syncretism_kingdoms = { #For countries in a node being converted to isla
 
 french_kingdom = {
 	rank = {
+		1 = COUNTY
 		2 = DUCHY
 		3 = KINGDOM
 		4 = EMPIRE
 	}
 
 	ruler_male = {
+		1 = COUNTY
 		2 = DUKE
 		3 = KING
 		4 = EMPEROR
 	}
 
 	ruler_female = {
+		1 = COUNTESS
 		2 = DUCHESS
 		3 = QUEEN
 		4 = EMPRESS
 	}
 
 	consort_male = {
+		1 = COUNT
 		2 = DUKE
 		3 = KING
 		4 = EMPEROR
 	}
 
 	consort_female = {
+		1 = COUNTESS
 		2 = DUCHESS
 		3 = QUEEN
 		4 = EMPRESS
 	}
 	
 	heir_male = {
+		1 = DAUPHIN
 		2 = DAUPHIN
 		3 = DAUPHIN
 		4 = DAUPHIN
 	}
 	
 	heir_female = {
+		1 = DAUPHINE
 		2 = DAUPHINE
 		3 = DAUPHINE
 		4 = DAUPHINE
 	}
 
 	trigger = {
+		owns = 204
 		government = monarchy
 		NOT = { has_reform = revolutionary_empire_reform }
 		OR = {
@@ -2708,42 +2585,49 @@ hunyadi_regent_monarchy = {
 
 austrian_monarchy = {
 	rank = {
+		1 = COUNTY
 		2 = ARCHDUCHY
 		3 = KINGDOM
 		4 = EMPIRE
 	}
 
 	ruler_male = {
+		1 = COUNT
 		2 = ARCHDUKE
 		3 = KING
 		4 = EMPEROR
 	}
 
 	ruler_female = {
+		1 = COUNTESS
 		2 = ARCHDUCHESS
 		3 = QUEEN	
 		4 = EMPRESS
 	}
 	
 	consort_male = {
+		1 = COUNT
 		2 = ARCHDUKE_CONSORT
 		3 = KING_CONSORT
 		4 = EMPEROR_CONSORT
 	}
 
 	consort_female = {
+		1 = COUNTESS
 		2 = ARCHDUCHESS
 		3 = QUEEN
 		4 = EMPRESS
 	}
 	
 	heir_male = {
+		1 = HEIR
 		2 = HEIR
 		3 = HEIR
 		4 = HEIR
 	}
 
 	heir_female = {
+		1 = HEIR
 		2 = HEIR_fem
 		3 = HEIR_fem
 		4 = HEIR_fem
@@ -5481,45 +5365,59 @@ nahuatl_monarchy = {
 
 chinese_monarchy = {
 	rank = {
+		1 = COUNTY
 		2 = PRINCEDOM
 		3 = KINGDOM
 		4 = EMPIRE
+		5 = EMPIRE
 	}
 
 	ruler_male = {
+		1 = COUNT
 		2 = PRINCE
 		3 = KING
 		4 = EMPEROR
+		5 = EMPEROR
 	}
 
 	ruler_female = {
+		1 = COUNTESS
 		2 = PRINCESS
 		3 = QUEEN
 		4 = EMPRESS
+		5 = EMPRESS
 	}
 	
 	consort_male = {
+		1 = CONSORT
 		2 = CONSORT
 		3 = CONSORT
 		4 = CONSORT
+		5 = CONSORT
 	}
 
 	consort_female = {
+		1 = CONSORT
 		2 = CONSORT
 		3 = CONSORT
 		4 = CONSORT
+		5 = CONSORT
 	}
 
 	heir_male = {
+		1 = HEIR
 		2 = HEIR
 		3 = HEIR
 		4 = HEIR
+		5 = HEIR
 	}
 
 	heir_female = {
-		2 = HEIR_fem
-		3 = HEIR_fem
-		4 = HEIR_fem
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+		4 = HEIR
+		5 = HEIR
 	}
 
 	trigger = {

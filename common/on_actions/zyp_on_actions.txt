@@ -34,7 +34,7 @@ on_startup = {
 			save_global_event_target_as = culture_leader_six
 		}
 		every_country = {
-			add_yearly_manpower = 10
+			add_yearly_manpower = 5
 		}
 		every_country = {
 			limit = {
@@ -438,12 +438,28 @@ on_new_monarch = {
 	if = {
 		limit = {
 			government = monarchy
+			has_regency = no
 			NOT = {
 				has_ruler_flag = is_heir_flag
 			}
+			NOT = { is_subject_of_type = appanage }
 		}
 		country_event = {
 			id = new_dynasty_election_event.1
+		}
+	}
+
+	if = {
+		limit = {
+			government = monarchy
+			has_regency = no
+			NOT = {
+				has_ruler_flag = is_heir_flag
+			}
+			is_subject_of_type = appanage
+		}
+		overlord = {
+			create_union = ROOT
 		}
 	}
 }
@@ -476,6 +492,77 @@ on_monarch_death = {
 	}
 }
 
+on_royal_marriage = {
+	if = {
+		limit = {
+			ROOT = {
+				num_of_cities = FROM
+				total_development = FROM
+				OR = {
+					NOT = { has_consort = yes }
+					is_origin_of_consort = FROM
+				}
+				is_female = no
+			}
+			FROM = {
+				OR = {
+					NOT = { has_consort = yes }
+					is_origin_of_consort = ROOT
+				}
+				is_female = yes
+			}
+		}
+		FROM = {
+			country_event = {
+				id = dynastic_diplomacy.1
+			}
+		}
+	}
+
+	#if = {
+	#	limit = {
+	#		ROOT = {
+	#			num_of_cities = FROM
+	#			total_development = FROM
+	#			OR = {
+	#				NOT = { has_consort = yes }
+	#				is_origin_of_consort = FROM
+	#			}
+	#			is_female = yes
+	#		}
+	#		FROM = {
+	#			OR = {
+	#				NOT = { has_consort = yes }
+	#				is_origin_of_consort = ROOT
+	#			}
+	#			is_female = no
+	#		}
+	#	}
+	#	FROM = {
+	#		save_global_event_target_as = smaller_union_tag
+	#	}
+	#	country_event = {
+	#		id = dynastic_diplomacy.2
+	#	}
+	#}
+
+	if = {
+		limit = {
+			is_female = yes
+			has_foreign_consort = yes
+			has_heir = no
+		}
+		random_country = {
+			limit = {
+				ROOT = {
+					is_origin_of_consort = PREV
+				}
+			}
+		}
+		set_dynasty = FROM
+	}
+}
+
 on_new_heir = {
 	if = {
 		limit = {
@@ -486,28 +573,28 @@ on_new_heir = {
 			id = inheritance_reform_event.1
 		}
 	}
-	if = {
-		limit = {
-			is_female = yes
-			has_foreign_consort = yes
-		}
-		random_country = {
-			limit = {
-				ROOT = {
-					is_origin_of_consort = PREV
-				}
-			}
-			save_event_target_as = consort_tag
-		}
-		remove_heir = {
-			allow_new_heir = no
-		}
-		define_heir = {
-			age = 0
-			male = yes
-			dynasty = event_target:origin_of_consort
-		}
-	}
+	#if = {
+	#	limit = {
+	#		is_female = yes
+	#		has_foreign_consort = yes
+	#	}
+	#	random_country = {
+	#		limit = {
+	#			ROOT = {
+	#				is_origin_of_consort = PREV
+	#			}
+	#		}
+	#		save_event_target_as = consort_tag
+	#	}
+	#	remove_heir = {
+	#		allow_new_heir = no
+	#	}
+	#	define_heir = {
+	#		age = 0
+	#		male = yes
+	#		dynasty = event_target:origin_of_consort
+	#	}
+	#}
 }
 
 on_create_vassal = {

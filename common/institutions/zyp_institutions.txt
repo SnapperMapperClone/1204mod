@@ -275,33 +275,9 @@ scholasticism = {
 	
 	# no need for events, as its there from the start.
 	can_start = {
-		OR = {
-			AND = {
-				is_prosperous = yes
-				is_in_capital_area = yes
-				is_state = yes
-				is_island = no
-				province_trade_power = 50
-				owner = {
-					is_at_war = no
-					trade_income_percentage = 0.35
-					has_global_modifier_value = {
-						which = global_trade_power
-						value = 0.3
-					}
-					OR = {
-						trade_income_percentage = 0.4
-						trade_efficiency = 0.35
-					}
-					is_year = 1300
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = bgm_spawn_commercial_revolution_early_tooltip
-				owner = { has_country_flag = bgm_early_commercial_revolution }
-				is_capital_of = owner
-			}
-		}
+		is_year = 1250
+		trade_goods = paper
+		religion_group = christian
 	}
 	start_chance = 3
 	on_start = new_institution_events.2
@@ -312,97 +288,44 @@ scholasticism = {
 
 	embracement_speed = {
 		modifier = {
-			factor = 0.5
+			factor = 0.15
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_GUNPOWDER
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_SCHOLASTICISM
 				any_friendly_coast_border_province = {
-					gunpowder = 100
-				}
-			}
-		}
-		modifier = {
-			factor = 0.33
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = MERCHANT_REPUBLIC_REFORM
-				owner = {
-					OR = {
-						has_reform = merchant_republic
-						has_reform = venetian_merchant_republic
-					}
+					scholasticism = 100
 				}
 			}
 		}
 
 		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = NEIGHBOR_HAS_GUNPOWDER
-				any_neighbor_province = {
-					gunpowder = 100
-				}
-			}
-		}
-		modifier = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = WAR_ENEMY_GUNPOWDER
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_SCHOLASTICISM_SAME_TECH_GROUP
 				owner = {
-					any_war_enemy_country = {
-						has_institution = gunpowder
+					any_country = {
+						event_target:scholasticism_institution_spawn = {
+							owned_by = PREV
+						}
+						technology_group = PREV
 					}
+				}
+				any_friendly_coast_border_province = {
+					scholasticism = 100
 				}
 			}
 		}
+
 		modifier = {
-			factor = 0.25
+			factor = 0.33
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = ALLY_GUNPOWDER
-				owner = {
-					any_ally = {
-						has_institution = gunpowder
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = PORT_OR_CAPITAL_IN_COLONY_FEUDAL
+				tooltip = HAS_PAPER_AND_IS_ABRAHAMIC_SCHOLASTICISM
+				trade_goods = paper
 				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = gunpowder }
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = gunpowder
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = tooltip_feudalism_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = gunpowder
+					religion_group = christian
+					religion_group = muslim
 				}
 			}
 		}
@@ -483,7 +406,7 @@ gunpowder = {
 
 	embracement_speed = {
 		modifier = {
-			factor = 0.5
+			factor = 0.15
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_GUNPOWDER
@@ -493,87 +416,20 @@ gunpowder = {
 			}
 		}
 		modifier = {
-			factor = 0.33
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = MERCHANT_REPUBLIC_REFORM
-				owner = {
-					OR = {
-						has_reform = merchant_republic
-						has_reform = venetian_merchant_republic
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = NEIGHBOR_HAS_GUNPOWDER
-				any_neighbor_province = {
-					gunpowder = 100
-				}
-			}
-		}
-		modifier = {
 			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = WAR_ENEMY_GUNPOWDER
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_GUNPOWDER_SAME_TECH_GROUP
 				owner = {
-					any_war_enemy_country = {
-						has_institution = gunpowder
+					any_country = {
+						event_target:gunpowder_institution_spawn = {
+							owned_by = PREV
+						}
+						technology_group = PREV
 					}
 				}
-			}
-		}
-		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = ALLY_GUNPOWDER
-				owner = {
-					any_ally = {
-						has_institution = gunpowder
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = PORT_OR_CAPITAL_IN_COLONY_FEUDAL
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = gunpowder }
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = gunpowder
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = tooltip_feudalism_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = gunpowder
+				any_friendly_coast_border_province = {
+					gunpowder = 100
 				}
 			}
 		}
@@ -662,179 +518,30 @@ quarantine = {
 
 	embracement_speed = {
 		modifier = {
-			factor = 0.6
+			factor = 0.15
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_QUARANTINE
 				any_friendly_coast_border_province = {
 					commercial_revolution = 100
 				}
 			}
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = CAPITAL_MERCHANT_REPUBLIC
-				is_capital = yes
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_QUARANTINE_SAME_TECH_GROUP
 				owner = {
-					OR = {
-						is_in_trade_league = yes
-						has_reform = merchant_republic
-						has_reform = venetian_merchant_republic
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = DOMINATES_OWN_TRADE_NODE
-				is_capital = yes
-				trade_share = {
-					country = owner
-					share = 50
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.15
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = 10_TRADE_POWER
-				province_trade_power = 10
-			}
-		}
-
-		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = WORLD_TRADE_CENTER_CR
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
+					any_country = {
+						event_target:quarantine_institution_spawn = {
+							owned_by = PREV
 						}
+						technology_group = PREV
 					}
 				}
-				province_has_center_of_trade_of_level = 3
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = has_trade_building_trigger_tt
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.33
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIAN_WITH_10_INNOVATIVENESS
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					innovativeness = 10
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.15
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = RULER_HAS_PERSONALITY_CR
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					OR = {
-						ruler_has_personality = fierce_negotiator_personality
-						ruler_has_personality = industrious_personality
-						ruler_has_personality = well_advised_personality
-						ruler_has_personality = well_connected_personality
-						ruler_has_personality = intricate_web_weaver_personality
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIA_10_DIP
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					monthly_dip = 10
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIA_OR_ADVISOR
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					OR = {
-						master_of_mint = 1
-						trader = 1
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIA_AND_ADVISOR
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					master_of_mint = 1
-					trader = 1
+				any_friendly_coast_border_province = {
+					quarantine = 100
 				}
 			}
 		}
@@ -936,176 +643,27 @@ commercial_revolution = {
 			factor = 0.6
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_COMMERCIAL_REVOLUTION
 				any_friendly_coast_border_province = {
 					commercial_revolution = 100
 				}
 			}
 		}
 		modifier = {
-			factor = 0.25
+			factor = 0.5
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = CAPITAL_MERCHANT_REPUBLIC
-				is_capital = yes
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_COMMERCIAL_REVOLUTION_SAME_TECH_GROUP
 				owner = {
-					OR = {
-						is_in_trade_league = yes
-						has_reform = merchant_republic
-						has_reform = venetian_merchant_republic
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = DOMINATES_OWN_TRADE_NODE
-				is_capital = yes
-				trade_share = {
-					country = owner
-					share = 50
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.15
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = 10_TRADE_POWER
-				province_trade_power = 10
-			}
-		}
-
-		modifier = {
-			factor = 0.25
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = WORLD_TRADE_CENTER_CR
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
+					any_country = {
+						event_target:commercial_rev_institution_spawn = {
+							owned_by = PREV
 						}
+						technology_group = PREV
 					}
 				}
-				province_has_center_of_trade_of_level = 3
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = has_trade_building_trigger_tt
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.33
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIAN_WITH_10_INNOVATIVENESS
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					innovativeness = 10
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.15
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = RULER_HAS_PERSONALITY_CR
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					OR = {
-						ruler_has_personality = fierce_negotiator_personality
-						ruler_has_personality = industrious_personality
-						ruler_has_personality = well_advised_personality
-						ruler_has_personality = well_connected_personality
-						ruler_has_personality = intricate_web_weaver_personality
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIA_10_DIP
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					monthly_dip = 10
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIA_OR_ADVISOR
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					OR = {
-						master_of_mint = 1
-						trader = 1
-					}
-				}
-			}
-		}
-
-		modifier = {
-			factor = 0.1
-			scale = yes
-			custom_trigger_tooltip = {
-				tooltip = EURASIA_AND_ADVISOR
-				development = 15
-				owner = {
-					capital_scope = {
-						OR = {
-							continent = europe
-							continent = asia
-						}
-					}
-					master_of_mint = 1
-					trader = 1
+				any_friendly_coast_border_province = {
+					commercial_revolution = 100
 				}
 			}
 		}
@@ -1264,7 +822,7 @@ renaissance = {
 
 		modifier = {
 			scale = yes
-			factor = 0.6
+			factor = 0.15
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_renaissance
 				any_friendly_coast_border_province = {
@@ -1273,125 +831,20 @@ renaissance = {
 			}
 		}
 		modifier = {
-			factor = 0.3
-			scale = yes
-			potential = {
-				NOT = {
-					any_friendly_coast_border_province = {
-						renaissance = 100
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_any_neighbor_has_embraced_renaissance
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-					renaissance = 100
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			potential = {
-				region = italy_region
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_italian_capital
-				is_capital = yes
-				region = italy_region
-				culture_group = latin
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_10
-				continent = europe
-				development = 10
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_20
-				development = 20
-				continent = europe
-			}
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_5_post_1500
-				continent = europe
-				is_year = 1500
-				development = 5
-			}
-		}
-		modifier = {
 			factor = 0.5
 			scale = yes
-			potential = {
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_flanders_tuscany_venetia
-				OR = {
-					area = flanders_area
-					area = tuscany_area
-					area = venetia_area
-				}
-			}
-		}
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_RENAISSANCE_SAME_TECH_GROUP
 				owner = {
-					is_colonial_nation = yes
+					any_country = {
+						event_target:birthplace_of_the_renaissance = {
+							owned_by = PREV
+						}
+						technology_group = PREV
+					}
 				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_renaissance
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = renaissance }
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = renaissance
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = tooltip_renaissance_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = renaissance
+				any_friendly_coast_border_province = {
+					renaissance = 100
 				}
 			}
 		}
@@ -1546,7 +999,7 @@ printing_press = {
 	embracement_speed = {
 	
 		modifier = {
-			factor = 0.6
+			factor = 0.15
 			scale = yes
 			custom_trigger_tooltip = {
 				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_printing_press
@@ -1555,190 +1008,21 @@ printing_press = {
 				}
 			}
 		}
-		
 		modifier = {
-			factor = 0.2
+			factor = 0.5
 			scale = yes
-			potential = {
-				NOT = {
-					any_friendly_coast_border_province = {
-						printing_press = 100
-					}
-				}
-			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_neighbor_has_embraced_printing_press
-				any_neighbor_province = {
-					NOT = { owned_by = ROOT }
-					printing_press = 100
-				}
-			}
-		}
-		modifier = {
-			factor = 0.1
-			scale = yes
-			force_potential = yes	# Hide the this modifier when potential is false
-			potential = {
-				owner = { has_estate = estate_church }
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_printing_press_clergy
-				any_neighbor_province = {
-					printing_press = 100
-				}
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_SCHOLASTICISM_SAME_TECH_GROUP
 				owner = {
-					has_estate = estate_church
-					estate_loyalty = {
-						estate = estate_church
-						loyalty = 40
-					}
-					estate_territory = {
-						estate = estate_church
-						territory = 30
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			custom_trigger_tooltip = {
-				tooltip = tooltip_dip_tech15_capital
-				is_capital = yes
-				owner = {
-					dip_tech = 15
-				}
-			}
-		}
-		modifier = {
-			factor = 0.05
-			scale = yes
-			potential = {
-				continent = europe
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_development_20_capital
-				development = 20
-				is_capital = yes
-				continent = europe
-			}
-		}
-		modifier = {
-			factor = 2
-			potential = {
-				owner = {
-					religion_group = christian
-				}
-			}
-			if = {
-				limit = { has_dlc = "Rule Britannia" }
-				custom_trigger_tooltip = {
-					tooltip = tooltip_owner_protestant
-					is_owned_by_trade_company = no
-					owner = {
-						OR = {
-							religion = protestant
-							religion = reformed
-							religion = anglican
-							religion = hussite
+					any_country = {
+						event_target:scholasticism_institution_spawn = {
+							owned_by = PREV
 						}
+						technology_group = PREV
 					}
 				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = tooltip_owner_protestant
-					is_owned_by_trade_company = no
-					owner = {
-						OR = {
-							religion = protestant
-							religion = reformed
-							religion = anglican
-							religion = hussite
-						}
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			if = {
-				limit = {
-					has_dlc = "Rule Britannia"
-				}
-				custom_trigger_tooltip = {
-					tooltip = tooltip_province_protestant_RB
-					OR = {
-						religion = reformed
-						religion = protestant
-						religion = anglican
-						religion = hussite
-					}
-				}
-			}
-			else = {
-				custom_trigger_tooltip = {
-					tooltip = tooltip_province_protestant
-					OR = {
-						religion = reformed
-						religion = protestant
-						religion = anglican
-						religion = hussite
-					}
-				}
-			}
-		}
-		modifier = {
-			factor = 3
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_printing_press
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = printing_press }
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = printing_press
-				}
-				continent = owner
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_printing_press_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = printing_press
-				}
-			}
-		}
-		modifier = {
-			factor = 1
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = printing_press
-				}
-				NOT = { continent = owner }
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = tooltip_printing_press_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = printing_press
+				any_friendly_coast_border_province = {
+					scholasticism = 100
 				}
 			}
 		}
@@ -1928,107 +1212,30 @@ modern_firearm = { #matchlocks
 	embracement_speed = {
 	
 		modifier = {
-			factor = 1.2
+			factor = 0.15
 			scale = yes
 			custom_trigger_tooltip = {
-				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_colonialism
+				tooltip = tooltip_any_friendly_coast_border_province_has_embraced_matchlocks
 				any_friendly_coast_border_province = {
 					new_world_i = 100
 				}
 			}
-			
 		}
-		
 		modifier = {
 			factor = 0.5
 			scale = yes
-			potential = {
-				has_port = yes
-				NOT = {
-					any_friendly_coast_border_province = {
-						new_world_i = 100
-					}
-				}
-			}
 			custom_trigger_tooltip = {
-				tooltip = tooltip_neighbor_port_province_new_world
-				has_port = yes
-				any_neighbor_province = {
-					new_world_i = 100
-				}
-			}
-		}
-		
-		#Port provinces in countries with colonial subjects
-		modifier = {
-			factor = 10
-			potential = {
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
+				tooltip = FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_SCHOLASTICISM_SAME_TECH_GROUP
 				owner = {
-					capital_scope = {
-						NOT = { continent = north_america }
-						NOT = { continent = south_america }
-						NOT = { continent = new_world }
-					}
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_has_colonial_subject_in_new_world
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					colony = 1
-					any_subject_country = {
-						is_colonial_nation = yes
-						OR = {
-							capital_scope = { continent = north_america }
-							capital_scope = { continent = south_america }
-							capital_scope = { continent = new_world }
+					any_country = {
+						event_target:scholasticism_institution_spawn = {
+							owned_by = PREV
 						}
+						technology_group = PREV
 					}
 				}
-			}
-		}
-		
-		modifier = {
-			factor = 5
-			scale = yes
-			potential = {
-				owner = {
-					is_colonial_nation = yes
-				}
-			}
-			custom_trigger_tooltip = {
-				tooltip = tooltip_colonial_overlord_new_world_i
-				OR = {
-					has_port = yes
-					is_capital = yes
-				}
-				owner = {
-					is_colonial_nation = yes
-					overlord = { has_institution = new_world_i }
-				}
-			}
-		}
-		modifier = {
-			factor = 2
-			scale = yes
-			potential = {
-				owner = {
-					has_institution = new_world_i
-				}
-			}
-			
-			custom_trigger_tooltip = {
-				tooltip = tooltip_new_world_i_embraced
-				is_owned_by_trade_company = no
-				owner = {
-					has_institution = new_world_i
+				any_friendly_coast_border_province = {
+					scholasticism = 100
 				}
 			}
 		}

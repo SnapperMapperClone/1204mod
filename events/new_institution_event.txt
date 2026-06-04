@@ -65,6 +65,9 @@ country_event = {
 				name = "birthplace_of_ag_rev"
 				duration = -1
 			}
+			hidden_effect = {
+				save_global_event_target_as = ag_rev_institution_spawn
+			}
 		}
 		hidden_effect = {
 			every_country = {
@@ -116,7 +119,7 @@ country_event = {
 	}
 }
 
-#ag rev
+#scholasticism
 country_event = {
 	id = new_institution_events.2
 	title = new_institution_events.2.t
@@ -151,6 +154,9 @@ country_event = {
 			add_permanent_province_modifier = {
 				name = "birthplace_of_scholasticism"
 				duration = -1
+			}
+			hidden_effect = {
+				save_global_event_target_as = scholasticism_institution_spawn
 			}
 		}
 		hidden_effect = {
@@ -238,6 +244,9 @@ country_event = {
 				name = birthplace_of_gunpowder
 				duration = -1
 			}
+			hidden_effect = {
+				save_global_event_target_as = gunpowder_institution_spawn
+			}
 		}
 		hidden_effect = {
 			every_country = {
@@ -323,6 +332,9 @@ country_event = {
 			add_permanent_province_modifier = {
 				name = birthplace_of_quarantine
 				duration = -1
+			}
+			hidden_effect = {
+				save_global_event_target_as = quarantine_institution_spawn
 			}
 		}
 		hidden_effect = {
@@ -411,6 +423,9 @@ country_event = {
 			add_permanent_province_modifier = {
 				name = birthplace_of_commercial_revolution
 				duration = -1
+			}
+			hidden_effect = {
+				save_global_event_target_as = commercial_rev_institution_spawn
 			}
 		}
 		hidden_effect = {
@@ -501,6 +516,9 @@ country_event = {
 				name = birthplace_of_modern_firearm
 				duration = -1
 			}
+			hidden_effect = {
+				save_global_event_target_as = matchlocks_institution_spawn
+			}
 		}
 		hidden_effect = {
 			every_country = {
@@ -590,6 +608,9 @@ country_event = {
 				name = birthplace_of_remote_communication
 				duration = -1
 			}
+			hidden_effect = {
+				save_global_event_target_as = remote_communication_institution_spawn
+			}
 		}
 		hidden_effect = {
 			every_country = {
@@ -678,6 +699,9 @@ country_event = {
 			add_permanent_province_modifier = {
 				name = birthplace_of_electrification
 				duration = -1
+			}
+			hidden_effect = {
+				save_global_event_target_as = electrification_institution_spawn
 			}
 		}
 		hidden_effect = {

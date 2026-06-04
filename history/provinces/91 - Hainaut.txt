@@ -6,10 +6,10 @@ is_city = yes
 culture = wallonian
 religion = catholic
 hre = yes
-base_tax = 5
-base_production = 5
+base_tax = 7
+base_production = 7
 trade_goods = cloth
-base_manpower = 2
+base_manpower = 3
 add_core = HAI
 discovered_by = western
 discovered_by = eastern
@@ -26,7 +26,7 @@ latent_trade_goods = {
 1572.8.1 = { controller = SPA revolt = { size = 1 } }
 1635.5.1 = { controller = FRA }
 1648.1.30 = { controller = SPA }
-1650.1.1 = { trade_goods = iron }
+1650.1.1 = { trade_goods = Iron }
 1665.9.17 = { add_claim = FRA }
 1667.9.25 = { controller = FRA }
 1668.5.2 = { controller = SPA }

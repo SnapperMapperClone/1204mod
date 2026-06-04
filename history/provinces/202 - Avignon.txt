@@ -11,7 +11,6 @@ base_production = 3
 trade_goods = cloth
 base_manpower = 4
 add_core = AVI
-add_core = PRO
 extra_cost = 8
 discovered_by = eastern
 discovered_by = western

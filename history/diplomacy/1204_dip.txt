@@ -204,6 +204,14 @@ dependency = {
 	end_date = 9999.1.1
 }
 
+dependency = {
+	subject_type = vassal
+	first = HUN
+	second = CRO
+	start_date = 1204.1.1
+	end_date = 9999.1.1
+}
+
 
 dependency = {
 	subject_type = league_member

@@ -1,7 +1,4 @@
 # 1743 Cambray
-latent_trade_goods = { 
-	coal 
-}
 owner = CMB
 controller = CMB
 capital = "Cambray"
@@ -12,7 +9,7 @@ hre = yes
 base_tax = 5
 base_production = 5
 trade_goods = cloth
-base_manpower = 2
+base_manpower = 4
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

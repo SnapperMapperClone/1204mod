@@ -118,6 +118,22 @@ custom_icon = {
 	tooltip = other_is_married_tooltip
 }
 
+custom_icon = {
+    name = dip_disloyal_nobility_indicator
+    potential = { 
+		ROOT = {
+			has_estate = estate_nobles
+			NOT = {
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 30
+				}
+			}
+		}
+	}
+	tooltip = disloyal_nobility_tooltip
+}
+
 custom_button = {
     name = open_prov_dip_panel
     potential = {
@@ -186,7 +202,12 @@ custom_button = {
 			is_capital = no
 			range = FROM
 			is_part_of_hre = no
-			FROM = { treasury = 100 }
+			FROM = { treasury = 1000 }
+			FROM = {
+				NOT = {
+					overextension_percentage = 0.9
+				}
+			}
 			owner = {
 				OR = {
 					is_subject = no
@@ -219,11 +240,76 @@ custom_button = {
 		}
 		ROOT = {
 			province_event = {
-				id = NEW_DIPLOMACY.1
+				id = new_generic_diplomacy.1
 			}
 		}
 	}
     tooltip = purchase_province_tooltip
+}
+
+custom_button = {
+    name = purchase_area
+    potential = {
+        FROM = {
+			has_country_flag = opened_prov_dip_panel
+			ai = no
+		}
+    }
+    trigger = {
+		ROOT = {
+			controlled_by = owner
+			owner = {
+				capital_scope = {
+					NOT = {
+						area = ROOT
+					}
+				}
+			}
+			range = FROM
+			is_part_of_hre = no
+			FROM = { treasury = 3000 }
+			FROM = {
+				NOT = {
+					overextension_percentage = 0.5
+				}
+			}
+			owner = {
+				OR = {
+					is_subject = no
+					is_subject_of = FROM
+				}
+				OR = {
+					NOT = {
+						is_subject_of = FROM
+					}
+					AND = {
+						is_subject_of = FROM
+						NOT = { liberty_desire = 50 }
+					}
+				}
+				NOT = {
+					tag = FROM
+				}
+				NOT = {
+					truce_with = FROM
+				}
+				NOT = {
+					alliance_with = FROM
+				}
+			}
+		}
+	}
+    effect = {
+		FROM = {
+			save_event_target_as = province_purchaser
+		}
+		ROOT = {
+			province_event = {
+				id = new_generic_diplomacy.2
+			}
+		}
+	}
+    tooltip = purchase_area_tooltip
 }
 
 custom_button = {
@@ -261,7 +347,7 @@ custom_button = {
 		}
 		ROOT = {
 			province_event = {
-				id = NEW_DIPLOMACY.2
+				id = dynastic_diplomacy.5
 			}
 		}
 	}

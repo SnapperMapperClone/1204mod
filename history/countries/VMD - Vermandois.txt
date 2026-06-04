@@ -5,3 +5,15 @@ technology_group = western
 religion = catholic
 capital = 5033
 primary_culture = picard
+
+1170.1.1 = {
+	monarch = {
+		name = "Éléonore"
+		dynasty = "Capet"
+		birth_date = 1149.1.1
+		adm = 2
+		dip = 2
+		mil = 2
+		female = yes
+	}
+}

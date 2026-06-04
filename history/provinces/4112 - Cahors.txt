@@ -5,16 +5,16 @@ capital = "Cahors"
 is_city = yes
 culture = aquitaine
 religion = catholic
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 trade_goods = wine
-base_manpower = 4
+base_manpower = 3
 add_core = GUY
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-1560.1.1 = { religion = reformed }
-1686.1.17 = { religion = catholic }
+1560.1.1 = { religion = Reformed }
+1686.1.17 = { religion = Catholic }
 1702.1.1 = { controller = REB revolt = { type = heretic_rebels size = 2 } }
 1705.1.1 = { controller = FRA revolt = { size = 1 } }

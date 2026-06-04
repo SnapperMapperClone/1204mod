@@ -22,18 +22,30 @@ age_of_feudalism = {
 					religion_group = christian
 					379 = {
 						religion = ROOT
+						owner = {
+							religion = ROOT
+						}
 					}
 				}
 				AND = {
 					religion_group = muslim
 					379 = {
 						religion = ROOT
+						owner = {
+							religion = ROOT
+						}
 					}
 					384 = {
 						religion = ROOT
+						owner = {
+							religion = ROOT
+						}
 					}
 					385 = {
 						religion = ROOT
+						owner = {
+							religion = ROOT
+						}
 					}
 				}
 				AND = {
@@ -62,14 +74,7 @@ age_of_feudalism = {
 			}
 		}
 		obj_kingdom = {
-	 		OR = {
-				government_rank = 3
-				AND = {
-					is_emperor = yes
-					num_of_cities = 8
-					total_development = 100
-				}
-			}
+	 		government_rank = 3
 		}
 		obj_noble_satisfaction = {
 			OR = {
@@ -77,7 +82,7 @@ age_of_feudalism = {
 					estate = estate_nobles
 					loyalty = 75
 				}
-				has_estate = estate_nobles
+				NOT = { has_estate = estate_nobles }
 			}
 		} 
 		
@@ -95,6 +100,7 @@ age_of_feudalism = {
 		}
 
 		obj_legitimacy = {
+			prestige = 50
 			OR = {
 				legitimacy = 90
 				republican_tradition = 90
@@ -289,10 +295,7 @@ age_of_renaissance = {
 		}
 		obj_trade_dominance = {
 			capital_scope = {
-				trade_share = {
-					country = ROOT
-					share = 0.35
-				}
+				has_most_province_trade_power = ROOT
 			}
 		}
 		obj_new_medicine = {
@@ -327,22 +330,8 @@ age_of_renaissance = {
 	
 		obj_active_geopolitics = {
 			num_of_allies = 2
-			calc_true_if = {
-				amount = 8
-				all_ally = {
-					alliance_with = ROOT
-				}
-				all_subject_country = {
-					is_subject_of = ROOT
-				}
-				all_rival_country = {
-					is_rival = ROOT
-				}
-				all_enemy_country = {
-					ROOT = {
-						is_rival = PREV
-					}
-				}
+			any_rival_country = {
+				truce_with = ROOT
 			}
 		}
 	

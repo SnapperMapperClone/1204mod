@@ -618,6 +618,16 @@ guiTypes = {
 			}
 
 			guiButtonType = {
+				name = "purchase_area"
+				position = { x= 87 y = -310 }
+				buttonText = "PURCHASE_AREA"
+				buttonFont = "vic_18"
+				quadTextureSprite ="GFX_button_red_short_wide"
+				
+				scripted = yes
+			}
+
+			guiButtonType = {
 				name = "open_prov_dip_panel"
 				position = { x = 448 y = 50 }
 				quadTextureSprite ="GFX_prov_dip_button"

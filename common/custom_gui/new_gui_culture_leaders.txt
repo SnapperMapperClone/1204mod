@@ -4,6 +4,9 @@ custom_button = {
         FROM = {
 			ai = no
 		}
+        ROOT = {
+            ai = no
+        }
     }
     trigger = {
 		always = yes

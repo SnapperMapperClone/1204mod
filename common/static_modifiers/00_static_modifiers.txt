@@ -1544,6 +1544,9 @@ appanage_subject = {
 
 appanage_overlord = {
 	nobles_loyalty_modifier = 0.02
+	vassal_forcelimit_bonus = 0.05
+	vassal_manpower_bonus = 0.05
+	vassal_income = 0.05
 }
 
 appanage_overlord_ducal_modifier = {

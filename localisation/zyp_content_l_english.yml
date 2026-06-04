@@ -180,9 +180,6 @@
  nationalist_cb_tt: "§TWe will access the Nationalist Casus Belli.§!"
  
  provincial_diplomacy_read_tooltip: "Provincial Diplomacy"
- bgm_purchase_prov: "Purchase Province"
- bgm_confiscate_prov: "Confiscate Province"
- bgm_appanage_claim: "Feudal Claim"
  
  INFRASTRUCTURE: "Infrastructure"
  MILITARY: "Military"
@@ -334,6 +331,7 @@
  nation_state_decision_event.1.b: "Our traditions will see us through the ages!"
 
  other_is_married_tooltip: "This country's ruler is already §YMarried.§! This may §RLimit§! diplomatic opportunities with this nation in the mean time."
+ disloyal_nobility_tooltip: "This country's nobility is §RDisloyal§! and is a prime target for scheming monarchs."
  
  open_culture_leader_tt: "Open or close the §YCulture Leader§! panel."
  
@@ -560,6 +558,7 @@
  new_diplomacy.2.a: "We will retaliate one day."
  
  PURCHASE_PROV: "Purchase Province"
+ PURCHASE_AREA: "Purchase Area"
  CONFISCATE_PROV: "Confiscate Province"
  FEUDAL_CLAIM_PROV: "Feudal Claim"
  provincial_diplomacy_text: "Provincial Diplomacy"
@@ -659,6 +658,89 @@
  new_disasters.1.d: "Test"
  new_disasters.1.a: "Test"
  
+ dynastic_diplomacy.1.t: "Bachelor and Bachelorette Marriage"
+ dynastic_diplomacy.1.d: "A consequence of the conventional marital arrangement in the medieval time frame between heads of state involved the overlordship of husband over wife. In cases like this it implies a union not only between man and woman, but between states. The husband's dynasty comes to rule both realms in unison."
+ dynastic_diplomacy.1.a: "Okay."
+ dynastic_diplomacy.1.b: "We will not stand for this!"
+
+ dynastic_diplomacy.2.a: "Accept a noble from their house."
+ 
+ dynastic_diplomacy.3.t: "Extinction of Appanage Dynasty"
+ dynastic_diplomacy.3.d: "A dynasty in [From.GetName] has gone extinct. This means we could eventually place a new dynasty on their throne or move to integrate the territory eventually."
+ dynastic_diplomacy.3.a: "Okay."
+
+ dynastic_diplomacy.4.t: "Banned from foreign wars!"
+ dynastic_diplomacy.4.d: "Our overlord has the nerve to order the ban on us from declaring wars against foreign countries."
+ dynastic_diplomacy.4.a: "We ought to acquire sovereignty."
+
+ dynastic_diplomacy.5.t: "Province Confiscated!"
+ dynastic_diplomacy.5.d: "Our overlord has the nerve to order the concession of one of our provinces to the royal domain!"
+ dynastic_diplomacy.5.a: "We will see its return one day."
+ 
+ 
+ NEEDS_TO_EXERT_AUTHORITY_FIRST: "We need to exert considerable foreign policy influence over them first."
+
+ DISALLOW_FOREIGN_WAR_APPANAGE: "Our overlord has disallowed us the liberty to declare wars against foreign countries. We have to get 50% liberty desire."
+ disallow_foreign_wars_action_title: "Disallow Foreign Wars"
+ disallow_foreign_wars_action_desc: "We will ban [From.GetName] from declaring wars against foreigners."
+ disallow_foreign_wars_action_tooltip: "We will ban [From.GetName] from declaring wars against foreigners."
+ disallow_foreign_wars_action_past_tense: "Disalowwed Foreign Wars"
+
+ scheme_destabilize_country_title: "Destabilize Country"
+ scheme_destabilize_country_desc: "We will induce disloyalty in the nobles of [From.GetName]'s realm."
+ scheme_destabilize_country_tooltip: "We will induce disloyalty in the nobles of [From.GetName]'s realm."
+ 
+ scheme_extract_treasury_title: "Extract Treasury"
+ scheme_extract_treasury_desc: "We will take 150 ducats from [From.GetName]'s treasury."
+ scheme_extract_treasury_tooltip: "We will take 150 ducats from [From.GetName]'s treasury."
+ 
+ bribe_subject_title: "Bribe Ruler"
+ bribe_subject_desc: "We will buy loyalty from [From.GetName]'s leadership."
+ bribe_subject_tooltip: "We will buy loyalty from [From.GetName]'s leadership."
+ 
+ disallowed_foreign_wars: "Disallowed Foreign Wars"
+ 
+ 
+ new_generic_diplomacy.1.t: "Purchase Province Request"
+ new_generic_diplomacy.1.d: "Another country has came to us requesting the transfer of one of our provinces for a large sum."
+ new_generic_diplomacy.1.a: "Accept the deal."
+ new_generic_diplomacy.1.b: "Deny the request."
+
+ new_generic_diplomacy.2.t: "Purchase Area Request"
+ new_generic_diplomacy.2.d: "Another country has came to us requesting the transfer of one of our owned areas for a large sum."
+
+ new_generic_diplomacy.3.t: "Foreign Interference in the Nobility"
+ new_generic_diplomacy.3.d: "Spies from [From.GetName] have infiltrated our nobility to destabilize the realm!"
+ new_generic_diplomacy.3.a: "We will have our vengeance!"
+ 
+ new_generic_diplomacy.4.t: "[From.GetName] extracts from our treasury!"
+ new_generic_diplomacy.4.d: "A hostile dynasty has taken it upon themselves to use government officials at home to take ducats from our treasury and transfer it to theirs. This is cause for restitution."
+ 
+ new_generic_diplomacy.5.t: "Overlord bribes for Fealty"
+ new_generic_diplomacy.5.d: "[From.Monarch.GetName] has taken the time to award ducats to our treasury in exchange for continued fealty."
+
+ usurp_throne_title: "Claim Overlord's Throne"
+ usurp_throne_desc: "We will claim [From.GetName]'s throne, giving us a casus belli."
+ usurp_throne_tooltip: "We will claim [From.GetName]'s throne, giving us a casus belli."
+
+ cb_usurp_throne: "Usurp Throne"
+ cb_usurp_throne_desc: "They are not fit for the throne!"
+ take_capital_usurp_throne: "Take Capital"
+ take_capital_usurp_throne_desc: "Take their capital!"
+ PEACE_po_usurp_throne: "Usurp Throne"
+ po_usurp_throne_desc: "[From.Monarch.GetName] will be made to surrender [From.Monarch.GetHerHis] demesne to [Root.Monarch.GetName]."
+ CB_ALLOWED_po_usurp_throne: "Usurp Throne"
+ 
+ destabilized_our_realm: "Destabilized Our Realm"
+ took_from_our_treasury: "Siphoned our Treasury"
+ 
+
+ 
+ purchase_province_tooltip: "Ask the owner if they would like to sell this province to us."
+ purchase_area_tooltip: "Ask the owner if they would like to sell this area to us."
+ confiscate_province_tooltip: "Confiscate this province from our subject."
+ feudal_claim_province_tooltip: "Claim this province as a subject state."
+ 
  scholasticism: "Scholasticism"
  desc_scholasticism: ""
  scholasticism_date: "1250"
@@ -733,6 +815,9 @@
  new_institution_events.800.t: "Electrification"
  new_institution_events.800.d: "Electricity can be considered by some a sort of 'physical currency' for work to be done. The reasoning for this is on the basis that electricity can be converted much easier into heat, or motion, or some other activity. Now that there are novel inventions for the generation and usage of electricity, society may soon undergo a major change that will see convenience for all."
  new_institution_events.800.a: "Excellent."
+ 
+ FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_SCHOLASTICISM: "Neighboring province has Scholasticism, different tech group than spawn"
+ FRIENDLY_NEIGHBOR_OR_COAST_PROVINCE_HAS_EMBRACED_SCHOLASTICISM_SAME_TECH_GROUP: "Neighboring province has Scholasticism, same tech group than spawn"
 
 
  birthplace_of_ag_rev: "Birthplace of the Agricultural Revolution"
@@ -749,7 +834,68 @@
  age_of_renaissance: "Age of Renaissance"
  age_of_renaissance_desc: "desc"
  age_of_industrialization: "Age of Industrialization"
- age_of_industrialization_desc: ""
+ age_of_industrialization_desc: "desc"
+ 
+ ab_clerical_science: "Clerical Science"
+ ab_dynastic_diplomacy: "Dynastic Diplomacy"
+ ab_population_growth: "Population Growth"
+ ab_improved_fortifications: "Improved Fortifications"
+ ab_pap_supremacy: "Papal Supremacy"
+ ab_boh_prosperity: "Bohemian Prosperity"
+ ab_kha_cavalry_tactics: "Mongol Cavalry"
+ ab_fla_textile_industry: "Flemish Textile Industry"
+
+ obj_monarchy_or_theocracy: "Monarchy or Theocracy"
+ obj_monarchy_or_theocracy_desc: "Have either Monarchical or Theocratic governments."
+ obj_own_holy_land_or_religious_peace: "Holy Land or Religious Peace"
+ obj_own_holy_land_or_religious_peace_desc: "We must own and convert the Holy Lands or have religious peace depending on our religion."
+ obj_proliferated_dynasty: "Proliferated Dynasty"
+ obj_proliferated_dynasty_desc: "Have our dynasty's presence on 5 soverign thrones."
+ obj_kingdom: "Kingdom"
+ obj_kingdom_desc: "We must be at least Kingdom in government rank."
+ obj_noble_satisfaction: "Noble Satisfaction"
+ obj_noble_satisfaction_desc: "We must have 75 in Noble Loyalty or not have the estate."
+ obj_legitimacy: "Legitimacy and Prestige"
+ obj_legitimacy_desc: "We must have 90 in Legitimacy or equivalent and 50 prestige."
+
+ ab_income_prosperity: "Income Prosperity"
+ ab_gunpowder_pioneering: "Pioneering Gunpowder"
+ ab_professionalism: "Professionalism"
+ ab_naval_technology: "Naval Technology"
+ ab_eng_longbow: "English Longbow"
+ ab_bur_dynastic_politics: "Burgundian Dynastic Politics"
+ ab_muscovite_ascension: "Muscovite Ascension"
+ 
+ obj_innovativeness: "Innovativeness"
+ obj_innovativeness_desc: "Have 35% Innovativeness."
+ obj_trade_dominance: "Trade Dominance"
+ obj_trade_dominance_desc: "Have the highest trade power in the node our capital is in."
+ obj_new_medicine: "New Medicine"
+ obj_new_medicine_desc: "Have full presence of Quarantine and have hospitals in either all provinces or at least 10 if we own more."
+ obj_regional_dominance: "Regional Dominance"
+ obj_regional_dominance_desc: "Own 15 provinces in the region our capital is in."
+ obj_cabinet: "Cabinet"
+ obj_cabinet_desc: "Employ a skill 2 administrative, diplomatic and military advisor."
+ obj_active_geopolitics: "Active Geopolitics"
+ obj_active_geopolitics_desc: ""
+
+ ab_laborers_concessions: "Laborers' Concessions"
+ ab_bureaucratic_systems: "Extensive Political Apparatus"
+ ab_expanded_administration: "Expanded Administration"
+ ab_population_concentration: "Population Concentration"
+ ab_diplomatic_maneuvering: "Diplomatic Maneuvering"
+ ab_national_pride: "National Pride"
+ ab_colonial_expansionism: "Colonial Expansionism"
+ ab_jap_imperial_restoration: "Imperial Restoration"
+ ab_risorgimento: "Risorgimento"
+ ab_gbr_industrial_prosperity: "Industrial Prosperity"
+
+ obj_industrial_economy: "Industrial Economy"
+ obj_industrial_economy_desc: "Have either 50 Manufactories or have one in every province."
+ obj_four_continents: "Four Continents"
+ obj_four_continents_desc: "Own at least one province in four continents."
+ obj_many_subjects: "Many Subjects"
+ obj_many_subjects_desc: "Have at least 8 subjects."
 
  urbanization_tt: "§YGives us Rural Flight development transfers more often.§!"
  15_provs_in_capital_region: "§YOwn Fifteen Provinces in the Capital Region.§!"

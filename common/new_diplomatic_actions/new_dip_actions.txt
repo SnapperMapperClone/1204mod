@@ -245,3 +245,178 @@ war_intervention = {
 		}
 	}
 }
+
+disallow_foreign_wars_action = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+			is_subject_of_type = appanage
+		}
+	}
+	is_allowed = {
+		dip_power = 100
+	}
+	
+	on_accept = {
+		add_dip_power = -100
+		FROM = {
+			country_event = {
+				id = dynastic_diplomacy.4
+			}
+			add_opinion = {
+				who = ROOT
+				modifier = disallowed_foreign_wars
+			}
+		}
+	}
+	ai_will_do = {
+		dip_power = 900
+	}
+}
+
+scheme_destabilize_country = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			OR = {
+				is_rival = ROOT
+				is_enemy = ROOT
+				overlord_of = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+	is_allowed = {
+		FROM = {
+			NOT = {
+				war_with = ROOT
+			}
+		}
+		has_spy_network_in = {
+			who = FROM
+			value = 90
+		}
+		FROM = {
+			stability = -1
+			OR = {
+				NOT = { has_estate = estate_nobles }
+				estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 10
+				}
+			}
+		}
+	}
+	
+	on_accept = {
+		add_spy_network_in = {
+			who = FROM
+			value = -90
+		}
+		FROM = {
+			country_event = {
+				id = new_generic_diplomacy.3
+			}
+		}
+	}
+	ai_will_do = {
+		always = yes
+	}
+}
+
+#scheme_extract_treasury = {
+#	category = influence
+#	require_acceptance = no
+#	is_visible = {
+#		FROM = {
+#			OR = {
+#				is_rival = ROOT
+#				is_enemy = ROOT
+#				overlord_of = ROOT
+#				is_subject_of = ROOT
+#			}
+#		}
+#	}
+#	is_allowed = {
+#		FROM = {
+#			treasury = 150
+#			NOT = {
+#				war_with = ROOT
+#			}
+#		}
+#		has_spy_network_in = {
+#			who = FROM
+#			value = 75
+#		}
+#	}
+#	
+#	on_accept = {
+#		add_spy_network_in = {
+#			who = FROM
+#			value = -75
+#		}
+#		FROM = {
+#			country_event = {
+#				id = new_generic_diplomacy.4
+#			}
+#		}
+#	}
+#	ai_will_do = {
+#		always = yes
+#	}
+#}
+
+bribe_subject = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			is_subject_of = ROOT
+		}
+	}
+	is_allowed = {
+		treasury = 150
+	}
+	
+	on_accept = {
+		FROM = {
+			add_liberty_desire = -10
+			country_event = {
+				id = new_generic_diplomacy.5
+			}
+		}
+	}
+	ai_will_do = {
+		always = yes
+	}
+}
+
+usurp_throne = {
+	category = influence
+	require_acceptance = no
+	is_visible = {
+		FROM = {
+			overlord_of = ROOT
+		}
+	}
+	is_allowed = {
+		has_spy_network_in = {
+			who = FROM
+			value = 90
+		}
+	}
+	
+	on_accept = {
+		add_casus_belli = {
+			type = cb_usurp_throne
+			target = FROM
+			months = 120
+		}
+	}
+	ai_will_do = {
+		always = yes
+	}
+}

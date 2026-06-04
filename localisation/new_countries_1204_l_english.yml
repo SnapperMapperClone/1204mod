@@ -109,6 +109,8 @@
  ATO_ADJ: "Artesian"
  VMD: "Vermandois"
  VMD_ADJ: "Vermandois"
+ VNO: "Vendôme"
+ VNO_ADJ: "Vendômois"
  CMR: "Colmar"
  CMR_ADJ: "Colmarian"
  VLO: "Valois"

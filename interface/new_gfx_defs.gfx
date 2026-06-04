@@ -19,6 +19,11 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_new_disloyal_nobility_icon"
+		texturefile = "gfx//interface//disloyal_nobility_icon.dds"
+	}
+
+	spriteType = {
 		name = "GFX_culture_leader"
 		texturefile = "gfx//interface//culture_leader.dds"
 	}

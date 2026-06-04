@@ -12,3 +12,18 @@ claimed_king_of_ger = {
 	opinion = -100
 	yearly_decay = -1
 }
+
+disallowed_foreign_wars = {
+	opinion = -100
+	yearly_decay = -2
+}
+
+destabilized_our_realm = {
+	opinion = -100
+	yearly_decay = -3
+}
+
+took_from_our_treasury = {
+	opinion = -100
+	yearly_decay = -3
+}
