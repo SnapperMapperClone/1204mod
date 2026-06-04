@@ -36,7 +36,7 @@ NDefines.NDiplomacy.INTEGRATE_VASSAL_MIN_YEARS = 25
 --NDefines.NDiplomacy.PEACE_COST_DEMAND_PROVINCE = 2.0
 --NDefines.NDiplomacy.PEACE_COST_RETURN_CORE = 0.7 --0.65
 
---NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 1.5
+NDefines.NDiplomacy.PO_DEMAND_PROVINCES_AE = 1.5
 --NDefines.NDiplomacy.PEACE_COST_GIVE_UP_CLAIM = 25
 --NDefines.NDiplomacy.PEACE_COST_UNION = 100
 --NDefines.NDiplomacy.MAX_PEACE_TREATY_PRESTIGE = 200

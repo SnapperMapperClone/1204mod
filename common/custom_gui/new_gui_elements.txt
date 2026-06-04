@@ -367,6 +367,10 @@ custom_button = {
 			is_at_war = no
 			is_subject = yes
 			is_subject_of_type = appanage
+			any_neighbor_province = {
+				is_core = ROOT
+				owned_by = ROOT
+			}
 		}
 		owner = {
 			FROM = {
@@ -395,7 +399,7 @@ custom_button = {
 			}
 		}
 		ROOT = {
-			add_core = FROM
+			add_claim = FROM
 		}
 	}
     tooltip = feudal_claim_province_tooltip

@@ -734,6 +734,10 @@
  destabilized_our_realm: "Destabilized Our Realm"
  took_from_our_treasury: "Siphoned our Treasury"
  
+ cb_feudal_conquest: "Feudal Conquest"
+ cb_feudal_conquest_desc: "They hold provinces that we have claims on."
+ take_feudal_claim: "Take a claim"
+ take_feudal_claim_desc: "War goal is to take a province you have a claim on from the target."
 
  
  purchase_province_tooltip: "Ask the owner if they would like to sell this province to us."

@@ -442,6 +442,17 @@ fort_15th = {
 
 	ai_will_do = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
+
+		modifier = {
+			factor = 100
+			has_port = yes
+			is_in_capital_area = no
+			NOT = {
+				any_neighbor_province = {
+					owned_by = owner
+				}
+			}
+		}
 	}
 }
 
@@ -703,6 +714,17 @@ fort_16th = {
 
 	ai_will_do = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
+
+		modifier = {
+			factor = 100
+			has_port = yes
+			is_in_capital_area = no
+			NOT = {
+				any_neighbor_province = {
+					owned_by = owner
+				}
+			}
+		}
 	}
 }
 
@@ -1184,6 +1206,17 @@ fort_17th = {
 
 	ai_will_do = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
+
+		modifier = {
+			factor = 100
+			has_port = yes
+			is_in_capital_area = no
+			NOT = {
+				any_neighbor_province = {
+					owned_by = owner
+				}
+			}
+		}
 	}
 }
 
@@ -1507,6 +1540,17 @@ fort_18th = {
 
 	ai_will_do = {
 		factor = 1 #Lots of logic in code instead, that multiplies with this value
+
+		modifier = {
+			factor = 100
+			has_port = yes
+			is_in_capital_area = no
+			NOT = {
+				any_neighbor_province = {
+					owned_by = owner
+				}
+			}
+		}
 	}
 }
 

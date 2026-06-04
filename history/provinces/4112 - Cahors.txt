@@ -1,6 +1,6 @@
 # 4112 - Cahors
-owner = GUY
-controller = GUY
+owner = TOU
+controller = TOU
 capital = "Cahors"
 is_city = yes
 culture = aquitaine
@@ -9,7 +9,6 @@ base_tax = 3
 base_production = 3
 trade_goods = wine
 base_manpower = 3
-add_core = GUY
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -18,3 +17,4 @@ discovered_by = ottoman
 1686.1.17 = { religion = Catholic }
 1702.1.1 = { controller = REB revolt = { type = heretic_rebels size = 2 } }
 1705.1.1 = { controller = FRA revolt = { size = 1 } }
+add_core = TOU
