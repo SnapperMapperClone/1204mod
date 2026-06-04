@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = iqta
+primary_culture = mazandarani
+religion = shiite
+technology_group = muslim
+capital = 5017
+religious_school = zaidi_school

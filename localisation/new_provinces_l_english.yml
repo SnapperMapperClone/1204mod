@@ -126,4 +126,11 @@
  PROV_ADJ5102: "Utikian"
  PROV5103: "Shindan"
  PROV_ADJ5103: "Shindani"
- 
+ PROV5104: "Ahar"
+ PROV_ADJ5104: "Ahari"
+ PROV5105: "Astarabad"
+ PROV_ADJ5105: "Astarabadi"
+ PROV5106: "Alamut"
+ PROV_ADJ5106: "Alamuti"
+ PROV5107: "Ruyan"
+ PROV_ADJ5107: "Ruyani"

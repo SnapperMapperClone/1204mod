@@ -1,7 +1,7 @@
 #710 - Hotan
-owner = QKT
-controller = QKT
-add_core = QKT
+owner = KKE
+controller = KKE
+add_core = KKE
 culture = uyghur
 religion = vajrayana
 capital = "Hotan"
