@@ -1,0 +1,9 @@
+technology_group = muslim
+primary_culture = uzbehk
+religion = sunni
+government = monarchy
+add_government_reform = iqta
+capital = 739
+religious_school = hanafi_school
+
+

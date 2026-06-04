@@ -1,6 +1,7 @@
 #2999 - Hormuz
-owner = KHW
-controller = KHW
+owner = ORM
+controller = ORM
+add_core = ORM
 capital = "Hormuz"
 culture = gulf_arabic
 religion = sunni
@@ -16,17 +17,3 @@ discovered_by = indian
 discovered_by = nomad_group
 extra_cost = 16
 center_of_trade = 2
-1416.1.1 = { discovered_by = MNG }
-1480.1.1 = { discovered_by = TUR }
-1488.1.1 = { discovered_by = POR }
-1622.2.9 = { 
-	controller = PER
-	add_core = PER
-	base_tax = 1
-	base_production = 1
-	base_manpower = 1
-	center_of_trade = 1
-}
-1673.1.1 = { discovered_by = ENG }
-1707.5.12 = { discovered_by = GBR }
-add_core = KHW

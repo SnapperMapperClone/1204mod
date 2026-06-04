@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = luri
+religion = sunni
+technology_group = muslim
+capital = 4342 # Malamir
+religious_school = hanafi_school

@@ -1123,7 +1123,7 @@ armenia_area = {  #5
 shirvan_area = {  #5 #Northern Azerbaijan
 
 	color = { 225 231 53 }
-	421 4299 4305 4340 5103
+	421 4299 4305 5103
 }
 circassia_area = {  #4
 
@@ -1929,7 +1929,7 @@ transcaspia_area = {
 }
 mashhad_area = {  #4 - Northern Khorasan
 
-	2221 2235 2236 4326 
+	2214 2221 2235 2236 4326 
 }
 herat_area = {  #3 - Eastern Khorasan
 
@@ -1973,9 +1973,13 @@ iraq_e_ajam_area = {  #5
 
 	427 428 2213 2216 4337 
 }
+ardabil_area = {
+
+	424 4304 5104
+}
 azerbaijan_area = {  #5 #Southern Azerbaijan
 
-	2212 2215 4300 4338 
+	2212 2215 4300 4338 5106
 }
 isfahan_area = {  #3
 
@@ -1983,11 +1987,16 @@ isfahan_area = {  #3
 }
 tabriz_area = {  #4 Central Azerbaijan
 
-	416 2206 2207 4304 424 
+	416 2206 2207 
 }
 tabarestan_area = {  #5
 
-	417 426 2214 4339 4341 
+	426 4341 5105 5107
+}
+
+gilan_area = {
+
+    417 4339 4340
 }
 ########################################
 # India  		                       #
