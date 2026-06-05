@@ -1,0 +1,15 @@
+add_core = HUN
+owner = HUN
+culture = hungarian
+religion = catholic
+controller = HUN
+is_city = yes
+base_tax = 2
+base_manpower = 2
+base_production = 2
+trade_goods = grain
+capital = "Szombathely"
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim

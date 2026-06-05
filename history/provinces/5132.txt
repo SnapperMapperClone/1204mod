@@ -1,0 +1,11 @@
+culture = togoku
+trade_goods = gold
+religion = shinto
+is_city = yes
+add_core = KMK
+discovered_by = chinese
+owner = KMK
+controller = KMK
+base_tax = 2
+base_manpower = 1
+base_production = 2

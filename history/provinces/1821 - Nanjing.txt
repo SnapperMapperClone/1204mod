@@ -7,7 +7,7 @@ capital = "Nanjing"
 trade_goods = silk
 base_tax = 24
 base_production = 24
-base_manpower = 12
+base_manpower = 20
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
@@ -17,4 +17,5 @@ discovered_by = nomad_group
 	add_core = QNG
 }
 add_core = SNG
+add_core = MNG
 fort_15th = yes

@@ -241,7 +241,7 @@ brittany_area = {  #5
 }
 normandy_area = {  #4
 
-	168 1879 4385 
+	168 4385 1879 5010 
 }
 provence_area = {  #3
 
@@ -253,7 +253,7 @@ poitou_area = {  #4
 }
 guyenne_area = {  #4
 
-	194 4112 174 5016 
+	194 4112 5016 174 5109 
 }
 pyrenees_area = {  #4
 
@@ -275,7 +275,7 @@ west_burgundy_area = {  #3
 massif_central_area = {  #3
 
 	color = { 26 26 217 }
-	190 195 199 4697 4777 
+	4777 5110 199 190 
 }
 savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy 
 
@@ -287,23 +287,23 @@ lorraine_area = {  #4
 }
 picardy_area = {  #4
 
-	87 89 1743 88 5007 
+	87 5007 88 89 1743 
 }
 ile_de_france_area = {  #4
 
-	183 185 4388 182 5033 
+	4388 182 183 5003 
 }
 champagne_area = {  #3
 
-	181 4390 5003 186 5034 
+	181 4390 5034 186 5033 
 }
 loire_area = {  #5
 
 	color = { 231 143 5 }
-	178 4389 177 5002 5010 
+	178 177 5002 4389 
 }
 orleans_area = { 
-	184 4776 179 5005 
+	5005 179 4776 184 185 
 }
 ########################################
 # Low Countries				 		   #
@@ -318,7 +318,7 @@ holland_area = {  #4
 }
 flanders_area = {  #3
 
-	1865 4769 90 5011 5012 
+	1865 4769 90 5011 
 }
 frisia_area = {  #5
 
@@ -710,7 +710,7 @@ zaporizhia_area = {  #3
 }
 azov_area = {  #4
 
-	286 287 2413 2414 5087
+	286 287 2413 2414 5087 
 }
 crimea_area = {  #4
 
@@ -1053,7 +1053,7 @@ southern_transylvania_area = {  #3
 }
 slovakia_area = {  #5
 
-	154 162 1318 1772 4236 
+	154 1772 4236 
 }
 serbia_area = {  #5
 
@@ -1091,51 +1091,48 @@ alfold_area = {  #4
 transdanubia_area = {  #5
 
 	color = { 171 92 22 }
-	135 153 1864 4126 4240 
+	135 1864 4240 5111 
 }
 ########################################
 # Caucasia 							   #
 ########################################
-terek_area = {
-
-	2208 5090 5091
+terek_area = { 
+	2208 5090 5091 
 }
-alania_area = {
-
-	2197 2201 5086 5092
+alania_area = { 
+	2197 2201 5086 5092 
 }
 imereti_area = {  #3
 
-	422 462 1856 5095 5096
+	422 462 1856 5095 5096 
 }
 samtskhe_area = {  #3
 
-	2196 2204 4303 5097 5099
+	2196 2204 4303 5097 5099 
 }
 kartli_kakheti_area = {  #3
 
-	423 2203 4301 5100
+	423 2203 4301 5100 
 }
 armenia_area = {  #5
 
-	419 2205 2307 4302 5101
+	419 2205 2307 4302 5101 
 }
 shirvan_area = {  #5 #Northern Azerbaijan
 
 	color = { 225 231 53 }
-	421 4299 4305 5103
+	421 4299 4305 5103 
 }
 circassia_area = {  #4
 
-	463 2195 5088 5089 5094
+	463 2195 5088 5089 5094 
 }
 dagestan_area = {  #4
 
-	425 2198 2199 4306 5093
+	425 2198 2199 4306 5093 
 }
-artsakh_area = {
-
-	420 2202 5102
+artsakh_area = { 
+	420 2202 5102 
 }
 ########################################
 # Anatolia, The Levant & Mesopotamia   #
@@ -1146,10 +1143,10 @@ rum_area = {  #5
 }
 erzurum_area = {  #3	Erzurum and Trebizond
 
-	331 2305 2306
+	331 2305 2306 
 }
 trebizond_area = { 
-	330 4178 4962 4963 5098
+	330 4178 4962 4963 5098 
 }
 hudavendigar_area = {  #3
 
@@ -1973,13 +1970,12 @@ iraq_e_ajam_area = {  #5
 
 	427 428 2213 2216 4337 
 }
-ardabil_area = {
-
-	424 4304 5104
+ardabil_area = { 
+	424 4304 5104 
 }
 azerbaijan_area = {  #5 #Southern Azerbaijan
 
-	2212 2215 4300 4338 5106
+	2212 2215 4300 4338 5106 
 }
 isfahan_area = {  #3
 
@@ -1991,12 +1987,10 @@ tabriz_area = {  #4 Central Azerbaijan
 }
 tabarestan_area = {  #5
 
-	426 4341 5105 5107
+	426 4341 5105 5107 
 }
-
-gilan_area = {
-
-    417 4339 4340
+gilan_area = { 
+	417 4339 4340 
 }
 ########################################
 # India  		                       #
@@ -2516,7 +2510,7 @@ hokkaido_area = {  #5
 }
 hokuriku_area = {  #3
 
-	1023 1024 1837 
+	1024 1837 5132 5131 
 }
 kanto_area = {  #3 #Western Kanto
 
@@ -2528,28 +2522,28 @@ eastern_kanto_area = {  #3
 }
 kyushu_area = {  #4 #Southern Kyushu
 
-	1012 1015 4180 4181 
+	1012 1015 4180 5122 
 }
 northern_kyushu = { 
-	1014 1818 4182 4651 
+	1818 4651 4182 5124 
 }
 shikoku_area = {  #3
 
-	1819 1820 4186 
+	1819 1820 4186 5128 
 }
 eastern_chubu_area = {  #4
 
-	1029 1839 4188 4360 
+	1029 1839 4188 4360 5133 
 }
 chubu_area = {  #3 (Western Chubu)
 
 	color = { 219 83 61 }
-	1030 1835 4359 
+	1030 4359 5134 1835 5135 
 }
 kinai_area = {  #4
 
 	color = { 208 206 65 }
-	1020 1021 1832 4187 
+	1021 1832 4187 1020 5127 
 }
 thohoku_area = {  #4
 
@@ -2557,11 +2551,11 @@ thohoku_area = {  #4
 }
 sanindo_area = {  #4
 
-	1018 1830 4183 4185 
+	1830 4183 4185 1018 5126 
 }
 saigoku_area = {  #4 #Sanyodo
 
-	1017 1019 1825 4184 
+	1017 1019 4184 1825 5125 
 }
 ########################################
 # North Asia     	                   #
@@ -2782,7 +2776,7 @@ south_hebei_area = {  #4
 }
 shandong_area = {  #5
 
-	690 691 2138 2139 2140 
+	690 2138 2140 691 5117 
 }
 jiangsu_area = {  #3
 
@@ -2810,7 +2804,7 @@ jiangxi_area = {  #4
 }
 fujian_area = {  #4
 
-	669 1829 2152 2153 
+	669 2152 2153 1829 2156 
 }
 taiwan_area = {  #3
 
@@ -2818,7 +2812,7 @@ taiwan_area = {  #3
 }
 guangdong_area = {  #5
 
-	667 668 2156 2157 2158 
+	668 2157 2158 667 5113 
 }
 west_guangdong_area = {  #5
 
@@ -2830,7 +2824,7 @@ guangxi_area = {  #5
 }
 yun_gui_area = {  #5 (Yun-Gui Hinterland)
 
-	662 663 673 674 4199 
+	662 663 673 4199 674 5121 
 }
 yun_gui_borderland_area = {  #5
 
@@ -2838,7 +2832,7 @@ yun_gui_borderland_area = {  #5
 }
 sichuan_area = {  #3
 
-	679 680 4212 
+	680 4212 679 5119 5120 
 }
 chuannan_area = {  #4
 
@@ -2870,7 +2864,7 @@ shanxi_area = {  #5
 }
 shaanxi_area = {  #4
 
-	689 700 2179 4198 
+	689 2179 4198 700 5118 
 }
 gansu_area = {  #5 (East Gansu)
 
@@ -3712,4 +3706,22 @@ pennine_piedmont_area = {
 }
 pyrenean_catalonia_area = { 
 	2987 5080 197 
+}
+west_massif_area = { 
+	4697 5108 195 
+}
+east_slovakia_area = { 
+	5112 162 1318 
+}
+central_hungary_area = { 
+	153 5012 4126 
+}
+east_shandong_area = { 
+	2139 5114 5116 5115 
+}
+central_kyushu_area = { 
+	1014 4181 5123 
+}
+north_chubu_area = { 
+	1023 5130 5129 
 }

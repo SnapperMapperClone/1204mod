@@ -253,16 +253,15 @@
 4752 = { "Fiume" "Fiume" }
 4698 = "Cefalonia"
 
-5003 = { "Scialone" "Scialone-in-Sciampagna" }
+#5003 = { "Scialone" "Scialone-in-Sciampagna" }
 5009 = { "Aunis" "la Roccella" }
-5012 = "Cortraco"
+#5012 = "Cortraco"
 5011 = "Ipro"
 5013 = "Lovanio"
 5027 = { "Giura" "Pontarlera" }
 5024 = "Vosgi"
 193 = { "Besanzone" "Besanzone" }
 192 = { "Digionese" "Digione" }
-5002 = "Vendomo"
 5015 = "Buglione"
 224 = { "Siviglia" "Siviglia" }
 220 = "Valenza"

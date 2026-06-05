@@ -5,13 +5,12 @@ add_accepted_culture = slovak
 add_accepted_culture = transylvanian
 religion = catholic
 technology_group = eastern
-capital = 153# Buda
+capital = 5012# Buda
 historical_friend = HAB
 change_estate_land_share = { 
 	estate = estate_church
 	share = -5
 }
-
 1196.4.23 = { 
 	monarch = { 
 		name = "Imre"
@@ -21,7 +20,6 @@ change_estate_land_share = {
 		dip = 0
 		mil = 0
 	}
-
 	heir = { 
 		name = "László"
 		dynasty = "Árpád"
@@ -32,7 +30,6 @@ change_estate_land_share = {
 		mil = 3
 	}
 }
-
 1387.3.31 = { 
 	monarch = { 
 		name = "Sigismund I"
@@ -43,7 +40,6 @@ change_estate_land_share = {
 		mil = 3
 	}
 }
-
 1387.3.31 = { 
 	monarch = { 
 		name = "Sigismund I"

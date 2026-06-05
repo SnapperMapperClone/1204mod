@@ -5,9 +5,9 @@ culture = togoku
 religion = shinto
 capital = "Kawagoe"
 trade_goods = fish
-base_tax = 6
-base_production = 6
-base_manpower = 3
+base_tax = 4
+base_production = 4
+base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = MCH
@@ -16,7 +16,7 @@ discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
 extra_cost = 16
-center_of_trade = 2
+center_of_trade = 1
 1457.1.1 = { fort_15th = yes }
 1524.1.1 = { add_core = HJO }
 1542.1.1 = { discovered_by = POR }

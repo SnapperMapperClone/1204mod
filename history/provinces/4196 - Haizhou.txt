@@ -5,9 +5,9 @@ culture = jianghuai
 religion = confucianism
 capital = "Haizhou"
 trade_goods = fish
-base_tax = 10
-base_production = 10
-base_manpower = 9
+base_tax = 12
+base_production = 12
+base_manpower = 11
 is_city = yes
 extra_cost = 10
 discovered_by = chinese
@@ -22,3 +22,4 @@ add_permanent_province_modifier = {
 	add_core = QNG
 }
 add_core = CJN
+add_core = MNG

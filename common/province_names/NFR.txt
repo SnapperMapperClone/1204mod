@@ -120,3 +120,4 @@
 5059 = { "Lozère" "Mende" }
 5058 = { "Gard" "Nîmes" }
 5057 = { "Lisieux" "Lisieux" }
+5108 = { "Châteauroux" "Châteauroux" }

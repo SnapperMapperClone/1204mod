@@ -1,6 +1,6 @@
 #Leczyca
-owner = KRA
-controller = KRA
+owner = MAZ
+controller = MAZ
 capital = "Leczyca"
 culture = polish
 religion = catholic
@@ -43,4 +43,4 @@ discovered_by = ottoman
 1814.4.11 = { 
 	add_core = RUS
 }
-add_core = KRA
+add_core = MAZ

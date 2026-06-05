@@ -1,0 +1,11 @@
+culture = kyushuan
+religion = shinto
+is_city = yes
+add_core = KMK
+discovered_by = chinese
+owner = KMK
+controller = KMK
+base_tax = 4
+base_manpower = 3
+base_production = 4
+trade_goods = paper

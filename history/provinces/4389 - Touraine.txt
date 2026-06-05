@@ -5,12 +5,12 @@ capital = "Tours"
 is_city = yes
 culture = angevin
 religion = catholic
-base_tax = 4
-base_production = 4
-trade_goods = cloth
+base_tax = 5
+base_production = 5
+trade_goods = wine
 base_manpower = 4
 add_local_autonomy = 10
-add_core = TNE
+#add_core = TNE
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -18,3 +18,4 @@ discovered_by = ottoman
 1652.7.2 = { controller = REB revolt = { type = revolutionary_rebels size = 1 } }
 1652.10.21 = { controller = FRA revolt = { size = 1 } }
 add_core = ANJ
+add_core = VNO

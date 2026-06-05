@@ -90,6 +90,7 @@
  english_channel: "Holland"
  valencia: "Barcelona"
  cosmopolitan_french: "Francian"
+ PROV177: "Haut-Maine"
  PROV186: "Rémois"
  PROV_ADJ185: "Senais"
  PROV4388: "Chartrain"
@@ -125,6 +126,7 @@
  PROV_ADJ2195: "Tuapse"
  PROV463: "Maykop"
  PROV_ADJ463: "Maykopian"
+ PROV4240: "Fejér"
 
  PROV4737: "Agrigento"
  

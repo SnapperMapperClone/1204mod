@@ -8,18 +8,7 @@ on_startup = {
 		every_province = {
 			limit = {
 				superregion = china_superregion
-				culture_group = east_asian
-				OR = {
-					has_terrain = farmlands
-					has_terrain = mountain
-					has_terrain = hills
-					has_terrain = jungle
-				}
-				NOT = {
-					area = taiwan_area
-				}
 			}
-
 			add_province_triggered_modifier = chi_reduced_cost_imperial_modifier
 		}
 		KHA = {

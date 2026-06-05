@@ -1,6 +1,6 @@
 #49 - Neumark
-owner = WIE
-controller = WIE
+owner = DAN
+controller = DAN
 #add_core = BRA
 culture = polish
 religion = catholic
@@ -17,7 +17,7 @@ discovered_by = ottoman
 add_local_autonomy = 50#Administrative misshandling, robber barons, privileged cities.
 1402.1.1 = { controller = TEU add_core = TEU }
 1453.1.1 = { controller = BRA add_core = BRA }
-1536.1.1 = { religion = protestant }
+1536.1.1 = { religion = Protestant }
 1650.1.1 = { culture = prussian }
 1701.1.18 = { 
 	controller = PRU
@@ -26,4 +26,4 @@ add_local_autonomy = 50#Administrative misshandling, robber barons, privileged c
 1725.1.1 = { base_manpower = 4 base_tax = 6 base_production = 6 }
 1750.1.1 = { base_manpower = 5 base_tax = 7 base_production = 7 }
 1806.7.12 = { hre = no }
-add_core = WIE
+add_core = DAN

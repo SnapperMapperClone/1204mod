@@ -1,6 +1,6 @@
 #4523 - Inwroclaw
-owner = WIE
-controller = WIE
+owner = MAZ
+controller = MAZ
 capital = "Inowroclaw"
 culture = polish
 religion = catholic
@@ -35,4 +35,4 @@ discovered_by = ottoman
 	revolt = { size = 1 }
 }
 1813.3.17 = { controller = PRU }
-add_core = WIE
+add_core = MAZ

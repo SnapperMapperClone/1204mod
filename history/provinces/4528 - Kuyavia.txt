@@ -1,6 +1,6 @@
 # Kuyavia
-owner = WIE
-controller = WIE
+owner = MAZ
+controller = MAZ
 capital = "Brzesc Kujawski"
 culture = polish
 religion = catholic
@@ -43,4 +43,4 @@ discovered_by = ottoman
 1814.4.11 = { 
 	add_core = RUS
 }
-add_core = WIE
+add_core = MAZ

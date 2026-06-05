@@ -169,7 +169,6 @@
 500 = "Sint-Vincent"
 493 = "Sint-Thomas"
 
-5012 = "Kortrijk"
 5011 = "Ieper"
 5013 = "Leuven"
 5015 = "Bullioen"

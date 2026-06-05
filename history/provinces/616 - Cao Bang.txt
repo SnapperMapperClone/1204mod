@@ -26,3 +26,4 @@ discovered_by = indian
 1802.7.22 = { 
 	controller = ANN
 }
+add_core = CGS

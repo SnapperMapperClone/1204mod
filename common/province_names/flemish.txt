@@ -1,6 +1,5 @@
 91 = "Henegouwn"
 92 = "Brussel"
 93 = "Luuk"
-5012 = "Kortryk"
 4769 = "Rysel"
 5011 = "Yper"

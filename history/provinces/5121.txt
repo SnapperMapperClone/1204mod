@@ -1,0 +1,12 @@
+add_core = CDL
+owner = CDL
+base_tax = 6
+base_manpower = 6
+base_production = 6
+culture = yi
+trade_goods = rice
+religion = animism
+controller = CDL
+is_city = yes
+discovered_by = chinese
+discovered_by = nomad_group
