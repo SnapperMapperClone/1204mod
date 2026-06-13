@@ -127,6 +127,8 @@
  CMM_ADJ: "Commingois"
  AUN: "Aunis"
  AUN_ADJ: "Aunisian"
+ CLR: "Colmar"
+ CLR_ADJ: "Colmarian"
  KKW: "West Karakhanids"
  KKW_ADJ: "Western Karakhanid"
  KKE: "East Karakhanids"

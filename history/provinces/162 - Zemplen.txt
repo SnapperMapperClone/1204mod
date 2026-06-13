@@ -39,4 +39,3 @@ discovered_by = ottoman
 	controller = HAB
 	revolt = { size = 1 }
 }
-fort_15th = yes

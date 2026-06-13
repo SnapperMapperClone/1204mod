@@ -846,7 +846,7 @@ bohemia_area = {  #5
 }
 erzgebirge_area = {  #3
 
-	267 1771 2967 
+	1771 2967 267 5142 5141 
 }
 lusatia_area = {  #3
 
@@ -901,7 +901,7 @@ thuringia_area = {  #3
 neumark_area = {  #3
 
 	color = { 234 232 44 }
-	49 2969 4747 
+	49 4747 2969 5143 
 }
 mittelmark_area = {  #5
 

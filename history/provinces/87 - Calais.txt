@@ -25,4 +25,3 @@ center_of_trade = 1
 1648.1.1 = { fort_16th = no fort_17th = yes }
 1715.1.1 = { fort_17th = no fort_18th = yes }
 add_core = BOL
-fort_15th = yes

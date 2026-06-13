@@ -95,8 +95,16 @@ cb_confiscate_territory = {
 
 	prerequisites = {
 		FROM = {
-			any_owned_province = {
-				has_province_flag = royal_demesne_flag
+			is_subject = no
+			OR = {
+				any_owned_province = {
+					has_province_flag = royal_demesne_flag
+				}
+				any_subject_country = {
+					any_owned_province = {
+						has_province_flag = royal_demesne_flag
+					}
+				}
 			}
 		}
 	}

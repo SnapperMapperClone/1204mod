@@ -432,10 +432,11 @@ appanage = {
 	can_have_subjects_of_other_types = yes
 	transfer_trade_power = yes
 	joins_overlords_wars = no
-	can_be_annexed = yes
+	can_be_annexed = no
 	takes_diplo_slot = no
 	extend_trading_range = yes
 	counts_for_borders = yes
+	overlord_protects_external = yes
 	max_government_rank = 2
 	can_be_co_belligerented = yes
 	must_accept_cta_from_overlord = yes
@@ -446,12 +447,15 @@ appanage = {
 	opinion_cost_to_join_defensive_wars = 20   #Defines how much opinion the subject loses of the overlord to call the subject into a defensive war. Applied if you do not have Leviathan
 	opinion_on_subject_integration = 25
 
+	bestow_gifts = yes
+	demand_additional_tribute = yes
 	has_power_projection = yes
 	gets_help_with_rebels = no
 	separatists_become_subjects = yes
 	allows_taking_land_without_independence = yes
 	forms_trade_companies = no
 	can_concentrate_development = no
+	can_send_missionary_to_subject = no
 	liberty_desire_development_ratio = 0.1
 	trust_on_start = 0
 	base_liberty_desire = 40.0
@@ -685,6 +689,7 @@ colony = {
 	}
 
 	# Subject Interactions:
+	support_loyalists = yes
 	customize_subject = yes
 	replace_governor = yes
 	start_colonial_war = yes

@@ -5,6 +5,7 @@ religion = catholic
 primary_culture = gascon
 capital = 176	# Pau
 fixed_capital = 176 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1
 
 1398.1.1 = {
 	monarch = {

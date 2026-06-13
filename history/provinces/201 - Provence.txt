@@ -29,4 +29,3 @@ extra_cost = 10
 1715.1.1 = { fort_17th = no fort_18th = yes }
 1806.7.12 = { hre = no }
 center_of_trade = 1
-fort_15th = yes

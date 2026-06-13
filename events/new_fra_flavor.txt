@@ -1,0 +1,207 @@
+namespace = new_fra_flavor
+
+# albigensian crusade
+country_event = {
+	id = new_fra_flavor.1
+	title = new_fra_flavor.1.t
+	desc = new_fra_flavor.1.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+	major = yes
+
+
+	trigger = {
+		tag = FRA
+	}
+
+	mean_time_to_happen = {
+		years = 10
+	}
+	
+	
+	option = { #weigh in directly
+		name = new_fra_flavor.1.a
+		create_subject = {
+			subject_type = personal_union
+			who = TOU
+		}
+		TOU = {
+			add_liberty_desire = 30
+			add_opinion = {
+				who = ROOT
+				modifier = went_against_catharism_neg
+			}
+		}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = went_against_catharism_pos
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+		}
+	}
+	option = { #instruct the appanages
+		name = new_fra_flavor.1.b
+		random_subject_country = {
+			country_event = {
+				id = new_fra_flavor.2
+			}
+		}
+	}
+	option = { #leave the situation as is
+		name = new_fra_flavor.1.c
+		TOU = {
+			add_liberty_desire = -30
+			add_opinion = {
+				who = ROOT
+				modifier = went_against_catharism_pos
+			}
+		}
+		PAP = {
+			add_opinion = {
+				who = ROOT
+				modifier = went_against_catharism_neg
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					alliance_with = PAP
+					ai_attitude = {
+						who = PAP
+						attitude = attitude_friendly
+					}
+					ai_attitude = {
+						who = PAP
+						attitude = attitude_loyal
+					}
+					ai_attitude = {
+						who = PAP
+						attitude = attitude_protective
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = new_fra_flavor.2
+	title = new_fra_flavor.1.t
+	desc = new_fra_flavor.2.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	option = { #let's fight
+		name = new_fra_flavor.2.a
+		if = {
+			limit = {
+				NOT = {
+					FRA = {
+						any_subject_country = {
+							war_with = TOU
+						}
+					}
+				}
+			}
+			declare_war_with_cb = {
+				casus_belli = cb_crusade
+				who = TOU
+			}
+		}
+		else = {
+			TOU = {
+				random_war_enemy_country = {
+					limit = {
+						is_in_war = {
+							casus_belli = cb_crusade
+							defender_leader = TOU
+						}
+					}
+					ROOT = {
+						join_all_offensive_wars_of = PREV
+					}
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						is_rival = TOU
+						is_enemy = TOU
+						ai_attitude = {
+							who = TOU
+							attitude = attitude_hostile
+						}
+						ai_attitude = {
+							who = TOU
+							attitude = attitude_outraged
+						}
+					}
+				}
+			}
+		}
+	}
+	option = { #stay out of it
+		name = new_fra_flavor.2.b
+		
+	}
+}
+
+country_event = {
+	id = new_fra_flavor.3
+	title = new_fra_flavor.3.t
+	desc = new_fra_flavor.3.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		NOT = {
+			truce_with = ENG
+		}
+		has_casus_belli = {
+			type = cb_confiscate_territory
+			target = ENG
+		}
+	}
+
+	mean_time_to_happen = {
+		years = 5
+	}
+	
+	option = { #let's fight
+		name = new_fra_flavor.2.a
+		declare_war_with_cb = {
+			casus_belli = cb_confiscate_territory
+			who = ENG
+		}
+		ai_chance = {
+			factor = 100
+			modifier = {
+				factor = 0
+				is_at_war = yes
+			}
+		}
+	}
+	option = { #stay out of it
+		name = new_fra_flavor.3.b
+		
+	}
+}

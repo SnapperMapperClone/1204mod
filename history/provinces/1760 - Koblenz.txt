@@ -25,4 +25,3 @@ discovered_by = ottoman
 	controller = PRU
 	add_core = PRU
 }
-fort_15th = yes

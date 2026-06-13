@@ -265,17 +265,52 @@ league_member = {
 	should_quit_wars_on_activation = yes
 
 	can_fight = {
+		independent_nations = yes
 		same_overlord = league_member
 	}
 	can_rival = {
+		independent_nations = yes
 		same_overlord = league_member
 	}
 	can_ally = {
 		same_overlord = league_member
 	}
 	can_marry = {
+		independent_nations = yes
 		same_overlord = league_member
 	}
+	
+	# Subject Interactions:
+	placate_rulers = no
+	siphon_income = yes
+	support_loyalists = yes
+
+
+	overlord_opinion_modifier = null
+	subject_opinion_modifier = null
+}
+
+constituent_state = {
+	copy_from = default
+
+	# Graphics:
+	sprite = GFX_icon_incorporated_vassal_subject_type
+	diplomacy_overlord_sprite = GFX_icon_diplomacy_lead_incorporated_vassal_subject_type
+	diplomacy_subject_sprite = GFX_icon_diplomacy_am_incorporated_vassal_subject_type
+
+	# Properties:
+	annex_cost_per_development = 2.5
+	takes_diplo_slot = no
+	can_be_annexed = yes
+	liberty_desire_development_ratio = 0.1
+	pays_overlord = 0.5
+	forcelimit_to_overlord = 0.25						# Percent of subject FL to use as base for modifiers
+	naval_forcelimit_to_overlord = 0.25					# Percent of subject FL to use as base for modifiers
+	manpower_to_overlord = 0.25							# Percent of subject FL to use as base for modifiers
+	sailors_to_overlord = 0.25							# Percent of subject FL to use as base for modifiers
+
+	relative_power_class = 1
+	should_quit_wars_on_activation = yes
 	
 	# Subject Interactions:
 	placate_rulers = no

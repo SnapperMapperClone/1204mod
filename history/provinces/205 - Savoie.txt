@@ -33,4 +33,3 @@ discovered_by = ottoman
 1814.4.11 = { 
 	controller = SPI
 }
-fort_15th = yes

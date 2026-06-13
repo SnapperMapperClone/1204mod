@@ -168,6 +168,28 @@ declarewar = {
 	}
 
 	condition = {
+		tooltip = DISALLOW_WAR_FOR_EMPIRE_EXCEPT_GUELPH_GHIBELLINE
+		potential = {
+			is_part_of_hre = yes
+			NOT = {
+				OR = {
+					capital_scope = {
+						region = italy_region
+					}
+					FROM = {
+						capital_scope = {
+							region = italy_region
+						}
+					}
+				}
+			}
+		}
+		allow = {
+			has_global_flag = imperial_interregnum
+		}
+	}
+
+	condition = {
 		tooltip = DISALLOW_FOREIGN_WAR_APPANAGE
 		potential = {
 			is_subject_of_type = appanage
@@ -612,13 +634,21 @@ annexationaction = {
 		}
 	}
 	condition = {
-		tooltip = NEEDS_50_CROWNLAND_TT
+		tooltip = NEEDS_50_CROWNLAND_OR_LOW_NOBLES_INFLUENCE_TT
 		potential = {
-			has_government_attribute = need_crownland_to_annex
-			NOT = { crown_land_share = 50 }
+			#has_government_attribute = need_crownland_to_annex
+			has_estate = estate_nobles
 		}
 		allow = {
-			crown_land_share = 50
+			OR = {
+				crown_land_share = 50
+				NOT = {
+					estate_influence = {
+						estate = estate_nobles
+						influence = 50
+					}
+				}
+			}
 		}
 	}
 	condition = {

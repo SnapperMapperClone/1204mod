@@ -26,4 +26,3 @@ center_of_trade = 2
 1650.1.1 = { base_manpower = 4 }
 1700.1.1 = { base_manpower = 6 }
 1806.7.12 = { hre = no }
-fort_15th = yes

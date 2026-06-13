@@ -27,4 +27,3 @@ discovered_by = ottoman
 1648.1.1 = { fort_16th = no fort_17th = yes }
 1686.1.17 = { religion = Catholic }
 1715.1.1 = { fort_17th = no fort_18th = yes }
-fort_15th = yes

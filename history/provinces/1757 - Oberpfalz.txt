@@ -22,4 +22,3 @@ discovered_by = ottoman
 1743.1.1 = { base_tax = 4 base_production = 4 }
 1806.7.12 = { hre = no }
 add_core = BYT
-fort_15th = yes

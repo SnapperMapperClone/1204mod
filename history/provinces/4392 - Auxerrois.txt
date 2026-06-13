@@ -19,4 +19,3 @@ discovered_by = ottoman
 1636.8.30 = { controller = HAB }
 1636.10.1 = { controller = FRA }
 add_core = BLS
-fort_15th = yes

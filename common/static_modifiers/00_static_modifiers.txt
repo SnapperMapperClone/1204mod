@@ -966,8 +966,6 @@ emperor_revoked_reform =  {
 
 num_of_marriages = {
 	legitimacy = 0.10
-	heir_chance = 0.05
-	improve_relation_modifier = 0.01
 }
 
 num_of_provinces = {

@@ -1,0 +1,17 @@
+namespace = new_hre
+
+country_event = {
+	id = new_hre.1
+	title = new_hre.1.t
+	desc = new_hre.1.d
+	picture = EMPEROR_eventPicture
+	
+	fire_only_once = yes
+	major = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = new_hre.1.a
+		set_global_flag = imperial_interregnum
+	}
+}

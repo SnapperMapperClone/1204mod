@@ -32,4 +32,3 @@ discovered_by = ottoman
 1814.5.30 = { 
 	controller = HAB
 }
-fort_15th = yes

@@ -52,6 +52,7 @@ on_startup = {
 			}
 			set_province_flag = royal_demesne_flag
 		}
+		set_global_flag = hre_wars_disallowed_on_start
 	}
 }
 
@@ -440,6 +441,7 @@ on_new_monarch = {
 
 	if = {
 		limit = {
+			ai = no
 			government = monarchy
 			has_regency = no
 			NOT = {
@@ -449,6 +451,20 @@ on_new_monarch = {
 		}
 		overlord = {
 			create_union = ROOT
+		}
+	}
+	else_if = {
+		limit = {
+			ai = yes
+			government = monarchy
+			has_regency = no
+			NOT = {
+				has_ruler_flag = is_heir_flag
+			}
+			is_subject_of_type = appanage
+		}
+		overlord = {
+			inherit = ROOT
 		}
 	}
 }
@@ -675,6 +691,24 @@ on_new_term_election = {
 				country_event = {
 					id = league_membership.2
 				}
+			}
+		}
+	}
+}
+
+on_emperor_elected = {
+	if = {
+		limit = {
+			FROM = {
+				has_regency = no
+				NOT = {
+					has_ruler_flag = is_heir_flag
+				}
+			}
+		}
+		FROM = {
+			country_event = {
+				id = new_hre.1
 			}
 		}
 	}

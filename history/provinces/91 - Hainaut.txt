@@ -50,3 +50,4 @@ latent_trade_goods = {
 	controller = NED
 	add_core = NED
 }
+center_of_trade = 1

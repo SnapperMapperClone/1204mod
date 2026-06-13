@@ -1,6 +1,6 @@
 # 88 Artois - Principal cities: Arras, Saint-Omer & Lille
-owner = ATO
-controller = ATO
+owner = FRA
+controller = FRA
 capital = "Arras"
 is_city = yes
 culture = picard
@@ -29,5 +29,6 @@ discovered_by = ottoman
 	base_production = 10
 }
 1806.7.12 = { hre = no }
-add_core = ATO
 center_of_trade = 1
+add_core = FRA
+add_core = ATO

@@ -35,4 +35,3 @@ center_of_trade = 2
 1806.2.9 = { controller = FRA }
 1806.3.11 = { controller = NAP }
 add_core = SIC
-fort_15th = yes

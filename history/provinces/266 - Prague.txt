@@ -41,4 +41,3 @@ add_province_triggered_modifier = religious_center
 }
 1627.1.1 = { religion = Catholic }
 1806.7.12 = { hre = no }
-fort_15th = yes

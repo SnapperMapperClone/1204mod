@@ -381,7 +381,7 @@ new_byzantium_5 = {
 		}
 		effect = {
 			add_prestige = 10
-			give_claims = { region = south_germany_region }
+			give_claims = { region = alamannia_region }
 		}
 	}
 	BYZ_raetia_et_noricum = {
@@ -389,12 +389,12 @@ new_byzantium_5 = {
 		position = 5
 		required_missions = { BYZ_pannonia BYZ_illyria }
 		provinces_to_highlight = {
-			region = south_germany_region
+			region = alamannia_region
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				region = south_germany_region
+				region = alamannia_region
 				value = 30
 			}
 		}

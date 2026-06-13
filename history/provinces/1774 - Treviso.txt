@@ -31,4 +31,3 @@ discovered_by = ottoman
 }
 add_core = TRV
 hre = yes
-fort_15th = yes

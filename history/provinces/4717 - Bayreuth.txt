@@ -29,4 +29,3 @@ discovered_by = ottoman
 }
 1806.7.12 = { hre = no }
 add_core = MEA
-fort_15th = yes

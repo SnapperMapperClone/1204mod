@@ -89,14 +89,6 @@ dependency = {
 	end_date = 9999.1.1
 }
 
-dependency = {
-	subject_type = personal_union
-	first = FRA
-	second = ATO
-	start_date = 1204.1.1
-	end_date = 9999.1.1
-}
-
 
 #Great Britain
 

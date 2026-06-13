@@ -1,6 +1,6 @@
 # 202 Avignon - Principal cities: Avignon
-owner = AVI# The great Schism
-controller = AVI
+owner = TOU# The great Schism
+controller = TOU
 capital = "Avignon"
 is_city = yes
 culture = occitain
@@ -24,4 +24,4 @@ discovered_by = ottoman
 1791.9.14 = { 
 	controller = FRA
 }
-fort_15th = yes
+add_core = TOU

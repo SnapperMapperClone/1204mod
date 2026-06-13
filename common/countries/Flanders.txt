@@ -75,17 +75,14 @@ monarch_names = {
 	"Yolande #2" = -1
 }
 leader_names = { 
-	Dampierre Deconinck Goethals
-	Nevers
+	Dampierre Deconinck Goethals Nevers
 	Penen
 	"Van Bellegem" "Van Gulik" "Van Herstal" "Van Leeuwergem" "Van Lichtervelde" "Van Nieuwland" "Van Oudenaarde" "Van Petershem" "Van Raveschoot" "Van Renesse"
 }
 ship_names = { 
 	Antwerpen
-	"Boudewijn I" Brugge "De Vlaamse leeuw" Gent Guldensporenslag "Gwijde van Dampierre" Hasselt
-	"Jacob van Artevelde" "Karel de Goede" "Kerel van Vlaanderen" Leuven
-	"Manneken Pis" Mechelen "Pieter de Coninck" Schelde
-	"Tijl Uilenspiegel" Vlaanderen
+	"Boudewijn I" Brugge "De Vlaamse leeuw" Gent Guldensporenslag "Gwijde van Dampierre" Hasselt "Jacob van Artevelde" "Karel de Goede" "Kerel van Vlaanderen"
+	Leuven "Manneken Pis" Mechelen "Pieter de Coninck" Schelde "Tijl Uilenspiegel" Vlaanderen 
 }
 army_names = { 
 	"Leger van $PROVINCE$" 

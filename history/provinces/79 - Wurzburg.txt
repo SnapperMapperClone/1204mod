@@ -25,4 +25,3 @@ is_city = yes
 	controller = BAV
 	add_core = BAV
 }
-fort_15th = yes

@@ -522,6 +522,13 @@
 
 
 
+ NEEDS_50_CROWNLAND_OR_LOW_NOBLES_INFLUENCE_TT: "We need to have either less than 50 influence from the Nobility or more than 50% Crown Land to begin annexing this subject."
+ DISALLOW_WAR_FOR_EMPIRE_EXCEPT_GUELPH_GHIBELLINE: "With the passage of the Landfriede in 1103, and the conflict between the Guelphs and Ghibellines, most wars in the Empire cannot be fought. Central authority has to be reduced first."
+
+ HERETIC: "Heretic"
+ 
+ went_against_catharism_pos: "Handling of the Albigensian Crusade"
+ went_against_catharism_neg: "Handling of the Albigensian Crusade"
 
  war_intervention_title: "Intervene in Wars"
  war_intervention_desc: "We will intervene in [From.GetName]'s wars, which we have not already participated in, on their side."
@@ -547,6 +554,12 @@
  league_member_long_desc: "League Members have pledged their loyalty for a cause shared by the collective of the league's members and leadership."
  league_member_is_our: "$NAME|Y$ is a League Member."
  league_member_overlord_title: "League Leader"
+ 
+ constituent_state_title: "Constituent State"
+ constituent_state_title_plural: "Constituent States"
+ constituent_state_long_desc: "Constituent States are de facto part of another country but retain administrative autonomy. Foreign policy is dictated from their overlord outright."
+ constituent_state_is_our: "$NAME|Y$ is a Constituent State."
+ constituent_state_overlord_title: "Confederal Leader"
  
  new_diplomacy.1.t: "Province Purchase Request"
  new_diplomacy.1.d: "[From.GetName] has approached us requesting to purchase one of our provinces."
@@ -603,7 +616,7 @@
  cannot_assassinate_again_fifty_years: "§YThis can be done on any particular country only once every fifty years.§!"
 
  new_dynasty_election_event.1.t: "End of a Dynasty"
- new_dynasty_election_event.1.d: "Our previous dynasty has gone extinct. It's time to evaluate new candidates for the throne."
+ new_dynasty_election_event.1.d: "Our previous dynasty has gone extinct. It's time to evaluate new candidates for the throne. Note: Before embracing the Renaissance, alliances and rivalries are terminated. They are dynastic relations, not political ones until then."
  new_dynasty_election_event.1.a: "Accept the Regent."
  new_dynasty_election_event.1.b: "Coronate a noble from an allied dynasty."
  new_dynasty_election_event.1.c: "Our appanage has the right to rule."
@@ -612,6 +625,31 @@
  new_dynasty_election_event.2.d: "Our dynasty has been selected for the office of monarch in our overlord's realm. It's time to consider following them to greater ambition or stay here as a territory in union."
  new_dynasty_election_event.2.a: "Let's follow the [Root.Dynasty.GetName] dynasty."
  new_dynasty_election_event.2.b: "We will stay here."
+ 
+ new_fra_flavor.1.t: "The ALbigensian Crusade"
+ new_fra_flavor.1.d: "The autonomous county of Toulouse holds within its bounds a plurality of Cathar heretics. Their disrespect toward Catholic tradition as well as that of the Royal Domain has inspired the papacy to request immediate action be taken against the heretics and the counts themselves for their apparent inaction."
+ new_fra_flavor.1.a: "Depose the count."
+ new_fra_flavor.1.b: "Instruct the appanages to attack."
+ new_fra_flavor.1.c: "We should not do anything."
+ 
+ new_fra_flavor.2.d: "France has asked for us to invade the County of Toulouse in a crusade against the Cathar Heresy."
+ new_fra_flavor.2.a: "Let's fight."
+ new_fra_flavor.2.b: "We will stay out of it."
+ 
+ new_fra_flavor.3.b: "Leave the Angevins alone."
+ 
+ HOSTILE_RELATIONS: "Hostile Relations"
+ ROOT_DIPREP: "Diplomatic Reputation"
+ TOTAL_DEV_ROOT: "Our Total Development"
+ TOTAL_DEV: "Their Total Development"
+ ROOT_FROM_MILITARY_POWER_COMPARED: "Relative Strength"
+ integrate_countries_title: "Integrate Administrations"
+ integrate_countries_desc: "We will integrate our administrations. They become a Constituent State of our nation."
+ integrate_countries_tooltip: "We will integrate our administrations. They become a Constituent State of our nation."
+
+ new_hre.1.t: "Imperial Interregnum"
+ new_hre.1.d: "The last dynasty of the Imperial Throne has gone extinct. The Holy Roman Empire itself is now contested, and any claimant can make a bid to make themselves Emperor."
+ new_hre.1.a: "We have to recover the throne!"
  
  culture_folding.1.t: "Folding of Cultures"
  culture_folding.1.d: "On noting the similarities between our ruling culture and that of our neighboring provinces it's time to assess whether to enshrine their distinct characteristics or let them become part of our ruling identity."
@@ -922,7 +960,7 @@
  anjou: "Anjou"
  bavaria: "Bavaria"
  moscow: "Moscow"
- south_germany: "Alamannia"
+ alamannia: "Alamannia"
  bohemia_node: "Bohemia"
  korea: "Korea"
  

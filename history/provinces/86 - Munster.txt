@@ -43,4 +43,3 @@ discovered_by = ottoman
 1813.10.13 = { 
 	controller = PRU
 }
-fort_15th = yes

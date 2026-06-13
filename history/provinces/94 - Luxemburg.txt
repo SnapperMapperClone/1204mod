@@ -41,4 +41,3 @@ discovered_by = ottoman
 1815.6.9 = { 
 	controller = LUX
 }
-fort_15th = yes

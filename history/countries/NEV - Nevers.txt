@@ -11,9 +11,22 @@ fixed_capital = 191 # Cannot move capital away from this province & no power cos
 	monarch = {
 		name = "Mathilde I"
 		dynasty = "de Courtenay"
+		female = yes
 		birth_date = 1188.1.1
 		death_date = 9999.1.1
-		adm = 2
+		adm = 5
+		dip = 2
+		mil = 1
+	}
+}
+
+1200.1.1 = { 
+	queen = { 
+		name = "Hervé"
+		dynasty = "de Donzy"
+		birth_date = 1174.1.1
+		death_date = 9999.12.31
+		adm = 5
 		dip = 2
 		mil = 2
 	}

@@ -39,4 +39,3 @@ center_of_trade = 2
 	controller = KRA
 }
 add_core = WIE
-fort_15th = yes

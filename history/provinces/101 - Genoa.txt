@@ -46,4 +46,3 @@ center_of_trade = 3
 	controller = SPI
 	add_core = SPI
 }
-fort_15th = yes

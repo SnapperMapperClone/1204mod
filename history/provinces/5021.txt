@@ -13,3 +13,4 @@ religion = catholic
 controller = ENG
 is_city = yes
 capital = "Bedford"
+fort_15th = yes

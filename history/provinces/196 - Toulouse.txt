@@ -17,3 +17,4 @@ discovered_by = ottoman
 1560.1.1 = { religion = Reformed }
 1686.1.17 = { religion = Catholic }
 center_of_trade = 1
+fort_15th = yes

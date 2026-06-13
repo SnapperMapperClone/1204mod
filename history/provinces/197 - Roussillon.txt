@@ -32,4 +32,3 @@ discovered_by = ottoman
 1715.1.1 = { fort_17th = no fort_18th = yes }
 1793.4.17 = { controller = SPA }
 1793.5.1 = { controller = FRA }
-fort_15th = yes

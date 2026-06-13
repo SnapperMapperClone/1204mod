@@ -166,7 +166,7 @@
 2966 = "Glogów"
 2967 = "Cheb"
 2968 = "Budziejowice"
-2969 = "Lubusz"
+2969 = { "Lubusz" "Lubusz" }
 2970 = "Hradec"
 2993 = "Przeslaw"
 2994 = "Wologoszcz"

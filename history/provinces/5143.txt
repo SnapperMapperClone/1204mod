@@ -1,0 +1,14 @@
+add_core = GLG
+owner = GLG
+base_tax = 2
+base_manpower = 1
+base_production = 2
+culture = polish
+trade_goods = livestock
+religion = catholic
+controller = GLG
+is_city = yes
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim

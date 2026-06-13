@@ -5,7 +5,7 @@ primary_culture = gascon
 religion = catholic
 capital = 175	# Bayonne
 fixed_capital = 175 # Cannot move capital away from this province & no power cost to move to it
-
+government_rank = 1
 
 1391.7.25 = {
 	monarch = {

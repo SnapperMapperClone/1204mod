@@ -117,6 +117,16 @@ country_event = {
 				}
 			}
 		}
+
+		if = {
+			limit = {
+				NOT = { has_global_flag = imperial_interregnum }
+				has_country_flag = is_emperor
+			}
+			country_event = {
+				id = new_hre.1
+			}
+		}
 	}
 }
 
@@ -160,22 +170,24 @@ country_event = {
 
 country_event = {
 	id = new_dynasty_election_event.3
-	title = new_dynasty_election_event.3.t
-	desc = new_dynasty_election_event.3.d
+	title = new_dynasty_election_event.2.t
+	desc = new_dynasty_election_event.2.d
 	picture = GOOD_WITH_MONARCH_eventPicture
 
 	is_triggered_only = yes
 
 	option = {
-		name = new_dynasty_election_event.3.a
+		name = new_dynasty_election_event.2.a
 		switch_tag = FROM
 		ai_chance = {
 			factor = 0
 		}
 	}
 	option = {
-		name = new_dynasty_election_event.3.b
-		
+		name = new_dynasty_election_event.2.b
+		trigger = {
+			ai = yes
+		}
 	}
 	after = {
 		set_ruler_flag = is_heir_flag

@@ -274,6 +274,8 @@ fort_15th = {
 	time = 30
 	modifier = {
 		fort_level = 2
+		local_unrest = -1
+		local_hostile_movement_speed = -0.05
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -580,6 +582,8 @@ fort_16th = {
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
+		local_unrest = -2
+		local_hostile_movement_speed = -0.1
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1071,6 +1075,8 @@ fort_17th = {
 
 	modifier = {
 		fort_level = 6
+		local_unrest = -3
+		local_hostile_movement_speed = -0.15
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1406,6 +1412,8 @@ fort_18th = {
 
 	modifier = {
 		fort_level = 8
+		local_unrest = -4
+		local_hostile_movement_speed = -0.2
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)

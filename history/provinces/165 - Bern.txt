@@ -27,4 +27,4 @@ discovered_by = ottoman
 1802.6.1 = { controller = REB revolt = { type = revolutionary_rebels size = 1 } }
 1802.9.18 = { controller = SWI revolt = { size = 1 } }
 add_core = BAU
-fort_15th = yes
+center_of_trade = 1

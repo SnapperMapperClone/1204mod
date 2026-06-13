@@ -31,4 +31,3 @@ discovered_by = ottoman
 	controller = NED
 	add_core = NED
 }
-fort_15th = yes

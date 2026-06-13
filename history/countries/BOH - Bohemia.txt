@@ -6,6 +6,7 @@ capital = 266# Praha
 technology_group = western
 add_accepted_culture = sorbian
 add_army_professionalism = 0.1
+government_rank = 3
 change_estate_land_share = { 
 	estate = estate_burghers
 	share = -5

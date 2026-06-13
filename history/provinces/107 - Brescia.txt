@@ -37,4 +37,3 @@ discovered_by = ottoman
 	add_core = HAB
 }
 add_core = BSC
-fort_15th = yes

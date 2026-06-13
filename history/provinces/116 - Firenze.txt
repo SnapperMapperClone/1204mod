@@ -42,4 +42,3 @@ center_of_trade = 2
 1814.4.11 = { 
 	controller = TUS
 }
-fort_15th = yes

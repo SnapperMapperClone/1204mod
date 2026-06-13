@@ -51,4 +51,3 @@ discovered_by = ottoman
 	add_core = NED
 }
 add_core = NAM
-fort_15th = yes

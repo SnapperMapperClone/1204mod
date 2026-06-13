@@ -1,0 +1,15 @@
+add_core = BOH
+discovered_by = western
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = muslim
+owner = BOH
+base_tax = 3
+base_manpower = 2
+base_production = 3
+culture = czech
+trade_goods = grain
+religion = catholic
+hre = yes
+controller = BOH
+is_city = yes

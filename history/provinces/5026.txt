@@ -14,3 +14,4 @@ base_manpower = 3
 base_production = 4
 add_core = SWA
 add_core = CLR
+center_of_trade = 1
