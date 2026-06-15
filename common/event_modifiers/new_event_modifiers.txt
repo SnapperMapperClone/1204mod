@@ -96,3 +96,83 @@ industrial_job_growth = {
 province_is_coastal = {
 	local_governing_cost = -0.25
 }
+
+
+
+mediterranean_trade = {
+	mercantilism_cost = -0.1
+	trade_steering = 0.15
+}
+
+papal_influence_modifier = {
+	papal_influence = 1
+	monthly_fervor_increase = 1
+	church_power_modifier = 1
+	prestige_decay = -0.01
+	diplomatic_reputation = 1
+}
+
+consolidated_the_crown = {
+	power_projection_from_insults = 0.25
+	prestige = 0.5
+	legitimacy = 0.5
+	devotion = 0.5
+	horde_unity = 0.5
+	republican_tradition = 0.2
+}
+
+french_road_infrastructure = {
+	state_governing_cost = -0.15
+	global_tax_modifier = 0.1
+}
+
+breton_influences = {
+	diplomatic_upkeep = 1
+	diplomatic_reputation = 1
+}
+
+fra_missions_naval_infrastructure = {
+	naval_forcelimit = 4
+}
+
+increased_central_authority = {
+	great_project_upgrade_cost = -0.15
+	global_manpower_modifier = 0.1
+}
+
+absolute_monarchy_modifier = {
+	global_tax_modifier = 0.33
+	global_manpower_modifier = 0.33
+	land_forcelimit_modifier = 0.33
+}
+
+provincial_governors_modifier = {
+	governing_capacity_modifier = 0.2
+	development_cost = -0.1
+}
+
+center_of_world_trade = {
+	global_trade_power = 0.25
+	development_cost_in_primary_culture = -0.1
+}
+
+center_of_world_trade_province = {
+	local_development_cost_modifier = -0.1
+	trade_value = 25
+}
+
+princely_state_bureaucracy = {
+	improve_relation_modifier = 0.2
+	diplomatic_upkeep = 2
+	diplomats = 1
+}
+
+free_market_modifier = {
+	development_cost_modifier = -0.1
+	yearly_innovativeness = 0.5
+}
+
+light_governance_modifier = {
+	production_efficiency = 0.1
+	trade_efficiency = 0.1
+}

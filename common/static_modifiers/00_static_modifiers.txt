@@ -1600,6 +1600,16 @@ eyalet_modifier = {
 	land_forcelimit	= -5
 }
 
+princely_state_subject = {
+	global_unrest = -2
+	stability_cost_modifier = -0.15
+}
+
+princely_state_overlord = {
+	ae_impact = -0.02
+	global_trade_goods_size_modifier = 0.02
+}
+
 #scales to amount of up-to-date forts compared to total development
 maintained_forts = {
 	army_tradition = 1

@@ -249,7 +249,7 @@ provence_area = {  #3
 }
 poitou_area = {  #4
 
-	180 4111 4387 4386 5009 
+	4386 180 5144 
 }
 guyenne_area = {  #4
 
@@ -3724,4 +3724,7 @@ central_kyushu_area = {
 }
 north_chubu_area = { 
 	1023 5130 5129 
+}
+angouleme_area = { 
+	4111 4387 5009 
 }

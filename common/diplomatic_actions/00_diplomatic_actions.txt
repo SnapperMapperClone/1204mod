@@ -664,6 +664,18 @@ annexationaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = CONTROL_CORE_REGION
+		potential = {
+			tag = FRA
+			FROM = {
+				is_subject_of_type = appanage
+			}
+		}
+		allow = {
+			has_country_flag = can_annex_appanages
+		}
+	}
 	#condition = {
 	#	tooltip = NEEDS_TO_HAVE_SEIZED_LAND
 	#	potential = {

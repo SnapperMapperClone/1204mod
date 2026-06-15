@@ -205,3 +205,88 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = new_fra_flavor.4
+	title = new_fra_flavor.4.t
+	desc = new_fra_flavor.4.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	option = { #go absolutist
+		name = new_fra_flavor.4.a
+		
+	}
+	option = { #share with the bourgeoisie
+		name = new_fra_flavor.4.b
+		set_country_flag = went_bourgeoisie
+		country_event = {
+			id = ideagroups.1
+		}
+	}
+
+	after = {
+		set_country_flag = had_absolutism_event
+	}
+}
+
+country_event = {
+	id = new_fra_flavor.5
+	title = new_fra_flavor.5.t
+	desc = new_fra_flavor.5.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	option = { #give the pope avignon
+		name = new_fra_flavor.5.a
+		custom_tooltip = wont_be_penalized_for_papal_vassalization
+		set_country_flag = can_vassalize_pap
+		if = {
+			limit = { exists = PAP }
+			PAP = {
+				country_event = {
+					id = new_fra_flavor.6
+				}
+			}
+		}
+		else = {
+			202 = {
+				add_core = PAP
+			}
+			release = PAP
+			create_subject = {
+				subject_type = vassal
+				who = PAP
+			}
+		}
+		
+	}
+	option = { #keep it
+		name = new_fra_flavor.5.b
+	}
+}
+
+country_event = {
+	id = new_fra_flavor.6
+	title = new_fra_flavor.5.t
+	desc = new_fra_flavor.5.d
+	picture = BAD_WITH_MONARCH_eventPicture
+
+	is_triggered_only = yes
+	
+	option = { #give the pope avignon
+		name = new_fra_flavor.6.a
+		202 = {
+			cede_province = PAP
+			add_core = PAP
+		}
+		PAP = {
+			set_capital = 202
+		}
+	}
+	option = { #keep it
+		name = new_fra_flavor.6.b
+	}
+}

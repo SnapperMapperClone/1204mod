@@ -560,6 +560,14 @@
  constituent_state_long_desc: "Constituent States are de facto part of another country but retain administrative autonomy. Foreign policy is dictated from their overlord outright."
  constituent_state_is_our: "$NAME|Y$ is a Constituent State."
  constituent_state_overlord_title: "Confederal Leader"
+
+ princely_state_title: "Princely State"
+ princely_state_title_plural: "Princely States"
+ princely_state_long_desc: "Princely States are de facto part of another country but retain administrative autonomy. Foreign policy is dictated from their overlord outright."
+ princely_state_is_our: "$NAME|Y$ is a Princely State."
+ princely_state_overlord_title: "Princely State Leader"
+ princely_state_subject: "Princely State"
+ princely_state_overlord: "Princely States"
  
  new_diplomacy.1.t: "Province Purchase Request"
  new_diplomacy.1.d: "[From.GetName] has approached us requesting to purchase one of our provinces."
@@ -714,9 +722,15 @@
  dynastic_diplomacy.5.t: "Province Confiscated!"
  dynastic_diplomacy.5.d: "Our overlord has the nerve to order the concession of one of our provinces to the royal domain!"
  dynastic_diplomacy.5.a: "We will see its return one day."
- 
- 
- NEEDS_TO_EXERT_AUTHORITY_FIRST: "We need to exert considerable foreign policy influence over them first."
+
+ make_princely_state_title: "Make Princely State"
+ make_princely_state_desc: "We will ask for [From.GetName] to adopt Princely State status. They will become an autonomous subject for us."
+ make_princely_state_tooltip: "We will ask for [From.GetName] to adopt Princely State status. They will become an autonomous subject for us."
+
+ make_protectorate_title: "Make Protectorate"
+ make_protectorate_desc: "We will ask for [From.GetName] to become a Protectorate. They will become an autonomous subject for us."
+ make_protectorate_tooltip: "We will ask for [From.GetName] to become a Protectorate. They will become an autonomous subject for us."
+
 
  DISALLOW_FOREIGN_WAR_APPANAGE: "Our overlord has disallowed us the liberty to declare wars against foreign countries. We have to get 50% liberty desire."
  disallow_foreign_wars_action_title: "Disallow Foreign Wars"
@@ -953,7 +967,7 @@
 
 
 
- north_italy: "Genoa-Venice"
+ genoa_venice: "Genoa-Venice"
  south_italy: "Sicily"
  bohemia: "Bohemia"
  burgundy: "Rhône"

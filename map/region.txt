@@ -15,7 +15,7 @@ france_region = {
 	areas = { 
 		brittany_area normandy_area provence_area guyenne_area languedoc_area massif_central_area savoy_dauphine_area lorraine_area picardy_area champagne_area
 		ile_de_france_area loire_area bourgogne_area west_burgundy_area pyrenees_area poitou_area orleans_area dauphine_area lower_languedoc_area upper_brittany_area
-		east_normandy_area west_massif_area 
+		east_normandy_area west_massif_area angouleme_area 
 	}
 }
 russia_region = { 

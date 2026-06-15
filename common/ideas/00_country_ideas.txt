@@ -862,47 +862,49 @@ NED_ideas = {
 
 FRA_ideas_1 = {
 	start = {
-		diplomatic_reputation = 1
-		global_manpower_modifier = 0.2
+		merchants = 1
+		build_cost = -0.1
 	}
 	
 	bonus = {
-		development_cost = -0.1
+		global_allowed_num_of_buildings = 1
 	}	
 
 	trigger = {
+		has_country_flag = went_bourgeoisie
 		tag = FRA
 		is_revolutionary = no 
 		is_revolution_target = no 
 	}
 	free = yes		#will be added at load.
 	
-	fra_taille = {
-		global_tax_modifier = 0.1
-		war_taxes_cost_modifier = -0.5
+	banking_capital_of_europe = {
+		interest = -0.5
+		inflation_reduction = 0.05
 	}
-	lessons_hundred_years_war = {
-		army_tradition = 0.5
-		land_morale = 0.15
+	diversified_textile_industries = {
+		production_efficiency = 0.25
+		land_morale = 0.1
 	}
-	estates_general = {
-		reform_progress_growth = 0.1
-		global_unrest = -1 
+	fund_outward_expeditions = {
+		colonists = 1
+		global_colonial_growth = 30
 	}
-	native_trading_principles = {
-		native_uprising_chance = -0.5
-		native_assimilation = 0.5
+	nationwide_naval_ordinance = {
+		naval_forcelimit_modifier = 0.25
+		sailors_recovery_speed = 0.15
 	}
-	divine_right_to_rule = {
-		core_creation = -0.1
-		max_absolutism = 5
+	trade_nexus = {
+		trade_efficiency = 0.15
+		global_own_trade_power = 0.25
 	}
-	europes_first_standing_army = {
+	integrated_mercenary_lessons = {
+		allow_mercenary_drill = yes
 		discipline = 0.05
 	}
-	vauban_fortifications = {
-		defensiveness = 0.15
-		garrison_damage = 0.5
+	most_prestigious_royal_court = {
+		prestige_decay = -0.01
+		innovativeness_gain = 0.5
 	}
 }
 
@@ -917,6 +919,7 @@ FRA_ideas = {
 	}	
 
 	trigger = {
+		NOT = { has_country_flag = went_bourgeoisie }
 		tag = FRA
 		is_revolutionary = no 
 		is_revolution_target = no 
@@ -944,6 +947,7 @@ FRA_ideas = {
 		max_absolutism = 5
 	}
 	europes_first_standing_army = {
+		land_forcelimit_modifier = 0.2
 		discipline = 0.05
 	}
 	vauban_fortifications = {

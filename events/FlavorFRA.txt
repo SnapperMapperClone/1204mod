@@ -2391,7 +2391,7 @@ country_event = { #Treaty fo the Lily Flower
 			}
 			excommunicate = FRA 
 		}
-		custom_tooltip = fra_cede_north_italy_to_pope_tt
+		custom_tooltip = fra_cede_genoa_venice_to_pope_tt
 		hidden_effect = { 
 			italy_region = { 
 				limit = { 
