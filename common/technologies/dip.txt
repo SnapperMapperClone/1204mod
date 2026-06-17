@@ -925,3 +925,192 @@ technology = { #The Gold Standard
 	trade_range				=	20
 	global_colonial_growth  = 	50
 }
+
+technology = { #steel production
+	year = 1850
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 0.25
+	}
+	
+	
+}
+
+
+technology = { #urban transportation
+	year = 1865
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 0.5
+	}
+	
+	
+}
+
+technology = { #automobile
+	year = 1880
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 0.75
+	}
+	
+	
+}
+
+
+technology = { #refrigeration
+	year = 1895
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 1
+	}
+	
+}
+
+
+technology = { #bakelite
+	year = 1910
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 1
+		electrification = 0.25
+	}
+	
+}
+
+
+technology = { #electron microscope
+	year = 1925
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 1
+		electrification = 0.5
+	}
+	
+}
+
+
+technology = { #polyester
+	year = 1940
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 1
+		electrification = 0.75
+	}
+	
+}
+
+
+technology = { #mosfet
+	year = 1955
+	expects_institution = {
+		feudalism = 1.0
+		scholasticism = 1.0
+		gunpowder = 1
+		quarantine = 1
+		commercial_revolution = 1.0
+		renaissance = 1
+		printing_press = 1
+		modern_firearm = 1
+		new_world_i = 1
+		global_trade = 1
+		enlightenment = 1
+		ag_rev_institution = 1
+		industrialization = 1
+		manufactories = 1
+		remote_communication = 1
+		electrification = 1
+	}
+	
+}
