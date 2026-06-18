@@ -752,6 +752,32 @@
  
  disallowed_foreign_wars: "Disallowed Foreign Wars"
  
+ longbow_archer: "Longbow Archer"
+ longbow_archerDESC: ""
+ crossbow: "Crossbow"
+ crossbowDESC: ""
+ steel_arbalest: "Steel Arbalest"
+ steel_arbalestDESC: ""
+ handgonne: "Handgonne"
+ handgonneDESC: ""
+ shiltron: "Shiltron"
+ shiltronDESC: ""
+ chassepot: "Chassepot"
+ chassepotDESC: ""
+ dreyse: "Dreyse Needle Rifle"
+ dreyseDESC: ""
+ mosin_nagant: "Mosin Nagant"
+ mosin_nagantDESC: ""
+ gewehr_98: "Gewehr 98"
+ gewehr_98DESC: ""
+ lee_enfield: "Lee-Enfield"
+ lee_enfieldDESC: ""
+ ak47: "AK-47"
+ ak47DESC: ""
+ FAL: "FN Herstal FAL"
+ FALDESC: ""
+ 
+ 
  
  new_generic_diplomacy.1.t: "Purchase Province Request"
  new_generic_diplomacy.1.d: "Another country has came to us requesting the transfer of one of our provinces for a large sum."

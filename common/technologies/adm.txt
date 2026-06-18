@@ -62,7 +62,7 @@ technology = { #wheelbarrow
 	}
 	
 	dirt_road = yes
-	shipyard_system = yes
+	
 	irrigation = yes
 	
 	#effect = { } # When a country researches the technology
@@ -74,7 +74,7 @@ technology = { #medieval university
 	expects_institution = {
 		feudalism = 1
 	}
-	
+	production_efficiency =	0.02
 	#effect = { } # When a country researches the technology
 }
 
@@ -95,6 +95,7 @@ technology = { #button
 		feudalism = 1
 		scholasticism = 0.25
 	}
+	production_efficiency =	0.02
 	#effect = { } # When a country researches the technology
 }
 
@@ -118,6 +119,7 @@ technology = { #spectacles
 		scholasticism = 0.75
 	}
 	#effect = { } # When a country researches the technology
+	production_efficiency =	0.02
 }
 
 technology = { #spinning wheel
@@ -141,7 +143,7 @@ technology = { #paper mill
 		gunpowder = 0.5
 		#urbanization = 0.25
 	}
-	
+	production_efficiency =	0.02
 }
 
 technology = { #hospital
@@ -178,7 +180,8 @@ technology = { #floating crane
 		gunpowder = 1
 		quarantine = 0.25
 	}
-	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #tower mill
@@ -191,7 +194,7 @@ technology = { #tower mill
 		quarantine = 0.25
 		#commercial_revolution = 0.25
 	}
-	
+	governing_capacity = 100
 }
 
 technology = { #iron-based tools
@@ -204,8 +207,7 @@ technology = { #iron-based tools
 		quarantine = 0.25
 		commercial_revolution = 0.25
 	}
-	
-	
+	production_efficiency =	0.02
 }
 
 technology = { #oil painting
@@ -247,7 +249,7 @@ technology = { #Medieval Administration
 		renaissance = 0.25
 	}
 
-	production_efficiency	=	0.02
+	production_efficiency =	0.02
 	may_support_rebels = yes
 }
  
@@ -263,10 +265,8 @@ technology = { #Temples
 		renaissance = 0.5
 		printing_press = 0.25
 	}
-
 	# Temple
-	
-	
+	governing_capacity = 100
 }
 
 technology = { #National Ideas
@@ -321,6 +321,8 @@ technology = { #Renaissance Thought
 	
 	#Noble Republic
 	allowed_idea_groups = 6
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #Courthouse
@@ -419,6 +421,7 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 100
 	state_house = yes
+	administrative_efficiency = 0.05
 }
 
 technology = { #Improved Drainage
@@ -437,6 +440,7 @@ technology = { #Improved Drainage
 	}
 	
 	#Improved Drainage
+	development_cost_modifier = -0.05
 	production_efficiency 	=	0.02
 	paved_road = yes
 }
@@ -520,8 +524,8 @@ technology = { #University
 	
 	governing_capacity = 250
 	
-	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #National Sovereignty
@@ -649,8 +653,8 @@ technology = { #Measuring the World
 		ag_rev_institution = 0.25
 	}
 	
-	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #Bonds and Tontines
@@ -737,8 +741,8 @@ technology = { #Modern Bureaucracy
 		industrialization = 0.25
 	}
 
-	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 	governing_capacity = 250
 }
 
@@ -882,7 +886,7 @@ technology = { #telegraphy
 		manufactories = 1
 		remote_communication = 0.25
 	}
-	
+	allowed_idea_groups = 13
 }
 
 
@@ -905,7 +909,8 @@ technology = { #urbanization
 		manufactories = 1
 		remote_communication = 0.5
 	}
-	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 
@@ -928,7 +933,7 @@ technology = { #typewriter
 		manufactories = 1
 		remote_communication = 0.75
 	}
-	
+	production_efficiency =	0.05
 }
 
 technology = { #surgical sanitation
@@ -950,7 +955,7 @@ technology = { #surgical sanitation
 		manufactories = 1
 		remote_communication = 1
 	}
-	
+	governing_capacity = 500
 }
 
 technology = { #cellophane
@@ -973,7 +978,7 @@ technology = { #cellophane
 		remote_communication = 1
 		electrification = 0.25
 	}
-	
+	allowed_idea_groups = 14
 }
 
 technology = { #frequency modulation
@@ -996,7 +1001,8 @@ technology = { #frequency modulation
 		remote_communication = 1
 		electrification = 0.5
 	}
-	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #fission
@@ -1019,7 +1025,7 @@ technology = { #fission
 		remote_communication = 1
 		electrification = 0.75
 	}
-	
+	production_efficiency =	0.05
 }
 
 technology = { #linz-donawitz steelmaking
@@ -1042,5 +1048,6 @@ technology = { #linz-donawitz steelmaking
 		remote_communication = 1
 		electrification = 1
 	}
-	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }

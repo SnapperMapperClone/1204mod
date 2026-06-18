@@ -14,7 +14,7 @@ technology = { #Early Ships
 	year = 500
 	
 	naval_morale			=	2.0
-	range					=	60
+	range					=	25
 	may_fabricate_claims = yes
 
 	enable = war_canoe
@@ -30,7 +30,7 @@ technology = { #Merchants & Trade
 	}
 	
 	merchants = yes
-	trade_range				=	100
+	trade_range				=	25
 	global_colonial_growth	= 	10
 }
 
@@ -41,8 +41,8 @@ technology = { #The Barque
 		feudalism = 0.5
 	}
 	
-	enable = barque
-	trade_range				=	100
+	#enable = barque
+	trade_range	= 25
 	enable = cog
 	enable = galley
 	
@@ -65,7 +65,8 @@ technology = { #workshop system
 	expects_institution = {
 		feudalism = 1
 	}
-	marketplace = yes 
+	marketplace = yes
+	trade_efficiency = 0.02
 	#effect = { } # When a country researches the technology
 }
 
@@ -86,6 +87,8 @@ technology = { #astrolabe
 		feudalism = 1
 		scholasticism = 0.25
 	}
+	trade_range	= 25
+	trade_efficiency = 0.02
 	#effect = { } # When a country researches the technology
 }
 
@@ -96,6 +99,7 @@ technology = { #improved construction
 		feudalism = 1
 		scholasticism = 0.5
 	}
+	enable = caravel
 	fishery = yes
 	#effect = { } # When a country researches the technology
 }
@@ -107,6 +111,7 @@ technology = { #magnetic compass
 		feudalism = 1
 		scholasticism = 0.75
 	}
+	trade_efficiency = 0.02
 	#effect = { } # When a country researches the technology
 }
 
@@ -119,7 +124,7 @@ technology = { #watermark
 		gunpowder = 0.2
 		#urbanization = 0.25
 	}
-	
+	naval_morale = 0.1
 }
 
 technology = { #blast furnace
@@ -131,7 +136,7 @@ technology = { #blast furnace
 		gunpowder = 0.5
 		#urbanization = 0.25
 	}
-	
+	trade_efficiency = 0.02
 }
 
 technology = { #arch bridge
@@ -143,7 +148,7 @@ technology = { #arch bridge
 		gunpowder = 0.75
 		#urbanization = 0.25
 	}
-	
+	num_accepted_cultures = 1
 }
 
 technology = { #astronomical clock
@@ -155,7 +160,7 @@ technology = { #astronomical clock
 		gunpowder = 1.0
 		#urbanization = 0.25
 	}
-	
+	trade_range	= 25
 }
 
 technology = { #quarantine
@@ -180,7 +185,7 @@ technology = { #carrack
 		quarantine = 0.5
 		#commercial_revolution = 0.25
 	}
-	
+	trade_range	= 25
 }
 
 technology = { #arabic numeration
@@ -193,7 +198,7 @@ technology = { #arabic numeration
 		quarantine = 0.5
 		commercial_revolution = 0.25
 	}
-	
+	trade_efficiency = 0.02
 	
 }
 
@@ -207,7 +212,7 @@ technology = { #clavicord
 		quarantine = 0.75
 		commercial_revolution = 0.5
 	}
-	
+	range = 25
 }
 
 technology = { #long-distance travel
@@ -220,6 +225,7 @@ technology = { #long-distance travel
 		quarantine = 1
 		commercial_revolution = 0.75
 	}
+	trade_range	= 50
 }
 
 # The 30 big techs from here on
@@ -239,8 +245,8 @@ technology = { #The Early Carrack
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
 	range					= 	100
-	trade_efficiency 		= 	0.02
-	global_colonial_growth	= 	15
+	trade_efficiency = 0.02
+	global_colonial_growth = 5
 	may_build_flagships = yes
 	
 	enable = early_carrack
@@ -364,7 +370,6 @@ technology = { #Carracks & Caravel
 	range					=	50
 	
 	enable = carrack
-	enable = caravel
 	may_study_technology = yes
 	
 }
@@ -385,7 +390,7 @@ technology = { #The Flute
 	
 	trade_efficiency		= 	0.02
 	trade_range				=	20
-	global_colonial_growth  = 	10
+	global_colonial_growth  = 	5
 	enable = flute
 	enable = war_galley
 }
@@ -494,7 +499,7 @@ technology = { #The Galleon
 	
 	naval_maintenance		= 	0.1
 	range					=	50
-	global_colonial_growth  = 	15
+	global_colonial_growth  = 	5
 	
 	enable = galleon
 	enable = early_frigate
@@ -693,7 +698,7 @@ technology = { #Heavy Frigates
 		ag_rev_institution = 0.25
 	}
 	
-	global_colonial_growth  = 	25	
+	global_colonial_growth  = 	10
 	range					=	150
 	allow_client_states = yes		
 
@@ -773,7 +778,7 @@ technology = { #The Eastindiaman
 	}
 	
 	range					=	200
-	global_colonial_growth  = 	25
+	global_colonial_growth  = 	10
 	num_accepted_cultures = 1
 	
 	enable = eastindiaman
@@ -922,8 +927,8 @@ technology = { #The Gold Standard
 	}
 	
 	trade_efficiency 		= 	0.02
-	trade_range				=	20
-	global_colonial_growth  = 	50
+	trade_range = 20
+	global_colonial_growth = 50
 }
 
 technology = { #steel production
@@ -945,8 +950,9 @@ technology = { #steel production
 		manufactories = 1
 		remote_communication = 0.25
 	}
-	
-	
+	naval_maintenance = 0.25
+	naval_morale = 1
+	shipyard_system = yes
 }
 
 
@@ -969,8 +975,8 @@ technology = { #urban transportation
 		manufactories = 1
 		remote_communication = 0.5
 	}
-	
-	
+	global_colonial_growth = 100
+	trade_range = 25
 }
 
 technology = { #automobile
@@ -992,8 +998,8 @@ technology = { #automobile
 		manufactories = 1
 		remote_communication = 0.75
 	}
-	
-	
+	trade_efficiency = 0.05
+	naval_morale = 1
 }
 
 
@@ -1016,7 +1022,8 @@ technology = { #refrigeration
 		manufactories = 1
 		remote_communication = 1
 	}
-	
+	num_accepted_cultures = 1
+	trade_range = 50
 }
 
 
@@ -1040,7 +1047,8 @@ technology = { #bakelite
 		remote_communication = 1
 		electrification = 0.25
 	}
-	
+	naval_morale = 1
+	naval_maintenance = 0.25
 }
 
 
@@ -1064,7 +1072,7 @@ technology = { #electron microscope
 		remote_communication = 1
 		electrification = 0.5
 	}
-	
+	num_accepted_cultures = 1
 }
 
 
@@ -1088,7 +1096,7 @@ technology = { #polyester
 		remote_communication = 1
 		electrification = 0.75
 	}
-	
+	trade_efficiency = 0.05
 }
 
 
@@ -1112,5 +1120,6 @@ technology = { #mosfet
 		remote_communication = 1
 		electrification = 1
 	}
-	
+	naval_morale = 1
+	naval_maintenance = 0.5
 }
