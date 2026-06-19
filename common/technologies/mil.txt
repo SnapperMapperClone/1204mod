@@ -1348,9 +1348,9 @@ technology = { #artillery innovation
 		manufactories = 1
 		remote_communication = 1
 	}
-	enable = mosin_nagant
-	enable = gewehr_98
-	enable = lee_enfield
+	enable = trenches
+	enable = field_artillery
+	enable = indirect_fire
 	military_tactics = 0.5
 }
 
@@ -1403,6 +1403,8 @@ technology = { #engine innovation
 	artillery_fire = 1
 	military_tactics = 0.25
 	maneuver_value = 0.25
+	enable = agile_regiment
+	enable = defensive_regiment
 }
 
 
@@ -1453,7 +1455,5 @@ technology = { #jet warfare
 		electrification = 1
 	}
 	supply_limit = 0.5
-	enable = ak47
-	enable = FAL
 	military_tactics = 0.5
 }
