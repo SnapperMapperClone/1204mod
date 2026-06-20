@@ -776,6 +776,16 @@
  field_artilleryDESCR: "These are fire support emplacements operating to varying degrees in tandem with frontline infantry. They are not capable of indirect fire but their mobility sees usefulness nevertheless."
  indirect_fire: "Indirect Fire"
  indirect_fireDESCR: "These have longer range and can saturate distant targets with artillery fire. They can be placed farther from the frontlines but do not as often directly aid frontline soldiers."
+ ironclad: "Ironclad"
+ ironcladDESCR: ""
+ dreadnought: "Dreadnought"
+ dreadnoughtDESCR: ""
+ battleship: "Battleship"
+ battleshipDESCR: ""
+ steamship: "Steamship"
+ steamshipDESCR: ""
+ transport: "Transport"
+ transportDESCR: ""
  
  
  

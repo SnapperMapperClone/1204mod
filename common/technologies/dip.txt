@@ -975,6 +975,8 @@ technology = { #urban transportation
 		manufactories = 1
 		remote_communication = 0.5
 	}
+	enable = ironclad
+	enable = steamship
 	global_colonial_growth = 100
 	trade_range = 25
 }
@@ -1000,6 +1002,8 @@ technology = { #automobile
 	}
 	trade_efficiency = 0.05
 	naval_morale = 1
+
+	enable = dreadnought
 }
 
 
@@ -1049,6 +1053,7 @@ technology = { #bakelite
 	}
 	naval_morale = 1
 	naval_maintenance = 0.25
+	enable = battleship
 }
 
 
