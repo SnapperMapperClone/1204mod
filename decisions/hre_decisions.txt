@@ -1,0 +1,24 @@
+country_decisions = {
+	pass_golden_bull = {
+		color = {
+			255 200 25
+		}
+		major = yes
+		potential = {
+			is_emperor = yes
+			has_global_flag = imperial_interregnum
+			NOT = { has_global_flag = passed_golden_bull }
+		}
+		allow = {
+			dip_power = 750
+		}
+		effect = {
+			add_dip_power = -750
+			set_global_flag = passed_golden_bull
+			custom_tooltip = golden_bull_tooltip
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

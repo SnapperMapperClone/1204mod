@@ -2,15 +2,6 @@ reichsreform = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	province = {
 		local_build_cost = -0.05
@@ -29,15 +20,6 @@ reichsregiment = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	province = {
 		local_unrest = -2
@@ -54,15 +36,6 @@ hofgericht = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	emperor = {
 		core_creation = -0.10
@@ -79,15 +52,6 @@ gemeinerpfennig = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	member = {
 		diplomatic_reputation = 1
@@ -103,15 +67,6 @@ landfriede = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	member = {
 		technology_cost = -0.05
@@ -136,15 +91,6 @@ erbkaisertum = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	emperor = {
 		imperial_authority = 0.25
@@ -173,15 +119,6 @@ privilegia_de_non_appelando = {
 	discounted_from_foreign_overlord_check = yes
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	member = {
 		stability_cost_modifier = -0.10
@@ -215,15 +152,6 @@ renovatio = {
 	empire = hre
 	potential = {
 		NOT = { has_dlc = "Emperor" }
-		OR = {
-			started_in = 1356.1.1
-			AND = {
-				NOT = {
-					started_in = 1356.1.1
-				}
-				has_global_flag = golden_bull_flag
-			}
-		}
 	}
 	on_effect = {
 		emperor = {

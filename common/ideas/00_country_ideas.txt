@@ -52,8 +52,8 @@ norse_ideas = {
 
 HLR_ideas = {
 	start = {
-		possible_policy = 1
-		diplomatic_reputation = 2
+		governing_capacity = 1000
+		state_governing_cost = -0.33
 	}
 	
 	bonus = {
@@ -76,6 +76,7 @@ HLR_ideas = {
 		land_morale = 0.15
 	}
 	hlr_imperial_diplomacy = {
+		diplomatic_reputation = 2
 		improve_relation_modifier = 0.33
 	}
 	hlr_centralised_empire = {

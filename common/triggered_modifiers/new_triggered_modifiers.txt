@@ -1,0 +1,20 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+###########################################
+# Discovery of the East Indian trade route.
+###########################################
+imperial_interregnum_modifier = {
+	potential = {
+		is_emperor = yes
+	}
+
+	trigger = {
+		has_global_flag = imperial_interregnum
+		NOT = { has_global_flag = passed_golden_bull }
+	}
+
+	imperial_authority_value = -1
+}

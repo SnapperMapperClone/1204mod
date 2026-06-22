@@ -524,6 +524,10 @@
 
  NEEDS_50_CROWNLAND_OR_LOW_NOBLES_INFLUENCE_TT: "We need to have either less than 50 influence from the Nobility or more than 50% Crown Land to begin annexing this subject."
  DISALLOW_WAR_FOR_EMPIRE_EXCEPT_GUELPH_GHIBELLINE: "With the passage of the Landfriede in 1103, and the conflict between the Guelphs and Ghibellines, most wars in the Empire cannot be fought. Central authority has to be reduced first."
+ imperial_interregnum_modifier: "Imperial Interregnum"
+ pass_golden_bull_title: "Enact the Golden Bull"
+ pass_golden_bull_desc: ""
+ golden_bull_tooltip: "§YWe can gain Imperial Authority again.§!"
 
  HERETIC: "Heretic"
  

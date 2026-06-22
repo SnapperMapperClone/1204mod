@@ -118,15 +118,15 @@ country_event = {
 			}
 		}
 
-		if = {
-			limit = {
-				NOT = { has_global_flag = imperial_interregnum }
-				has_country_flag = is_emperor
-			}
-			country_event = {
-				id = new_hre.1
-			}
-		}
+		#if = {
+		#	limit = {
+		#		NOT = { has_global_flag = imperial_interregnum }
+		#		has_country_flag = is_emperor
+		#	}
+		#	country_event = {
+		#		id = new_hre.1
+		#	}
+		#}
 	}
 }
 
