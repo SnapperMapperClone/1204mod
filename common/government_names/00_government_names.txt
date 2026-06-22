@@ -538,29 +538,43 @@ gov_polish_republic = {
 
 gov_german_empire = {
 	rank = {
+		2 = HERZOGTUM
+		3 = KONIGREICH
 		4 = KAISERREICH
 	}
 	ruler_male = {
+		2 = HERZOG
+		3 = KONIG
 		4 = KAISER
 	}
 	ruler_female = {
+		2 = HERZOGIN
+		3 = KONIGIN
 		4 = KAISERIN
 	}
 	consort_male = {
+		2 = HERZOG
+		3 = KONIG
 		4 = KAISER
 	}
 	consort_female = {
+		2 = HERZOGIN
+		3 = KONIGIN
 		4 = KAISERIN
 	}
 	heir_male = {
+		2 = KRONPRINZ
+		3 = KRONPRINZ
 		4 = KRONPRINZ
 	}
 	heir_female = {
+		2 = KRONPRINZEN
+		3 = KRONPRINZEN
 		4 = KRONPRINZEN
 	}
 	trigger = {
 		culture_group = germanic
-		government_rank = 3
+		government_rank = 2
 		OR = {
 			tag = HLR
 			tag = GER
